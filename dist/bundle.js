@@ -86,7 +86,7 @@
 	
 	
 	// module
-	exports.push([module.id, ".container, main {\n  position: relative; }\n\nol, ul {\n  list-style: none; }\n\na, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font: inherit;\n  vertical-align: baseline; }\n\narticle, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {\n  display: block; }\n\nbody {\n  line-height: 1;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n  font-family: futura-pt; }\n\n/*\n===================================\n    MEDIA QUERIES\n===================================\n*/\n.capabilities {\n  color: blue;\n  background-color: white;\n  font-size: 100px;\n  height: 100vh; }\n\n.clients {\n  color: red;\n  background-color: white;\n  font-size: 100px;\n  height: 100vh; }\n\n.links {\n  color: purple;\n  background-color: white;\n  font-size: 100px;\n  height: 100vh; }\n\n.process {\n  color: lime;\n  background-color: white;\n  margin-top: 100vh;\n  font-size: 100px;\n  height: 100vh; }\n\n.splash {\n  height: 100vh;\n  position: fixed;\n  top: 0;\n  z-index: -500; }\n  .splash__content {\n    margin-top: 100px;\n    margin-left: 50px;\n    margin-right: 200px;\n    display: flex; }\n    .splash__content__text {\n      margin-left: 10px; }\n      .splash__content__text__logo {\n        margin-top: 29px; }\n      .splash__content__text__paragraph {\n        max-width: 900px; }\n  .splash__arrowContainer {\n    margin-top: 100px;\n    display: flex;\n    justify-content: center; }\n    .splash__arrowContainer__arrow {\n      width: 13px;\n      height: 13px;\n      border-bottom: 2px solid #000000;\n      border-right: 2px solid #000000;\n      -webkit-transform: translate(-50%, 0%) rotate(45deg);\n      -moz-transform: translate(-50%, 0%) rotate(45deg);\n      transform: translate(-50%, 0%) rotate(45deg);\n      -webkit-animation: move_down 4s ease-in-out infinite;\n      -moz-animation: move_down 4s ease-in-out infinite;\n      animation: move_down 4s ease-in-out infinite; }\n\n.splash__h1 {\n  font-family: 'Cinzel', serif;\n  font-size: 50px; }\n\n.splash__h2 {\n  font-size: 35px; }\n\n.splash__contact {\n  font-size: 25px;\n  font-style: italic;\n  text-decoration: underline; }\n\n.splash__links {\n  font-size: 25px; }\n\n/*\n===================================\n    ANIMATIONS\n===================================\n*/\n@keyframes move_down {\n  0% {\n    transform: translate(0, -10px) rotate(45deg);\n    opacity: 0; }\n  50% {\n    opacity: 1; }\n  100% {\n    transform: translate(0, 10px) rotate(45deg);\n    opacity: 0; } }\n\n/*\n===================================\n    MEDIA QUERIES\n===================================\n*/\n.sideBarContainer {\n  position: fixed;\n  top: 51px;\n  right: 0%;\n  width: 75px;\n  height: 30px;\n  z-index: 9; }\n\n.sideBarCircle {\n  display: block;\n  position: relative;\n  width: 30px;\n  height: 30px;\n  background: black;\n  border-radius: 50%;\n  box-shadow: 0px 0px 17px #ffffff; }\n", ""]);
+	exports.push([module.id, ".container, main {\n  position: relative; }\n\nol, ul {\n  list-style: none; }\n\na, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font: inherit;\n  vertical-align: baseline; }\n\narticle, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {\n  display: block; }\n\nbody {\n  line-height: 1;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n  font-family: futura-pt; }\n\n/*\n===================================\n    MEDIA QUERIES\n===================================\n*/\n.capabilities {\n  border: solid red 2px;\n  background-color: white;\n  height: 100vh; }\n  .capabilities__content {\n    margin-top: 100px;\n    margin-left: 100px; }\n    .capabilities__content__nav {\n      display: flex;\n      flex-direction: row;\n      margin-bottom: 30px; }\n    .capabilities__content__gallery {\n      display: flex;\n      flex-direction: row;\n      flex-wrap: wrap; }\n      .capabilities__content__gallery__item {\n        margin: 20px; }\n\n.capabilities__header {\n  font-size: 25px;\n  margin-right: 100px; }\n\n.capabilities__headLink {\n  font-size: 25px;\n  opacity: .5;\n  margin-right: 20px;\n  transition: all .2s; }\n\n.capabilities__headLink:hover {\n  opacity: 1; }\n\n.capabilities__galleryTitle {\n  margin-top: 10px;\n  font-weight: bold;\n  font-family: sans-serif; }\n\n.capabilities__galleryType {\n  font-family: sans-serif; }\n\n.clients {\n  color: red;\n  background-color: white;\n  font-size: 100px;\n  height: 100vh; }\n\n.links {\n  color: purple;\n  background-color: white;\n  font-size: 100px;\n  height: 100vh; }\n\n.process {\n  color: lime;\n  background-color: white;\n  margin-top: 100vh;\n  font-size: 100px;\n  height: 100vh; }\n\n.splash {\n  height: 100vh;\n  position: fixed;\n  top: 0;\n  z-index: -500; }\n  .splash__content {\n    margin-top: 100px;\n    margin-left: 50px;\n    margin-right: 200px;\n    display: flex; }\n    .splash__content__text {\n      margin-left: 10px; }\n      .splash__content__text__logo {\n        margin-top: 29px; }\n      .splash__content__text__paragraph {\n        max-width: 900px; }\n  .splash__arrowContainer {\n    margin-top: 100px;\n    display: flex;\n    justify-content: center; }\n    .splash__arrowContainer__arrow {\n      width: 13px;\n      height: 13px;\n      border-bottom: 2px solid #000000;\n      border-right: 2px solid #000000;\n      -webkit-transform: translate(-50%, 0%) rotate(45deg);\n      -moz-transform: translate(-50%, 0%) rotate(45deg);\n      transform: translate(-50%, 0%) rotate(45deg);\n      -webkit-animation: move_down 4s ease-in-out infinite;\n      -moz-animation: move_down 4s ease-in-out infinite;\n      animation: move_down 4s ease-in-out infinite; }\n\n.splash__h1 {\n  font-family: 'Cinzel', serif;\n  font-size: 50px; }\n\n.splash__h2 {\n  font-size: 35px; }\n\n.splash__contact {\n  font-size: 25px;\n  font-style: italic;\n  text-decoration: underline; }\n\n.splash__links {\n  font-size: 25px; }\n\n/*\n===================================\n    ANIMATIONS\n===================================\n*/\n@keyframes move_down {\n  0% {\n    transform: translate(0, -10px) rotate(45deg);\n    opacity: 0; }\n  50% {\n    opacity: 1; }\n  100% {\n    transform: translate(0, 10px) rotate(45deg);\n    opacity: 0; } }\n\n/*\n===================================\n    MEDIA QUERIES\n===================================\n*/\n.sideBarContainer {\n  position: fixed;\n  top: 51px;\n  right: 0%;\n  width: 75px;\n  height: 30px;\n  z-index: 9; }\n\n.sideBarCircle {\n  display: block;\n  position: relative;\n  width: 30px;\n  height: 30px;\n  background: black;\n  border-radius: 50%;\n  box-shadow: 0px 0px 17px #ffffff; }\n", ""]);
 	
 	// exports
 
@@ -30696,9 +30696,84 @@
 	        "div",
 	        { className: "capabilities" },
 	        _react2.default.createElement(
-	          "h1",
-	          null,
-	          " Capabilities "
+	          "div",
+	          { className: "capabilities__content" },
+	          _react2.default.createElement(
+	            "div",
+	            { className: "capabilities__content__nav" },
+	            _react2.default.createElement(
+	              "div",
+	              { className: "capabilities__content__nav__header" },
+	              _react2.default.createElement(
+	                "h1",
+	                { className: "capabilities__header" },
+	                " Selected Work "
+	              )
+	            ),
+	            _react2.default.createElement(
+	              "div",
+	              { className: "capabilities__content__nav__links" },
+	              _react2.default.createElement(
+	                "span",
+	                { className: "capabilities__headLink" },
+	                " Identities "
+	              ),
+	              _react2.default.createElement(
+	                "span",
+	                { className: "capabilities__headLink" },
+	                " Interactive "
+	              ),
+	              _react2.default.createElement(
+	                "span",
+	                { className: "capabilities__headLink" },
+	                " Sound Design "
+	              ),
+	              _react2.default.createElement(
+	                "span",
+	                { className: "capabilities__headLink" },
+	                " Art Direction "
+	              ),
+	              _react2.default.createElement(
+	                "span",
+	                { className: "capabilities__headLink" },
+	                " Physical "
+	              )
+	            )
+	          ),
+	          _react2.default.createElement(
+	            "div",
+	            { className: "capabilities__content__gallery" },
+	            _react2.default.createElement(
+	              "div",
+	              { className: "capabilities__content__gallery__item" },
+	              _react2.default.createElement("img", { src: "http://via.placeholder.com/380x200" }),
+	              _react2.default.createElement(
+	                "h3",
+	                { className: "capabilities__galleryTitle" },
+	                " Title "
+	              ),
+	              _react2.default.createElement(
+	                "h4",
+	                { className: "capabilities__galleryType" },
+	                " type type "
+	              )
+	            ),
+	            _react2.default.createElement(
+	              "div",
+	              { className: "capabilities__content__gallery__item" },
+	              _react2.default.createElement("img", { src: "http://via.placeholder.com/250x200" }),
+	              _react2.default.createElement(
+	                "h3",
+	                { className: "capabilities__galleryTitle" },
+	                " Title "
+	              ),
+	              _react2.default.createElement(
+	                "h4",
+	                { className: "capabilities__galleryType" },
+	                " type type "
+	              )
+	            )
+	          )
 	        )
 	      );
 	    }
