@@ -1,11 +1,13 @@
 .capabilities{
   border: solid red 2px;
   background-color: white;
-  height: 100vh;
+  min-height: 100vh;
+
 
   &__content{
     margin-top: 100px;
     margin-left: 100px;
+    margin-right: 100px;
 
     &__nav{
       display: flex;
@@ -13,7 +15,7 @@
       margin-bottom: 30px;
 
       &__header{
-
+          margin-right: 100px;
       }
     }
 
@@ -33,7 +35,6 @@
 
 .capabilities__header{
   font-size: 25px;
-  margin-right: 100px;
 }
 
 .capabilities__headLink{

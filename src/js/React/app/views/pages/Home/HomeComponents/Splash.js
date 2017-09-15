@@ -12,49 +12,86 @@ class Splash extends Component{
   componentDidMount(){
 
       var container = document.getElementById('globe');
-			var scene = new THREE.Scene();
-			var camera = new THREE.PerspectiveCamera( 33, 100/100, 0.1, 5000 );
+      var scene = new THREE.Scene();
+      var camera = new THREE.PerspectiveCamera( 48, 100/100, 0.01, 1000 );
 
-			var renderer = new THREE.WebGLRenderer({alpha: true});
-			renderer.setSize( 100, 100);
-			container.appendChild(renderer.domElement);
+      var renderer = new THREE.WebGLRenderer({
+        antialias:true
+      });
+      renderer.setClearColor( 0xffffff );
+      renderer.setSize( 100, 100 );
+      container.appendChild(renderer.domElement);
 
-			var ambientLight = new THREE.AmbientLight( 0x7d7d7d );
-			scene.add( ambientLight );
+      //wireframe
+      var geometry = new THREE.SphereGeometry(2,50,40);
+      var material = new THREE.MeshLambertMaterial({
+        color: 0xE2E2E2  ,
+        wireframe: true,
+        transparent: true,
+        opacity: .2
+      });
+      var wireframe = new THREE.Mesh( geometry, material );
+      scene.add( wireframe );
 
-			var lights = [];
-			lights[0] = new THREE.PointLight( 0xc4c4c4, 3, 0 );
-			lights[1] = new THREE.PointLight( 0x7d7d7d, 1, 0 );
-			lights[2] = new THREE.PointLight( 0xc4c4c4, 1, 0 );
 
-			lights[0].position.set( 0, 20, 0 );
-			lights[1].position.set( 100, 200, 100 );
-			lights[2].position.set( -100, -200, -100 );
+      //globe
+      var geometry = new THREE.SphereGeometry(1.75,30,30);
+      var material = new THREE.MeshLambertMaterial({color: 0x333333, transparent: true,opacity:.05});
+      var globe = new THREE.Mesh( geometry, material );
+      scene.add( globe );
 
-			scene.add( lights[0] );
-			scene.add( lights[1] );
-			scene.add( lights[2] );
+      //lights
+      var light1 = new THREE.DirectionalLight(0xb1cfe2,.75);
+      scene.add(light1);
+      light1.position.set(1.5,2,2);
 
-			var material = new THREE.MeshLambertMaterial( { color: 0xc4c4c4, wireframe: true, wireframeLinewidth: 1 } );
-			var circle_geom = new THREE.SphereGeometry(20,15,15);
+      var light2 = new THREE.DirectionalLight(0xd9d2cb,1);
+      scene.add(light2);
+      light2.position.set(-1.5,-2,2);
 
-			var circle = new THREE.Mesh( circle_geom, material );
+      var light3 = new THREE.DirectionalLight(0xffffff,1);
+      scene.add(light3);
+      light3.position.set(-2,2,-2);
 
-			scene.add( circle );
+      var light3 = new THREE.DirectionalLight(0xffffff,.25);
+      scene.add(light3);
+      light3.position.set(2,2,-2);
 
-			camera.position.z = 75;
+      camera.position.z = 5;
 
-			var render = function () {
-				requestAnimationFrame( render );
+      var wireframeY = 0;
+      var wireframeX = 0;
+      var easing = .2;
+      var autoRotate = true;
 
-				circle.rotation.x += 0.001;
-				circle.rotation.y += 0.001;
-				circle.rotation.z += 0.001;
+      var render = function () {
+        requestAnimationFrame( render );
 
-				renderer.render(scene, camera);
-			};
+        if(autoRotate == true){
+          wireframe.rotation.y += .002; //speed of auto rotation
+        }else{
+          //rotate Y with easing
+          var yDistance = wireframe.rotation.y - wireframeY;
+          yFullDistance = Math.sqrt(yDistance * yDistance);
+          if (yFullDistance > 0) {
+            wireframe.rotation.y -= yDistance * easing;
+          }
 
-			render();
+          //rotate X with easing
+          var xDistance = wireframe.rotation.x - wireframeX;
+          xFullDistance = Math.sqrt(xDistance * xDistance);
+          if (xFullDistance > 0) {
+            wireframe.rotation.x -= xDistance * easing;
+          }
+        }
+
+
+
+        renderer.render(scene, camera);
+      };
+
+
+      render();
 
   }
 

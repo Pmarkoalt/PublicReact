@@ -1,4 +1,4 @@
-export { default as Capabilities }  from './Capabilities'
+export { default as Portfolio }  from './Portfolio'
 export { default as Clients }  from './Clients'
 export { default as Links }  from './Links'
 export { default as Process }  from './Process'
