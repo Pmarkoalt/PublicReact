@@ -23,7 +23,7 @@ class Splash extends Component{
       container.appendChild(renderer.domElement);
 
       //wireframe
-      var geometry = new THREE.SphereGeometry(2,50,40);
+      var geometry = new THREE.SphereGeometry(2,30,30);
       var material = new THREE.MeshLambertMaterial({
         color: 0xE2E2E2  ,
         wireframe: true,
@@ -35,17 +35,17 @@ class Splash extends Component{
 
 
       //globe
-      var geometry = new THREE.SphereGeometry(1.75,30,30);
+      var geometry = new THREE.SphereGeometry(1.75,15,10);
       var material = new THREE.MeshLambertMaterial({color: 0x333333, transparent: true,opacity:.05});
       var globe = new THREE.Mesh( geometry, material );
       scene.add( globe );
 
       //lights
-      var light1 = new THREE.DirectionalLight(0xb1cfe2,.75);
+      var light1 = new THREE.DirectionalLight(0x1f2f38,.75);
       scene.add(light1);
       light1.position.set(1.5,2,2);
 
-      var light2 = new THREE.DirectionalLight(0xd9d2cb,1);
+      var light2 = new THREE.DirectionalLight(0x455570,1);
       scene.add(light2);
       light2.position.set(-1.5,-2,2);
 
@@ -68,7 +68,8 @@ class Splash extends Component{
         requestAnimationFrame( render );
 
         if(autoRotate == true){
-          wireframe.rotation.y += .002; //speed of auto rotation
+          wireframe.rotation.y += .003; //Horizontal rotation speed
+          // wireframe.rotation.x += .01; // Vertical Rotation Speed
         }else{
           //rotate Y with easing
           var yDistance = wireframe.rotation.y - wireframeY;

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { StickyContainer, Sticky } from 'react-sticky';
 
 import {All, ArtDirection, Identities, Interactive, Physical, SoundDesign} from '../PortfolioComponents';
 
@@ -11,7 +12,8 @@ class Portfolio extends Component{
       interactive: false,
       soundDesign: false,
       artDirection: false,
-      physical: false
+      physical: false,
+      isSticky: false
     }
     this.handleFilter = this.handleFilter.bind(this);
   }
@@ -21,24 +23,39 @@ class Portfolio extends Component{
     this.setState({ [event.target.id] : true});
   }
 
+  ComponentDidMount(){
+
+
+  }
+
   render(){
     return(
       <div className="capabilities">
-        <div className="capabilities__content">
+        <StickyContainer>
+          <Sticky>
+            {
+              ({ isSticky, wasSticky, style, distanceFromTop, distanceFromBottom, calculatedHeight }) => {
+                return (
+                  <nav style={{ ...style}} className={"capabilities__content__nav " + (isSticky ? 'navShadow' : 'navHide')}>
+                    <div className="capabilities__content__nav__header">
+                      <h1 className="capabilities__header"> Selected Work </h1>
+                    </div>
+                    <div className="capabilities__content__nav__links">
+                      <span id="all" className="capabilities__headLink" onClick={this.handleFilter}> All </span>
+                      <span id="identities" className="capabilities__headLink" onClick={this.handleFilter}> Identities </span>
+                      <span id="interactive" className="capabilities__headLink" onClick={this.handleFilter}> Interactive </span>
+                      <span id="soundDesign" className="capabilities__headLink" onClick={this.handleFilter}> Sound Design </span>
+                      <span id="artDirection" className="capabilities__headLink" onClick={this.handleFilter}> Art Direction </span>
+                      <span id="physical" className="capabilities__headLink" onClick={this.handleFilter}> Physical </span>
+                    </div>
+                  </nav>
+                )
+              }
+          }
+          </Sticky>
+          <div className="capabilities__content">
 
-          <div className="capabilities__content__nav">
-            <div className="capabilities__content__nav__header">
-              <h1 className="capabilities__header"> Selected Work </h1>
-            </div>
-            <div className="capabilities__content__nav__links">
-              <span id="all" className="capabilities__headLink" onClick={this.handleFilter}> All </span>
-              <span id="identities" className="capabilities__headLink" onClick={this.handleFilter}> Identities </span>
-              <span id="interactive" className="capabilities__headLink" onClick={this.handleFilter}> Interactive </span>
-              <span id="soundDesign" className="capabilities__headLink" onClick={this.handleFilter}> Sound Design </span>
-              <span id="artDirection" className="capabilities__headLink" onClick={this.handleFilter}> Art Direction </span>
-              <span id="physical" className="capabilities__headLink" onClick={this.handleFilter}> Physical </span>
-            </div>
-          </div>
+
 
           {this.state.all && <All /> }
           {this.state.identities && <Identities />}
@@ -48,6 +65,7 @@ class Portfolio extends Component{
           {this.state.physical && <Physical />}
 
         </div>
+      </StickyContainer>
       </div>
     )
   }

@@ -1,5 +1,5 @@
 .splash{
-  height: 100vh;
+  height: 90vh;
   top: 0;
   z-index: -500;
 
@@ -15,6 +15,9 @@
 
     &__text{
       margin-left: 10px;
+      -webkit-animation: fade_in 4s;
+      -moz-animation: fade_in 4s;
+      animation: fade_in 4s;
 
       &__logo{
         margin-top: 29px;
@@ -89,6 +92,15 @@
   100% {
       transform: translate(0,10px) rotate(45deg);
       opacity: 0;
+  }
+}
+
+@keyframes fade_in{
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
 

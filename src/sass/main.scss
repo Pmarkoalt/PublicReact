@@ -7,20 +7,16 @@
 //Views/Components
 
     //Home Section
+    @import "regions/homecomponents/splash";
     @import "regions/homecomponents/portfolio";
 
-        //Subsections
+        //Subsections of portfolio
         @import "regions/homecomponents/portfolio/all";
         @import "regions/homecomponents/portfolio/artDirection";
         @import "regions/homecomponents/portfolio/identities";
         @import "regions/homecomponents/portfolio/interactive";
         @import "regions/homecomponents/portfolio/physical";
         @import "regions/homecomponents/portfolio/soundDesign";
-
-    @import "regions/homecomponents/clients";
-    @import "regions/homecomponents/links";
-    @import "regions/homecomponents/process";
-    @import "regions/homecomponents/splash";
 
     //Portfolio Section
 
