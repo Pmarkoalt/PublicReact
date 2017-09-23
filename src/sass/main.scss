@@ -1,5 +1,5 @@
 @import "vendor/reset";
-@import "vendor/burgerMenu";
+@import "vendor/slick";
 
 @import "base/variables";
 @import "base/typography";
@@ -10,19 +10,21 @@
     @import "regions/homecomponents/splash";
     @import "regions/homecomponents/portfolio";
 
-        //Subsections of portfolio
-        @import "regions/homecomponents/portfolio/all";
-        @import "regions/homecomponents/portfolio/artDirection";
-        @import "regions/homecomponents/portfolio/identities";
-        @import "regions/homecomponents/portfolio/interactive";
-        @import "regions/homecomponents/portfolio/physical";
-        @import "regions/homecomponents/portfolio/soundDesign";
-
     //Portfolio Section
+    @import "regions/portcomponents/all";
+    @import "regions/portcomponents/visual";
+
+    //Components Section
+    @import "regions/generalcomponents/about";
+
+* {
+  min-height: 0;
+  min-width: 0;
+}
 
 .sideBarContainer{
   position: fixed;
-  top: 51px;
+  top: 20px;
   right: 0%;
   width: 75px;
   height: 30px;

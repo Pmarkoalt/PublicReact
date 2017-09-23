@@ -1,45 +1,64 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import { Route, Link } from 'react-router-dom'
-import Menu  from 'react-burger-menu/lib/menus/slide'
+import { Route, Redirect } from 'react-router-dom';
+import TransitionGroup from 'react-transition-group/TransitionGroup';
 
-import { Home, Portfolio } from './views/pages'
+//About Animation file
+import animation from './views/components/About.animation';
 
+//Components
+import { Audio, Home, Video, Visual } from './views/pages';
+import { About } from './views/components';
 
 class App extends Component {
   constructor(props){
     super(props)
+    this.dom = {}
+    this.state = {
+      aboutOpen: false
+    }
+    this.handleAboutOpen = this.handleAboutOpen.bind(this);
   }
 
-  showSettings (event) {
-  event.preventDefault();
+  componentDidMount(){
+    this.dom.root = ReactDOM.findDOMNode(this);
   }
+
+  componentWillEnter(cb){
+    animation.show(this.dom.root, cb);
+    console.log(this.dom.root);
+  }
+
+  componentWillLeave(cb){
+    animation.hide(this.dom.root, cb);
+    console.log(this.dom.root);
+  }
+
+  handleAboutOpen(event){
+    event.preventDefault()
+    if (this.state.aboutOpen === false){
+      return this.setState({aboutOpen: true});
+    }
+    else this.setState({aboutOpen: false});
+  }
+
+
 
   render(){
+    const duration = 500;
+
     return(
       <div>
       <main>
-        
-
-        {/* <Menu right>
-          <a id="home" className="menu-item" href="/">Home</a>
-          <a id="about" className="menu-item" href="/about">About</a>
-          <a id="contact" className="menu-item" href="/contact">Contact</a>
-          <a onClick={ this.showSettings } className="menu-item--small" href="">Settings</a>
-        </Menu> */}
-        {/* <div className="universalHeader">
-           <img className="universalHeader__logo" src="/images/logo.png" />
-           <div id="universalHeader__navbar">
-             <Link to="/"> <button> home </button> </Link>
-             <Link to="/blog"> <button> blog </button> </Link>
-             <Link to="/releases"> <button> releases </button> </Link>
-             <Link to="/contact"> <button> contact </button> </Link>
-           </div>
-        </div> */}
-        {/* <button id="jqueryTest"> Jquery Test </button> */}
-
+        {/* <TransitionGroup>
+            { this.state.aboutOpen && <About />}
+        </TransitionGroup> */}
+        <a onClick={this.handleAboutOpen} className="sideBarContainer"> <div  className="sideBarCircle"> </div> </a>
+        <Route path='/audio/:id' component={Audio} />
         <Route exact path='/' component={Home} />
-        <Route path="/portfolio" component={Portfolio} />
+        <Route path="/video/:id" component={Video} />
+        <Route path='/visual/:id' component={Visual} />
+        {/* <Redirect from="*" to="/404" /> */}
       </main>
     </div>
     )

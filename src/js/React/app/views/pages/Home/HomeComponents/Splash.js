@@ -28,7 +28,7 @@ class Splash extends Component{
         color: 0xE2E2E2  ,
         wireframe: true,
         transparent: true,
-        opacity: .2
+        opacity: .1
       });
       var wireframe = new THREE.Mesh( geometry, material );
       scene.add( wireframe );

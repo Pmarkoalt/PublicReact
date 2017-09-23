@@ -1,0 +1,72 @@
+.visual{
+
+  &__carousel{
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  &__carousel:hover{
+    cursor: move;
+    cursor: -webkit-grab;
+    cursor: grab;
+  }
+
+  &__carousel:active{
+    cursor: -webkit-grabbing;
+    cursor: grabbing;
+  }
+
+  &__content{
+    margin-left: 10vw;
+    margin-right: 10vw;
+
+    &__text{
+      width: 80%;
+    }
+
+    &__rowPhoto{
+      width: 100%;
+      height: calc(100vh - 20rem);
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+
+    &__twoPoster{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+
+        &__items{
+          width: 38vw;
+          height: 400px;
+        }
+    }
+
+    &__blurb{
+      width: 40%;
+    }
+
+    &__threePoster{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+
+      &__item{
+        width:30%;
+
+        &__card{
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+.visualTitle{
+  margin-bottom: 20px;
+}
+
+.caroImg{
+  height: calc(100vh - 15rem);
+  pointer-events: none;
+}

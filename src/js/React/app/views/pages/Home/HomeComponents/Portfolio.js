@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { StickyContainer, Sticky } from 'react-sticky';
+import { Link } from 'react-router-dom'
 
-import {All, ArtDirection, Identities, Interactive, Physical, SoundDesign} from '../PortfolioComponents';
 
 class Portfolio extends Component{
   constructor(props){
@@ -55,14 +55,81 @@ class Portfolio extends Component{
           </Sticky>
           <div className="capabilities__content">
 
-
-
-          {this.state.all && <All /> }
-          {this.state.identities && <Identities />}
-          {this.state.interactive && <Interactive />}
-          {this.state.soundDesign && <SoundDesign />}
-          {this.state.artDirection && <ArtDirection />}
-          {this.state.physical && <Physical />}
+            <div className="capabilities__content__gallery">
+              <Link to={'/visual/test'}><div className="capabilities__content__gallery__item">
+                <img src="http://via.placeholder.com/380x200" />
+                <h3 className="capabilities__galleryTitle"> Visual </h3>
+                <h4 className="capabilities__galleryType"> type type </h4>
+              </div>
+            </Link>
+            <Link to={'/video/test'}><div className="capabilities__content__gallery__item">
+              <img src="http://via.placeholder.com/380x200" />
+              <h3 className="capabilities__galleryTitle"> Video </h3>
+              <h4 className="capabilities__galleryType"> type type </h4>
+            </div>
+          </Link>
+          <Link to={'/audio/test'}><div className="capabilities__content__gallery__item">
+            <img src="http://via.placeholder.com/380x200" />
+            <h3 className="capabilities__galleryTitle"> Audio </h3>
+            <h4 className="capabilities__galleryType"> type type </h4>
+            </div>
+          </Link>
+              <div className="capabilities__content__gallery__item">
+                <img src="http://via.placeholder.com/250x200" />
+                <h3 className="capabilities__galleryTitle"> Title </h3>
+                <h4 className="capabilities__galleryType"> type type </h4>
+              </div>
+              <div className="capabilities__content__gallery__item">
+                <img src="http://via.placeholder.com/380x200" />
+                <h3 className="capabilities__galleryTitle"> All </h3>
+                <h4 className="capabilities__galleryType"> type type </h4>
+              </div>
+              <div className="capabilities__content__gallery__item">
+                <img src="http://via.placeholder.com/250x200" />
+                <h3 className="capabilities__galleryTitle"> Title </h3>
+                <h4 className="capabilities__galleryType"> type type </h4>
+              </div>
+              <div className="capabilities__content__gallery__item">
+                <img src="http://via.placeholder.com/380x200" />
+                <h3 className="capabilities__galleryTitle"> All </h3>
+                <h4 className="capabilities__galleryType"> type type </h4>
+              </div>
+              <div className="capabilities__content__gallery__item">
+                <img src="http://via.placeholder.com/250x200" />
+                <h3 className="capabilities__galleryTitle"> Title </h3>
+                <h4 className="capabilities__galleryType"> type type </h4>
+              </div>
+              <div className="capabilities__content__gallery__item">
+                <img src="http://via.placeholder.com/380x200" />
+                <h3 className="capabilities__galleryTitle"> All </h3>
+                <h4 className="capabilities__galleryType"> type type </h4>
+              </div>
+              <div className="capabilities__content__gallery__item">
+                <img src="http://via.placeholder.com/250x200" />
+                <h3 className="capabilities__galleryTitle"> Title </h3>
+                <h4 className="capabilities__galleryType"> type type </h4>
+              </div>
+              <div className="capabilities__content__gallery__item">
+                <img src="http://via.placeholder.com/380x200" />
+                <h3 className="capabilities__galleryTitle"> All </h3>
+                <h4 className="capabilities__galleryType"> type type </h4>
+              </div>
+              <div className="capabilities__content__gallery__item">
+                <img src="http://via.placeholder.com/250x200" />
+                <h3 className="capabilities__galleryTitle"> Title </h3>
+                <h4 className="capabilities__galleryType"> type type </h4>
+              </div>
+              <div className="capabilities__content__gallery__item">
+                <img src="http://via.placeholder.com/380x200" />
+                <h3 className="capabilities__galleryTitle"> All </h3>
+                <h4 className="capabilities__galleryType"> type type </h4>
+              </div>
+              <div className="capabilities__content__gallery__item">
+                <img src="http://via.placeholder.com/250x200" />
+                <h3 className="capabilities__galleryTitle"> Title </h3>
+                <h4 className="capabilities__galleryType"> type type </h4>
+              </div>
+            </div>
 
         </div>
       </StickyContainer>

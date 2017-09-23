@@ -1,0 +1,40 @@
+.about{
+  height: 100vh;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: row;
+
+  &__left{
+    width: 100vw;
+    margin-top: 100px;
+    margin-left: 10vw;
+
+    &__staff{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 400px;
+    }
+  }
+
+  &__right{
+    width: 100vw;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 10vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+  }
+}
+
+.about__text{
+  font-size: 15px;
+}
+
+.about__name{
+  font-size: 15px;
+  font-family: cursive;
+}

@@ -1,5 +1,5 @@
-var webpack = require('webpack');
-var path = require('path');
+const webpack = require('webpack');
+const path = require('path');
 
 module.exports = {
     debug: true,
@@ -8,7 +8,8 @@ module.exports = {
     },
     output: {
         path: path.join(__dirname, 'dist'),
-        filename: 'bundle.js'
+        filename: 'bundle.js',
+        publicPath : '/dist/'
     },
     module: {
         loaders: [
@@ -28,19 +29,9 @@ module.exports = {
         ]
     },
     plugins: [
-    new webpack.ProvidePlugin({
-        $: "jquery",
-        jQuery: "jquery",
-        "window.jQuery":"jquery"
-    })
   ],
   externals: {
     'TweenLite': 'TweenLite',
   },
-    resolve: {
-      modules: [
-          path.join(__dirname, "src/js/vendor")
-      ]
-    },
     devtool: "source-map",
 };
