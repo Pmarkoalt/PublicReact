@@ -133,10 +133,9 @@ class Audio extends Component{
                 />
               </div>
               <div className="audio__content__album__media__volume">
-                <input type='range' min={0} max={1} step='any' value={volume} onChange={this.setVolume} />
-                <label>
-                  <input className="volumeSlider" type='checkbox' checked={muted} onChange={this.toggleMuted} /> Muted
-                </label>
+                <input type='range' orient='vertical' className='volumeSlider' min={0} max={1} step='any' value={volume} onChange={this.setVolume} />
+                <input type='checkbox' checked={muted} onChange={this.toggleMuted} />
+
               </div>
             </div>
           </div>

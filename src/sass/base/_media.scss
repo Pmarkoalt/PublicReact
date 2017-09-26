@@ -85,6 +85,5 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .volumeSlider{
-  -webkit-appearance: slider-vertical;
-  // -webkit-transform:rotate(90deg);
+  width: 50px
 }
