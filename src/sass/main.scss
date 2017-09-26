@@ -3,6 +3,7 @@
 
 @import "base/variables";
 @import "base/typography";
+@import "base/media";
 
 //Views/Components
 
@@ -13,6 +14,7 @@
     //Portfolio Section
     @import "regions/portcomponents/all";
     @import "regions/portcomponents/visual";
+    @import "regions/portcomponents/audio";
 
     //Components Section
     @import "regions/generalcomponents/about";
