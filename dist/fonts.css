@@ -1,0 +1,29 @@
+/* === Cinzel - regular */
+@font-face {
+	font-family: 'Cinzel';
+	font-style: normal;
+	font-weight: 400;
+	src: url("./font/Cinzel-Regular.eot");
+	src: local("Cinzel Regular"),
+		local("Cinzel-Regular"),
+		url("./font/Cinzel-Regular.eot") format("embedded-opentype"),
+		url("./font/Cinzel-Regular.woff2") format("woff2"),
+		url("./font/Cinzel-Regular.woff") format("woff"),
+		url("./font/Cinzel-Regular.ttf") format("truetype"),
+		url("./font/Cinzel-Regular.svg") format("svg");
+}
+
+/* === Cormorant Garamond - regular */
+@font-face {
+	font-family: 'Cormorant Garamond';
+	font-style: normal;
+	font-weight: 400;
+	src: url("./font/CormorantGaramond-Regular.eot");
+	src: local("Cormorant Garamond Regular"),
+		local("CormorantGaramond-Regular"),
+		url("./font/CormorantGaramond-Regular.eot") format("embedded-opentype"),
+		url("./font/CormorantGaramond-Regular.woff2") format("woff2"),
+		url("./font/CormorantGaramond-Regular.woff") format("woff"),
+		url("./font/CormorantGaramond-Regular.ttf") format("truetype"),
+		url("./font/CormorantGaramond-Regular.svg") format("svg");
+}

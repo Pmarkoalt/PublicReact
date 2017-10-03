@@ -5,6 +5,10 @@
 @import "base/typography";
 @import "base/media";
 
+@import url(https://fonts.googleapis.com/css?family=Cinzel:400,700|Cormorant+Garamond:300,400);
+// @import "fonts/cinzel/cinzel";
+// @import "fonts/cormorant_garamond/cormorantGaramond";
+
 //Views/Components
 
     //Home Section
@@ -15,6 +19,7 @@
     @import "regions/portcomponents/all";
     @import "regions/portcomponents/visual";
     @import "regions/portcomponents/audio";
+    @import "regions/portcomponents/video";
 
     //Components Section
     @import "regions/generalcomponents/about";

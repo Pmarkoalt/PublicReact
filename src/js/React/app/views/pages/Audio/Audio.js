@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom'
 import Tilt from 'react-tilt'
 import ReactPlayer from 'react-player'
 
@@ -93,9 +94,10 @@ class Audio extends Component{
     return(
       <div className="audio">
         <div className="audio__content">
+          <Link to={'/'}><button className="backButton">BACK TO HOME PAGE</button></Link>
           <div className="audio__content__album">
             <Tilt className="audio__content__album__tilt" options={{ max : 25 }}>
-              <div className="audio__content__album__tilt__cover"> 👽 </div>
+              <div className="audio__content__album__tilt__cover"> </div>
             </Tilt>
             <ReactPlayer
               ref={this.ref}
@@ -133,9 +135,8 @@ class Audio extends Component{
                 />
               </div>
               <div className="audio__content__album__media__volume">
-                <input type='range' orient='vertical' className='volumeSlider' min={0} max={1} step='any' value={volume} onChange={this.setVolume} />
                 <input type='checkbox' checked={muted} onChange={this.toggleMuted} />
-
+                <input type='range' orient='vertical' className='volumeSlider' min={0} max={1} step='any' value={volume} onChange={this.setVolume} />
               </div>
             </div>
           </div>

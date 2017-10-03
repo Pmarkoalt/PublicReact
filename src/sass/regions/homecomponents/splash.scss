@@ -2,6 +2,7 @@
   height: 90vh;
   top: 0;
   z-index: -500;
+  font: 'Cinzel';
 
   &__content{
     margin-top: 100px;
@@ -15,9 +16,6 @@
 
     &__text{
       margin-left: 10px;
-      -webkit-animation: fade_in 4s;
-      -moz-animation: fade_in 4s;
-      animation: fade_in 4s;
 
       &__logo{
         margin-top: 29px;
@@ -62,6 +60,7 @@
 }
 
 .splash__h2{
+  font-family: 'Cormorant Garamond', serif;
   font-size: 35px;
 }
 
@@ -95,14 +94,6 @@
   }
 }
 
-@keyframes fade_in{
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
 
 /*
 ===================================

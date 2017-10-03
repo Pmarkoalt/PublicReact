@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import {TweenMax} from 'gsap';
-import animation from './About.animation';
 
 class About extends Component{
   constructor(props){
