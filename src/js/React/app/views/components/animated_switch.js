@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Switch } from "react-router-dom";
 import * as Animated from "animated/lib/targets/react-dom";
-import TransitionGroup from "react-transition-group/TransitionGroup";
+import ReactTransitionGroup from 'react-transition-group'
 
 export default class AnimatedSwitch extends Switch {
 	constructor(props) {
