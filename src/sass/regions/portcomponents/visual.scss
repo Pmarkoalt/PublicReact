@@ -1,19 +1,11 @@
 .visual{
 
   &__carousel{
+    background: #fff !important;
     margin-top: 50px;
     margin-bottom: 50px;
-  }
-
-  &__carousel:hover{
-    cursor: move;
-    cursor: -webkit-grab;
-    cursor: grab;
-  }
-
-  &__carousel:active{
-    cursor: -webkit-grabbing;
-    cursor: grabbing;
+    width: 100%;
+    overflow: hidden;
   }
 
   &__content{
@@ -66,7 +58,24 @@
   margin-bottom: 20px;
 }
 
+.carousel{
+  background: #fff !important;
+  width: 100%;
+
+}
+
+.card{
+  margin: 10px;
+  height: calc(100vh - 15rem);
+  width: 310px;
+}
+
 .caroImg{
   height: calc(100vh - 15rem);
   pointer-events: none;
+}
+
+.flickity-viewport:focus,
+.visual__carousel{
+  outline: none;
 }

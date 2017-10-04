@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import {TweenMax} from 'gsap';
+import ReactTransitionGroup from 'react-transition-group';
 
 class About extends Component{
   constructor(props){
@@ -16,12 +17,12 @@ class About extends Component{
 
   componentWillEnter(callback){
     const el = this.container;
-    TweenMax.fromTo(el, 0.3, {y: 100, opacity: 0}, {y: 0, opacity: 1, onComplete: callback});
+    TweenMax.fromTo(el, 0.3, {y: -1000, opacity: 0}, {y: 0, opacity: 1, onComplete: callback});
   }
 
-  componentWillLeave(cb){
+  componentWillLeave(callback){
     const el = this.container;
-    TweenMax.fromTo(el, 0.3, {y: 0, opacity: 1}, {y: -100, opacity: 0, onComplete: callback});
+    TweenMax.fromTo(el, 0.3, {y: 0, opacity: 1}, {y: -1000, opacity: 0, onComplete: callback});
   }
 
   render(){

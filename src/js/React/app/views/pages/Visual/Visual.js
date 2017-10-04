@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-import Slider from 'react-slick';
+import ReactDOM from 'react-dom'
+import Slider from 'react-slick'
+import Flickity from 'flickity'
 import { Link } from 'react-router-dom'
 
 
@@ -7,8 +9,43 @@ class Visual extends Component{
   constructor(props){
     super(props)
     this.state = {
+      selectedIndex: 0
     }
+    this.updateSelected = this.updateSelected.bind(this);
   }
+
+  componentDidMount() {
+      const carousel = this.refs.carousel;
+      const options = {
+          cellSelector: '.card',
+          contain: true,
+          initialIndex: 0,
+          wrapAround: true,
+          prevNextButtons: false,
+          pageDots: false,
+          resize: true,
+          setGallerySize: true
+      }
+
+      this.flkty = new Flickity(carousel, options);
+      this.flkty.on('cellSelect', this.updateSelected);
+      this.flkty.resize()
+  }
+
+  updateSelected() {
+      var index = this.flkty.selectedIndex;
+      this.setState({
+          selectedIndex: index
+      });
+  }
+
+  componentWillUnmount() {
+      if (this.flkty) {
+          this.flkty.off('cellSelect', this.updateSelected);
+          this.flkty.destroy();
+      }
+  }
+
 
   render(){
     var settings = {
@@ -17,23 +54,23 @@ class Visual extends Component{
       arrows: false,
       variableWidth: true,
       slidesToShow: 3,
-    };
+      wrapAround: true,
+
+    }
     return(
       <div className="visual">
         <Link to={'/'}><button className="backButton">BACK TO HOME PAGE</button></Link>
-        <div className="visual__carousel">
-          <Slider {...settings}>
-            <div>1<img className="caroImg" src="http://via.placeholder.com/900x1400"/></div>
-            <div>2<img className="caroImg" src="http://via.placeholder.com/900x1400"/></div>
-            <div>3<img className="caroImg" src="http://via.placeholder.com/900x1400"/></div>
-            <div>4<img className="caroImg" src="http://via.placeholder.com/900x1400"/></div>
-            <div>5<img className="caroImg" src="http://via.placeholder.com/900x1400"/></div>
-            <div>6<img className="caroImg" src="http://via.placeholder.com/900x1400"/></div>
-            <div>7<img className="caroImg" src="http://via.placeholder.com/900x1400"/></div>
-            <div>8<img className="caroImg" src="http://via.placeholder.com/900x1400"/></div>
-            <div>9<img className="caroImg" src="http://via.placeholder.com/900x1400"/></div>
-          </Slider>
-        </div>
+          <div ref='carousel' className='visual__carousel'>
+            <div className="card"><img className="caroImg" src="http://lorempixel.com/900/1400"/></div>
+            <div className="card"><img className="caroImg" src="http://lorempixel.com/900/1400"/></div>
+            <div className="card"><img className="caroImg" src="http://lorempixel.com/900/1400"/></div>
+            <div className="card"><img className="caroImg" src="http://lorempixel.com/900/1400"/></div>
+            <div className="card"><img className="caroImg" src="http://lorempixel.com/900/1400"/></div>
+            <div className="card"><img className="caroImg" src="http://lorempixel.com/900/1400"/></div>
+            <div className="card"><img className="caroImg" src="http://lorempixel.com/900/1400"/></div>
+            <div className="card"><img className="caroImg" src="http://lorempixel.com/900/1400"/></div>
+            <div className="card"><img className="caroImg" src="http://lorempixel.com/900/1400"/></div>
+          </div>
         <div className="visual__content">
           <div className="visual__content__text">
             <h1 className="visualTitle"> <span className="portHeader"> Love Magazine </span>  <span className="portItalic"> Brand Identity </span> </h1>

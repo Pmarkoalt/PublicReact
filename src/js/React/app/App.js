@@ -36,7 +36,9 @@ class App extends Component {
             { this.state.aboutOpen && <About />}
         </TransitionGroup> */}
         <a onClick={this.handleAboutOpen} className="sideBarContainer"> <div  className="sideBarCircle"> </div> </a>
-        { this.state.aboutOpen && <About />}
+        <TransitionGroup>
+          { this.state.aboutOpen && <About />}
+        </TransitionGroup>
         <Route
 					render={({ location }) => (
 						<TransitionGroup component={firstChild}>
