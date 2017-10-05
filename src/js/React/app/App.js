@@ -2,13 +2,9 @@ import React, { Component } from 'react';
 import { Route, Redirect} from 'react-router-dom';
 import TransitionGroup from 'react-transition-group/TransitionGroup';
 
-//About Animation file
-import {firstChild} from './views/components/helpers.js';
-import AnimatedSwitch from './views/components/animated_switch.js';
-
 //Components
 import { Audio, Home, Video, Visual } from './views/pages';
-import { About } from './views/components';
+import { About, NotFoundPage, AnimatedSwitch } from './views/components';
 
 class App extends Component {
   constructor(props){
@@ -24,6 +20,7 @@ class App extends Component {
     this.setState({
       aboutOpen: !this.state.aboutOpen
     });
+    window.scrollTo(0, 0)
   }
 
 
@@ -41,7 +38,7 @@ class App extends Component {
         </TransitionGroup>
         <Route
 					render={({ location }) => (
-						<TransitionGroup component={firstChild}>
+						<TransitionGroup>
 							<AnimatedSwitch
 								key={location.key}
 								location={location}
@@ -65,7 +62,7 @@ class App extends Component {
                     <Visual {...props} />
                   )}
                 />
-								{/* <Route component={Missed} /> */}
+								<Route component={NotFoundPage} />
 							</AnimatedSwitch>
 						</TransitionGroup>
 					)}

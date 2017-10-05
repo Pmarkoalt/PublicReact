@@ -4,8 +4,8 @@
 
 
   &__content{
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 3%;
+    margin-right: 3%;
     margin-top: 50px;
 
     &__nav{
@@ -28,12 +28,29 @@
       flex-direction: row;
       flex-wrap: wrap;
 
-      &__item{
-        margin: 20px;
-        margin-left: 0px;
-        display: block;
+      &__row{
+        display: flex;
 
+        &__item{
+          margin: 20px;
+          margin-left: 0px;
+          display: flex;
+          flex-direction: column;
+          transition: 1s all;
+          opacity: .7;
+
+          &__image{
+            height: calc(100vh - 27rem);
+          }
+
+          &__text{
+
+          }
+
+        }
       }
+
+
     }
   }
 }
@@ -70,8 +87,11 @@
   margin-top: 10px;
   font-weight: bold;
   font-family: sans-serif;
+  display: inline-block;
 }
 
 .capabilities__galleryType{
   font-family: sans-serif;
+  display: inline-block;
+  margin-left: 10px;
 }

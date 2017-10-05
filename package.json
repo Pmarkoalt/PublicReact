@@ -29,18 +29,14 @@
     "webpack": "^1.13.3"
   },
   "dependencies": {
-    "@tweenjs/tween.js": "github:tweenjs/tween.js",
     "animated": "^0.2.0",
     "express": "^4.15.3",
-    "extract-text-webpack-plugin": "^1.0.1",
     "flickity": "^2.0.10",
-    "google-fonts-webpack-plugin": "^0.4.3",
     "gsap": "^1.20.2",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-player": "^0.24.5",
     "react-router": "^4.2.0",
-    "react-slick": "^0.15.4",
     "react-sticky": "^6.0.1",
     "react-tilt": "^0.1.4",
     "react-transition-group": "^1.2.1",

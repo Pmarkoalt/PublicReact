@@ -86,7 +86,7 @@
 	exports.push([module.id, "@import url(https://fonts.googleapis.com/css?family=Cinzel:400,700|Cormorant+Garamond:300,400);", ""]);
 	
 	// module
-	exports.push([module.id, ".container, main {\n  position: relative; }\n\nol, ul {\n  list-style: none; }\n\na, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font: inherit;\n  vertical-align: baseline; }\n\narticle, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {\n  display: block; }\n\nbody {\n  line-height: 1;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n  font-family: futura-pt; }\n\n.slick-list,\n.slick-slider,\n.slick-track {\n  position: relative;\n  display: block; }\n\n.slick-loading .slick-slide,\n.slick-loading .slick-track {\n  visibility: hidden; }\n\n.slick-slider {\n  box-sizing: border-box;\n  -webkit-user-select: none;\n  -moz-user-select: none;\n  -ms-user-select: none;\n  user-select: none;\n  -webkit-touch-callout: none;\n  -khtml-user-select: none;\n  -ms-touch-action: pan-y;\n  touch-action: pan-y;\n  -webkit-tap-highlight-color: transparent; }\n\n.slick-list {\n  overflow: hidden;\n  margin: 0;\n  padding: 0; }\n\n.slick-list:focus {\n  outline: 0; }\n\n.slick-list.dragging {\n  cursor: pointer;\n  cursor: hand; }\n\n.slick-slider .slick-list,\n.slick-slider .slick-track {\n  -webkit-transform: translate3d(0, 0, 0);\n  -moz-transform: translate3d(0, 0, 0);\n  -ms-transform: translate3d(0, 0, 0);\n  -o-transform: translate3d(0, 0, 0);\n  transform: translate3d(0, 0, 0); }\n\n.slick-track {\n  top: 0;\n  left: 0; }\n\n.slick-track:after,\n.slick-track:before {\n  display: table;\n  content: ''; }\n\n.slick-track:after {\n  clear: both; }\n\n.slick-slide {\n  display: none;\n  float: left;\n  height: 100%;\n  min-height: 1px; }\n\n[dir=rtl] .slick-slide {\n  float: right; }\n\n.slick-slide img {\n  display: block; }\n\n.slick-slide.slick-loading img {\n  display: none; }\n\n.slick-slide.dragging img {\n  pointer-events: none; }\n\n.slick-initialized .slick-slide {\n  display: block;\n  margin: 15px; }\n\n.slick-vertical .slick-slide {\n  display: block;\n  height: auto;\n  border: 1px solid transparent; }\n\n.slick-arrow.slick-hidden {\n  display: none; }\n\n/*# sourceMappingURL=slick.min.css.map */\n/*\n===================================\n    MEDIA QUERIES\n===================================\n*/\ninput[type=range] {\n  -webkit-appearance: none;\n  width: 100%;\n  margin: 5.1px 0; }\n\ninput[type=range]:focus {\n  outline: none; }\n\ninput[type=range]::-webkit-slider-runnable-track {\n  width: 100%;\n  height: 1.8px;\n  cursor: pointer;\n  box-shadow: 0px 0px 0px transparent, 0px 0px 0px rgba(13, 13, 13, 0);\n  background: #000000;\n  border-radius: 0px;\n  border: 0px solid rgba(1, 1, 1, 0); }\n\ninput[type=range]::-webkit-slider-thumb {\n  box-shadow: 0px 0px 0px transparent, 0px 0px 0px rgba(13, 13, 13, 0);\n  border: 0px solid transparent;\n  height: 12px;\n  width: 12px;\n  border-radius: 50px;\n  background: #000000;\n  cursor: pointer;\n  -webkit-appearance: none;\n  margin-top: -5.1px; }\n\ninput[type=range]:focus::-webkit-slider-runnable-track {\n  background: #050505; }\n\ninput[type=range]::-moz-range-track {\n  width: 100%;\n  height: 1.8px;\n  cursor: pointer;\n  box-shadow: 0px 0px 0px transparent, 0px 0px 0px rgba(13, 13, 13, 0);\n  background: #000000;\n  border-radius: 0px;\n  border: 0px solid rgba(1, 1, 1, 0); }\n\ninput[type=range]::-moz-range-thumb {\n  box-shadow: 0px 0px 0px transparent, 0px 0px 0px rgba(13, 13, 13, 0);\n  border: 0px solid transparent;\n  height: 12px;\n  width: 12px;\n  border-radius: 50px;\n  background: #000000;\n  cursor: pointer; }\n\ninput[type=range]::-ms-track {\n  width: 100%;\n  height: 1.8px;\n  cursor: pointer;\n  background: transparent;\n  border-color: transparent;\n  color: transparent; }\n\ninput[type=range]::-ms-fill-lower {\n  background: #000000;\n  border: 0px solid rgba(1, 1, 1, 0);\n  border-radius: 0px;\n  box-shadow: 0px 0px 0px transparent, 0px 0px 0px rgba(13, 13, 13, 0); }\n\ninput[type=range]::-ms-fill-upper {\n  background: #000000;\n  border: 0px solid rgba(1, 1, 1, 0);\n  border-radius: 0px;\n  box-shadow: 0px 0px 0px transparent, 0px 0px 0px rgba(13, 13, 13, 0); }\n\ninput[type=range]::-ms-thumb {\n  box-shadow: 0px 0px 0px transparent, 0px 0px 0px rgba(13, 13, 13, 0);\n  border: 0px solid transparent;\n  height: 12px;\n  width: 12px;\n  border-radius: 50px;\n  background: #000000;\n  cursor: pointer;\n  height: 1.8px; }\n\ninput[type=range]:focus::-ms-fill-lower {\n  background: #000000; }\n\ninput[type=range]:focus::-ms-fill-upper {\n  background: #050505; }\n\n.volumeSlider {\n  width: 50px !important; }\n\n.splash {\n  height: 90vh;\n  top: 0;\n  z-index: -500;\n  font: 'Cinzel'; }\n  .splash__content {\n    margin-top: 100px;\n    margin-left: 50px;\n    margin-right: 200px;\n    display: flex; }\n    .splash__content__text {\n      margin-left: 10px; }\n      .splash__content__text__logo {\n        margin-top: 29px; }\n      .splash__content__text__paragraph {\n        max-width: 900px; }\n  .splash__arrowContainer {\n    margin-top: 100px;\n    display: flex;\n    justify-content: center; }\n    .splash__arrowContainer__arrow {\n      width: 13px;\n      height: 13px;\n      border-bottom: 2px solid #000000;\n      border-right: 2px solid #000000;\n      -webkit-transform: translate(-50%, 0%) rotate(45deg);\n      -moz-transform: translate(-50%, 0%) rotate(45deg);\n      transform: translate(-50%, 0%) rotate(45deg);\n      -webkit-animation: move_down 4s ease-in-out infinite;\n      -moz-animation: move_down 4s ease-in-out infinite;\n      animation: move_down 4s ease-in-out infinite; }\n\n.splash__h1 {\n  font-family: 'Cinzel', serif;\n  font-size: 50px; }\n\n.splash__h2 {\n  font-family: 'Cormorant Garamond', serif;\n  font-size: 35px; }\n\n.splash__contact {\n  font-size: 25px;\n  font-style: italic;\n  text-decoration: underline; }\n\n.splash__links {\n  font-size: 25px; }\n\n/*\n===================================\n    ANIMATIONS\n===================================\n*/\n@keyframes move_down {\n  0% {\n    transform: translate(0, -10px) rotate(45deg);\n    opacity: 0; }\n  50% {\n    opacity: 1; }\n  100% {\n    transform: translate(0, 10px) rotate(45deg);\n    opacity: 0; } }\n\n/*\n===================================\n    MEDIA QUERIES\n===================================\n*/\n.capabilities {\n  background-color: white;\n  min-height: 100vh; }\n  .capabilities__content {\n    margin-left: 100px;\n    margin-right: 100px;\n    margin-top: 50px; }\n    .capabilities__content__nav {\n      display: flex;\n      flex-direction: row;\n      margin-bottom: 30px;\n      background-color: white;\n      height: 70px;\n      align-items: center;\n      box-shadow: black 1px 2px 5px;\n      transition: all .25s; }\n      .capabilities__content__nav__header {\n        margin-right: 100px; }\n    .capabilities__content__gallery {\n      display: flex;\n      flex-direction: row;\n      flex-wrap: wrap; }\n      .capabilities__content__gallery__item {\n        margin: 20px;\n        margin-left: 0px;\n        display: block; }\n\n.navShadow {\n  box-shadow: rgba(0, 0, 0, 0.21) 0px 1px 16px; }\n\n.navHide {\n  box-shadow: rgba(0, 0, 0, 0.21) 0px 0px 0px; }\n\n.capabilities__header {\n  font-size: 25px;\n  margin-left: 100px; }\n\n.capabilities__headLink {\n  font-size: 25px;\n  opacity: .5;\n  margin-right: 20px;\n  transition: all .2s; }\n\n.capabilities__headLink:hover {\n  opacity: 1;\n  cursor: pointer; }\n\n.capabilities__galleryTitle {\n  margin-top: 10px;\n  font-weight: bold;\n  font-family: sans-serif; }\n\n.capabilities__galleryType {\n  font-family: sans-serif; }\n\n.portHeader {\n  font-size: 45px;\n  font-family: 'Cinzel', serif; }\n\n.portItalic {\n  font-size: 45px;\n  font-family: 'Cinzel', serif;\n  font-style: italic; }\n\n.portText {\n  font-family: 'Cormorant Garamond', serif;\n  font-size: 20px; }\n\n.backbutton {\n  position: absolute;\n  top: 20px;\n  left: 20px; }\n\n.visual__carousel {\n  background: #fff !important;\n  margin-top: 50px;\n  margin-bottom: 50px;\n  width: 100%;\n  overflow: hidden; }\n\n.visual__content {\n  margin-left: 10vw;\n  margin-right: 10vw; }\n  .visual__content__text {\n    width: 80%; }\n  .visual__content__rowPhoto {\n    width: 100%;\n    height: calc(100vh - 20rem);\n    margin-top: 10px;\n    margin-bottom: 20px; }\n  .visual__content__twoPoster {\n    display: flex;\n    flex-direction: row;\n    justify-content: space-between; }\n    .visual__content__twoPoster__items {\n      width: 38vw;\n      height: 400px; }\n  .visual__content__blurb {\n    width: 40%; }\n  .visual__content__threePoster {\n    display: flex;\n    flex-direction: row;\n    justify-content: space-between; }\n    .visual__content__threePoster__item {\n      width: 30%; }\n      .visual__content__threePoster__item__card {\n        width: 100%; }\n\n.visualTitle {\n  margin-bottom: 20px; }\n\n.carousel {\n  background: #fff !important;\n  width: 100%; }\n\n.card {\n  margin: 10px;\n  height: calc(100vh - 15rem);\n  width: 310px; }\n\n.caroImg {\n  height: calc(100vh - 15rem);\n  pointer-events: none; }\n\n.flickity-viewport:focus,\n.visual__carousel {\n  outline: none; }\n\n.audio__content {\n  margin-left: 10vw;\n  margin-right: 10vw; }\n  .audio__content__album {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    margin-top: 150px; }\n    .audio__content__album__tilt {\n      height: 400px;\n      width: 400px; }\n      .audio__content__album__tilt__cover {\n        height: 100%;\n        width: 100%;\n        background: url(\"http://www.billboard.com/files/styles/900_wide/public/media/Joy-Division-Unknown-Pleasures-album-covers-billboard-1000x1000.jpg\") no-repeat center center fixed;\n        -webkit-background-size: cover;\n        -moz-background-size: cover;\n        -o-background-size: cover;\n        background-size: cover; }\n    .audio__content__album__media {\n      width: 400px;\n      display: flex;\n      justify-content: space-between;\n      align-items: center;\n      margin-top: 25px; }\n      .audio__content__album__media__play {\n        width: 60px; }\n      .audio__content__album__media__input {\n        position: relative;\n        display: flex;\n        align-items: center;\n        justify-content: center;\n        width: 80%;\n        margin-left: 10px;\n        margin-right: 10px; }\n      .audio__content__album__media__volume {\n        display: flex; }\n  .audio__content__text {\n    margin-top: 50px; }\n\n.video__content {\n  margin-left: 10vw;\n  margin-right: 10vw; }\n  .video__content__video {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    margin-top: 120px; }\n    .video__content__video__container {\n      height: 400px;\n      width: 100%; }\n    .video__content__video__media {\n      width: 100%;\n      display: flex;\n      justify-content: space-between;\n      align-items: center; }\n      .video__content__video__media__playing {\n        display: flex;\n        justify-content: space-between;\n        align-items: center;\n        width: 70px; }\n        .video__content__video__media__playing__fullscreen {\n          width: 30px;\n          height: 30px; }\n      .video__content__video__media__input {\n        position: relative;\n        display: flex;\n        align-items: center;\n        justify-content: center;\n        width: 80%;\n        margin-left: 10px;\n        margin-right: 10px; }\n      .video__content__video__media__volume {\n        display: flex; }\n  .video__content__text {\n    margin-top: 50px; }\n\n.about {\n  height: 100vh;\n  background-color: black;\n  color: white;\n  display: flex;\n  flex-direction: row; }\n  .about__left {\n    width: 100vw;\n    margin-top: 100px;\n    margin-left: 10vw; }\n    .about__left__staff {\n      display: flex;\n      flex-direction: row;\n      justify-content: space-between;\n      width: 400px; }\n  .about__right {\n    width: 100vw;\n    margin-top: 100px;\n    margin-bottom: 100px;\n    margin-right: 10vw;\n    display: flex;\n    flex-direction: column;\n    justify-content: center; }\n\n.about__text {\n  font-size: 15px; }\n\n.about__name {\n  font-size: 15px;\n  font-family: cursive; }\n\n* {\n  min-height: 0;\n  min-width: 0; }\n\n.sideBarContainer {\n  position: fixed;\n  top: 20px;\n  right: 0%;\n  width: 75px;\n  height: 30px;\n  z-index: 9; }\n\n.sideBarCircle {\n  display: block;\n  position: relative;\n  width: 30px;\n  height: 30px;\n  background: black;\n  border-radius: 50%;\n  box-shadow: 0px 0px 17px #ffffff; }\n\n.carousel {\n  background: #EEE; }\n\n.carousel-cell {\n  width: 66%;\n  height: 200px;\n  margin-right: 10px;\n  background: #8C8;\n  border-radius: 5px;\n  counter-increment: carousel-cell; }\n\n/* cell number */\n.carousel-cell:before {\n  display: block;\n  text-align: center;\n  content: counter(carousel-cell);\n  line-height: 200px;\n  font-size: 80px;\n  color: white; }\n", ""]);
+	exports.push([module.id, ".container, main {\n  position: relative; }\n\nol, ul {\n  list-style: none; }\n\na, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font: inherit;\n  vertical-align: baseline; }\n\narticle, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {\n  display: block; }\n\nbody {\n  line-height: 1;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n  font-family: futura-pt; }\n\n.slick-list,\n.slick-slider,\n.slick-track {\n  position: relative;\n  display: block; }\n\n.slick-loading .slick-slide,\n.slick-loading .slick-track {\n  visibility: hidden; }\n\n.slick-slider {\n  box-sizing: border-box;\n  -webkit-user-select: none;\n  -moz-user-select: none;\n  -ms-user-select: none;\n  user-select: none;\n  -webkit-touch-callout: none;\n  -khtml-user-select: none;\n  -ms-touch-action: pan-y;\n  touch-action: pan-y;\n  -webkit-tap-highlight-color: transparent; }\n\n.slick-list {\n  overflow: hidden;\n  margin: 0;\n  padding: 0; }\n\n.slick-list:focus {\n  outline: 0; }\n\n.slick-list.dragging {\n  cursor: pointer;\n  cursor: hand; }\n\n.slick-slider .slick-list,\n.slick-slider .slick-track {\n  -webkit-transform: translate3d(0, 0, 0);\n  -moz-transform: translate3d(0, 0, 0);\n  -ms-transform: translate3d(0, 0, 0);\n  -o-transform: translate3d(0, 0, 0);\n  transform: translate3d(0, 0, 0); }\n\n.slick-track {\n  top: 0;\n  left: 0; }\n\n.slick-track:after,\n.slick-track:before {\n  display: table;\n  content: ''; }\n\n.slick-track:after {\n  clear: both; }\n\n.slick-slide {\n  display: none;\n  float: left;\n  height: 100%;\n  min-height: 1px; }\n\n[dir=rtl] .slick-slide {\n  float: right; }\n\n.slick-slide img {\n  display: block; }\n\n.slick-slide.slick-loading img {\n  display: none; }\n\n.slick-slide.dragging img {\n  pointer-events: none; }\n\n.slick-initialized .slick-slide {\n  display: block;\n  margin: 15px; }\n\n.slick-vertical .slick-slide {\n  display: block;\n  height: auto;\n  border: 1px solid transparent; }\n\n.slick-arrow.slick-hidden {\n  display: none; }\n\n/*# sourceMappingURL=slick.min.css.map */\n/*\n===================================\n    MEDIA QUERIES\n===================================\n*/\ninput[type=range] {\n  -webkit-appearance: none;\n  width: 100%;\n  margin: 5.1px 0; }\n\ninput[type=range]:focus {\n  outline: none; }\n\ninput[type=range]::-webkit-slider-runnable-track {\n  width: 100%;\n  height: 1.8px;\n  cursor: pointer;\n  box-shadow: 0px 0px 0px transparent, 0px 0px 0px rgba(13, 13, 13, 0);\n  background: #000000;\n  border-radius: 0px;\n  border: 0px solid rgba(1, 1, 1, 0); }\n\ninput[type=range]::-webkit-slider-thumb {\n  box-shadow: 0px 0px 0px transparent, 0px 0px 0px rgba(13, 13, 13, 0);\n  border: 0px solid transparent;\n  height: 12px;\n  width: 12px;\n  border-radius: 50px;\n  background: #000000;\n  cursor: pointer;\n  -webkit-appearance: none;\n  margin-top: -5.1px; }\n\ninput[type=range]:focus::-webkit-slider-runnable-track {\n  background: #050505; }\n\ninput[type=range]::-moz-range-track {\n  width: 100%;\n  height: 1.8px;\n  cursor: pointer;\n  box-shadow: 0px 0px 0px transparent, 0px 0px 0px rgba(13, 13, 13, 0);\n  background: #000000;\n  border-radius: 0px;\n  border: 0px solid rgba(1, 1, 1, 0); }\n\ninput[type=range]::-moz-range-thumb {\n  box-shadow: 0px 0px 0px transparent, 0px 0px 0px rgba(13, 13, 13, 0);\n  border: 0px solid transparent;\n  height: 12px;\n  width: 12px;\n  border-radius: 50px;\n  background: #000000;\n  cursor: pointer; }\n\ninput[type=range]::-ms-track {\n  width: 100%;\n  height: 1.8px;\n  cursor: pointer;\n  background: transparent;\n  border-color: transparent;\n  color: transparent; }\n\ninput[type=range]::-ms-fill-lower {\n  background: #000000;\n  border: 0px solid rgba(1, 1, 1, 0);\n  border-radius: 0px;\n  box-shadow: 0px 0px 0px transparent, 0px 0px 0px rgba(13, 13, 13, 0); }\n\ninput[type=range]::-ms-fill-upper {\n  background: #000000;\n  border: 0px solid rgba(1, 1, 1, 0);\n  border-radius: 0px;\n  box-shadow: 0px 0px 0px transparent, 0px 0px 0px rgba(13, 13, 13, 0); }\n\ninput[type=range]::-ms-thumb {\n  box-shadow: 0px 0px 0px transparent, 0px 0px 0px rgba(13, 13, 13, 0);\n  border: 0px solid transparent;\n  height: 12px;\n  width: 12px;\n  border-radius: 50px;\n  background: #000000;\n  cursor: pointer;\n  height: 1.8px; }\n\ninput[type=range]:focus::-ms-fill-lower {\n  background: #000000; }\n\ninput[type=range]:focus::-ms-fill-upper {\n  background: #050505; }\n\n.volumeSlider {\n  width: 50px !important; }\n\n.splash {\n  height: 90vh;\n  top: 0;\n  z-index: -500;\n  font: 'Cinzel'; }\n  .splash__content {\n    margin-top: 100px;\n    margin-left: 50px;\n    margin-right: 200px;\n    display: flex; }\n    .splash__content__text {\n      margin-left: 10px; }\n      .splash__content__text__logo {\n        margin-top: 29px; }\n      .splash__content__text__paragraph {\n        max-width: 900px; }\n  .splash__arrowContainer {\n    margin-top: 100px;\n    display: flex;\n    justify-content: center; }\n    .splash__arrowContainer__arrow {\n      width: 13px;\n      height: 13px;\n      border-bottom: 2px solid #000000;\n      border-right: 2px solid #000000;\n      -webkit-transform: translate(-50%, 0%) rotate(45deg);\n      -moz-transform: translate(-50%, 0%) rotate(45deg);\n      transform: translate(-50%, 0%) rotate(45deg);\n      -webkit-animation: move_down 4s ease-in-out infinite;\n      -moz-animation: move_down 4s ease-in-out infinite;\n      animation: move_down 4s ease-in-out infinite; }\n\n.splash__h1 {\n  font-family: 'Cinzel', serif;\n  font-size: 50px; }\n\n.splash__h2 {\n  font-family: 'Cormorant Garamond', serif;\n  font-size: 35px; }\n\n.splash__contact {\n  font-size: 25px;\n  font-style: italic;\n  text-decoration: underline; }\n\n.splash__links {\n  font-size: 25px; }\n\n/*\n===================================\n    ANIMATIONS\n===================================\n*/\n@keyframes move_down {\n  0% {\n    transform: translate(0, -10px) rotate(45deg);\n    opacity: 0; }\n  50% {\n    opacity: 1; }\n  100% {\n    transform: translate(0, 10px) rotate(45deg);\n    opacity: 0; } }\n\n/*\n===================================\n    MEDIA QUERIES\n===================================\n*/\n.capabilities {\n  background-color: white;\n  min-height: 100vh; }\n  .capabilities__content {\n    margin-left: 3%;\n    margin-right: 3%;\n    margin-top: 50px; }\n    .capabilities__content__nav {\n      display: flex;\n      flex-direction: row;\n      margin-bottom: 30px;\n      background-color: white;\n      height: 70px;\n      align-items: center;\n      box-shadow: black 1px 2px 5px;\n      transition: all .25s; }\n      .capabilities__content__nav__header {\n        margin-right: 100px; }\n    .capabilities__content__gallery {\n      display: flex;\n      flex-direction: row;\n      flex-wrap: wrap; }\n      .capabilities__content__gallery__row {\n        display: flex; }\n        .capabilities__content__gallery__row__item {\n          margin: 20px;\n          margin-left: 0px;\n          display: flex;\n          flex-direction: column;\n          transition: 1s all;\n          opacity: .7; }\n          .capabilities__content__gallery__row__item__image {\n            height: calc(100vh - 27rem); }\n\n.navShadow {\n  box-shadow: rgba(0, 0, 0, 0.21) 0px 1px 16px; }\n\n.navHide {\n  box-shadow: rgba(0, 0, 0, 0.21) 0px 0px 0px; }\n\n.capabilities__header {\n  font-size: 25px;\n  margin-left: 100px; }\n\n.capabilities__headLink {\n  font-size: 25px;\n  opacity: .5;\n  margin-right: 20px;\n  transition: all .2s; }\n\n.capabilities__headLink:hover {\n  opacity: 1;\n  cursor: pointer; }\n\n.capabilities__galleryTitle {\n  margin-top: 10px;\n  font-weight: bold;\n  font-family: sans-serif;\n  display: inline-block; }\n\n.capabilities__galleryType {\n  font-family: sans-serif;\n  display: inline-block;\n  margin-left: 10px; }\n\n.portHeader {\n  font-size: 45px;\n  font-family: 'Cinzel', serif; }\n\n.portItalic {\n  font-size: 45px;\n  font-family: 'Cinzel', serif;\n  font-style: italic; }\n\n.portText {\n  font-family: 'Cormorant Garamond', serif;\n  font-size: 20px; }\n\n.backbutton {\n  position: absolute;\n  top: 20px;\n  left: 20px; }\n\n.visual__carousel {\n  background: #fff !important;\n  margin-top: 50px;\n  margin-bottom: 50px;\n  width: 100%;\n  overflow: hidden; }\n\n.visual__content {\n  margin-left: 10vw;\n  margin-right: 10vw; }\n  .visual__content__text {\n    width: 80%; }\n  .visual__content__rowPhoto {\n    width: 100%;\n    height: calc(100vh - 20rem);\n    margin-top: 10px;\n    margin-bottom: 20px; }\n  .visual__content__twoPoster {\n    display: flex;\n    flex-direction: row;\n    justify-content: space-between; }\n    .visual__content__twoPoster__items {\n      width: 38vw;\n      height: 400px; }\n  .visual__content__blurb {\n    width: 40%; }\n  .visual__content__threePoster {\n    display: flex;\n    flex-direction: row;\n    justify-content: space-between; }\n    .visual__content__threePoster__item {\n      width: 30%; }\n      .visual__content__threePoster__item__card {\n        width: 100%; }\n\n.visualTitle {\n  margin-bottom: 20px; }\n\n.carousel {\n  background: #fff !important;\n  width: 100%; }\n\n.card {\n  margin: 10px;\n  height: calc(100vh - 15rem);\n  width: 310px; }\n\n.caroImg {\n  height: calc(100vh - 15rem);\n  pointer-events: none; }\n\n.flickity-viewport:focus,\n.visual__carousel {\n  outline: none; }\n\n.audio__content {\n  margin-left: 10vw;\n  margin-right: 10vw; }\n  .audio__content__album {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    margin-top: 150px; }\n    .audio__content__album__tilt {\n      height: 400px;\n      width: 400px; }\n      .audio__content__album__tilt__cover {\n        height: 100%;\n        width: 100%;\n        background: url(\"http://www.billboard.com/files/styles/900_wide/public/media/Joy-Division-Unknown-Pleasures-album-covers-billboard-1000x1000.jpg\") no-repeat center center fixed;\n        -webkit-background-size: cover;\n        -moz-background-size: cover;\n        -o-background-size: cover;\n        background-size: cover; }\n    .audio__content__album__media {\n      width: 400px;\n      display: flex;\n      justify-content: space-between;\n      align-items: center;\n      margin-top: 25px; }\n      .audio__content__album__media__play {\n        width: 60px; }\n      .audio__content__album__media__input {\n        position: relative;\n        display: flex;\n        align-items: center;\n        justify-content: center;\n        width: 80%;\n        margin-left: 10px;\n        margin-right: 10px; }\n      .audio__content__album__media__volume {\n        display: flex; }\n  .audio__content__text {\n    margin-top: 50px; }\n\n.video__content {\n  margin-left: 10vw;\n  margin-right: 10vw; }\n  .video__content__video {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    margin-top: 120px; }\n    .video__content__video__container {\n      height: 400px;\n      width: 100%; }\n    .video__content__video__media {\n      width: 100%;\n      display: flex;\n      justify-content: space-between;\n      align-items: center; }\n      .video__content__video__media__playing {\n        display: flex;\n        justify-content: space-between;\n        align-items: center;\n        width: 70px; }\n        .video__content__video__media__playing__fullscreen {\n          width: 30px;\n          height: 30px; }\n      .video__content__video__media__input {\n        position: relative;\n        display: flex;\n        align-items: center;\n        justify-content: center;\n        width: 80%;\n        margin-left: 10px;\n        margin-right: 10px; }\n      .video__content__video__media__volume {\n        display: flex; }\n  .video__content__text {\n    margin-top: 50px; }\n\n.about {\n  height: 100vh;\n  color: white;\n  display: flex;\n  flex-direction: row; }\n  .about__left {\n    width: 100vw;\n    margin-top: 100px;\n    margin-left: 10vw; }\n    .about__left__staff {\n      display: flex;\n      flex-direction: row;\n      justify-content: space-between;\n      width: 400px; }\n  .about__right {\n    width: 100vw;\n    margin-top: 100px;\n    margin-bottom: 100px;\n    margin-right: 10vw;\n    display: flex;\n    flex-direction: column;\n    justify-content: center; }\n\n.aboutContainer {\n  background-color: #111;\n  width: 100%;\n  height: 100vh; }\n\n.about__text {\n  font-size: 15px; }\n\n.about__name {\n  font-size: 15px;\n  font-family: cursive; }\n\n.notFoundPage {\n  display: flex;\n  -webkit-box-align: center;\n  -webkit-box-pack: center;\n  align-content: center;\n  align-items: center;\n  background: url(/imgs/util/404.gif) no-repeat;\n  background-position: 50%;\n  background-size: cover;\n  justify-content: center;\n  height: 100vh; }\n\n.errorText {\n  font-size: 30vw;\n  font-family: monospace;\n  font-weight: 900;\n  color: white;\n  text-shadow: -4px -1px black, 0 1px black, 3px -2px black, -4px 2px black; }\n\n* {\n  min-height: 0;\n  min-width: 0; }\n\n.sideBarContainer {\n  position: fixed;\n  top: 20px;\n  right: 0%;\n  width: 75px;\n  height: 30px;\n  z-index: 9; }\n\n.sideBarCircle {\n  display: block;\n  position: relative;\n  width: 30px;\n  height: 30px;\n  background: black;\n  border-radius: 50%;\n  box-shadow: 0px 0px 17px #ffffff; }\n", ""]);
 	
 	// exports
 
@@ -30499,12 +30499,6 @@
 	
 	var _TransitionGroup2 = _interopRequireDefault(_TransitionGroup);
 	
-	var _helpers = __webpack_require__(271);
-	
-	var _animated_switch = __webpack_require__(272);
-	
-	var _animated_switch2 = _interopRequireDefault(_animated_switch);
-	
 	var _pages = __webpack_require__(317);
 	
 	var _components = __webpack_require__(456);
@@ -30516,9 +30510,6 @@
 	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 	
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-	
-	//About Animation file
-	
 	
 	//Components
 	
@@ -30545,6 +30536,7 @@
 	      this.setState({
 	        aboutOpen: !this.state.aboutOpen
 	      });
+	      window.scrollTo(0, 0);
 	    }
 	  }, {
 	    key: 'render',
@@ -30574,9 +30566,9 @@
 	            var location = _ref.location;
 	            return _react2.default.createElement(
 	              _TransitionGroup2.default,
-	              { component: _helpers.firstChild },
+	              null,
 	              _react2.default.createElement(
-	                _animated_switch2.default,
+	                _components.AnimatedSwitch,
 	                {
 	                  key: location.key,
 	                  location: location
@@ -30599,7 +30591,8 @@
 	                  render: function render(props) {
 	                    return _react2.default.createElement(_pages.Visual, props);
 	                  }
-	                })
+	                }),
+	                _react2.default.createElement(_reactRouterDom.Route, { component: _components.NotFoundPage })
 	              )
 	            );
 	          }
@@ -31180,28 +31173,7 @@
 	}
 
 /***/ }),
-/* 271 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	"use strict";
-	
-	Object.defineProperty(exports, "__esModule", {
-		value: true
-	});
-	exports.firstChild = undefined;
-	
-	var _react = __webpack_require__(6);
-	
-	var _react2 = _interopRequireDefault(_react);
-	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-	
-	var firstChild = exports.firstChild = function firstChild(props) {
-		var childrenArray = _react2.default.Children.toArray(props.children);
-		return childrenArray[0] || null;
-	};
-
-/***/ }),
+/* 271 */,
 /* 272 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -31215,8 +31187,7 @@
 	
 	var _get = function get(object, property, receiver) { if (object === null) object = Function.prototype; var desc = Object.getOwnPropertyDescriptor(object, property); if (desc === undefined) { var parent = Object.getPrototypeOf(object); if (parent === null) { return undefined; } else { return get(parent, property, receiver); } } else if ("value" in desc) { return desc.value; } else { var getter = desc.get; if (getter === undefined) { return undefined; } return getter.call(receiver); } };
 	
-	var _templateObject = _taggedTemplateLiteral(["", ""], ["", ""]),
-	    _templateObject2 = _taggedTemplateLiteral(["\n\t\t\t\ttranslate3d(0,", ",0)\n\t\t\t"], ["\n\t\t\t\ttranslate3d(0,", ",0)\n\t\t\t"]);
+	var _templateObject = _taggedTemplateLiteral(["", ""], ["", ""]);
 	
 	var _react = __webpack_require__(6);
 	
@@ -31284,20 +31255,29 @@
 			key: "componentWillLeave",
 			value: function componentWillLeave(cb) {
 				console.log("componentWillLeave");
+				document.body.scrollTop = 0;
 				Animated.spring(this.state.animate, { toValue: 0 }).start();
 				setTimeout(function () {
 					return cb();
 				}, 175);
 			}
 		}, {
+			key: "componentDidMount",
+			value: function componentDidMount() {
+				window.scrollTo(0, 0);
+			}
+		}, {
 			key: "render",
 			value: function render() {
 				var style = {
-					opacity: Animated.template(_templateObject, this.state.animate),
-					transform: Animated.template(_templateObject2, this.state.animate.interpolate({
-						inputRange: [0, 1],
-						outputRange: ["12px", "0px"]
-					}))
+					opacity: Animated.template(_templateObject, this.state.animate)
+					// 	transform: Animated.template`
+					// 		translate3d(0,${this.state.animate.interpolate({
+					// 		inputRange: [0, 1],
+					// 		outputRange: ["12px", "0px"]
+					// 	})
+					// },0)
+					// 	`
 				};
 				return _react2.default.createElement(
 					Animated.div,
@@ -35781,6 +35761,9 @@
 	  }
 	
 	  _createClass(Audio, [{
+	    key: 'componentDidMount',
+	    value: function componentDidMount() {}
+	  }, {
 	    key: 'render',
 	    value: function render() {
 	      var _this2 = this;
@@ -39136,8 +39119,6 @@
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
-	function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-	
 	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 	
 	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
@@ -39153,23 +39134,16 @@
 	    var _this = _possibleConstructorReturn(this, (Portfolio.__proto__ || Object.getPrototypeOf(Portfolio)).call(this, props));
 	
 	    _this.state = {
-	      all: true,
-	      identities: false,
-	      interactive: false,
-	      soundDesign: false,
-	      artDirection: false,
-	      physical: false,
-	      isSticky: false
+	      filter: 'all'
 	    };
-	    _this.handleFilter = _this.handleFilter.bind(_this);
+	    _this.handleChange = _this.handleChange.bind(_this);
 	    return _this;
 	  }
 	
 	  _createClass(Portfolio, [{
-	    key: 'handleFilter',
-	    value: function handleFilter(event) {
-	      this.setState({ all: false, identities: false, interactive: false, soundDesign: false, artDirection: false, physical: false });
-	      this.setState(_defineProperty({}, event.target.id, true));
+	    key: 'handleChange',
+	    value: function handleChange(event) {
+	      this.setState({ value: event.target.value });
 	    }
 	  }, {
 	    key: 'ComponentDidMount',
@@ -39209,37 +39183,37 @@
 	                  )
 	                ),
 	                _react2.default.createElement(
-	                  'div',
-	                  { className: 'capabilities__content__nav__links' },
+	                  'select',
+	                  { value: _this2.state.value, onChange: _this2.handleChange },
 	                  _react2.default.createElement(
-	                    'span',
-	                    { id: 'all', className: 'capabilities__headLink', onClick: _this2.handleFilter },
-	                    ' All '
+	                    'option',
+	                    { value: 'all' },
+	                    'All'
 	                  ),
 	                  _react2.default.createElement(
-	                    'span',
-	                    { id: 'identities', className: 'capabilities__headLink', onClick: _this2.handleFilter },
-	                    ' Identities '
+	                    'option',
+	                    { value: 'identities' },
+	                    'Identites'
 	                  ),
 	                  _react2.default.createElement(
-	                    'span',
-	                    { id: 'interactive', className: 'capabilities__headLink', onClick: _this2.handleFilter },
-	                    ' Interactive '
+	                    'option',
+	                    { value: 'interactive' },
+	                    'Interactive'
 	                  ),
 	                  _react2.default.createElement(
-	                    'span',
-	                    { id: 'soundDesign', className: 'capabilities__headLink', onClick: _this2.handleFilter },
-	                    ' Sound Design '
+	                    'option',
+	                    { value: 'artDirection' },
+	                    'Art Direction'
 	                  ),
 	                  _react2.default.createElement(
-	                    'span',
-	                    { id: 'artDirection', className: 'capabilities__headLink', onClick: _this2.handleFilter },
-	                    ' Art Direction '
+	                    'option',
+	                    { value: 'print' },
+	                    'Print'
 	                  ),
 	                  _react2.default.createElement(
-	                    'span',
-	                    { id: 'physical', className: 'capabilities__headLink', onClick: _this2.handleFilter },
-	                    ' Physical '
+	                    'option',
+	                    { value: 'motion' },
+	                    'Motion'
 	                  )
 	                )
 	              );
@@ -39252,225 +39226,468 @@
 	              'div',
 	              { className: 'capabilities__content__gallery' },
 	              _react2.default.createElement(
-	                _reactRouterDom.Link,
-	                { to: '/visual/test' },
+	                'div',
+	                { className: 'capabilities__content__gallery__row' },
 	                _react2.default.createElement(
-	                  'div',
-	                  { className: 'capabilities__content__gallery__item' },
-	                  _react2.default.createElement('img', { src: 'http://via.placeholder.com/380x200' }),
+	                  _reactRouterDom.Link,
+	                  { to: '/visual/test' },
 	                  _react2.default.createElement(
-	                    'h3',
-	                    { className: 'capabilities__galleryTitle' },
-	                    ' Visual '
-	                  ),
+	                    'div',
+	                    { style: { opacity: !this.state.filter === 'all' || !this.state.filter ? 1 : .7 }, className: 'capabilities__content__gallery__row__item' },
+	                    _react2.default.createElement('img', { className: 'capabilities__content__gallery__row__item__image', src: '/imgs/telegram/telegram.jpg' }),
+	                    _react2.default.createElement(
+	                      'div',
+	                      { className: 'capabilities__content__gallery__row__item__text' },
+	                      _react2.default.createElement(
+	                        'h3',
+	                        { className: 'capabilities__galleryTitle' },
+	                        'Telegram'
+	                      ),
+	                      _react2.default.createElement(
+	                        'h4',
+	                        { className: 'capabilities__galleryType' },
+	                        'Identity, Web, Digital '
+	                      )
+	                    )
+	                  )
+	                ),
+	                _react2.default.createElement(
+	                  _reactRouterDom.Link,
+	                  { to: '/video/test' },
 	                  _react2.default.createElement(
-	                    'h4',
-	                    { className: 'capabilities__galleryType' },
-	                    ' type type '
+	                    'div',
+	                    { className: 'capabilities__content__gallery__row__item' },
+	                    _react2.default.createElement('img', { className: 'capabilities__content__gallery__row__item__image', src: '/imgs/room/room.jpg' }),
+	                    _react2.default.createElement(
+	                      'div',
+	                      { className: 'capabilities__content__gallery__row__item__text' },
+	                      _react2.default.createElement(
+	                        'h3',
+	                        { className: 'capabilities__galleryTitle' },
+	                        ' Room '
+	                      ),
+	                      _react2.default.createElement(
+	                        'h4',
+	                        { className: 'capabilities__galleryType' },
+	                        ' Motion, Print, Identities '
+	                      )
+	                    )
+	                  )
+	                ),
+	                _react2.default.createElement(
+	                  _reactRouterDom.Link,
+	                  { to: '/audio/test' },
+	                  _react2.default.createElement(
+	                    'div',
+	                    { className: 'capabilities__content__gallery__row__item' },
+	                    _react2.default.createElement('img', { className: 'capabilities__content__gallery__row__item__image', src: '/imgs/ecube/ecube.jpg' }),
+	                    _react2.default.createElement(
+	                      'div',
+	                      { className: 'capabilities__content__gallery__row__item__text' },
+	                      _react2.default.createElement(
+	                        'h3',
+	                        { className: 'capabilities__galleryTitle' },
+	                        ' ECube '
+	                      ),
+	                      _react2.default.createElement(
+	                        'h4',
+	                        { className: 'capabilities__galleryType' },
+	                        ' Interactive, Web, Digital  '
+	                      )
+	                    )
 	                  )
 	                )
 	              ),
 	              _react2.default.createElement(
-	                _reactRouterDom.Link,
-	                { to: '/video/test' },
+	                'div',
+	                { className: 'capabilities__content__gallery__row' },
 	                _react2.default.createElement(
-	                  'div',
-	                  { className: 'capabilities__content__gallery__item' },
-	                  _react2.default.createElement('img', { src: 'http://via.placeholder.com/380x200' }),
+	                  _reactRouterDom.Link,
+	                  { to: '/fakepage' },
 	                  _react2.default.createElement(
-	                    'h3',
-	                    { className: 'capabilities__galleryTitle' },
-	                    ' Video '
-	                  ),
+	                    'div',
+	                    { className: 'capabilities__content__gallery__row__item' },
+	                    _react2.default.createElement('img', { className: 'capabilities__content__gallery__row__item__image', src: '/imgs/boy/boy.jpg' }),
+	                    _react2.default.createElement(
+	                      'div',
+	                      { className: 'capabilities__content__gallery__row__item__text' },
+	                      _react2.default.createElement(
+	                        'h3',
+	                        { className: 'capabilities__galleryTitle' },
+	                        ' Boy '
+	                      ),
+	                      _react2.default.createElement(
+	                        'h4',
+	                        { className: 'capabilities__galleryType' },
+	                        ' Print, Editorial, One-off  '
+	                      )
+	                    )
+	                  )
+	                ),
+	                _react2.default.createElement(
+	                  _reactRouterDom.Link,
+	                  { to: '/fakepage' },
 	                  _react2.default.createElement(
-	                    'h4',
-	                    { className: 'capabilities__galleryType' },
-	                    ' type type '
+	                    'div',
+	                    { className: 'capabilities__content__gallery__row__item' },
+	                    _react2.default.createElement('img', { className: 'capabilities__content__gallery__row__item__image', src: '/imgs/monza/monza.jpg' }),
+	                    _react2.default.createElement(
+	                      'div',
+	                      { className: 'capabilities__content__gallery__row__item__text' },
+	                      _react2.default.createElement(
+	                        'h3',
+	                        { className: 'capabilities__galleryTitle' },
+	                        ' Monza Light '
+	                      ),
+	                      _react2.default.createElement(
+	                        'h4',
+	                        { className: 'capabilities__galleryType' },
+	                        ' Interactive, Web, Digital  '
+	                      )
+	                    )
+	                  )
+	                ),
+	                _react2.default.createElement(
+	                  _reactRouterDom.Link,
+	                  { to: '/fakepage' },
+	                  _react2.default.createElement(
+	                    'div',
+	                    { className: 'capabilities__content__gallery__row__item' },
+	                    _react2.default.createElement('img', { className: 'capabilities__content__gallery__row__item__image', src: '/imgs/nazmag/nazmag.jpg' }),
+	                    _react2.default.createElement(
+	                      'div',
+	                      { className: 'capabilities__content__gallery__row__item__text' },
+	                      _react2.default.createElement(
+	                        'h3',
+	                        { className: 'capabilities__galleryTitle' },
+	                        ' Naz Mag '
+	                      ),
+	                      _react2.default.createElement(
+	                        'h4',
+	                        { className: 'capabilities__galleryType' },
+	                        ' Identities, Interactive, Motion '
+	                      )
+	                    )
 	                  )
 	                )
 	              ),
 	              _react2.default.createElement(
-	                _reactRouterDom.Link,
-	                { to: '/audio/test' },
+	                'div',
+	                { className: 'capabilities__content__gallery__row' },
 	                _react2.default.createElement(
-	                  'div',
-	                  { className: 'capabilities__content__gallery__item' },
-	                  _react2.default.createElement('img', { src: 'http://via.placeholder.com/380x200' }),
+	                  _reactRouterDom.Link,
+	                  { to: '/fakepage' },
 	                  _react2.default.createElement(
-	                    'h3',
-	                    { className: 'capabilities__galleryTitle' },
-	                    ' Audio '
-	                  ),
+	                    'div',
+	                    { className: 'capabilities__content__gallery__row__item' },
+	                    _react2.default.createElement('img', { className: 'capabilities__content__gallery__row__item__image', src: '/imgs/rhizome/rhizome.jpg' }),
+	                    _react2.default.createElement(
+	                      'div',
+	                      { className: 'capabilities__content__gallery__row__item__text' },
+	                      _react2.default.createElement(
+	                        'h3',
+	                        { className: 'capabilities__galleryTitle' },
+	                        ' Rhizome '
+	                      ),
+	                      _react2.default.createElement(
+	                        'h4',
+	                        { className: 'capabilities__galleryType' },
+	                        ' Identities, Interactive '
+	                      )
+	                    )
+	                  )
+	                ),
+	                _react2.default.createElement(
+	                  _reactRouterDom.Link,
+	                  { to: '/fakepage' },
 	                  _react2.default.createElement(
-	                    'h4',
-	                    { className: 'capabilities__galleryType' },
-	                    ' type type '
+	                    'div',
+	                    { className: 'capabilities__content__gallery__row__item' },
+	                    _react2.default.createElement('img', { className: 'capabilities__content__gallery__row__item__image', src: '/imgs/emerge/emerge.jpg' }),
+	                    _react2.default.createElement(
+	                      'div',
+	                      { className: 'capabilities__content__gallery__row__item__text' },
+	                      _react2.default.createElement(
+	                        'h3',
+	                        { className: 'capabilities__galleryTitle' },
+	                        ' Emerge '
+	                      ),
+	                      _react2.default.createElement(
+	                        'h4',
+	                        { className: 'capabilities__galleryType' },
+	                        ' Identities, Interactive '
+	                      )
+	                    )
+	                  )
+	                ),
+	                _react2.default.createElement(
+	                  _reactRouterDom.Link,
+	                  { to: '/fakepage' },
+	                  _react2.default.createElement(
+	                    'div',
+	                    { className: 'capabilities__content__gallery__row__item' },
+	                    _react2.default.createElement('img', { className: 'capabilities__content__gallery__row__item__image', src: '/imgs/trump/trump.jpg' }),
+	                    _react2.default.createElement(
+	                      'div',
+	                      { className: 'capabilities__content__gallery__row__item__text' },
+	                      _react2.default.createElement(
+	                        'h3',
+	                        { className: 'capabilities__galleryTitle' },
+	                        ' Trump '
+	                      ),
+	                      _react2.default.createElement(
+	                        'h4',
+	                        { className: 'capabilities__galleryType' },
+	                        ' Print, Editorial, One-off  '
+	                      )
+	                    )
 	                  )
 	                )
 	              ),
 	              _react2.default.createElement(
 	                'div',
-	                { className: 'capabilities__content__gallery__item' },
-	                _react2.default.createElement('img', { src: 'http://via.placeholder.com/250x200' }),
+	                { className: 'capabilities__content__gallery__row' },
 	                _react2.default.createElement(
-	                  'h3',
-	                  { className: 'capabilities__galleryTitle' },
-	                  ' Title '
+	                  _reactRouterDom.Link,
+	                  { to: '/fakepage' },
+	                  _react2.default.createElement(
+	                    'div',
+	                    { className: 'capabilities__content__gallery__row__item' },
+	                    _react2.default.createElement('img', { className: 'capabilities__content__gallery__row__item__image', src: '/imgs/em/em.jpg' }),
+	                    _react2.default.createElement(
+	                      'div',
+	                      { className: 'capabilities__content__gallery__row__item__text' },
+	                      _react2.default.createElement(
+	                        'h3',
+	                        { className: 'capabilities__galleryTitle' },
+	                        ' EM '
+	                      ),
+	                      _react2.default.createElement(
+	                        'h4',
+	                        { className: 'capabilities__galleryType' },
+	                        ' Print, Editorial, One-off '
+	                      )
+	                    )
+	                  )
 	                ),
 	                _react2.default.createElement(
-	                  'h4',
-	                  { className: 'capabilities__galleryType' },
-	                  ' type type '
+	                  _reactRouterDom.Link,
+	                  { to: '/fakepage' },
+	                  _react2.default.createElement(
+	                    'div',
+	                    { className: 'capabilities__content__gallery__row__item' },
+	                    _react2.default.createElement('img', { className: 'capabilities__content__gallery__row__item__image', src: '/imgs/eddy/eddy.jpg' }),
+	                    _react2.default.createElement(
+	                      'div',
+	                      { className: 'capabilities__content__gallery__row__item__text' },
+	                      _react2.default.createElement(
+	                        'h3',
+	                        { className: 'capabilities__galleryTitle' },
+	                        ' Eddy Bauer '
+	                      ),
+	                      _react2.default.createElement(
+	                        'h4',
+	                        { className: 'capabilities__galleryType' },
+	                        ' Identity, Print  '
+	                      )
+	                    )
+	                  )
+	                ),
+	                _react2.default.createElement(
+	                  _reactRouterDom.Link,
+	                  { to: '/fakepage' },
+	                  _react2.default.createElement(
+	                    'div',
+	                    { className: 'capabilities__content__gallery__row__item' },
+	                    _react2.default.createElement('img', { className: 'capabilities__content__gallery__row__item__image', src: '/imgs/europe/europe.jpg' }),
+	                    _react2.default.createElement(
+	                      'div',
+	                      { className: 'capabilities__content__gallery__row__item__text' },
+	                      _react2.default.createElement(
+	                        'h3',
+	                        { className: 'capabilities__galleryTitle' },
+	                        ' Europe '
+	                      ),
+	                      _react2.default.createElement(
+	                        'h4',
+	                        { className: 'capabilities__galleryType' },
+	                        ' Print, Editorial, One-off  '
+	                      )
+	                    )
+	                  )
 	                )
 	              ),
 	              _react2.default.createElement(
 	                'div',
-	                { className: 'capabilities__content__gallery__item' },
-	                _react2.default.createElement('img', { src: 'http://via.placeholder.com/380x200' }),
+	                { className: 'capabilities__content__gallery__row' },
 	                _react2.default.createElement(
-	                  'h3',
-	                  { className: 'capabilities__galleryTitle' },
-	                  ' All '
+	                  _reactRouterDom.Link,
+	                  { to: '/fakepage' },
+	                  _react2.default.createElement(
+	                    'div',
+	                    { className: 'capabilities__content__gallery__row__item' },
+	                    _react2.default.createElement('img', { className: 'capabilities__content__gallery__row__item__image', src: '/imgs/blackstar/blackstar.jpg' }),
+	                    _react2.default.createElement(
+	                      'div',
+	                      { className: 'capabilities__content__gallery__row__item__text' },
+	                      _react2.default.createElement(
+	                        'h3',
+	                        { className: 'capabilities__galleryTitle' },
+	                        ' Blackstar '
+	                      ),
+	                      _react2.default.createElement(
+	                        'h4',
+	                        { className: 'capabilities__galleryType' },
+	                        ' Print, Editorial, One-off '
+	                      )
+	                    )
+	                  )
 	                ),
 	                _react2.default.createElement(
-	                  'h4',
-	                  { className: 'capabilities__galleryType' },
-	                  ' type type '
+	                  _reactRouterDom.Link,
+	                  { to: '/fakepage' },
+	                  _react2.default.createElement(
+	                    'div',
+	                    { className: 'capabilities__content__gallery__row__item' },
+	                    _react2.default.createElement('img', { className: 'capabilities__content__gallery__row__item__image', src: '/imgs/f/f.jpg' }),
+	                    _react2.default.createElement(
+	                      'div',
+	                      { className: 'capabilities__content__gallery__row__item__text' },
+	                      _react2.default.createElement(
+	                        'h3',
+	                        { className: 'capabilities__galleryTitle' },
+	                        ' F '
+	                      ),
+	                      _react2.default.createElement(
+	                        'h4',
+	                        { className: 'capabilities__galleryType' },
+	                        ' Print, Editorial, One-off '
+	                      )
+	                    )
+	                  )
+	                ),
+	                _react2.default.createElement(
+	                  _reactRouterDom.Link,
+	                  { to: '/fakepage' },
+	                  _react2.default.createElement(
+	                    'div',
+	                    { className: 'capabilities__content__gallery__row__item' },
+	                    _react2.default.createElement('img', { className: 'capabilities__content__gallery__row__item__image', src: '/imgs/industry/industry.jpg' }),
+	                    _react2.default.createElement(
+	                      'div',
+	                      { className: 'capabilities__content__gallery__row__item__text' },
+	                      _react2.default.createElement(
+	                        'h3',
+	                        { className: 'capabilities__galleryTitle' },
+	                        ' Industry '
+	                      ),
+	                      _react2.default.createElement(
+	                        'h4',
+	                        { className: 'capabilities__galleryType' },
+	                        ' Print, Editorial, One-off  '
+	                      )
+	                    )
+	                  )
 	                )
 	              ),
 	              _react2.default.createElement(
 	                'div',
-	                { className: 'capabilities__content__gallery__item' },
-	                _react2.default.createElement('img', { src: 'http://via.placeholder.com/250x200' }),
+	                { className: 'capabilities__content__gallery__row' },
 	                _react2.default.createElement(
-	                  'h3',
-	                  { className: 'capabilities__galleryTitle' },
-	                  ' Title '
+	                  _reactRouterDom.Link,
+	                  { to: '/fakepage' },
+	                  _react2.default.createElement(
+	                    'div',
+	                    { className: 'capabilities__content__gallery__row__item' },
+	                    _react2.default.createElement('img', { className: 'capabilities__content__gallery__row__item__image', src: '/imgs/omni/omni.jpg' }),
+	                    _react2.default.createElement(
+	                      'div',
+	                      { className: 'capabilities__content__gallery__row__item__text' },
+	                      _react2.default.createElement(
+	                        'h3',
+	                        { className: 'capabilities__galleryTitle' },
+	                        ' Omni '
+	                      ),
+	                      _react2.default.createElement(
+	                        'h4',
+	                        { className: 'capabilities__galleryType' },
+	                        ' Identities, Interactive '
+	                      )
+	                    )
+	                  )
 	                ),
 	                _react2.default.createElement(
-	                  'h4',
-	                  { className: 'capabilities__galleryType' },
-	                  ' type type '
+	                  _reactRouterDom.Link,
+	                  { to: '/fakepage' },
+	                  _react2.default.createElement(
+	                    'div',
+	                    { className: 'capabilities__content__gallery__row__item' },
+	                    _react2.default.createElement('img', { className: 'capabilities__content__gallery__row__item__image', src: '/imgs/sea/sea.jpg' }),
+	                    _react2.default.createElement(
+	                      'div',
+	                      { className: 'capabilities__content__gallery__row__item__text' },
+	                      _react2.default.createElement(
+	                        'h3',
+	                        { className: 'capabilities__galleryTitle' },
+	                        ' Sea '
+	                      ),
+	                      _react2.default.createElement(
+	                        'h4',
+	                        { className: 'capabilities__galleryType' },
+	                        ' Identities, Interactive '
+	                      )
+	                    )
+	                  )
+	                ),
+	                _react2.default.createElement(
+	                  _reactRouterDom.Link,
+	                  { to: '/fakepage' },
+	                  _react2.default.createElement(
+	                    'div',
+	                    { className: 'capabilities__content__gallery__row__item' },
+	                    _react2.default.createElement('img', { className: 'capabilities__content__gallery__row__item__image', src: '/imgs/studios/studios.jpg' }),
+	                    _react2.default.createElement(
+	                      'div',
+	                      { className: 'capabilities__content__gallery__row__item__text' },
+	                      _react2.default.createElement(
+	                        'h3',
+	                        { className: 'capabilities__galleryTitle' },
+	                        ' Studios '
+	                      ),
+	                      _react2.default.createElement(
+	                        'h4',
+	                        { className: 'capabilities__galleryType' },
+	                        ' Identities, Interactive  '
+	                      )
+	                    )
+	                  )
 	                )
 	              ),
 	              _react2.default.createElement(
 	                'div',
-	                { className: 'capabilities__content__gallery__item' },
-	                _react2.default.createElement('img', { src: 'http://via.placeholder.com/380x200' }),
+	                { className: 'capabilities__content__gallery__row' },
 	                _react2.default.createElement(
-	                  'h3',
-	                  { className: 'capabilities__galleryTitle' },
-	                  ' All '
-	                ),
-	                _react2.default.createElement(
-	                  'h4',
-	                  { className: 'capabilities__galleryType' },
-	                  ' type type '
-	                )
-	              ),
-	              _react2.default.createElement(
-	                'div',
-	                { className: 'capabilities__content__gallery__item' },
-	                _react2.default.createElement('img', { src: 'http://via.placeholder.com/250x200' }),
-	                _react2.default.createElement(
-	                  'h3',
-	                  { className: 'capabilities__galleryTitle' },
-	                  ' Title '
-	                ),
-	                _react2.default.createElement(
-	                  'h4',
-	                  { className: 'capabilities__galleryType' },
-	                  ' type type '
-	                )
-	              ),
-	              _react2.default.createElement(
-	                'div',
-	                { className: 'capabilities__content__gallery__item' },
-	                _react2.default.createElement('img', { src: 'http://via.placeholder.com/380x200' }),
-	                _react2.default.createElement(
-	                  'h3',
-	                  { className: 'capabilities__galleryTitle' },
-	                  ' All '
-	                ),
-	                _react2.default.createElement(
-	                  'h4',
-	                  { className: 'capabilities__galleryType' },
-	                  ' type type '
-	                )
-	              ),
-	              _react2.default.createElement(
-	                'div',
-	                { className: 'capabilities__content__gallery__item' },
-	                _react2.default.createElement('img', { src: 'http://via.placeholder.com/250x200' }),
-	                _react2.default.createElement(
-	                  'h3',
-	                  { className: 'capabilities__galleryTitle' },
-	                  ' Title '
-	                ),
-	                _react2.default.createElement(
-	                  'h4',
-	                  { className: 'capabilities__galleryType' },
-	                  ' type type '
-	                )
-	              ),
-	              _react2.default.createElement(
-	                'div',
-	                { className: 'capabilities__content__gallery__item' },
-	                _react2.default.createElement('img', { src: 'http://via.placeholder.com/380x200' }),
-	                _react2.default.createElement(
-	                  'h3',
-	                  { className: 'capabilities__galleryTitle' },
-	                  ' All '
-	                ),
-	                _react2.default.createElement(
-	                  'h4',
-	                  { className: 'capabilities__galleryType' },
-	                  ' type type '
-	                )
-	              ),
-	              _react2.default.createElement(
-	                'div',
-	                { className: 'capabilities__content__gallery__item' },
-	                _react2.default.createElement('img', { src: 'http://via.placeholder.com/250x200' }),
-	                _react2.default.createElement(
-	                  'h3',
-	                  { className: 'capabilities__galleryTitle' },
-	                  ' Title '
-	                ),
-	                _react2.default.createElement(
-	                  'h4',
-	                  { className: 'capabilities__galleryType' },
-	                  ' type type '
-	                )
-	              ),
-	              _react2.default.createElement(
-	                'div',
-	                { className: 'capabilities__content__gallery__item' },
-	                _react2.default.createElement('img', { src: 'http://via.placeholder.com/380x200' }),
-	                _react2.default.createElement(
-	                  'h3',
-	                  { className: 'capabilities__galleryTitle' },
-	                  ' All '
-	                ),
-	                _react2.default.createElement(
-	                  'h4',
-	                  { className: 'capabilities__galleryType' },
-	                  ' type type '
-	                )
-	              ),
-	              _react2.default.createElement(
-	                'div',
-	                { className: 'capabilities__content__gallery__item' },
-	                _react2.default.createElement('img', { src: 'http://via.placeholder.com/250x200' }),
-	                _react2.default.createElement(
-	                  'h3',
-	                  { className: 'capabilities__galleryTitle' },
-	                  ' Title '
-	                ),
-	                _react2.default.createElement(
-	                  'h4',
-	                  { className: 'capabilities__galleryType' },
-	                  ' type type '
+	                  _reactRouterDom.Link,
+	                  { to: '/fakepage' },
+	                  _react2.default.createElement(
+	                    'div',
+	                    { className: 'capabilities__content__gallery__row__item' },
+	                    _react2.default.createElement('img', { className: 'capabilities__content__gallery__row__item__image', src: '/imgs/tendencies/tendencies.jpg' }),
+	                    _react2.default.createElement(
+	                      'div',
+	                      { className: 'capabilities__content__gallery__row__item__text' },
+	                      _react2.default.createElement(
+	                        'h3',
+	                        { className: 'capabilities__galleryTitle' },
+	                        ' Tendencies '
+	                      ),
+	                      _react2.default.createElement(
+	                        'h4',
+	                        { className: 'capabilities__galleryType' },
+	                        ' Identities, Interactive '
+	                      )
+	                    )
+	                  )
 	                )
 	              )
 	            )
@@ -93263,6 +93480,9 @@
 	  }
 	
 	  _createClass(Video, [{
+	    key: 'componentDidMount',
+	    value: function componentDidMount() {}
+	  }, {
 	    key: 'render',
 	    value: function render() {
 	      var _this2 = this;
@@ -93678,7 +93898,6 @@
 	
 	      this.flkty = new _flickity2.default(carousel, options);
 	      this.flkty.on('cellSelect', this.updateSelected);
-	      this.flkty.resize();
 	    }
 	  }, {
 	    key: 'updateSelected',
@@ -100266,6 +100485,15 @@
 	    return _interopRequireDefault(_NotFoundPage).default;
 	  }
 	});
+	
+	var _animated_switch = __webpack_require__(272);
+	
+	Object.defineProperty(exports, 'AnimatedSwitch', {
+	  enumerable: true,
+	  get: function get() {
+	    return _interopRequireDefault(_animated_switch).default;
+	  }
+	});
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -100325,6 +100553,8 @@
 	    key: 'componentWillEnter',
 	    value: function componentWillEnter(callback) {
 	      var el = this.container;
+	      var content = document.getElementsByClassName('aboutContainer');
+	      _gsap.TweenMax.fromTo(content, 0.3, { scale: .7 }, { scale: 1 });
 	      _gsap.TweenMax.fromTo(el, 0.3, { y: -1000, opacity: 0 }, { y: 0, opacity: 1, onComplete: callback });
 	    }
 	  }, {
@@ -100340,120 +100570,124 @@
 	
 	      return _react2.default.createElement(
 	        'div',
-	        { className: 'about', ref: function ref(c) {
+	        { className: 'aboutContainer', ref: function ref(c) {
 	            return _this2.container = c;
 	          } },
 	        _react2.default.createElement(
 	          'div',
-	          { className: 'about__left' },
+	          { className: 'about' },
 	          _react2.default.createElement(
 	            'div',
-	            { className: 'about__left__info' },
-	            _react2.default.createElement(
-	              'p',
-	              { className: 'about__text' },
-	              ' PUBLIC.GROUP '
-	            ),
-	            _react2.default.createElement(
-	              'p',
-	              { className: 'about__text' },
-	              ' Washington DC '
-	            ),
-	            _react2.default.createElement('br', null),
-	            _react2.default.createElement(
-	              'p',
-	              { className: 'about__text' },
-	              ' 1-(555)-555-5555 '
-	            ),
-	            _react2.default.createElement(
-	              'p',
-	              { className: 'about__text' },
-	              ' office@public.design '
-	            ),
-	            _react2.default.createElement('br', null),
-	            ' ',
-	            _react2.default.createElement('br', null),
-	            ' ',
-	            _react2.default.createElement('br', null),
-	            _react2.default.createElement(
-	              'p',
-	              { className: 'about__text' },
-	              ' For New Business Inquiries Inquiries Please Contact Our Office '
-	            )
-	          ),
-	          _react2.default.createElement('br', null),
-	          _react2.default.createElement(
-	            'div',
-	            { className: 'about__left__staff' },
+	            { className: 'about__left' },
 	            _react2.default.createElement(
 	              'div',
-	              { className: 'about__left__staff__item' },
-	              _react2.default.createElement('img', { style: { height: 150, width: 150 }, src: 'http://timmaughanbooks.com/wp-content/uploads/2009/02/akira2.jpg' }),
+	              { className: 'about__left__info' },
 	              _react2.default.createElement(
 	                'p',
-	                { className: 'about__name' },
-	                ' Moustafa Hassan '
+	                { className: 'about__text' },
+	                ' PUBLIC.GROUP '
 	              ),
 	              _react2.default.createElement(
 	                'p',
 	                { className: 'about__text' },
-	                ' MOUSTAFA@PUBLIC.DESIGN '
-	              )
-	            ),
-	            _react2.default.createElement(
-	              'div',
-	              { className: 'about__left__staff__item' },
-	              _react2.default.createElement('img', { style: { height: 150, width: 150 }, src: 'https://vignette.wikia.nocookie.net/akira/images/c/c1/IMG_20150614_162342.jpg/revision/latest?cb=20150614202648' }),
+	                ' Washington DC '
+	              ),
+	              _react2.default.createElement('br', null),
 	              _react2.default.createElement(
 	                'p',
-	                { className: 'about__name' },
-	                ' Peter Markoski '
+	                { className: 'about__text' },
+	                ' 1-(555)-555-5555 '
 	              ),
 	              _react2.default.createElement(
 	                'p',
 	                { className: 'about__text' },
-	                ' PETE@PUBLIC.DESIGN '
+	                ' office@public.design '
+	              ),
+	              _react2.default.createElement('br', null),
+	              ' ',
+	              _react2.default.createElement('br', null),
+	              ' ',
+	              _react2.default.createElement('br', null),
+	              _react2.default.createElement(
+	                'p',
+	                { className: 'about__text' },
+	                ' For New Business Inquiries Inquiries Please Contact Our Office '
+	              )
+	            ),
+	            _react2.default.createElement('br', null),
+	            _react2.default.createElement(
+	              'div',
+	              { className: 'about__left__staff' },
+	              _react2.default.createElement(
+	                'div',
+	                { className: 'about__left__staff__item' },
+	                _react2.default.createElement('img', { style: { height: 150, width: 150 }, src: 'http://timmaughanbooks.com/wp-content/uploads/2009/02/akira2.jpg' }),
+	                _react2.default.createElement(
+	                  'p',
+	                  { className: 'about__name' },
+	                  ' Moustafa Hassan '
+	                ),
+	                _react2.default.createElement(
+	                  'p',
+	                  { className: 'about__text' },
+	                  ' MOUSTAFA@PUBLIC.DESIGN '
+	                )
+	              ),
+	              _react2.default.createElement(
+	                'div',
+	                { className: 'about__left__staff__item' },
+	                _react2.default.createElement('img', { style: { height: 150, width: 150 }, src: 'https://vignette.wikia.nocookie.net/akira/images/c/c1/IMG_20150614_162342.jpg/revision/latest?cb=20150614202648' }),
+	                _react2.default.createElement(
+	                  'p',
+	                  { className: 'about__name' },
+	                  ' Peter Markoski '
+	                ),
+	                _react2.default.createElement(
+	                  'p',
+	                  { className: 'about__text' },
+	                  ' PETE@PUBLIC.DESIGN '
+	                )
 	              )
 	            )
-	          )
-	        ),
-	        _react2.default.createElement(
-	          'div',
-	          { className: 'about__right' },
-	          _react2.default.createElement(
-	            'p',
-	            { className: 'about__text' },
-	            ' Public is a DC design and branding studio. We believe in delivering timeless work for clients far and wide, big and and small. '
 	          ),
-	          _react2.default.createElement('br', null),
 	          _react2.default.createElement(
-	            'p',
-	            { className: 'about__text' },
-	            ' We believe that strong work stems from strong relationships. We partner directly with out clients to reach a level of rapport only possible on a small scale. You won\'t be hearing from out Account Services team-you\'ll be hearing from us. '
-	          ),
-	          _react2.default.createElement('br', null),
-	          _react2.default.createElement(
-	            'p',
-	            { className: 'about__text' },
-	            ' We\'ve worked with brands large and small over the years, '
-	          ),
-	          _react2.default.createElement('br', null),
-	          _react2.default.createElement(
-	            'p',
-	            { className: 'about__text' },
-	            ' Public is a DC design and branding studio. We believe in delivering timeless work for clients far and wide, big and and small. '
-	          ),
-	          _react2.default.createElement('br', null),
-	          _react2.default.createElement(
-	            'p',
-	            { className: 'about__text' },
-	            ' We believe that strong work stems from strong relationships. We partner directly with out clients to reach a level of rapport only possible on a small scale. You won\'t be hearing from out Account Services team-you\'ll be hearing from us. '
-	          ),
-	          _react2.default.createElement('br', null),
-	          _react2.default.createElement(
-	            'p',
-	            { className: 'about__text' },
-	            ' We\'ve worked with brands large and small over the years, '
+	            'div',
+	            { className: 'about__right' },
+	            _react2.default.createElement(
+	              'p',
+	              { className: 'about__text' },
+	              ' Public is a DC design and branding studio. We believe in delivering timeless work for clients far and wide, big and and small. '
+	            ),
+	            _react2.default.createElement('br', null),
+	            _react2.default.createElement(
+	              'p',
+	              { className: 'about__text' },
+	              ' We believe that strong work stems from strong relationships. We partner directly with out clients to reach a level of rapport only possible on a small scale. You won\'t be hearing from out Account Services team-you\'ll be hearing from us. '
+	            ),
+	            _react2.default.createElement('br', null),
+	            _react2.default.createElement(
+	              'p',
+	              { className: 'about__text' },
+	              ' We\'ve worked with brands large and small over the years, '
+	            ),
+	            _react2.default.createElement('br', null),
+	            _react2.default.createElement(
+	              'p',
+	              { className: 'about__text' },
+	              ' Public is a DC design and branding studio. We believe in delivering timeless work for clients far and wide, big and and small. '
+	            ),
+	            _react2.default.createElement('br', null),
+	            _react2.default.createElement(
+	              'p',
+	              { className: 'about__text' },
+	              ' We believe that strong work stems from strong relationships. We partner directly with out clients to reach a level of rapport only possible on a small scale. You won\'t be hearing from out Account Services team-you\'ll be hearing from us. '
+	            ),
+	            _react2.default.createElement('br', null),
+	            _react2.default.createElement(
+	              'p',
+	              { className: 'about__text' },
+	              ' We\'ve worked with brands large and small over the years, '
+	            )
 	          )
 	        )
 	      );
@@ -108447,7 +108681,7 @@
 	        { className: 'notFoundPage' },
 	        _react2.default.createElement(
 	          'h1',
-	          null,
+	          { className: 'errorText' },
 	          ' 404 '
 	        )
 	      );

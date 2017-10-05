@@ -29,7 +29,6 @@ class Visual extends Component{
 
       this.flkty = new Flickity(carousel, options);
       this.flkty.on('cellSelect', this.updateSelected);
-      this.flkty.resize()
   }
 
   updateSelected() {

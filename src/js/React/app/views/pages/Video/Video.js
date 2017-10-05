@@ -83,6 +83,9 @@ class Video extends Component{
     this.player = player
   }
 
+  componentDidMount(){
+  }
+
   render(){
     const {
       url, playing, volume, muted,
