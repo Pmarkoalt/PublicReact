@@ -3,8 +3,11 @@ import { Link } from 'react-router-dom'
 import Tilt from 'react-tilt'
 import ReactPlayer from 'react-player'
 
+import NotFoundPage from '../../components/NotFoundPage';
+
 class Audio extends Component{
   constructor(props){
+    var params = props.match.params.id;
     super(props)
     this.state = {
       playing: false,
@@ -13,7 +16,8 @@ class Audio extends Component{
       played: 0,
       loaded: 0,
       duration: 0,
-      playbackRate: 1.0
+      playbackRate: 1.0,
+      project: this.props.projects[params]
     }
   }
   load = url => {
@@ -94,63 +98,69 @@ class Audio extends Component{
     } = this.state
     const SEPARATOR = ' · '
 
-    return(
-      <div className="audio">
-        <div className="audio__content">
-          <Link to={'/'}><button className="backButton">BACK TO HOME PAGE</button></Link>
-          <div className="audio__content__album">
-            <Tilt className="audio__content__album__tilt" options={{ max : 25 }}>
-              <div className="audio__content__album__tilt__cover"> </div>
-            </Tilt>
-            <ReactPlayer
-              ref={this.ref}
-              url='https://upload.wikimedia.org/wikipedia/commons/a/a4/Washington_Post.ogg'
-              width='0px'
-              height='0px'
-              playing={playing}
-              playbackRate={playbackRate}
-              volume={volume}
-              muted={muted}
-              soundcloudConfig={soundcloudConfig}
-              vimeoConfig={vimeoConfig}
-              youtubeConfig={youtubeConfig}
-              fileConfig={fileConfig}
-              onReady={() => console.log('onReady')}
-              onStart={() => console.log('onStart')}
-              onPlay={this.onPlay}
-              onPause={this.onPause}
-              onBuffer={() => console.log('onBuffer')}
-              onSeek={e => console.log('onSeek', e)}
-              onEnded={() => this.setState({ playing: false })}
-              onError={e => console.log('onError', e)}
-              onProgress={this.onProgress}
-              onDuration={duration => this.setState({ duration })}
-            />
-            <div className="audio__content__album__media">
-              <a className="audio__content__album__media__play" onClick={this.playPause}>{playing ? 'Pause' : 'Play'}</a>
-              <div className="audio__content__album__media__input">
-                <input
-                  type='range' min={0} max={1} step='any'
-                  value={played}
-                  onMouseDown={this.onSeekMouseDown}
-                  onChange={this.onSeekChange}
-                  onMouseUp={this.onSeekMouseUp}
-                />
-              </div>
-              <div className="audio__content__album__media__volume">
-                <input type='checkbox' checked={muted} onChange={this.toggleMuted} />
-                <input type='range' orient='vertical' className='volumeSlider' min={0} max={1} step='any' value={volume} onChange={this.setVolume} />
+    if (this.state.project){
+      return(
+        <div className="audio">
+          <div className="audio__content">
+            <Link to={'/'}><button className="backButton">BACK TO HOME PAGE</button></Link>
+            <div className="audio__content__album">
+              <Tilt className="audio__content__album__tilt" options={{ max : 25 }}>
+                <div className="audio__content__album__tilt__cover"> <img className="audio__content__album__tilt__cover" src={this.state.project.cover} /> </div>
+              </Tilt>
+              <ReactPlayer
+                ref={this.ref}
+                url={this.state.project.audio}
+                width='0px'
+                height='0px'
+                playing={playing}
+                playbackRate={playbackRate}
+                volume={volume}
+                muted={muted}
+                soundcloudConfig={soundcloudConfig}
+                vimeoConfig={vimeoConfig}
+                youtubeConfig={youtubeConfig}
+                fileConfig={fileConfig}
+                onReady={() => console.log('onReady')}
+                onStart={() => console.log('onStart')}
+                onPlay={this.onPlay}
+                onPause={this.onPause}
+                onBuffer={() => console.log('onBuffer')}
+                onSeek={e => console.log('onSeek', e)}
+                onEnded={() => this.setState({ playing: false })}
+                onError={e => console.log('onError', e)}
+                onProgress={this.onProgress}
+                onDuration={duration => this.setState({ duration })}
+              />
+              <div className="audio__content__album__media">
+                <a className="audio__content__album__media__play" onClick={this.playPause}>{playing ? 'Pause' : 'Play'}</a>
+                <div className="audio__content__album__media__input">
+                  <input
+                    type='range' min={0} max={1} step='any'
+                    value={played}
+                    onMouseDown={this.onSeekMouseDown}
+                    onChange={this.onSeekChange}
+                    onMouseUp={this.onSeekMouseUp}
+                  />
+                </div>
+                <div className="audio__content__album__media__volume">
+                  <input type='checkbox' checked={muted} onChange={this.toggleMuted} />
+                  <input type='range' orient='vertical' className='volumeSlider' min={0} max={1} step='any' value={volume} onChange={this.setVolume} />
+                </div>
               </div>
             </div>
-          </div>
-          <div className="audio__content__text">
-            <h1 className="visualTitle"> <span className="portHeader"> The River </span>  <span className="portItalic"> Ali Farka </span> </h1>
-            <p className="portText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida, ligula sodales viverra suscipit, orci lectus elementum velit, et finibus libero risus at urna. Aenean a leo et leo porta scelerisque at ut lacus. Cras sodales vestibulum mi eu ultrices. Maecenas vitae elit at lacus semper bibendum nec non tortor. Sed eget nibh vitae enim lobortis feugiat. Quisque finibus, magna ac feugiat eleifend, tellus leo commodo ante, sodales convallis metus mi eget orci. Morbi quis nisi nec diam vehicula vulputate vel ultricies sem. Donec suscipit non lectus eu pharetra. Donec quis vulputate felis. Nullam sagittis magna metus, eget aliquet tortor sollicitudin nec. Praesent ultrices cursus facilisis. Phasellus hendrerit malesuada massa et mattis.</p>
+            <div className="audio__content__text">
+              <h1 className="visualTitle"> <span className="portHeader"> {this.state.project.title} </span>  <span className="portItalic"> {this.state.project.artist} </span> </h1>
+              <p className="portText">{this.state.project.summary}</p></div>
           </div>
         </div>
-      </div>
+      )
+    }
+    else{
+      return(
+        <NotFoundPage />
+      )
+    }
 
-    )
   }
 }
 

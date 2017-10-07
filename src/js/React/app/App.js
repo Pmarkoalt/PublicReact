@@ -5,12 +5,14 @@ import TransitionGroup from 'react-transition-group/TransitionGroup';
 //Components
 import { Audio, Home, Video, Visual } from './views/pages';
 import { About, NotFoundPage, AnimatedSwitch } from './views/components';
+import AppData from "./App.data.js"
 
 class App extends Component {
   constructor(props){
     super(props)
     this.state = {
-      aboutOpen: false
+      aboutOpen: false,
+      projects: AppData
     }
     this.handleAboutOpen = this.handleAboutOpen.bind(this);
   }
@@ -47,19 +49,19 @@ class App extends Component {
 								<Route
 									path="/audio/:id"
 									render={props => (
-										<Audio {...props} />
+										<Audio {...props} projects={this.state.projects} />
 									)}
 								/>
 								<Route
 									path="/video/:id"
 									render={props => (
-										<Video {...props} />
+										<Video {...props} projects={this.state.projects} />
 									)}
 								/>
                 <Route
                   path="/visual/:id"
                   render={props => (
-                    <Visual {...props} />
+                    <Visual {...props} projects={this.state.projects} />
                   )}
                 />
 								<Route component={NotFoundPage} />

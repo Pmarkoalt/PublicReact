@@ -28,14 +28,24 @@
       flex-direction: row;
       justify-content: space-between;
 
-        &__items{
-          width: 38vw;
-          height: 400px;
+        &__item{
+
+          &__poster{
+            width: 38vw;
+            height: 400px;
+          }
+
+          &__text{
+            
+          }
         }
     }
 
     &__blurb{
-      width: 40%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+
     }
 
     &__threePoster{
