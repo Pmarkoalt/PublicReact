@@ -22,7 +22,7 @@ const AppData = {
     title: "Love Magazine",
     type: "Brand Identites",
     headText: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida, ligula sodales viverra suscipit, orci lectus elementum velit, et finibus libero risus at urna. Aenean a leo et leo porta scelerisque at ut lacus. Cras sodales vestibulum mi eu ultrices. Maecenas vitae elit at lacus semper bibendum nec non tortor. Sed eget nibh vitae enim lobortis feugiat. Quisque finibus, magna ac feugiat eleifend, tellus leo commodo ante, sodales convallis metus mi eget orci. Morbi quis nisi nec diam vehicula vulputate vel ultricies sem. Donec suscipit non lectus eu pharetra. Donec quis vulputate felis. Nullam sagittis magna metus, eget aliquet tortor sollicitudin nec. Praesent ultrices cursus facilisis. Phasellus hendrerit malesuada massa et mattis.",
-    cards: ["http://lorempixel.com/900/1400", "http://lorempixel.com/900/1400", "http://lorempixel.com/900/1400", "http://lorempixel.com/900/1400", "http://lorempixel.com/900/1400", "http://lorempixel.com/900/1400", "http://lorempixel.com/900/1400", "http://lorempixel.com/900/1400"],
+    cards: ["http://lorempixel.com/1000/1400", "http://lorempixel.com/1300/1400", "http://lorempixel.com/500/1400", "http://lorempixel.com/900/1400", "http://lorempixel.com/650/1400", "http://lorempixel.com/1800/1400", "http://lorempixel.com/900/1300", "http://lorempixel.com/900/1400"],
     banner: "http://via.placeholder.com/1400x900",
     twoPost: [
       {

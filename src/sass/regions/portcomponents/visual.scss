@@ -1,11 +1,36 @@
 .visual{
 
-  &__carousel{
-    background: #fff !important;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    width: 100%;
-    overflow: hidden;
+  &__carouselContainer{
+    position: relative;
+
+    &__loader{
+      border: 2px solid red;
+      position: absolute;
+      z-index: 10;
+      top: 35%;
+      left: 42%;
+      -webkit-animation: loadingAnimation 1s infinite alternate; /* Safari 4.0 - 8.0 */
+      animation: loadingAnimation 1s infinite alternate;
+    }
+
+    &__carousel{
+      background: #fff !important;
+      margin-top: 50px;
+      width: 100%;
+      overflow: hidden;
+      opacity: 0;
+      transition: all 1s;
+    }
+
+    &__navBar{
+      width: 100%;
+      height: 100px;
+      margin-bottom: 50px;
+      overflow: hidden;
+      opacity: 0;
+      transition: all 1s;
+    }
+
   }
 
   &__content{
@@ -36,7 +61,7 @@
           }
 
           &__text{
-            
+
           }
         }
     }
@@ -68,16 +93,9 @@
   margin-bottom: 20px;
 }
 
-.carousel{
-  background: #fff !important;
-  width: 100%;
-
-}
-
 .card{
   margin: 10px;
   height: calc(100vh - 15rem);
-  width: 310px;
 }
 
 .caroImg{
@@ -85,7 +103,59 @@
   pointer-events: none;
 }
 
+.navCard{
+  height: 100px;
+  margin: 2px;
+  opacity: .5;
+  transition: opacity 1s;
+}
+
+.navImg{
+  height: 100px;
+  pointer-events: none;
+}
+
 .flickity-viewport:focus,
-.visual__carousel{
+.visual__carouselContainer__carousel,
+.visual__carouselContainer__navBar{
   outline: none;
+}
+
+.galleryLoaded{
+  opacity: 1;
+}
+
+.navCard.is-selected{
+  opacity: 1;
+}
+
+//Animations
+
+@-webkit-keyframes loadingAnimation {
+    0%   {
+      top: -100px;
+      -webkit-transform: scale(1); /* Ch <36, Saf 5.1+, iOS < 9.2, An =<4.4.4 */
+      -ms-transform: scale(1); /* IE 9 */
+      transform: scale(1);
+    }
+    100% {
+      top: -100px;
+      -webkit-transform: scale(1.2); /* Ch <36, Saf 5.1+, iOS < 9.2, An =<4.4.4 */
+      -ms-transform: scale(1.2); /* IE 9 */
+      transform: scale(1.2);
+    }
+}
+
+/* Standard syntax */
+@keyframes loadingAnimation {
+  0%   {
+    -webkit-transform: scale(1); /* Ch <36, Saf 5.1+, iOS < 9.2, An =<4.4.4 */
+    -ms-transform: scale(1); /* IE 9 */
+    transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(1.2); /* Ch <36, Saf 5.1+, iOS < 9.2, An =<4.4.4 */
+    -ms-transform: scale(1.2); /* IE 9 */
+    transform: scale(1.2);
+  }
 }

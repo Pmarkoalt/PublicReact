@@ -12,36 +12,95 @@ class Visual extends Component{
     var params = props.match.params.id;
     super(props)
     this.state = {
+      galleryLoaded: false,
+      count: 0,
       selectedIndex: 0,
       project: this.props.projects[params]
     }
+    this.imageLoaded = this.imageLoaded.bind(this);
     this.updateSelected = this.updateSelected.bind(this);
+    this.updateSelectedNav = this.updateSelectedNav.bind(this);
+    this.loadGallery = this.loadGallery.bind(this);
+    this.navClick = this.navClick.bind(this);
   }
 
   componentDidMount() {
     if (this.state.project){
       const carousel = this.refs.carousel;
+      const nav = this.refs.caroNav;
       const options = {
-          cellSelector: '.card',
           contain: true,
           initialIndex: 0,
           wrapAround: true,
           prevNextButtons: false,
           pageDots: false,
           resize: true,
-          setGallerySize: true
+          setGallerySize: true,
+          imagesLoaded: true
+      }
+      const mainOptions = {
+        cellSelector: '.card',
+        ...options
+      }
+      const navOptions = {
+        cellSelector: '.navCard',
+        ...options,
+        wrapAround: false,
+        freeScroll: true
       }
 
-      this.flkty = new Flickity(carousel, options);
+      this.flkty = new Flickity(carousel, mainOptions);
+      this.flktyNav = new Flickity(nav, navOptions);
       this.flkty.on('cellSelect', this.updateSelected);
+
+      this.flkty.resize();
+
     }
+    setTimeout(() =>{
+      if (this.state.galleryLoaded === false){
+        this.loadGallery();
+        this.setState({galleryLoaded : true});
+      }
+    }, 10000);
+  }
+
+  imageLoaded(){
+    this.state.count++;
+    console.log(`the current count is ${this.state.count}`);
+    if (this.state.count === this.state.project.cards.length){
+      this.loadGallery();
+      this.setState({galleryLoaded: true});
+      console.log("load gallery triggered");
+    }
+  }
+
+  loadGallery(){
+    this.flkty.resize();
+    this.flktyNav.resize();
   }
 
   updateSelected() {
       var index = this.flkty.selectedIndex;
-      this.setState({
-          selectedIndex: index
-      });
+      this.setState({ selectedIndex: index });
+  }
+
+  updateSelectedNav(){
+      var index = this.flktyNav.selectedIndex;
+      this.setState({ selectedIndex: index });
+  }
+
+  navClick(index){
+    this.setState({ selectedIndex: index });
+    console.log(index);
+  }
+
+  componentDidUpdate(prevProps, prevState){
+    if (prevState.selectedIndex !== this.flkty.selectedIndex){
+      this.flkty.selectCell(this.state.selectedIndex);
+    }
+    if (prevState.selectedIndex !== this.flktyNav.selectedIndex){
+      this.flktyNav.selectCell(this.state.selectedIndex);
+    }
   }
 
   componentWillUnmount() {
@@ -57,13 +116,23 @@ class Visual extends Component{
       return(
         <div className="visual">
           <Link to={'/'}><button className="backButton">BACK TO HOME PAGE</button></Link>
-            <div ref='carousel' className='visual__carousel'>
-              {this.state.project.cards.map((card, index) => {
-                return(
-                  <div key={index} className="card"><img className="caroImg" src={card}/></div>
-                )
-              })}
-            </div>
+          <div className="visual__carouselContainer">
+            {this.state.galleryLoaded === false && <img className="visual__carouselContainer__loader" src="https://botw-pd.s3.amazonaws.com/styles/logo-thumbnail/s3/082016/untitled-1_5.png?itok=Qi8g19US" />}
+              <div ref='carousel' className={'visual__carouselContainer__carousel ' + (this.state.galleryLoaded ? "galleryLoaded" : "")}>
+                {this.state.project.cards.map((card, index) => {
+                  return(
+                    <div key={index} className="card"><img className="caroImg" onLoad={this.imageLoaded} src={card}/></div>
+                  )
+                })}
+              </div>
+              <div ref='caroNav' className={'visual__carouselContainer__navBar ' + (this.state.galleryLoaded ? "galleryLoaded" : "")}>
+                {this.state.project.cards.map((card, index) => {
+                  return(
+                    <div key={index} className="navCard" onClick={() => this.navClick(index)}><img className="navImg" src={card}/></div>
+                  )
+                })}
+              </div>
+          </div>
           <div className="visual__content">
             <div className="visual__content__text">
               <h1 className="visualTitle"> <span className="portHeader"> {this.state.project.title} </span>  <span className="portItalic"> {this.state.project.type} </span> </h1>

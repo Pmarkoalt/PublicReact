@@ -14,9 +14,11 @@ class Portfolio extends Component{
       interactive: false,
       artDirection: false,
       print: false,
-      motion: false
+      motion: false,
+      fromTop: -1000
     }
     this.handleChange = this.handleChange.bind(this);
+    this.handleScroll = this.handleScroll.bind(this);
   }
 
   handleChange(event) {
@@ -25,14 +27,24 @@ class Portfolio extends Component{
     this.setState({[event.target.value]: true});
   }
 
-  ComponentDidMount(){
+  componentDidMount(){
+    window.addEventListener('scroll', this.handleScroll);
+  }
 
+  componentWillUnmount(){
+    window.removeEventListener('scroll', this.handleScroll);
+  }
 
+  handleScroll(event) {
+    this.setState({
+      fromTop: window.pageYOffset - this.refs.port.offsetTop
+    });
   }
 
   render(AppData){
     return(
-      <div className="capabilities">
+      <div ref="port" className="capabilities">
+        {this.state.fromTop > -230 &&
           <nav className="capabilities__content__nav">
             <div className="capabilities__content__nav__header">
               <h1 className="capabilities__header"> Selected Work </h1>
@@ -46,8 +58,8 @@ class Portfolio extends Component{
               <option value="motion">Motion</option>
             </select>
           </nav>
+        }
           <div className="capabilities__content">
-
             <div className="capabilities__content__gallery">
               <div className="capabilities__content__gallery__row">
                 <Link to={'/visual/visualtest'}>
@@ -195,7 +207,7 @@ class Portfolio extends Component{
                 </Link>
               </div>
               <div className="capabilities__content__gallery__row">
-                <Link to={'/fakepage'}>
+                <Link to={'/visual/omni'}>
                   <div className={"capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.identities ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '')}>
                     <img className="capabilities__content__gallery__row__item__image" src="/imgs/omni/omniPort.jpg" />
                     <div className="capabilities__content__gallery__row__item__text">
