@@ -52,7 +52,7 @@ class Visual extends Component{
       this.flkty = new Flickity(carousel, mainOptions);
       this.flktyNav = new Flickity(nav, navOptions);
       this.flkty.on('cellSelect', this.updateSelected);
-
+      
       this.flkty.resize();
 
     }

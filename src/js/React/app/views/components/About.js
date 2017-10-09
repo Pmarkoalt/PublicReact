@@ -17,14 +17,14 @@ class About extends Component{
 
   componentWillEnter(callback){
     const el = this.container;
-    const content = document.getElementsByClassName('aboutContainer');
-    TweenMax.fromTo(content, 0.3, {scale: .7}, {scale: 1});
-    TweenMax.fromTo(el, 0.3, {y: -1000, opacity: 0}, {y: 0, opacity: 1, onComplete: callback});
+    // const content = document.getElementsByClassName('aboutContainer');
+    // TweenMax.fromTo(content, 0.3, {scale: .7}, {scale: 1});
+    TweenMax.fromTo(el, 0.3, {y: -1000, opacity: 0, height: '0vh'}, {y: 0, opacity: 1, height: '100vh', onComplete: callback});
   }
 
   componentWillLeave(callback){
     const el = this.container;
-    TweenMax.fromTo(el, 0.3, {y: 0, opacity: 1}, {y: -1000, opacity: 0, onComplete: callback});
+    TweenMax.fromTo(el, 0.3, {y: 0, opacity: 1, height: '100vh'}, {y: -1000, opacity: 0, height: '0vh', onComplete: callback});
   }
 
   render(){

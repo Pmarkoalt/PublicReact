@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import { StickyContainer, Sticky } from 'react-sticky';
-import { Link } from 'react-router-dom'
+import ReactDOM from 'react-dom'
+import { Link } from 'react-router-dom';
+import Flickity from 'flickity';
 
-// import {omni, visualTest} from "../../../../App.data.js";
-
+import PortfolioData from './Portfolio.data.js';
 
 class Portfolio extends Component{
   constructor(props){
@@ -15,10 +15,19 @@ class Portfolio extends Component{
       artDirection: false,
       print: false,
       motion: false,
-      fromTop: -1000
+      fromTop: -1000,
+      special: PortfolioData.special,
+      showSpecial: false,
+      selectedIndex: 0,
+      count: 0,
+      galleryLoaded: false,
     }
     this.handleChange = this.handleChange.bind(this);
     this.handleScroll = this.handleScroll.bind(this);
+    this.updateSelected = this.updateSelected.bind(this);
+    this.imageLoaded = this.imageLoaded.bind(this);
+    this.loadGallery = this.loadGallery.bind(this);
+    this.showSpecial = this.showSpecial.bind(this);
   }
 
   handleChange(event) {
@@ -29,10 +38,37 @@ class Portfolio extends Component{
 
   componentDidMount(){
     window.addEventListener('scroll', this.handleScroll);
+    const specialNav = this.refs.test;
+    const options = {
+        cellSelector: '.specialCard',
+        contain: true,
+        initialIndex: 0,
+        wrapAround: true,
+        prevNextButtons: false,
+        pageDots: false,
+        resize: true,
+        setGallerySize: true,
+        imagesLoaded: true
+    }
+    this.flkty = new Flickity(specialNav, options);
+    this.flkty.on('cellSelect', this.updateSelected);
+
   }
 
   componentWillUnmount(){
     window.removeEventListener('scroll', this.handleScroll);
+  }
+
+  imageLoaded(){
+    this.state.count++;
+    if (this.state.count === this.state.special.length){
+      this.loadGallery();
+      this.setState({galleryLoaded: true});
+    }
+  }
+
+  loadGallery(){
+    this.flkty.resize();
   }
 
   handleScroll(event) {
@@ -41,10 +77,22 @@ class Portfolio extends Component{
     });
   }
 
+  updateSelected() {
+      var index = this.flkty.selectedIndex;
+      this.setState({ selectedIndex: index });
+  }
+
+  showSpecial() {
+    this.setState({
+      showSpecial : !this.state.showSpecial
+    });
+  }
+
   render(AppData){
     return(
       <div ref="port" className="capabilities">
-        {this.state.fromTop > -230 &&
+        {/* {this.state.fromTop > -230 && */}
+        <div className={"navContainer " + (this.state.fromTop > -230 && "navShow")}>
           <nav className="capabilities__content__nav">
             <div className="capabilities__content__nav__header">
               <h1 className="capabilities__header"> Selected Work </h1>
@@ -57,8 +105,21 @@ class Portfolio extends Component{
               <option value="print">Print</option>
               <option value="motion">Motion</option>
             </select>
+            <button onClick={this.showSpecial}> Show Special </button>
           </nav>
-        }
+          <div ref="test" className={"capabilities__content__specialNav " + (this.state.showSpecial && "showSpecial")}>
+            {this.state.special.map((card, index) => {
+              return(
+                <Link key={index} to={card.link}>
+                  <div className={"specialCard " + (this.state.galleryLoaded ? "galleryLoaded" : "" )}>
+                    <img className="specialImg" src={card.image} onLoad={this.imageLoaded}/>
+                    <p className="specialText"> {card.title} </p>
+                  </div>
+                </Link>
+              )
+            })}
+          </div>
+        </div>
           <div className="capabilities__content">
             <div className="capabilities__content__gallery">
               <div className="capabilities__content__gallery__row">

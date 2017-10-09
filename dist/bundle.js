@@ -86,7 +86,7 @@
 	exports.push([module.id, "@import url(https://fonts.googleapis.com/css?family=Cinzel:400,700|Cormorant+Garamond:300,400);", ""]);
 	
 	// module
-	exports.push([module.id, ".container, main {\n  position: relative; }\n\nol, ul {\n  list-style: none; }\n\na, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font: inherit;\n  vertical-align: baseline; }\n\narticle, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {\n  display: block; }\n\nbody {\n  line-height: 1;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n  font-family: futura-pt; }\n\n.slick-list,\n.slick-slider,\n.slick-track {\n  position: relative;\n  display: block; }\n\n.slick-loading .slick-slide,\n.slick-loading .slick-track {\n  visibility: hidden; }\n\n.slick-slider {\n  box-sizing: border-box;\n  -webkit-user-select: none;\n  -moz-user-select: none;\n  -ms-user-select: none;\n  user-select: none;\n  -webkit-touch-callout: none;\n  -khtml-user-select: none;\n  -ms-touch-action: pan-y;\n  touch-action: pan-y;\n  -webkit-tap-highlight-color: transparent; }\n\n.slick-list {\n  overflow: hidden;\n  margin: 0;\n  padding: 0; }\n\n.slick-list:focus {\n  outline: 0; }\n\n.slick-list.dragging {\n  cursor: pointer;\n  cursor: hand; }\n\n.slick-slider .slick-list,\n.slick-slider .slick-track {\n  -webkit-transform: translate3d(0, 0, 0);\n  -moz-transform: translate3d(0, 0, 0);\n  -ms-transform: translate3d(0, 0, 0);\n  -o-transform: translate3d(0, 0, 0);\n  transform: translate3d(0, 0, 0); }\n\n.slick-track {\n  top: 0;\n  left: 0; }\n\n.slick-track:after,\n.slick-track:before {\n  display: table;\n  content: ''; }\n\n.slick-track:after {\n  clear: both; }\n\n.slick-slide {\n  display: none;\n  float: left;\n  height: 100%;\n  min-height: 1px; }\n\n[dir=rtl] .slick-slide {\n  float: right; }\n\n.slick-slide img {\n  display: block; }\n\n.slick-slide.slick-loading img {\n  display: none; }\n\n.slick-slide.dragging img {\n  pointer-events: none; }\n\n.slick-initialized .slick-slide {\n  display: block;\n  margin: 15px; }\n\n.slick-vertical .slick-slide {\n  display: block;\n  height: auto;\n  border: 1px solid transparent; }\n\n.slick-arrow.slick-hidden {\n  display: none; }\n\n/*# sourceMappingURL=slick.min.css.map */\n/*\n===================================\n    MEDIA QUERIES\n===================================\n*/\ninput[type=range] {\n  -webkit-appearance: none;\n  width: 100%;\n  margin: 5.1px 0; }\n\ninput[type=range]:focus {\n  outline: none; }\n\ninput[type=range]::-webkit-slider-runnable-track {\n  width: 100%;\n  height: 1.8px;\n  cursor: pointer;\n  box-shadow: 0px 0px 0px transparent, 0px 0px 0px rgba(13, 13, 13, 0);\n  background: #000000;\n  border-radius: 0px;\n  border: 0px solid rgba(1, 1, 1, 0); }\n\ninput[type=range]::-webkit-slider-thumb {\n  box-shadow: 0px 0px 0px transparent, 0px 0px 0px rgba(13, 13, 13, 0);\n  border: 0px solid transparent;\n  height: 12px;\n  width: 12px;\n  border-radius: 50px;\n  background: #000000;\n  cursor: pointer;\n  -webkit-appearance: none;\n  margin-top: -5.1px; }\n\ninput[type=range]:focus::-webkit-slider-runnable-track {\n  background: #050505; }\n\ninput[type=range]::-moz-range-track {\n  width: 100%;\n  height: 1.8px;\n  cursor: pointer;\n  box-shadow: 0px 0px 0px transparent, 0px 0px 0px rgba(13, 13, 13, 0);\n  background: #000000;\n  border-radius: 0px;\n  border: 0px solid rgba(1, 1, 1, 0); }\n\ninput[type=range]::-moz-range-thumb {\n  box-shadow: 0px 0px 0px transparent, 0px 0px 0px rgba(13, 13, 13, 0);\n  border: 0px solid transparent;\n  height: 12px;\n  width: 12px;\n  border-radius: 50px;\n  background: #000000;\n  cursor: pointer; }\n\ninput[type=range]::-ms-track {\n  width: 100%;\n  height: 1.8px;\n  cursor: pointer;\n  background: transparent;\n  border-color: transparent;\n  color: transparent; }\n\ninput[type=range]::-ms-fill-lower {\n  background: #000000;\n  border: 0px solid rgba(1, 1, 1, 0);\n  border-radius: 0px;\n  box-shadow: 0px 0px 0px transparent, 0px 0px 0px rgba(13, 13, 13, 0); }\n\ninput[type=range]::-ms-fill-upper {\n  background: #000000;\n  border: 0px solid rgba(1, 1, 1, 0);\n  border-radius: 0px;\n  box-shadow: 0px 0px 0px transparent, 0px 0px 0px rgba(13, 13, 13, 0); }\n\ninput[type=range]::-ms-thumb {\n  box-shadow: 0px 0px 0px transparent, 0px 0px 0px rgba(13, 13, 13, 0);\n  border: 0px solid transparent;\n  height: 12px;\n  width: 12px;\n  border-radius: 50px;\n  background: #000000;\n  cursor: pointer;\n  height: 1.8px; }\n\ninput[type=range]:focus::-ms-fill-lower {\n  background: #000000; }\n\ninput[type=range]:focus::-ms-fill-upper {\n  background: #050505; }\n\n.volumeSlider {\n  width: 50px !important; }\n\n.splash {\n  height: 90vh;\n  top: 0;\n  z-index: -500;\n  font: 'Cinzel'; }\n  .splash__content {\n    margin-top: 100px;\n    margin-left: 50px;\n    margin-right: 200px;\n    display: flex; }\n    .splash__content__text {\n      margin-left: 10px; }\n      .splash__content__text__logo {\n        margin-top: 29px; }\n      .splash__content__text__paragraph {\n        max-width: 900px; }\n  .splash__arrowContainer {\n    margin-top: 100px;\n    display: flex;\n    justify-content: center; }\n    .splash__arrowContainer__arrow {\n      width: 13px;\n      height: 13px;\n      border-bottom: 2px solid #000000;\n      border-right: 2px solid #000000;\n      -webkit-transform: translate(-50%, 0%) rotate(45deg);\n      -moz-transform: translate(-50%, 0%) rotate(45deg);\n      transform: translate(-50%, 0%) rotate(45deg);\n      -webkit-animation: move_down 4s ease-in-out infinite;\n      -moz-animation: move_down 4s ease-in-out infinite;\n      animation: move_down 4s ease-in-out infinite; }\n\n.splash__h1 {\n  font-family: 'Cinzel', serif;\n  font-size: 50px; }\n\n.splash__h2 {\n  font-family: 'Cormorant Garamond', serif;\n  font-size: 35px; }\n\n.splash__contact {\n  font-size: 25px;\n  font-style: italic;\n  text-decoration: underline; }\n\n.splash__links {\n  font-size: 25px; }\n\n/*\n===================================\n    ANIMATIONS\n===================================\n*/\n@keyframes move_down {\n  0% {\n    transform: translate(0, -10px) rotate(45deg);\n    opacity: 0; }\n  50% {\n    opacity: 1; }\n  100% {\n    transform: translate(0, 10px) rotate(45deg);\n    opacity: 0; } }\n\n/*\n===================================\n    MEDIA QUERIES\n===================================\n*/\n.capabilities {\n  background-color: white;\n  min-height: 100vh; }\n  .capabilities__content {\n    margin-left: 3%;\n    margin-right: 3%;\n    margin-top: 50px; }\n    .capabilities__content__nav {\n      position: fixed;\n      top: 0;\n      z-index: 5;\n      display: flex;\n      flex-direction: row;\n      margin-bottom: 30px;\n      background-color: white;\n      height: 70px;\n      width: 100%;\n      align-items: center;\n      box-shadow: rgba(0, 0, 0, 0.2) 1px 2px 5px;\n      transition: all .25s; }\n      .capabilities__content__nav__header {\n        margin-right: 100px; }\n    .capabilities__content__gallery {\n      display: flex;\n      flex-direction: row;\n      flex-wrap: wrap; }\n      .capabilities__content__gallery__row {\n        display: flex; }\n        .capabilities__content__gallery__row__item {\n          margin: 20px;\n          margin-left: 0px;\n          display: flex;\n          flex-direction: column;\n          transition: 1s all;\n          opacity: .3; }\n          .capabilities__content__gallery__row__item__image {\n            height: calc(100vh - 27rem); }\n\n.navShadow {\n  box-shadow: rgba(0, 0, 0, 0.21) 0px 1px 16px; }\n\n.navHide {\n  box-shadow: rgba(0, 0, 0, 0.21) 0px 0px 0px; }\n\n.capabilities__header {\n  font-size: 25px;\n  margin-left: 100px; }\n\n.capabilities__headLink {\n  font-size: 25px;\n  opacity: .5;\n  margin-right: 20px;\n  transition: all .2s; }\n\n.capabilities__headLink:hover {\n  opacity: 1;\n  cursor: pointer; }\n\n.capabilities__galleryTitle {\n  margin-top: 10px;\n  font-weight: bold;\n  font-family: sans-serif;\n  display: inline-block; }\n\n.capabilities__galleryType {\n  font-family: sans-serif;\n  display: inline-block;\n  margin-left: 10px; }\n\n.filterOff {\n  opacity: 1;\n  transition: 1s all; }\n\n.portHeader {\n  font-size: 45px;\n  font-family: 'Cinzel', serif; }\n\n.portItalic {\n  font-size: 45px;\n  font-family: 'Cinzel', serif;\n  font-style: italic; }\n\n.portText {\n  font-family: 'Cormorant Garamond', serif;\n  font-size: 20px; }\n\n.backbutton {\n  position: absolute;\n  top: 20px;\n  left: 20px; }\n\n.visual__carouselContainer {\n  position: relative; }\n  .visual__carouselContainer__loader {\n    border: 2px solid red;\n    position: absolute;\n    z-index: 10;\n    top: 35%;\n    left: 42%;\n    -webkit-animation: loadingAnimation 1s infinite alternate;\n    /* Safari 4.0 - 8.0 */\n    animation: loadingAnimation 1s infinite alternate; }\n  .visual__carouselContainer__carousel {\n    background: #fff !important;\n    margin-top: 50px;\n    width: 100%;\n    overflow: hidden;\n    opacity: 0;\n    transition: all 1s; }\n  .visual__carouselContainer__navBar {\n    width: 100%;\n    height: 100px;\n    margin-bottom: 50px;\n    overflow: hidden;\n    opacity: 0;\n    transition: all 1s; }\n\n.visual__content {\n  margin-left: 10vw;\n  margin-right: 10vw; }\n  .visual__content__text {\n    width: 80%; }\n  .visual__content__rowPhoto {\n    width: 100%;\n    height: calc(100vh - 20rem);\n    margin-top: 10px;\n    margin-bottom: 20px; }\n  .visual__content__twoPoster {\n    display: flex;\n    flex-direction: row;\n    justify-content: space-between; }\n    .visual__content__twoPoster__item__poster {\n      width: 38vw;\n      height: 400px; }\n  .visual__content__blurb {\n    display: flex;\n    flex-direction: row;\n    justify-content: space-between; }\n  .visual__content__threePoster {\n    display: flex;\n    flex-direction: row;\n    justify-content: space-between; }\n    .visual__content__threePoster__item {\n      width: 30%; }\n      .visual__content__threePoster__item__card {\n        width: 100%; }\n\n.visualTitle {\n  margin-bottom: 20px; }\n\n.card {\n  margin: 10px;\n  height: calc(100vh - 15rem); }\n\n.caroImg {\n  height: calc(100vh - 15rem);\n  pointer-events: none; }\n\n.navCard {\n  height: 100px;\n  margin: 2px;\n  opacity: .5;\n  transition: opacity 1s; }\n\n.navImg {\n  height: 100px;\n  pointer-events: none; }\n\n.flickity-viewport:focus,\n.visual__carouselContainer__carousel,\n.visual__carouselContainer__navBar {\n  outline: none; }\n\n.galleryLoaded {\n  opacity: 1; }\n\n.navCard.is-selected {\n  opacity: 1; }\n\n@-webkit-keyframes loadingAnimation {\n  0% {\n    top: -100px;\n    -webkit-transform: scale(1);\n    /* Ch <36, Saf 5.1+, iOS < 9.2, An =<4.4.4 */\n    -ms-transform: scale(1);\n    /* IE 9 */\n    transform: scale(1); }\n  100% {\n    top: -100px;\n    -webkit-transform: scale(1.2);\n    /* Ch <36, Saf 5.1+, iOS < 9.2, An =<4.4.4 */\n    -ms-transform: scale(1.2);\n    /* IE 9 */\n    transform: scale(1.2); } }\n\n/* Standard syntax */\n@keyframes loadingAnimation {\n  0% {\n    -webkit-transform: scale(1);\n    /* Ch <36, Saf 5.1+, iOS < 9.2, An =<4.4.4 */\n    -ms-transform: scale(1);\n    /* IE 9 */\n    transform: scale(1); }\n  100% {\n    -webkit-transform: scale(1.2);\n    /* Ch <36, Saf 5.1+, iOS < 9.2, An =<4.4.4 */\n    -ms-transform: scale(1.2);\n    /* IE 9 */\n    transform: scale(1.2); } }\n\n.audio__content {\n  margin-left: 10vw;\n  margin-right: 10vw; }\n  .audio__content__album {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    margin-top: 150px; }\n    .audio__content__album__tilt {\n      height: 400px;\n      width: 400px; }\n      .audio__content__album__tilt__cover {\n        height: 100%;\n        width: 100%; }\n    .audio__content__album__media {\n      width: 400px;\n      display: flex;\n      justify-content: space-between;\n      align-items: center;\n      margin-top: 25px; }\n      .audio__content__album__media__play {\n        width: 60px; }\n      .audio__content__album__media__input {\n        position: relative;\n        display: flex;\n        align-items: center;\n        justify-content: center;\n        width: 80%;\n        margin-left: 10px;\n        margin-right: 10px; }\n      .audio__content__album__media__volume {\n        display: flex; }\n  .audio__content__text {\n    margin-top: 50px; }\n\n.video__content {\n  margin-left: 10vw;\n  margin-right: 10vw; }\n  .video__content__video {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    margin-top: 120px; }\n    .video__content__video__container {\n      height: 400px;\n      width: 100%; }\n    .video__content__video__media {\n      width: 100%;\n      display: flex;\n      justify-content: space-between;\n      align-items: center; }\n      .video__content__video__media__playing {\n        display: flex;\n        justify-content: space-between;\n        align-items: center;\n        width: 70px; }\n        .video__content__video__media__playing__fullscreen {\n          width: 30px;\n          height: 30px; }\n      .video__content__video__media__input {\n        position: relative;\n        display: flex;\n        align-items: center;\n        justify-content: center;\n        width: 80%;\n        margin-left: 10px;\n        margin-right: 10px; }\n      .video__content__video__media__volume {\n        display: flex; }\n  .video__content__text {\n    margin-top: 50px; }\n\n.about {\n  height: 100vh;\n  color: white;\n  display: flex;\n  flex-direction: row; }\n  .about__left {\n    width: 100vw;\n    margin-top: 100px;\n    margin-left: 10vw; }\n    .about__left__staff {\n      display: flex;\n      flex-direction: row;\n      justify-content: space-between;\n      width: 400px; }\n  .about__right {\n    width: 100vw;\n    margin-top: 100px;\n    margin-bottom: 100px;\n    margin-right: 10vw;\n    display: flex;\n    flex-direction: column;\n    justify-content: center; }\n\n.aboutContainer {\n  background-color: #111;\n  width: 100%;\n  height: 100vh; }\n\n.about__text {\n  font-size: 15px; }\n\n.about__name {\n  font-size: 15px;\n  font-family: cursive; }\n\n.notFoundPage {\n  display: flex;\n  -webkit-box-align: center;\n  -webkit-box-pack: center;\n  align-content: center;\n  align-items: center;\n  background: url(/imgs/util/404.gif) no-repeat;\n  background-position: 50%;\n  background-size: cover;\n  justify-content: center;\n  height: 100vh; }\n\n.errorText {\n  font-size: 30vw;\n  font-family: monospace;\n  font-weight: 900;\n  color: white;\n  text-shadow: -4px -1px black, 0 1px black, 3px -2px black, -4px 2px black; }\n\n* {\n  min-height: 0;\n  min-width: 0; }\n\n.sideBarContainer {\n  position: fixed;\n  top: 20px;\n  right: 0%;\n  width: 75px;\n  height: 30px;\n  z-index: 10; }\n\n.sideBarCircle {\n  display: block;\n  position: relative;\n  width: 30px;\n  height: 30px;\n  background: black;\n  border-radius: 50%;\n  box-shadow: 0px 0px 17px #ffffff; }\n", ""]);
+	exports.push([module.id, ".container, main {\n  position: relative; }\n\nol, ul {\n  list-style: none; }\n\na, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font: inherit;\n  vertical-align: baseline; }\n\narticle, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {\n  display: block; }\n\nbody {\n  line-height: 1;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n  font-family: futura-pt; }\n\n.slick-list,\n.slick-slider,\n.slick-track {\n  position: relative;\n  display: block; }\n\n.slick-loading .slick-slide,\n.slick-loading .slick-track {\n  visibility: hidden; }\n\n.slick-slider {\n  box-sizing: border-box;\n  -webkit-user-select: none;\n  -moz-user-select: none;\n  -ms-user-select: none;\n  user-select: none;\n  -webkit-touch-callout: none;\n  -khtml-user-select: none;\n  -ms-touch-action: pan-y;\n  touch-action: pan-y;\n  -webkit-tap-highlight-color: transparent; }\n\n.slick-list {\n  overflow: hidden;\n  margin: 0;\n  padding: 0; }\n\n.slick-list:focus {\n  outline: 0; }\n\n.slick-list.dragging {\n  cursor: pointer;\n  cursor: hand; }\n\n.slick-slider .slick-list,\n.slick-slider .slick-track {\n  -webkit-transform: translate3d(0, 0, 0);\n  -moz-transform: translate3d(0, 0, 0);\n  -ms-transform: translate3d(0, 0, 0);\n  -o-transform: translate3d(0, 0, 0);\n  transform: translate3d(0, 0, 0); }\n\n.slick-track {\n  top: 0;\n  left: 0; }\n\n.slick-track:after,\n.slick-track:before {\n  display: table;\n  content: ''; }\n\n.slick-track:after {\n  clear: both; }\n\n.slick-slide {\n  display: none;\n  float: left;\n  height: 100%;\n  min-height: 1px; }\n\n[dir=rtl] .slick-slide {\n  float: right; }\n\n.slick-slide img {\n  display: block; }\n\n.slick-slide.slick-loading img {\n  display: none; }\n\n.slick-slide.dragging img {\n  pointer-events: none; }\n\n.slick-initialized .slick-slide {\n  display: block;\n  margin: 15px; }\n\n.slick-vertical .slick-slide {\n  display: block;\n  height: auto;\n  border: 1px solid transparent; }\n\n.slick-arrow.slick-hidden {\n  display: none; }\n\n/*# sourceMappingURL=slick.min.css.map */\n/*\n===================================\n    MEDIA QUERIES\n===================================\n*/\ninput[type=range] {\n  -webkit-appearance: none;\n  width: 100%;\n  margin: 5.1px 0; }\n\ninput[type=range]:focus {\n  outline: none; }\n\ninput[type=range]::-webkit-slider-runnable-track {\n  width: 100%;\n  height: 1.8px;\n  cursor: pointer;\n  box-shadow: 0px 0px 0px transparent, 0px 0px 0px rgba(13, 13, 13, 0);\n  background: #000000;\n  border-radius: 0px;\n  border: 0px solid rgba(1, 1, 1, 0); }\n\ninput[type=range]::-webkit-slider-thumb {\n  box-shadow: 0px 0px 0px transparent, 0px 0px 0px rgba(13, 13, 13, 0);\n  border: 0px solid transparent;\n  height: 12px;\n  width: 12px;\n  border-radius: 50px;\n  background: #000000;\n  cursor: pointer;\n  -webkit-appearance: none;\n  margin-top: -5.1px; }\n\ninput[type=range]:focus::-webkit-slider-runnable-track {\n  background: #050505; }\n\ninput[type=range]::-moz-range-track {\n  width: 100%;\n  height: 1.8px;\n  cursor: pointer;\n  box-shadow: 0px 0px 0px transparent, 0px 0px 0px rgba(13, 13, 13, 0);\n  background: #000000;\n  border-radius: 0px;\n  border: 0px solid rgba(1, 1, 1, 0); }\n\ninput[type=range]::-moz-range-thumb {\n  box-shadow: 0px 0px 0px transparent, 0px 0px 0px rgba(13, 13, 13, 0);\n  border: 0px solid transparent;\n  height: 12px;\n  width: 12px;\n  border-radius: 50px;\n  background: #000000;\n  cursor: pointer; }\n\ninput[type=range]::-ms-track {\n  width: 100%;\n  height: 1.8px;\n  cursor: pointer;\n  background: transparent;\n  border-color: transparent;\n  color: transparent; }\n\ninput[type=range]::-ms-fill-lower {\n  background: #000000;\n  border: 0px solid rgba(1, 1, 1, 0);\n  border-radius: 0px;\n  box-shadow: 0px 0px 0px transparent, 0px 0px 0px rgba(13, 13, 13, 0); }\n\ninput[type=range]::-ms-fill-upper {\n  background: #000000;\n  border: 0px solid rgba(1, 1, 1, 0);\n  border-radius: 0px;\n  box-shadow: 0px 0px 0px transparent, 0px 0px 0px rgba(13, 13, 13, 0); }\n\ninput[type=range]::-ms-thumb {\n  box-shadow: 0px 0px 0px transparent, 0px 0px 0px rgba(13, 13, 13, 0);\n  border: 0px solid transparent;\n  height: 12px;\n  width: 12px;\n  border-radius: 50px;\n  background: #000000;\n  cursor: pointer;\n  height: 1.8px; }\n\ninput[type=range]:focus::-ms-fill-lower {\n  background: #000000; }\n\ninput[type=range]:focus::-ms-fill-upper {\n  background: #050505; }\n\n.volumeSlider {\n  width: 50px !important; }\n\n.splash {\n  height: 90vh;\n  top: 0;\n  z-index: -500;\n  font: 'Cinzel'; }\n  .splash__content {\n    margin-top: 100px;\n    margin-left: 50px;\n    margin-right: 200px;\n    display: flex; }\n    .splash__content__text {\n      margin-left: 10px; }\n      .splash__content__text__logo {\n        margin-top: 29px; }\n      .splash__content__text__paragraph {\n        max-width: 900px; }\n  .splash__arrowContainer {\n    margin-top: 100px;\n    display: flex;\n    justify-content: center; }\n    .splash__arrowContainer__arrow {\n      width: 13px;\n      height: 13px;\n      border-bottom: 2px solid #000000;\n      border-right: 2px solid #000000;\n      -webkit-transform: translate(-50%, 0%) rotate(45deg);\n      -moz-transform: translate(-50%, 0%) rotate(45deg);\n      transform: translate(-50%, 0%) rotate(45deg);\n      -webkit-animation: move_down 4s ease-in-out infinite;\n      -moz-animation: move_down 4s ease-in-out infinite;\n      animation: move_down 4s ease-in-out infinite; }\n\n.splash__h1 {\n  font-family: 'Cinzel', serif;\n  font-size: 50px; }\n\n.splash__h2 {\n  font-family: 'Cormorant Garamond', serif;\n  font-size: 35px; }\n\n.splash__contact {\n  font-size: 25px;\n  font-style: italic;\n  text-decoration: underline; }\n\n.splash__links {\n  font-size: 25px; }\n\n/*\n===================================\n    ANIMATIONS\n===================================\n*/\n@keyframes move_down {\n  0% {\n    transform: translate(0, -10px) rotate(45deg);\n    opacity: 0; }\n  50% {\n    opacity: 1; }\n  100% {\n    transform: translate(0, 10px) rotate(45deg);\n    opacity: 0; } }\n\n/*\n===================================\n    MEDIA QUERIES\n===================================\n*/\n.capabilities {\n  background-color: white;\n  min-height: 100vh; }\n  .capabilities__content {\n    margin-left: 3%;\n    margin-right: 3%;\n    margin-top: 50px; }\n    .capabilities__content__nav {\n      position: fixed;\n      top: 0;\n      z-index: 5;\n      display: flex;\n      flex-direction: row;\n      margin-bottom: 30px;\n      background-color: white;\n      height: 70px;\n      width: 100%;\n      align-items: center;\n      box-shadow: rgba(0, 0, 0, 0.2) 1px 2px 5px;\n      transition: all .25s; }\n      .capabilities__content__nav__header {\n        margin-right: 100px; }\n    .capabilities__content__specialNav {\n      position: fixed;\n      top: -500px;\n      z-index: 4;\n      height: 300px;\n      width: 100%;\n      background-color: white;\n      box-shadow: rgba(0, 0, 0, 0.2) 1px 2px 5px;\n      overflow: hidden;\n      -webkit-transition: top .5s ease-in-out;\n      -moz-transition: top .5s ease-in-out;\n      -ms-transition: top .5s ease-in-out;\n      -o-transition: top .5s ease-in-out;\n      transition: top .5s ease-in-out; }\n    .capabilities__content__gallery {\n      display: flex;\n      flex-direction: row;\n      flex-wrap: wrap; }\n      .capabilities__content__gallery__row {\n        display: flex; }\n        .capabilities__content__gallery__row__item {\n          margin: 20px;\n          margin-left: 0px;\n          display: flex;\n          flex-direction: column;\n          transition: 1s all;\n          opacity: .3; }\n          .capabilities__content__gallery__row__item__image {\n            height: calc(100vh - 27rem); }\n\n.navContainer {\n  visibility: hidden; }\n\n.navShow {\n  visibility: visible; }\n\n.specialCard {\n  margin-top: 70px;\n  height: 250px;\n  width: 250px;\n  opacity: 0; }\n\n.specialImg {\n  height: 200px;\n  width: 200px; }\n\n.showSpecial {\n  top: 0; }\n\n.galleryLoaded {\n  opacity: 1; }\n\n.flickity-viewport:focus,\n.capabilities__content__specialNav {\n  outline: none; }\n\n.capabilities__header {\n  font-size: 25px;\n  margin-left: 100px; }\n\n.capabilities__headLink {\n  font-size: 25px;\n  opacity: .5;\n  margin-right: 20px;\n  transition: all .2s; }\n\n.capabilities__headLink:hover {\n  opacity: 1;\n  cursor: pointer; }\n\n.capabilities__galleryTitle {\n  margin-top: 10px;\n  font-weight: bold;\n  font-family: sans-serif;\n  display: inline-block; }\n\n.capabilities__galleryType {\n  font-family: sans-serif;\n  display: inline-block;\n  margin-left: 10px; }\n\n.filterOff {\n  opacity: 1;\n  transition: 1s all; }\n\n.portHeader {\n  font-size: 45px;\n  font-family: 'Cinzel', serif; }\n\n.portItalic {\n  font-size: 45px;\n  font-family: 'Cinzel', serif;\n  font-style: italic; }\n\n.portText {\n  font-family: 'Cormorant Garamond', serif;\n  font-size: 20px; }\n\n.backbutton {\n  position: absolute;\n  top: 20px;\n  left: 20px; }\n\n.visual__carouselContainer {\n  position: relative; }\n  .visual__carouselContainer__loader {\n    border: 2px solid red;\n    position: absolute;\n    z-index: 10;\n    top: 35%;\n    left: 42%;\n    -webkit-animation: loadingAnimation 1s infinite alternate;\n    /* Safari 4.0 - 8.0 */\n    animation: loadingAnimation 1s infinite alternate; }\n  .visual__carouselContainer__carousel {\n    background: #fff !important;\n    margin-top: 50px;\n    width: 100%;\n    overflow: hidden;\n    opacity: 0;\n    transition: all 1s; }\n  .visual__carouselContainer__navBar {\n    width: 100%;\n    height: 100px;\n    margin-bottom: 50px;\n    overflow: hidden;\n    opacity: 0;\n    transition: all 1s; }\n\n.visual__content {\n  margin-left: 10vw;\n  margin-right: 10vw; }\n  .visual__content__text {\n    width: 80%; }\n  .visual__content__rowPhoto {\n    width: 100%;\n    height: calc(100vh - 20rem);\n    margin-top: 10px;\n    margin-bottom: 20px; }\n  .visual__content__twoPoster {\n    display: flex;\n    flex-direction: row;\n    justify-content: space-between; }\n    .visual__content__twoPoster__item__poster {\n      width: 38vw;\n      height: 400px; }\n  .visual__content__blurb {\n    display: flex;\n    flex-direction: row;\n    justify-content: space-between; }\n  .visual__content__threePoster {\n    display: flex;\n    flex-direction: row;\n    justify-content: space-between; }\n    .visual__content__threePoster__item {\n      width: 30%; }\n      .visual__content__threePoster__item__card {\n        width: 100%; }\n\n.visualTitle {\n  margin-bottom: 20px; }\n\n.card {\n  margin: 10px;\n  height: calc(100vh - 15rem); }\n\n.caroImg {\n  height: calc(100vh - 15rem);\n  pointer-events: none; }\n\n.navCard {\n  height: 100px;\n  margin: 2px;\n  opacity: .5;\n  transition: opacity 1s; }\n\n.navImg {\n  height: 100px;\n  pointer-events: none; }\n\n.flickity-viewport:focus,\n.visual__carouselContainer__carousel,\n.visual__carouselContainer__navBar {\n  outline: none; }\n\n.galleryLoaded {\n  opacity: 1; }\n\n.navCard.is-selected {\n  opacity: 1; }\n\n@-webkit-keyframes loadingAnimation {\n  0% {\n    top: -100px;\n    -webkit-transform: scale(1);\n    /* Ch <36, Saf 5.1+, iOS < 9.2, An =<4.4.4 */\n    -ms-transform: scale(1);\n    /* IE 9 */\n    transform: scale(1); }\n  100% {\n    top: -100px;\n    -webkit-transform: scale(1.2);\n    /* Ch <36, Saf 5.1+, iOS < 9.2, An =<4.4.4 */\n    -ms-transform: scale(1.2);\n    /* IE 9 */\n    transform: scale(1.2); } }\n\n/* Standard syntax */\n@keyframes loadingAnimation {\n  0% {\n    -webkit-transform: scale(1);\n    /* Ch <36, Saf 5.1+, iOS < 9.2, An =<4.4.4 */\n    -ms-transform: scale(1);\n    /* IE 9 */\n    transform: scale(1); }\n  100% {\n    -webkit-transform: scale(1.2);\n    /* Ch <36, Saf 5.1+, iOS < 9.2, An =<4.4.4 */\n    -ms-transform: scale(1.2);\n    /* IE 9 */\n    transform: scale(1.2); } }\n\n.audio__content {\n  margin-left: 10vw;\n  margin-right: 10vw; }\n  .audio__content__album {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    margin-top: 150px; }\n    .audio__content__album__tilt {\n      height: 400px;\n      width: 400px; }\n      .audio__content__album__tilt__cover {\n        height: 100%;\n        width: 100%; }\n    .audio__content__album__media {\n      width: 400px;\n      display: flex;\n      justify-content: space-between;\n      align-items: center;\n      margin-top: 25px; }\n      .audio__content__album__media__play {\n        width: 60px; }\n      .audio__content__album__media__input {\n        position: relative;\n        display: flex;\n        align-items: center;\n        justify-content: center;\n        width: 80%;\n        margin-left: 10px;\n        margin-right: 10px; }\n      .audio__content__album__media__volume {\n        display: flex; }\n  .audio__content__text {\n    margin-top: 50px; }\n\n.video__content {\n  margin-left: 10vw;\n  margin-right: 10vw; }\n  .video__content__video {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    margin-top: 120px; }\n    .video__content__video__container {\n      height: 400px;\n      width: 100%; }\n    .video__content__video__media {\n      width: 100%;\n      display: flex;\n      justify-content: space-between;\n      align-items: center; }\n      .video__content__video__media__playing {\n        display: flex;\n        justify-content: space-between;\n        align-items: center;\n        width: 70px; }\n        .video__content__video__media__playing__fullscreen {\n          width: 30px;\n          height: 30px; }\n      .video__content__video__media__input {\n        position: relative;\n        display: flex;\n        align-items: center;\n        justify-content: center;\n        width: 80%;\n        margin-left: 10px;\n        margin-right: 10px; }\n      .video__content__video__media__volume {\n        display: flex; }\n  .video__content__text {\n    margin-top: 50px; }\n\n.about {\n  height: 100vh;\n  color: white;\n  display: flex;\n  flex-direction: row; }\n  .about__left {\n    width: 100vw;\n    margin-top: 100px;\n    margin-left: 10vw; }\n    .about__left__staff {\n      display: flex;\n      flex-direction: row;\n      justify-content: space-between;\n      width: 400px; }\n  .about__right {\n    width: 100vw;\n    margin-top: 100px;\n    margin-bottom: 100px;\n    margin-right: 10vw;\n    display: flex;\n    flex-direction: column;\n    justify-content: center; }\n\n.aboutContainer {\n  background-color: #111;\n  width: 100%;\n  height: 100vh; }\n\n.about__text {\n  font-size: 15px; }\n\n.about__name {\n  font-size: 15px;\n  font-family: cursive; }\n\n.notFoundPage {\n  display: flex;\n  -webkit-box-align: center;\n  -webkit-box-pack: center;\n  align-content: center;\n  align-items: center;\n  background: url(/imgs/util/404.gif) no-repeat;\n  background-position: 50%;\n  background-size: cover;\n  justify-content: center;\n  height: 100vh; }\n\n.errorText {\n  font-size: 30vw;\n  font-family: monospace;\n  font-weight: 900;\n  color: white;\n  text-shadow: -4px -1px black, 0 1px black, 3px -2px black, -4px 2px black; }\n\n* {\n  min-height: 0;\n  min-width: 0; }\n\n.sideBarContainer {\n  position: fixed;\n  top: 20px;\n  right: 0%;\n  width: 75px;\n  height: 30px;\n  z-index: 10; }\n\n.sideBarCircle {\n  display: block;\n  position: relative;\n  width: 30px;\n  height: 30px;\n  background: black;\n  border-radius: 50%;\n  box-shadow: 0px 0px 17px #ffffff; }\n", ""]);
 	
 	// exports
 
@@ -30503,9 +30503,9 @@
 	
 	var _pages = __webpack_require__(271);
 	
-	var _components = __webpack_require__(372);
+	var _components = __webpack_require__(406);
 	
-	var _AppData = __webpack_require__(420);
+	var _AppData = __webpack_require__(454);
 	
 	var _AppData2 = _interopRequireDefault(_AppData);
 	
@@ -31208,7 +31208,7 @@
 	  }
 	});
 	
-	var _Video = __webpack_require__(367);
+	var _Video = __webpack_require__(362);
 	
 	Object.defineProperty(exports, 'Video', {
 	  enumerable: true,
@@ -31217,7 +31217,7 @@
 	  }
 	});
 	
-	var _Visual = __webpack_require__(370);
+	var _Visual = __webpack_require__(365);
 	
 	Object.defineProperty(exports, 'Visual', {
 	  enumerable: true,
@@ -34781,7 +34781,7 @@
 	  }
 	});
 	
-	var _Splash = __webpack_require__(301);
+	var _Splash = __webpack_require__(296);
 	
 	Object.defineProperty(exports, 'Splash', {
 	  enumerable: true,
@@ -34808,9 +34808,19 @@
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _reactSticky = __webpack_require__(296);
+	var _reactDom = __webpack_require__(42);
+	
+	var _reactDom2 = _interopRequireDefault(_reactDom);
 	
 	var _reactRouterDom = __webpack_require__(189);
+	
+	var _flickity = __webpack_require__(388);
+	
+	var _flickity2 = _interopRequireDefault(_flickity);
+	
+	var _PortfolioData = __webpack_require__(460);
+	
+	var _PortfolioData2 = _interopRequireDefault(_PortfolioData);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
@@ -34821,9 +34831,6 @@
 	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
 	
 	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-	
-	// import {omni, visualTest} from "../../../../App.data.js";
-	
 	
 	var Portfolio = function (_Component) {
 	  _inherits(Portfolio, _Component);
@@ -34840,10 +34847,19 @@
 	      artDirection: false,
 	      print: false,
 	      motion: false,
-	      fromTop: -1000
+	      fromTop: -1000,
+	      special: _PortfolioData2.default.special,
+	      showSpecial: false,
+	      selectedIndex: 0,
+	      count: 0,
+	      galleryLoaded: false
 	    };
 	    _this.handleChange = _this.handleChange.bind(_this);
 	    _this.handleScroll = _this.handleScroll.bind(_this);
+	    _this.updateSelected = _this.updateSelected.bind(_this);
+	    _this.imageLoaded = _this.imageLoaded.bind(_this);
+	    _this.loadGallery = _this.loadGallery.bind(_this);
+	    _this.showSpecial = _this.showSpecial.bind(_this);
 	    return _this;
 	  }
 	
@@ -34858,11 +34874,39 @@
 	    key: 'componentDidMount',
 	    value: function componentDidMount() {
 	      window.addEventListener('scroll', this.handleScroll);
+	      var specialNav = this.refs.test;
+	      var options = {
+	        cellSelector: '.specialCard',
+	        contain: true,
+	        initialIndex: 0,
+	        wrapAround: true,
+	        prevNextButtons: false,
+	        pageDots: false,
+	        resize: true,
+	        setGallerySize: true,
+	        imagesLoaded: true
+	      };
+	      this.flkty = new _flickity2.default(specialNav, options);
+	      this.flkty.on('cellSelect', this.updateSelected);
 	    }
 	  }, {
 	    key: 'componentWillUnmount',
 	    value: function componentWillUnmount() {
 	      window.removeEventListener('scroll', this.handleScroll);
+	    }
+	  }, {
+	    key: 'imageLoaded',
+	    value: function imageLoaded() {
+	      this.state.count++;
+	      if (this.state.count === this.state.special.length) {
+	        this.loadGallery();
+	        this.setState({ galleryLoaded: true });
+	      }
+	    }
+	  }, {
+	    key: 'loadGallery',
+	    value: function loadGallery() {
+	      this.flkty.resize();
 	    }
 	  }, {
 	    key: 'handleScroll',
@@ -34872,56 +34916,102 @@
 	      });
 	    }
 	  }, {
+	    key: 'updateSelected',
+	    value: function updateSelected() {
+	      var index = this.flkty.selectedIndex;
+	      this.setState({ selectedIndex: index });
+	    }
+	  }, {
+	    key: 'showSpecial',
+	    value: function showSpecial() {
+	      this.setState({
+	        showSpecial: !this.state.showSpecial
+	      });
+	    }
+	  }, {
 	    key: 'render',
 	    value: function render(AppData) {
+	      var _this2 = this;
+	
 	      return _react2.default.createElement(
 	        'div',
 	        { ref: 'port', className: 'capabilities' },
-	        this.state.fromTop > -230 && _react2.default.createElement(
-	          'nav',
-	          { className: 'capabilities__content__nav' },
+	        _react2.default.createElement(
+	          'div',
+	          { className: "navContainer " + (this.state.fromTop > -230 && "navShow") },
 	          _react2.default.createElement(
-	            'div',
-	            { className: 'capabilities__content__nav__header' },
+	            'nav',
+	            { className: 'capabilities__content__nav' },
 	            _react2.default.createElement(
-	              'h1',
-	              { className: 'capabilities__header' },
-	              ' Selected Work '
+	              'div',
+	              { className: 'capabilities__content__nav__header' },
+	              _react2.default.createElement(
+	                'h1',
+	                { className: 'capabilities__header' },
+	                ' Selected Work '
+	              )
+	            ),
+	            _react2.default.createElement(
+	              'select',
+	              { value: this.state.filter, onChange: this.handleChange },
+	              _react2.default.createElement(
+	                'option',
+	                { value: 'all' },
+	                'All'
+	              ),
+	              _react2.default.createElement(
+	                'option',
+	                { value: 'identities' },
+	                'Identites'
+	              ),
+	              _react2.default.createElement(
+	                'option',
+	                { value: 'interactive' },
+	                'Interactive'
+	              ),
+	              _react2.default.createElement(
+	                'option',
+	                { value: 'artDirection' },
+	                'Art Direction'
+	              ),
+	              _react2.default.createElement(
+	                'option',
+	                { value: 'print' },
+	                'Print'
+	              ),
+	              _react2.default.createElement(
+	                'option',
+	                { value: 'motion' },
+	                'Motion'
+	              )
+	            ),
+	            _react2.default.createElement(
+	              'button',
+	              { onClick: this.showSpecial },
+	              ' Show Special '
 	            )
 	          ),
 	          _react2.default.createElement(
-	            'select',
-	            { value: this.state.filter, onChange: this.handleChange },
-	            _react2.default.createElement(
-	              'option',
-	              { value: 'all' },
-	              'All'
-	            ),
-	            _react2.default.createElement(
-	              'option',
-	              { value: 'identities' },
-	              'Identites'
-	            ),
-	            _react2.default.createElement(
-	              'option',
-	              { value: 'interactive' },
-	              'Interactive'
-	            ),
-	            _react2.default.createElement(
-	              'option',
-	              { value: 'artDirection' },
-	              'Art Direction'
-	            ),
-	            _react2.default.createElement(
-	              'option',
-	              { value: 'print' },
-	              'Print'
-	            ),
-	            _react2.default.createElement(
-	              'option',
-	              { value: 'motion' },
-	              'Motion'
-	            )
+	            'div',
+	            { ref: 'test', className: "capabilities__content__specialNav " + (this.state.showSpecial && "showSpecial") },
+	            this.state.special.map(function (card, index) {
+	              return _react2.default.createElement(
+	                _reactRouterDom.Link,
+	                { key: index, to: card.link },
+	                _react2.default.createElement(
+	                  'div',
+	                  { className: "specialCard " + (_this2.state.galleryLoaded ? "galleryLoaded" : "") },
+	                  _react2.default.createElement('img', { className: 'specialImg', src: card.image, onLoad: _this2.imageLoaded }),
+	                  _react2.default.createElement(
+	                    'p',
+	                    { className: 'specialText' },
+	                    ' ',
+	                    card.title,
+	                    ' '
+	                  )
+	                )
+	              );
+	            })
 	          )
 	        ),
 	        _react2.default.createElement(
@@ -35415,31 +35505,6 @@
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
 	});
-	exports.StickyContainer = exports.Sticky = undefined;
-	
-	var _Sticky = __webpack_require__(297);
-	
-	var _Sticky2 = _interopRequireDefault(_Sticky);
-	
-	var _Container = __webpack_require__(298);
-	
-	var _Container2 = _interopRequireDefault(_Container);
-	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-	
-	exports.Sticky = _Sticky2.default;
-	exports.StickyContainer = _Container2.default;
-	exports.default = _Sticky2.default;
-
-/***/ }),
-/* 297 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	'use strict';
-	
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
 	
 	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 	
@@ -35447,427 +35512,7 @@
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _reactDom = __webpack_require__(42);
-	
-	var _reactDom2 = _interopRequireDefault(_reactDom);
-	
-	var _propTypes = __webpack_require__(267);
-	
-	var _propTypes2 = _interopRequireDefault(_propTypes);
-	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-	
-	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-	
-	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-	
-	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-	
-	var Sticky = function (_Component) {
-	  _inherits(Sticky, _Component);
-	
-	  function Sticky() {
-	    var _ref;
-	
-	    var _temp, _this, _ret;
-	
-	    _classCallCheck(this, Sticky);
-	
-	    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
-	      args[_key] = arguments[_key];
-	    }
-	
-	    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = Sticky.__proto__ || Object.getPrototypeOf(Sticky)).call.apply(_ref, [this].concat(args))), _this), _this.state = {
-	      isSticky: false,
-	      wasSticky: false,
-	      style: {}
-	    }, _this.handleContainerEvent = function (_ref2) {
-	      var distanceFromTop = _ref2.distanceFromTop,
-	          distanceFromBottom = _ref2.distanceFromBottom,
-	          eventSource = _ref2.eventSource;
-	
-	      var parent = _this.context.getParent();
-	
-	      var preventingStickyStateChanges = false;
-	      if (_this.props.relative) {
-	        preventingStickyStateChanges = eventSource !== parent;
-	        distanceFromTop = -(eventSource.scrollTop + eventSource.offsetTop) + _this.placeholder.offsetTop;
-	      }
-	
-	      var placeholderClientRect = _this.placeholder.getBoundingClientRect();
-	      var contentClientRect = _this.content.getBoundingClientRect();
-	      var calculatedHeight = contentClientRect.height;
-	
-	      var bottomDifference = distanceFromBottom - _this.props.bottomOffset - calculatedHeight;
-	
-	      var wasSticky = !!_this.state.isSticky;
-	      var isSticky = preventingStickyStateChanges ? wasSticky : distanceFromTop <= -_this.props.topOffset && distanceFromBottom > -_this.props.bottomOffset;
-	
-	      distanceFromBottom = (_this.props.relative ? parent.scrollHeight - parent.scrollTop : distanceFromBottom) - calculatedHeight;
-	
-	      var style = !isSticky ? {} : {
-	        position: 'fixed',
-	        top: bottomDifference > 0 ? _this.props.relative ? parent.offsetTop - parent.offsetParent.scrollTop : 0 : bottomDifference,
-	        left: placeholderClientRect.left,
-	        width: placeholderClientRect.width
-	      };
-	
-	      if (!_this.props.disableHardwareAcceleration) {
-	        style.transform = 'translateZ(0)';
-	      }
-	
-	      _this.setState({
-	        isSticky: isSticky,
-	        wasSticky: wasSticky,
-	        distanceFromTop: distanceFromTop,
-	        distanceFromBottom: distanceFromBottom,
-	        calculatedHeight: calculatedHeight,
-	        style: style
-	      });
-	    }, _temp), _possibleConstructorReturn(_this, _ret);
-	  }
-	
-	  _createClass(Sticky, [{
-	    key: 'componentWillMount',
-	    value: function componentWillMount() {
-	      if (!this.context.subscribe) throw new TypeError("Expected Sticky to be mounted within StickyContainer");
-	
-	      this.context.subscribe(this.handleContainerEvent);
-	    }
-	  }, {
-	    key: 'componentWillUnmount',
-	    value: function componentWillUnmount() {
-	      this.context.unsubscribe(this.handleContainerEvent);
-	    }
-	  }, {
-	    key: 'componentDidUpdate',
-	    value: function componentDidUpdate() {
-	      this.placeholder.style.paddingBottom = this.props.disableCompensation ? 0 : (this.state.isSticky ? this.state.calculatedHeight : 0) + 'px';
-	    }
-	  }, {
-	    key: 'render',
-	    value: function render() {
-	      var _this2 = this;
-	
-	      var element = _react2.default.cloneElement(this.props.children({
-	        isSticky: this.state.isSticky,
-	        wasSticky: this.state.wasSticky,
-	        distanceFromTop: this.state.distanceFromTop,
-	        distanceFromBottom: this.state.distanceFromBottom,
-	        calculatedHeight: this.state.calculatedHeight,
-	        style: this.state.style
-	      }), { ref: function ref(content) {
-	          _this2.content = _reactDom2.default.findDOMNode(content);
-	        } });
-	
-	      return _react2.default.createElement(
-	        'div',
-	        null,
-	        _react2.default.createElement('div', { ref: function ref(placeholder) {
-	            return _this2.placeholder = placeholder;
-	          } }),
-	        element
-	      );
-	    }
-	  }]);
-	
-	  return Sticky;
-	}(_react.Component);
-	
-	Sticky.propTypes = {
-	  topOffset: _propTypes2.default.number,
-	  bottomOffset: _propTypes2.default.number,
-	  relative: _propTypes2.default.bool,
-	  children: _propTypes2.default.func.isRequired
-	};
-	Sticky.defaultProps = {
-	  relative: false,
-	  topOffset: 0,
-	  bottomOffset: 0,
-	  disableCompensation: false,
-	  disableHardwareAcceleration: false
-	};
-	Sticky.contextTypes = {
-	  subscribe: _propTypes2.default.func,
-	  unsubscribe: _propTypes2.default.func,
-	  getParent: _propTypes2.default.func
-	};
-	exports.default = Sticky;
-
-/***/ }),
-/* 298 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	'use strict';
-	
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-	
-	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
-	
-	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-	
-	var _react = __webpack_require__(6);
-	
-	var _react2 = _interopRequireDefault(_react);
-	
-	var _propTypes = __webpack_require__(267);
-	
-	var _propTypes2 = _interopRequireDefault(_propTypes);
-	
-	var _raf = __webpack_require__(299);
-	
-	var _raf2 = _interopRequireDefault(_raf);
-	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-	
-	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-	
-	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-	
-	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-	
-	var Container = function (_PureComponent) {
-	  _inherits(Container, _PureComponent);
-	
-	  function Container() {
-	    var _ref;
-	
-	    var _temp, _this, _ret;
-	
-	    _classCallCheck(this, Container);
-	
-	    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
-	      args[_key] = arguments[_key];
-	    }
-	
-	    return _ret = (_temp = (_this = _possibleConstructorReturn(this, (_ref = Container.__proto__ || Object.getPrototypeOf(Container)).call.apply(_ref, [this].concat(args))), _this), _this.events = ['resize', 'scroll', 'touchstart', 'touchmove', 'touchend', 'pageshow', 'load'], _this.subscribers = [], _this.subscribe = function (handler) {
-	      _this.subscribers = _this.subscribers.concat(handler);
-	    }, _this.unsubscribe = function (handler) {
-	      _this.subscribers = _this.subscribers.filter(function (current) {
-	        return current !== handler;
-	      });
-	    }, _this.notifySubscribers = function (evt) {
-	      if (!_this.framePending) {
-	        var currentTarget = evt.currentTarget;
-	
-	
-	        (0, _raf2.default)(function () {
-	          _this.framePending = false;
-	
-	          var _this$node$getBoundin = _this.node.getBoundingClientRect(),
-	              top = _this$node$getBoundin.top,
-	              bottom = _this$node$getBoundin.bottom;
-	
-	          _this.subscribers.forEach(function (handler) {
-	            return handler({
-	              distanceFromTop: top,
-	              distanceFromBottom: bottom,
-	              eventSource: currentTarget === window ? document.body : _this.node
-	            });
-	          });
-	        });
-	        _this.framePending = true;
-	      }
-	    }, _this.getParent = function () {
-	      return _this.node;
-	    }, _temp), _possibleConstructorReturn(_this, _ret);
-	  }
-	
-	  _createClass(Container, [{
-	    key: 'getChildContext',
-	    value: function getChildContext() {
-	      return {
-	        subscribe: this.subscribe,
-	        unsubscribe: this.unsubscribe,
-	        getParent: this.getParent
-	      };
-	    }
-	  }, {
-	    key: 'componentDidMount',
-	    value: function componentDidMount() {
-	      var _this2 = this;
-	
-	      this.events.forEach(function (event) {
-	        return window.addEventListener(event, _this2.notifySubscribers);
-	      });
-	    }
-	  }, {
-	    key: 'componentWillUnmount',
-	    value: function componentWillUnmount() {
-	      var _this3 = this;
-	
-	      this.events.forEach(function (event) {
-	        return window.removeEventListener(event, _this3.notifySubscribers);
-	      });
-	    }
-	  }, {
-	    key: 'render',
-	    value: function render() {
-	      var _this4 = this;
-	
-	      return _react2.default.createElement('div', _extends({}, this.props, {
-	        ref: function ref(node) {
-	          return _this4.node = node;
-	        },
-	        onScroll: this.notifySubscribers,
-	        onTouchStart: this.notifySubscribers,
-	        onTouchMove: this.notifySubscribers,
-	        onTouchEnd: this.notifySubscribers
-	      }));
-	    }
-	  }]);
-	
-	  return Container;
-	}(_react.PureComponent);
-	
-	Container.childContextTypes = {
-	  subscribe: _propTypes2.default.func,
-	  unsubscribe: _propTypes2.default.func,
-	  getParent: _propTypes2.default.func
-	};
-	exports.default = Container;
-
-/***/ }),
-/* 299 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	/* WEBPACK VAR INJECTION */(function(global) {var now = __webpack_require__(300)
-	  , root = typeof window === 'undefined' ? global : window
-	  , vendors = ['moz', 'webkit']
-	  , suffix = 'AnimationFrame'
-	  , raf = root['request' + suffix]
-	  , caf = root['cancel' + suffix] || root['cancelRequest' + suffix]
-	
-	for(var i = 0; !raf && i < vendors.length; i++) {
-	  raf = root[vendors[i] + 'Request' + suffix]
-	  caf = root[vendors[i] + 'Cancel' + suffix]
-	      || root[vendors[i] + 'CancelRequest' + suffix]
-	}
-	
-	// Some versions of FF have rAF but not cAF
-	if(!raf || !caf) {
-	  var last = 0
-	    , id = 0
-	    , queue = []
-	    , frameDuration = 1000 / 60
-	
-	  raf = function(callback) {
-	    if(queue.length === 0) {
-	      var _now = now()
-	        , next = Math.max(0, frameDuration - (_now - last))
-	      last = next + _now
-	      setTimeout(function() {
-	        var cp = queue.slice(0)
-	        // Clear queue here to prevent
-	        // callbacks from appending listeners
-	        // to the current frame's queue
-	        queue.length = 0
-	        for(var i = 0; i < cp.length; i++) {
-	          if(!cp[i].cancelled) {
-	            try{
-	              cp[i].callback(last)
-	            } catch(e) {
-	              setTimeout(function() { throw e }, 0)
-	            }
-	          }
-	        }
-	      }, Math.round(next))
-	    }
-	    queue.push({
-	      handle: ++id,
-	      callback: callback,
-	      cancelled: false
-	    })
-	    return id
-	  }
-	
-	  caf = function(handle) {
-	    for(var i = 0; i < queue.length; i++) {
-	      if(queue[i].handle === handle) {
-	        queue[i].cancelled = true
-	      }
-	    }
-	  }
-	}
-	
-	module.exports = function(fn) {
-	  // Wrap in a new function to prevent
-	  // `cancel` potentially being assigned
-	  // to the native rAF function
-	  return raf.call(root, fn)
-	}
-	module.exports.cancel = function() {
-	  caf.apply(root, arguments)
-	}
-	module.exports.polyfill = function() {
-	  root.requestAnimationFrame = raf
-	  root.cancelAnimationFrame = caf
-	}
-	
-	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
-
-/***/ }),
-/* 300 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	/* WEBPACK VAR INJECTION */(function(process) {// Generated by CoffeeScript 1.12.2
-	(function() {
-	  var getNanoSeconds, hrtime, loadTime, moduleLoadTime, nodeLoadTime, upTime;
-	
-	  if ((typeof performance !== "undefined" && performance !== null) && performance.now) {
-	    module.exports = function() {
-	      return performance.now();
-	    };
-	  } else if ((typeof process !== "undefined" && process !== null) && process.hrtime) {
-	    module.exports = function() {
-	      return (getNanoSeconds() - nodeLoadTime) / 1e6;
-	    };
-	    hrtime = process.hrtime;
-	    getNanoSeconds = function() {
-	      var hr;
-	      hr = hrtime();
-	      return hr[0] * 1e9 + hr[1];
-	    };
-	    moduleLoadTime = getNanoSeconds();
-	    upTime = process.uptime() * 1e9;
-	    nodeLoadTime = moduleLoadTime - upTime;
-	  } else if (Date.now) {
-	    module.exports = function() {
-	      return Date.now() - loadTime;
-	    };
-	    loadTime = Date.now();
-	  } else {
-	    module.exports = function() {
-	      return new Date().getTime() - loadTime;
-	    };
-	    loadTime = new Date().getTime();
-	  }
-	
-	}).call(this);
-	
-	//# sourceMappingURL=performance-now.js.map
-	
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(8)))
-
-/***/ }),
-/* 301 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	'use strict';
-	
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-	
-	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
-	
-	var _react = __webpack_require__(6);
-	
-	var _react2 = _interopRequireDefault(_react);
-	
-	var _threeJs = __webpack_require__(302);
+	var _threeJs = __webpack_require__(297);
 	
 	var _threeJs2 = _interopRequireDefault(_threeJs);
 	
@@ -36114,12 +35759,12 @@
 	exports.default = Splash;
 
 /***/ }),
-/* 302 */
+/* 297 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	(function( self ){
 	
-		var THREE = __webpack_require__(303);
+		var THREE = __webpack_require__(298);
 	
 		module.exports = function( addons ){
 	
@@ -36136,7 +35781,7 @@
 					}
 					else if( typeof addon === "string" ){
 	
-						__webpack_require__(306)("./" + addon + ".js")(THREE);
+						__webpack_require__(301)("./" + addon + ".js")(THREE);
 	
 					}
 					else {
@@ -36157,7 +35802,7 @@
 
 
 /***/ }),
-/* 303 */
+/* 298 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_RESULT__;(function( self ){
@@ -77909,7 +77554,7 @@
 	
 		};
 	
-		if( "function" !== "undefined" && __webpack_require__(304) instanceof Function && __webpack_require__(305) != undefined ){
+		if( "function" !== "undefined" && __webpack_require__(299) instanceof Function && __webpack_require__(300) != undefined ){
 	
 			!(__WEBPACK_AMD_DEFINE_RESULT__ = function(){
 	
@@ -77932,14 +77577,14 @@
 	})(this || {});
 
 /***/ }),
-/* 304 */
+/* 299 */
 /***/ (function(module, exports) {
 
 	module.exports = function() { throw new Error("define cannot be used indirect"); };
 
 
 /***/ }),
-/* 305 */
+/* 300 */
 /***/ (function(module, exports) {
 
 	/* WEBPACK VAR INJECTION */(function(__webpack_amd_options__) {module.exports = __webpack_amd_options__;
@@ -77947,70 +77592,70 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, {}))
 
 /***/ }),
-/* 306 */
+/* 301 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	var map = {
-		"./AdaptiveToneMappingPass.js": 307,
-		"./BasicShader.js": 308,
-		"./BleachBypassShader.js": 309,
-		"./BlendShader.js": 310,
-		"./BloomPass.js": 311,
-		"./BokehPass.js": 312,
-		"./BokehShader.js": 313,
-		"./BokehShader2.js": 314,
-		"./BrightnessContrastShader.js": 315,
-		"./CanvasRenderer.js": 316,
-		"./ColorCorrectionShader.js": 317,
-		"./ColorifyShader.js": 318,
-		"./ConvolutionShader.js": 319,
-		"./CopyShader.js": 320,
-		"./DDSLoader.js": 321,
-		"./DOFMipMapShader.js": 322,
-		"./DigitalGlitch.js": 323,
-		"./DotScreenPass.js": 324,
-		"./DotScreenShader.js": 325,
-		"./EdgeShader.js": 326,
-		"./EdgeShader2.js": 327,
-		"./EffectComposer.js": 328,
-		"./FXAAShader.js": 329,
-		"./FilmPass.js": 330,
-		"./FilmShader.js": 331,
-		"./FocusShader.js": 332,
-		"./FresnelShader.js": 333,
-		"./GammaCorrectionShader.js": 334,
-		"./GlitchPass.js": 335,
-		"./HorizontalBlurShader.js": 336,
-		"./HorizontalTiltShiftShader.js": 337,
-		"./HueSaturationShader.js": 338,
-		"./JSONLoader.js": 339,
-		"./KaleidoShader.js": 340,
-		"./LuminosityShader.js": 341,
-		"./MTLLoader.js": 342,
-		"./MarchingCubes.js": 343,
-		"./MaskPass.js": 344,
-		"./MirrorShader.js": 345,
-		"./NormalMapShader.js": 346,
-		"./OBJLoader.js": 347,
-		"./OceanShaders.js": 348,
-		"./OrbitControls.js": 349,
-		"./ParallaxShader.js": 350,
-		"./Projector.js": 351,
-		"./RGBShiftShader.js": 352,
-		"./RenderPass.js": 353,
-		"./SSAOShader.js": 354,
-		"./SVGLoader.js": 355,
-		"./SavePass.js": 356,
-		"./SepiaShader.js": 357,
-		"./ShaderPass.js": 358,
-		"./TechnicolorShader.js": 359,
-		"./TexturePass.js": 360,
-		"./ToneMapShader.js": 361,
-		"./TriangleBlurShader.js": 362,
-		"./UnpackDepthRGBAShader.js": 363,
-		"./VerticalBlurShader.js": 364,
-		"./VerticalTiltShiftShader.js": 365,
-		"./VignetteShader.js": 366
+		"./AdaptiveToneMappingPass.js": 302,
+		"./BasicShader.js": 303,
+		"./BleachBypassShader.js": 304,
+		"./BlendShader.js": 305,
+		"./BloomPass.js": 306,
+		"./BokehPass.js": 307,
+		"./BokehShader.js": 308,
+		"./BokehShader2.js": 309,
+		"./BrightnessContrastShader.js": 310,
+		"./CanvasRenderer.js": 311,
+		"./ColorCorrectionShader.js": 312,
+		"./ColorifyShader.js": 313,
+		"./ConvolutionShader.js": 314,
+		"./CopyShader.js": 315,
+		"./DDSLoader.js": 316,
+		"./DOFMipMapShader.js": 317,
+		"./DigitalGlitch.js": 318,
+		"./DotScreenPass.js": 319,
+		"./DotScreenShader.js": 320,
+		"./EdgeShader.js": 321,
+		"./EdgeShader2.js": 322,
+		"./EffectComposer.js": 323,
+		"./FXAAShader.js": 324,
+		"./FilmPass.js": 325,
+		"./FilmShader.js": 326,
+		"./FocusShader.js": 327,
+		"./FresnelShader.js": 328,
+		"./GammaCorrectionShader.js": 329,
+		"./GlitchPass.js": 330,
+		"./HorizontalBlurShader.js": 331,
+		"./HorizontalTiltShiftShader.js": 332,
+		"./HueSaturationShader.js": 333,
+		"./JSONLoader.js": 334,
+		"./KaleidoShader.js": 335,
+		"./LuminosityShader.js": 336,
+		"./MTLLoader.js": 337,
+		"./MarchingCubes.js": 338,
+		"./MaskPass.js": 339,
+		"./MirrorShader.js": 340,
+		"./NormalMapShader.js": 341,
+		"./OBJLoader.js": 342,
+		"./OceanShaders.js": 343,
+		"./OrbitControls.js": 344,
+		"./ParallaxShader.js": 345,
+		"./Projector.js": 346,
+		"./RGBShiftShader.js": 347,
+		"./RenderPass.js": 348,
+		"./SSAOShader.js": 349,
+		"./SVGLoader.js": 350,
+		"./SavePass.js": 351,
+		"./SepiaShader.js": 352,
+		"./ShaderPass.js": 353,
+		"./TechnicolorShader.js": 354,
+		"./TexturePass.js": 355,
+		"./ToneMapShader.js": 356,
+		"./TriangleBlurShader.js": 357,
+		"./UnpackDepthRGBAShader.js": 358,
+		"./VerticalBlurShader.js": 359,
+		"./VerticalTiltShiftShader.js": 360,
+		"./VignetteShader.js": 361
 	};
 	function webpackContext(req) {
 		return __webpack_require__(webpackContextResolve(req));
@@ -78023,11 +77668,11 @@
 	};
 	webpackContext.resolve = webpackContextResolve;
 	module.exports = webpackContext;
-	webpackContext.id = 306;
+	webpackContext.id = 301;
 
 
 /***/ }),
-/* 307 */
+/* 302 */
 /***/ (function(module, exports) {
 
 	module.exports = function( THREE ){
@@ -78352,7 +77997,7 @@
 
 
 /***/ }),
-/* 308 */
+/* 303 */
 /***/ (function(module, exports) {
 
 	module.exports = function( THREE ){
@@ -78392,7 +78037,7 @@
 
 
 /***/ }),
-/* 309 */
+/* 304 */
 /***/ (function(module, exports) {
 
 	module.exports = function( THREE ){
@@ -78465,7 +78110,7 @@
 
 
 /***/ }),
-/* 310 */
+/* 305 */
 /***/ (function(module, exports) {
 
 	module.exports = function( THREE ){
@@ -78524,7 +78169,7 @@
 	}
 
 /***/ }),
-/* 311 */
+/* 306 */
 /***/ (function(module, exports) {
 
 	module.exports = function( THREE ){
@@ -78649,7 +78294,7 @@
 
 
 /***/ }),
-/* 312 */
+/* 307 */
 /***/ (function(module, exports) {
 
 	module.exports = function( THREE ){
@@ -78761,7 +78406,7 @@
 
 
 /***/ }),
-/* 313 */
+/* 308 */
 /***/ (function(module, exports) {
 
 	module.exports = function( THREE ){
@@ -78886,7 +78531,7 @@
 
 
 /***/ }),
-/* 314 */
+/* 309 */
 /***/ (function(module, exports) {
 
 	module.exports = function( THREE ){
@@ -79265,7 +78910,7 @@
 
 
 /***/ }),
-/* 315 */
+/* 310 */
 /***/ (function(module, exports) {
 
 	module.exports = function( THREE ){
@@ -79332,7 +78977,7 @@
 
 
 /***/ }),
-/* 316 */
+/* 311 */
 /***/ (function(module, exports) {
 
 	module.exports = function( THREE ){
@@ -80455,7 +80100,7 @@
 	};
 
 /***/ }),
-/* 317 */
+/* 312 */
 /***/ (function(module, exports) {
 
 	module.exports = function( THREE ){
@@ -80514,7 +80159,7 @@
 
 
 /***/ }),
-/* 318 */
+/* 313 */
 /***/ (function(module, exports) {
 
 	module.exports = function( THREE ){
@@ -80572,7 +80217,7 @@
 
 
 /***/ }),
-/* 319 */
+/* 314 */
 /***/ (function(module, exports) {
 
 	module.exports = function( THREE ){
@@ -80682,7 +80327,7 @@
 
 
 /***/ }),
-/* 320 */
+/* 315 */
 /***/ (function(module, exports) {
 
 	module.exports = function( THREE ){
@@ -80737,7 +80382,7 @@
 
 
 /***/ }),
-/* 321 */
+/* 316 */
 /***/ (function(module, exports) {
 
 	module.exports = function( THREE ){
@@ -81015,7 +80660,7 @@
 	};
 
 /***/ }),
-/* 322 */
+/* 317 */
 /***/ (function(module, exports) {
 
 	module.exports = function( THREE ){
@@ -81082,7 +80727,7 @@
 
 
 /***/ }),
-/* 323 */
+/* 318 */
 /***/ (function(module, exports) {
 
 	module.exports = function( THREE ){
@@ -81194,7 +80839,7 @@
 
 
 /***/ }),
-/* 324 */
+/* 319 */
 /***/ (function(module, exports) {
 
 	module.exports = function( THREE ){
@@ -81264,7 +80909,7 @@
 
 
 /***/ }),
-/* 325 */
+/* 320 */
 /***/ (function(module, exports) {
 
 	module.exports = function( THREE ){
@@ -81341,7 +80986,7 @@
 
 
 /***/ }),
-/* 326 */
+/* 321 */
 /***/ (function(module, exports) {
 
 	module.exports = function( THREE ){
@@ -81443,7 +81088,7 @@
 
 
 /***/ }),
-/* 327 */
+/* 322 */
 /***/ (function(module, exports) {
 
 	module.exports = function( THREE ){
@@ -81525,7 +81170,7 @@
 
 
 /***/ }),
-/* 328 */
+/* 323 */
 /***/ (function(module, exports) {
 
 	module.exports = function( THREE ){
@@ -81672,7 +81317,7 @@
 
 
 /***/ }),
-/* 329 */
+/* 324 */
 /***/ (function(module, exports) {
 
 	module.exports = function( THREE ){
@@ -81700,7 +81345,7 @@
 
 
 /***/ }),
-/* 330 */
+/* 325 */
 /***/ (function(module, exports) {
 
 	module.exports = function( THREE ){
@@ -81771,7 +81416,7 @@
 
 
 /***/ }),
-/* 331 */
+/* 326 */
 /***/ (function(module, exports) {
 
 	module.exports = function( THREE ){
@@ -81884,7 +81529,7 @@
 
 
 /***/ }),
-/* 332 */
+/* 327 */
 /***/ (function(module, exports) {
 
 	module.exports = function( THREE ){
@@ -81984,7 +81629,7 @@
 
 
 /***/ }),
-/* 333 */
+/* 328 */
 /***/ (function(module, exports) {
 
 	module.exports = function( THREE ){
@@ -82067,7 +81712,7 @@
 
 
 /***/ }),
-/* 334 */
+/* 329 */
 /***/ (function(module, exports) {
 
 	module.exports = function( THREE ){
@@ -82126,7 +81771,7 @@
 
 
 /***/ }),
-/* 335 */
+/* 330 */
 /***/ (function(module, exports) {
 
 	module.exports = function( THREE ){
@@ -82248,7 +81893,7 @@
 
 
 /***/ }),
-/* 336 */
+/* 331 */
 /***/ (function(module, exports) {
 
 	module.exports = function( THREE ){
@@ -82319,7 +81964,7 @@
 
 
 /***/ }),
-/* 337 */
+/* 332 */
 /***/ (function(module, exports) {
 
 	module.exports = function( THREE ){
@@ -82393,7 +82038,7 @@
 
 
 /***/ }),
-/* 338 */
+/* 333 */
 /***/ (function(module, exports) {
 
 	module.exports = function( THREE ){
@@ -82471,7 +82116,7 @@
 
 
 /***/ }),
-/* 339 */
+/* 334 */
 /***/ (function(module, exports) {
 
 	module.exports = function( THREE ){
@@ -83035,7 +82680,7 @@
 	};
 
 /***/ }),
-/* 340 */
+/* 335 */
 /***/ (function(module, exports) {
 
 	module.exports = function( THREE ){
@@ -83104,7 +82749,7 @@
 
 
 /***/ }),
-/* 341 */
+/* 336 */
 /***/ (function(module, exports) {
 
 	module.exports = function( THREE ){
@@ -83163,7 +82808,7 @@
 
 
 /***/ }),
-/* 342 */
+/* 337 */
 /***/ (function(module, exports) {
 
 	module.exports = function( THREE ){
@@ -83589,7 +83234,7 @@
 	};
 
 /***/ }),
-/* 343 */
+/* 338 */
 /***/ (function(module, exports) {
 
 	module.exports = function( THREE ){
@@ -84655,7 +84300,7 @@
 	};
 
 /***/ }),
-/* 344 */
+/* 339 */
 /***/ (function(module, exports) {
 
 	module.exports = function( THREE ){
@@ -84751,7 +84396,7 @@
 
 
 /***/ }),
-/* 345 */
+/* 340 */
 /***/ (function(module, exports) {
 
 	module.exports = function( THREE ){
@@ -84818,7 +84463,7 @@
 
 
 /***/ }),
-/* 346 */
+/* 341 */
 /***/ (function(module, exports) {
 
 	module.exports = function( THREE ){
@@ -84880,7 +84525,7 @@
 
 
 /***/ }),
-/* 347 */
+/* 342 */
 /***/ (function(module, exports) {
 
 	module.exports = function( THREE ){
@@ -85292,7 +84937,7 @@
 	};
 
 /***/ }),
-/* 348 */
+/* 343 */
 /***/ (function(module, exports) {
 
 	module.exports = function( THREE ){
@@ -85689,7 +85334,7 @@
 
 
 /***/ }),
-/* 349 */
+/* 344 */
 /***/ (function(module, exports) {
 
 	module.exports = function( THREE ){
@@ -86735,7 +86380,7 @@
 	};
 
 /***/ }),
-/* 350 */
+/* 345 */
 /***/ (function(module, exports) {
 
 	module.exports = function( THREE ){
@@ -86928,7 +86573,7 @@
 
 
 /***/ }),
-/* 351 */
+/* 346 */
 /***/ (function(module, exports) {
 
 	module.exports = function( THREE ){
@@ -87858,7 +87503,7 @@
 	};
 
 /***/ }),
-/* 352 */
+/* 347 */
 /***/ (function(module, exports) {
 
 	module.exports = function( THREE ){
@@ -87923,7 +87568,7 @@
 
 
 /***/ }),
-/* 353 */
+/* 348 */
 /***/ (function(module, exports) {
 
 	module.exports = function( THREE ){
@@ -87983,7 +87628,7 @@
 	};
 
 /***/ }),
-/* 354 */
+/* 349 */
 /***/ (function(module, exports) {
 
 	module.exports = function( THREE ){
@@ -88217,7 +87862,7 @@
 
 
 /***/ }),
-/* 355 */
+/* 350 */
 /***/ (function(module, exports) {
 
 	module.exports = function( THREE ){
@@ -88259,7 +87904,7 @@
 	};
 
 /***/ }),
-/* 356 */
+/* 351 */
 /***/ (function(module, exports) {
 
 	module.exports = function( THREE ){
@@ -88331,7 +87976,7 @@
 
 
 /***/ }),
-/* 357 */
+/* 352 */
 /***/ (function(module, exports) {
 
 	module.exports = function( THREE ){
@@ -88394,7 +88039,7 @@
 
 
 /***/ }),
-/* 358 */
+/* 353 */
 /***/ (function(module, exports) {
 
 	module.exports = function( THREE ){
@@ -88463,7 +88108,7 @@
 
 
 /***/ }),
-/* 359 */
+/* 354 */
 /***/ (function(module, exports) {
 
 	module.exports = function( THREE ){
@@ -88519,7 +88164,7 @@
 
 
 /***/ }),
-/* 360 */
+/* 355 */
 /***/ (function(module, exports) {
 
 	module.exports = function( THREE ){
@@ -88575,7 +88220,7 @@
 	};
 
 /***/ }),
-/* 361 */
+/* 356 */
 /***/ (function(module, exports) {
 
 	module.exports = function( THREE ){
@@ -88659,7 +88304,7 @@
 
 
 /***/ }),
-/* 362 */
+/* 357 */
 /***/ (function(module, exports) {
 
 	module.exports = function( THREE ){
@@ -88746,7 +88391,7 @@
 
 
 /***/ }),
-/* 363 */
+/* 358 */
 /***/ (function(module, exports) {
 
 	module.exports = function( THREE ){
@@ -88812,7 +88457,7 @@
 
 
 /***/ }),
-/* 364 */
+/* 359 */
 /***/ (function(module, exports) {
 
 	module.exports = function( THREE ){
@@ -88883,7 +88528,7 @@
 
 
 /***/ }),
-/* 365 */
+/* 360 */
 /***/ (function(module, exports) {
 
 	module.exports = function( THREE ){
@@ -88957,7 +88602,7 @@
 
 
 /***/ }),
-/* 366 */
+/* 361 */
 /***/ (function(module, exports) {
 
 	module.exports = function( THREE ){
@@ -89029,7 +88674,7 @@
 
 
 /***/ }),
-/* 367 */
+/* 362 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -89038,7 +88683,7 @@
 	  value: true
 	});
 	
-	var _Video = __webpack_require__(368);
+	var _Video = __webpack_require__(363);
 	
 	var _Video2 = _interopRequireDefault(_Video);
 
@@ -89047,7 +88692,7 @@
 	exports.default = _Video2.default;
 
 /***/ }),
-/* 368 */
+/* 363 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -89070,7 +88715,7 @@
 	
 	var _reactPlayer2 = _interopRequireDefault(_reactPlayer);
 	
-	var _screenfull = __webpack_require__(369);
+	var _screenfull = __webpack_require__(364);
 	
 	var _screenfull2 = _interopRequireDefault(_screenfull);
 	
@@ -89355,7 +89000,7 @@
 	exports.default = Video;
 
 /***/ }),
-/* 369 */
+/* 364 */
 /***/ (function(module, exports) {
 
 	/*!
@@ -89529,7 +89174,7 @@
 
 
 /***/ }),
-/* 370 */
+/* 365 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -89538,7 +89183,7 @@
 	  value: true
 	});
 	
-	var _Visual = __webpack_require__(371);
+	var _Visual = __webpack_require__(366);
 	
 	var _Visual2 = _interopRequireDefault(_Visual);
 
@@ -89547,7 +89192,7 @@
 	exports.default = _Visual2.default;
 
 /***/ }),
-/* 371 */
+/* 366 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -89568,11 +89213,11 @@
 	
 	var _reactDom2 = _interopRequireDefault(_reactDom);
 	
-	var _reactSlick = __webpack_require__(421);
+	var _reactSlick = __webpack_require__(367);
 	
 	var _reactSlick2 = _interopRequireDefault(_reactSlick);
 	
-	var _flickity = __webpack_require__(442);
+	var _flickity = __webpack_require__(388);
 	
 	var _flickity2 = _interopRequireDefault(_flickity);
 	
@@ -89845,7 +89490,6373 @@
 	exports.default = Visual;
 
 /***/ }),
+/* 367 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	module.exports = __webpack_require__(368);
+
+/***/ }),
+/* 368 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	exports.__esModule = true;
+	
+	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+	
+	var _react = __webpack_require__(6);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _innerSlider = __webpack_require__(369);
+	
+	var _objectAssign = __webpack_require__(9);
+	
+	var _objectAssign2 = _interopRequireDefault(_objectAssign);
+	
+	var _json2mq = __webpack_require__(380);
+	
+	var _json2mq2 = _interopRequireDefault(_json2mq);
+	
+	var _defaultProps = __webpack_require__(374);
+	
+	var _defaultProps2 = _interopRequireDefault(_defaultProps);
+	
+	var _canUseDom = __webpack_require__(382);
+	
+	var _canUseDom2 = _interopRequireDefault(_canUseDom);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	var enquire = _canUseDom2.default && __webpack_require__(383);
+	
+	var Slider = function (_React$Component) {
+	  _inherits(Slider, _React$Component);
+	
+	  function Slider(props) {
+	    _classCallCheck(this, Slider);
+	
+	    var _this = _possibleConstructorReturn(this, _React$Component.call(this, props));
+	
+	    _this.state = {
+	      breakpoint: null
+	    };
+	    _this._responsiveMediaHandlers = [];
+	    _this.innerSliderRefHandler = _this.innerSliderRefHandler.bind(_this);
+	    return _this;
+	  }
+	
+	  Slider.prototype.innerSliderRefHandler = function innerSliderRefHandler(ref) {
+	    this.innerSlider = ref;
+	  };
+	
+	  Slider.prototype.media = function media(query, handler) {
+	    enquire.register(query, handler);
+	    this._responsiveMediaHandlers.push({ query: query, handler: handler });
+	  };
+	
+	  Slider.prototype.componentWillMount = function componentWillMount() {
+	    var _this2 = this;
+	
+	    if (this.props.responsive) {
+	      var breakpoints = this.props.responsive.map(function (breakpt) {
+	        return breakpt.breakpoint;
+	      });
+	      breakpoints.sort(function (x, y) {
+	        return x - y;
+	      });
+	
+	      breakpoints.forEach(function (breakpoint, index) {
+	        var bQuery;
+	        if (index === 0) {
+	          bQuery = (0, _json2mq2.default)({ minWidth: 0, maxWidth: breakpoint });
+	        } else {
+	          bQuery = (0, _json2mq2.default)({ minWidth: breakpoints[index - 1], maxWidth: breakpoint });
+	        }
+	        _canUseDom2.default && _this2.media(bQuery, function () {
+	          _this2.setState({ breakpoint: breakpoint });
+	        });
+	      });
+	
+	      // Register media query for full screen. Need to support resize from small to large
+	      var query = (0, _json2mq2.default)({ minWidth: breakpoints.slice(-1)[0] });
+	
+	      _canUseDom2.default && this.media(query, function () {
+	        _this2.setState({ breakpoint: null });
+	      });
+	    }
+	  };
+	
+	  Slider.prototype.componentWillUnmount = function componentWillUnmount() {
+	    this._responsiveMediaHandlers.forEach(function (obj) {
+	      enquire.unregister(obj.query, obj.handler);
+	    });
+	  };
+	
+	  Slider.prototype.slickPrev = function slickPrev() {
+	    this.innerSlider.slickPrev();
+	  };
+	
+	  Slider.prototype.slickNext = function slickNext() {
+	    this.innerSlider.slickNext();
+	  };
+	
+	  Slider.prototype.slickGoTo = function slickGoTo(slide) {
+	    this.innerSlider.slickGoTo(slide);
+	  };
+	
+	  Slider.prototype.render = function render() {
+	    var _this3 = this;
+	
+	    var settings;
+	    var newProps;
+	    if (this.state.breakpoint) {
+	      newProps = this.props.responsive.filter(function (resp) {
+	        return resp.breakpoint === _this3.state.breakpoint;
+	      });
+	      settings = newProps[0].settings === 'unslick' ? 'unslick' : (0, _objectAssign2.default)({}, this.props, newProps[0].settings);
+	    } else {
+	      settings = (0, _objectAssign2.default)({}, _defaultProps2.default, this.props);
+	    }
+	
+	    var children = this.props.children;
+	    if (!Array.isArray(children)) {
+	      children = [children];
+	    }
+	
+	    // Children may contain false or null, so we should filter them
+	    children = children.filter(function (child) {
+	      return !!child;
+	    });
+	
+	    if (settings === 'unslick') {
+	      // if 'unslick' responsive breakpoint setting used, just return the <Slider> tag nested HTML
+	      return _react2.default.createElement(
+	        'div',
+	        { className: this.props.className + ' unslicked' },
+	        children
+	      );
+	    } else {
+	      return _react2.default.createElement(
+	        _innerSlider.InnerSlider,
+	        _extends({ ref: this.innerSliderRefHandler }, settings),
+	        children
+	      );
+	    }
+	  };
+	
+	  return Slider;
+	}(_react2.default.Component);
+	
+	exports.default = Slider;
+
+/***/ }),
+/* 369 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	/* WEBPACK VAR INJECTION */(function(process) {'use strict';
+	
+	exports.__esModule = true;
+	exports.InnerSlider = undefined;
+	
+	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+	
+	var _react = __webpack_require__(6);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _eventHandlers = __webpack_require__(370);
+	
+	var _eventHandlers2 = _interopRequireDefault(_eventHandlers);
+	
+	var _helpers = __webpack_require__(372);
+	
+	var _helpers2 = _interopRequireDefault(_helpers);
+	
+	var _initialState = __webpack_require__(373);
+	
+	var _initialState2 = _interopRequireDefault(_initialState);
+	
+	var _defaultProps = __webpack_require__(374);
+	
+	var _defaultProps2 = _interopRequireDefault(_defaultProps);
+	
+	var _createReactClass = __webpack_require__(375);
+	
+	var _createReactClass2 = _interopRequireDefault(_createReactClass);
+	
+	var _classnames = __webpack_require__(376);
+	
+	var _classnames2 = _interopRequireDefault(_classnames);
+	
+	var _objectAssign = __webpack_require__(9);
+	
+	var _objectAssign2 = _interopRequireDefault(_objectAssign);
+	
+	var _track = __webpack_require__(377);
+	
+	var _dots = __webpack_require__(378);
+	
+	var _arrows = __webpack_require__(379);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	var InnerSlider = exports.InnerSlider = (0, _createReactClass2.default)({
+	  displayName: 'InnerSlider',
+	
+	  mixins: [_helpers2.default, _eventHandlers2.default],
+	  list: null,
+	  track: null,
+	  listRefHandler: function listRefHandler(ref) {
+	    this.list = ref;
+	  },
+	  trackRefHandler: function trackRefHandler(ref) {
+	    this.track = ref;
+	  },
+	  getInitialState: function getInitialState() {
+	    return _extends({}, _initialState2.default, {
+	      currentSlide: this.props.initialSlide
+	    });
+	  },
+	  getDefaultProps: function getDefaultProps() {
+	    return _defaultProps2.default;
+	  },
+	  componentWillMount: function componentWillMount() {
+	    if (this.props.init) {
+	      this.props.init();
+	    }
+	    this.setState({
+	      mounted: true
+	    });
+	    var lazyLoadedList = [];
+	    for (var i = 0; i < _react2.default.Children.count(this.props.children); i++) {
+	      if (i >= this.state.currentSlide && i < this.state.currentSlide + this.props.slidesToShow) {
+	        lazyLoadedList.push(i);
+	      }
+	    }
+	
+	    if (this.props.lazyLoad && this.state.lazyLoadedList.length === 0) {
+	      this.setState({
+	        lazyLoadedList: lazyLoadedList
+	      });
+	    }
+	  },
+	  componentDidMount: function componentDidMount() {
+	    // Hack for autoplay -- Inspect Later
+	    this.initialize(this.props);
+	    this.adaptHeight();
+	
+	    // To support server-side rendering
+	    if (!window) {
+	      return;
+	    }
+	    if (window.addEventListener) {
+	      window.addEventListener('resize', this.onWindowResized);
+	    } else {
+	      window.attachEvent('onresize', this.onWindowResized);
+	    }
+	  },
+	  componentWillUnmount: function componentWillUnmount() {
+	    if (this.animationEndCallback) {
+	      clearTimeout(this.animationEndCallback);
+	    }
+	    if (window.addEventListener) {
+	      window.removeEventListener('resize', this.onWindowResized);
+	    } else {
+	      window.detachEvent('onresize', this.onWindowResized);
+	    }
+	    if (this.state.autoPlayTimer) {
+	      clearInterval(this.state.autoPlayTimer);
+	    }
+	  },
+	  componentWillReceiveProps: function componentWillReceiveProps(nextProps) {
+	    if (this.props.slickGoTo != nextProps.slickGoTo) {
+	      if (process.env.NODE_ENV !== 'production') {
+	        console.warn('react-slick deprecation warning: slickGoTo prop is deprecated and it will be removed in next release. Use slickGoTo method instead');
+	      }
+	      this.changeSlide({
+	        message: 'index',
+	        index: nextProps.slickGoTo,
+	        currentSlide: this.state.currentSlide
+	      });
+	    } else if (this.state.currentSlide >= nextProps.children.length) {
+	      this.update(nextProps);
+	      this.changeSlide({
+	        message: 'index',
+	        index: nextProps.children.length - nextProps.slidesToShow,
+	        currentSlide: this.state.currentSlide
+	      });
+	    } else {
+	      this.update(nextProps);
+	    }
+	  },
+	  componentDidUpdate: function componentDidUpdate() {
+	    this.adaptHeight();
+	  },
+	  onWindowResized: function onWindowResized() {
+	    this.update(this.props);
+	    // animating state should be cleared while resizing, otherwise autoplay stops working
+	    this.setState({
+	      animating: false
+	    });
+	    clearTimeout(this.animationEndCallback);
+	    delete this.animationEndCallback;
+	  },
+	  slickPrev: function slickPrev() {
+	    this.changeSlide({ message: 'previous' });
+	  },
+	  slickNext: function slickNext() {
+	    this.changeSlide({ message: 'next' });
+	  },
+	  slickGoTo: function slickGoTo(slide) {
+	    slide = Number(slide);
+	    !isNaN(slide) && this.changeSlide({
+	      message: 'index',
+	      index: slide,
+	      currentSlide: this.state.currentSlide
+	    });
+	  },
+	  render: function render() {
+	    var className = (0, _classnames2.default)('slick-initialized', 'slick-slider', this.props.className, {
+	      'slick-vertical': this.props.vertical
+	    });
+	
+	    var trackProps = {
+	      fade: this.props.fade,
+	      cssEase: this.props.cssEase,
+	      speed: this.props.speed,
+	      infinite: this.props.infinite,
+	      centerMode: this.props.centerMode,
+	      focusOnSelect: this.props.focusOnSelect ? this.selectHandler : null,
+	      currentSlide: this.state.currentSlide,
+	      lazyLoad: this.props.lazyLoad,
+	      lazyLoadedList: this.state.lazyLoadedList,
+	      rtl: this.props.rtl,
+	      slideWidth: this.state.slideWidth,
+	      slidesToShow: this.props.slidesToShow,
+	      slidesToScroll: this.props.slidesToScroll,
+	      slideCount: this.state.slideCount,
+	      trackStyle: this.state.trackStyle,
+	      variableWidth: this.props.variableWidth
+	    };
+	
+	    var dots;
+	
+	    if (this.props.dots === true && this.state.slideCount >= this.props.slidesToShow) {
+	      var dotProps = {
+	        dotsClass: this.props.dotsClass,
+	        slideCount: this.state.slideCount,
+	        slidesToShow: this.props.slidesToShow,
+	        currentSlide: this.state.currentSlide,
+	        slidesToScroll: this.props.slidesToScroll,
+	        clickHandler: this.changeSlide,
+	        children: this.props.children,
+	        customPaging: this.props.customPaging
+	      };
+	
+	      dots = _react2.default.createElement(_dots.Dots, dotProps);
+	    }
+	
+	    var prevArrow, nextArrow;
+	
+	    var arrowProps = {
+	      infinite: this.props.infinite,
+	      centerMode: this.props.centerMode,
+	      currentSlide: this.state.currentSlide,
+	      slideCount: this.state.slideCount,
+	      slidesToShow: this.props.slidesToShow,
+	      prevArrow: this.props.prevArrow,
+	      nextArrow: this.props.nextArrow,
+	      clickHandler: this.changeSlide
+	    };
+	
+	    if (this.props.arrows) {
+	      prevArrow = _react2.default.createElement(_arrows.PrevArrow, arrowProps);
+	      nextArrow = _react2.default.createElement(_arrows.NextArrow, arrowProps);
+	    }
+	
+	    var verticalHeightStyle = null;
+	
+	    if (this.props.vertical) {
+	      verticalHeightStyle = {
+	        height: this.state.listHeight
+	      };
+	    }
+	
+	    var centerPaddingStyle = null;
+	
+	    if (this.props.vertical === false) {
+	      if (this.props.centerMode === true) {
+	        centerPaddingStyle = {
+	          padding: '0px ' + this.props.centerPadding
+	        };
+	      }
+	    } else {
+	      if (this.props.centerMode === true) {
+	        centerPaddingStyle = {
+	          padding: this.props.centerPadding + ' 0px'
+	        };
+	      }
+	    }
+	
+	    var listStyle = (0, _objectAssign2.default)({}, verticalHeightStyle, centerPaddingStyle);
+	
+	    return _react2.default.createElement(
+	      'div',
+	      {
+	        className: className,
+	        onMouseEnter: this.onInnerSliderEnter,
+	        onMouseLeave: this.onInnerSliderLeave,
+	        onMouseOver: this.onInnerSliderOver
+	      },
+	      prevArrow,
+	      _react2.default.createElement(
+	        'div',
+	        {
+	          ref: this.listRefHandler,
+	          className: 'slick-list',
+	          style: listStyle,
+	          onMouseDown: this.swipeStart,
+	          onMouseMove: this.state.dragging ? this.swipeMove : null,
+	          onMouseUp: this.swipeEnd,
+	          onMouseLeave: this.state.dragging ? this.swipeEnd : null,
+	          onTouchStart: this.swipeStart,
+	          onTouchMove: this.state.dragging ? this.swipeMove : null,
+	          onTouchEnd: this.swipeEnd,
+	          onTouchCancel: this.state.dragging ? this.swipeEnd : null,
+	          onKeyDown: this.props.accessibility ? this.keyHandler : null },
+	        _react2.default.createElement(
+	          _track.Track,
+	          _extends({ ref: this.trackRefHandler }, trackProps),
+	          this.props.children
+	        )
+	      ),
+	      nextArrow,
+	      dots
+	    );
+	  }
+	});
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(8)))
+
+/***/ }),
+/* 370 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	exports.__esModule = true;
+	
+	var _trackHelper = __webpack_require__(371);
+	
+	var _helpers = __webpack_require__(372);
+	
+	var _helpers2 = _interopRequireDefault(_helpers);
+	
+	var _objectAssign = __webpack_require__(9);
+	
+	var _objectAssign2 = _interopRequireDefault(_objectAssign);
+	
+	var _reactDom = __webpack_require__(42);
+	
+	var _reactDom2 = _interopRequireDefault(_reactDom);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	var EventHandlers = {
+	  // Event handler for previous and next
+	  changeSlide: function changeSlide(options) {
+	    var indexOffset, previousInt, slideOffset, unevenOffset, targetSlide;
+	    var _props = this.props,
+	        slidesToScroll = _props.slidesToScroll,
+	        slidesToShow = _props.slidesToShow;
+	    var _state = this.state,
+	        slideCount = _state.slideCount,
+	        currentSlide = _state.currentSlide;
+	
+	    unevenOffset = slideCount % slidesToScroll !== 0;
+	    indexOffset = unevenOffset ? 0 : (slideCount - currentSlide) % slidesToScroll;
+	
+	    if (options.message === 'previous') {
+	      slideOffset = indexOffset === 0 ? slidesToScroll : slidesToShow - indexOffset;
+	      targetSlide = currentSlide - slideOffset;
+	      if (this.props.lazyLoad) {
+	        previousInt = currentSlide - slideOffset;
+	        targetSlide = previousInt === -1 ? slideCount - 1 : previousInt;
+	      }
+	    } else if (options.message === 'next') {
+	      slideOffset = indexOffset === 0 ? slidesToScroll : indexOffset;
+	      targetSlide = currentSlide + slideOffset;
+	      if (this.props.lazyLoad) {
+	        targetSlide = (currentSlide + slidesToScroll) % slideCount + indexOffset;
+	      }
+	    } else if (options.message === 'dots' || options.message === 'children') {
+	      // Click on dots
+	      targetSlide = options.index * options.slidesToScroll;
+	      if (targetSlide === options.currentSlide) {
+	        return;
+	      }
+	    } else if (options.message === 'index') {
+	      targetSlide = Number(options.index);
+	      if (targetSlide === options.currentSlide) {
+	        return;
+	      }
+	    }
+	
+	    this.slideHandler(targetSlide);
+	  },
+	
+	  // Accessiblity handler for previous and next
+	  keyHandler: function keyHandler(e) {
+	    //Dont slide if the cursor is inside the form fields and arrow keys are pressed
+	    if (!e.target.tagName.match('TEXTAREA|INPUT|SELECT')) {
+	      if (e.keyCode === 37 && this.props.accessibility === true) {
+	        this.changeSlide({
+	          message: this.props.rtl === true ? 'next' : 'previous'
+	        });
+	      } else if (e.keyCode === 39 && this.props.accessibility === true) {
+	        this.changeSlide({
+	          message: this.props.rtl === true ? 'previous' : 'next'
+	        });
+	      }
+	    }
+	  },
+	  // Focus on selecting a slide (click handler on track)
+	  selectHandler: function selectHandler(options) {
+	    this.changeSlide(options);
+	  },
+	  swipeStart: function swipeStart(e) {
+	    var touches, posX, posY;
+	
+	    if (this.props.swipe === false || 'ontouchend' in document && this.props.swipe === false) {
+	      return;
+	    } else if (this.props.draggable === false && e.type.indexOf('mouse') !== -1) {
+	      return;
+	    }
+	    posX = e.touches !== undefined ? e.touches[0].pageX : e.clientX;
+	    posY = e.touches !== undefined ? e.touches[0].pageY : e.clientY;
+	    this.setState({
+	      dragging: true,
+	      touchObject: {
+	        startX: posX,
+	        startY: posY,
+	        curX: posX,
+	        curY: posY
+	      }
+	    });
+	  },
+	  swipeMove: function swipeMove(e) {
+	    if (!this.state.dragging) {
+	      e.preventDefault();
+	      return;
+	    }
+	    if (this.state.scrolling) {
+	      return;
+	    }
+	    if (this.state.animating) {
+	      e.preventDefault();
+	      return;
+	    }
+	    if (this.props.vertical && this.props.swipeToSlide && this.props.verticalSwiping) {
+	      e.preventDefault();
+	    }
+	    var swipeLeft;
+	    var curLeft, positionOffset;
+	    var touchObject = this.state.touchObject;
+	
+	    curLeft = (0, _trackHelper.getTrackLeft)((0, _objectAssign2.default)({
+	      slideIndex: this.state.currentSlide,
+	      trackRef: this.track
+	    }, this.props, this.state));
+	    touchObject.curX = e.touches ? e.touches[0].pageX : e.clientX;
+	    touchObject.curY = e.touches ? e.touches[0].pageY : e.clientY;
+	    touchObject.swipeLength = Math.round(Math.sqrt(Math.pow(touchObject.curX - touchObject.startX, 2)));
+	    var verticalSwipeLength = Math.round(Math.sqrt(Math.pow(touchObject.curY - touchObject.startY, 2)));
+	
+	    if (!this.props.verticalSwiping && !this.state.swiping && verticalSwipeLength > 4) {
+	      this.setState({
+	        scrolling: true
+	      });
+	      return;
+	    }
+	
+	    if (this.props.verticalSwiping) {
+	      touchObject.swipeLength = verticalSwipeLength;
+	    }
+	
+	    positionOffset = (this.props.rtl === false ? 1 : -1) * (touchObject.curX > touchObject.startX ? 1 : -1);
+	
+	    if (this.props.verticalSwiping) {
+	      positionOffset = touchObject.curY > touchObject.startY ? 1 : -1;
+	    }
+	
+	    var currentSlide = this.state.currentSlide;
+	    var dotCount = Math.ceil(this.state.slideCount / this.props.slidesToScroll);
+	    var swipeDirection = this.swipeDirection(this.state.touchObject);
+	    var touchSwipeLength = touchObject.swipeLength;
+	
+	    if (this.props.infinite === false) {
+	      if (currentSlide === 0 && swipeDirection === 'right' || currentSlide + 1 >= dotCount && swipeDirection === 'left') {
+	        touchSwipeLength = touchObject.swipeLength * this.props.edgeFriction;
+	
+	        if (this.state.edgeDragged === false && this.props.edgeEvent) {
+	          this.props.edgeEvent(swipeDirection);
+	          this.setState({ edgeDragged: true });
+	        }
+	      }
+	    }
+	
+	    if (this.state.swiped === false && this.props.swipeEvent) {
+	      this.props.swipeEvent(swipeDirection);
+	      this.setState({ swiped: true });
+	    }
+	
+	    if (!this.props.vertical) {
+	      swipeLeft = curLeft + touchSwipeLength * positionOffset;
+	    } else {
+	      swipeLeft = curLeft + touchSwipeLength * (this.state.listHeight / this.state.listWidth) * positionOffset;
+	    }
+	
+	    if (this.props.verticalSwiping) {
+	      swipeLeft = curLeft + touchSwipeLength * positionOffset;
+	    }
+	
+	    this.setState({
+	      touchObject: touchObject,
+	      swipeLeft: swipeLeft,
+	      trackStyle: (0, _trackHelper.getTrackCSS)((0, _objectAssign2.default)({ left: swipeLeft }, this.props, this.state))
+	    });
+	
+	    if (Math.abs(touchObject.curX - touchObject.startX) < Math.abs(touchObject.curY - touchObject.startY) * 0.8) {
+	      return;
+	    }
+	    if (touchObject.swipeLength > 4) {
+	      this.setState({
+	        swiping: true
+	      });
+	      e.preventDefault();
+	    }
+	  },
+	  getNavigableIndexes: function getNavigableIndexes() {
+	    var max = void 0;
+	    var breakPoint = 0;
+	    var counter = 0;
+	    var indexes = [];
+	
+	    if (!this.props.infinite) {
+	      max = this.state.slideCount;
+	    } else {
+	      breakPoint = this.props.slidesToShow * -1;
+	      counter = this.props.slidesToShow * -1;
+	      max = this.state.slideCount * 2;
+	    }
+	
+	    while (breakPoint < max) {
+	      indexes.push(breakPoint);
+	      breakPoint = counter + this.props.slidesToScroll;
+	
+	      counter += this.props.slidesToScroll <= this.props.slidesToShow ? this.props.slidesToScroll : this.props.slidesToShow;
+	    }
+	
+	    return indexes;
+	  },
+	  checkNavigable: function checkNavigable(index) {
+	    var navigables = this.getNavigableIndexes();
+	    var prevNavigable = 0;
+	
+	    if (index > navigables[navigables.length - 1]) {
+	      index = navigables[navigables.length - 1];
+	    } else {
+	      for (var n in navigables) {
+	        if (index < navigables[n]) {
+	          index = prevNavigable;
+	          break;
+	        }
+	
+	        prevNavigable = navigables[n];
+	      }
+	    }
+	
+	    return index;
+	  },
+	  getSlideCount: function getSlideCount() {
+	    var _this = this;
+	
+	    var centerOffset = this.props.centerMode ? this.state.slideWidth * Math.floor(this.props.slidesToShow / 2) : 0;
+	
+	    if (this.props.swipeToSlide) {
+	      var swipedSlide = void 0;
+	
+	      var slickList = _reactDom2.default.findDOMNode(this.list);
+	
+	      var slides = slickList.querySelectorAll('.slick-slide');
+	
+	      Array.from(slides).every(function (slide) {
+	        if (!_this.props.vertical) {
+	          if (slide.offsetLeft - centerOffset + _this.getWidth(slide) / 2 > _this.state.swipeLeft * -1) {
+	            swipedSlide = slide;
+	            return false;
+	          }
+	        } else {
+	          if (slide.offsetTop + _this.getHeight(slide) / 2 > _this.state.swipeLeft * -1) {
+	            swipedSlide = slide;
+	            return false;
+	          }
+	        }
+	
+	        return true;
+	      });
+	
+	      var slidesTraversed = Math.abs(swipedSlide.dataset.index - this.state.currentSlide) || 1;
+	
+	      return slidesTraversed;
+	    } else {
+	      return this.props.slidesToScroll;
+	    }
+	  },
+	
+	  swipeEnd: function swipeEnd(e) {
+	    if (!this.state.dragging) {
+	      if (this.props.swipe) {
+	        e.preventDefault();
+	      }
+	      return;
+	    }
+	    var touchObject = this.state.touchObject;
+	    var minSwipe = this.state.listWidth / this.props.touchThreshold;
+	    var swipeDirection = this.swipeDirection(touchObject);
+	
+	    if (this.props.verticalSwiping) {
+	      minSwipe = this.state.listHeight / this.props.touchThreshold;
+	    }
+	
+	    var wasScrolling = this.state.scrolling;
+	    // reset the state of touch related state variables.
+	    this.setState({
+	      dragging: false,
+	      edgeDragged: false,
+	      scrolling: false,
+	      swiping: false,
+	      swiped: false,
+	      swipeLeft: null,
+	      touchObject: {}
+	    });
+	    if (wasScrolling) {
+	      return;
+	    }
+	
+	    // Fix for #13
+	    if (!touchObject.swipeLength) {
+	      return;
+	    }
+	    if (touchObject.swipeLength > minSwipe) {
+	      e.preventDefault();
+	
+	      var slideCount = void 0,
+	          newSlide = void 0;
+	
+	      switch (swipeDirection) {
+	
+	        case 'left':
+	        case 'down':
+	          newSlide = this.state.currentSlide + this.getSlideCount();
+	          slideCount = this.props.swipeToSlide ? this.checkNavigable(newSlide) : newSlide;
+	          this.state.currentDirection = 0;
+	          break;
+	
+	        case 'right':
+	        case 'up':
+	          newSlide = this.state.currentSlide - this.getSlideCount();
+	          slideCount = this.props.swipeToSlide ? this.checkNavigable(newSlide) : newSlide;
+	          this.state.currentDirection = 1;
+	          break;
+	
+	        default:
+	          slideCount = this.state.currentSlide;
+	
+	      }
+	
+	      this.slideHandler(slideCount);
+	    } else {
+	      // Adjust the track back to it's original position.
+	      var currentLeft = (0, _trackHelper.getTrackLeft)((0, _objectAssign2.default)({
+	        slideIndex: this.state.currentSlide,
+	        trackRef: this.track
+	      }, this.props, this.state));
+	
+	      this.setState({
+	        trackStyle: (0, _trackHelper.getTrackAnimateCSS)((0, _objectAssign2.default)({ left: currentLeft }, this.props, this.state))
+	      });
+	    }
+	  },
+	  onInnerSliderEnter: function onInnerSliderEnter(e) {
+	    if (this.props.autoplay && this.props.pauseOnHover) {
+	      this.pause();
+	    }
+	  },
+	  onInnerSliderOver: function onInnerSliderOver(e) {
+	    if (this.props.autoplay && this.props.pauseOnHover) {
+	      this.pause();
+	    }
+	  },
+	  onInnerSliderLeave: function onInnerSliderLeave(e) {
+	    if (this.props.autoplay && this.props.pauseOnHover) {
+	      this.autoPlay();
+	    }
+	  }
+	};
+	
+	exports.default = EventHandlers;
+
+/***/ }),
+/* 371 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	exports.__esModule = true;
+	exports.getTrackLeft = exports.getTrackAnimateCSS = exports.getTrackCSS = undefined;
+	
+	var _reactDom = __webpack_require__(42);
+	
+	var _reactDom2 = _interopRequireDefault(_reactDom);
+	
+	var _objectAssign = __webpack_require__(9);
+	
+	var _objectAssign2 = _interopRequireDefault(_objectAssign);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	var checkSpecKeys = function checkSpecKeys(spec, keysArray) {
+	  return keysArray.reduce(function (value, key) {
+	    return value && spec.hasOwnProperty(key);
+	  }, true) ? null : console.error('Keys Missing', spec);
+	};
+	
+	var getTrackCSS = exports.getTrackCSS = function getTrackCSS(spec) {
+	  checkSpecKeys(spec, ['left', 'variableWidth', 'slideCount', 'slidesToShow', 'slideWidth']);
+	
+	  var trackWidth, trackHeight;
+	
+	  var trackChildren = spec.slideCount + 2 * spec.slidesToShow;
+	
+	  if (!spec.vertical) {
+	    if (spec.variableWidth) {
+	      trackWidth = (spec.slideCount + 2 * spec.slidesToShow) * spec.slideWidth;
+	    } else if (spec.centerMode) {
+	      trackWidth = (spec.slideCount + 2 * (spec.slidesToShow + 1)) * spec.slideWidth;
+	    } else {
+	      trackWidth = (spec.slideCount + 2 * spec.slidesToShow) * spec.slideWidth;
+	    }
+	  } else {
+	    trackHeight = trackChildren * spec.slideHeight;
+	  }
+	
+	  var style = {
+	    opacity: 1,
+	    WebkitTransform: !spec.vertical ? 'translate3d(' + spec.left + 'px, 0px, 0px)' : 'translate3d(0px, ' + spec.left + 'px, 0px)',
+	    transform: !spec.vertical ? 'translate3d(' + spec.left + 'px, 0px, 0px)' : 'translate3d(0px, ' + spec.left + 'px, 0px)',
+	    transition: '',
+	    WebkitTransition: '',
+	    msTransform: !spec.vertical ? 'translateX(' + spec.left + 'px)' : 'translateY(' + spec.left + 'px)'
+	  };
+	
+	  if (trackWidth) {
+	    (0, _objectAssign2.default)(style, { width: trackWidth });
+	  }
+	
+	  if (trackHeight) {
+	    (0, _objectAssign2.default)(style, { height: trackHeight });
+	  }
+	
+	  // Fallback for IE8
+	  if (window && !window.addEventListener && window.attachEvent) {
+	    if (!spec.vertical) {
+	      style.marginLeft = spec.left + 'px';
+	    } else {
+	      style.marginTop = spec.left + 'px';
+	    }
+	  }
+	
+	  return style;
+	};
+	
+	var getTrackAnimateCSS = exports.getTrackAnimateCSS = function getTrackAnimateCSS(spec) {
+	  checkSpecKeys(spec, ['left', 'variableWidth', 'slideCount', 'slidesToShow', 'slideWidth', 'speed', 'cssEase']);
+	
+	  var style = getTrackCSS(spec);
+	  // useCSS is true by default so it can be undefined
+	  style.WebkitTransition = '-webkit-transform ' + spec.speed + 'ms ' + spec.cssEase;
+	  style.transition = 'transform ' + spec.speed + 'ms ' + spec.cssEase;
+	  return style;
+	};
+	
+	var getTrackLeft = exports.getTrackLeft = function getTrackLeft(spec) {
+	
+	  checkSpecKeys(spec, ['slideIndex', 'trackRef', 'infinite', 'centerMode', 'slideCount', 'slidesToShow', 'slidesToScroll', 'slideWidth', 'listWidth', 'variableWidth', 'slideHeight']);
+	
+	  var slideOffset = 0;
+	  var targetLeft;
+	  var targetSlide;
+	  var verticalOffset = 0;
+	
+	  if (spec.fade) {
+	    return 0;
+	  }
+	
+	  if (spec.infinite) {
+	    if (spec.slideCount >= spec.slidesToShow) {
+	      slideOffset = spec.slideWidth * spec.slidesToShow * -1;
+	      verticalOffset = spec.slideHeight * spec.slidesToShow * -1;
+	    }
+	    if (spec.slideCount % spec.slidesToScroll !== 0) {
+	      if (spec.slideIndex + spec.slidesToScroll > spec.slideCount && spec.slideCount > spec.slidesToShow) {
+	        if (spec.slideIndex > spec.slideCount) {
+	          slideOffset = (spec.slidesToShow - (spec.slideIndex - spec.slideCount)) * spec.slideWidth * -1;
+	          verticalOffset = (spec.slidesToShow - (spec.slideIndex - spec.slideCount)) * spec.slideHeight * -1;
+	        } else {
+	          slideOffset = spec.slideCount % spec.slidesToScroll * spec.slideWidth * -1;
+	          verticalOffset = spec.slideCount % spec.slidesToScroll * spec.slideHeight * -1;
+	        }
+	      }
+	    }
+	  } else {
+	
+	    if (spec.slideCount % spec.slidesToScroll !== 0) {
+	      if (spec.slideIndex + spec.slidesToScroll > spec.slideCount && spec.slideCount > spec.slidesToShow) {
+	        var slidesToOffset = spec.slidesToShow - spec.slideCount % spec.slidesToScroll;
+	        slideOffset = slidesToOffset * spec.slideWidth;
+	      }
+	    }
+	  }
+	
+	  if (spec.centerMode) {
+	    if (spec.infinite) {
+	      slideOffset += spec.slideWidth * Math.floor(spec.slidesToShow / 2);
+	    } else {
+	      slideOffset = spec.slideWidth * Math.floor(spec.slidesToShow / 2);
+	    }
+	  }
+	
+	  if (!spec.vertical) {
+	    targetLeft = spec.slideIndex * spec.slideWidth * -1 + slideOffset;
+	  } else {
+	    targetLeft = spec.slideIndex * spec.slideHeight * -1 + verticalOffset;
+	  }
+	
+	  if (spec.variableWidth === true) {
+	    var targetSlideIndex;
+	    if (spec.slideCount <= spec.slidesToShow || spec.infinite === false) {
+	      targetSlide = _reactDom2.default.findDOMNode(spec.trackRef).childNodes[spec.slideIndex];
+	    } else {
+	      targetSlideIndex = spec.slideIndex + spec.slidesToShow;
+	      targetSlide = _reactDom2.default.findDOMNode(spec.trackRef).childNodes[targetSlideIndex];
+	    }
+	    targetLeft = targetSlide ? targetSlide.offsetLeft * -1 : 0;
+	    if (spec.centerMode === true) {
+	      if (spec.infinite === false) {
+	        targetSlide = _reactDom2.default.findDOMNode(spec.trackRef).children[spec.slideIndex];
+	      } else {
+	        targetSlide = _reactDom2.default.findDOMNode(spec.trackRef).children[spec.slideIndex + spec.slidesToShow + 1];
+	      }
+	
+	      if (targetSlide) {
+	        targetLeft = targetSlide.offsetLeft * -1 + (spec.listWidth - targetSlide.offsetWidth) / 2;
+	      }
+	    }
+	  }
+	
+	  return targetLeft;
+	};
+
+/***/ }),
 /* 372 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	exports.__esModule = true;
+	
+	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+	
+	var _react = __webpack_require__(6);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _reactDom = __webpack_require__(42);
+	
+	var _reactDom2 = _interopRequireDefault(_reactDom);
+	
+	var _trackHelper = __webpack_require__(371);
+	
+	var _objectAssign = __webpack_require__(9);
+	
+	var _objectAssign2 = _interopRequireDefault(_objectAssign);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	var helpers = {
+	  initialize: function initialize(props) {
+	    var slickList = _reactDom2.default.findDOMNode(this.list);
+	
+	    var slideCount = _react2.default.Children.count(props.children);
+	    var listWidth = this.getWidth(slickList);
+	    var trackWidth = this.getWidth(_reactDom2.default.findDOMNode(this.track));
+	    var slideWidth;
+	
+	    if (!props.vertical) {
+	      var centerPaddingAdj = props.centerMode && parseInt(props.centerPadding) * 2;
+	      slideWidth = (this.getWidth(_reactDom2.default.findDOMNode(this)) - centerPaddingAdj) / props.slidesToShow;
+	    } else {
+	      slideWidth = this.getWidth(_reactDom2.default.findDOMNode(this));
+	    }
+	
+	    var slideHeight = this.getHeight(slickList.querySelector('[data-index="0"]'));
+	    var listHeight = slideHeight * props.slidesToShow;
+	
+	    var currentSlide = props.rtl ? slideCount - 1 - props.initialSlide : props.initialSlide;
+	
+	    this.setState({
+	      slideCount: slideCount,
+	      slideWidth: slideWidth,
+	      listWidth: listWidth,
+	      trackWidth: trackWidth,
+	      currentSlide: currentSlide,
+	      slideHeight: slideHeight,
+	      listHeight: listHeight
+	    }, function () {
+	
+	      var targetLeft = (0, _trackHelper.getTrackLeft)((0, _objectAssign2.default)({
+	        slideIndex: this.state.currentSlide,
+	        trackRef: this.track
+	      }, props, this.state));
+	      // getCSS function needs previously set state
+	      var trackStyle = (0, _trackHelper.getTrackCSS)((0, _objectAssign2.default)({ left: targetLeft }, props, this.state));
+	
+	      this.setState({ trackStyle: trackStyle });
+	
+	      this.autoPlay(); // once we're set up, trigger the initial autoplay.
+	    });
+	  },
+	  update: function update(props) {
+	    var slickList = _reactDom2.default.findDOMNode(this.list);
+	    // This method has mostly same code as initialize method.
+	    // Refactor it
+	    var slideCount = _react2.default.Children.count(props.children);
+	    var listWidth = this.getWidth(slickList);
+	    var trackWidth = this.getWidth(_reactDom2.default.findDOMNode(this.track));
+	    var slideWidth;
+	
+	    if (!props.vertical) {
+	      var centerPaddingAdj = props.centerMode && parseInt(props.centerPadding) * 2;
+	      slideWidth = (this.getWidth(_reactDom2.default.findDOMNode(this)) - centerPaddingAdj) / props.slidesToShow;
+	    } else {
+	      slideWidth = this.getWidth(_reactDom2.default.findDOMNode(this));
+	    }
+	
+	    var slideHeight = this.getHeight(slickList.querySelector('[data-index="0"]'));
+	    var listHeight = slideHeight * props.slidesToShow;
+	
+	    // pause slider if autoplay is set to false
+	    if (!props.autoplay) {
+	      this.pause();
+	    } else {
+	      this.autoPlay();
+	    }
+	
+	    this.setState({
+	      slideCount: slideCount,
+	      slideWidth: slideWidth,
+	      listWidth: listWidth,
+	      trackWidth: trackWidth,
+	      slideHeight: slideHeight,
+	      listHeight: listHeight
+	    }, function () {
+	
+	      var targetLeft = (0, _trackHelper.getTrackLeft)((0, _objectAssign2.default)({
+	        slideIndex: this.state.currentSlide,
+	        trackRef: this.track
+	      }, props, this.state));
+	      // getCSS function needs previously set state
+	      var trackStyle = (0, _trackHelper.getTrackCSS)((0, _objectAssign2.default)({ left: targetLeft }, props, this.state));
+	
+	      this.setState({ trackStyle: trackStyle });
+	    });
+	  },
+	  getWidth: function getWidth(elem) {
+	    return elem && (elem.getBoundingClientRect().width || elem.offsetWidth) || 0;
+	  },
+	  getHeight: function getHeight(elem) {
+	    return elem && (elem.getBoundingClientRect().height || elem.offsetHeight) || 0;
+	  },
+	
+	  adaptHeight: function adaptHeight() {
+	    if (this.props.adaptiveHeight) {
+	      var selector = '[data-index="' + this.state.currentSlide + '"]';
+	      if (this.list) {
+	        var slickList = _reactDom2.default.findDOMNode(this.list);
+	        slickList.style.height = slickList.querySelector(selector).offsetHeight + 'px';
+	      }
+	    }
+	  },
+	  canGoNext: function canGoNext(opts) {
+	    var canGo = true;
+	    if (!opts.infinite) {
+	      if (opts.centerMode) {
+	        // check if current slide is last slide
+	        if (opts.currentSlide >= opts.slideCount - 1) {
+	          canGo = false;
+	        }
+	      } else {
+	        // check if all slides are shown in slider
+	        if (opts.slideCount <= opts.slidesToShow || opts.currentSlide >= opts.slideCount - opts.slidesToShow) {
+	          canGo = false;
+	        }
+	      }
+	    }
+	    return canGo;
+	  },
+	  slideHandler: function slideHandler(index) {
+	    var _this = this;
+	
+	    // Functionality of animateSlide and postSlide is merged into this function
+	    // console.log('slideHandler', index);
+	    var targetSlide, currentSlide;
+	    var targetLeft, currentLeft;
+	    var callback;
+	
+	    if (this.props.waitForAnimate && this.state.animating) {
+	      return;
+	    }
+	
+	    if (this.props.fade) {
+	      currentSlide = this.state.currentSlide;
+	
+	      // Don't change slide if it's not infite and current slide is the first or last slide.
+	      if (this.props.infinite === false && (index < 0 || index >= this.state.slideCount)) {
+	        return;
+	      }
+	
+	      //  Shifting targetSlide back into the range
+	      if (index < 0) {
+	        targetSlide = index + this.state.slideCount;
+	      } else if (index >= this.state.slideCount) {
+	        targetSlide = index - this.state.slideCount;
+	      } else {
+	        targetSlide = index;
+	      }
+	
+	      if (this.props.lazyLoad && this.state.lazyLoadedList.indexOf(targetSlide) < 0) {
+	        this.setState({
+	          lazyLoadedList: this.state.lazyLoadedList.concat(targetSlide)
+	        });
+	      }
+	
+	      callback = function callback() {
+	        _this.setState({
+	          animating: false
+	        });
+	        if (_this.props.afterChange) {
+	          _this.props.afterChange(targetSlide);
+	        }
+	        delete _this.animationEndCallback;
+	      };
+	
+	      this.setState({
+	        animating: true,
+	        currentSlide: targetSlide
+	      }, function () {
+	        this.animationEndCallback = setTimeout(callback, this.props.speed);
+	      });
+	
+	      if (this.props.beforeChange) {
+	        this.props.beforeChange(this.state.currentSlide, targetSlide);
+	      }
+	
+	      this.autoPlay();
+	      return;
+	    }
+	
+	    targetSlide = index;
+	    if (targetSlide < 0) {
+	      if (this.props.infinite === false) {
+	        currentSlide = 0;
+	      } else if (this.state.slideCount % this.props.slidesToScroll !== 0) {
+	        currentSlide = this.state.slideCount - this.state.slideCount % this.props.slidesToScroll;
+	      } else {
+	        currentSlide = this.state.slideCount + targetSlide;
+	      }
+	    } else if (targetSlide >= this.state.slideCount) {
+	      if (this.props.infinite === false) {
+	        currentSlide = this.state.slideCount - this.props.slidesToShow;
+	      } else if (this.state.slideCount % this.props.slidesToScroll !== 0) {
+	        currentSlide = 0;
+	      } else {
+	        currentSlide = targetSlide - this.state.slideCount;
+	      }
+	    } else {
+	      currentSlide = targetSlide;
+	    }
+	
+	    targetLeft = (0, _trackHelper.getTrackLeft)((0, _objectAssign2.default)({
+	      slideIndex: targetSlide,
+	      trackRef: this.track
+	    }, this.props, this.state));
+	
+	    currentLeft = (0, _trackHelper.getTrackLeft)((0, _objectAssign2.default)({
+	      slideIndex: currentSlide,
+	      trackRef: this.track
+	    }, this.props, this.state));
+	
+	    if (this.props.infinite === false) {
+	      targetLeft = currentLeft;
+	    }
+	
+	    if (this.props.beforeChange) {
+	      this.props.beforeChange(this.state.currentSlide, currentSlide);
+	    }
+	
+	    if (this.props.lazyLoad) {
+	      var loaded = true;
+	      var slidesToLoad = [];
+	      for (var i = targetSlide; i < targetSlide + this.props.slidesToShow; i++) {
+	        loaded = loaded && this.state.lazyLoadedList.indexOf(i) >= 0;
+	        if (!loaded) {
+	          slidesToLoad.push(i);
+	        }
+	      }
+	      if (!loaded) {
+	        this.setState({
+	          lazyLoadedList: this.state.lazyLoadedList.concat(slidesToLoad)
+	        });
+	      }
+	    }
+	
+	    // Slide Transition happens here.
+	    // animated transition happens to target Slide and
+	    // non - animated transition happens to current Slide
+	    // If CSS transitions are false, directly go the current slide.
+	
+	    if (this.props.useCSS === false) {
+	
+	      this.setState({
+	        currentSlide: currentSlide,
+	        trackStyle: (0, _trackHelper.getTrackCSS)((0, _objectAssign2.default)({ left: currentLeft }, this.props, this.state))
+	      }, function () {
+	        if (this.props.afterChange) {
+	          this.props.afterChange(currentSlide);
+	        }
+	      });
+	    } else {
+	
+	      var nextStateChanges = {
+	        animating: false,
+	        currentSlide: currentSlide,
+	        trackStyle: (0, _trackHelper.getTrackCSS)((0, _objectAssign2.default)({ left: currentLeft }, this.props, this.state)),
+	        swipeLeft: null
+	      };
+	
+	      callback = function callback() {
+	        _this.setState(nextStateChanges);
+	        if (_this.props.afterChange) {
+	          _this.props.afterChange(currentSlide);
+	        }
+	        delete _this.animationEndCallback;
+	      };
+	
+	      this.setState({
+	        animating: true,
+	        currentSlide: currentSlide,
+	        trackStyle: (0, _trackHelper.getTrackAnimateCSS)((0, _objectAssign2.default)({ left: targetLeft }, this.props, this.state))
+	      }, function () {
+	        this.animationEndCallback = setTimeout(callback, this.props.speed);
+	      });
+	    }
+	
+	    this.autoPlay();
+	  },
+	  swipeDirection: function swipeDirection(touchObject) {
+	    var xDist, yDist, r, swipeAngle;
+	
+	    xDist = touchObject.startX - touchObject.curX;
+	    yDist = touchObject.startY - touchObject.curY;
+	    r = Math.atan2(yDist, xDist);
+	
+	    swipeAngle = Math.round(r * 180 / Math.PI);
+	    if (swipeAngle < 0) {
+	      swipeAngle = 360 - Math.abs(swipeAngle);
+	    }
+	    if (swipeAngle <= 45 && swipeAngle >= 0 || swipeAngle <= 360 && swipeAngle >= 315) {
+	      return this.props.rtl === false ? 'left' : 'right';
+	    }
+	    if (swipeAngle >= 135 && swipeAngle <= 225) {
+	      return this.props.rtl === false ? 'right' : 'left';
+	    }
+	    if (this.props.verticalSwiping === true) {
+	      if (swipeAngle >= 35 && swipeAngle <= 135) {
+	        return 'down';
+	      } else {
+	        return 'up';
+	      }
+	    }
+	
+	    return 'vertical';
+	  },
+	  play: function play() {
+	    var nextIndex;
+	
+	    if (!this.state.mounted) {
+	      return false;
+	    }
+	
+	    if (this.props.rtl) {
+	      nextIndex = this.state.currentSlide - this.props.slidesToScroll;
+	    } else {
+	      if (this.canGoNext(_extends({}, this.props, this.state))) {
+	        nextIndex = this.state.currentSlide + this.props.slidesToScroll;
+	      } else {
+	        return false;
+	      }
+	    }
+	
+	    this.slideHandler(nextIndex);
+	  },
+	  autoPlay: function autoPlay() {
+	    if (this.state.autoPlayTimer) {
+	      clearTimeout(this.state.autoPlayTimer);
+	    }
+	    if (this.props.autoplay) {
+	      this.setState({
+	        autoPlayTimer: setTimeout(this.play, this.props.autoplaySpeed)
+	      });
+	    }
+	  },
+	  pause: function pause() {
+	    if (this.state.autoPlayTimer) {
+	      clearTimeout(this.state.autoPlayTimer);
+	      this.setState({
+	        autoPlayTimer: null
+	      });
+	    }
+	  }
+	};
+	
+	exports.default = helpers;
+
+/***/ }),
+/* 373 */
+/***/ (function(module, exports) {
+
+	"use strict";
+	
+	var initialState = {
+	    animating: false,
+	    dragging: false,
+	    autoPlayTimer: null,
+	    currentDirection: 0,
+	    currentLeft: null,
+	    currentSlide: 0,
+	    direction: 1,
+	    listWidth: null,
+	    listHeight: null,
+	    scrolling: false,
+	    // loadIndex: 0,
+	    slideCount: null,
+	    slideWidth: null,
+	    slideHeight: null,
+	    swiping: false,
+	    // sliding: false,
+	    // slideOffset: 0,
+	    swipeLeft: null,
+	    touchObject: {
+	        startX: 0,
+	        startY: 0,
+	        curX: 0,
+	        curY: 0
+	    },
+	
+	    lazyLoadedList: [],
+	
+	    // added for react
+	    initialized: false,
+	    edgeDragged: false,
+	    swiped: false, // used by swipeEvent. differentites between touch and swipe.
+	    trackStyle: {},
+	    trackWidth: 0
+	
+	    // Removed
+	    // transformsEnabled: false,
+	    // $nextArrow: null,
+	    // $prevArrow: null,
+	    // $dots: null,
+	    // $list: null,
+	    // $slideTrack: null,
+	    // $slides: null,
+	};
+	
+	module.exports = initialState;
+
+/***/ }),
+/* 374 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	var _react = __webpack_require__(6);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	var defaultProps = {
+	    className: '',
+	    accessibility: true,
+	    adaptiveHeight: false,
+	    arrows: true,
+	    autoplay: false,
+	    autoplaySpeed: 3000,
+	    centerMode: false,
+	    centerPadding: '50px',
+	    cssEase: 'ease',
+	    customPaging: function customPaging(i) {
+	        return _react2.default.createElement(
+	            'button',
+	            null,
+	            i + 1
+	        );
+	    },
+	    dots: false,
+	    dotsClass: 'slick-dots',
+	    draggable: true,
+	    easing: 'linear',
+	    edgeFriction: 0.35,
+	    fade: false,
+	    focusOnSelect: false,
+	    infinite: true,
+	    initialSlide: 0,
+	    lazyLoad: false,
+	    pauseOnHover: true,
+	    responsive: null,
+	    rtl: false,
+	    slide: 'div',
+	    slidesToShow: 1,
+	    slidesToScroll: 1,
+	    speed: 500,
+	    swipe: true,
+	    swipeToSlide: false,
+	    touchMove: true,
+	    touchThreshold: 5,
+	    useCSS: true,
+	    variableWidth: false,
+	    vertical: false,
+	    waitForAnimate: true,
+	    afterChange: null,
+	    beforeChange: null,
+	    edgeEvent: null,
+	    init: null,
+	    swipeEvent: null,
+	    // nextArrow, prevArrow are react componets
+	    nextArrow: null,
+	    prevArrow: null
+	};
+	
+	module.exports = defaultProps;
+
+/***/ }),
+/* 375 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	/**
+	 * Copyright 2013-present, Facebook, Inc.
+	 * All rights reserved.
+	 *
+	 * This source code is licensed under the BSD-style license found in the
+	 * LICENSE file in the root directory of this source tree. An additional grant
+	 * of patent rights can be found in the PATENTS file in the same directory.
+	 *
+	 */
+	
+	'use strict';
+	
+	var React = __webpack_require__(6);
+	var factory = __webpack_require__(40);
+	
+	if (typeof React === 'undefined') {
+	  throw Error(
+	    'create-react-class could not find the React object. If you are using script tags, ' +
+	      'make sure that React is being loaded before create-react-class.'
+	  );
+	}
+	
+	// Hack to grab NoopUpdateQueue from isomorphic React
+	var ReactNoopUpdateQueue = new React.Component().updater;
+	
+	module.exports = factory(
+	  React.Component,
+	  React.isValidElement,
+	  ReactNoopUpdateQueue
+	);
+
+
+/***/ }),
+/* 376 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
+	  Copyright (c) 2016 Jed Watson.
+	  Licensed under the MIT License (MIT), see
+	  http://jedwatson.github.io/classnames
+	*/
+	/* global define */
+	
+	(function () {
+		'use strict';
+	
+		var hasOwn = {}.hasOwnProperty;
+	
+		function classNames () {
+			var classes = [];
+	
+			for (var i = 0; i < arguments.length; i++) {
+				var arg = arguments[i];
+				if (!arg) continue;
+	
+				var argType = typeof arg;
+	
+				if (argType === 'string' || argType === 'number') {
+					classes.push(arg);
+				} else if (Array.isArray(arg)) {
+					classes.push(classNames.apply(null, arg));
+				} else if (argType === 'object') {
+					for (var key in arg) {
+						if (hasOwn.call(arg, key) && arg[key]) {
+							classes.push(key);
+						}
+					}
+				}
+			}
+	
+			return classes.join(' ');
+		}
+	
+		if (typeof module !== 'undefined' && module.exports) {
+			module.exports = classNames;
+		} else if (true) {
+			// register as 'classnames', consistent with npm package name
+			!(__WEBPACK_AMD_DEFINE_ARRAY__ = [], __WEBPACK_AMD_DEFINE_RESULT__ = function () {
+				return classNames;
+			}.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+		} else {
+			window.classNames = classNames;
+		}
+	}());
+
+
+/***/ }),
+/* 377 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	exports.__esModule = true;
+	exports.Track = undefined;
+	
+	var _react = __webpack_require__(6);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _objectAssign = __webpack_require__(9);
+	
+	var _objectAssign2 = _interopRequireDefault(_objectAssign);
+	
+	var _classnames = __webpack_require__(376);
+	
+	var _classnames2 = _interopRequireDefault(_classnames);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	var getSlideClasses = function getSlideClasses(spec) {
+	  var slickActive, slickCenter, slickCloned;
+	  var centerOffset, index;
+	
+	  if (spec.rtl) {
+	    index = spec.slideCount - 1 - spec.index;
+	  } else {
+	    index = spec.index;
+	  }
+	  slickCloned = index < 0 || index >= spec.slideCount;
+	  if (spec.centerMode) {
+	    centerOffset = Math.floor(spec.slidesToShow / 2);
+	    slickCenter = (index - spec.currentSlide) % spec.slideCount === 0;
+	    if (index > spec.currentSlide - centerOffset - 1 && index <= spec.currentSlide + centerOffset) {
+	      slickActive = true;
+	    }
+	  } else {
+	    slickActive = spec.currentSlide <= index && index < spec.currentSlide + spec.slidesToShow;
+	  }
+	  return (0, _classnames2.default)({
+	    'slick-slide': true,
+	    'slick-active': slickActive,
+	    'slick-center': slickCenter,
+	    'slick-cloned': slickCloned
+	  });
+	};
+	
+	var getSlideStyle = function getSlideStyle(spec) {
+	  var style = {};
+	
+	  if (spec.variableWidth === undefined || spec.variableWidth === false) {
+	    style.width = spec.slideWidth;
+	  }
+	
+	  if (spec.fade) {
+	    style.position = 'relative';
+	    style.left = -spec.index * spec.slideWidth;
+	    style.opacity = spec.currentSlide === spec.index ? 1 : 0;
+	    style.transition = 'opacity ' + spec.speed + 'ms ' + spec.cssEase;
+	    style.WebkitTransition = 'opacity ' + spec.speed + 'ms ' + spec.cssEase;
+	  }
+	
+	  return style;
+	};
+	
+	var getKey = function getKey(child, fallbackKey) {
+	  // key could be a zero
+	  return child.key === null || child.key === undefined ? fallbackKey : child.key;
+	};
+	
+	var renderSlides = function renderSlides(spec) {
+	  var key;
+	  var slides = [];
+	  var preCloneSlides = [];
+	  var postCloneSlides = [];
+	  var count = _react2.default.Children.count(spec.children);
+	
+	  _react2.default.Children.forEach(spec.children, function (elem, index) {
+	    var child = void 0;
+	    var childOnClickOptions = {
+	      message: 'children',
+	      index: index,
+	      slidesToScroll: spec.slidesToScroll,
+	      currentSlide: spec.currentSlide
+	    };
+	
+	    if (!spec.lazyLoad | (spec.lazyLoad && spec.lazyLoadedList.indexOf(index) >= 0)) {
+	      child = elem;
+	    } else {
+	      child = _react2.default.createElement('div', null);
+	    }
+	    var childStyle = getSlideStyle((0, _objectAssign2.default)({}, spec, { index: index }));
+	    var slideClass = child.props.className || '';
+	
+	    var onClick = function onClick(e) {
+	      child.props && child.props.onClick && child.props.onClick(e);
+	      if (spec.focusOnSelect) {
+	        spec.focusOnSelect(childOnClickOptions);
+	      }
+	    };
+	
+	    slides.push(_react2.default.cloneElement(child, {
+	      key: 'original' + getKey(child, index),
+	      'data-index': index,
+	      className: (0, _classnames2.default)(getSlideClasses((0, _objectAssign2.default)({ index: index }, spec)), slideClass),
+	      tabIndex: '-1',
+	      style: (0, _objectAssign2.default)({ outline: 'none' }, child.props.style || {}, childStyle),
+	      onClick: onClick
+	    }));
+	
+	    // variableWidth doesn't wrap properly.
+	    if (spec.infinite && spec.fade === false) {
+	      var infiniteCount = spec.variableWidth ? spec.slidesToShow + 1 : spec.slidesToShow;
+	
+	      if (index >= count - infiniteCount) {
+	        key = -(count - index);
+	        preCloneSlides.push(_react2.default.cloneElement(child, {
+	          key: 'precloned' + getKey(child, key),
+	          'data-index': key,
+	          className: (0, _classnames2.default)(getSlideClasses((0, _objectAssign2.default)({ index: key }, spec)), slideClass),
+	          style: (0, _objectAssign2.default)({}, child.props.style || {}, childStyle),
+	          onClick: onClick
+	        }));
+	      }
+	
+	      if (index < infiniteCount) {
+	        key = count + index;
+	        postCloneSlides.push(_react2.default.cloneElement(child, {
+	          key: 'postcloned' + getKey(child, key),
+	          'data-index': key,
+	          className: (0, _classnames2.default)(getSlideClasses((0, _objectAssign2.default)({ index: key }, spec)), slideClass),
+	          style: (0, _objectAssign2.default)({}, child.props.style || {}, childStyle),
+	          onClick: onClick
+	        }));
+	      }
+	    }
+	  });
+	
+	  if (spec.rtl) {
+	    return preCloneSlides.concat(slides, postCloneSlides).reverse();
+	  } else {
+	    return preCloneSlides.concat(slides, postCloneSlides);
+	  }
+	};
+	
+	var Track = exports.Track = function (_React$Component) {
+	  _inherits(Track, _React$Component);
+	
+	  function Track() {
+	    _classCallCheck(this, Track);
+	
+	    return _possibleConstructorReturn(this, _React$Component.apply(this, arguments));
+	  }
+	
+	  Track.prototype.render = function render() {
+	    var slides = renderSlides.call(this, this.props);
+	    return _react2.default.createElement(
+	      'div',
+	      { className: 'slick-track', style: this.props.trackStyle },
+	      slides
+	    );
+	  };
+	
+	  return Track;
+	}(_react2.default.Component);
+
+/***/ }),
+/* 378 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	exports.__esModule = true;
+	exports.Dots = undefined;
+	
+	var _react = __webpack_require__(6);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _classnames = __webpack_require__(376);
+	
+	var _classnames2 = _interopRequireDefault(_classnames);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	var getDotCount = function getDotCount(spec) {
+	  var dots;
+	  dots = Math.ceil(spec.slideCount / spec.slidesToScroll);
+	  return dots;
+	};
+	
+	var Dots = exports.Dots = function (_React$Component) {
+	  _inherits(Dots, _React$Component);
+	
+	  function Dots() {
+	    _classCallCheck(this, Dots);
+	
+	    return _possibleConstructorReturn(this, _React$Component.apply(this, arguments));
+	  }
+	
+	  Dots.prototype.clickHandler = function clickHandler(options, e) {
+	    // In Autoplay the focus stays on clicked button even after transition
+	    // to next slide. That only goes away by click somewhere outside
+	    e.preventDefault();
+	    this.props.clickHandler(options);
+	  };
+	
+	  Dots.prototype.render = function render() {
+	    var _this2 = this;
+	
+	    var dotCount = getDotCount({
+	      slideCount: this.props.slideCount,
+	      slidesToScroll: this.props.slidesToScroll
+	    });
+	
+	    // Apply join & split to Array to pre-fill it for IE8
+	    //
+	    // Credit: http://stackoverflow.com/a/13735425/1849458
+	    var dots = Array.apply(null, Array(dotCount + 1).join('0').split('')).map(function (x, i) {
+	
+	      var leftBound = i * _this2.props.slidesToScroll;
+	      var rightBound = i * _this2.props.slidesToScroll + (_this2.props.slidesToScroll - 1);
+	      var className = (0, _classnames2.default)({
+	        'slick-active': _this2.props.currentSlide >= leftBound && _this2.props.currentSlide <= rightBound
+	      });
+	
+	      var dotOptions = {
+	        message: 'dots',
+	        index: i,
+	        slidesToScroll: _this2.props.slidesToScroll,
+	        currentSlide: _this2.props.currentSlide
+	      };
+	
+	      var onClick = _this2.clickHandler.bind(_this2, dotOptions);
+	
+	      return _react2.default.createElement(
+	        'li',
+	        { key: i, className: className },
+	        _react2.default.cloneElement(_this2.props.customPaging(i), { onClick: onClick })
+	      );
+	    });
+	
+	    return _react2.default.createElement(
+	      'ul',
+	      { className: this.props.dotsClass, style: { display: 'block' } },
+	      dots
+	    );
+	  };
+	
+	  return Dots;
+	}(_react2.default.Component);
+
+/***/ }),
+/* 379 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	exports.__esModule = true;
+	exports.NextArrow = exports.PrevArrow = undefined;
+	
+	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+	
+	var _react = __webpack_require__(6);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _classnames = __webpack_require__(376);
+	
+	var _classnames2 = _interopRequireDefault(_classnames);
+	
+	var _helpers = __webpack_require__(372);
+	
+	var _helpers2 = _interopRequireDefault(_helpers);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+	
+	var PrevArrow = exports.PrevArrow = function (_React$Component) {
+	  _inherits(PrevArrow, _React$Component);
+	
+	  function PrevArrow() {
+	    _classCallCheck(this, PrevArrow);
+	
+	    return _possibleConstructorReturn(this, _React$Component.apply(this, arguments));
+	  }
+	
+	  PrevArrow.prototype.clickHandler = function clickHandler(options, e) {
+	    if (e) {
+	      e.preventDefault();
+	    }
+	    this.props.clickHandler(options, e);
+	  };
+	
+	  PrevArrow.prototype.render = function render() {
+	    var prevClasses = { 'slick-arrow': true, 'slick-prev': true };
+	    var prevHandler = this.clickHandler.bind(this, { message: 'previous' });
+	
+	    if (!this.props.infinite && (this.props.currentSlide === 0 || this.props.slideCount <= this.props.slidesToShow)) {
+	      prevClasses['slick-disabled'] = true;
+	      prevHandler = null;
+	    }
+	
+	    var prevArrowProps = {
+	      key: '0',
+	      'data-role': 'none',
+	      className: (0, _classnames2.default)(prevClasses),
+	      style: { display: 'block' },
+	      onClick: prevHandler
+	    };
+	    var customProps = {
+	      currentSlide: this.props.currentSlide,
+	      slideCount: this.props.slideCount
+	    };
+	    var prevArrow;
+	
+	    if (this.props.prevArrow) {
+	      prevArrow = _react2.default.cloneElement(this.props.prevArrow, _extends({}, prevArrowProps, customProps));
+	    } else {
+	      prevArrow = _react2.default.createElement(
+	        'button',
+	        _extends({ key: '0', type: 'button' }, prevArrowProps),
+	        ' Previous'
+	      );
+	    }
+	
+	    return prevArrow;
+	  };
+	
+	  return PrevArrow;
+	}(_react2.default.Component);
+	
+	var NextArrow = exports.NextArrow = function (_React$Component2) {
+	  _inherits(NextArrow, _React$Component2);
+	
+	  function NextArrow() {
+	    _classCallCheck(this, NextArrow);
+	
+	    return _possibleConstructorReturn(this, _React$Component2.apply(this, arguments));
+	  }
+	
+	  NextArrow.prototype.clickHandler = function clickHandler(options, e) {
+	    if (e) {
+	      e.preventDefault();
+	    }
+	    this.props.clickHandler(options, e);
+	  };
+	
+	  NextArrow.prototype.render = function render() {
+	    var nextClasses = { 'slick-arrow': true, 'slick-next': true };
+	    var nextHandler = this.clickHandler.bind(this, { message: 'next' });
+	
+	    if (!_helpers2.default.canGoNext(this.props)) {
+	      nextClasses['slick-disabled'] = true;
+	      nextHandler = null;
+	    }
+	
+	    var nextArrowProps = {
+	      key: '1',
+	      'data-role': 'none',
+	      className: (0, _classnames2.default)(nextClasses),
+	      style: { display: 'block' },
+	      onClick: nextHandler
+	    };
+	    var customProps = {
+	      currentSlide: this.props.currentSlide,
+	      slideCount: this.props.slideCount
+	    };
+	    var nextArrow;
+	
+	    if (this.props.nextArrow) {
+	      nextArrow = _react2.default.cloneElement(this.props.nextArrow, _extends({}, nextArrowProps, customProps));
+	    } else {
+	      nextArrow = _react2.default.createElement(
+	        'button',
+	        _extends({ key: '1', type: 'button' }, nextArrowProps),
+	        ' Next'
+	      );
+	    }
+	
+	    return nextArrow;
+	  };
+	
+	  return NextArrow;
+	}(_react2.default.Component);
+
+/***/ }),
+/* 380 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	var camel2hyphen = __webpack_require__(381);
+	
+	var isDimension = function (feature) {
+	  var re = /[height|width]$/;
+	  return re.test(feature);
+	};
+	
+	var obj2mq = function (obj) {
+	  var mq = '';
+	  var features = Object.keys(obj);
+	  features.forEach(function (feature, index) {
+	    var value = obj[feature];
+	    feature = camel2hyphen(feature);
+	    // Add px to dimension features
+	    if (isDimension(feature) && typeof value === 'number') {
+	      value = value + 'px';
+	    }
+	    if (value === true) {
+	      mq += feature;
+	    } else if (value === false) {
+	      mq += 'not ' + feature;
+	    } else {
+	      mq += '(' + feature + ': ' + value + ')';
+	    }
+	    if (index < features.length-1) {
+	      mq += ' and '
+	    }
+	  });
+	  return mq;
+	};
+	
+	var json2mq = function (query) {
+	  var mq = '';
+	  if (typeof query === 'string') {
+	    return query;
+	  }
+	  // Handling array of media queries
+	  if (query instanceof Array) {
+	    query.forEach(function (q, index) {
+	      mq += obj2mq(q);
+	      if (index < query.length-1) {
+	        mq += ', '
+	      }
+	    });
+	    return mq;
+	  }
+	  // Handling single media query
+	  return obj2mq(query);
+	};
+	
+	module.exports = json2mq;
+
+/***/ }),
+/* 381 */
+/***/ (function(module, exports) {
+
+	var camel2hyphen = function (str) {
+	  return str
+	          .replace(/[A-Z]/g, function (match) {
+	            return '-' + match.toLowerCase();
+	          })
+	          .toLowerCase();
+	};
+	
+	module.exports = camel2hyphen;
+
+/***/ }),
+/* 382 */
+/***/ (function(module, exports) {
+
+	var canUseDOM = !!(
+	  typeof window !== 'undefined' &&
+	  window.document &&
+	  window.document.createElement
+	);
+	
+	module.exports = canUseDOM;
+
+/***/ }),
+/* 383 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	var MediaQueryDispatch = __webpack_require__(384);
+	module.exports = new MediaQueryDispatch();
+
+
+/***/ }),
+/* 384 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	var MediaQuery = __webpack_require__(385);
+	var Util = __webpack_require__(387);
+	var each = Util.each;
+	var isFunction = Util.isFunction;
+	var isArray = Util.isArray;
+	
+	/**
+	 * Allows for registration of query handlers.
+	 * Manages the query handler's state and is responsible for wiring up browser events
+	 *
+	 * @constructor
+	 */
+	function MediaQueryDispatch () {
+	    if(!window.matchMedia) {
+	        throw new Error('matchMedia not present, legacy browsers require a polyfill');
+	    }
+	
+	    this.queries = {};
+	    this.browserIsIncapable = !window.matchMedia('only all').matches;
+	}
+	
+	MediaQueryDispatch.prototype = {
+	
+	    constructor : MediaQueryDispatch,
+	
+	    /**
+	     * Registers a handler for the given media query
+	     *
+	     * @param {string} q the media query
+	     * @param {object || Array || Function} options either a single query handler object, a function, or an array of query handlers
+	     * @param {function} options.match fired when query matched
+	     * @param {function} [options.unmatch] fired when a query is no longer matched
+	     * @param {function} [options.setup] fired when handler first triggered
+	     * @param {boolean} [options.deferSetup=false] whether setup should be run immediately or deferred until query is first matched
+	     * @param {boolean} [shouldDegrade=false] whether this particular media query should always run on incapable browsers
+	     */
+	    register : function(q, options, shouldDegrade) {
+	        var queries         = this.queries,
+	            isUnconditional = shouldDegrade && this.browserIsIncapable;
+	
+	        if(!queries[q]) {
+	            queries[q] = new MediaQuery(q, isUnconditional);
+	        }
+	
+	        //normalise to object in an array
+	        if(isFunction(options)) {
+	            options = { match : options };
+	        }
+	        if(!isArray(options)) {
+	            options = [options];
+	        }
+	        each(options, function(handler) {
+	            if (isFunction(handler)) {
+	                handler = { match : handler };
+	            }
+	            queries[q].addHandler(handler);
+	        });
+	
+	        return this;
+	    },
+	
+	    /**
+	     * unregisters a query and all it's handlers, or a specific handler for a query
+	     *
+	     * @param {string} q the media query to target
+	     * @param {object || function} [handler] specific handler to unregister
+	     */
+	    unregister : function(q, handler) {
+	        var query = this.queries[q];
+	
+	        if(query) {
+	            if(handler) {
+	                query.removeHandler(handler);
+	            }
+	            else {
+	                query.clear();
+	                delete this.queries[q];
+	            }
+	        }
+	
+	        return this;
+	    }
+	};
+	
+	module.exports = MediaQueryDispatch;
+
+
+/***/ }),
+/* 385 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	var QueryHandler = __webpack_require__(386);
+	var each = __webpack_require__(387).each;
+	
+	/**
+	 * Represents a single media query, manages it's state and registered handlers for this query
+	 *
+	 * @constructor
+	 * @param {string} query the media query string
+	 * @param {boolean} [isUnconditional=false] whether the media query should run regardless of whether the conditions are met. Primarily for helping older browsers deal with mobile-first design
+	 */
+	function MediaQuery(query, isUnconditional) {
+	    this.query = query;
+	    this.isUnconditional = isUnconditional;
+	    this.handlers = [];
+	    this.mql = window.matchMedia(query);
+	
+	    var self = this;
+	    this.listener = function(mql) {
+	        // Chrome passes an MediaQueryListEvent object, while other browsers pass MediaQueryList directly
+	        self.mql = mql.currentTarget || mql;
+	        self.assess();
+	    };
+	    this.mql.addListener(this.listener);
+	}
+	
+	MediaQuery.prototype = {
+	
+	    constuctor : MediaQuery,
+	
+	    /**
+	     * add a handler for this query, triggering if already active
+	     *
+	     * @param {object} handler
+	     * @param {function} handler.match callback for when query is activated
+	     * @param {function} [handler.unmatch] callback for when query is deactivated
+	     * @param {function} [handler.setup] callback for immediate execution when a query handler is registered
+	     * @param {boolean} [handler.deferSetup=false] should the setup callback be deferred until the first time the handler is matched?
+	     */
+	    addHandler : function(handler) {
+	        var qh = new QueryHandler(handler);
+	        this.handlers.push(qh);
+	
+	        this.matches() && qh.on();
+	    },
+	
+	    /**
+	     * removes the given handler from the collection, and calls it's destroy methods
+	     *
+	     * @param {object || function} handler the handler to remove
+	     */
+	    removeHandler : function(handler) {
+	        var handlers = this.handlers;
+	        each(handlers, function(h, i) {
+	            if(h.equals(handler)) {
+	                h.destroy();
+	                return !handlers.splice(i,1); //remove from array and exit each early
+	            }
+	        });
+	    },
+	
+	    /**
+	     * Determine whether the media query should be considered a match
+	     *
+	     * @return {Boolean} true if media query can be considered a match, false otherwise
+	     */
+	    matches : function() {
+	        return this.mql.matches || this.isUnconditional;
+	    },
+	
+	    /**
+	     * Clears all handlers and unbinds events
+	     */
+	    clear : function() {
+	        each(this.handlers, function(handler) {
+	            handler.destroy();
+	        });
+	        this.mql.removeListener(this.listener);
+	        this.handlers.length = 0; //clear array
+	    },
+	
+	    /*
+	        * Assesses the query, turning on all handlers if it matches, turning them off if it doesn't match
+	        */
+	    assess : function() {
+	        var action = this.matches() ? 'on' : 'off';
+	
+	        each(this.handlers, function(handler) {
+	            handler[action]();
+	        });
+	    }
+	};
+	
+	module.exports = MediaQuery;
+
+
+/***/ }),
+/* 386 */
+/***/ (function(module, exports) {
+
+	/**
+	 * Delegate to handle a media query being matched and unmatched.
+	 *
+	 * @param {object} options
+	 * @param {function} options.match callback for when the media query is matched
+	 * @param {function} [options.unmatch] callback for when the media query is unmatched
+	 * @param {function} [options.setup] one-time callback triggered the first time a query is matched
+	 * @param {boolean} [options.deferSetup=false] should the setup callback be run immediately, rather than first time query is matched?
+	 * @constructor
+	 */
+	function QueryHandler(options) {
+	    this.options = options;
+	    !options.deferSetup && this.setup();
+	}
+	
+	QueryHandler.prototype = {
+	
+	    constructor : QueryHandler,
+	
+	    /**
+	     * coordinates setup of the handler
+	     *
+	     * @function
+	     */
+	    setup : function() {
+	        if(this.options.setup) {
+	            this.options.setup();
+	        }
+	        this.initialised = true;
+	    },
+	
+	    /**
+	     * coordinates setup and triggering of the handler
+	     *
+	     * @function
+	     */
+	    on : function() {
+	        !this.initialised && this.setup();
+	        this.options.match && this.options.match();
+	    },
+	
+	    /**
+	     * coordinates the unmatch event for the handler
+	     *
+	     * @function
+	     */
+	    off : function() {
+	        this.options.unmatch && this.options.unmatch();
+	    },
+	
+	    /**
+	     * called when a handler is to be destroyed.
+	     * delegates to the destroy or unmatch callbacks, depending on availability.
+	     *
+	     * @function
+	     */
+	    destroy : function() {
+	        this.options.destroy ? this.options.destroy() : this.off();
+	    },
+	
+	    /**
+	     * determines equality by reference.
+	     * if object is supplied compare options, if function, compare match callback
+	     *
+	     * @function
+	     * @param {object || function} [target] the target for comparison
+	     */
+	    equals : function(target) {
+	        return this.options === target || this.options.match === target;
+	    }
+	
+	};
+	
+	module.exports = QueryHandler;
+
+
+/***/ }),
+/* 387 */
+/***/ (function(module, exports) {
+
+	/**
+	 * Helper function for iterating over a collection
+	 *
+	 * @param collection
+	 * @param fn
+	 */
+	function each(collection, fn) {
+	    var i      = 0,
+	        length = collection.length,
+	        cont;
+	
+	    for(i; i < length; i++) {
+	        cont = fn(collection[i], i);
+	        if(cont === false) {
+	            break; //allow early exit
+	        }
+	    }
+	}
+	
+	/**
+	 * Helper function for determining whether target object is an array
+	 *
+	 * @param target the object under test
+	 * @return {Boolean} true if array, false otherwise
+	 */
+	function isArray(target) {
+	    return Object.prototype.toString.apply(target) === '[object Array]';
+	}
+	
+	/**
+	 * Helper function for determining whether target object is a function
+	 *
+	 * @param target the object under test
+	 * @return {Boolean} true if function, false otherwise
+	 */
+	function isFunction(target) {
+	    return typeof target === 'function';
+	}
+	
+	module.exports = {
+	    isFunction : isFunction,
+	    isArray : isArray,
+	    each : each
+	};
+
+
+/***/ }),
+/* 388 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
+	 * Flickity v2.0.10
+	 * Touch, responsive, flickable carousels
+	 *
+	 * Licensed GPLv3 for open source use
+	 * or Flickity Commercial License for commercial use
+	 *
+	 * http://flickity.metafizzy.co
+	 * Copyright 2017 Metafizzy
+	 */
+	
+	( function( window, factory ) {
+	  // universal module definition
+	  /* jshint strict: false */
+	  if ( true ) {
+	    // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [
+	      __webpack_require__(389),
+	      __webpack_require__(397),
+	      __webpack_require__(400),
+	      __webpack_require__(402),
+	      __webpack_require__(403),
+	      __webpack_require__(404),
+	      __webpack_require__(405)
+	    ], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+	  } else if ( typeof module == 'object' && module.exports ) {
+	    // CommonJS
+	    module.exports = factory(
+	      require('./flickity'),
+	      require('./drag'),
+	      require('./prev-next-button'),
+	      require('./page-dots'),
+	      require('./player'),
+	      require('./add-remove-cell'),
+	      require('./lazyload')
+	    );
+	  }
+	
+	})( window, function factory( Flickity ) {
+	  /*jshint strict: false*/
+	  return Flickity;
+	});
+
+
+/***/ }),
+/* 389 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;// Flickity main
+	( function( window, factory ) {
+	  // universal module definition
+	  /* jshint strict: false */
+	  if ( true ) {
+	    // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [
+	      __webpack_require__(390),
+	      __webpack_require__(391),
+	      __webpack_require__(392),
+	      __webpack_require__(394),
+	      __webpack_require__(395),
+	      __webpack_require__(396)
+	    ], __WEBPACK_AMD_DEFINE_RESULT__ = function( EvEmitter, getSize, utils, Cell, Slide, animatePrototype ) {
+	      return factory( window, EvEmitter, getSize, utils, Cell, Slide, animatePrototype );
+	    }.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+	  } else if ( typeof module == 'object' && module.exports ) {
+	    // CommonJS
+	    module.exports = factory(
+	      window,
+	      require('ev-emitter'),
+	      require('get-size'),
+	      require('fizzy-ui-utils'),
+	      require('./cell'),
+	      require('./slide'),
+	      require('./animate')
+	    );
+	  } else {
+	    // browser global
+	    var _Flickity = window.Flickity;
+	
+	    window.Flickity = factory(
+	      window,
+	      window.EvEmitter,
+	      window.getSize,
+	      window.fizzyUIUtils,
+	      _Flickity.Cell,
+	      _Flickity.Slide,
+	      _Flickity.animatePrototype
+	    );
+	  }
+	
+	}( window, function factory( window, EvEmitter, getSize,
+	  utils, Cell, Slide, animatePrototype ) {
+	
+	'use strict';
+	
+	// vars
+	var jQuery = window.jQuery;
+	var getComputedStyle = window.getComputedStyle;
+	var console = window.console;
+	
+	function moveElements( elems, toElem ) {
+	  elems = utils.makeArray( elems );
+	  while ( elems.length ) {
+	    toElem.appendChild( elems.shift() );
+	  }
+	}
+	
+	// -------------------------- Flickity -------------------------- //
+	
+	// globally unique identifiers
+	var GUID = 0;
+	// internal store of all Flickity intances
+	var instances = {};
+	
+	function Flickity( element, options ) {
+	  var queryElement = utils.getQueryElement( element );
+	  if ( !queryElement ) {
+	    if ( console ) {
+	      console.error( 'Bad element for Flickity: ' + ( queryElement || element ) );
+	    }
+	    return;
+	  }
+	  this.element = queryElement;
+	  // do not initialize twice on same element
+	  if ( this.element.flickityGUID ) {
+	    var instance = instances[ this.element.flickityGUID ];
+	    instance.option( options );
+	    return instance;
+	  }
+	
+	  // add jQuery
+	  if ( jQuery ) {
+	    this.$element = jQuery( this.element );
+	  }
+	  // options
+	  this.options = utils.extend( {}, this.constructor.defaults );
+	  this.option( options );
+	
+	  // kick things off
+	  this._create();
+	}
+	
+	Flickity.defaults = {
+	  accessibility: true,
+	  // adaptiveHeight: false,
+	  cellAlign: 'center',
+	  // cellSelector: undefined,
+	  // contain: false,
+	  freeScrollFriction: 0.075, // friction when free-scrolling
+	  friction: 0.28, // friction when selecting
+	  namespaceJQueryEvents: true,
+	  // initialIndex: 0,
+	  percentPosition: true,
+	  resize: true,
+	  selectedAttraction: 0.025,
+	  setGallerySize: true
+	  // watchCSS: false,
+	  // wrapAround: false
+	};
+	
+	// hash of methods triggered on _create()
+	Flickity.createMethods = [];
+	
+	var proto = Flickity.prototype;
+	// inherit EventEmitter
+	utils.extend( proto, EvEmitter.prototype );
+	
+	proto._create = function() {
+	  // add id for Flickity.data
+	  var id = this.guid = ++GUID;
+	  this.element.flickityGUID = id; // expando
+	  instances[ id ] = this; // associate via id
+	  // initial properties
+	  this.selectedIndex = 0;
+	  // how many frames slider has been in same position
+	  this.restingFrames = 0;
+	  // initial physics properties
+	  this.x = 0;
+	  this.velocity = 0;
+	  this.originSide = this.options.rightToLeft ? 'right' : 'left';
+	  // create viewport & slider
+	  this.viewport = document.createElement('div');
+	  this.viewport.className = 'flickity-viewport';
+	  this._createSlider();
+	
+	  if ( this.options.resize || this.options.watchCSS ) {
+	    window.addEventListener( 'resize', this );
+	  }
+	
+	  Flickity.createMethods.forEach( function( method ) {
+	    this[ method ]();
+	  }, this );
+	
+	  if ( this.options.watchCSS ) {
+	    this.watchCSS();
+	  } else {
+	    this.activate();
+	  }
+	
+	};
+	
+	/**
+	 * set options
+	 * @param {Object} opts
+	 */
+	proto.option = function( opts ) {
+	  utils.extend( this.options, opts );
+	};
+	
+	proto.activate = function() {
+	  if ( this.isActive ) {
+	    return;
+	  }
+	  this.isActive = true;
+	  this.element.classList.add('flickity-enabled');
+	  if ( this.options.rightToLeft ) {
+	    this.element.classList.add('flickity-rtl');
+	  }
+	
+	  this.getSize();
+	  // move initial cell elements so they can be loaded as cells
+	  var cellElems = this._filterFindCellElements( this.element.children );
+	  moveElements( cellElems, this.slider );
+	  this.viewport.appendChild( this.slider );
+	  this.element.appendChild( this.viewport );
+	  // get cells from children
+	  this.reloadCells();
+	
+	  if ( this.options.accessibility ) {
+	    // allow element to focusable
+	    this.element.tabIndex = 0;
+	    // listen for key presses
+	    this.element.addEventListener( 'keydown', this );
+	  }
+	
+	  this.emitEvent('activate');
+	
+	  var index;
+	  var initialIndex = this.options.initialIndex;
+	  if ( this.isInitActivated ) {
+	    index = this.selectedIndex;
+	  } else if ( initialIndex !== undefined ) {
+	    index = this.cells[ initialIndex ] ? initialIndex : 0;
+	  } else {
+	    index = 0;
+	  }
+	  // select instantly
+	  this.select( index, false, true );
+	  // flag for initial activation, for using initialIndex
+	  this.isInitActivated = true;
+	};
+	
+	// slider positions the cells
+	proto._createSlider = function() {
+	  // slider element does all the positioning
+	  var slider = document.createElement('div');
+	  slider.className = 'flickity-slider';
+	  slider.style[ this.originSide ] = 0;
+	  this.slider = slider;
+	};
+	
+	proto._filterFindCellElements = function( elems ) {
+	  return utils.filterFindElements( elems, this.options.cellSelector );
+	};
+	
+	// goes through all children
+	proto.reloadCells = function() {
+	  // collection of item elements
+	  this.cells = this._makeCells( this.slider.children );
+	  this.positionCells();
+	  this._getWrapShiftCells();
+	  this.setGallerySize();
+	};
+	
+	/**
+	 * turn elements into Flickity.Cells
+	 * @param {Array or NodeList or HTMLElement} elems
+	 * @returns {Array} items - collection of new Flickity Cells
+	 */
+	proto._makeCells = function( elems ) {
+	  var cellElems = this._filterFindCellElements( elems );
+	
+	  // create new Flickity for collection
+	  var cells = cellElems.map( function( cellElem ) {
+	    return new Cell( cellElem, this );
+	  }, this );
+	
+	  return cells;
+	};
+	
+	proto.getLastCell = function() {
+	  return this.cells[ this.cells.length - 1 ];
+	};
+	
+	proto.getLastSlide = function() {
+	  return this.slides[ this.slides.length - 1 ];
+	};
+	
+	// positions all cells
+	proto.positionCells = function() {
+	  // size all cells
+	  this._sizeCells( this.cells );
+	  // position all cells
+	  this._positionCells( 0 );
+	};
+	
+	/**
+	 * position certain cells
+	 * @param {Integer} index - which cell to start with
+	 */
+	proto._positionCells = function( index ) {
+	  index = index || 0;
+	  // also measure maxCellHeight
+	  // start 0 if positioning all cells
+	  this.maxCellHeight = index ? this.maxCellHeight || 0 : 0;
+	  var cellX = 0;
+	  // get cellX
+	  if ( index > 0 ) {
+	    var startCell = this.cells[ index - 1 ];
+	    cellX = startCell.x + startCell.size.outerWidth;
+	  }
+	  var len = this.cells.length;
+	  for ( var i=index; i < len; i++ ) {
+	    var cell = this.cells[i];
+	    cell.setPosition( cellX );
+	    cellX += cell.size.outerWidth;
+	    this.maxCellHeight = Math.max( cell.size.outerHeight, this.maxCellHeight );
+	  }
+	  // keep track of cellX for wrap-around
+	  this.slideableWidth = cellX;
+	  // slides
+	  this.updateSlides();
+	  // contain slides target
+	  this._containSlides();
+	  // update slidesWidth
+	  this.slidesWidth = len ? this.getLastSlide().target - this.slides[0].target : 0;
+	};
+	
+	/**
+	 * cell.getSize() on multiple cells
+	 * @param {Array} cells
+	 */
+	proto._sizeCells = function( cells ) {
+	  cells.forEach( function( cell ) {
+	    cell.getSize();
+	  });
+	};
+	
+	// --------------------------  -------------------------- //
+	
+	proto.updateSlides = function() {
+	  this.slides = [];
+	  if ( !this.cells.length ) {
+	    return;
+	  }
+	
+	  var slide = new Slide( this );
+	  this.slides.push( slide );
+	  var isOriginLeft = this.originSide == 'left';
+	  var nextMargin = isOriginLeft ? 'marginRight' : 'marginLeft';
+	
+	  var canCellFit = this._getCanCellFit();
+	
+	  this.cells.forEach( function( cell, i ) {
+	    // just add cell if first cell in slide
+	    if ( !slide.cells.length ) {
+	      slide.addCell( cell );
+	      return;
+	    }
+	
+	    var slideWidth = ( slide.outerWidth - slide.firstMargin ) +
+	      ( cell.size.outerWidth - cell.size[ nextMargin ] );
+	
+	    if ( canCellFit.call( this, i, slideWidth ) ) {
+	      slide.addCell( cell );
+	    } else {
+	      // doesn't fit, new slide
+	      slide.updateTarget();
+	
+	      slide = new Slide( this );
+	      this.slides.push( slide );
+	      slide.addCell( cell );
+	    }
+	  }, this );
+	  // last slide
+	  slide.updateTarget();
+	  // update .selectedSlide
+	  this.updateSelectedSlide();
+	};
+	
+	proto._getCanCellFit = function() {
+	  var groupCells = this.options.groupCells;
+	  if ( !groupCells ) {
+	    return function() {
+	      return false;
+	    };
+	  } else if ( typeof groupCells == 'number' ) {
+	    // group by number. 3 -> [0,1,2], [3,4,5], ...
+	    var number = parseInt( groupCells, 10 );
+	    return function( i ) {
+	      return ( i % number ) !== 0;
+	    };
+	  }
+	  // default, group by width of slide
+	  // parse '75%
+	  var percentMatch = typeof groupCells == 'string' &&
+	    groupCells.match(/^(\d+)%$/);
+	  var percent = percentMatch ? parseInt( percentMatch[1], 10 ) / 100 : 1;
+	  return function( i, slideWidth ) {
+	    return slideWidth <= ( this.size.innerWidth + 1 ) * percent;
+	  };
+	};
+	
+	// alias _init for jQuery plugin .flickity()
+	proto._init =
+	proto.reposition = function() {
+	  this.positionCells();
+	  this.positionSliderAtSelected();
+	};
+	
+	proto.getSize = function() {
+	  this.size = getSize( this.element );
+	  this.setCellAlign();
+	  this.cursorPosition = this.size.innerWidth * this.cellAlign;
+	};
+	
+	var cellAlignShorthands = {
+	  // cell align, then based on origin side
+	  center: {
+	    left: 0.5,
+	    right: 0.5
+	  },
+	  left: {
+	    left: 0,
+	    right: 1
+	  },
+	  right: {
+	    right: 0,
+	    left: 1
+	  }
+	};
+	
+	proto.setCellAlign = function() {
+	  var shorthand = cellAlignShorthands[ this.options.cellAlign ];
+	  this.cellAlign = shorthand ? shorthand[ this.originSide ] : this.options.cellAlign;
+	};
+	
+	proto.setGallerySize = function() {
+	  if ( this.options.setGallerySize ) {
+	    var height = this.options.adaptiveHeight && this.selectedSlide ?
+	      this.selectedSlide.height : this.maxCellHeight;
+	    this.viewport.style.height = height + 'px';
+	  }
+	};
+	
+	proto._getWrapShiftCells = function() {
+	  // only for wrap-around
+	  if ( !this.options.wrapAround ) {
+	    return;
+	  }
+	  // unshift previous cells
+	  this._unshiftCells( this.beforeShiftCells );
+	  this._unshiftCells( this.afterShiftCells );
+	  // get before cells
+	  // initial gap
+	  var gapX = this.cursorPosition;
+	  var cellIndex = this.cells.length - 1;
+	  this.beforeShiftCells = this._getGapCells( gapX, cellIndex, -1 );
+	  // get after cells
+	  // ending gap between last cell and end of gallery viewport
+	  gapX = this.size.innerWidth - this.cursorPosition;
+	  // start cloning at first cell, working forwards
+	  this.afterShiftCells = this._getGapCells( gapX, 0, 1 );
+	};
+	
+	proto._getGapCells = function( gapX, cellIndex, increment ) {
+	  // keep adding cells until the cover the initial gap
+	  var cells = [];
+	  while ( gapX > 0 ) {
+	    var cell = this.cells[ cellIndex ];
+	    if ( !cell ) {
+	      break;
+	    }
+	    cells.push( cell );
+	    cellIndex += increment;
+	    gapX -= cell.size.outerWidth;
+	  }
+	  return cells;
+	};
+	
+	// ----- contain ----- //
+	
+	// contain cell targets so no excess sliding
+	proto._containSlides = function() {
+	  if ( !this.options.contain || this.options.wrapAround || !this.cells.length ) {
+	    return;
+	  }
+	  var isRightToLeft = this.options.rightToLeft;
+	  var beginMargin = isRightToLeft ? 'marginRight' : 'marginLeft';
+	  var endMargin = isRightToLeft ? 'marginLeft' : 'marginRight';
+	  var contentWidth = this.slideableWidth - this.getLastCell().size[ endMargin ];
+	  // content is less than gallery size
+	  var isContentSmaller = contentWidth < this.size.innerWidth;
+	  // bounds
+	  var beginBound = this.cursorPosition + this.cells[0].size[ beginMargin ];
+	  var endBound = contentWidth - this.size.innerWidth * ( 1 - this.cellAlign );
+	  // contain each cell target
+	  this.slides.forEach( function( slide ) {
+	    if ( isContentSmaller ) {
+	      // all cells fit inside gallery
+	      slide.target = contentWidth * this.cellAlign;
+	    } else {
+	      // contain to bounds
+	      slide.target = Math.max( slide.target, beginBound );
+	      slide.target = Math.min( slide.target, endBound );
+	    }
+	  }, this );
+	};
+	
+	// -----  ----- //
+	
+	/**
+	 * emits events via eventEmitter and jQuery events
+	 * @param {String} type - name of event
+	 * @param {Event} event - original event
+	 * @param {Array} args - extra arguments
+	 */
+	proto.dispatchEvent = function( type, event, args ) {
+	  var emitArgs = event ? [ event ].concat( args ) : args;
+	  this.emitEvent( type, emitArgs );
+	
+	  if ( jQuery && this.$element ) {
+	    // default trigger with type if no event
+	    type += this.options.namespaceJQueryEvents ? '.flickity' : '';
+	    var $event = type;
+	    if ( event ) {
+	      // create jQuery event
+	      var jQEvent = jQuery.Event( event );
+	      jQEvent.type = type;
+	      $event = jQEvent;
+	    }
+	    this.$element.trigger( $event, args );
+	  }
+	};
+	
+	// -------------------------- select -------------------------- //
+	
+	/**
+	 * @param {Integer} index - index of the slide
+	 * @param {Boolean} isWrap - will wrap-around to last/first if at the end
+	 * @param {Boolean} isInstant - will immediately set position at selected cell
+	 */
+	proto.select = function( index, isWrap, isInstant ) {
+	  if ( !this.isActive ) {
+	    return;
+	  }
+	  index = parseInt( index, 10 );
+	  this._wrapSelect( index );
+	
+	  if ( this.options.wrapAround || isWrap ) {
+	    index = utils.modulo( index, this.slides.length );
+	  }
+	  // bail if invalid index
+	  if ( !this.slides[ index ] ) {
+	    return;
+	  }
+	  this.selectedIndex = index;
+	  this.updateSelectedSlide();
+	  if ( isInstant ) {
+	    this.positionSliderAtSelected();
+	  } else {
+	    this.startAnimation();
+	  }
+	  if ( this.options.adaptiveHeight ) {
+	    this.setGallerySize();
+	  }
+	
+	  this.dispatchEvent('select');
+	  // old v1 event name, remove in v3
+	  this.dispatchEvent('cellSelect');
+	};
+	
+	// wraps position for wrapAround, to move to closest slide. #113
+	proto._wrapSelect = function( index ) {
+	  var len = this.slides.length;
+	  var isWrapping = this.options.wrapAround && len > 1;
+	  if ( !isWrapping ) {
+	    return index;
+	  }
+	  var wrapIndex = utils.modulo( index, len );
+	  // go to shortest
+	  var delta = Math.abs( wrapIndex - this.selectedIndex );
+	  var backWrapDelta = Math.abs( ( wrapIndex + len ) - this.selectedIndex );
+	  var forewardWrapDelta = Math.abs( ( wrapIndex - len ) - this.selectedIndex );
+	  if ( !this.isDragSelect && backWrapDelta < delta ) {
+	    index += len;
+	  } else if ( !this.isDragSelect && forewardWrapDelta < delta ) {
+	    index -= len;
+	  }
+	  // wrap position so slider is within normal area
+	  if ( index < 0 ) {
+	    this.x -= this.slideableWidth;
+	  } else if ( index >= len ) {
+	    this.x += this.slideableWidth;
+	  }
+	};
+	
+	proto.previous = function( isWrap, isInstant ) {
+	  this.select( this.selectedIndex - 1, isWrap, isInstant );
+	};
+	
+	proto.next = function( isWrap, isInstant ) {
+	  this.select( this.selectedIndex + 1, isWrap, isInstant );
+	};
+	
+	proto.updateSelectedSlide = function() {
+	  var slide = this.slides[ this.selectedIndex ];
+	  // selectedIndex could be outside of slides, if triggered before resize()
+	  if ( !slide ) {
+	    return;
+	  }
+	  // unselect previous selected slide
+	  this.unselectSelectedSlide();
+	  // update new selected slide
+	  this.selectedSlide = slide;
+	  slide.select();
+	  this.selectedCells = slide.cells;
+	  this.selectedElements = slide.getCellElements();
+	  // HACK: selectedCell & selectedElement is first cell in slide, backwards compatibility
+	  // Remove in v3?
+	  this.selectedCell = slide.cells[0];
+	  this.selectedElement = this.selectedElements[0];
+	};
+	
+	proto.unselectSelectedSlide = function() {
+	  if ( this.selectedSlide ) {
+	    this.selectedSlide.unselect();
+	  }
+	};
+	
+	/**
+	 * select slide from number or cell element
+	 * @param {Element or Number} elem
+	 */
+	proto.selectCell = function( value, isWrap, isInstant ) {
+	  // get cell
+	  var cell;
+	  if ( typeof value == 'number' ) {
+	    cell = this.cells[ value ];
+	  } else {
+	    // use string as selector
+	    if ( typeof value == 'string' ) {
+	      value = this.element.querySelector( value );
+	    }
+	    // get cell from element
+	    cell = this.getCell( value );
+	  }
+	  // select slide that has cell
+	  for ( var i=0; cell && i < this.slides.length; i++ ) {
+	    var slide = this.slides[i];
+	    var index = slide.cells.indexOf( cell );
+	    if ( index != -1 ) {
+	      this.select( i, isWrap, isInstant );
+	      return;
+	    }
+	  }
+	};
+	
+	// -------------------------- get cells -------------------------- //
+	
+	/**
+	 * get Flickity.Cell, given an Element
+	 * @param {Element} elem
+	 * @returns {Flickity.Cell} item
+	 */
+	proto.getCell = function( elem ) {
+	  // loop through cells to get the one that matches
+	  for ( var i=0; i < this.cells.length; i++ ) {
+	    var cell = this.cells[i];
+	    if ( cell.element == elem ) {
+	      return cell;
+	    }
+	  }
+	};
+	
+	/**
+	 * get collection of Flickity.Cells, given Elements
+	 * @param {Element, Array, NodeList} elems
+	 * @returns {Array} cells - Flickity.Cells
+	 */
+	proto.getCells = function( elems ) {
+	  elems = utils.makeArray( elems );
+	  var cells = [];
+	  elems.forEach( function( elem ) {
+	    var cell = this.getCell( elem );
+	    if ( cell ) {
+	      cells.push( cell );
+	    }
+	  }, this );
+	  return cells;
+	};
+	
+	/**
+	 * get cell elements
+	 * @returns {Array} cellElems
+	 */
+	proto.getCellElements = function() {
+	  return this.cells.map( function( cell ) {
+	    return cell.element;
+	  });
+	};
+	
+	/**
+	 * get parent cell from an element
+	 * @param {Element} elem
+	 * @returns {Flickit.Cell} cell
+	 */
+	proto.getParentCell = function( elem ) {
+	  // first check if elem is cell
+	  var cell = this.getCell( elem );
+	  if ( cell ) {
+	    return cell;
+	  }
+	  // try to get parent cell elem
+	  elem = utils.getParent( elem, '.flickity-slider > *' );
+	  return this.getCell( elem );
+	};
+	
+	/**
+	 * get cells adjacent to a slide
+	 * @param {Integer} adjCount - number of adjacent slides
+	 * @param {Integer} index - index of slide to start
+	 * @returns {Array} cells - array of Flickity.Cells
+	 */
+	proto.getAdjacentCellElements = function( adjCount, index ) {
+	  if ( !adjCount ) {
+	    return this.selectedSlide.getCellElements();
+	  }
+	  index = index === undefined ? this.selectedIndex : index;
+	
+	  var len = this.slides.length;
+	  if ( 1 + ( adjCount * 2 ) >= len ) {
+	    return this.getCellElements();
+	  }
+	
+	  var cellElems = [];
+	  for ( var i = index - adjCount; i <= index + adjCount ; i++ ) {
+	    var slideIndex = this.options.wrapAround ? utils.modulo( i, len ) : i;
+	    var slide = this.slides[ slideIndex ];
+	    if ( slide ) {
+	      cellElems = cellElems.concat( slide.getCellElements() );
+	    }
+	  }
+	  return cellElems;
+	};
+	
+	// -------------------------- events -------------------------- //
+	
+	proto.uiChange = function() {
+	  this.emitEvent('uiChange');
+	};
+	
+	proto.childUIPointerDown = function( event ) {
+	  this.emitEvent( 'childUIPointerDown', [ event ] );
+	};
+	
+	// ----- resize ----- //
+	
+	proto.onresize = function() {
+	  this.watchCSS();
+	  this.resize();
+	};
+	
+	utils.debounceMethod( Flickity, 'onresize', 150 );
+	
+	proto.resize = function() {
+	  if ( !this.isActive ) {
+	    return;
+	  }
+	  this.getSize();
+	  // wrap values
+	  if ( this.options.wrapAround ) {
+	    this.x = utils.modulo( this.x, this.slideableWidth );
+	  }
+	  this.positionCells();
+	  this._getWrapShiftCells();
+	  this.setGallerySize();
+	  this.emitEvent('resize');
+	  // update selected index for group slides, instant
+	  // TODO: position can be lost between groups of various numbers
+	  var selectedElement = this.selectedElements && this.selectedElements[0];
+	  this.selectCell( selectedElement, false, true );
+	};
+	
+	// watches the :after property, activates/deactivates
+	proto.watchCSS = function() {
+	  var watchOption = this.options.watchCSS;
+	  if ( !watchOption ) {
+	    return;
+	  }
+	
+	  var afterContent = getComputedStyle( this.element, ':after' ).content;
+	  // activate if :after { content: 'flickity' }
+	  if ( afterContent.indexOf('flickity') != -1 ) {
+	    this.activate();
+	  } else {
+	    this.deactivate();
+	  }
+	};
+	
+	// ----- keydown ----- //
+	
+	// go previous/next if left/right keys pressed
+	proto.onkeydown = function( event ) {
+	  // only work if element is in focus
+	  if ( !this.options.accessibility ||
+	    ( document.activeElement && document.activeElement != this.element ) ) {
+	    return;
+	  }
+	
+	  if ( event.keyCode == 37 ) {
+	    // go left
+	    var leftMethod = this.options.rightToLeft ? 'next' : 'previous';
+	    this.uiChange();
+	    this[ leftMethod ]();
+	  } else if ( event.keyCode == 39 ) {
+	    // go right
+	    var rightMethod = this.options.rightToLeft ? 'previous' : 'next';
+	    this.uiChange();
+	    this[ rightMethod ]();
+	  }
+	};
+	
+	// -------------------------- destroy -------------------------- //
+	
+	// deactivate all Flickity functionality, but keep stuff available
+	proto.deactivate = function() {
+	  if ( !this.isActive ) {
+	    return;
+	  }
+	  this.element.classList.remove('flickity-enabled');
+	  this.element.classList.remove('flickity-rtl');
+	  // destroy cells
+	  this.cells.forEach( function( cell ) {
+	    cell.destroy();
+	  });
+	  this.unselectSelectedSlide();
+	  this.element.removeChild( this.viewport );
+	  // move child elements back into element
+	  moveElements( this.slider.children, this.element );
+	  if ( this.options.accessibility ) {
+	    this.element.removeAttribute('tabIndex');
+	    this.element.removeEventListener( 'keydown', this );
+	  }
+	  // set flags
+	  this.isActive = false;
+	  this.emitEvent('deactivate');
+	};
+	
+	proto.destroy = function() {
+	  this.deactivate();
+	  window.removeEventListener( 'resize', this );
+	  this.emitEvent('destroy');
+	  if ( jQuery && this.$element ) {
+	    jQuery.removeData( this.element, 'flickity' );
+	  }
+	  delete this.element.flickityGUID;
+	  delete instances[ this.guid ];
+	};
+	
+	// -------------------------- prototype -------------------------- //
+	
+	utils.extend( proto, animatePrototype );
+	
+	// -------------------------- extras -------------------------- //
+	
+	/**
+	 * get Flickity instance from element
+	 * @param {Element} elem
+	 * @returns {Flickity}
+	 */
+	Flickity.data = function( elem ) {
+	  elem = utils.getQueryElement( elem );
+	  var id = elem && elem.flickityGUID;
+	  return id && instances[ id ];
+	};
+	
+	utils.htmlInit( Flickity, 'flickity' );
+	
+	if ( jQuery && jQuery.bridget ) {
+	  jQuery.bridget( 'flickity', Flickity );
+	}
+	
+	// set internal jQuery, for Webpack + jQuery v3, #478
+	Flickity.setJQuery = function( jq ) {
+	  jQuery = jq;
+	};
+	
+	Flickity.Cell = Cell;
+	
+	return Flickity;
+	
+	}));
+
+
+/***/ }),
+/* 390 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
+	 * EvEmitter v1.1.0
+	 * Lil' event emitter
+	 * MIT License
+	 */
+	
+	/* jshint unused: true, undef: true, strict: true */
+	
+	( function( global, factory ) {
+	  // universal module definition
+	  /* jshint strict: false */ /* globals define, module, window */
+	  if ( true ) {
+	    // AMD - RequireJS
+	    !(__WEBPACK_AMD_DEFINE_FACTORY__ = (factory), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.call(exports, __webpack_require__, exports, module)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+	  } else if ( typeof module == 'object' && module.exports ) {
+	    // CommonJS - Browserify, Webpack
+	    module.exports = factory();
+	  } else {
+	    // Browser globals
+	    global.EvEmitter = factory();
+	  }
+	
+	}( typeof window != 'undefined' ? window : this, function() {
+	
+	"use strict";
+	
+	function EvEmitter() {}
+	
+	var proto = EvEmitter.prototype;
+	
+	proto.on = function( eventName, listener ) {
+	  if ( !eventName || !listener ) {
+	    return;
+	  }
+	  // set events hash
+	  var events = this._events = this._events || {};
+	  // set listeners array
+	  var listeners = events[ eventName ] = events[ eventName ] || [];
+	  // only add once
+	  if ( listeners.indexOf( listener ) == -1 ) {
+	    listeners.push( listener );
+	  }
+	
+	  return this;
+	};
+	
+	proto.once = function( eventName, listener ) {
+	  if ( !eventName || !listener ) {
+	    return;
+	  }
+	  // add event
+	  this.on( eventName, listener );
+	  // set once flag
+	  // set onceEvents hash
+	  var onceEvents = this._onceEvents = this._onceEvents || {};
+	  // set onceListeners object
+	  var onceListeners = onceEvents[ eventName ] = onceEvents[ eventName ] || {};
+	  // set flag
+	  onceListeners[ listener ] = true;
+	
+	  return this;
+	};
+	
+	proto.off = function( eventName, listener ) {
+	  var listeners = this._events && this._events[ eventName ];
+	  if ( !listeners || !listeners.length ) {
+	    return;
+	  }
+	  var index = listeners.indexOf( listener );
+	  if ( index != -1 ) {
+	    listeners.splice( index, 1 );
+	  }
+	
+	  return this;
+	};
+	
+	proto.emitEvent = function( eventName, args ) {
+	  var listeners = this._events && this._events[ eventName ];
+	  if ( !listeners || !listeners.length ) {
+	    return;
+	  }
+	  // copy over to avoid interference if .off() in listener
+	  listeners = listeners.slice(0);
+	  args = args || [];
+	  // once stuff
+	  var onceListeners = this._onceEvents && this._onceEvents[ eventName ];
+	
+	  for ( var i=0; i < listeners.length; i++ ) {
+	    var listener = listeners[i]
+	    var isOnce = onceListeners && onceListeners[ listener ];
+	    if ( isOnce ) {
+	      // remove listener
+	      // remove before trigger to prevent recursion
+	      this.off( eventName, listener );
+	      // unset once flag
+	      delete onceListeners[ listener ];
+	    }
+	    // trigger listener
+	    listener.apply( this, args );
+	  }
+	
+	  return this;
+	};
+	
+	proto.allOff = function() {
+	  delete this._events;
+	  delete this._onceEvents;
+	};
+	
+	return EvEmitter;
+	
+	}));
+
+
+/***/ }),
+/* 391 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	var __WEBPACK_AMD_DEFINE_RESULT__;/*!
+	 * getSize v2.0.2
+	 * measure size of elements
+	 * MIT license
+	 */
+	
+	/*jshint browser: true, strict: true, undef: true, unused: true */
+	/*global define: false, module: false, console: false */
+	
+	( function( window, factory ) {
+	  'use strict';
+	
+	  if ( true ) {
+	    // AMD
+	    !(__WEBPACK_AMD_DEFINE_RESULT__ = function() {
+	      return factory();
+	    }.call(exports, __webpack_require__, exports, module), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+	  } else if ( typeof module == 'object' && module.exports ) {
+	    // CommonJS
+	    module.exports = factory();
+	  } else {
+	    // browser global
+	    window.getSize = factory();
+	  }
+	
+	})( window, function factory() {
+	'use strict';
+	
+	// -------------------------- helpers -------------------------- //
+	
+	// get a number from a string, not a percentage
+	function getStyleSize( value ) {
+	  var num = parseFloat( value );
+	  // not a percent like '100%', and a number
+	  var isValid = value.indexOf('%') == -1 && !isNaN( num );
+	  return isValid && num;
+	}
+	
+	function noop() {}
+	
+	var logError = typeof console == 'undefined' ? noop :
+	  function( message ) {
+	    console.error( message );
+	  };
+	
+	// -------------------------- measurements -------------------------- //
+	
+	var measurements = [
+	  'paddingLeft',
+	  'paddingRight',
+	  'paddingTop',
+	  'paddingBottom',
+	  'marginLeft',
+	  'marginRight',
+	  'marginTop',
+	  'marginBottom',
+	  'borderLeftWidth',
+	  'borderRightWidth',
+	  'borderTopWidth',
+	  'borderBottomWidth'
+	];
+	
+	var measurementsLength = measurements.length;
+	
+	function getZeroSize() {
+	  var size = {
+	    width: 0,
+	    height: 0,
+	    innerWidth: 0,
+	    innerHeight: 0,
+	    outerWidth: 0,
+	    outerHeight: 0
+	  };
+	  for ( var i=0; i < measurementsLength; i++ ) {
+	    var measurement = measurements[i];
+	    size[ measurement ] = 0;
+	  }
+	  return size;
+	}
+	
+	// -------------------------- getStyle -------------------------- //
+	
+	/**
+	 * getStyle, get style of element, check for Firefox bug
+	 * https://bugzilla.mozilla.org/show_bug.cgi?id=548397
+	 */
+	function getStyle( elem ) {
+	  var style = getComputedStyle( elem );
+	  if ( !style ) {
+	    logError( 'Style returned ' + style +
+	      '. Are you running this code in a hidden iframe on Firefox? ' +
+	      'See http://bit.ly/getsizebug1' );
+	  }
+	  return style;
+	}
+	
+	// -------------------------- setup -------------------------- //
+	
+	var isSetup = false;
+	
+	var isBoxSizeOuter;
+	
+	/**
+	 * setup
+	 * check isBoxSizerOuter
+	 * do on first getSize() rather than on page load for Firefox bug
+	 */
+	function setup() {
+	  // setup once
+	  if ( isSetup ) {
+	    return;
+	  }
+	  isSetup = true;
+	
+	  // -------------------------- box sizing -------------------------- //
+	
+	  /**
+	   * WebKit measures the outer-width on style.width on border-box elems
+	   * IE & Firefox<29 measures the inner-width
+	   */
+	  var div = document.createElement('div');
+	  div.style.width = '200px';
+	  div.style.padding = '1px 2px 3px 4px';
+	  div.style.borderStyle = 'solid';
+	  div.style.borderWidth = '1px 2px 3px 4px';
+	  div.style.boxSizing = 'border-box';
+	
+	  var body = document.body || document.documentElement;
+	  body.appendChild( div );
+	  var style = getStyle( div );
+	
+	  getSize.isBoxSizeOuter = isBoxSizeOuter = getStyleSize( style.width ) == 200;
+	  body.removeChild( div );
+	
+	}
+	
+	// -------------------------- getSize -------------------------- //
+	
+	function getSize( elem ) {
+	  setup();
+	
+	  // use querySeletor if elem is string
+	  if ( typeof elem == 'string' ) {
+	    elem = document.querySelector( elem );
+	  }
+	
+	  // do not proceed on non-objects
+	  if ( !elem || typeof elem != 'object' || !elem.nodeType ) {
+	    return;
+	  }
+	
+	  var style = getStyle( elem );
+	
+	  // if hidden, everything is 0
+	  if ( style.display == 'none' ) {
+	    return getZeroSize();
+	  }
+	
+	  var size = {};
+	  size.width = elem.offsetWidth;
+	  size.height = elem.offsetHeight;
+	
+	  var isBorderBox = size.isBorderBox = style.boxSizing == 'border-box';
+	
+	  // get all measurements
+	  for ( var i=0; i < measurementsLength; i++ ) {
+	    var measurement = measurements[i];
+	    var value = style[ measurement ];
+	    var num = parseFloat( value );
+	    // any 'auto', 'medium' value will be 0
+	    size[ measurement ] = !isNaN( num ) ? num : 0;
+	  }
+	
+	  var paddingWidth = size.paddingLeft + size.paddingRight;
+	  var paddingHeight = size.paddingTop + size.paddingBottom;
+	  var marginWidth = size.marginLeft + size.marginRight;
+	  var marginHeight = size.marginTop + size.marginBottom;
+	  var borderWidth = size.borderLeftWidth + size.borderRightWidth;
+	  var borderHeight = size.borderTopWidth + size.borderBottomWidth;
+	
+	  var isBorderBoxSizeOuter = isBorderBox && isBoxSizeOuter;
+	
+	  // overwrite width and height if we can get it from style
+	  var styleWidth = getStyleSize( style.width );
+	  if ( styleWidth !== false ) {
+	    size.width = styleWidth +
+	      // add padding and border unless it's already including it
+	      ( isBorderBoxSizeOuter ? 0 : paddingWidth + borderWidth );
+	  }
+	
+	  var styleHeight = getStyleSize( style.height );
+	  if ( styleHeight !== false ) {
+	    size.height = styleHeight +
+	      // add padding and border unless it's already including it
+	      ( isBorderBoxSizeOuter ? 0 : paddingHeight + borderHeight );
+	  }
+	
+	  size.innerWidth = size.width - ( paddingWidth + borderWidth );
+	  size.innerHeight = size.height - ( paddingHeight + borderHeight );
+	
+	  size.outerWidth = size.width + marginWidth;
+	  size.outerHeight = size.height + marginHeight;
+	
+	  return size;
+	}
+	
+	return getSize;
+	
+	});
+
+
+/***/ }),
+/* 392 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
+	 * Fizzy UI utils v2.0.5
+	 * MIT license
+	 */
+	
+	/*jshint browser: true, undef: true, unused: true, strict: true */
+	
+	( function( window, factory ) {
+	  // universal module definition
+	  /*jshint strict: false */ /*globals define, module, require */
+	
+	  if ( true ) {
+	    // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [
+	      __webpack_require__(393)
+	    ], __WEBPACK_AMD_DEFINE_RESULT__ = function( matchesSelector ) {
+	      return factory( window, matchesSelector );
+	    }.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+	  } else if ( typeof module == 'object' && module.exports ) {
+	    // CommonJS
+	    module.exports = factory(
+	      window,
+	      require('desandro-matches-selector')
+	    );
+	  } else {
+	    // browser global
+	    window.fizzyUIUtils = factory(
+	      window,
+	      window.matchesSelector
+	    );
+	  }
+	
+	}( window, function factory( window, matchesSelector ) {
+	
+	'use strict';
+	
+	var utils = {};
+	
+	// ----- extend ----- //
+	
+	// extends objects
+	utils.extend = function( a, b ) {
+	  for ( var prop in b ) {
+	    a[ prop ] = b[ prop ];
+	  }
+	  return a;
+	};
+	
+	// ----- modulo ----- //
+	
+	utils.modulo = function( num, div ) {
+	  return ( ( num % div ) + div ) % div;
+	};
+	
+	// ----- makeArray ----- //
+	
+	// turn element or nodeList into an array
+	utils.makeArray = function( obj ) {
+	  var ary = [];
+	  if ( Array.isArray( obj ) ) {
+	    // use object if already an array
+	    ary = obj;
+	  } else if ( obj && typeof obj == 'object' &&
+	    typeof obj.length == 'number' ) {
+	    // convert nodeList to array
+	    for ( var i=0; i < obj.length; i++ ) {
+	      ary.push( obj[i] );
+	    }
+	  } else {
+	    // array of single index
+	    ary.push( obj );
+	  }
+	  return ary;
+	};
+	
+	// ----- removeFrom ----- //
+	
+	utils.removeFrom = function( ary, obj ) {
+	  var index = ary.indexOf( obj );
+	  if ( index != -1 ) {
+	    ary.splice( index, 1 );
+	  }
+	};
+	
+	// ----- getParent ----- //
+	
+	utils.getParent = function( elem, selector ) {
+	  while ( elem.parentNode && elem != document.body ) {
+	    elem = elem.parentNode;
+	    if ( matchesSelector( elem, selector ) ) {
+	      return elem;
+	    }
+	  }
+	};
+	
+	// ----- getQueryElement ----- //
+	
+	// use element as selector string
+	utils.getQueryElement = function( elem ) {
+	  if ( typeof elem == 'string' ) {
+	    return document.querySelector( elem );
+	  }
+	  return elem;
+	};
+	
+	// ----- handleEvent ----- //
+	
+	// enable .ontype to trigger from .addEventListener( elem, 'type' )
+	utils.handleEvent = function( event ) {
+	  var method = 'on' + event.type;
+	  if ( this[ method ] ) {
+	    this[ method ]( event );
+	  }
+	};
+	
+	// ----- filterFindElements ----- //
+	
+	utils.filterFindElements = function( elems, selector ) {
+	  // make array of elems
+	  elems = utils.makeArray( elems );
+	  var ffElems = [];
+	
+	  elems.forEach( function( elem ) {
+	    // check that elem is an actual element
+	    if ( !( elem instanceof HTMLElement ) ) {
+	      return;
+	    }
+	    // add elem if no selector
+	    if ( !selector ) {
+	      ffElems.push( elem );
+	      return;
+	    }
+	    // filter & find items if we have a selector
+	    // filter
+	    if ( matchesSelector( elem, selector ) ) {
+	      ffElems.push( elem );
+	    }
+	    // find children
+	    var childElems = elem.querySelectorAll( selector );
+	    // concat childElems to filterFound array
+	    for ( var i=0; i < childElems.length; i++ ) {
+	      ffElems.push( childElems[i] );
+	    }
+	  });
+	
+	  return ffElems;
+	};
+	
+	// ----- debounceMethod ----- //
+	
+	utils.debounceMethod = function( _class, methodName, threshold ) {
+	  // original method
+	  var method = _class.prototype[ methodName ];
+	  var timeoutName = methodName + 'Timeout';
+	
+	  _class.prototype[ methodName ] = function() {
+	    var timeout = this[ timeoutName ];
+	    if ( timeout ) {
+	      clearTimeout( timeout );
+	    }
+	    var args = arguments;
+	
+	    var _this = this;
+	    this[ timeoutName ] = setTimeout( function() {
+	      method.apply( _this, args );
+	      delete _this[ timeoutName ];
+	    }, threshold || 100 );
+	  };
+	};
+	
+	// ----- docReady ----- //
+	
+	utils.docReady = function( callback ) {
+	  var readyState = document.readyState;
+	  if ( readyState == 'complete' || readyState == 'interactive' ) {
+	    // do async to allow for other scripts to run. metafizzy/flickity#441
+	    setTimeout( callback );
+	  } else {
+	    document.addEventListener( 'DOMContentLoaded', callback );
+	  }
+	};
+	
+	// ----- htmlInit ----- //
+	
+	// http://jamesroberts.name/blog/2010/02/22/string-functions-for-javascript-trim-to-camel-case-to-dashed-and-to-underscore/
+	utils.toDashed = function( str ) {
+	  return str.replace( /(.)([A-Z])/g, function( match, $1, $2 ) {
+	    return $1 + '-' + $2;
+	  }).toLowerCase();
+	};
+	
+	var console = window.console;
+	/**
+	 * allow user to initialize classes via [data-namespace] or .js-namespace class
+	 * htmlInit( Widget, 'widgetName' )
+	 * options are parsed from data-namespace-options
+	 */
+	utils.htmlInit = function( WidgetClass, namespace ) {
+	  utils.docReady( function() {
+	    var dashedNamespace = utils.toDashed( namespace );
+	    var dataAttr = 'data-' + dashedNamespace;
+	    var dataAttrElems = document.querySelectorAll( '[' + dataAttr + ']' );
+	    var jsDashElems = document.querySelectorAll( '.js-' + dashedNamespace );
+	    var elems = utils.makeArray( dataAttrElems )
+	      .concat( utils.makeArray( jsDashElems ) );
+	    var dataOptionsAttr = dataAttr + '-options';
+	    var jQuery = window.jQuery;
+	
+	    elems.forEach( function( elem ) {
+	      var attr = elem.getAttribute( dataAttr ) ||
+	        elem.getAttribute( dataOptionsAttr );
+	      var options;
+	      try {
+	        options = attr && JSON.parse( attr );
+	      } catch ( error ) {
+	        // log error, do not initialize
+	        if ( console ) {
+	          console.error( 'Error parsing ' + dataAttr + ' on ' + elem.className +
+	          ': ' + error );
+	        }
+	        return;
+	      }
+	      // initialize
+	      var instance = new WidgetClass( elem, options );
+	      // make available via $().data('namespace')
+	      if ( jQuery ) {
+	        jQuery.data( elem, namespace, instance );
+	      }
+	    });
+	
+	  });
+	};
+	
+	// -----  ----- //
+	
+	return utils;
+	
+	}));
+
+
+/***/ }),
+/* 393 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
+	 * matchesSelector v2.0.2
+	 * matchesSelector( element, '.selector' )
+	 * MIT license
+	 */
+	
+	/*jshint browser: true, strict: true, undef: true, unused: true */
+	
+	( function( window, factory ) {
+	  /*global define: false, module: false */
+	  'use strict';
+	  // universal module definition
+	  if ( true ) {
+	    // AMD
+	    !(__WEBPACK_AMD_DEFINE_FACTORY__ = (factory), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.call(exports, __webpack_require__, exports, module)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+	  } else if ( typeof module == 'object' && module.exports ) {
+	    // CommonJS
+	    module.exports = factory();
+	  } else {
+	    // browser global
+	    window.matchesSelector = factory();
+	  }
+	
+	}( window, function factory() {
+	  'use strict';
+	
+	  var matchesMethod = ( function() {
+	    var ElemProto = window.Element.prototype;
+	    // check for the standard method name first
+	    if ( ElemProto.matches ) {
+	      return 'matches';
+	    }
+	    // check un-prefixed
+	    if ( ElemProto.matchesSelector ) {
+	      return 'matchesSelector';
+	    }
+	    // check vendor prefixes
+	    var prefixes = [ 'webkit', 'moz', 'ms', 'o' ];
+	
+	    for ( var i=0; i < prefixes.length; i++ ) {
+	      var prefix = prefixes[i];
+	      var method = prefix + 'MatchesSelector';
+	      if ( ElemProto[ method ] ) {
+	        return method;
+	      }
+	    }
+	  })();
+	
+	  return function matchesSelector( elem, selector ) {
+	    return elem[ matchesMethod ]( selector );
+	  };
+	
+	}));
+
+
+/***/ }),
+/* 394 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;// Flickity.Cell
+	( function( window, factory ) {
+	  // universal module definition
+	  /* jshint strict: false */
+	  if ( true ) {
+	    // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [
+	      __webpack_require__(391)
+	    ], __WEBPACK_AMD_DEFINE_RESULT__ = function( getSize ) {
+	      return factory( window, getSize );
+	    }.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+	  } else if ( typeof module == 'object' && module.exports ) {
+	    // CommonJS
+	    module.exports = factory(
+	      window,
+	      require('get-size')
+	    );
+	  } else {
+	    // browser global
+	    window.Flickity = window.Flickity || {};
+	    window.Flickity.Cell = factory(
+	      window,
+	      window.getSize
+	    );
+	  }
+	
+	}( window, function factory( window, getSize ) {
+	
+	'use strict';
+	
+	function Cell( elem, parent ) {
+	  this.element = elem;
+	  this.parent = parent;
+	
+	  this.create();
+	}
+	
+	var proto = Cell.prototype;
+	
+	proto.create = function() {
+	  this.element.style.position = 'absolute';
+	  this.x = 0;
+	  this.shift = 0;
+	};
+	
+	proto.destroy = function() {
+	  // reset style
+	  this.element.style.position = '';
+	  var side = this.parent.originSide;
+	  this.element.style[ side ] = '';
+	};
+	
+	proto.getSize = function() {
+	  this.size = getSize( this.element );
+	};
+	
+	proto.setPosition = function( x ) {
+	  this.x = x;
+	  this.updateTarget();
+	  this.renderPosition( x );
+	};
+	
+	// setDefaultTarget v1 method, backwards compatibility, remove in v3
+	proto.updateTarget = proto.setDefaultTarget = function() {
+	  var marginProperty = this.parent.originSide == 'left' ? 'marginLeft' : 'marginRight';
+	  this.target = this.x + this.size[ marginProperty ] +
+	    this.size.width * this.parent.cellAlign;
+	};
+	
+	proto.renderPosition = function( x ) {
+	  // render position of cell with in slider
+	  var side = this.parent.originSide;
+	  this.element.style[ side ] = this.parent.getPositionValue( x );
+	};
+	
+	/**
+	 * @param {Integer} factor - 0, 1, or -1
+	**/
+	proto.wrapShift = function( shift ) {
+	  this.shift = shift;
+	  this.renderPosition( this.x + this.parent.slideableWidth * shift );
+	};
+	
+	proto.remove = function() {
+	  this.element.parentNode.removeChild( this.element );
+	};
+	
+	return Cell;
+	
+	}));
+
+
+/***/ }),
+/* 395 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_RESULT__;// slide
+	( function( window, factory ) {
+	  // universal module definition
+	  /* jshint strict: false */
+	  if ( true ) {
+	    // AMD
+	    !(__WEBPACK_AMD_DEFINE_FACTORY__ = (factory), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.call(exports, __webpack_require__, exports, module)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+	  } else if ( typeof module == 'object' && module.exports ) {
+	    // CommonJS
+	    module.exports = factory();
+	  } else {
+	    // browser global
+	    window.Flickity = window.Flickity || {};
+	    window.Flickity.Slide = factory();
+	  }
+	
+	}( window, function factory() {
+	'use strict';
+	
+	function Slide( parent ) {
+	  this.parent = parent;
+	  this.isOriginLeft = parent.originSide == 'left';
+	  this.cells = [];
+	  this.outerWidth = 0;
+	  this.height = 0;
+	}
+	
+	var proto = Slide.prototype;
+	
+	proto.addCell = function( cell ) {
+	  this.cells.push( cell );
+	  this.outerWidth += cell.size.outerWidth;
+	  this.height = Math.max( cell.size.outerHeight, this.height );
+	  // first cell stuff
+	  if ( this.cells.length == 1 ) {
+	    this.x = cell.x; // x comes from first cell
+	    var beginMargin = this.isOriginLeft ? 'marginLeft' : 'marginRight';
+	    this.firstMargin = cell.size[ beginMargin ];
+	  }
+	};
+	
+	proto.updateTarget = function() {
+	  var endMargin = this.isOriginLeft ? 'marginRight' : 'marginLeft';
+	  var lastCell = this.getLastCell();
+	  var lastMargin = lastCell ? lastCell.size[ endMargin ] : 0;
+	  var slideWidth = this.outerWidth - ( this.firstMargin + lastMargin );
+	  this.target = this.x + this.firstMargin + slideWidth * this.parent.cellAlign;
+	};
+	
+	proto.getLastCell = function() {
+	  return this.cells[ this.cells.length - 1 ];
+	};
+	
+	proto.select = function() {
+	  this.changeSelectedClass('add');
+	};
+	
+	proto.unselect = function() {
+	  this.changeSelectedClass('remove');
+	};
+	
+	proto.changeSelectedClass = function( method ) {
+	  this.cells.forEach( function( cell ) {
+	    cell.element.classList[ method ]('is-selected');
+	  });
+	};
+	
+	proto.getCellElements = function() {
+	  return this.cells.map( function( cell ) {
+	    return cell.element;
+	  });
+	};
+	
+	return Slide;
+	
+	}));
+
+
+/***/ }),
+/* 396 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;// animate
+	( function( window, factory ) {
+	  // universal module definition
+	  /* jshint strict: false */
+	  if ( true ) {
+	    // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [
+	      __webpack_require__(392)
+	    ], __WEBPACK_AMD_DEFINE_RESULT__ = function( utils ) {
+	      return factory( window, utils );
+	    }.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+	  } else if ( typeof module == 'object' && module.exports ) {
+	    // CommonJS
+	    module.exports = factory(
+	      window,
+	      require('fizzy-ui-utils')
+	    );
+	  } else {
+	    // browser global
+	    window.Flickity = window.Flickity || {};
+	    window.Flickity.animatePrototype = factory(
+	      window,
+	      window.fizzyUIUtils
+	    );
+	  }
+	
+	}( window, function factory( window, utils ) {
+	
+	'use strict';
+	
+	// -------------------------- requestAnimationFrame -------------------------- //
+	
+	// get rAF, prefixed, if present
+	var requestAnimationFrame = window.requestAnimationFrame ||
+	  window.webkitRequestAnimationFrame;
+	
+	// fallback to setTimeout
+	var lastTime = 0;
+	if ( !requestAnimationFrame )  {
+	  requestAnimationFrame = function( callback ) {
+	    var currTime = new Date().getTime();
+	    var timeToCall = Math.max( 0, 16 - ( currTime - lastTime ) );
+	    var id = setTimeout( callback, timeToCall );
+	    lastTime = currTime + timeToCall;
+	    return id;
+	  };
+	}
+	
+	// -------------------------- animate -------------------------- //
+	
+	var proto = {};
+	
+	proto.startAnimation = function() {
+	  if ( this.isAnimating ) {
+	    return;
+	  }
+	
+	  this.isAnimating = true;
+	  this.restingFrames = 0;
+	  this.animate();
+	};
+	
+	proto.animate = function() {
+	  this.applyDragForce();
+	  this.applySelectedAttraction();
+	
+	  var previousX = this.x;
+	
+	  this.integratePhysics();
+	  this.positionSlider();
+	  this.settle( previousX );
+	  // animate next frame
+	  if ( this.isAnimating ) {
+	    var _this = this;
+	    requestAnimationFrame( function animateFrame() {
+	      _this.animate();
+	    });
+	  }
+	};
+	
+	
+	var transformProperty = ( function () {
+	  var style = document.documentElement.style;
+	  if ( typeof style.transform == 'string' ) {
+	    return 'transform';
+	  }
+	  return 'WebkitTransform';
+	})();
+	
+	proto.positionSlider = function() {
+	  var x = this.x;
+	  // wrap position around
+	  if ( this.options.wrapAround && this.cells.length > 1 ) {
+	    x = utils.modulo( x, this.slideableWidth );
+	    x = x - this.slideableWidth;
+	    this.shiftWrapCells( x );
+	  }
+	
+	  x = x + this.cursorPosition;
+	  // reverse if right-to-left and using transform
+	  x = this.options.rightToLeft && transformProperty ? -x : x;
+	  var value = this.getPositionValue( x );
+	  // use 3D tranforms for hardware acceleration on iOS
+	  // but use 2D when settled, for better font-rendering
+	  this.slider.style[ transformProperty ] = this.isAnimating ?
+	    'translate3d(' + value + ',0,0)' : 'translateX(' + value + ')';
+	
+	  // scroll event
+	  var firstSlide = this.slides[0];
+	  if ( firstSlide ) {
+	    var positionX = -this.x - firstSlide.target;
+	    var progress = positionX / this.slidesWidth;
+	    this.dispatchEvent( 'scroll', null, [ progress, positionX ] );
+	  }
+	};
+	
+	proto.positionSliderAtSelected = function() {
+	  if ( !this.cells.length ) {
+	    return;
+	  }
+	  this.x = -this.selectedSlide.target;
+	  this.positionSlider();
+	};
+	
+	proto.getPositionValue = function( position ) {
+	  if ( this.options.percentPosition ) {
+	    // percent position, round to 2 digits, like 12.34%
+	    return ( Math.round( ( position / this.size.innerWidth ) * 10000 ) * 0.01 )+ '%';
+	  } else {
+	    // pixel positioning
+	    return Math.round( position ) + 'px';
+	  }
+	};
+	
+	proto.settle = function( previousX ) {
+	  // keep track of frames where x hasn't moved
+	  if ( !this.isPointerDown && Math.round( this.x * 100 ) == Math.round( previousX * 100 ) ) {
+	    this.restingFrames++;
+	  }
+	  // stop animating if resting for 3 or more frames
+	  if ( this.restingFrames > 2 ) {
+	    this.isAnimating = false;
+	    delete this.isFreeScrolling;
+	    // render position with translateX when settled
+	    this.positionSlider();
+	    this.dispatchEvent('settle');
+	  }
+	};
+	
+	proto.shiftWrapCells = function( x ) {
+	  // shift before cells
+	  var beforeGap = this.cursorPosition + x;
+	  this._shiftCells( this.beforeShiftCells, beforeGap, -1 );
+	  // shift after cells
+	  var afterGap = this.size.innerWidth - ( x + this.slideableWidth + this.cursorPosition );
+	  this._shiftCells( this.afterShiftCells, afterGap, 1 );
+	};
+	
+	proto._shiftCells = function( cells, gap, shift ) {
+	  for ( var i=0; i < cells.length; i++ ) {
+	    var cell = cells[i];
+	    var cellShift = gap > 0 ? shift : 0;
+	    cell.wrapShift( cellShift );
+	    gap -= cell.size.outerWidth;
+	  }
+	};
+	
+	proto._unshiftCells = function( cells ) {
+	  if ( !cells || !cells.length ) {
+	    return;
+	  }
+	  for ( var i=0; i < cells.length; i++ ) {
+	    cells[i].wrapShift( 0 );
+	  }
+	};
+	
+	// -------------------------- physics -------------------------- //
+	
+	proto.integratePhysics = function() {
+	  this.x += this.velocity;
+	  this.velocity *= this.getFrictionFactor();
+	};
+	
+	proto.applyForce = function( force ) {
+	  this.velocity += force;
+	};
+	
+	proto.getFrictionFactor = function() {
+	  return 1 - this.options[ this.isFreeScrolling ? 'freeScrollFriction' : 'friction' ];
+	};
+	
+	proto.getRestingPosition = function() {
+	  // my thanks to Steven Wittens, who simplified this math greatly
+	  return this.x + this.velocity / ( 1 - this.getFrictionFactor() );
+	};
+	
+	proto.applyDragForce = function() {
+	  if ( !this.isPointerDown ) {
+	    return;
+	  }
+	  // change the position to drag position by applying force
+	  var dragVelocity = this.dragX - this.x;
+	  var dragForce = dragVelocity - this.velocity;
+	  this.applyForce( dragForce );
+	};
+	
+	proto.applySelectedAttraction = function() {
+	  // do not attract if pointer down or no cells
+	  if ( this.isPointerDown || this.isFreeScrolling || !this.cells.length ) {
+	    return;
+	  }
+	  var distance = this.selectedSlide.target * -1 - this.x;
+	  var force = distance * this.options.selectedAttraction;
+	  this.applyForce( force );
+	};
+	
+	return proto;
+	
+	}));
+
+
+/***/ }),
+/* 397 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;// drag
+	( function( window, factory ) {
+	  // universal module definition
+	  /* jshint strict: false */
+	  if ( true ) {
+	    // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [
+	      __webpack_require__(389),
+	      __webpack_require__(398),
+	      __webpack_require__(392)
+	    ], __WEBPACK_AMD_DEFINE_RESULT__ = function( Flickity, Unidragger, utils ) {
+	      return factory( window, Flickity, Unidragger, utils );
+	    }.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+	  } else if ( typeof module == 'object' && module.exports ) {
+	    // CommonJS
+	    module.exports = factory(
+	      window,
+	      require('./flickity'),
+	      require('unidragger'),
+	      require('fizzy-ui-utils')
+	    );
+	  } else {
+	    // browser global
+	    window.Flickity = factory(
+	      window,
+	      window.Flickity,
+	      window.Unidragger,
+	      window.fizzyUIUtils
+	    );
+	  }
+	
+	}( window, function factory( window, Flickity, Unidragger, utils ) {
+	
+	'use strict';
+	
+	// ----- defaults ----- //
+	
+	utils.extend( Flickity.defaults, {
+	  draggable: true,
+	  dragThreshold: 3,
+	});
+	
+	// ----- create ----- //
+	
+	Flickity.createMethods.push('_createDrag');
+	
+	// -------------------------- drag prototype -------------------------- //
+	
+	var proto = Flickity.prototype;
+	utils.extend( proto, Unidragger.prototype );
+	proto._touchActionValue = 'pan-y';
+	
+	// --------------------------  -------------------------- //
+	
+	var isTouch = 'createTouch' in document;
+	var isTouchmoveScrollCanceled = false;
+	
+	proto._createDrag = function() {
+	  this.on( 'activate', this.bindDrag );
+	  this.on( 'uiChange', this._uiChangeDrag );
+	  this.on( 'childUIPointerDown', this._childUIPointerDownDrag );
+	  this.on( 'deactivate', this.unbindDrag );
+	  // HACK - add seemingly innocuous handler to fix iOS 10 scroll behavior
+	  // #457, RubaXa/Sortable#973
+	  if ( isTouch && !isTouchmoveScrollCanceled ) {
+	    window.addEventListener( 'touchmove', function() {});
+	    isTouchmoveScrollCanceled = true;
+	  }
+	};
+	
+	proto.bindDrag = function() {
+	  if ( !this.options.draggable || this.isDragBound ) {
+	    return;
+	  }
+	  this.element.classList.add('is-draggable');
+	  this.handles = [ this.viewport ];
+	  this.bindHandles();
+	  this.isDragBound = true;
+	};
+	
+	proto.unbindDrag = function() {
+	  if ( !this.isDragBound ) {
+	    return;
+	  }
+	  this.element.classList.remove('is-draggable');
+	  this.unbindHandles();
+	  delete this.isDragBound;
+	};
+	
+	proto._uiChangeDrag = function() {
+	  delete this.isFreeScrolling;
+	};
+	
+	proto._childUIPointerDownDrag = function( event ) {
+	  event.preventDefault();
+	  this.pointerDownFocus( event );
+	};
+	
+	// -------------------------- pointer events -------------------------- //
+	
+	// nodes that have text fields
+	var cursorNodes = {
+	  TEXTAREA: true,
+	  INPUT: true,
+	  OPTION: true,
+	};
+	
+	// input types that do not have text fields
+	var clickTypes = {
+	  radio: true,
+	  checkbox: true,
+	  button: true,
+	  submit: true,
+	  image: true,
+	  file: true,
+	};
+	
+	proto.pointerDown = function( event, pointer ) {
+	  // dismiss inputs with text fields. #403, #404
+	  var isCursorInput = cursorNodes[ event.target.nodeName ] &&
+	    !clickTypes[ event.target.type ];
+	  if ( isCursorInput ) {
+	    // reset pointerDown logic
+	    this.isPointerDown = false;
+	    delete this.pointerIdentifier;
+	    return;
+	  }
+	
+	  this._dragPointerDown( event, pointer );
+	
+	  // kludge to blur focused inputs in dragger
+	  var focused = document.activeElement;
+	  if ( focused && focused.blur && focused != this.element &&
+	    // do not blur body for IE9 & 10, #117
+	    focused != document.body ) {
+	    focused.blur();
+	  }
+	  this.pointerDownFocus( event );
+	  // stop if it was moving
+	  this.dragX = this.x;
+	  this.viewport.classList.add('is-pointer-down');
+	  // bind move and end events
+	  this._bindPostStartEvents( event );
+	  // track scrolling
+	  this.pointerDownScroll = getScrollPosition();
+	  window.addEventListener( 'scroll', this );
+	
+	  this.dispatchEvent( 'pointerDown', event, [ pointer ] );
+	};
+	
+	proto.pointerDownFocus = function( event ) {
+	  // focus element, if not touch, and its not an input or select
+	  var canPointerDown = getCanPointerDown( event );
+	  if ( !this.options.accessibility || canPointerDown ) {
+	    return;
+	  }
+	  var prevScrollY = window.pageYOffset;
+	  this.element.focus();
+	  // hack to fix scroll jump after focus, #76
+	  if ( window.pageYOffset != prevScrollY ) {
+	    window.scrollTo( window.pageXOffset, prevScrollY );
+	  }
+	};
+	
+	var focusNodes = {
+	  INPUT: true,
+	  SELECT: true,
+	};
+	
+	function getCanPointerDown( event ) {
+	  var isTouchStart = event.type == 'touchstart';
+	  var isTouchPointer = event.pointerType == 'touch';
+	  var isFocusNode = focusNodes[ event.target.nodeName ];
+	  return isTouchStart || isTouchPointer || isFocusNode;
+	}
+	
+	proto.canPreventDefaultOnPointerDown = function( event ) {
+	  // prevent default, unless touchstart or input
+	  var canPointerDown = getCanPointerDown( event );
+	  return !canPointerDown;
+	};
+	
+	// ----- move ----- //
+	
+	proto.hasDragStarted = function( moveVector ) {
+	  return Math.abs( moveVector.x ) > this.options.dragThreshold;
+	};
+	
+	// ----- up ----- //
+	
+	proto.pointerUp = function( event, pointer ) {
+	  delete this.isTouchScrolling;
+	  this.viewport.classList.remove('is-pointer-down');
+	  this.dispatchEvent( 'pointerUp', event, [ pointer ] );
+	  this._dragPointerUp( event, pointer );
+	};
+	
+	proto.pointerDone = function() {
+	  window.removeEventListener( 'scroll', this );
+	  delete this.pointerDownScroll;
+	};
+	
+	// -------------------------- dragging -------------------------- //
+	
+	proto.dragStart = function( event, pointer ) {
+	  this.dragStartPosition = this.x;
+	  this.startAnimation();
+	  window.removeEventListener( 'scroll', this );
+	  this.dispatchEvent( 'dragStart', event, [ pointer ] );
+	};
+	
+	proto.pointerMove = function( event, pointer ) {
+	  var moveVector = this._dragPointerMove( event, pointer );
+	  this.dispatchEvent( 'pointerMove', event, [ pointer, moveVector ] );
+	  this._dragMove( event, pointer, moveVector );
+	};
+	
+	proto.dragMove = function( event, pointer, moveVector ) {
+	  event.preventDefault();
+	
+	  this.previousDragX = this.dragX;
+	  // reverse if right-to-left
+	  var direction = this.options.rightToLeft ? -1 : 1;
+	  var dragX = this.dragStartPosition + moveVector.x * direction;
+	
+	  if ( !this.options.wrapAround && this.slides.length ) {
+	    // slow drag
+	    var originBound = Math.max( -this.slides[0].target, this.dragStartPosition );
+	    dragX = dragX > originBound ? ( dragX + originBound ) * 0.5 : dragX;
+	    var endBound = Math.min( -this.getLastSlide().target, this.dragStartPosition );
+	    dragX = dragX < endBound ? ( dragX + endBound ) * 0.5 : dragX;
+	  }
+	
+	  this.dragX = dragX;
+	
+	  this.dragMoveTime = new Date();
+	  this.dispatchEvent( 'dragMove', event, [ pointer, moveVector ] );
+	};
+	
+	proto.dragEnd = function( event, pointer ) {
+	  if ( this.options.freeScroll ) {
+	    this.isFreeScrolling = true;
+	  }
+	  // set selectedIndex based on where flick will end up
+	  var index = this.dragEndRestingSelect();
+	
+	  if ( this.options.freeScroll && !this.options.wrapAround ) {
+	    // if free-scroll & not wrap around
+	    // do not free-scroll if going outside of bounding slides
+	    // so bounding slides can attract slider, and keep it in bounds
+	    var restingX = this.getRestingPosition();
+	    this.isFreeScrolling = -restingX > this.slides[0].target &&
+	      -restingX < this.getLastSlide().target;
+	  } else if ( !this.options.freeScroll && index == this.selectedIndex ) {
+	    // boost selection if selected index has not changed
+	    index += this.dragEndBoostSelect();
+	  }
+	  delete this.previousDragX;
+	  // apply selection
+	  // TODO refactor this, selecting here feels weird
+	  // HACK, set flag so dragging stays in correct direction
+	  this.isDragSelect = this.options.wrapAround;
+	  this.select( index );
+	  delete this.isDragSelect;
+	  this.dispatchEvent( 'dragEnd', event, [ pointer ] );
+	};
+	
+	proto.dragEndRestingSelect = function() {
+	  var restingX = this.getRestingPosition();
+	  // how far away from selected slide
+	  var distance = Math.abs( this.getSlideDistance( -restingX, this.selectedIndex ) );
+	  // get closet resting going up and going down
+	  var positiveResting = this._getClosestResting( restingX, distance, 1 );
+	  var negativeResting = this._getClosestResting( restingX, distance, -1 );
+	  // use closer resting for wrap-around
+	  var index = positiveResting.distance < negativeResting.distance ?
+	    positiveResting.index : negativeResting.index;
+	  return index;
+	};
+	
+	/**
+	 * given resting X and distance to selected cell
+	 * get the distance and index of the closest cell
+	 * @param {Number} restingX - estimated post-flick resting position
+	 * @param {Number} distance - distance to selected cell
+	 * @param {Integer} increment - +1 or -1, going up or down
+	 * @returns {Object} - { distance: {Number}, index: {Integer} }
+	 */
+	proto._getClosestResting = function( restingX, distance, increment ) {
+	  var index = this.selectedIndex;
+	  var minDistance = Infinity;
+	  var condition = this.options.contain && !this.options.wrapAround ?
+	    // if contain, keep going if distance is equal to minDistance
+	    function( d, md ) { return d <= md; } : function( d, md ) { return d < md; };
+	  while ( condition( distance, minDistance ) ) {
+	    // measure distance to next cell
+	    index += increment;
+	    minDistance = distance;
+	    distance = this.getSlideDistance( -restingX, index );
+	    if ( distance === null ) {
+	      break;
+	    }
+	    distance = Math.abs( distance );
+	  }
+	  return {
+	    distance: minDistance,
+	    // selected was previous index
+	    index: index - increment
+	  };
+	};
+	
+	/**
+	 * measure distance between x and a slide target
+	 * @param {Number} x
+	 * @param {Integer} index - slide index
+	 */
+	proto.getSlideDistance = function( x, index ) {
+	  var len = this.slides.length;
+	  // wrap around if at least 2 slides
+	  var isWrapAround = this.options.wrapAround && len > 1;
+	  var slideIndex = isWrapAround ? utils.modulo( index, len ) : index;
+	  var slide = this.slides[ slideIndex ];
+	  if ( !slide ) {
+	    return null;
+	  }
+	  // add distance for wrap-around slides
+	  var wrap = isWrapAround ? this.slideableWidth * Math.floor( index / len ) : 0;
+	  return x - ( slide.target + wrap );
+	};
+	
+	proto.dragEndBoostSelect = function() {
+	  // do not boost if no previousDragX or dragMoveTime
+	  if ( this.previousDragX === undefined || !this.dragMoveTime ||
+	    // or if drag was held for 100 ms
+	    new Date() - this.dragMoveTime > 100 ) {
+	    return 0;
+	  }
+	
+	  var distance = this.getSlideDistance( -this.dragX, this.selectedIndex );
+	  var delta = this.previousDragX - this.dragX;
+	  if ( distance > 0 && delta > 0 ) {
+	    // boost to next if moving towards the right, and positive velocity
+	    return 1;
+	  } else if ( distance < 0 && delta < 0 ) {
+	    // boost to previous if moving towards the left, and negative velocity
+	    return -1;
+	  }
+	  return 0;
+	};
+	
+	// ----- staticClick ----- //
+	
+	proto.staticClick = function( event, pointer ) {
+	  // get clickedCell, if cell was clicked
+	  var clickedCell = this.getParentCell( event.target );
+	  var cellElem = clickedCell && clickedCell.element;
+	  var cellIndex = clickedCell && this.cells.indexOf( clickedCell );
+	  this.dispatchEvent( 'staticClick', event, [ pointer, cellElem, cellIndex ] );
+	};
+	
+	// ----- scroll ----- //
+	
+	proto.onscroll = function() {
+	  var scroll = getScrollPosition();
+	  var scrollMoveX = this.pointerDownScroll.x - scroll.x;
+	  var scrollMoveY = this.pointerDownScroll.y - scroll.y;
+	  // cancel click/tap if scroll is too much
+	  if ( Math.abs( scrollMoveX ) > 3 || Math.abs( scrollMoveY ) > 3 ) {
+	    this._pointerDone();
+	  }
+	};
+	
+	// ----- utils ----- //
+	
+	function getScrollPosition() {
+	  return {
+	    x: window.pageXOffset,
+	    y: window.pageYOffset
+	  };
+	}
+	
+	// -----  ----- //
+	
+	return Flickity;
+	
+	}));
+
+
+/***/ }),
+/* 398 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
+	 * Unidragger v2.2.3
+	 * Draggable base class
+	 * MIT license
+	 */
+	
+	/*jshint browser: true, unused: true, undef: true, strict: true */
+	
+	( function( window, factory ) {
+	  // universal module definition
+	  /*jshint strict: false */ /*globals define, module, require */
+	
+	  if ( true ) {
+	    // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [
+	      __webpack_require__(399)
+	    ], __WEBPACK_AMD_DEFINE_RESULT__ = function( Unipointer ) {
+	      return factory( window, Unipointer );
+	    }.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+	  } else if ( typeof module == 'object' && module.exports ) {
+	    // CommonJS
+	    module.exports = factory(
+	      window,
+	      require('unipointer')
+	    );
+	  } else {
+	    // browser global
+	    window.Unidragger = factory(
+	      window,
+	      window.Unipointer
+	    );
+	  }
+	
+	}( window, function factory( window, Unipointer ) {
+	
+	'use strict';
+	
+	// -------------------------- Unidragger -------------------------- //
+	
+	function Unidragger() {}
+	
+	// inherit Unipointer & EvEmitter
+	var proto = Unidragger.prototype = Object.create( Unipointer.prototype );
+	
+	// ----- bind start ----- //
+	
+	proto.bindHandles = function() {
+	  this._bindHandles( true );
+	};
+	
+	proto.unbindHandles = function() {
+	  this._bindHandles( false );
+	};
+	
+	/**
+	 * works as unbinder, as you can .bindHandles( false ) to unbind
+	 * @param {Boolean} isBind - will unbind if falsey
+	 */
+	proto._bindHandles = function( isBind ) {
+	  // munge isBind, default to true
+	  isBind = isBind === undefined ? true : !!isBind;
+	  // bind each handle
+	  var bindMethod = isBind ? 'addEventListener' : 'removeEventListener';
+	  for ( var i=0; i < this.handles.length; i++ ) {
+	    var handle = this.handles[i];
+	    this._bindStartEvent( handle, isBind );
+	    handle[ bindMethod ]( 'click', this );
+	    // touch-action: none to override browser touch gestures
+	    // metafizzy/flickity#540
+	    if ( window.PointerEvent ) {
+	      handle.style.touchAction = isBind ? this._touchActionValue : '';
+	    }
+	  }
+	};
+	
+	// prototype so it can be overwriteable by Flickity
+	proto._touchActionValue = 'none';
+	
+	// ----- start event ----- //
+	
+	/**
+	 * pointer start
+	 * @param {Event} event
+	 * @param {Event or Touch} pointer
+	 */
+	proto.pointerDown = function( event, pointer ) {
+	  // dismiss range sliders
+	  if ( event.target.nodeName == 'INPUT' && event.target.type == 'range' ) {
+	    // reset pointerDown logic
+	    this.isPointerDown = false;
+	    delete this.pointerIdentifier;
+	    return;
+	  }
+	
+	  this._dragPointerDown( event, pointer );
+	  // kludge to blur focused inputs in dragger
+	  var focused = document.activeElement;
+	  if ( focused && focused.blur ) {
+	    focused.blur();
+	  }
+	  // bind move and end events
+	  this._bindPostStartEvents( event );
+	  this.emitEvent( 'pointerDown', [ event, pointer ] );
+	};
+	
+	// base pointer down logic
+	proto._dragPointerDown = function( event, pointer ) {
+	  // track to see when dragging starts
+	  this.pointerDownPoint = Unipointer.getPointerPoint( pointer );
+	
+	  var canPreventDefault = this.canPreventDefaultOnPointerDown( event, pointer );
+	  if ( canPreventDefault ) {
+	    event.preventDefault();
+	  }
+	};
+	
+	// overwriteable method so Flickity can prevent for scrolling
+	proto.canPreventDefaultOnPointerDown = function( event ) {
+	  // prevent default, unless touchstart or <select>
+	  return event.target.nodeName != 'SELECT';
+	};
+	
+	// ----- move event ----- //
+	
+	/**
+	 * drag move
+	 * @param {Event} event
+	 * @param {Event or Touch} pointer
+	 */
+	proto.pointerMove = function( event, pointer ) {
+	  var moveVector = this._dragPointerMove( event, pointer );
+	  this.emitEvent( 'pointerMove', [ event, pointer, moveVector ] );
+	  this._dragMove( event, pointer, moveVector );
+	};
+	
+	// base pointer move logic
+	proto._dragPointerMove = function( event, pointer ) {
+	  var movePoint = Unipointer.getPointerPoint( pointer );
+	  var moveVector = {
+	    x: movePoint.x - this.pointerDownPoint.x,
+	    y: movePoint.y - this.pointerDownPoint.y
+	  };
+	  // start drag if pointer has moved far enough to start drag
+	  if ( !this.isDragging && this.hasDragStarted( moveVector ) ) {
+	    this._dragStart( event, pointer );
+	  }
+	  return moveVector;
+	};
+	
+	// condition if pointer has moved far enough to start drag
+	proto.hasDragStarted = function( moveVector ) {
+	  return Math.abs( moveVector.x ) > 3 || Math.abs( moveVector.y ) > 3;
+	};
+	
+	
+	// ----- end event ----- //
+	
+	/**
+	 * pointer up
+	 * @param {Event} event
+	 * @param {Event or Touch} pointer
+	 */
+	proto.pointerUp = function( event, pointer ) {
+	  this.emitEvent( 'pointerUp', [ event, pointer ] );
+	  this._dragPointerUp( event, pointer );
+	};
+	
+	proto._dragPointerUp = function( event, pointer ) {
+	  if ( this.isDragging ) {
+	    this._dragEnd( event, pointer );
+	  } else {
+	    // pointer didn't move enough for drag to start
+	    this._staticClick( event, pointer );
+	  }
+	};
+	
+	// -------------------------- drag -------------------------- //
+	
+	// dragStart
+	proto._dragStart = function( event, pointer ) {
+	  this.isDragging = true;
+	  this.dragStartPoint = Unipointer.getPointerPoint( pointer );
+	  // prevent clicks
+	  this.isPreventingClicks = true;
+	
+	  this.dragStart( event, pointer );
+	};
+	
+	proto.dragStart = function( event, pointer ) {
+	  this.emitEvent( 'dragStart', [ event, pointer ] );
+	};
+	
+	// dragMove
+	proto._dragMove = function( event, pointer, moveVector ) {
+	  // do not drag if not dragging yet
+	  if ( !this.isDragging ) {
+	    return;
+	  }
+	
+	  this.dragMove( event, pointer, moveVector );
+	};
+	
+	proto.dragMove = function( event, pointer, moveVector ) {
+	  event.preventDefault();
+	  this.emitEvent( 'dragMove', [ event, pointer, moveVector ] );
+	};
+	
+	// dragEnd
+	proto._dragEnd = function( event, pointer ) {
+	  // set flags
+	  this.isDragging = false;
+	  // re-enable clicking async
+	  setTimeout( function() {
+	    delete this.isPreventingClicks;
+	  }.bind( this ) );
+	
+	  this.dragEnd( event, pointer );
+	};
+	
+	proto.dragEnd = function( event, pointer ) {
+	  this.emitEvent( 'dragEnd', [ event, pointer ] );
+	};
+	
+	// ----- onclick ----- //
+	
+	// handle all clicks and prevent clicks when dragging
+	proto.onclick = function( event ) {
+	  if ( this.isPreventingClicks ) {
+	    event.preventDefault();
+	  }
+	};
+	
+	// ----- staticClick ----- //
+	
+	// triggered after pointer down & up with no/tiny movement
+	proto._staticClick = function( event, pointer ) {
+	  // ignore emulated mouse up clicks
+	  if ( this.isIgnoringMouseUp && event.type == 'mouseup' ) {
+	    return;
+	  }
+	
+	  // allow click in <input>s and <textarea>s
+	  var nodeName = event.target.nodeName;
+	  if ( nodeName == 'INPUT' || nodeName == 'TEXTAREA' ) {
+	    event.target.focus();
+	  }
+	  this.staticClick( event, pointer );
+	
+	  // set flag for emulated clicks 300ms after touchend
+	  if ( event.type != 'mouseup' ) {
+	    this.isIgnoringMouseUp = true;
+	    // reset flag after 300ms
+	    setTimeout( function() {
+	      delete this.isIgnoringMouseUp;
+	    }.bind( this ), 400 );
+	  }
+	};
+	
+	proto.staticClick = function( event, pointer ) {
+	  this.emitEvent( 'staticClick', [ event, pointer ] );
+	};
+	
+	// ----- utils ----- //
+	
+	Unidragger.getPointerPoint = Unipointer.getPointerPoint;
+	
+	// -----  ----- //
+	
+	return Unidragger;
+	
+	}));
+
+
+/***/ }),
+/* 399 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
+	 * Unipointer v2.2.0
+	 * base class for doing one thing with pointer event
+	 * MIT license
+	 */
+	
+	/*jshint browser: true, undef: true, unused: true, strict: true */
+	
+	( function( window, factory ) {
+	  // universal module definition
+	  /* jshint strict: false */ /*global define, module, require */
+	  if ( true ) {
+	    // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [
+	      __webpack_require__(390)
+	    ], __WEBPACK_AMD_DEFINE_RESULT__ = function( EvEmitter ) {
+	      return factory( window, EvEmitter );
+	    }.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+	  } else if ( typeof module == 'object' && module.exports ) {
+	    // CommonJS
+	    module.exports = factory(
+	      window,
+	      require('ev-emitter')
+	    );
+	  } else {
+	    // browser global
+	    window.Unipointer = factory(
+	      window,
+	      window.EvEmitter
+	    );
+	  }
+	
+	}( window, function factory( window, EvEmitter ) {
+	
+	'use strict';
+	
+	function noop() {}
+	
+	function Unipointer() {}
+	
+	// inherit EvEmitter
+	var proto = Unipointer.prototype = Object.create( EvEmitter.prototype );
+	
+	proto.bindStartEvent = function( elem ) {
+	  this._bindStartEvent( elem, true );
+	};
+	
+	proto.unbindStartEvent = function( elem ) {
+	  this._bindStartEvent( elem, false );
+	};
+	
+	/**
+	 * works as unbinder, as you can ._bindStart( false ) to unbind
+	 * @param {Boolean} isBind - will unbind if falsey
+	 */
+	proto._bindStartEvent = function( elem, isBind ) {
+	  // munge isBind, default to true
+	  isBind = isBind === undefined ? true : !!isBind;
+	  var bindMethod = isBind ? 'addEventListener' : 'removeEventListener';
+	
+	  if ( window.PointerEvent ) {
+	    // Pointer Events. Chrome 55, IE11, Edge 14
+	    elem[ bindMethod ]( 'pointerdown', this );
+	  } else {
+	    // listen for both, for devices like Chrome Pixel
+	    elem[ bindMethod ]( 'mousedown', this );
+	    elem[ bindMethod ]( 'touchstart', this );
+	  }
+	};
+	
+	// trigger handler methods for events
+	proto.handleEvent = function( event ) {
+	  var method = 'on' + event.type;
+	  if ( this[ method ] ) {
+	    this[ method ]( event );
+	  }
+	};
+	
+	// returns the touch that we're keeping track of
+	proto.getTouch = function( touches ) {
+	  for ( var i=0; i < touches.length; i++ ) {
+	    var touch = touches[i];
+	    if ( touch.identifier == this.pointerIdentifier ) {
+	      return touch;
+	    }
+	  }
+	};
+	
+	// ----- start event ----- //
+	
+	proto.onmousedown = function( event ) {
+	  // dismiss clicks from right or middle buttons
+	  var button = event.button;
+	  if ( button && ( button !== 0 && button !== 1 ) ) {
+	    return;
+	  }
+	  this._pointerDown( event, event );
+	};
+	
+	proto.ontouchstart = function( event ) {
+	  this._pointerDown( event, event.changedTouches[0] );
+	};
+	
+	proto.onpointerdown = function( event ) {
+	  this._pointerDown( event, event );
+	};
+	
+	/**
+	 * pointer start
+	 * @param {Event} event
+	 * @param {Event or Touch} pointer
+	 */
+	proto._pointerDown = function( event, pointer ) {
+	  // dismiss other pointers
+	  if ( this.isPointerDown ) {
+	    return;
+	  }
+	
+	  this.isPointerDown = true;
+	  // save pointer identifier to match up touch events
+	  this.pointerIdentifier = pointer.pointerId !== undefined ?
+	    // pointerId for pointer events, touch.indentifier for touch events
+	    pointer.pointerId : pointer.identifier;
+	
+	  this.pointerDown( event, pointer );
+	};
+	
+	proto.pointerDown = function( event, pointer ) {
+	  this._bindPostStartEvents( event );
+	  this.emitEvent( 'pointerDown', [ event, pointer ] );
+	};
+	
+	// hash of events to be bound after start event
+	var postStartEvents = {
+	  mousedown: [ 'mousemove', 'mouseup' ],
+	  touchstart: [ 'touchmove', 'touchend', 'touchcancel' ],
+	  pointerdown: [ 'pointermove', 'pointerup', 'pointercancel' ],
+	};
+	
+	proto._bindPostStartEvents = function( event ) {
+	  if ( !event ) {
+	    return;
+	  }
+	  // get proper events to match start event
+	  var events = postStartEvents[ event.type ];
+	  // bind events to node
+	  events.forEach( function( eventName ) {
+	    window.addEventListener( eventName, this );
+	  }, this );
+	  // save these arguments
+	  this._boundPointerEvents = events;
+	};
+	
+	proto._unbindPostStartEvents = function() {
+	  // check for _boundEvents, in case dragEnd triggered twice (old IE8 bug)
+	  if ( !this._boundPointerEvents ) {
+	    return;
+	  }
+	  this._boundPointerEvents.forEach( function( eventName ) {
+	    window.removeEventListener( eventName, this );
+	  }, this );
+	
+	  delete this._boundPointerEvents;
+	};
+	
+	// ----- move event ----- //
+	
+	proto.onmousemove = function( event ) {
+	  this._pointerMove( event, event );
+	};
+	
+	proto.onpointermove = function( event ) {
+	  if ( event.pointerId == this.pointerIdentifier ) {
+	    this._pointerMove( event, event );
+	  }
+	};
+	
+	proto.ontouchmove = function( event ) {
+	  var touch = this.getTouch( event.changedTouches );
+	  if ( touch ) {
+	    this._pointerMove( event, touch );
+	  }
+	};
+	
+	/**
+	 * pointer move
+	 * @param {Event} event
+	 * @param {Event or Touch} pointer
+	 * @private
+	 */
+	proto._pointerMove = function( event, pointer ) {
+	  this.pointerMove( event, pointer );
+	};
+	
+	// public
+	proto.pointerMove = function( event, pointer ) {
+	  this.emitEvent( 'pointerMove', [ event, pointer ] );
+	};
+	
+	// ----- end event ----- //
+	
+	
+	proto.onmouseup = function( event ) {
+	  this._pointerUp( event, event );
+	};
+	
+	proto.onpointerup = function( event ) {
+	  if ( event.pointerId == this.pointerIdentifier ) {
+	    this._pointerUp( event, event );
+	  }
+	};
+	
+	proto.ontouchend = function( event ) {
+	  var touch = this.getTouch( event.changedTouches );
+	  if ( touch ) {
+	    this._pointerUp( event, touch );
+	  }
+	};
+	
+	/**
+	 * pointer up
+	 * @param {Event} event
+	 * @param {Event or Touch} pointer
+	 * @private
+	 */
+	proto._pointerUp = function( event, pointer ) {
+	  this._pointerDone();
+	  this.pointerUp( event, pointer );
+	};
+	
+	// public
+	proto.pointerUp = function( event, pointer ) {
+	  this.emitEvent( 'pointerUp', [ event, pointer ] );
+	};
+	
+	// ----- pointer done ----- //
+	
+	// triggered on pointer up & pointer cancel
+	proto._pointerDone = function() {
+	  // reset properties
+	  this.isPointerDown = false;
+	  delete this.pointerIdentifier;
+	  // remove events
+	  this._unbindPostStartEvents();
+	  this.pointerDone();
+	};
+	
+	proto.pointerDone = noop;
+	
+	// ----- pointer cancel ----- //
+	
+	proto.onpointercancel = function( event ) {
+	  if ( event.pointerId == this.pointerIdentifier ) {
+	    this._pointerCancel( event, event );
+	  }
+	};
+	
+	proto.ontouchcancel = function( event ) {
+	  var touch = this.getTouch( event.changedTouches );
+	  if ( touch ) {
+	    this._pointerCancel( event, touch );
+	  }
+	};
+	
+	/**
+	 * pointer cancel
+	 * @param {Event} event
+	 * @param {Event or Touch} pointer
+	 * @private
+	 */
+	proto._pointerCancel = function( event, pointer ) {
+	  this._pointerDone();
+	  this.pointerCancel( event, pointer );
+	};
+	
+	// public
+	proto.pointerCancel = function( event, pointer ) {
+	  this.emitEvent( 'pointerCancel', [ event, pointer ] );
+	};
+	
+	// -----  ----- //
+	
+	// utility function for getting x/y coords from event
+	Unipointer.getPointerPoint = function( pointer ) {
+	  return {
+	    x: pointer.pageX,
+	    y: pointer.pageY
+	  };
+	};
+	
+	// -----  ----- //
+	
+	return Unipointer;
+	
+	}));
+
+
+/***/ }),
+/* 400 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;// prev/next buttons
+	( function( window, factory ) {
+	  // universal module definition
+	  /* jshint strict: false */
+	  if ( true ) {
+	    // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [
+	      __webpack_require__(389),
+	      __webpack_require__(401),
+	      __webpack_require__(392)
+	    ], __WEBPACK_AMD_DEFINE_RESULT__ = function( Flickity, TapListener, utils ) {
+	      return factory( window, Flickity, TapListener, utils );
+	    }.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+	  } else if ( typeof module == 'object' && module.exports ) {
+	    // CommonJS
+	    module.exports = factory(
+	      window,
+	      require('./flickity'),
+	      require('tap-listener'),
+	      require('fizzy-ui-utils')
+	    );
+	  } else {
+	    // browser global
+	    factory(
+	      window,
+	      window.Flickity,
+	      window.TapListener,
+	      window.fizzyUIUtils
+	    );
+	  }
+	
+	}( window, function factory( window, Flickity, TapListener, utils ) {
+	'use strict';
+	
+	var svgURI = 'http://www.w3.org/2000/svg';
+	
+	// -------------------------- PrevNextButton -------------------------- //
+	
+	function PrevNextButton( direction, parent ) {
+	  this.direction = direction;
+	  this.parent = parent;
+	  this._create();
+	}
+	
+	PrevNextButton.prototype = new TapListener();
+	
+	PrevNextButton.prototype._create = function() {
+	  // properties
+	  this.isEnabled = true;
+	  this.isPrevious = this.direction == -1;
+	  var leftDirection = this.parent.options.rightToLeft ? 1 : -1;
+	  this.isLeft = this.direction == leftDirection;
+	
+	  var element = this.element = document.createElement('button');
+	  element.className = 'flickity-prev-next-button';
+	  element.className += this.isPrevious ? ' previous' : ' next';
+	  // prevent button from submitting form http://stackoverflow.com/a/10836076/182183
+	  element.setAttribute( 'type', 'button' );
+	  // init as disabled
+	  this.disable();
+	
+	  element.setAttribute( 'aria-label', this.isPrevious ? 'previous' : 'next' );
+	
+	  // create arrow
+	  var svg = this.createSVG();
+	  element.appendChild( svg );
+	  // events
+	  this.on( 'tap', this.onTap );
+	  this.parent.on( 'select', this.update.bind( this ) );
+	  this.on( 'pointerDown', this.parent.childUIPointerDown.bind( this.parent ) );
+	};
+	
+	PrevNextButton.prototype.activate = function() {
+	  this.bindTap( this.element );
+	  // click events from keyboard
+	  this.element.addEventListener( 'click', this );
+	  // add to DOM
+	  this.parent.element.appendChild( this.element );
+	};
+	
+	PrevNextButton.prototype.deactivate = function() {
+	  // remove from DOM
+	  this.parent.element.removeChild( this.element );
+	  // do regular TapListener destroy
+	  TapListener.prototype.destroy.call( this );
+	  // click events from keyboard
+	  this.element.removeEventListener( 'click', this );
+	};
+	
+	PrevNextButton.prototype.createSVG = function() {
+	  var svg = document.createElementNS( svgURI, 'svg');
+	  svg.setAttribute( 'viewBox', '0 0 100 100' );
+	  var path = document.createElementNS( svgURI, 'path');
+	  var pathMovements = getArrowMovements( this.parent.options.arrowShape );
+	  path.setAttribute( 'd', pathMovements );
+	  path.setAttribute( 'class', 'arrow' );
+	  // rotate arrow
+	  if ( !this.isLeft ) {
+	    path.setAttribute( 'transform', 'translate(100, 100) rotate(180) ' );
+	  }
+	  svg.appendChild( path );
+	  return svg;
+	};
+	
+	// get SVG path movmement
+	function getArrowMovements( shape ) {
+	  // use shape as movement if string
+	  if ( typeof shape == 'string' ) {
+	    return shape;
+	  }
+	  // create movement string
+	  return 'M ' + shape.x0 + ',50' +
+	    ' L ' + shape.x1 + ',' + ( shape.y1 + 50 ) +
+	    ' L ' + shape.x2 + ',' + ( shape.y2 + 50 ) +
+	    ' L ' + shape.x3 + ',50 ' +
+	    ' L ' + shape.x2 + ',' + ( 50 - shape.y2 ) +
+	    ' L ' + shape.x1 + ',' + ( 50 - shape.y1 ) +
+	    ' Z';
+	}
+	
+	PrevNextButton.prototype.onTap = function() {
+	  if ( !this.isEnabled ) {
+	    return;
+	  }
+	  this.parent.uiChange();
+	  var method = this.isPrevious ? 'previous' : 'next';
+	  this.parent[ method ]();
+	};
+	
+	PrevNextButton.prototype.handleEvent = utils.handleEvent;
+	
+	PrevNextButton.prototype.onclick = function() {
+	  // only allow clicks from keyboard
+	  var focused = document.activeElement;
+	  if ( focused && focused == this.element ) {
+	    this.onTap();
+	  }
+	};
+	
+	// -----  ----- //
+	
+	PrevNextButton.prototype.enable = function() {
+	  if ( this.isEnabled ) {
+	    return;
+	  }
+	  this.element.disabled = false;
+	  this.isEnabled = true;
+	};
+	
+	PrevNextButton.prototype.disable = function() {
+	  if ( !this.isEnabled ) {
+	    return;
+	  }
+	  this.element.disabled = true;
+	  this.isEnabled = false;
+	};
+	
+	PrevNextButton.prototype.update = function() {
+	  // index of first or last slide, if previous or next
+	  var slides = this.parent.slides;
+	  // enable is wrapAround and at least 2 slides
+	  if ( this.parent.options.wrapAround && slides.length > 1 ) {
+	    this.enable();
+	    return;
+	  }
+	  var lastIndex = slides.length ? slides.length - 1 : 0;
+	  var boundIndex = this.isPrevious ? 0 : lastIndex;
+	  var method = this.parent.selectedIndex == boundIndex ? 'disable' : 'enable';
+	  this[ method ]();
+	};
+	
+	PrevNextButton.prototype.destroy = function() {
+	  this.deactivate();
+	};
+	
+	// -------------------------- Flickity prototype -------------------------- //
+	
+	utils.extend( Flickity.defaults, {
+	  prevNextButtons: true,
+	  arrowShape: {
+	    x0: 10,
+	    x1: 60, y1: 50,
+	    x2: 70, y2: 40,
+	    x3: 30
+	  }
+	});
+	
+	Flickity.createMethods.push('_createPrevNextButtons');
+	var proto = Flickity.prototype;
+	
+	proto._createPrevNextButtons = function() {
+	  if ( !this.options.prevNextButtons ) {
+	    return;
+	  }
+	
+	  this.prevButton = new PrevNextButton( -1, this );
+	  this.nextButton = new PrevNextButton( 1, this );
+	
+	  this.on( 'activate', this.activatePrevNextButtons );
+	};
+	
+	proto.activatePrevNextButtons = function() {
+	  this.prevButton.activate();
+	  this.nextButton.activate();
+	  this.on( 'deactivate', this.deactivatePrevNextButtons );
+	};
+	
+	proto.deactivatePrevNextButtons = function() {
+	  this.prevButton.deactivate();
+	  this.nextButton.deactivate();
+	  this.off( 'deactivate', this.deactivatePrevNextButtons );
+	};
+	
+	// --------------------------  -------------------------- //
+	
+	Flickity.PrevNextButton = PrevNextButton;
+	
+	return Flickity;
+	
+	}));
+
+
+/***/ }),
+/* 401 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
+	 * Tap listener v2.0.0
+	 * listens to taps
+	 * MIT license
+	 */
+	
+	/*jshint browser: true, unused: true, undef: true, strict: true */
+	
+	( function( window, factory ) {
+	  // universal module definition
+	  /*jshint strict: false*/ /*globals define, module, require */
+	
+	  if ( true ) {
+	    // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [
+	      __webpack_require__(399)
+	    ], __WEBPACK_AMD_DEFINE_RESULT__ = function( Unipointer ) {
+	      return factory( window, Unipointer );
+	    }.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+	  } else if ( typeof module == 'object' && module.exports ) {
+	    // CommonJS
+	    module.exports = factory(
+	      window,
+	      require('unipointer')
+	    );
+	  } else {
+	    // browser global
+	    window.TapListener = factory(
+	      window,
+	      window.Unipointer
+	    );
+	  }
+	
+	}( window, function factory( window, Unipointer ) {
+	
+	'use strict';
+	
+	// --------------------------  TapListener -------------------------- //
+	
+	function TapListener( elem ) {
+	  this.bindTap( elem );
+	}
+	
+	// inherit Unipointer & EventEmitter
+	var proto = TapListener.prototype = Object.create( Unipointer.prototype );
+	
+	/**
+	 * bind tap event to element
+	 * @param {Element} elem
+	 */
+	proto.bindTap = function( elem ) {
+	  if ( !elem ) {
+	    return;
+	  }
+	  this.unbindTap();
+	  this.tapElement = elem;
+	  this._bindStartEvent( elem, true );
+	};
+	
+	proto.unbindTap = function() {
+	  if ( !this.tapElement ) {
+	    return;
+	  }
+	  this._bindStartEvent( this.tapElement, true );
+	  delete this.tapElement;
+	};
+	
+	/**
+	 * pointer up
+	 * @param {Event} event
+	 * @param {Event or Touch} pointer
+	 */
+	proto.pointerUp = function( event, pointer ) {
+	  // ignore emulated mouse up clicks
+	  if ( this.isIgnoringMouseUp && event.type == 'mouseup' ) {
+	    return;
+	  }
+	
+	  var pointerPoint = Unipointer.getPointerPoint( pointer );
+	  var boundingRect = this.tapElement.getBoundingClientRect();
+	  var scrollX = window.pageXOffset;
+	  var scrollY = window.pageYOffset;
+	  // calculate if pointer is inside tapElement
+	  var isInside = pointerPoint.x >= boundingRect.left + scrollX &&
+	    pointerPoint.x <= boundingRect.right + scrollX &&
+	    pointerPoint.y >= boundingRect.top + scrollY &&
+	    pointerPoint.y <= boundingRect.bottom + scrollY;
+	  // trigger callback if pointer is inside element
+	  if ( isInside ) {
+	    this.emitEvent( 'tap', [ event, pointer ] );
+	  }
+	
+	  // set flag for emulated clicks 300ms after touchend
+	  if ( event.type != 'mouseup' ) {
+	    this.isIgnoringMouseUp = true;
+	    // reset flag after 300ms
+	    var _this = this;
+	    setTimeout( function() {
+	      delete _this.isIgnoringMouseUp;
+	    }, 400 );
+	  }
+	};
+	
+	proto.destroy = function() {
+	  this.pointerDone();
+	  this.unbindTap();
+	};
+	
+	// -----  ----- //
+	
+	return TapListener;
+	
+	}));
+
+
+/***/ }),
+/* 402 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;// page dots
+	( function( window, factory ) {
+	  // universal module definition
+	  /* jshint strict: false */
+	  if ( true ) {
+	    // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [
+	      __webpack_require__(389),
+	      __webpack_require__(401),
+	      __webpack_require__(392)
+	    ], __WEBPACK_AMD_DEFINE_RESULT__ = function( Flickity, TapListener, utils ) {
+	      return factory( window, Flickity, TapListener, utils );
+	    }.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+	  } else if ( typeof module == 'object' && module.exports ) {
+	    // CommonJS
+	    module.exports = factory(
+	      window,
+	      require('./flickity'),
+	      require('tap-listener'),
+	      require('fizzy-ui-utils')
+	    );
+	  } else {
+	    // browser global
+	    factory(
+	      window,
+	      window.Flickity,
+	      window.TapListener,
+	      window.fizzyUIUtils
+	    );
+	  }
+	
+	}( window, function factory( window, Flickity, TapListener, utils ) {
+	
+	// -------------------------- PageDots -------------------------- //
+	
+	'use strict';
+	
+	function PageDots( parent ) {
+	  this.parent = parent;
+	  this._create();
+	}
+	
+	PageDots.prototype = new TapListener();
+	
+	PageDots.prototype._create = function() {
+	  // create holder element
+	  this.holder = document.createElement('ol');
+	  this.holder.className = 'flickity-page-dots';
+	  // create dots, array of elements
+	  this.dots = [];
+	  // events
+	  this.on( 'tap', this.onTap );
+	  this.on( 'pointerDown', this.parent.childUIPointerDown.bind( this.parent ) );
+	};
+	
+	PageDots.prototype.activate = function() {
+	  this.setDots();
+	  this.bindTap( this.holder );
+	  // add to DOM
+	  this.parent.element.appendChild( this.holder );
+	};
+	
+	PageDots.prototype.deactivate = function() {
+	  // remove from DOM
+	  this.parent.element.removeChild( this.holder );
+	  TapListener.prototype.destroy.call( this );
+	};
+	
+	PageDots.prototype.setDots = function() {
+	  // get difference between number of slides and number of dots
+	  var delta = this.parent.slides.length - this.dots.length;
+	  if ( delta > 0 ) {
+	    this.addDots( delta );
+	  } else if ( delta < 0 ) {
+	    this.removeDots( -delta );
+	  }
+	};
+	
+	PageDots.prototype.addDots = function( count ) {
+	  var fragment = document.createDocumentFragment();
+	  var newDots = [];
+	  while ( count ) {
+	    var dot = document.createElement('li');
+	    dot.className = 'dot';
+	    fragment.appendChild( dot );
+	    newDots.push( dot );
+	    count--;
+	  }
+	  this.holder.appendChild( fragment );
+	  this.dots = this.dots.concat( newDots );
+	};
+	
+	PageDots.prototype.removeDots = function( count ) {
+	  // remove from this.dots collection
+	  var removeDots = this.dots.splice( this.dots.length - count, count );
+	  // remove from DOM
+	  removeDots.forEach( function( dot ) {
+	    this.holder.removeChild( dot );
+	  }, this );
+	};
+	
+	PageDots.prototype.updateSelected = function() {
+	  // remove selected class on previous
+	  if ( this.selectedDot ) {
+	    this.selectedDot.className = 'dot';
+	  }
+	  // don't proceed if no dots
+	  if ( !this.dots.length ) {
+	    return;
+	  }
+	  this.selectedDot = this.dots[ this.parent.selectedIndex ];
+	  this.selectedDot.className = 'dot is-selected';
+	};
+	
+	PageDots.prototype.onTap = function( event ) {
+	  var target = event.target;
+	  // only care about dot clicks
+	  if ( target.nodeName != 'LI' ) {
+	    return;
+	  }
+	
+	  this.parent.uiChange();
+	  var index = this.dots.indexOf( target );
+	  this.parent.select( index );
+	};
+	
+	PageDots.prototype.destroy = function() {
+	  this.deactivate();
+	};
+	
+	Flickity.PageDots = PageDots;
+	
+	// -------------------------- Flickity -------------------------- //
+	
+	utils.extend( Flickity.defaults, {
+	  pageDots: true
+	});
+	
+	Flickity.createMethods.push('_createPageDots');
+	
+	var proto = Flickity.prototype;
+	
+	proto._createPageDots = function() {
+	  if ( !this.options.pageDots ) {
+	    return;
+	  }
+	  this.pageDots = new PageDots( this );
+	  // events
+	  this.on( 'activate', this.activatePageDots );
+	  this.on( 'select', this.updateSelectedPageDots );
+	  this.on( 'cellChange', this.updatePageDots );
+	  this.on( 'resize', this.updatePageDots );
+	  this.on( 'deactivate', this.deactivatePageDots );
+	};
+	
+	proto.activatePageDots = function() {
+	  this.pageDots.activate();
+	};
+	
+	proto.updateSelectedPageDots = function() {
+	  this.pageDots.updateSelected();
+	};
+	
+	proto.updatePageDots = function() {
+	  this.pageDots.setDots();
+	};
+	
+	proto.deactivatePageDots = function() {
+	  this.pageDots.deactivate();
+	};
+	
+	// -----  ----- //
+	
+	Flickity.PageDots = PageDots;
+	
+	return Flickity;
+	
+	}));
+
+
+/***/ }),
+/* 403 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;// player & autoPlay
+	( function( window, factory ) {
+	  // universal module definition
+	  /* jshint strict: false */
+	  if ( true ) {
+	    // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [
+	      __webpack_require__(390),
+	      __webpack_require__(392),
+	      __webpack_require__(389)
+	    ], __WEBPACK_AMD_DEFINE_RESULT__ = function( EvEmitter, utils, Flickity ) {
+	      return factory( EvEmitter, utils, Flickity );
+	    }.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+	  } else if ( typeof module == 'object' && module.exports ) {
+	    // CommonJS
+	    module.exports = factory(
+	      require('ev-emitter'),
+	      require('fizzy-ui-utils'),
+	      require('./flickity')
+	    );
+	  } else {
+	    // browser global
+	    factory(
+	      window.EvEmitter,
+	      window.fizzyUIUtils,
+	      window.Flickity
+	    );
+	  }
+	
+	}( window, function factory( EvEmitter, utils, Flickity ) {
+	
+	'use strict';
+	
+	// -------------------------- Page Visibility -------------------------- //
+	// https://developer.mozilla.org/en-US/docs/Web/Guide/User_experience/Using_the_Page_Visibility_API
+	
+	var hiddenProperty, visibilityEvent;
+	if ( 'hidden' in document ) {
+	  hiddenProperty = 'hidden';
+	  visibilityEvent = 'visibilitychange';
+	} else if ( 'webkitHidden' in document ) {
+	  hiddenProperty = 'webkitHidden';
+	  visibilityEvent = 'webkitvisibilitychange';
+	}
+	
+	// -------------------------- Player -------------------------- //
+	
+	function Player( parent ) {
+	  this.parent = parent;
+	  this.state = 'stopped';
+	  // visibility change event handler
+	  if ( visibilityEvent ) {
+	    this.onVisibilityChange = function() {
+	      this.visibilityChange();
+	    }.bind( this );
+	    this.onVisibilityPlay = function() {
+	      this.visibilityPlay();
+	    }.bind( this );
+	  }
+	}
+	
+	Player.prototype = Object.create( EvEmitter.prototype );
+	
+	// start play
+	Player.prototype.play = function() {
+	  if ( this.state == 'playing' ) {
+	    return;
+	  }
+	  // do not play if page is hidden, start playing when page is visible
+	  var isPageHidden = document[ hiddenProperty ];
+	  if ( visibilityEvent && isPageHidden ) {
+	    document.addEventListener( visibilityEvent, this.onVisibilityPlay );
+	    return;
+	  }
+	
+	  this.state = 'playing';
+	  // listen to visibility change
+	  if ( visibilityEvent ) {
+	    document.addEventListener( visibilityEvent, this.onVisibilityChange );
+	  }
+	  // start ticking
+	  this.tick();
+	};
+	
+	Player.prototype.tick = function() {
+	  // do not tick if not playing
+	  if ( this.state != 'playing' ) {
+	    return;
+	  }
+	
+	  var time = this.parent.options.autoPlay;
+	  // default to 3 seconds
+	  time = typeof time == 'number' ? time : 3000;
+	  var _this = this;
+	  // HACK: reset ticks if stopped and started within interval
+	  this.clear();
+	  this.timeout = setTimeout( function() {
+	    _this.parent.next( true );
+	    _this.tick();
+	  }, time );
+	};
+	
+	Player.prototype.stop = function() {
+	  this.state = 'stopped';
+	  this.clear();
+	  // remove visibility change event
+	  if ( visibilityEvent ) {
+	    document.removeEventListener( visibilityEvent, this.onVisibilityChange );
+	  }
+	};
+	
+	Player.prototype.clear = function() {
+	  clearTimeout( this.timeout );
+	};
+	
+	Player.prototype.pause = function() {
+	  if ( this.state == 'playing' ) {
+	    this.state = 'paused';
+	    this.clear();
+	  }
+	};
+	
+	Player.prototype.unpause = function() {
+	  // re-start play if paused
+	  if ( this.state == 'paused' ) {
+	    this.play();
+	  }
+	};
+	
+	// pause if page visibility is hidden, unpause if visible
+	Player.prototype.visibilityChange = function() {
+	  var isPageHidden = document[ hiddenProperty ];
+	  this[ isPageHidden ? 'pause' : 'unpause' ]();
+	};
+	
+	Player.prototype.visibilityPlay = function() {
+	  this.play();
+	  document.removeEventListener( visibilityEvent, this.onVisibilityPlay );
+	};
+	
+	// -------------------------- Flickity -------------------------- //
+	
+	utils.extend( Flickity.defaults, {
+	  pauseAutoPlayOnHover: true
+	});
+	
+	Flickity.createMethods.push('_createPlayer');
+	var proto = Flickity.prototype;
+	
+	proto._createPlayer = function() {
+	  this.player = new Player( this );
+	
+	  this.on( 'activate', this.activatePlayer );
+	  this.on( 'uiChange', this.stopPlayer );
+	  this.on( 'pointerDown', this.stopPlayer );
+	  this.on( 'deactivate', this.deactivatePlayer );
+	};
+	
+	proto.activatePlayer = function() {
+	  if ( !this.options.autoPlay ) {
+	    return;
+	  }
+	  this.player.play();
+	  this.element.addEventListener( 'mouseenter', this );
+	};
+	
+	// Player API, don't hate the ... thanks I know where the door is
+	
+	proto.playPlayer = function() {
+	  this.player.play();
+	};
+	
+	proto.stopPlayer = function() {
+	  this.player.stop();
+	};
+	
+	proto.pausePlayer = function() {
+	  this.player.pause();
+	};
+	
+	proto.unpausePlayer = function() {
+	  this.player.unpause();
+	};
+	
+	proto.deactivatePlayer = function() {
+	  this.player.stop();
+	  this.element.removeEventListener( 'mouseenter', this );
+	};
+	
+	// ----- mouseenter/leave ----- //
+	
+	// pause auto-play on hover
+	proto.onmouseenter = function() {
+	  if ( !this.options.pauseAutoPlayOnHover ) {
+	    return;
+	  }
+	  this.player.pause();
+	  this.element.addEventListener( 'mouseleave', this );
+	};
+	
+	// resume auto-play on hover off
+	proto.onmouseleave = function() {
+	  this.player.unpause();
+	  this.element.removeEventListener( 'mouseleave', this );
+	};
+	
+	// -----  ----- //
+	
+	Flickity.Player = Player;
+	
+	return Flickity;
+	
+	}));
+
+
+/***/ }),
+/* 404 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;// add, remove cell
+	( function( window, factory ) {
+	  // universal module definition
+	  /* jshint strict: false */
+	  if ( true ) {
+	    // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [
+	      __webpack_require__(389),
+	      __webpack_require__(392)
+	    ], __WEBPACK_AMD_DEFINE_RESULT__ = function( Flickity, utils ) {
+	      return factory( window, Flickity, utils );
+	    }.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+	  } else if ( typeof module == 'object' && module.exports ) {
+	    // CommonJS
+	    module.exports = factory(
+	      window,
+	      require('./flickity'),
+	      require('fizzy-ui-utils')
+	    );
+	  } else {
+	    // browser global
+	    factory(
+	      window,
+	      window.Flickity,
+	      window.fizzyUIUtils
+	    );
+	  }
+	
+	}( window, function factory( window, Flickity, utils ) {
+	
+	'use strict';
+	
+	// append cells to a document fragment
+	function getCellsFragment( cells ) {
+	  var fragment = document.createDocumentFragment();
+	  cells.forEach( function( cell ) {
+	    fragment.appendChild( cell.element );
+	  });
+	  return fragment;
+	}
+	
+	// -------------------------- add/remove cell prototype -------------------------- //
+	
+	var proto = Flickity.prototype;
+	
+	/**
+	 * Insert, prepend, or append cells
+	 * @param {Element, Array, NodeList} elems
+	 * @param {Integer} index
+	 */
+	proto.insert = function( elems, index ) {
+	  var cells = this._makeCells( elems );
+	  if ( !cells || !cells.length ) {
+	    return;
+	  }
+	  var len = this.cells.length;
+	  // default to append
+	  index = index === undefined ? len : index;
+	  // add cells with document fragment
+	  var fragment = getCellsFragment( cells );
+	  // append to slider
+	  var isAppend = index == len;
+	  if ( isAppend ) {
+	    this.slider.appendChild( fragment );
+	  } else {
+	    var insertCellElement = this.cells[ index ].element;
+	    this.slider.insertBefore( fragment, insertCellElement );
+	  }
+	  // add to this.cells
+	  if ( index === 0 ) {
+	    // prepend, add to start
+	    this.cells = cells.concat( this.cells );
+	  } else if ( isAppend ) {
+	    // append, add to end
+	    this.cells = this.cells.concat( cells );
+	  } else {
+	    // insert in this.cells
+	    var endCells = this.cells.splice( index, len - index );
+	    this.cells = this.cells.concat( cells ).concat( endCells );
+	  }
+	
+	  this._sizeCells( cells );
+	
+	  var selectedIndexDelta = index > this.selectedIndex ? 0 : cells.length;
+	  this._cellAddedRemoved( index, selectedIndexDelta );
+	};
+	
+	proto.append = function( elems ) {
+	  this.insert( elems, this.cells.length );
+	};
+	
+	proto.prepend = function( elems ) {
+	  this.insert( elems, 0 );
+	};
+	
+	/**
+	 * Remove cells
+	 * @param {Element, Array, NodeList} elems
+	 */
+	proto.remove = function( elems ) {
+	  var cells = this.getCells( elems );
+	  var selectedIndexDelta = 0;
+	  var len = cells.length;
+	  var i, cell;
+	  // calculate selectedIndexDelta, easier if done in seperate loop
+	  for ( i=0; i < len; i++ ) {
+	    cell = cells[i];
+	    var wasBefore = this.cells.indexOf( cell ) < this.selectedIndex;
+	    selectedIndexDelta -= wasBefore ? 1 : 0;
+	  }
+	
+	  for ( i=0; i < len; i++ ) {
+	    cell = cells[i];
+	    cell.remove();
+	    // remove item from collection
+	    utils.removeFrom( this.cells, cell );
+	  }
+	
+	  if ( cells.length ) {
+	    // update stuff
+	    this._cellAddedRemoved( 0, selectedIndexDelta );
+	  }
+	};
+	
+	// updates when cells are added or removed
+	proto._cellAddedRemoved = function( changedCellIndex, selectedIndexDelta ) {
+	  // TODO this math isn't perfect with grouped slides
+	  selectedIndexDelta = selectedIndexDelta || 0;
+	  this.selectedIndex += selectedIndexDelta;
+	  this.selectedIndex = Math.max( 0, Math.min( this.slides.length - 1, this.selectedIndex ) );
+	
+	  this.cellChange( changedCellIndex, true );
+	  // backwards compatibility
+	  this.emitEvent( 'cellAddedRemoved', [ changedCellIndex, selectedIndexDelta ] );
+	};
+	
+	/**
+	 * logic to be run after a cell's size changes
+	 * @param {Element} elem - cell's element
+	 */
+	proto.cellSizeChange = function( elem ) {
+	  var cell = this.getCell( elem );
+	  if ( !cell ) {
+	    return;
+	  }
+	  cell.getSize();
+	
+	  var index = this.cells.indexOf( cell );
+	  this.cellChange( index );
+	};
+	
+	/**
+	 * logic any time a cell is changed: added, removed, or size changed
+	 * @param {Integer} changedCellIndex - index of the changed cell, optional
+	 */
+	proto.cellChange = function( changedCellIndex, isPositioningSlider ) {
+	  var prevSlideableWidth = this.slideableWidth;
+	  this._positionCells( changedCellIndex );
+	  this._getWrapShiftCells();
+	  this.setGallerySize();
+	  this.emitEvent( 'cellChange', [ changedCellIndex ] );
+	  // position slider
+	  if ( this.options.freeScroll ) {
+	    // shift x by change in slideableWidth
+	    // TODO fix position shifts when prepending w/ freeScroll
+	    var deltaX = prevSlideableWidth - this.slideableWidth;
+	    this.x += deltaX * this.cellAlign;
+	    this.positionSlider();
+	  } else {
+	    // do not position slider after lazy load
+	    if ( isPositioningSlider ) {
+	      this.positionSliderAtSelected();
+	    }
+	    this.select( this.selectedIndex );
+	  }
+	};
+	
+	// -----  ----- //
+	
+	return Flickity;
+	
+	}));
+
+
+/***/ }),
+/* 405 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;// lazyload
+	( function( window, factory ) {
+	  // universal module definition
+	  /* jshint strict: false */
+	  if ( true ) {
+	    // AMD
+	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [
+	      __webpack_require__(389),
+	      __webpack_require__(392)
+	    ], __WEBPACK_AMD_DEFINE_RESULT__ = function( Flickity, utils ) {
+	      return factory( window, Flickity, utils );
+	    }.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
+	  } else if ( typeof module == 'object' && module.exports ) {
+	    // CommonJS
+	    module.exports = factory(
+	      window,
+	      require('./flickity'),
+	      require('fizzy-ui-utils')
+	    );
+	  } else {
+	    // browser global
+	    factory(
+	      window,
+	      window.Flickity,
+	      window.fizzyUIUtils
+	    );
+	  }
+	
+	}( window, function factory( window, Flickity, utils ) {
+	'use strict';
+	
+	Flickity.createMethods.push('_createLazyload');
+	var proto = Flickity.prototype;
+	
+	proto._createLazyload = function() {
+	  this.on( 'select', this.lazyLoad );
+	};
+	
+	proto.lazyLoad = function() {
+	  var lazyLoad = this.options.lazyLoad;
+	  if ( !lazyLoad ) {
+	    return;
+	  }
+	  // get adjacent cells, use lazyLoad option for adjacent count
+	  var adjCount = typeof lazyLoad == 'number' ? lazyLoad : 0;
+	  var cellElems = this.getAdjacentCellElements( adjCount );
+	  // get lazy images in those cells
+	  var lazyImages = [];
+	  cellElems.forEach( function( cellElem ) {
+	    var lazyCellImages = getCellLazyImages( cellElem );
+	    lazyImages = lazyImages.concat( lazyCellImages );
+	  });
+	  // load lazy images
+	  lazyImages.forEach( function( img ) {
+	    new LazyLoader( img, this );
+	  }, this );
+	};
+	
+	function getCellLazyImages( cellElem ) {
+	  // check if cell element is lazy image
+	  if ( cellElem.nodeName == 'IMG' &&
+	    cellElem.getAttribute('data-flickity-lazyload') ) {
+	    return [ cellElem ];
+	  }
+	  // select lazy images in cell
+	  var imgs = cellElem.querySelectorAll('img[data-flickity-lazyload]');
+	  return utils.makeArray( imgs );
+	}
+	
+	// -------------------------- LazyLoader -------------------------- //
+	
+	/**
+	 * class to handle loading images
+	 */
+	function LazyLoader( img, flickity ) {
+	  this.img = img;
+	  this.flickity = flickity;
+	  this.load();
+	}
+	
+	LazyLoader.prototype.handleEvent = utils.handleEvent;
+	
+	LazyLoader.prototype.load = function() {
+	  this.img.addEventListener( 'load', this );
+	  this.img.addEventListener( 'error', this );
+	  // load image
+	  this.img.src = this.img.getAttribute('data-flickity-lazyload');
+	  // remove attr
+	  this.img.removeAttribute('data-flickity-lazyload');
+	};
+	
+	LazyLoader.prototype.onload = function( event ) {
+	  this.complete( event, 'flickity-lazyloaded' );
+	};
+	
+	LazyLoader.prototype.onerror = function( event ) {
+	  this.complete( event, 'flickity-lazyerror' );
+	};
+	
+	LazyLoader.prototype.complete = function( event, className ) {
+	  // unbind events
+	  this.img.removeEventListener( 'load', this );
+	  this.img.removeEventListener( 'error', this );
+	
+	  var cell = this.flickity.getParentCell( this.img );
+	  var cellElem = cell && cell.element;
+	  this.flickity.cellSizeChange( cellElem );
+	
+	  this.img.classList.add( className );
+	  this.flickity.dispatchEvent( 'lazyLoad', event, cellElem );
+	};
+	
+	// -----  ----- //
+	
+	Flickity.LazyLoader = LazyLoader;
+	
+	return Flickity;
+	
+	}));
+
+
+/***/ }),
+/* 406 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -89854,7 +95865,7 @@
 	  value: true
 	});
 	
-	var _About = __webpack_require__(373);
+	var _About = __webpack_require__(407);
 	
 	Object.defineProperty(exports, 'About', {
 	  enumerable: true,
@@ -89872,7 +95883,7 @@
 	  }
 	});
 	
-	var _animated_switch = __webpack_require__(385);
+	var _animated_switch = __webpack_require__(419);
 	
 	Object.defineProperty(exports, 'AnimatedSwitch', {
 	  enumerable: true,
@@ -89884,7 +95895,7 @@
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 /***/ }),
-/* 373 */
+/* 407 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -89903,9 +95914,9 @@
 	
 	var _reactDom2 = _interopRequireDefault(_reactDom);
 	
-	var _gsap = __webpack_require__(374);
+	var _gsap = __webpack_require__(408);
 	
-	var _reactTransitionGroup = __webpack_require__(375);
+	var _reactTransitionGroup = __webpack_require__(409);
 	
 	var _reactTransitionGroup2 = _interopRequireDefault(_reactTransitionGroup);
 	
@@ -89939,15 +95950,15 @@
 	    key: 'componentWillEnter',
 	    value: function componentWillEnter(callback) {
 	      var el = this.container;
-	      var content = document.getElementsByClassName('aboutContainer');
-	      _gsap.TweenMax.fromTo(content, 0.3, { scale: .7 }, { scale: 1 });
-	      _gsap.TweenMax.fromTo(el, 0.3, { y: -1000, opacity: 0 }, { y: 0, opacity: 1, onComplete: callback });
+	      // const content = document.getElementsByClassName('aboutContainer');
+	      // TweenMax.fromTo(content, 0.3, {scale: .7}, {scale: 1});
+	      _gsap.TweenMax.fromTo(el, 0.3, { y: -1000, opacity: 0, height: '0vh' }, { y: 0, opacity: 1, height: '100vh', onComplete: callback });
 	    }
 	  }, {
 	    key: 'componentWillLeave',
 	    value: function componentWillLeave(callback) {
 	      var el = this.container;
-	      _gsap.TweenMax.fromTo(el, 0.3, { y: 0, opacity: 1 }, { y: -1000, opacity: 0, onComplete: callback });
+	      _gsap.TweenMax.fromTo(el, 0.3, { y: 0, opacity: 1, height: '100vh' }, { y: -1000, opacity: 0, height: '0vh', onComplete: callback });
 	    }
 	  }, {
 	    key: 'render',
@@ -90086,7 +96097,7 @@
 	exports.default = About;
 
 /***/ }),
-/* 374 */
+/* 408 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(global) {/*!
@@ -98017,12 +104028,12 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
 
 /***/ }),
-/* 375 */
+/* 409 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
-	var _CSSTransitionGroup = __webpack_require__(376);
+	var _CSSTransitionGroup = __webpack_require__(410);
 	
 	var _CSSTransitionGroup2 = _interopRequireDefault(_CSSTransitionGroup);
 	
@@ -98038,7 +104049,7 @@
 	};
 
 /***/ }),
-/* 376 */
+/* 410 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {'use strict';
@@ -98059,11 +104070,11 @@
 	
 	var _TransitionGroup2 = _interopRequireDefault(_TransitionGroup);
 	
-	var _CSSTransitionGroupChild = __webpack_require__(377);
+	var _CSSTransitionGroupChild = __webpack_require__(411);
 	
 	var _CSSTransitionGroupChild2 = _interopRequireDefault(_CSSTransitionGroupChild);
 	
-	var _PropTypes = __webpack_require__(384);
+	var _PropTypes = __webpack_require__(418);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
@@ -98138,7 +104149,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(8)))
 
 /***/ }),
-/* 377 */
+/* 411 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {'use strict';
@@ -98147,19 +104158,19 @@
 	
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 	
-	var _addClass = __webpack_require__(378);
+	var _addClass = __webpack_require__(412);
 	
 	var _addClass2 = _interopRequireDefault(_addClass);
 	
-	var _removeClass = __webpack_require__(380);
+	var _removeClass = __webpack_require__(414);
 	
 	var _removeClass2 = _interopRequireDefault(_removeClass);
 	
-	var _requestAnimationFrame = __webpack_require__(381);
+	var _requestAnimationFrame = __webpack_require__(415);
 	
 	var _requestAnimationFrame2 = _interopRequireDefault(_requestAnimationFrame);
 	
-	var _properties = __webpack_require__(383);
+	var _properties = __webpack_require__(417);
 	
 	var _react = __webpack_require__(6);
 	
@@ -98171,7 +104182,7 @@
 	
 	var _reactDom = __webpack_require__(42);
 	
-	var _PropTypes = __webpack_require__(384);
+	var _PropTypes = __webpack_require__(418);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
@@ -98373,7 +104384,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(8)))
 
 /***/ }),
-/* 378 */
+/* 412 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -98383,7 +104394,7 @@
 	});
 	exports.default = addClass;
 	
-	var _hasClass = __webpack_require__(379);
+	var _hasClass = __webpack_require__(413);
 	
 	var _hasClass2 = _interopRequireDefault(_hasClass);
 	
@@ -98395,7 +104406,7 @@
 	module.exports = exports['default'];
 
 /***/ }),
-/* 379 */
+/* 413 */
 /***/ (function(module, exports) {
 
 	"use strict";
@@ -98410,7 +104421,7 @@
 	module.exports = exports["default"];
 
 /***/ }),
-/* 380 */
+/* 414 */
 /***/ (function(module, exports) {
 
 	'use strict';
@@ -98420,7 +104431,7 @@
 	};
 
 /***/ }),
-/* 381 */
+/* 415 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -98429,7 +104440,7 @@
 	  value: true
 	});
 	
-	var _inDOM = __webpack_require__(382);
+	var _inDOM = __webpack_require__(416);
 	
 	var _inDOM2 = _interopRequireDefault(_inDOM);
 	
@@ -98478,7 +104489,7 @@
 	module.exports = exports['default'];
 
 /***/ }),
-/* 382 */
+/* 416 */
 /***/ (function(module, exports) {
 
 	'use strict';
@@ -98490,7 +104501,7 @@
 	module.exports = exports['default'];
 
 /***/ }),
-/* 383 */
+/* 417 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -98500,7 +104511,7 @@
 	});
 	exports.animationEnd = exports.animationDelay = exports.animationTiming = exports.animationDuration = exports.animationName = exports.transitionEnd = exports.transitionDuration = exports.transitionDelay = exports.transitionTiming = exports.transitionProperty = exports.transform = undefined;
 	
-	var _inDOM = __webpack_require__(382);
+	var _inDOM = __webpack_require__(416);
 	
 	var _inDOM2 = _interopRequireDefault(_inDOM);
 	
@@ -98605,7 +104616,7 @@
 	}
 
 /***/ }),
-/* 384 */
+/* 418 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -98659,7 +104670,7 @@
 	})]);
 
 /***/ }),
-/* 385 */
+/* 419 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -98680,11 +104691,11 @@
 	
 	var _reactRouterDom = __webpack_require__(189);
 	
-	var _reactDom = __webpack_require__(386);
+	var _reactDom = __webpack_require__(420);
 	
 	var Animated = _interopRequireWildcard(_reactDom);
 	
-	var _reactTransitionGroup = __webpack_require__(375);
+	var _reactTransitionGroup = __webpack_require__(409);
 	
 	var _reactTransitionGroup2 = _interopRequireDefault(_reactTransitionGroup);
 	
@@ -98779,7 +104790,7 @@
 	;
 
 /***/ }),
-/* 386 */
+/* 420 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	
@@ -98795,7 +104806,7 @@
 	'use strict';var _extends=Object.assign||function(target){for(var i=1;i<arguments.length;i++){var source=arguments[i];for(var key in source){if(Object.prototype.hasOwnProperty.call(source,key)){target[key]=source[key];}}}return target;};
 	
 	var CSSPropertyOperations=__webpack_require__(106);
-	var Animated=__webpack_require__(387);
+	var Animated=__webpack_require__(421);
 	
 	
 	function mapTransform(t){
@@ -98835,7 +104846,7 @@
 	img:Animated.createAnimatedComponent('img')});
 
 /***/ }),
-/* 387 */
+/* 421 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	
@@ -98850,22 +104861,22 @@
 	
 	'use strict';var _extends=Object.assign||function(target){for(var i=1;i<arguments.length;i++){var source=arguments[i];for(var key in source){if(Object.prototype.hasOwnProperty.call(source,key)){target[key]=source[key];}}}return target;};
 	
-	var invariant=__webpack_require__(388);
+	var invariant=__webpack_require__(422);
 	
-	var Animated=__webpack_require__(389);
-	var AnimatedValue=__webpack_require__(390);
-	var AnimatedValueXY=__webpack_require__(399);
-	var AnimatedAddition=__webpack_require__(400);
-	var AnimatedMultiplication=__webpack_require__(401);
-	var AnimatedModulo=__webpack_require__(402);
-	var AnimatedTemplate=__webpack_require__(403);
-	var AnimatedTracking=__webpack_require__(404);
-	var isAnimated=__webpack_require__(405);
+	var Animated=__webpack_require__(423);
+	var AnimatedValue=__webpack_require__(424);
+	var AnimatedValueXY=__webpack_require__(433);
+	var AnimatedAddition=__webpack_require__(434);
+	var AnimatedMultiplication=__webpack_require__(435);
+	var AnimatedModulo=__webpack_require__(436);
+	var AnimatedTemplate=__webpack_require__(437);
+	var AnimatedTracking=__webpack_require__(438);
+	var isAnimated=__webpack_require__(439);
 	
-	var Animation=__webpack_require__(397);
-	var TimingAnimation=__webpack_require__(406);
-	var DecayAnimation=__webpack_require__(411);
-	var SpringAnimation=__webpack_require__(412);
+	var Animation=__webpack_require__(431);
+	var TimingAnimation=__webpack_require__(440);
+	var DecayAnimation=__webpack_require__(445);
+	var SpringAnimation=__webpack_require__(446);
 	
 	
 	
@@ -99339,20 +105350,20 @@
 	
 	
 	
-	createAnimatedComponent:__webpack_require__(414),
+	createAnimatedComponent:__webpack_require__(448),
 	
 	inject:{
-	ApplyAnimatedValues:__webpack_require__(419).inject,
-	InteractionManager:__webpack_require__(392).inject,
-	FlattenStyle:__webpack_require__(418).inject,
-	RequestAnimationFrame:__webpack_require__(409).inject,
-	CancelAnimationFrame:__webpack_require__(410).inject},
+	ApplyAnimatedValues:__webpack_require__(453).inject,
+	InteractionManager:__webpack_require__(426).inject,
+	FlattenStyle:__webpack_require__(452).inject,
+	RequestAnimationFrame:__webpack_require__(443).inject,
+	CancelAnimationFrame:__webpack_require__(444).inject},
 	
 	
-	__PropsOnlyForTests:__webpack_require__(415)};
+	__PropsOnlyForTests:__webpack_require__(449)};
 
 /***/ }),
-/* 388 */
+/* 422 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -99410,7 +105421,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(8)))
 
 /***/ }),
-/* 389 */
+/* 423 */
 /***/ (function(module, exports) {
 
 	
@@ -99440,7 +105451,7 @@
 	module.exports=Animated;
 
 /***/ }),
-/* 390 */
+/* 424 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(global) {
@@ -99455,13 +105466,13 @@
 	
 	'use strict';var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||false;descriptor.configurable=true;if("value"in descriptor)descriptor.writable=true;Object.defineProperty(target,descriptor.key,descriptor);}}return function(Constructor,protoProps,staticProps){if(protoProps)defineProperties(Constructor.prototype,protoProps);if(staticProps)defineProperties(Constructor,staticProps);return Constructor;};}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor)){throw new TypeError("Cannot call a class as a function");}}function _possibleConstructorReturn(self,call){if(!self){throw new ReferenceError("this hasn't been initialised - super() hasn't been called");}return call&&(typeof call==="object"||typeof call==="function")?call:self;}function _inherits(subClass,superClass){if(typeof superClass!=="function"&&superClass!==null){throw new TypeError("Super expression must either be null or a function, not "+typeof superClass);}subClass.prototype=Object.create(superClass&&superClass.prototype,{constructor:{value:subClass,enumerable:false,writable:true,configurable:true}});if(superClass)Object.setPrototypeOf?Object.setPrototypeOf(subClass,superClass):subClass.__proto__=superClass;}
 	
-	var AnimatedWithChildren=__webpack_require__(391);
-	var InteractionManager=__webpack_require__(392);
-	var AnimatedInterpolation=__webpack_require__(393);
-	var Interpolation=__webpack_require__(394);
-	var Animation=__webpack_require__(397);
-	var guid=__webpack_require__(396);
-	var Set=global.Set||__webpack_require__(398);
+	var AnimatedWithChildren=__webpack_require__(425);
+	var InteractionManager=__webpack_require__(426);
+	var AnimatedInterpolation=__webpack_require__(427);
+	var Interpolation=__webpack_require__(428);
+	var Animation=__webpack_require__(431);
+	var guid=__webpack_require__(430);
+	var Set=global.Set||__webpack_require__(432);
 	
 	
 	
@@ -99658,7 +105669,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
 
 /***/ }),
-/* 391 */
+/* 425 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	
@@ -99673,7 +105684,7 @@
 	
 	'use strict';var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||false;descriptor.configurable=true;if("value"in descriptor)descriptor.writable=true;Object.defineProperty(target,descriptor.key,descriptor);}}return function(Constructor,protoProps,staticProps){if(protoProps)defineProperties(Constructor.prototype,protoProps);if(staticProps)defineProperties(Constructor,staticProps);return Constructor;};}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor)){throw new TypeError("Cannot call a class as a function");}}function _possibleConstructorReturn(self,call){if(!self){throw new ReferenceError("this hasn't been initialised - super() hasn't been called");}return call&&(typeof call==="object"||typeof call==="function")?call:self;}function _inherits(subClass,superClass){if(typeof superClass!=="function"&&superClass!==null){throw new TypeError("Super expression must either be null or a function, not "+typeof superClass);}subClass.prototype=Object.create(superClass&&superClass.prototype,{constructor:{value:subClass,enumerable:false,writable:true,configurable:true}});if(superClass)Object.setPrototypeOf?Object.setPrototypeOf(subClass,superClass):subClass.__proto__=superClass;}
 	
-	var Animated=__webpack_require__(389);var
+	var Animated=__webpack_require__(423);var
 	
 	AnimatedWithChildren=function(_Animated){_inherits(AnimatedWithChildren,_Animated);
 	
@@ -99710,7 +105721,7 @@
 	module.exports=AnimatedWithChildren;
 
 /***/ }),
-/* 392 */
+/* 426 */
 /***/ (function(module, exports) {
 
 	
@@ -99738,7 +105749,7 @@
 	module.exports=InteractionManager;
 
 /***/ }),
-/* 393 */
+/* 427 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	
@@ -99753,11 +105764,11 @@
 	
 	'use strict';var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||false;descriptor.configurable=true;if("value"in descriptor)descriptor.writable=true;Object.defineProperty(target,descriptor.key,descriptor);}}return function(Constructor,protoProps,staticProps){if(protoProps)defineProperties(Constructor.prototype,protoProps);if(staticProps)defineProperties(Constructor,staticProps);return Constructor;};}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor)){throw new TypeError("Cannot call a class as a function");}}function _possibleConstructorReturn(self,call){if(!self){throw new ReferenceError("this hasn't been initialised - super() hasn't been called");}return call&&(typeof call==="object"||typeof call==="function")?call:self;}function _inherits(subClass,superClass){if(typeof superClass!=="function"&&superClass!==null){throw new TypeError("Super expression must either be null or a function, not "+typeof superClass);}subClass.prototype=Object.create(superClass&&superClass.prototype,{constructor:{value:subClass,enumerable:false,writable:true,configurable:true}});if(superClass)Object.setPrototypeOf?Object.setPrototypeOf(subClass,superClass):subClass.__proto__=superClass;}
 	
-	var Animated=__webpack_require__(389);
-	var AnimatedWithChildren=__webpack_require__(391);
-	var invariant=__webpack_require__(388);
-	var Interpolation=__webpack_require__(394);
-	var guid=__webpack_require__(396);var
+	var Animated=__webpack_require__(423);
+	var AnimatedWithChildren=__webpack_require__(425);
+	var invariant=__webpack_require__(422);
+	var Interpolation=__webpack_require__(428);
+	var guid=__webpack_require__(430);var
 	
 	
 	
@@ -99817,7 +105828,7 @@
 	module.exports=AnimatedInterpolation;
 
 /***/ }),
-/* 394 */
+/* 428 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	
@@ -99833,9 +105844,9 @@
 	
 	'use strict';var _extends=Object.assign||function(target){for(var i=1;i<arguments.length;i++){var source=arguments[i];for(var key in source){if(Object.prototype.hasOwnProperty.call(source,key)){target[key]=source[key];}}}return target;};var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||false;descriptor.configurable=true;if("value"in descriptor)descriptor.writable=true;Object.defineProperty(target,descriptor.key,descriptor);}}return function(Constructor,protoProps,staticProps){if(protoProps)defineProperties(Constructor.prototype,protoProps);if(staticProps)defineProperties(Constructor,staticProps);return Constructor;};}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor)){throw new TypeError("Cannot call a class as a function");}}
 	
-	var normalizeColor=__webpack_require__(395);
+	var normalizeColor=__webpack_require__(429);
 	
-	var invariant=__webpack_require__(388);
+	var invariant=__webpack_require__(422);
 	
 	
 	
@@ -100112,7 +106123,7 @@
 	module.exports=Interpolation;
 
 /***/ }),
-/* 395 */
+/* 429 */
 /***/ (function(module, exports) {
 
 	/*
@@ -100481,7 +106492,7 @@
 
 
 /***/ }),
-/* 396 */
+/* 430 */
 /***/ (function(module, exports) {
 
 	
@@ -100503,7 +106514,7 @@
 	};
 
 /***/ }),
-/* 397 */
+/* 431 */
 /***/ (function(module, exports) {
 
 	
@@ -100549,7 +106560,7 @@
 	module.exports=Animation;
 
 /***/ }),
-/* 398 */
+/* 432 */
 /***/ (function(module, exports) {
 
 	
@@ -100580,7 +106591,7 @@
 	module.exports=SetPolyfill;
 
 /***/ }),
-/* 399 */
+/* 433 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	
@@ -100595,11 +106606,11 @@
 	
 	'use strict';var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||false;descriptor.configurable=true;if("value"in descriptor)descriptor.writable=true;Object.defineProperty(target,descriptor.key,descriptor);}}return function(Constructor,protoProps,staticProps){if(protoProps)defineProperties(Constructor.prototype,protoProps);if(staticProps)defineProperties(Constructor,staticProps);return Constructor;};}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor)){throw new TypeError("Cannot call a class as a function");}}function _possibleConstructorReturn(self,call){if(!self){throw new ReferenceError("this hasn't been initialised - super() hasn't been called");}return call&&(typeof call==="object"||typeof call==="function")?call:self;}function _inherits(subClass,superClass){if(typeof superClass!=="function"&&superClass!==null){throw new TypeError("Super expression must either be null or a function, not "+typeof superClass);}subClass.prototype=Object.create(superClass&&superClass.prototype,{constructor:{value:subClass,enumerable:false,writable:true,configurable:true}});if(superClass)Object.setPrototypeOf?Object.setPrototypeOf(subClass,superClass):subClass.__proto__=superClass;}
 	
-	var Animated=__webpack_require__(389);
-	var AnimatedValue=__webpack_require__(390);
-	var AnimatedWithChildren=__webpack_require__(391);
-	var invariant=__webpack_require__(388);
-	var guid=__webpack_require__(396);var
+	var Animated=__webpack_require__(423);
+	var AnimatedValue=__webpack_require__(424);
+	var AnimatedWithChildren=__webpack_require__(425);
+	var invariant=__webpack_require__(422);
+	var guid=__webpack_require__(430);var
 	
 	
 	
@@ -100745,7 +106756,7 @@
 	module.exports=AnimatedValueXY;
 
 /***/ }),
-/* 400 */
+/* 434 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	
@@ -100760,11 +106771,11 @@
 	
 	'use strict';var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||false;descriptor.configurable=true;if("value"in descriptor)descriptor.writable=true;Object.defineProperty(target,descriptor.key,descriptor);}}return function(Constructor,protoProps,staticProps){if(protoProps)defineProperties(Constructor.prototype,protoProps);if(staticProps)defineProperties(Constructor,staticProps);return Constructor;};}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor)){throw new TypeError("Cannot call a class as a function");}}function _possibleConstructorReturn(self,call){if(!self){throw new ReferenceError("this hasn't been initialised - super() hasn't been called");}return call&&(typeof call==="object"||typeof call==="function")?call:self;}function _inherits(subClass,superClass){if(typeof superClass!=="function"&&superClass!==null){throw new TypeError("Super expression must either be null or a function, not "+typeof superClass);}subClass.prototype=Object.create(superClass&&superClass.prototype,{constructor:{value:subClass,enumerable:false,writable:true,configurable:true}});if(superClass)Object.setPrototypeOf?Object.setPrototypeOf(subClass,superClass):subClass.__proto__=superClass;}
 	
-	var AnimatedWithChildren=__webpack_require__(391);
-	var Animated=__webpack_require__(389);
-	var AnimatedValue=__webpack_require__(390);
-	var Interpolation=__webpack_require__(394);
-	var AnimatedInterpolation=__webpack_require__(393);var
+	var AnimatedWithChildren=__webpack_require__(425);
+	var Animated=__webpack_require__(423);
+	var AnimatedValue=__webpack_require__(424);
+	var Interpolation=__webpack_require__(428);
+	var AnimatedInterpolation=__webpack_require__(427);var
 	
 	
 	
@@ -100828,7 +106839,7 @@
 	module.exports=AnimatedAddition;
 
 /***/ }),
-/* 401 */
+/* 435 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	
@@ -100843,11 +106854,11 @@
 	
 	'use strict';var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||false;descriptor.configurable=true;if("value"in descriptor)descriptor.writable=true;Object.defineProperty(target,descriptor.key,descriptor);}}return function(Constructor,protoProps,staticProps){if(protoProps)defineProperties(Constructor.prototype,protoProps);if(staticProps)defineProperties(Constructor,staticProps);return Constructor;};}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor)){throw new TypeError("Cannot call a class as a function");}}function _possibleConstructorReturn(self,call){if(!self){throw new ReferenceError("this hasn't been initialised - super() hasn't been called");}return call&&(typeof call==="object"||typeof call==="function")?call:self;}function _inherits(subClass,superClass){if(typeof superClass!=="function"&&superClass!==null){throw new TypeError("Super expression must either be null or a function, not "+typeof superClass);}subClass.prototype=Object.create(superClass&&superClass.prototype,{constructor:{value:subClass,enumerable:false,writable:true,configurable:true}});if(superClass)Object.setPrototypeOf?Object.setPrototypeOf(subClass,superClass):subClass.__proto__=superClass;}
 	
-	var AnimatedWithChildren=__webpack_require__(391);
-	var Animated=__webpack_require__(389);
-	var AnimatedValue=__webpack_require__(390);
-	var AnimatedInterpolation=__webpack_require__(393);
-	var Interpolation=__webpack_require__(394);var
+	var AnimatedWithChildren=__webpack_require__(425);
+	var Animated=__webpack_require__(423);
+	var AnimatedValue=__webpack_require__(424);
+	var AnimatedInterpolation=__webpack_require__(427);
+	var Interpolation=__webpack_require__(428);var
 	
 	
 	
@@ -100911,7 +106922,7 @@
 	module.exports=AnimatedMultiplication;
 
 /***/ }),
-/* 402 */
+/* 436 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	
@@ -100926,10 +106937,10 @@
 	
 	'use strict';var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||false;descriptor.configurable=true;if("value"in descriptor)descriptor.writable=true;Object.defineProperty(target,descriptor.key,descriptor);}}return function(Constructor,protoProps,staticProps){if(protoProps)defineProperties(Constructor.prototype,protoProps);if(staticProps)defineProperties(Constructor,staticProps);return Constructor;};}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor)){throw new TypeError("Cannot call a class as a function");}}function _possibleConstructorReturn(self,call){if(!self){throw new ReferenceError("this hasn't been initialised - super() hasn't been called");}return call&&(typeof call==="object"||typeof call==="function")?call:self;}function _inherits(subClass,superClass){if(typeof superClass!=="function"&&superClass!==null){throw new TypeError("Super expression must either be null or a function, not "+typeof superClass);}subClass.prototype=Object.create(superClass&&superClass.prototype,{constructor:{value:subClass,enumerable:false,writable:true,configurable:true}});if(superClass)Object.setPrototypeOf?Object.setPrototypeOf(subClass,superClass):subClass.__proto__=superClass;}
 	
-	var Animated=__webpack_require__(389);
-	var AnimatedWithChildren=__webpack_require__(391);
-	var AnimatedInterpolation=__webpack_require__(393);
-	var Interpolation=__webpack_require__(394);var
+	var Animated=__webpack_require__(423);
+	var AnimatedWithChildren=__webpack_require__(425);
+	var AnimatedInterpolation=__webpack_require__(427);
+	var Interpolation=__webpack_require__(428);var
 	
 	
 	
@@ -100983,7 +106994,7 @@
 	module.exports=AnimatedModulo;
 
 /***/ }),
-/* 403 */
+/* 437 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	
@@ -100998,8 +107009,8 @@
 	
 	'use strict';var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||false;descriptor.configurable=true;if("value"in descriptor)descriptor.writable=true;Object.defineProperty(target,descriptor.key,descriptor);}}return function(Constructor,protoProps,staticProps){if(protoProps)defineProperties(Constructor.prototype,protoProps);if(staticProps)defineProperties(Constructor,staticProps);return Constructor;};}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor)){throw new TypeError("Cannot call a class as a function");}}function _possibleConstructorReturn(self,call){if(!self){throw new ReferenceError("this hasn't been initialised - super() hasn't been called");}return call&&(typeof call==="object"||typeof call==="function")?call:self;}function _inherits(subClass,superClass){if(typeof superClass!=="function"&&superClass!==null){throw new TypeError("Super expression must either be null or a function, not "+typeof superClass);}subClass.prototype=Object.create(superClass&&superClass.prototype,{constructor:{value:subClass,enumerable:false,writable:true,configurable:true}});if(superClass)Object.setPrototypeOf?Object.setPrototypeOf(subClass,superClass):subClass.__proto__=superClass;}
 	
-	var Animated=__webpack_require__(389);
-	var AnimatedWithChildren=__webpack_require__(391);var
+	var Animated=__webpack_require__(423);
+	var AnimatedWithChildren=__webpack_require__(425);var
 	
 	AnimatedTemplate=function(_AnimatedWithChildren){_inherits(AnimatedTemplate,_AnimatedWithChildren);
 	
@@ -101047,7 +107058,7 @@
 	module.exports=AnimatedTemplate;
 
 /***/ }),
-/* 404 */
+/* 438 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	
@@ -101062,8 +107073,8 @@
 	
 	'use strict';var _extends=Object.assign||function(target){for(var i=1;i<arguments.length;i++){var source=arguments[i];for(var key in source){if(Object.prototype.hasOwnProperty.call(source,key)){target[key]=source[key];}}}return target;};var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||false;descriptor.configurable=true;if("value"in descriptor)descriptor.writable=true;Object.defineProperty(target,descriptor.key,descriptor);}}return function(Constructor,protoProps,staticProps){if(protoProps)defineProperties(Constructor.prototype,protoProps);if(staticProps)defineProperties(Constructor,staticProps);return Constructor;};}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor)){throw new TypeError("Cannot call a class as a function");}}function _possibleConstructorReturn(self,call){if(!self){throw new ReferenceError("this hasn't been initialised - super() hasn't been called");}return call&&(typeof call==="object"||typeof call==="function")?call:self;}function _inherits(subClass,superClass){if(typeof superClass!=="function"&&superClass!==null){throw new TypeError("Super expression must either be null or a function, not "+typeof superClass);}subClass.prototype=Object.create(superClass&&superClass.prototype,{constructor:{value:subClass,enumerable:false,writable:true,configurable:true}});if(superClass)Object.setPrototypeOf?Object.setPrototypeOf(subClass,superClass):subClass.__proto__=superClass;}
 	
-	var Animated=__webpack_require__(389);
-	var AnimatedValue=__webpack_require__(390);var
+	var Animated=__webpack_require__(423);
+	var AnimatedValue=__webpack_require__(424);var
 	
 	
 	
@@ -101113,7 +107124,7 @@
 	module.exports=AnimatedTracking;
 
 /***/ }),
-/* 405 */
+/* 439 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	
@@ -101128,7 +107139,7 @@
 	
 	'use strict';
 	
-	var Animated=__webpack_require__(389);
+	var Animated=__webpack_require__(423);
 	
 	function isAnimated(obj){
 	return obj instanceof Animated;
@@ -101137,7 +107148,7 @@
 	module.exports=isAnimated;
 
 /***/ }),
-/* 406 */
+/* 440 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	
@@ -101152,11 +107163,11 @@
 	
 	'use strict';var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||false;descriptor.configurable=true;if("value"in descriptor)descriptor.writable=true;Object.defineProperty(target,descriptor.key,descriptor);}}return function(Constructor,protoProps,staticProps){if(protoProps)defineProperties(Constructor.prototype,protoProps);if(staticProps)defineProperties(Constructor,staticProps);return Constructor;};}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor)){throw new TypeError("Cannot call a class as a function");}}function _possibleConstructorReturn(self,call){if(!self){throw new ReferenceError("this hasn't been initialised - super() hasn't been called");}return call&&(typeof call==="object"||typeof call==="function")?call:self;}function _inherits(subClass,superClass){if(typeof superClass!=="function"&&superClass!==null){throw new TypeError("Super expression must either be null or a function, not "+typeof superClass);}subClass.prototype=Object.create(superClass&&superClass.prototype,{constructor:{value:subClass,enumerable:false,writable:true,configurable:true}});if(superClass)Object.setPrototypeOf?Object.setPrototypeOf(subClass,superClass):subClass.__proto__=superClass;}
 	
-	var Animation=__webpack_require__(397);
-	var AnimatedValue=__webpack_require__(390);
-	var Easing=__webpack_require__(407);
-	var RequestAnimationFrame=__webpack_require__(409);
-	var CancelAnimationFrame=__webpack_require__(410);
+	var Animation=__webpack_require__(431);
+	var AnimatedValue=__webpack_require__(424);
+	var Easing=__webpack_require__(441);
+	var RequestAnimationFrame=__webpack_require__(443);
+	var CancelAnimationFrame=__webpack_require__(444);
 	
 	
 	
@@ -101252,7 +107263,7 @@
 	module.exports=TimingAnimation;
 
 /***/ }),
-/* 407 */
+/* 441 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	
@@ -101267,7 +107278,7 @@
 	
 	'use strict';var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||false;descriptor.configurable=true;if("value"in descriptor)descriptor.writable=true;Object.defineProperty(target,descriptor.key,descriptor);}}return function(Constructor,protoProps,staticProps){if(protoProps)defineProperties(Constructor.prototype,protoProps);if(staticProps)defineProperties(Constructor,staticProps);return Constructor;};}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor)){throw new TypeError("Cannot call a class as a function");}}
 	
-	var _bezier=__webpack_require__(408);var
+	var _bezier=__webpack_require__(442);var
 	
 	
 	
@@ -101402,7 +107413,7 @@
 	module.exports=Easing;
 
 /***/ }),
-/* 408 */
+/* 442 */
 /***/ (function(module, exports) {
 
 	
@@ -101512,7 +107523,7 @@
 	};
 
 /***/ }),
-/* 409 */
+/* 443 */
 /***/ (function(module, exports) {
 
 	/* WEBPACK VAR INJECTION */(function(global) {
@@ -101538,7 +107549,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
 
 /***/ }),
-/* 410 */
+/* 444 */
 /***/ (function(module, exports) {
 
 	/* WEBPACK VAR INJECTION */(function(global) {
@@ -101564,7 +107575,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
 
 /***/ }),
-/* 411 */
+/* 445 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	
@@ -101579,9 +107590,9 @@
 	
 	'use strict';var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||false;descriptor.configurable=true;if("value"in descriptor)descriptor.writable=true;Object.defineProperty(target,descriptor.key,descriptor);}}return function(Constructor,protoProps,staticProps){if(protoProps)defineProperties(Constructor.prototype,protoProps);if(staticProps)defineProperties(Constructor,staticProps);return Constructor;};}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor)){throw new TypeError("Cannot call a class as a function");}}function _possibleConstructorReturn(self,call){if(!self){throw new ReferenceError("this hasn't been initialised - super() hasn't been called");}return call&&(typeof call==="object"||typeof call==="function")?call:self;}function _inherits(subClass,superClass){if(typeof superClass!=="function"&&superClass!==null){throw new TypeError("Super expression must either be null or a function, not "+typeof superClass);}subClass.prototype=Object.create(superClass&&superClass.prototype,{constructor:{value:subClass,enumerable:false,writable:true,configurable:true}});if(superClass)Object.setPrototypeOf?Object.setPrototypeOf(subClass,superClass):subClass.__proto__=superClass;}
 	
-	var Animation=__webpack_require__(397);
-	var RequestAnimationFrame=__webpack_require__(409);
-	var CancelAnimationFrame=__webpack_require__(410);var
+	var Animation=__webpack_require__(431);
+	var RequestAnimationFrame=__webpack_require__(443);
+	var CancelAnimationFrame=__webpack_require__(444);var
 	
 	
 	
@@ -101652,7 +107663,7 @@
 	module.exports=DecayAnimation;
 
 /***/ }),
-/* 412 */
+/* 446 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	
@@ -101667,12 +107678,12 @@
 	
 	'use strict';var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||false;descriptor.configurable=true;if("value"in descriptor)descriptor.writable=true;Object.defineProperty(target,descriptor.key,descriptor);}}return function(Constructor,protoProps,staticProps){if(protoProps)defineProperties(Constructor.prototype,protoProps);if(staticProps)defineProperties(Constructor,staticProps);return Constructor;};}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor)){throw new TypeError("Cannot call a class as a function");}}function _possibleConstructorReturn(self,call){if(!self){throw new ReferenceError("this hasn't been initialised - super() hasn't been called");}return call&&(typeof call==="object"||typeof call==="function")?call:self;}function _inherits(subClass,superClass){if(typeof superClass!=="function"&&superClass!==null){throw new TypeError("Super expression must either be null or a function, not "+typeof superClass);}subClass.prototype=Object.create(superClass&&superClass.prototype,{constructor:{value:subClass,enumerable:false,writable:true,configurable:true}});if(superClass)Object.setPrototypeOf?Object.setPrototypeOf(subClass,superClass):subClass.__proto__=superClass;}
 	
-	var Animation=__webpack_require__(397);
-	var AnimatedValue=__webpack_require__(390);
-	var RequestAnimationFrame=__webpack_require__(409);
-	var CancelAnimationFrame=__webpack_require__(410);
-	var invariant=__webpack_require__(388);
-	var SpringConfig=__webpack_require__(413);
+	var Animation=__webpack_require__(431);
+	var AnimatedValue=__webpack_require__(424);
+	var RequestAnimationFrame=__webpack_require__(443);
+	var CancelAnimationFrame=__webpack_require__(444);
+	var invariant=__webpack_require__(422);
+	var SpringConfig=__webpack_require__(447);
 	
 	
 	
@@ -101881,7 +107892,7 @@
 	module.exports=SpringAnimation;
 
 /***/ }),
-/* 413 */
+/* 447 */
 /***/ (function(module, exports) {
 
 	
@@ -101986,7 +107997,7 @@
 	fromBouncinessAndSpeed:fromBouncinessAndSpeed};
 
 /***/ }),
-/* 414 */
+/* 448 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	
@@ -102002,8 +108013,8 @@
 	'use strict';var _extends=Object.assign||function(target){for(var i=1;i<arguments.length;i++){var source=arguments[i];for(var key in source){if(Object.prototype.hasOwnProperty.call(source,key)){target[key]=source[key];}}}return target;};var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||false;descriptor.configurable=true;if("value"in descriptor)descriptor.writable=true;Object.defineProperty(target,descriptor.key,descriptor);}}return function(Constructor,protoProps,staticProps){if(protoProps)defineProperties(Constructor.prototype,protoProps);if(staticProps)defineProperties(Constructor,staticProps);return Constructor;};}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor)){throw new TypeError("Cannot call a class as a function");}}function _possibleConstructorReturn(self,call){if(!self){throw new ReferenceError("this hasn't been initialised - super() hasn't been called");}return call&&(typeof call==="object"||typeof call==="function")?call:self;}function _inherits(subClass,superClass){if(typeof superClass!=="function"&&superClass!==null){throw new TypeError("Super expression must either be null or a function, not "+typeof superClass);}subClass.prototype=Object.create(superClass&&superClass.prototype,{constructor:{value:subClass,enumerable:false,writable:true,configurable:true}});if(superClass)Object.setPrototypeOf?Object.setPrototypeOf(subClass,superClass):subClass.__proto__=superClass;}
 	
 	var React=__webpack_require__(6);
-	var AnimatedProps=__webpack_require__(415);
-	var ApplyAnimatedValues=__webpack_require__(419);
+	var AnimatedProps=__webpack_require__(449);
+	var ApplyAnimatedValues=__webpack_require__(453);
 	
 	function createAnimatedComponent(Component){
 	var refName='node';var
@@ -102099,7 +108110,7 @@
 	module.exports=createAnimatedComponent;
 
 /***/ }),
-/* 415 */
+/* 449 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	
@@ -102114,8 +108125,8 @@
 	
 	'use strict';var _extends=Object.assign||function(target){for(var i=1;i<arguments.length;i++){var source=arguments[i];for(var key in source){if(Object.prototype.hasOwnProperty.call(source,key)){target[key]=source[key];}}}return target;};var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||false;descriptor.configurable=true;if("value"in descriptor)descriptor.writable=true;Object.defineProperty(target,descriptor.key,descriptor);}}return function(Constructor,protoProps,staticProps){if(protoProps)defineProperties(Constructor.prototype,protoProps);if(staticProps)defineProperties(Constructor,staticProps);return Constructor;};}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor)){throw new TypeError("Cannot call a class as a function");}}function _possibleConstructorReturn(self,call){if(!self){throw new ReferenceError("this hasn't been initialised - super() hasn't been called");}return call&&(typeof call==="object"||typeof call==="function")?call:self;}function _inherits(subClass,superClass){if(typeof superClass!=="function"&&superClass!==null){throw new TypeError("Super expression must either be null or a function, not "+typeof superClass);}subClass.prototype=Object.create(superClass&&superClass.prototype,{constructor:{value:subClass,enumerable:false,writable:true,configurable:true}});if(superClass)Object.setPrototypeOf?Object.setPrototypeOf(subClass,superClass):subClass.__proto__=superClass;}
 	
-	var Animated=__webpack_require__(389);
-	var AnimatedStyle=__webpack_require__(416);var
+	var Animated=__webpack_require__(423);
+	var AnimatedStyle=__webpack_require__(450);var
 	
 	AnimatedProps=function(_Animated){_inherits(AnimatedProps,_Animated);
 	
@@ -102187,7 +108198,7 @@
 	module.exports=AnimatedProps;
 
 /***/ }),
-/* 416 */
+/* 450 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	
@@ -102202,10 +108213,10 @@
 	
 	'use strict';var _extends=Object.assign||function(target){for(var i=1;i<arguments.length;i++){var source=arguments[i];for(var key in source){if(Object.prototype.hasOwnProperty.call(source,key)){target[key]=source[key];}}}return target;};var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||false;descriptor.configurable=true;if("value"in descriptor)descriptor.writable=true;Object.defineProperty(target,descriptor.key,descriptor);}}return function(Constructor,protoProps,staticProps){if(protoProps)defineProperties(Constructor.prototype,protoProps);if(staticProps)defineProperties(Constructor,staticProps);return Constructor;};}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor)){throw new TypeError("Cannot call a class as a function");}}function _possibleConstructorReturn(self,call){if(!self){throw new ReferenceError("this hasn't been initialised - super() hasn't been called");}return call&&(typeof call==="object"||typeof call==="function")?call:self;}function _inherits(subClass,superClass){if(typeof superClass!=="function"&&superClass!==null){throw new TypeError("Super expression must either be null or a function, not "+typeof superClass);}subClass.prototype=Object.create(superClass&&superClass.prototype,{constructor:{value:subClass,enumerable:false,writable:true,configurable:true}});if(superClass)Object.setPrototypeOf?Object.setPrototypeOf(subClass,superClass):subClass.__proto__=superClass;}
 	
-	var Animated=__webpack_require__(389);
-	var AnimatedWithChildren=__webpack_require__(391);
-	var AnimatedTransform=__webpack_require__(417);
-	var FlattenStyle=__webpack_require__(418);var
+	var Animated=__webpack_require__(423);
+	var AnimatedWithChildren=__webpack_require__(425);
+	var AnimatedTransform=__webpack_require__(451);
+	var FlattenStyle=__webpack_require__(452);var
 	
 	AnimatedStyle=function(_AnimatedWithChildren){_inherits(AnimatedStyle,_AnimatedWithChildren);
 	
@@ -102268,7 +108279,7 @@
 	module.exports=AnimatedStyle;
 
 /***/ }),
-/* 417 */
+/* 451 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	
@@ -102283,8 +108294,8 @@
 	
 	'use strict';var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||false;descriptor.configurable=true;if("value"in descriptor)descriptor.writable=true;Object.defineProperty(target,descriptor.key,descriptor);}}return function(Constructor,protoProps,staticProps){if(protoProps)defineProperties(Constructor.prototype,protoProps);if(staticProps)defineProperties(Constructor,staticProps);return Constructor;};}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor)){throw new TypeError("Cannot call a class as a function");}}function _possibleConstructorReturn(self,call){if(!self){throw new ReferenceError("this hasn't been initialised - super() hasn't been called");}return call&&(typeof call==="object"||typeof call==="function")?call:self;}function _inherits(subClass,superClass){if(typeof superClass!=="function"&&superClass!==null){throw new TypeError("Super expression must either be null or a function, not "+typeof superClass);}subClass.prototype=Object.create(superClass&&superClass.prototype,{constructor:{value:subClass,enumerable:false,writable:true,configurable:true}});if(superClass)Object.setPrototypeOf?Object.setPrototypeOf(subClass,superClass):subClass.__proto__=superClass;}
 	
-	var Animated=__webpack_require__(389);
-	var AnimatedWithChildren=__webpack_require__(391);var
+	var Animated=__webpack_require__(423);
+	var AnimatedWithChildren=__webpack_require__(425);var
 	
 	AnimatedTransform=function(_AnimatedWithChildren){_inherits(AnimatedTransform,_AnimatedWithChildren);
 	
@@ -102351,7 +108362,7 @@
 	module.exports=AnimatedTransform;
 
 /***/ }),
-/* 418 */
+/* 452 */
 /***/ (function(module, exports) {
 
 	
@@ -102376,7 +108387,7 @@
 	module.exports=FlattenStyle;
 
 /***/ }),
-/* 419 */
+/* 453 */
 /***/ (function(module, exports) {
 
 	
@@ -102407,7 +108418,7 @@
 	module.exports=ApplyAnimatedValues;
 
 /***/ }),
-/* 420 */
+/* 454 */
 /***/ (function(module, exports) {
 
 	"use strict";
@@ -102475,6370 +108486,68 @@
 	exports.default = AppData;
 
 /***/ }),
-/* 421 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	'use strict';
-	
-	module.exports = __webpack_require__(422);
-
-/***/ }),
-/* 422 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	'use strict';
-	
-	exports.__esModule = true;
-	
-	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
-	
-	var _react = __webpack_require__(6);
-	
-	var _react2 = _interopRequireDefault(_react);
-	
-	var _innerSlider = __webpack_require__(423);
-	
-	var _objectAssign = __webpack_require__(9);
-	
-	var _objectAssign2 = _interopRequireDefault(_objectAssign);
-	
-	var _json2mq = __webpack_require__(434);
-	
-	var _json2mq2 = _interopRequireDefault(_json2mq);
-	
-	var _defaultProps = __webpack_require__(428);
-	
-	var _defaultProps2 = _interopRequireDefault(_defaultProps);
-	
-	var _canUseDom = __webpack_require__(436);
-	
-	var _canUseDom2 = _interopRequireDefault(_canUseDom);
-	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-	
-	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-	
-	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-	
-	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-	
-	var enquire = _canUseDom2.default && __webpack_require__(437);
-	
-	var Slider = function (_React$Component) {
-	  _inherits(Slider, _React$Component);
-	
-	  function Slider(props) {
-	    _classCallCheck(this, Slider);
-	
-	    var _this = _possibleConstructorReturn(this, _React$Component.call(this, props));
-	
-	    _this.state = {
-	      breakpoint: null
-	    };
-	    _this._responsiveMediaHandlers = [];
-	    _this.innerSliderRefHandler = _this.innerSliderRefHandler.bind(_this);
-	    return _this;
-	  }
-	
-	  Slider.prototype.innerSliderRefHandler = function innerSliderRefHandler(ref) {
-	    this.innerSlider = ref;
-	  };
-	
-	  Slider.prototype.media = function media(query, handler) {
-	    enquire.register(query, handler);
-	    this._responsiveMediaHandlers.push({ query: query, handler: handler });
-	  };
-	
-	  Slider.prototype.componentWillMount = function componentWillMount() {
-	    var _this2 = this;
-	
-	    if (this.props.responsive) {
-	      var breakpoints = this.props.responsive.map(function (breakpt) {
-	        return breakpt.breakpoint;
-	      });
-	      breakpoints.sort(function (x, y) {
-	        return x - y;
-	      });
-	
-	      breakpoints.forEach(function (breakpoint, index) {
-	        var bQuery;
-	        if (index === 0) {
-	          bQuery = (0, _json2mq2.default)({ minWidth: 0, maxWidth: breakpoint });
-	        } else {
-	          bQuery = (0, _json2mq2.default)({ minWidth: breakpoints[index - 1], maxWidth: breakpoint });
-	        }
-	        _canUseDom2.default && _this2.media(bQuery, function () {
-	          _this2.setState({ breakpoint: breakpoint });
-	        });
-	      });
-	
-	      // Register media query for full screen. Need to support resize from small to large
-	      var query = (0, _json2mq2.default)({ minWidth: breakpoints.slice(-1)[0] });
-	
-	      _canUseDom2.default && this.media(query, function () {
-	        _this2.setState({ breakpoint: null });
-	      });
-	    }
-	  };
-	
-	  Slider.prototype.componentWillUnmount = function componentWillUnmount() {
-	    this._responsiveMediaHandlers.forEach(function (obj) {
-	      enquire.unregister(obj.query, obj.handler);
-	    });
-	  };
-	
-	  Slider.prototype.slickPrev = function slickPrev() {
-	    this.innerSlider.slickPrev();
-	  };
-	
-	  Slider.prototype.slickNext = function slickNext() {
-	    this.innerSlider.slickNext();
-	  };
-	
-	  Slider.prototype.slickGoTo = function slickGoTo(slide) {
-	    this.innerSlider.slickGoTo(slide);
-	  };
-	
-	  Slider.prototype.render = function render() {
-	    var _this3 = this;
-	
-	    var settings;
-	    var newProps;
-	    if (this.state.breakpoint) {
-	      newProps = this.props.responsive.filter(function (resp) {
-	        return resp.breakpoint === _this3.state.breakpoint;
-	      });
-	      settings = newProps[0].settings === 'unslick' ? 'unslick' : (0, _objectAssign2.default)({}, this.props, newProps[0].settings);
-	    } else {
-	      settings = (0, _objectAssign2.default)({}, _defaultProps2.default, this.props);
-	    }
-	
-	    var children = this.props.children;
-	    if (!Array.isArray(children)) {
-	      children = [children];
-	    }
-	
-	    // Children may contain false or null, so we should filter them
-	    children = children.filter(function (child) {
-	      return !!child;
-	    });
-	
-	    if (settings === 'unslick') {
-	      // if 'unslick' responsive breakpoint setting used, just return the <Slider> tag nested HTML
-	      return _react2.default.createElement(
-	        'div',
-	        { className: this.props.className + ' unslicked' },
-	        children
-	      );
-	    } else {
-	      return _react2.default.createElement(
-	        _innerSlider.InnerSlider,
-	        _extends({ ref: this.innerSliderRefHandler }, settings),
-	        children
-	      );
-	    }
-	  };
-	
-	  return Slider;
-	}(_react2.default.Component);
-	
-	exports.default = Slider;
-
-/***/ }),
-/* 423 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	/* WEBPACK VAR INJECTION */(function(process) {'use strict';
-	
-	exports.__esModule = true;
-	exports.InnerSlider = undefined;
-	
-	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
-	
-	var _react = __webpack_require__(6);
-	
-	var _react2 = _interopRequireDefault(_react);
-	
-	var _eventHandlers = __webpack_require__(424);
-	
-	var _eventHandlers2 = _interopRequireDefault(_eventHandlers);
-	
-	var _helpers = __webpack_require__(426);
-	
-	var _helpers2 = _interopRequireDefault(_helpers);
-	
-	var _initialState = __webpack_require__(427);
-	
-	var _initialState2 = _interopRequireDefault(_initialState);
-	
-	var _defaultProps = __webpack_require__(428);
-	
-	var _defaultProps2 = _interopRequireDefault(_defaultProps);
-	
-	var _createReactClass = __webpack_require__(429);
-	
-	var _createReactClass2 = _interopRequireDefault(_createReactClass);
-	
-	var _classnames = __webpack_require__(430);
-	
-	var _classnames2 = _interopRequireDefault(_classnames);
-	
-	var _objectAssign = __webpack_require__(9);
-	
-	var _objectAssign2 = _interopRequireDefault(_objectAssign);
-	
-	var _track = __webpack_require__(431);
-	
-	var _dots = __webpack_require__(432);
-	
-	var _arrows = __webpack_require__(433);
-	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-	
-	var InnerSlider = exports.InnerSlider = (0, _createReactClass2.default)({
-	  displayName: 'InnerSlider',
-	
-	  mixins: [_helpers2.default, _eventHandlers2.default],
-	  list: null,
-	  track: null,
-	  listRefHandler: function listRefHandler(ref) {
-	    this.list = ref;
-	  },
-	  trackRefHandler: function trackRefHandler(ref) {
-	    this.track = ref;
-	  },
-	  getInitialState: function getInitialState() {
-	    return _extends({}, _initialState2.default, {
-	      currentSlide: this.props.initialSlide
-	    });
-	  },
-	  getDefaultProps: function getDefaultProps() {
-	    return _defaultProps2.default;
-	  },
-	  componentWillMount: function componentWillMount() {
-	    if (this.props.init) {
-	      this.props.init();
-	    }
-	    this.setState({
-	      mounted: true
-	    });
-	    var lazyLoadedList = [];
-	    for (var i = 0; i < _react2.default.Children.count(this.props.children); i++) {
-	      if (i >= this.state.currentSlide && i < this.state.currentSlide + this.props.slidesToShow) {
-	        lazyLoadedList.push(i);
-	      }
-	    }
-	
-	    if (this.props.lazyLoad && this.state.lazyLoadedList.length === 0) {
-	      this.setState({
-	        lazyLoadedList: lazyLoadedList
-	      });
-	    }
-	  },
-	  componentDidMount: function componentDidMount() {
-	    // Hack for autoplay -- Inspect Later
-	    this.initialize(this.props);
-	    this.adaptHeight();
-	
-	    // To support server-side rendering
-	    if (!window) {
-	      return;
-	    }
-	    if (window.addEventListener) {
-	      window.addEventListener('resize', this.onWindowResized);
-	    } else {
-	      window.attachEvent('onresize', this.onWindowResized);
-	    }
-	  },
-	  componentWillUnmount: function componentWillUnmount() {
-	    if (this.animationEndCallback) {
-	      clearTimeout(this.animationEndCallback);
-	    }
-	    if (window.addEventListener) {
-	      window.removeEventListener('resize', this.onWindowResized);
-	    } else {
-	      window.detachEvent('onresize', this.onWindowResized);
-	    }
-	    if (this.state.autoPlayTimer) {
-	      clearInterval(this.state.autoPlayTimer);
-	    }
-	  },
-	  componentWillReceiveProps: function componentWillReceiveProps(nextProps) {
-	    if (this.props.slickGoTo != nextProps.slickGoTo) {
-	      if (process.env.NODE_ENV !== 'production') {
-	        console.warn('react-slick deprecation warning: slickGoTo prop is deprecated and it will be removed in next release. Use slickGoTo method instead');
-	      }
-	      this.changeSlide({
-	        message: 'index',
-	        index: nextProps.slickGoTo,
-	        currentSlide: this.state.currentSlide
-	      });
-	    } else if (this.state.currentSlide >= nextProps.children.length) {
-	      this.update(nextProps);
-	      this.changeSlide({
-	        message: 'index',
-	        index: nextProps.children.length - nextProps.slidesToShow,
-	        currentSlide: this.state.currentSlide
-	      });
-	    } else {
-	      this.update(nextProps);
-	    }
-	  },
-	  componentDidUpdate: function componentDidUpdate() {
-	    this.adaptHeight();
-	  },
-	  onWindowResized: function onWindowResized() {
-	    this.update(this.props);
-	    // animating state should be cleared while resizing, otherwise autoplay stops working
-	    this.setState({
-	      animating: false
-	    });
-	    clearTimeout(this.animationEndCallback);
-	    delete this.animationEndCallback;
-	  },
-	  slickPrev: function slickPrev() {
-	    this.changeSlide({ message: 'previous' });
-	  },
-	  slickNext: function slickNext() {
-	    this.changeSlide({ message: 'next' });
-	  },
-	  slickGoTo: function slickGoTo(slide) {
-	    slide = Number(slide);
-	    !isNaN(slide) && this.changeSlide({
-	      message: 'index',
-	      index: slide,
-	      currentSlide: this.state.currentSlide
-	    });
-	  },
-	  render: function render() {
-	    var className = (0, _classnames2.default)('slick-initialized', 'slick-slider', this.props.className, {
-	      'slick-vertical': this.props.vertical
-	    });
-	
-	    var trackProps = {
-	      fade: this.props.fade,
-	      cssEase: this.props.cssEase,
-	      speed: this.props.speed,
-	      infinite: this.props.infinite,
-	      centerMode: this.props.centerMode,
-	      focusOnSelect: this.props.focusOnSelect ? this.selectHandler : null,
-	      currentSlide: this.state.currentSlide,
-	      lazyLoad: this.props.lazyLoad,
-	      lazyLoadedList: this.state.lazyLoadedList,
-	      rtl: this.props.rtl,
-	      slideWidth: this.state.slideWidth,
-	      slidesToShow: this.props.slidesToShow,
-	      slidesToScroll: this.props.slidesToScroll,
-	      slideCount: this.state.slideCount,
-	      trackStyle: this.state.trackStyle,
-	      variableWidth: this.props.variableWidth
-	    };
-	
-	    var dots;
-	
-	    if (this.props.dots === true && this.state.slideCount >= this.props.slidesToShow) {
-	      var dotProps = {
-	        dotsClass: this.props.dotsClass,
-	        slideCount: this.state.slideCount,
-	        slidesToShow: this.props.slidesToShow,
-	        currentSlide: this.state.currentSlide,
-	        slidesToScroll: this.props.slidesToScroll,
-	        clickHandler: this.changeSlide,
-	        children: this.props.children,
-	        customPaging: this.props.customPaging
-	      };
-	
-	      dots = _react2.default.createElement(_dots.Dots, dotProps);
-	    }
-	
-	    var prevArrow, nextArrow;
-	
-	    var arrowProps = {
-	      infinite: this.props.infinite,
-	      centerMode: this.props.centerMode,
-	      currentSlide: this.state.currentSlide,
-	      slideCount: this.state.slideCount,
-	      slidesToShow: this.props.slidesToShow,
-	      prevArrow: this.props.prevArrow,
-	      nextArrow: this.props.nextArrow,
-	      clickHandler: this.changeSlide
-	    };
-	
-	    if (this.props.arrows) {
-	      prevArrow = _react2.default.createElement(_arrows.PrevArrow, arrowProps);
-	      nextArrow = _react2.default.createElement(_arrows.NextArrow, arrowProps);
-	    }
-	
-	    var verticalHeightStyle = null;
-	
-	    if (this.props.vertical) {
-	      verticalHeightStyle = {
-	        height: this.state.listHeight
-	      };
-	    }
-	
-	    var centerPaddingStyle = null;
-	
-	    if (this.props.vertical === false) {
-	      if (this.props.centerMode === true) {
-	        centerPaddingStyle = {
-	          padding: '0px ' + this.props.centerPadding
-	        };
-	      }
-	    } else {
-	      if (this.props.centerMode === true) {
-	        centerPaddingStyle = {
-	          padding: this.props.centerPadding + ' 0px'
-	        };
-	      }
-	    }
-	
-	    var listStyle = (0, _objectAssign2.default)({}, verticalHeightStyle, centerPaddingStyle);
-	
-	    return _react2.default.createElement(
-	      'div',
-	      {
-	        className: className,
-	        onMouseEnter: this.onInnerSliderEnter,
-	        onMouseLeave: this.onInnerSliderLeave,
-	        onMouseOver: this.onInnerSliderOver
-	      },
-	      prevArrow,
-	      _react2.default.createElement(
-	        'div',
-	        {
-	          ref: this.listRefHandler,
-	          className: 'slick-list',
-	          style: listStyle,
-	          onMouseDown: this.swipeStart,
-	          onMouseMove: this.state.dragging ? this.swipeMove : null,
-	          onMouseUp: this.swipeEnd,
-	          onMouseLeave: this.state.dragging ? this.swipeEnd : null,
-	          onTouchStart: this.swipeStart,
-	          onTouchMove: this.state.dragging ? this.swipeMove : null,
-	          onTouchEnd: this.swipeEnd,
-	          onTouchCancel: this.state.dragging ? this.swipeEnd : null,
-	          onKeyDown: this.props.accessibility ? this.keyHandler : null },
-	        _react2.default.createElement(
-	          _track.Track,
-	          _extends({ ref: this.trackRefHandler }, trackProps),
-	          this.props.children
-	        )
-	      ),
-	      nextArrow,
-	      dots
-	    );
-	  }
-	});
-	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(8)))
-
-/***/ }),
-/* 424 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	'use strict';
-	
-	exports.__esModule = true;
-	
-	var _trackHelper = __webpack_require__(425);
-	
-	var _helpers = __webpack_require__(426);
-	
-	var _helpers2 = _interopRequireDefault(_helpers);
-	
-	var _objectAssign = __webpack_require__(9);
-	
-	var _objectAssign2 = _interopRequireDefault(_objectAssign);
-	
-	var _reactDom = __webpack_require__(42);
-	
-	var _reactDom2 = _interopRequireDefault(_reactDom);
-	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-	
-	var EventHandlers = {
-	  // Event handler for previous and next
-	  changeSlide: function changeSlide(options) {
-	    var indexOffset, previousInt, slideOffset, unevenOffset, targetSlide;
-	    var _props = this.props,
-	        slidesToScroll = _props.slidesToScroll,
-	        slidesToShow = _props.slidesToShow;
-	    var _state = this.state,
-	        slideCount = _state.slideCount,
-	        currentSlide = _state.currentSlide;
-	
-	    unevenOffset = slideCount % slidesToScroll !== 0;
-	    indexOffset = unevenOffset ? 0 : (slideCount - currentSlide) % slidesToScroll;
-	
-	    if (options.message === 'previous') {
-	      slideOffset = indexOffset === 0 ? slidesToScroll : slidesToShow - indexOffset;
-	      targetSlide = currentSlide - slideOffset;
-	      if (this.props.lazyLoad) {
-	        previousInt = currentSlide - slideOffset;
-	        targetSlide = previousInt === -1 ? slideCount - 1 : previousInt;
-	      }
-	    } else if (options.message === 'next') {
-	      slideOffset = indexOffset === 0 ? slidesToScroll : indexOffset;
-	      targetSlide = currentSlide + slideOffset;
-	      if (this.props.lazyLoad) {
-	        targetSlide = (currentSlide + slidesToScroll) % slideCount + indexOffset;
-	      }
-	    } else if (options.message === 'dots' || options.message === 'children') {
-	      // Click on dots
-	      targetSlide = options.index * options.slidesToScroll;
-	      if (targetSlide === options.currentSlide) {
-	        return;
-	      }
-	    } else if (options.message === 'index') {
-	      targetSlide = Number(options.index);
-	      if (targetSlide === options.currentSlide) {
-	        return;
-	      }
-	    }
-	
-	    this.slideHandler(targetSlide);
-	  },
-	
-	  // Accessiblity handler for previous and next
-	  keyHandler: function keyHandler(e) {
-	    //Dont slide if the cursor is inside the form fields and arrow keys are pressed
-	    if (!e.target.tagName.match('TEXTAREA|INPUT|SELECT')) {
-	      if (e.keyCode === 37 && this.props.accessibility === true) {
-	        this.changeSlide({
-	          message: this.props.rtl === true ? 'next' : 'previous'
-	        });
-	      } else if (e.keyCode === 39 && this.props.accessibility === true) {
-	        this.changeSlide({
-	          message: this.props.rtl === true ? 'previous' : 'next'
-	        });
-	      }
-	    }
-	  },
-	  // Focus on selecting a slide (click handler on track)
-	  selectHandler: function selectHandler(options) {
-	    this.changeSlide(options);
-	  },
-	  swipeStart: function swipeStart(e) {
-	    var touches, posX, posY;
-	
-	    if (this.props.swipe === false || 'ontouchend' in document && this.props.swipe === false) {
-	      return;
-	    } else if (this.props.draggable === false && e.type.indexOf('mouse') !== -1) {
-	      return;
-	    }
-	    posX = e.touches !== undefined ? e.touches[0].pageX : e.clientX;
-	    posY = e.touches !== undefined ? e.touches[0].pageY : e.clientY;
-	    this.setState({
-	      dragging: true,
-	      touchObject: {
-	        startX: posX,
-	        startY: posY,
-	        curX: posX,
-	        curY: posY
-	      }
-	    });
-	  },
-	  swipeMove: function swipeMove(e) {
-	    if (!this.state.dragging) {
-	      e.preventDefault();
-	      return;
-	    }
-	    if (this.state.scrolling) {
-	      return;
-	    }
-	    if (this.state.animating) {
-	      e.preventDefault();
-	      return;
-	    }
-	    if (this.props.vertical && this.props.swipeToSlide && this.props.verticalSwiping) {
-	      e.preventDefault();
-	    }
-	    var swipeLeft;
-	    var curLeft, positionOffset;
-	    var touchObject = this.state.touchObject;
-	
-	    curLeft = (0, _trackHelper.getTrackLeft)((0, _objectAssign2.default)({
-	      slideIndex: this.state.currentSlide,
-	      trackRef: this.track
-	    }, this.props, this.state));
-	    touchObject.curX = e.touches ? e.touches[0].pageX : e.clientX;
-	    touchObject.curY = e.touches ? e.touches[0].pageY : e.clientY;
-	    touchObject.swipeLength = Math.round(Math.sqrt(Math.pow(touchObject.curX - touchObject.startX, 2)));
-	    var verticalSwipeLength = Math.round(Math.sqrt(Math.pow(touchObject.curY - touchObject.startY, 2)));
-	
-	    if (!this.props.verticalSwiping && !this.state.swiping && verticalSwipeLength > 4) {
-	      this.setState({
-	        scrolling: true
-	      });
-	      return;
-	    }
-	
-	    if (this.props.verticalSwiping) {
-	      touchObject.swipeLength = verticalSwipeLength;
-	    }
-	
-	    positionOffset = (this.props.rtl === false ? 1 : -1) * (touchObject.curX > touchObject.startX ? 1 : -1);
-	
-	    if (this.props.verticalSwiping) {
-	      positionOffset = touchObject.curY > touchObject.startY ? 1 : -1;
-	    }
-	
-	    var currentSlide = this.state.currentSlide;
-	    var dotCount = Math.ceil(this.state.slideCount / this.props.slidesToScroll);
-	    var swipeDirection = this.swipeDirection(this.state.touchObject);
-	    var touchSwipeLength = touchObject.swipeLength;
-	
-	    if (this.props.infinite === false) {
-	      if (currentSlide === 0 && swipeDirection === 'right' || currentSlide + 1 >= dotCount && swipeDirection === 'left') {
-	        touchSwipeLength = touchObject.swipeLength * this.props.edgeFriction;
-	
-	        if (this.state.edgeDragged === false && this.props.edgeEvent) {
-	          this.props.edgeEvent(swipeDirection);
-	          this.setState({ edgeDragged: true });
-	        }
-	      }
-	    }
-	
-	    if (this.state.swiped === false && this.props.swipeEvent) {
-	      this.props.swipeEvent(swipeDirection);
-	      this.setState({ swiped: true });
-	    }
-	
-	    if (!this.props.vertical) {
-	      swipeLeft = curLeft + touchSwipeLength * positionOffset;
-	    } else {
-	      swipeLeft = curLeft + touchSwipeLength * (this.state.listHeight / this.state.listWidth) * positionOffset;
-	    }
-	
-	    if (this.props.verticalSwiping) {
-	      swipeLeft = curLeft + touchSwipeLength * positionOffset;
-	    }
-	
-	    this.setState({
-	      touchObject: touchObject,
-	      swipeLeft: swipeLeft,
-	      trackStyle: (0, _trackHelper.getTrackCSS)((0, _objectAssign2.default)({ left: swipeLeft }, this.props, this.state))
-	    });
-	
-	    if (Math.abs(touchObject.curX - touchObject.startX) < Math.abs(touchObject.curY - touchObject.startY) * 0.8) {
-	      return;
-	    }
-	    if (touchObject.swipeLength > 4) {
-	      this.setState({
-	        swiping: true
-	      });
-	      e.preventDefault();
-	    }
-	  },
-	  getNavigableIndexes: function getNavigableIndexes() {
-	    var max = void 0;
-	    var breakPoint = 0;
-	    var counter = 0;
-	    var indexes = [];
-	
-	    if (!this.props.infinite) {
-	      max = this.state.slideCount;
-	    } else {
-	      breakPoint = this.props.slidesToShow * -1;
-	      counter = this.props.slidesToShow * -1;
-	      max = this.state.slideCount * 2;
-	    }
-	
-	    while (breakPoint < max) {
-	      indexes.push(breakPoint);
-	      breakPoint = counter + this.props.slidesToScroll;
-	
-	      counter += this.props.slidesToScroll <= this.props.slidesToShow ? this.props.slidesToScroll : this.props.slidesToShow;
-	    }
-	
-	    return indexes;
-	  },
-	  checkNavigable: function checkNavigable(index) {
-	    var navigables = this.getNavigableIndexes();
-	    var prevNavigable = 0;
-	
-	    if (index > navigables[navigables.length - 1]) {
-	      index = navigables[navigables.length - 1];
-	    } else {
-	      for (var n in navigables) {
-	        if (index < navigables[n]) {
-	          index = prevNavigable;
-	          break;
-	        }
-	
-	        prevNavigable = navigables[n];
-	      }
-	    }
-	
-	    return index;
-	  },
-	  getSlideCount: function getSlideCount() {
-	    var _this = this;
-	
-	    var centerOffset = this.props.centerMode ? this.state.slideWidth * Math.floor(this.props.slidesToShow / 2) : 0;
-	
-	    if (this.props.swipeToSlide) {
-	      var swipedSlide = void 0;
-	
-	      var slickList = _reactDom2.default.findDOMNode(this.list);
-	
-	      var slides = slickList.querySelectorAll('.slick-slide');
-	
-	      Array.from(slides).every(function (slide) {
-	        if (!_this.props.vertical) {
-	          if (slide.offsetLeft - centerOffset + _this.getWidth(slide) / 2 > _this.state.swipeLeft * -1) {
-	            swipedSlide = slide;
-	            return false;
-	          }
-	        } else {
-	          if (slide.offsetTop + _this.getHeight(slide) / 2 > _this.state.swipeLeft * -1) {
-	            swipedSlide = slide;
-	            return false;
-	          }
-	        }
-	
-	        return true;
-	      });
-	
-	      var slidesTraversed = Math.abs(swipedSlide.dataset.index - this.state.currentSlide) || 1;
-	
-	      return slidesTraversed;
-	    } else {
-	      return this.props.slidesToScroll;
-	    }
-	  },
-	
-	  swipeEnd: function swipeEnd(e) {
-	    if (!this.state.dragging) {
-	      if (this.props.swipe) {
-	        e.preventDefault();
-	      }
-	      return;
-	    }
-	    var touchObject = this.state.touchObject;
-	    var minSwipe = this.state.listWidth / this.props.touchThreshold;
-	    var swipeDirection = this.swipeDirection(touchObject);
-	
-	    if (this.props.verticalSwiping) {
-	      minSwipe = this.state.listHeight / this.props.touchThreshold;
-	    }
-	
-	    var wasScrolling = this.state.scrolling;
-	    // reset the state of touch related state variables.
-	    this.setState({
-	      dragging: false,
-	      edgeDragged: false,
-	      scrolling: false,
-	      swiping: false,
-	      swiped: false,
-	      swipeLeft: null,
-	      touchObject: {}
-	    });
-	    if (wasScrolling) {
-	      return;
-	    }
-	
-	    // Fix for #13
-	    if (!touchObject.swipeLength) {
-	      return;
-	    }
-	    if (touchObject.swipeLength > minSwipe) {
-	      e.preventDefault();
-	
-	      var slideCount = void 0,
-	          newSlide = void 0;
-	
-	      switch (swipeDirection) {
-	
-	        case 'left':
-	        case 'down':
-	          newSlide = this.state.currentSlide + this.getSlideCount();
-	          slideCount = this.props.swipeToSlide ? this.checkNavigable(newSlide) : newSlide;
-	          this.state.currentDirection = 0;
-	          break;
-	
-	        case 'right':
-	        case 'up':
-	          newSlide = this.state.currentSlide - this.getSlideCount();
-	          slideCount = this.props.swipeToSlide ? this.checkNavigable(newSlide) : newSlide;
-	          this.state.currentDirection = 1;
-	          break;
-	
-	        default:
-	          slideCount = this.state.currentSlide;
-	
-	      }
-	
-	      this.slideHandler(slideCount);
-	    } else {
-	      // Adjust the track back to it's original position.
-	      var currentLeft = (0, _trackHelper.getTrackLeft)((0, _objectAssign2.default)({
-	        slideIndex: this.state.currentSlide,
-	        trackRef: this.track
-	      }, this.props, this.state));
-	
-	      this.setState({
-	        trackStyle: (0, _trackHelper.getTrackAnimateCSS)((0, _objectAssign2.default)({ left: currentLeft }, this.props, this.state))
-	      });
-	    }
-	  },
-	  onInnerSliderEnter: function onInnerSliderEnter(e) {
-	    if (this.props.autoplay && this.props.pauseOnHover) {
-	      this.pause();
-	    }
-	  },
-	  onInnerSliderOver: function onInnerSliderOver(e) {
-	    if (this.props.autoplay && this.props.pauseOnHover) {
-	      this.pause();
-	    }
-	  },
-	  onInnerSliderLeave: function onInnerSliderLeave(e) {
-	    if (this.props.autoplay && this.props.pauseOnHover) {
-	      this.autoPlay();
-	    }
-	  }
-	};
-	
-	exports.default = EventHandlers;
-
-/***/ }),
-/* 425 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	'use strict';
-	
-	exports.__esModule = true;
-	exports.getTrackLeft = exports.getTrackAnimateCSS = exports.getTrackCSS = undefined;
-	
-	var _reactDom = __webpack_require__(42);
-	
-	var _reactDom2 = _interopRequireDefault(_reactDom);
-	
-	var _objectAssign = __webpack_require__(9);
-	
-	var _objectAssign2 = _interopRequireDefault(_objectAssign);
-	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-	
-	var checkSpecKeys = function checkSpecKeys(spec, keysArray) {
-	  return keysArray.reduce(function (value, key) {
-	    return value && spec.hasOwnProperty(key);
-	  }, true) ? null : console.error('Keys Missing', spec);
-	};
-	
-	var getTrackCSS = exports.getTrackCSS = function getTrackCSS(spec) {
-	  checkSpecKeys(spec, ['left', 'variableWidth', 'slideCount', 'slidesToShow', 'slideWidth']);
-	
-	  var trackWidth, trackHeight;
-	
-	  var trackChildren = spec.slideCount + 2 * spec.slidesToShow;
-	
-	  if (!spec.vertical) {
-	    if (spec.variableWidth) {
-	      trackWidth = (spec.slideCount + 2 * spec.slidesToShow) * spec.slideWidth;
-	    } else if (spec.centerMode) {
-	      trackWidth = (spec.slideCount + 2 * (spec.slidesToShow + 1)) * spec.slideWidth;
-	    } else {
-	      trackWidth = (spec.slideCount + 2 * spec.slidesToShow) * spec.slideWidth;
-	    }
-	  } else {
-	    trackHeight = trackChildren * spec.slideHeight;
-	  }
-	
-	  var style = {
-	    opacity: 1,
-	    WebkitTransform: !spec.vertical ? 'translate3d(' + spec.left + 'px, 0px, 0px)' : 'translate3d(0px, ' + spec.left + 'px, 0px)',
-	    transform: !spec.vertical ? 'translate3d(' + spec.left + 'px, 0px, 0px)' : 'translate3d(0px, ' + spec.left + 'px, 0px)',
-	    transition: '',
-	    WebkitTransition: '',
-	    msTransform: !spec.vertical ? 'translateX(' + spec.left + 'px)' : 'translateY(' + spec.left + 'px)'
-	  };
-	
-	  if (trackWidth) {
-	    (0, _objectAssign2.default)(style, { width: trackWidth });
-	  }
-	
-	  if (trackHeight) {
-	    (0, _objectAssign2.default)(style, { height: trackHeight });
-	  }
-	
-	  // Fallback for IE8
-	  if (window && !window.addEventListener && window.attachEvent) {
-	    if (!spec.vertical) {
-	      style.marginLeft = spec.left + 'px';
-	    } else {
-	      style.marginTop = spec.left + 'px';
-	    }
-	  }
-	
-	  return style;
-	};
-	
-	var getTrackAnimateCSS = exports.getTrackAnimateCSS = function getTrackAnimateCSS(spec) {
-	  checkSpecKeys(spec, ['left', 'variableWidth', 'slideCount', 'slidesToShow', 'slideWidth', 'speed', 'cssEase']);
-	
-	  var style = getTrackCSS(spec);
-	  // useCSS is true by default so it can be undefined
-	  style.WebkitTransition = '-webkit-transform ' + spec.speed + 'ms ' + spec.cssEase;
-	  style.transition = 'transform ' + spec.speed + 'ms ' + spec.cssEase;
-	  return style;
-	};
-	
-	var getTrackLeft = exports.getTrackLeft = function getTrackLeft(spec) {
-	
-	  checkSpecKeys(spec, ['slideIndex', 'trackRef', 'infinite', 'centerMode', 'slideCount', 'slidesToShow', 'slidesToScroll', 'slideWidth', 'listWidth', 'variableWidth', 'slideHeight']);
-	
-	  var slideOffset = 0;
-	  var targetLeft;
-	  var targetSlide;
-	  var verticalOffset = 0;
-	
-	  if (spec.fade) {
-	    return 0;
-	  }
-	
-	  if (spec.infinite) {
-	    if (spec.slideCount >= spec.slidesToShow) {
-	      slideOffset = spec.slideWidth * spec.slidesToShow * -1;
-	      verticalOffset = spec.slideHeight * spec.slidesToShow * -1;
-	    }
-	    if (spec.slideCount % spec.slidesToScroll !== 0) {
-	      if (spec.slideIndex + spec.slidesToScroll > spec.slideCount && spec.slideCount > spec.slidesToShow) {
-	        if (spec.slideIndex > spec.slideCount) {
-	          slideOffset = (spec.slidesToShow - (spec.slideIndex - spec.slideCount)) * spec.slideWidth * -1;
-	          verticalOffset = (spec.slidesToShow - (spec.slideIndex - spec.slideCount)) * spec.slideHeight * -1;
-	        } else {
-	          slideOffset = spec.slideCount % spec.slidesToScroll * spec.slideWidth * -1;
-	          verticalOffset = spec.slideCount % spec.slidesToScroll * spec.slideHeight * -1;
-	        }
-	      }
-	    }
-	  } else {
-	
-	    if (spec.slideCount % spec.slidesToScroll !== 0) {
-	      if (spec.slideIndex + spec.slidesToScroll > spec.slideCount && spec.slideCount > spec.slidesToShow) {
-	        var slidesToOffset = spec.slidesToShow - spec.slideCount % spec.slidesToScroll;
-	        slideOffset = slidesToOffset * spec.slideWidth;
-	      }
-	    }
-	  }
-	
-	  if (spec.centerMode) {
-	    if (spec.infinite) {
-	      slideOffset += spec.slideWidth * Math.floor(spec.slidesToShow / 2);
-	    } else {
-	      slideOffset = spec.slideWidth * Math.floor(spec.slidesToShow / 2);
-	    }
-	  }
-	
-	  if (!spec.vertical) {
-	    targetLeft = spec.slideIndex * spec.slideWidth * -1 + slideOffset;
-	  } else {
-	    targetLeft = spec.slideIndex * spec.slideHeight * -1 + verticalOffset;
-	  }
-	
-	  if (spec.variableWidth === true) {
-	    var targetSlideIndex;
-	    if (spec.slideCount <= spec.slidesToShow || spec.infinite === false) {
-	      targetSlide = _reactDom2.default.findDOMNode(spec.trackRef).childNodes[spec.slideIndex];
-	    } else {
-	      targetSlideIndex = spec.slideIndex + spec.slidesToShow;
-	      targetSlide = _reactDom2.default.findDOMNode(spec.trackRef).childNodes[targetSlideIndex];
-	    }
-	    targetLeft = targetSlide ? targetSlide.offsetLeft * -1 : 0;
-	    if (spec.centerMode === true) {
-	      if (spec.infinite === false) {
-	        targetSlide = _reactDom2.default.findDOMNode(spec.trackRef).children[spec.slideIndex];
-	      } else {
-	        targetSlide = _reactDom2.default.findDOMNode(spec.trackRef).children[spec.slideIndex + spec.slidesToShow + 1];
-	      }
-	
-	      if (targetSlide) {
-	        targetLeft = targetSlide.offsetLeft * -1 + (spec.listWidth - targetSlide.offsetWidth) / 2;
-	      }
-	    }
-	  }
-	
-	  return targetLeft;
-	};
-
-/***/ }),
-/* 426 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	'use strict';
-	
-	exports.__esModule = true;
-	
-	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
-	
-	var _react = __webpack_require__(6);
-	
-	var _react2 = _interopRequireDefault(_react);
-	
-	var _reactDom = __webpack_require__(42);
-	
-	var _reactDom2 = _interopRequireDefault(_reactDom);
-	
-	var _trackHelper = __webpack_require__(425);
-	
-	var _objectAssign = __webpack_require__(9);
-	
-	var _objectAssign2 = _interopRequireDefault(_objectAssign);
-	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-	
-	var helpers = {
-	  initialize: function initialize(props) {
-	    var slickList = _reactDom2.default.findDOMNode(this.list);
-	
-	    var slideCount = _react2.default.Children.count(props.children);
-	    var listWidth = this.getWidth(slickList);
-	    var trackWidth = this.getWidth(_reactDom2.default.findDOMNode(this.track));
-	    var slideWidth;
-	
-	    if (!props.vertical) {
-	      var centerPaddingAdj = props.centerMode && parseInt(props.centerPadding) * 2;
-	      slideWidth = (this.getWidth(_reactDom2.default.findDOMNode(this)) - centerPaddingAdj) / props.slidesToShow;
-	    } else {
-	      slideWidth = this.getWidth(_reactDom2.default.findDOMNode(this));
-	    }
-	
-	    var slideHeight = this.getHeight(slickList.querySelector('[data-index="0"]'));
-	    var listHeight = slideHeight * props.slidesToShow;
-	
-	    var currentSlide = props.rtl ? slideCount - 1 - props.initialSlide : props.initialSlide;
-	
-	    this.setState({
-	      slideCount: slideCount,
-	      slideWidth: slideWidth,
-	      listWidth: listWidth,
-	      trackWidth: trackWidth,
-	      currentSlide: currentSlide,
-	      slideHeight: slideHeight,
-	      listHeight: listHeight
-	    }, function () {
-	
-	      var targetLeft = (0, _trackHelper.getTrackLeft)((0, _objectAssign2.default)({
-	        slideIndex: this.state.currentSlide,
-	        trackRef: this.track
-	      }, props, this.state));
-	      // getCSS function needs previously set state
-	      var trackStyle = (0, _trackHelper.getTrackCSS)((0, _objectAssign2.default)({ left: targetLeft }, props, this.state));
-	
-	      this.setState({ trackStyle: trackStyle });
-	
-	      this.autoPlay(); // once we're set up, trigger the initial autoplay.
-	    });
-	  },
-	  update: function update(props) {
-	    var slickList = _reactDom2.default.findDOMNode(this.list);
-	    // This method has mostly same code as initialize method.
-	    // Refactor it
-	    var slideCount = _react2.default.Children.count(props.children);
-	    var listWidth = this.getWidth(slickList);
-	    var trackWidth = this.getWidth(_reactDom2.default.findDOMNode(this.track));
-	    var slideWidth;
-	
-	    if (!props.vertical) {
-	      var centerPaddingAdj = props.centerMode && parseInt(props.centerPadding) * 2;
-	      slideWidth = (this.getWidth(_reactDom2.default.findDOMNode(this)) - centerPaddingAdj) / props.slidesToShow;
-	    } else {
-	      slideWidth = this.getWidth(_reactDom2.default.findDOMNode(this));
-	    }
-	
-	    var slideHeight = this.getHeight(slickList.querySelector('[data-index="0"]'));
-	    var listHeight = slideHeight * props.slidesToShow;
-	
-	    // pause slider if autoplay is set to false
-	    if (!props.autoplay) {
-	      this.pause();
-	    } else {
-	      this.autoPlay();
-	    }
-	
-	    this.setState({
-	      slideCount: slideCount,
-	      slideWidth: slideWidth,
-	      listWidth: listWidth,
-	      trackWidth: trackWidth,
-	      slideHeight: slideHeight,
-	      listHeight: listHeight
-	    }, function () {
-	
-	      var targetLeft = (0, _trackHelper.getTrackLeft)((0, _objectAssign2.default)({
-	        slideIndex: this.state.currentSlide,
-	        trackRef: this.track
-	      }, props, this.state));
-	      // getCSS function needs previously set state
-	      var trackStyle = (0, _trackHelper.getTrackCSS)((0, _objectAssign2.default)({ left: targetLeft }, props, this.state));
-	
-	      this.setState({ trackStyle: trackStyle });
-	    });
-	  },
-	  getWidth: function getWidth(elem) {
-	    return elem && (elem.getBoundingClientRect().width || elem.offsetWidth) || 0;
-	  },
-	  getHeight: function getHeight(elem) {
-	    return elem && (elem.getBoundingClientRect().height || elem.offsetHeight) || 0;
-	  },
-	
-	  adaptHeight: function adaptHeight() {
-	    if (this.props.adaptiveHeight) {
-	      var selector = '[data-index="' + this.state.currentSlide + '"]';
-	      if (this.list) {
-	        var slickList = _reactDom2.default.findDOMNode(this.list);
-	        slickList.style.height = slickList.querySelector(selector).offsetHeight + 'px';
-	      }
-	    }
-	  },
-	  canGoNext: function canGoNext(opts) {
-	    var canGo = true;
-	    if (!opts.infinite) {
-	      if (opts.centerMode) {
-	        // check if current slide is last slide
-	        if (opts.currentSlide >= opts.slideCount - 1) {
-	          canGo = false;
-	        }
-	      } else {
-	        // check if all slides are shown in slider
-	        if (opts.slideCount <= opts.slidesToShow || opts.currentSlide >= opts.slideCount - opts.slidesToShow) {
-	          canGo = false;
-	        }
-	      }
-	    }
-	    return canGo;
-	  },
-	  slideHandler: function slideHandler(index) {
-	    var _this = this;
-	
-	    // Functionality of animateSlide and postSlide is merged into this function
-	    // console.log('slideHandler', index);
-	    var targetSlide, currentSlide;
-	    var targetLeft, currentLeft;
-	    var callback;
-	
-	    if (this.props.waitForAnimate && this.state.animating) {
-	      return;
-	    }
-	
-	    if (this.props.fade) {
-	      currentSlide = this.state.currentSlide;
-	
-	      // Don't change slide if it's not infite and current slide is the first or last slide.
-	      if (this.props.infinite === false && (index < 0 || index >= this.state.slideCount)) {
-	        return;
-	      }
-	
-	      //  Shifting targetSlide back into the range
-	      if (index < 0) {
-	        targetSlide = index + this.state.slideCount;
-	      } else if (index >= this.state.slideCount) {
-	        targetSlide = index - this.state.slideCount;
-	      } else {
-	        targetSlide = index;
-	      }
-	
-	      if (this.props.lazyLoad && this.state.lazyLoadedList.indexOf(targetSlide) < 0) {
-	        this.setState({
-	          lazyLoadedList: this.state.lazyLoadedList.concat(targetSlide)
-	        });
-	      }
-	
-	      callback = function callback() {
-	        _this.setState({
-	          animating: false
-	        });
-	        if (_this.props.afterChange) {
-	          _this.props.afterChange(targetSlide);
-	        }
-	        delete _this.animationEndCallback;
-	      };
-	
-	      this.setState({
-	        animating: true,
-	        currentSlide: targetSlide
-	      }, function () {
-	        this.animationEndCallback = setTimeout(callback, this.props.speed);
-	      });
-	
-	      if (this.props.beforeChange) {
-	        this.props.beforeChange(this.state.currentSlide, targetSlide);
-	      }
-	
-	      this.autoPlay();
-	      return;
-	    }
-	
-	    targetSlide = index;
-	    if (targetSlide < 0) {
-	      if (this.props.infinite === false) {
-	        currentSlide = 0;
-	      } else if (this.state.slideCount % this.props.slidesToScroll !== 0) {
-	        currentSlide = this.state.slideCount - this.state.slideCount % this.props.slidesToScroll;
-	      } else {
-	        currentSlide = this.state.slideCount + targetSlide;
-	      }
-	    } else if (targetSlide >= this.state.slideCount) {
-	      if (this.props.infinite === false) {
-	        currentSlide = this.state.slideCount - this.props.slidesToShow;
-	      } else if (this.state.slideCount % this.props.slidesToScroll !== 0) {
-	        currentSlide = 0;
-	      } else {
-	        currentSlide = targetSlide - this.state.slideCount;
-	      }
-	    } else {
-	      currentSlide = targetSlide;
-	    }
-	
-	    targetLeft = (0, _trackHelper.getTrackLeft)((0, _objectAssign2.default)({
-	      slideIndex: targetSlide,
-	      trackRef: this.track
-	    }, this.props, this.state));
-	
-	    currentLeft = (0, _trackHelper.getTrackLeft)((0, _objectAssign2.default)({
-	      slideIndex: currentSlide,
-	      trackRef: this.track
-	    }, this.props, this.state));
-	
-	    if (this.props.infinite === false) {
-	      targetLeft = currentLeft;
-	    }
-	
-	    if (this.props.beforeChange) {
-	      this.props.beforeChange(this.state.currentSlide, currentSlide);
-	    }
-	
-	    if (this.props.lazyLoad) {
-	      var loaded = true;
-	      var slidesToLoad = [];
-	      for (var i = targetSlide; i < targetSlide + this.props.slidesToShow; i++) {
-	        loaded = loaded && this.state.lazyLoadedList.indexOf(i) >= 0;
-	        if (!loaded) {
-	          slidesToLoad.push(i);
-	        }
-	      }
-	      if (!loaded) {
-	        this.setState({
-	          lazyLoadedList: this.state.lazyLoadedList.concat(slidesToLoad)
-	        });
-	      }
-	    }
-	
-	    // Slide Transition happens here.
-	    // animated transition happens to target Slide and
-	    // non - animated transition happens to current Slide
-	    // If CSS transitions are false, directly go the current slide.
-	
-	    if (this.props.useCSS === false) {
-	
-	      this.setState({
-	        currentSlide: currentSlide,
-	        trackStyle: (0, _trackHelper.getTrackCSS)((0, _objectAssign2.default)({ left: currentLeft }, this.props, this.state))
-	      }, function () {
-	        if (this.props.afterChange) {
-	          this.props.afterChange(currentSlide);
-	        }
-	      });
-	    } else {
-	
-	      var nextStateChanges = {
-	        animating: false,
-	        currentSlide: currentSlide,
-	        trackStyle: (0, _trackHelper.getTrackCSS)((0, _objectAssign2.default)({ left: currentLeft }, this.props, this.state)),
-	        swipeLeft: null
-	      };
-	
-	      callback = function callback() {
-	        _this.setState(nextStateChanges);
-	        if (_this.props.afterChange) {
-	          _this.props.afterChange(currentSlide);
-	        }
-	        delete _this.animationEndCallback;
-	      };
-	
-	      this.setState({
-	        animating: true,
-	        currentSlide: currentSlide,
-	        trackStyle: (0, _trackHelper.getTrackAnimateCSS)((0, _objectAssign2.default)({ left: targetLeft }, this.props, this.state))
-	      }, function () {
-	        this.animationEndCallback = setTimeout(callback, this.props.speed);
-	      });
-	    }
-	
-	    this.autoPlay();
-	  },
-	  swipeDirection: function swipeDirection(touchObject) {
-	    var xDist, yDist, r, swipeAngle;
-	
-	    xDist = touchObject.startX - touchObject.curX;
-	    yDist = touchObject.startY - touchObject.curY;
-	    r = Math.atan2(yDist, xDist);
-	
-	    swipeAngle = Math.round(r * 180 / Math.PI);
-	    if (swipeAngle < 0) {
-	      swipeAngle = 360 - Math.abs(swipeAngle);
-	    }
-	    if (swipeAngle <= 45 && swipeAngle >= 0 || swipeAngle <= 360 && swipeAngle >= 315) {
-	      return this.props.rtl === false ? 'left' : 'right';
-	    }
-	    if (swipeAngle >= 135 && swipeAngle <= 225) {
-	      return this.props.rtl === false ? 'right' : 'left';
-	    }
-	    if (this.props.verticalSwiping === true) {
-	      if (swipeAngle >= 35 && swipeAngle <= 135) {
-	        return 'down';
-	      } else {
-	        return 'up';
-	      }
-	    }
-	
-	    return 'vertical';
-	  },
-	  play: function play() {
-	    var nextIndex;
-	
-	    if (!this.state.mounted) {
-	      return false;
-	    }
-	
-	    if (this.props.rtl) {
-	      nextIndex = this.state.currentSlide - this.props.slidesToScroll;
-	    } else {
-	      if (this.canGoNext(_extends({}, this.props, this.state))) {
-	        nextIndex = this.state.currentSlide + this.props.slidesToScroll;
-	      } else {
-	        return false;
-	      }
-	    }
-	
-	    this.slideHandler(nextIndex);
-	  },
-	  autoPlay: function autoPlay() {
-	    if (this.state.autoPlayTimer) {
-	      clearTimeout(this.state.autoPlayTimer);
-	    }
-	    if (this.props.autoplay) {
-	      this.setState({
-	        autoPlayTimer: setTimeout(this.play, this.props.autoplaySpeed)
-	      });
-	    }
-	  },
-	  pause: function pause() {
-	    if (this.state.autoPlayTimer) {
-	      clearTimeout(this.state.autoPlayTimer);
-	      this.setState({
-	        autoPlayTimer: null
-	      });
-	    }
-	  }
-	};
-	
-	exports.default = helpers;
-
-/***/ }),
-/* 427 */
+/* 455 */,
+/* 456 */,
+/* 457 */,
+/* 458 */,
+/* 459 */,
+/* 460 */
 /***/ (function(module, exports) {
 
 	"use strict";
 	
-	var initialState = {
-	    animating: false,
-	    dragging: false,
-	    autoPlayTimer: null,
-	    currentDirection: 0,
-	    currentLeft: null,
-	    currentSlide: 0,
-	    direction: 1,
-	    listWidth: null,
-	    listHeight: null,
-	    scrolling: false,
-	    // loadIndex: 0,
-	    slideCount: null,
-	    slideWidth: null,
-	    slideHeight: null,
-	    swiping: false,
-	    // sliding: false,
-	    // slideOffset: 0,
-	    swipeLeft: null,
-	    touchObject: {
-	        startX: 0,
-	        startY: 0,
-	        curX: 0,
-	        curY: 0
-	    },
-	
-	    lazyLoadedList: [],
-	
-	    // added for react
-	    initialized: false,
-	    edgeDragged: false,
-	    swiped: false, // used by swipeEvent. differentites between touch and swipe.
-	    trackStyle: {},
-	    trackWidth: 0
-	
-	    // Removed
-	    // transformsEnabled: false,
-	    // $nextArrow: null,
-	    // $prevArrow: null,
-	    // $dots: null,
-	    // $list: null,
-	    // $slideTrack: null,
-	    // $slides: null,
-	};
-	
-	module.exports = initialState;
-
-/***/ }),
-/* 428 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	'use strict';
-	
-	var _react = __webpack_require__(6);
-	
-	var _react2 = _interopRequireDefault(_react);
-	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-	
-	var defaultProps = {
-	    className: '',
-	    accessibility: true,
-	    adaptiveHeight: false,
-	    arrows: true,
-	    autoplay: false,
-	    autoplaySpeed: 3000,
-	    centerMode: false,
-	    centerPadding: '50px',
-	    cssEase: 'ease',
-	    customPaging: function customPaging(i) {
-	        return _react2.default.createElement(
-	            'button',
-	            null,
-	            i + 1
-	        );
-	    },
-	    dots: false,
-	    dotsClass: 'slick-dots',
-	    draggable: true,
-	    easing: 'linear',
-	    edgeFriction: 0.35,
-	    fade: false,
-	    focusOnSelect: false,
-	    infinite: true,
-	    initialSlide: 0,
-	    lazyLoad: false,
-	    pauseOnHover: true,
-	    responsive: null,
-	    rtl: false,
-	    slide: 'div',
-	    slidesToShow: 1,
-	    slidesToScroll: 1,
-	    speed: 500,
-	    swipe: true,
-	    swipeToSlide: false,
-	    touchMove: true,
-	    touchThreshold: 5,
-	    useCSS: true,
-	    variableWidth: false,
-	    vertical: false,
-	    waitForAnimate: true,
-	    afterChange: null,
-	    beforeChange: null,
-	    edgeEvent: null,
-	    init: null,
-	    swipeEvent: null,
-	    // nextArrow, prevArrow are react componets
-	    nextArrow: null,
-	    prevArrow: null
-	};
-	
-	module.exports = defaultProps;
-
-/***/ }),
-/* 429 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	/**
-	 * Copyright 2013-present, Facebook, Inc.
-	 * All rights reserved.
-	 *
-	 * This source code is licensed under the BSD-style license found in the
-	 * LICENSE file in the root directory of this source tree. An additional grant
-	 * of patent rights can be found in the PATENTS file in the same directory.
-	 *
-	 */
-	
-	'use strict';
-	
-	var React = __webpack_require__(6);
-	var factory = __webpack_require__(40);
-	
-	if (typeof React === 'undefined') {
-	  throw Error(
-	    'create-react-class could not find the React object. If you are using script tags, ' +
-	      'make sure that React is being loaded before create-react-class.'
-	  );
-	}
-	
-	// Hack to grab NoopUpdateQueue from isomorphic React
-	var ReactNoopUpdateQueue = new React.Component().updater;
-	
-	module.exports = factory(
-	  React.Component,
-	  React.isValidElement,
-	  ReactNoopUpdateQueue
-	);
-
-
-/***/ }),
-/* 430 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
-	  Copyright (c) 2016 Jed Watson.
-	  Licensed under the MIT License (MIT), see
-	  http://jedwatson.github.io/classnames
-	*/
-	/* global define */
-	
-	(function () {
-		'use strict';
-	
-		var hasOwn = {}.hasOwnProperty;
-	
-		function classNames () {
-			var classes = [];
-	
-			for (var i = 0; i < arguments.length; i++) {
-				var arg = arguments[i];
-				if (!arg) continue;
-	
-				var argType = typeof arg;
-	
-				if (argType === 'string' || argType === 'number') {
-					classes.push(arg);
-				} else if (Array.isArray(arg)) {
-					classes.push(classNames.apply(null, arg));
-				} else if (argType === 'object') {
-					for (var key in arg) {
-						if (hasOwn.call(arg, key) && arg[key]) {
-							classes.push(key);
-						}
-					}
-				}
-			}
-	
-			return classes.join(' ');
-		}
-	
-		if (typeof module !== 'undefined' && module.exports) {
-			module.exports = classNames;
-		} else if (true) {
-			// register as 'classnames', consistent with npm package name
-			!(__WEBPACK_AMD_DEFINE_ARRAY__ = [], __WEBPACK_AMD_DEFINE_RESULT__ = function () {
-				return classNames;
-			}.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
-		} else {
-			window.classNames = classNames;
-		}
-	}());
-
-
-/***/ }),
-/* 431 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	'use strict';
-	
-	exports.__esModule = true;
-	exports.Track = undefined;
-	
-	var _react = __webpack_require__(6);
-	
-	var _react2 = _interopRequireDefault(_react);
-	
-	var _objectAssign = __webpack_require__(9);
-	
-	var _objectAssign2 = _interopRequireDefault(_objectAssign);
-	
-	var _classnames = __webpack_require__(430);
-	
-	var _classnames2 = _interopRequireDefault(_classnames);
-	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-	
-	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-	
-	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-	
-	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-	
-	var getSlideClasses = function getSlideClasses(spec) {
-	  var slickActive, slickCenter, slickCloned;
-	  var centerOffset, index;
-	
-	  if (spec.rtl) {
-	    index = spec.slideCount - 1 - spec.index;
-	  } else {
-	    index = spec.index;
-	  }
-	  slickCloned = index < 0 || index >= spec.slideCount;
-	  if (spec.centerMode) {
-	    centerOffset = Math.floor(spec.slidesToShow / 2);
-	    slickCenter = (index - spec.currentSlide) % spec.slideCount === 0;
-	    if (index > spec.currentSlide - centerOffset - 1 && index <= spec.currentSlide + centerOffset) {
-	      slickActive = true;
-	    }
-	  } else {
-	    slickActive = spec.currentSlide <= index && index < spec.currentSlide + spec.slidesToShow;
-	  }
-	  return (0, _classnames2.default)({
-	    'slick-slide': true,
-	    'slick-active': slickActive,
-	    'slick-center': slickCenter,
-	    'slick-cloned': slickCloned
-	  });
-	};
-	
-	var getSlideStyle = function getSlideStyle(spec) {
-	  var style = {};
-	
-	  if (spec.variableWidth === undefined || spec.variableWidth === false) {
-	    style.width = spec.slideWidth;
-	  }
-	
-	  if (spec.fade) {
-	    style.position = 'relative';
-	    style.left = -spec.index * spec.slideWidth;
-	    style.opacity = spec.currentSlide === spec.index ? 1 : 0;
-	    style.transition = 'opacity ' + spec.speed + 'ms ' + spec.cssEase;
-	    style.WebkitTransition = 'opacity ' + spec.speed + 'ms ' + spec.cssEase;
-	  }
-	
-	  return style;
-	};
-	
-	var getKey = function getKey(child, fallbackKey) {
-	  // key could be a zero
-	  return child.key === null || child.key === undefined ? fallbackKey : child.key;
-	};
-	
-	var renderSlides = function renderSlides(spec) {
-	  var key;
-	  var slides = [];
-	  var preCloneSlides = [];
-	  var postCloneSlides = [];
-	  var count = _react2.default.Children.count(spec.children);
-	
-	  _react2.default.Children.forEach(spec.children, function (elem, index) {
-	    var child = void 0;
-	    var childOnClickOptions = {
-	      message: 'children',
-	      index: index,
-	      slidesToScroll: spec.slidesToScroll,
-	      currentSlide: spec.currentSlide
-	    };
-	
-	    if (!spec.lazyLoad | (spec.lazyLoad && spec.lazyLoadedList.indexOf(index) >= 0)) {
-	      child = elem;
-	    } else {
-	      child = _react2.default.createElement('div', null);
-	    }
-	    var childStyle = getSlideStyle((0, _objectAssign2.default)({}, spec, { index: index }));
-	    var slideClass = child.props.className || '';
-	
-	    var onClick = function onClick(e) {
-	      child.props && child.props.onClick && child.props.onClick(e);
-	      if (spec.focusOnSelect) {
-	        spec.focusOnSelect(childOnClickOptions);
-	      }
-	    };
-	
-	    slides.push(_react2.default.cloneElement(child, {
-	      key: 'original' + getKey(child, index),
-	      'data-index': index,
-	      className: (0, _classnames2.default)(getSlideClasses((0, _objectAssign2.default)({ index: index }, spec)), slideClass),
-	      tabIndex: '-1',
-	      style: (0, _objectAssign2.default)({ outline: 'none' }, child.props.style || {}, childStyle),
-	      onClick: onClick
-	    }));
-	
-	    // variableWidth doesn't wrap properly.
-	    if (spec.infinite && spec.fade === false) {
-	      var infiniteCount = spec.variableWidth ? spec.slidesToShow + 1 : spec.slidesToShow;
-	
-	      if (index >= count - infiniteCount) {
-	        key = -(count - index);
-	        preCloneSlides.push(_react2.default.cloneElement(child, {
-	          key: 'precloned' + getKey(child, key),
-	          'data-index': key,
-	          className: (0, _classnames2.default)(getSlideClasses((0, _objectAssign2.default)({ index: key }, spec)), slideClass),
-	          style: (0, _objectAssign2.default)({}, child.props.style || {}, childStyle),
-	          onClick: onClick
-	        }));
-	      }
-	
-	      if (index < infiniteCount) {
-	        key = count + index;
-	        postCloneSlides.push(_react2.default.cloneElement(child, {
-	          key: 'postcloned' + getKey(child, key),
-	          'data-index': key,
-	          className: (0, _classnames2.default)(getSlideClasses((0, _objectAssign2.default)({ index: key }, spec)), slideClass),
-	          style: (0, _objectAssign2.default)({}, child.props.style || {}, childStyle),
-	          onClick: onClick
-	        }));
-	      }
-	    }
-	  });
-	
-	  if (spec.rtl) {
-	    return preCloneSlides.concat(slides, postCloneSlides).reverse();
-	  } else {
-	    return preCloneSlides.concat(slides, postCloneSlides);
-	  }
-	};
-	
-	var Track = exports.Track = function (_React$Component) {
-	  _inherits(Track, _React$Component);
-	
-	  function Track() {
-	    _classCallCheck(this, Track);
-	
-	    return _possibleConstructorReturn(this, _React$Component.apply(this, arguments));
-	  }
-	
-	  Track.prototype.render = function render() {
-	    var slides = renderSlides.call(this, this.props);
-	    return _react2.default.createElement(
-	      'div',
-	      { className: 'slick-track', style: this.props.trackStyle },
-	      slides
-	    );
-	  };
-	
-	  return Track;
-	}(_react2.default.Component);
-
-/***/ }),
-/* 432 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	'use strict';
-	
-	exports.__esModule = true;
-	exports.Dots = undefined;
-	
-	var _react = __webpack_require__(6);
-	
-	var _react2 = _interopRequireDefault(_react);
-	
-	var _classnames = __webpack_require__(430);
-	
-	var _classnames2 = _interopRequireDefault(_classnames);
-	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-	
-	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-	
-	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-	
-	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-	
-	var getDotCount = function getDotCount(spec) {
-	  var dots;
-	  dots = Math.ceil(spec.slideCount / spec.slidesToScroll);
-	  return dots;
-	};
-	
-	var Dots = exports.Dots = function (_React$Component) {
-	  _inherits(Dots, _React$Component);
-	
-	  function Dots() {
-	    _classCallCheck(this, Dots);
-	
-	    return _possibleConstructorReturn(this, _React$Component.apply(this, arguments));
-	  }
-	
-	  Dots.prototype.clickHandler = function clickHandler(options, e) {
-	    // In Autoplay the focus stays on clicked button even after transition
-	    // to next slide. That only goes away by click somewhere outside
-	    e.preventDefault();
-	    this.props.clickHandler(options);
-	  };
-	
-	  Dots.prototype.render = function render() {
-	    var _this2 = this;
-	
-	    var dotCount = getDotCount({
-	      slideCount: this.props.slideCount,
-	      slidesToScroll: this.props.slidesToScroll
-	    });
-	
-	    // Apply join & split to Array to pre-fill it for IE8
-	    //
-	    // Credit: http://stackoverflow.com/a/13735425/1849458
-	    var dots = Array.apply(null, Array(dotCount + 1).join('0').split('')).map(function (x, i) {
-	
-	      var leftBound = i * _this2.props.slidesToScroll;
-	      var rightBound = i * _this2.props.slidesToScroll + (_this2.props.slidesToScroll - 1);
-	      var className = (0, _classnames2.default)({
-	        'slick-active': _this2.props.currentSlide >= leftBound && _this2.props.currentSlide <= rightBound
-	      });
-	
-	      var dotOptions = {
-	        message: 'dots',
-	        index: i,
-	        slidesToScroll: _this2.props.slidesToScroll,
-	        currentSlide: _this2.props.currentSlide
-	      };
-	
-	      var onClick = _this2.clickHandler.bind(_this2, dotOptions);
-	
-	      return _react2.default.createElement(
-	        'li',
-	        { key: i, className: className },
-	        _react2.default.cloneElement(_this2.props.customPaging(i), { onClick: onClick })
-	      );
-	    });
-	
-	    return _react2.default.createElement(
-	      'ul',
-	      { className: this.props.dotsClass, style: { display: 'block' } },
-	      dots
-	    );
-	  };
-	
-	  return Dots;
-	}(_react2.default.Component);
-
-/***/ }),
-/* 433 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	'use strict';
-	
-	exports.__esModule = true;
-	exports.NextArrow = exports.PrevArrow = undefined;
-	
-	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
-	
-	var _react = __webpack_require__(6);
-	
-	var _react2 = _interopRequireDefault(_react);
-	
-	var _classnames = __webpack_require__(430);
-	
-	var _classnames2 = _interopRequireDefault(_classnames);
-	
-	var _helpers = __webpack_require__(426);
-	
-	var _helpers2 = _interopRequireDefault(_helpers);
-	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-	
-	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
-	
-	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
-	
-	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
-	
-	var PrevArrow = exports.PrevArrow = function (_React$Component) {
-	  _inherits(PrevArrow, _React$Component);
-	
-	  function PrevArrow() {
-	    _classCallCheck(this, PrevArrow);
-	
-	    return _possibleConstructorReturn(this, _React$Component.apply(this, arguments));
-	  }
-	
-	  PrevArrow.prototype.clickHandler = function clickHandler(options, e) {
-	    if (e) {
-	      e.preventDefault();
-	    }
-	    this.props.clickHandler(options, e);
-	  };
-	
-	  PrevArrow.prototype.render = function render() {
-	    var prevClasses = { 'slick-arrow': true, 'slick-prev': true };
-	    var prevHandler = this.clickHandler.bind(this, { message: 'previous' });
-	
-	    if (!this.props.infinite && (this.props.currentSlide === 0 || this.props.slideCount <= this.props.slidesToShow)) {
-	      prevClasses['slick-disabled'] = true;
-	      prevHandler = null;
-	    }
-	
-	    var prevArrowProps = {
-	      key: '0',
-	      'data-role': 'none',
-	      className: (0, _classnames2.default)(prevClasses),
-	      style: { display: 'block' },
-	      onClick: prevHandler
-	    };
-	    var customProps = {
-	      currentSlide: this.props.currentSlide,
-	      slideCount: this.props.slideCount
-	    };
-	    var prevArrow;
-	
-	    if (this.props.prevArrow) {
-	      prevArrow = _react2.default.cloneElement(this.props.prevArrow, _extends({}, prevArrowProps, customProps));
-	    } else {
-	      prevArrow = _react2.default.createElement(
-	        'button',
-	        _extends({ key: '0', type: 'button' }, prevArrowProps),
-	        ' Previous'
-	      );
-	    }
-	
-	    return prevArrow;
-	  };
-	
-	  return PrevArrow;
-	}(_react2.default.Component);
-	
-	var NextArrow = exports.NextArrow = function (_React$Component2) {
-	  _inherits(NextArrow, _React$Component2);
-	
-	  function NextArrow() {
-	    _classCallCheck(this, NextArrow);
-	
-	    return _possibleConstructorReturn(this, _React$Component2.apply(this, arguments));
-	  }
-	
-	  NextArrow.prototype.clickHandler = function clickHandler(options, e) {
-	    if (e) {
-	      e.preventDefault();
-	    }
-	    this.props.clickHandler(options, e);
-	  };
-	
-	  NextArrow.prototype.render = function render() {
-	    var nextClasses = { 'slick-arrow': true, 'slick-next': true };
-	    var nextHandler = this.clickHandler.bind(this, { message: 'next' });
-	
-	    if (!_helpers2.default.canGoNext(this.props)) {
-	      nextClasses['slick-disabled'] = true;
-	      nextHandler = null;
-	    }
-	
-	    var nextArrowProps = {
-	      key: '1',
-	      'data-role': 'none',
-	      className: (0, _classnames2.default)(nextClasses),
-	      style: { display: 'block' },
-	      onClick: nextHandler
-	    };
-	    var customProps = {
-	      currentSlide: this.props.currentSlide,
-	      slideCount: this.props.slideCount
-	    };
-	    var nextArrow;
-	
-	    if (this.props.nextArrow) {
-	      nextArrow = _react2.default.cloneElement(this.props.nextArrow, _extends({}, nextArrowProps, customProps));
-	    } else {
-	      nextArrow = _react2.default.createElement(
-	        'button',
-	        _extends({ key: '1', type: 'button' }, nextArrowProps),
-	        ' Next'
-	      );
-	    }
-	
-	    return nextArrow;
-	  };
-	
-	  return NextArrow;
-	}(_react2.default.Component);
-
-/***/ }),
-/* 434 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var camel2hyphen = __webpack_require__(435);
-	
-	var isDimension = function (feature) {
-	  var re = /[height|width]$/;
-	  return re.test(feature);
-	};
-	
-	var obj2mq = function (obj) {
-	  var mq = '';
-	  var features = Object.keys(obj);
-	  features.forEach(function (feature, index) {
-	    var value = obj[feature];
-	    feature = camel2hyphen(feature);
-	    // Add px to dimension features
-	    if (isDimension(feature) && typeof value === 'number') {
-	      value = value + 'px';
-	    }
-	    if (value === true) {
-	      mq += feature;
-	    } else if (value === false) {
-	      mq += 'not ' + feature;
-	    } else {
-	      mq += '(' + feature + ': ' + value + ')';
-	    }
-	    if (index < features.length-1) {
-	      mq += ' and '
-	    }
-	  });
-	  return mq;
-	};
-	
-	var json2mq = function (query) {
-	  var mq = '';
-	  if (typeof query === 'string') {
-	    return query;
-	  }
-	  // Handling array of media queries
-	  if (query instanceof Array) {
-	    query.forEach(function (q, index) {
-	      mq += obj2mq(q);
-	      if (index < query.length-1) {
-	        mq += ', '
-	      }
-	    });
-	    return mq;
-	  }
-	  // Handling single media query
-	  return obj2mq(query);
-	};
-	
-	module.exports = json2mq;
-
-/***/ }),
-/* 435 */
-/***/ (function(module, exports) {
-
-	var camel2hyphen = function (str) {
-	  return str
-	          .replace(/[A-Z]/g, function (match) {
-	            return '-' + match.toLowerCase();
-	          })
-	          .toLowerCase();
-	};
-	
-	module.exports = camel2hyphen;
-
-/***/ }),
-/* 436 */
-/***/ (function(module, exports) {
-
-	var canUseDOM = !!(
-	  typeof window !== 'undefined' &&
-	  window.document &&
-	  window.document.createElement
-	);
-	
-	module.exports = canUseDOM;
-
-/***/ }),
-/* 437 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var MediaQueryDispatch = __webpack_require__(438);
-	module.exports = new MediaQueryDispatch();
-
-
-/***/ }),
-/* 438 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var MediaQuery = __webpack_require__(439);
-	var Util = __webpack_require__(441);
-	var each = Util.each;
-	var isFunction = Util.isFunction;
-	var isArray = Util.isArray;
-	
-	/**
-	 * Allows for registration of query handlers.
-	 * Manages the query handler's state and is responsible for wiring up browser events
-	 *
-	 * @constructor
-	 */
-	function MediaQueryDispatch () {
-	    if(!window.matchMedia) {
-	        throw new Error('matchMedia not present, legacy browsers require a polyfill');
-	    }
-	
-	    this.queries = {};
-	    this.browserIsIncapable = !window.matchMedia('only all').matches;
-	}
-	
-	MediaQueryDispatch.prototype = {
-	
-	    constructor : MediaQueryDispatch,
-	
-	    /**
-	     * Registers a handler for the given media query
-	     *
-	     * @param {string} q the media query
-	     * @param {object || Array || Function} options either a single query handler object, a function, or an array of query handlers
-	     * @param {function} options.match fired when query matched
-	     * @param {function} [options.unmatch] fired when a query is no longer matched
-	     * @param {function} [options.setup] fired when handler first triggered
-	     * @param {boolean} [options.deferSetup=false] whether setup should be run immediately or deferred until query is first matched
-	     * @param {boolean} [shouldDegrade=false] whether this particular media query should always run on incapable browsers
-	     */
-	    register : function(q, options, shouldDegrade) {
-	        var queries         = this.queries,
-	            isUnconditional = shouldDegrade && this.browserIsIncapable;
-	
-	        if(!queries[q]) {
-	            queries[q] = new MediaQuery(q, isUnconditional);
-	        }
-	
-	        //normalise to object in an array
-	        if(isFunction(options)) {
-	            options = { match : options };
-	        }
-	        if(!isArray(options)) {
-	            options = [options];
-	        }
-	        each(options, function(handler) {
-	            if (isFunction(handler)) {
-	                handler = { match : handler };
-	            }
-	            queries[q].addHandler(handler);
-	        });
-	
-	        return this;
-	    },
-	
-	    /**
-	     * unregisters a query and all it's handlers, or a specific handler for a query
-	     *
-	     * @param {string} q the media query to target
-	     * @param {object || function} [handler] specific handler to unregister
-	     */
-	    unregister : function(q, handler) {
-	        var query = this.queries[q];
-	
-	        if(query) {
-	            if(handler) {
-	                query.removeHandler(handler);
-	            }
-	            else {
-	                query.clear();
-	                delete this.queries[q];
-	            }
-	        }
-	
-	        return this;
-	    }
-	};
-	
-	module.exports = MediaQueryDispatch;
-
-
-/***/ }),
-/* 439 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var QueryHandler = __webpack_require__(440);
-	var each = __webpack_require__(441).each;
-	
-	/**
-	 * Represents a single media query, manages it's state and registered handlers for this query
-	 *
-	 * @constructor
-	 * @param {string} query the media query string
-	 * @param {boolean} [isUnconditional=false] whether the media query should run regardless of whether the conditions are met. Primarily for helping older browsers deal with mobile-first design
-	 */
-	function MediaQuery(query, isUnconditional) {
-	    this.query = query;
-	    this.isUnconditional = isUnconditional;
-	    this.handlers = [];
-	    this.mql = window.matchMedia(query);
-	
-	    var self = this;
-	    this.listener = function(mql) {
-	        // Chrome passes an MediaQueryListEvent object, while other browsers pass MediaQueryList directly
-	        self.mql = mql.currentTarget || mql;
-	        self.assess();
-	    };
-	    this.mql.addListener(this.listener);
-	}
-	
-	MediaQuery.prototype = {
-	
-	    constuctor : MediaQuery,
-	
-	    /**
-	     * add a handler for this query, triggering if already active
-	     *
-	     * @param {object} handler
-	     * @param {function} handler.match callback for when query is activated
-	     * @param {function} [handler.unmatch] callback for when query is deactivated
-	     * @param {function} [handler.setup] callback for immediate execution when a query handler is registered
-	     * @param {boolean} [handler.deferSetup=false] should the setup callback be deferred until the first time the handler is matched?
-	     */
-	    addHandler : function(handler) {
-	        var qh = new QueryHandler(handler);
-	        this.handlers.push(qh);
-	
-	        this.matches() && qh.on();
-	    },
-	
-	    /**
-	     * removes the given handler from the collection, and calls it's destroy methods
-	     *
-	     * @param {object || function} handler the handler to remove
-	     */
-	    removeHandler : function(handler) {
-	        var handlers = this.handlers;
-	        each(handlers, function(h, i) {
-	            if(h.equals(handler)) {
-	                h.destroy();
-	                return !handlers.splice(i,1); //remove from array and exit each early
-	            }
-	        });
-	    },
-	
-	    /**
-	     * Determine whether the media query should be considered a match
-	     *
-	     * @return {Boolean} true if media query can be considered a match, false otherwise
-	     */
-	    matches : function() {
-	        return this.mql.matches || this.isUnconditional;
-	    },
-	
-	    /**
-	     * Clears all handlers and unbinds events
-	     */
-	    clear : function() {
-	        each(this.handlers, function(handler) {
-	            handler.destroy();
-	        });
-	        this.mql.removeListener(this.listener);
-	        this.handlers.length = 0; //clear array
-	    },
-	
-	    /*
-	        * Assesses the query, turning on all handlers if it matches, turning them off if it doesn't match
-	        */
-	    assess : function() {
-	        var action = this.matches() ? 'on' : 'off';
-	
-	        each(this.handlers, function(handler) {
-	            handler[action]();
-	        });
-	    }
-	};
-	
-	module.exports = MediaQuery;
-
-
-/***/ }),
-/* 440 */
-/***/ (function(module, exports) {
-
-	/**
-	 * Delegate to handle a media query being matched and unmatched.
-	 *
-	 * @param {object} options
-	 * @param {function} options.match callback for when the media query is matched
-	 * @param {function} [options.unmatch] callback for when the media query is unmatched
-	 * @param {function} [options.setup] one-time callback triggered the first time a query is matched
-	 * @param {boolean} [options.deferSetup=false] should the setup callback be run immediately, rather than first time query is matched?
-	 * @constructor
-	 */
-	function QueryHandler(options) {
-	    this.options = options;
-	    !options.deferSetup && this.setup();
-	}
-	
-	QueryHandler.prototype = {
-	
-	    constructor : QueryHandler,
-	
-	    /**
-	     * coordinates setup of the handler
-	     *
-	     * @function
-	     */
-	    setup : function() {
-	        if(this.options.setup) {
-	            this.options.setup();
-	        }
-	        this.initialised = true;
-	    },
-	
-	    /**
-	     * coordinates setup and triggering of the handler
-	     *
-	     * @function
-	     */
-	    on : function() {
-	        !this.initialised && this.setup();
-	        this.options.match && this.options.match();
-	    },
-	
-	    /**
-	     * coordinates the unmatch event for the handler
-	     *
-	     * @function
-	     */
-	    off : function() {
-	        this.options.unmatch && this.options.unmatch();
-	    },
-	
-	    /**
-	     * called when a handler is to be destroyed.
-	     * delegates to the destroy or unmatch callbacks, depending on availability.
-	     *
-	     * @function
-	     */
-	    destroy : function() {
-	        this.options.destroy ? this.options.destroy() : this.off();
-	    },
-	
-	    /**
-	     * determines equality by reference.
-	     * if object is supplied compare options, if function, compare match callback
-	     *
-	     * @function
-	     * @param {object || function} [target] the target for comparison
-	     */
-	    equals : function(target) {
-	        return this.options === target || this.options.match === target;
-	    }
-	
-	};
-	
-	module.exports = QueryHandler;
-
-
-/***/ }),
-/* 441 */
-/***/ (function(module, exports) {
-
-	/**
-	 * Helper function for iterating over a collection
-	 *
-	 * @param collection
-	 * @param fn
-	 */
-	function each(collection, fn) {
-	    var i      = 0,
-	        length = collection.length,
-	        cont;
-	
-	    for(i; i < length; i++) {
-	        cont = fn(collection[i], i);
-	        if(cont === false) {
-	            break; //allow early exit
-	        }
-	    }
-	}
-	
-	/**
-	 * Helper function for determining whether target object is an array
-	 *
-	 * @param target the object under test
-	 * @return {Boolean} true if array, false otherwise
-	 */
-	function isArray(target) {
-	    return Object.prototype.toString.apply(target) === '[object Array]';
-	}
-	
-	/**
-	 * Helper function for determining whether target object is a function
-	 *
-	 * @param target the object under test
-	 * @return {Boolean} true if function, false otherwise
-	 */
-	function isFunction(target) {
-	    return typeof target === 'function';
-	}
-	
-	module.exports = {
-	    isFunction : isFunction,
-	    isArray : isArray,
-	    each : each
-	};
-
-
-/***/ }),
-/* 442 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
-	 * Flickity v2.0.10
-	 * Touch, responsive, flickable carousels
-	 *
-	 * Licensed GPLv3 for open source use
-	 * or Flickity Commercial License for commercial use
-	 *
-	 * http://flickity.metafizzy.co
-	 * Copyright 2017 Metafizzy
-	 */
-	
-	( function( window, factory ) {
-	  // universal module definition
-	  /* jshint strict: false */
-	  if ( true ) {
-	    // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [
-	      __webpack_require__(443),
-	      __webpack_require__(451),
-	      __webpack_require__(454),
-	      __webpack_require__(456),
-	      __webpack_require__(457),
-	      __webpack_require__(458),
-	      __webpack_require__(459)
-	    ], __WEBPACK_AMD_DEFINE_FACTORY__ = (factory), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
-	  } else if ( typeof module == 'object' && module.exports ) {
-	    // CommonJS
-	    module.exports = factory(
-	      require('./flickity'),
-	      require('./drag'),
-	      require('./prev-next-button'),
-	      require('./page-dots'),
-	      require('./player'),
-	      require('./add-remove-cell'),
-	      require('./lazyload')
-	    );
-	  }
-	
-	})( window, function factory( Flickity ) {
-	  /*jshint strict: false*/
-	  return Flickity;
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
 	});
-
-
-/***/ }),
-/* 443 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;// Flickity main
-	( function( window, factory ) {
-	  // universal module definition
-	  /* jshint strict: false */
-	  if ( true ) {
-	    // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [
-	      __webpack_require__(444),
-	      __webpack_require__(445),
-	      __webpack_require__(446),
-	      __webpack_require__(448),
-	      __webpack_require__(449),
-	      __webpack_require__(450)
-	    ], __WEBPACK_AMD_DEFINE_RESULT__ = function( EvEmitter, getSize, utils, Cell, Slide, animatePrototype ) {
-	      return factory( window, EvEmitter, getSize, utils, Cell, Slide, animatePrototype );
-	    }.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
-	  } else if ( typeof module == 'object' && module.exports ) {
-	    // CommonJS
-	    module.exports = factory(
-	      window,
-	      require('ev-emitter'),
-	      require('get-size'),
-	      require('fizzy-ui-utils'),
-	      require('./cell'),
-	      require('./slide'),
-	      require('./animate')
-	    );
-	  } else {
-	    // browser global
-	    var _Flickity = window.Flickity;
-	
-	    window.Flickity = factory(
-	      window,
-	      window.EvEmitter,
-	      window.getSize,
-	      window.fizzyUIUtils,
-	      _Flickity.Cell,
-	      _Flickity.Slide,
-	      _Flickity.animatePrototype
-	    );
-	  }
-	
-	}( window, function factory( window, EvEmitter, getSize,
-	  utils, Cell, Slide, animatePrototype ) {
-	
-	'use strict';
-	
-	// vars
-	var jQuery = window.jQuery;
-	var getComputedStyle = window.getComputedStyle;
-	var console = window.console;
-	
-	function moveElements( elems, toElem ) {
-	  elems = utils.makeArray( elems );
-	  while ( elems.length ) {
-	    toElem.appendChild( elems.shift() );
-	  }
-	}
-	
-	// -------------------------- Flickity -------------------------- //
-	
-	// globally unique identifiers
-	var GUID = 0;
-	// internal store of all Flickity intances
-	var instances = {};
-	
-	function Flickity( element, options ) {
-	  var queryElement = utils.getQueryElement( element );
-	  if ( !queryElement ) {
-	    if ( console ) {
-	      console.error( 'Bad element for Flickity: ' + ( queryElement || element ) );
-	    }
-	    return;
-	  }
-	  this.element = queryElement;
-	  // do not initialize twice on same element
-	  if ( this.element.flickityGUID ) {
-	    var instance = instances[ this.element.flickityGUID ];
-	    instance.option( options );
-	    return instance;
-	  }
-	
-	  // add jQuery
-	  if ( jQuery ) {
-	    this.$element = jQuery( this.element );
-	  }
-	  // options
-	  this.options = utils.extend( {}, this.constructor.defaults );
-	  this.option( options );
-	
-	  // kick things off
-	  this._create();
-	}
-	
-	Flickity.defaults = {
-	  accessibility: true,
-	  // adaptiveHeight: false,
-	  cellAlign: 'center',
-	  // cellSelector: undefined,
-	  // contain: false,
-	  freeScrollFriction: 0.075, // friction when free-scrolling
-	  friction: 0.28, // friction when selecting
-	  namespaceJQueryEvents: true,
-	  // initialIndex: 0,
-	  percentPosition: true,
-	  resize: true,
-	  selectedAttraction: 0.025,
-	  setGallerySize: true
-	  // watchCSS: false,
-	  // wrapAround: false
-	};
-	
-	// hash of methods triggered on _create()
-	Flickity.createMethods = [];
-	
-	var proto = Flickity.prototype;
-	// inherit EventEmitter
-	utils.extend( proto, EvEmitter.prototype );
-	
-	proto._create = function() {
-	  // add id for Flickity.data
-	  var id = this.guid = ++GUID;
-	  this.element.flickityGUID = id; // expando
-	  instances[ id ] = this; // associate via id
-	  // initial properties
-	  this.selectedIndex = 0;
-	  // how many frames slider has been in same position
-	  this.restingFrames = 0;
-	  // initial physics properties
-	  this.x = 0;
-	  this.velocity = 0;
-	  this.originSide = this.options.rightToLeft ? 'right' : 'left';
-	  // create viewport & slider
-	  this.viewport = document.createElement('div');
-	  this.viewport.className = 'flickity-viewport';
-	  this._createSlider();
-	
-	  if ( this.options.resize || this.options.watchCSS ) {
-	    window.addEventListener( 'resize', this );
-	  }
-	
-	  Flickity.createMethods.forEach( function( method ) {
-	    this[ method ]();
-	  }, this );
-	
-	  if ( this.options.watchCSS ) {
-	    this.watchCSS();
-	  } else {
-	    this.activate();
-	  }
-	
-	};
-	
-	/**
-	 * set options
-	 * @param {Object} opts
-	 */
-	proto.option = function( opts ) {
-	  utils.extend( this.options, opts );
-	};
-	
-	proto.activate = function() {
-	  if ( this.isActive ) {
-	    return;
-	  }
-	  this.isActive = true;
-	  this.element.classList.add('flickity-enabled');
-	  if ( this.options.rightToLeft ) {
-	    this.element.classList.add('flickity-rtl');
-	  }
-	
-	  this.getSize();
-	  // move initial cell elements so they can be loaded as cells
-	  var cellElems = this._filterFindCellElements( this.element.children );
-	  moveElements( cellElems, this.slider );
-	  this.viewport.appendChild( this.slider );
-	  this.element.appendChild( this.viewport );
-	  // get cells from children
-	  this.reloadCells();
-	
-	  if ( this.options.accessibility ) {
-	    // allow element to focusable
-	    this.element.tabIndex = 0;
-	    // listen for key presses
-	    this.element.addEventListener( 'keydown', this );
-	  }
-	
-	  this.emitEvent('activate');
-	
-	  var index;
-	  var initialIndex = this.options.initialIndex;
-	  if ( this.isInitActivated ) {
-	    index = this.selectedIndex;
-	  } else if ( initialIndex !== undefined ) {
-	    index = this.cells[ initialIndex ] ? initialIndex : 0;
-	  } else {
-	    index = 0;
-	  }
-	  // select instantly
-	  this.select( index, false, true );
-	  // flag for initial activation, for using initialIndex
-	  this.isInitActivated = true;
-	};
-	
-	// slider positions the cells
-	proto._createSlider = function() {
-	  // slider element does all the positioning
-	  var slider = document.createElement('div');
-	  slider.className = 'flickity-slider';
-	  slider.style[ this.originSide ] = 0;
-	  this.slider = slider;
-	};
-	
-	proto._filterFindCellElements = function( elems ) {
-	  return utils.filterFindElements( elems, this.options.cellSelector );
-	};
-	
-	// goes through all children
-	proto.reloadCells = function() {
-	  // collection of item elements
-	  this.cells = this._makeCells( this.slider.children );
-	  this.positionCells();
-	  this._getWrapShiftCells();
-	  this.setGallerySize();
-	};
-	
-	/**
-	 * turn elements into Flickity.Cells
-	 * @param {Array or NodeList or HTMLElement} elems
-	 * @returns {Array} items - collection of new Flickity Cells
-	 */
-	proto._makeCells = function( elems ) {
-	  var cellElems = this._filterFindCellElements( elems );
-	
-	  // create new Flickity for collection
-	  var cells = cellElems.map( function( cellElem ) {
-	    return new Cell( cellElem, this );
-	  }, this );
-	
-	  return cells;
-	};
-	
-	proto.getLastCell = function() {
-	  return this.cells[ this.cells.length - 1 ];
-	};
-	
-	proto.getLastSlide = function() {
-	  return this.slides[ this.slides.length - 1 ];
-	};
-	
-	// positions all cells
-	proto.positionCells = function() {
-	  // size all cells
-	  this._sizeCells( this.cells );
-	  // position all cells
-	  this._positionCells( 0 );
-	};
-	
-	/**
-	 * position certain cells
-	 * @param {Integer} index - which cell to start with
-	 */
-	proto._positionCells = function( index ) {
-	  index = index || 0;
-	  // also measure maxCellHeight
-	  // start 0 if positioning all cells
-	  this.maxCellHeight = index ? this.maxCellHeight || 0 : 0;
-	  var cellX = 0;
-	  // get cellX
-	  if ( index > 0 ) {
-	    var startCell = this.cells[ index - 1 ];
-	    cellX = startCell.x + startCell.size.outerWidth;
-	  }
-	  var len = this.cells.length;
-	  for ( var i=index; i < len; i++ ) {
-	    var cell = this.cells[i];
-	    cell.setPosition( cellX );
-	    cellX += cell.size.outerWidth;
-	    this.maxCellHeight = Math.max( cell.size.outerHeight, this.maxCellHeight );
-	  }
-	  // keep track of cellX for wrap-around
-	  this.slideableWidth = cellX;
-	  // slides
-	  this.updateSlides();
-	  // contain slides target
-	  this._containSlides();
-	  // update slidesWidth
-	  this.slidesWidth = len ? this.getLastSlide().target - this.slides[0].target : 0;
-	};
-	
-	/**
-	 * cell.getSize() on multiple cells
-	 * @param {Array} cells
-	 */
-	proto._sizeCells = function( cells ) {
-	  cells.forEach( function( cell ) {
-	    cell.getSize();
-	  });
-	};
-	
-	// --------------------------  -------------------------- //
-	
-	proto.updateSlides = function() {
-	  this.slides = [];
-	  if ( !this.cells.length ) {
-	    return;
-	  }
-	
-	  var slide = new Slide( this );
-	  this.slides.push( slide );
-	  var isOriginLeft = this.originSide == 'left';
-	  var nextMargin = isOriginLeft ? 'marginRight' : 'marginLeft';
-	
-	  var canCellFit = this._getCanCellFit();
-	
-	  this.cells.forEach( function( cell, i ) {
-	    // just add cell if first cell in slide
-	    if ( !slide.cells.length ) {
-	      slide.addCell( cell );
-	      return;
-	    }
-	
-	    var slideWidth = ( slide.outerWidth - slide.firstMargin ) +
-	      ( cell.size.outerWidth - cell.size[ nextMargin ] );
-	
-	    if ( canCellFit.call( this, i, slideWidth ) ) {
-	      slide.addCell( cell );
-	    } else {
-	      // doesn't fit, new slide
-	      slide.updateTarget();
-	
-	      slide = new Slide( this );
-	      this.slides.push( slide );
-	      slide.addCell( cell );
-	    }
-	  }, this );
-	  // last slide
-	  slide.updateTarget();
-	  // update .selectedSlide
-	  this.updateSelectedSlide();
-	};
-	
-	proto._getCanCellFit = function() {
-	  var groupCells = this.options.groupCells;
-	  if ( !groupCells ) {
-	    return function() {
-	      return false;
-	    };
-	  } else if ( typeof groupCells == 'number' ) {
-	    // group by number. 3 -> [0,1,2], [3,4,5], ...
-	    var number = parseInt( groupCells, 10 );
-	    return function( i ) {
-	      return ( i % number ) !== 0;
-	    };
-	  }
-	  // default, group by width of slide
-	  // parse '75%
-	  var percentMatch = typeof groupCells == 'string' &&
-	    groupCells.match(/^(\d+)%$/);
-	  var percent = percentMatch ? parseInt( percentMatch[1], 10 ) / 100 : 1;
-	  return function( i, slideWidth ) {
-	    return slideWidth <= ( this.size.innerWidth + 1 ) * percent;
-	  };
-	};
-	
-	// alias _init for jQuery plugin .flickity()
-	proto._init =
-	proto.reposition = function() {
-	  this.positionCells();
-	  this.positionSliderAtSelected();
-	};
-	
-	proto.getSize = function() {
-	  this.size = getSize( this.element );
-	  this.setCellAlign();
-	  this.cursorPosition = this.size.innerWidth * this.cellAlign;
-	};
-	
-	var cellAlignShorthands = {
-	  // cell align, then based on origin side
-	  center: {
-	    left: 0.5,
-	    right: 0.5
-	  },
-	  left: {
-	    left: 0,
-	    right: 1
-	  },
-	  right: {
-	    right: 0,
-	    left: 1
-	  }
-	};
-	
-	proto.setCellAlign = function() {
-	  var shorthand = cellAlignShorthands[ this.options.cellAlign ];
-	  this.cellAlign = shorthand ? shorthand[ this.originSide ] : this.options.cellAlign;
-	};
-	
-	proto.setGallerySize = function() {
-	  if ( this.options.setGallerySize ) {
-	    var height = this.options.adaptiveHeight && this.selectedSlide ?
-	      this.selectedSlide.height : this.maxCellHeight;
-	    this.viewport.style.height = height + 'px';
-	  }
-	};
-	
-	proto._getWrapShiftCells = function() {
-	  // only for wrap-around
-	  if ( !this.options.wrapAround ) {
-	    return;
-	  }
-	  // unshift previous cells
-	  this._unshiftCells( this.beforeShiftCells );
-	  this._unshiftCells( this.afterShiftCells );
-	  // get before cells
-	  // initial gap
-	  var gapX = this.cursorPosition;
-	  var cellIndex = this.cells.length - 1;
-	  this.beforeShiftCells = this._getGapCells( gapX, cellIndex, -1 );
-	  // get after cells
-	  // ending gap between last cell and end of gallery viewport
-	  gapX = this.size.innerWidth - this.cursorPosition;
-	  // start cloning at first cell, working forwards
-	  this.afterShiftCells = this._getGapCells( gapX, 0, 1 );
-	};
-	
-	proto._getGapCells = function( gapX, cellIndex, increment ) {
-	  // keep adding cells until the cover the initial gap
-	  var cells = [];
-	  while ( gapX > 0 ) {
-	    var cell = this.cells[ cellIndex ];
-	    if ( !cell ) {
-	      break;
-	    }
-	    cells.push( cell );
-	    cellIndex += increment;
-	    gapX -= cell.size.outerWidth;
-	  }
-	  return cells;
-	};
-	
-	// ----- contain ----- //
-	
-	// contain cell targets so no excess sliding
-	proto._containSlides = function() {
-	  if ( !this.options.contain || this.options.wrapAround || !this.cells.length ) {
-	    return;
-	  }
-	  var isRightToLeft = this.options.rightToLeft;
-	  var beginMargin = isRightToLeft ? 'marginRight' : 'marginLeft';
-	  var endMargin = isRightToLeft ? 'marginLeft' : 'marginRight';
-	  var contentWidth = this.slideableWidth - this.getLastCell().size[ endMargin ];
-	  // content is less than gallery size
-	  var isContentSmaller = contentWidth < this.size.innerWidth;
-	  // bounds
-	  var beginBound = this.cursorPosition + this.cells[0].size[ beginMargin ];
-	  var endBound = contentWidth - this.size.innerWidth * ( 1 - this.cellAlign );
-	  // contain each cell target
-	  this.slides.forEach( function( slide ) {
-	    if ( isContentSmaller ) {
-	      // all cells fit inside gallery
-	      slide.target = contentWidth * this.cellAlign;
-	    } else {
-	      // contain to bounds
-	      slide.target = Math.max( slide.target, beginBound );
-	      slide.target = Math.min( slide.target, endBound );
-	    }
-	  }, this );
-	};
-	
-	// -----  ----- //
-	
-	/**
-	 * emits events via eventEmitter and jQuery events
-	 * @param {String} type - name of event
-	 * @param {Event} event - original event
-	 * @param {Array} args - extra arguments
-	 */
-	proto.dispatchEvent = function( type, event, args ) {
-	  var emitArgs = event ? [ event ].concat( args ) : args;
-	  this.emitEvent( type, emitArgs );
-	
-	  if ( jQuery && this.$element ) {
-	    // default trigger with type if no event
-	    type += this.options.namespaceJQueryEvents ? '.flickity' : '';
-	    var $event = type;
-	    if ( event ) {
-	      // create jQuery event
-	      var jQEvent = jQuery.Event( event );
-	      jQEvent.type = type;
-	      $event = jQEvent;
-	    }
-	    this.$element.trigger( $event, args );
-	  }
-	};
-	
-	// -------------------------- select -------------------------- //
-	
-	/**
-	 * @param {Integer} index - index of the slide
-	 * @param {Boolean} isWrap - will wrap-around to last/first if at the end
-	 * @param {Boolean} isInstant - will immediately set position at selected cell
-	 */
-	proto.select = function( index, isWrap, isInstant ) {
-	  if ( !this.isActive ) {
-	    return;
-	  }
-	  index = parseInt( index, 10 );
-	  this._wrapSelect( index );
-	
-	  if ( this.options.wrapAround || isWrap ) {
-	    index = utils.modulo( index, this.slides.length );
-	  }
-	  // bail if invalid index
-	  if ( !this.slides[ index ] ) {
-	    return;
-	  }
-	  this.selectedIndex = index;
-	  this.updateSelectedSlide();
-	  if ( isInstant ) {
-	    this.positionSliderAtSelected();
-	  } else {
-	    this.startAnimation();
-	  }
-	  if ( this.options.adaptiveHeight ) {
-	    this.setGallerySize();
-	  }
-	
-	  this.dispatchEvent('select');
-	  // old v1 event name, remove in v3
-	  this.dispatchEvent('cellSelect');
-	};
-	
-	// wraps position for wrapAround, to move to closest slide. #113
-	proto._wrapSelect = function( index ) {
-	  var len = this.slides.length;
-	  var isWrapping = this.options.wrapAround && len > 1;
-	  if ( !isWrapping ) {
-	    return index;
-	  }
-	  var wrapIndex = utils.modulo( index, len );
-	  // go to shortest
-	  var delta = Math.abs( wrapIndex - this.selectedIndex );
-	  var backWrapDelta = Math.abs( ( wrapIndex + len ) - this.selectedIndex );
-	  var forewardWrapDelta = Math.abs( ( wrapIndex - len ) - this.selectedIndex );
-	  if ( !this.isDragSelect && backWrapDelta < delta ) {
-	    index += len;
-	  } else if ( !this.isDragSelect && forewardWrapDelta < delta ) {
-	    index -= len;
-	  }
-	  // wrap position so slider is within normal area
-	  if ( index < 0 ) {
-	    this.x -= this.slideableWidth;
-	  } else if ( index >= len ) {
-	    this.x += this.slideableWidth;
-	  }
-	};
-	
-	proto.previous = function( isWrap, isInstant ) {
-	  this.select( this.selectedIndex - 1, isWrap, isInstant );
-	};
-	
-	proto.next = function( isWrap, isInstant ) {
-	  this.select( this.selectedIndex + 1, isWrap, isInstant );
-	};
-	
-	proto.updateSelectedSlide = function() {
-	  var slide = this.slides[ this.selectedIndex ];
-	  // selectedIndex could be outside of slides, if triggered before resize()
-	  if ( !slide ) {
-	    return;
-	  }
-	  // unselect previous selected slide
-	  this.unselectSelectedSlide();
-	  // update new selected slide
-	  this.selectedSlide = slide;
-	  slide.select();
-	  this.selectedCells = slide.cells;
-	  this.selectedElements = slide.getCellElements();
-	  // HACK: selectedCell & selectedElement is first cell in slide, backwards compatibility
-	  // Remove in v3?
-	  this.selectedCell = slide.cells[0];
-	  this.selectedElement = this.selectedElements[0];
-	};
-	
-	proto.unselectSelectedSlide = function() {
-	  if ( this.selectedSlide ) {
-	    this.selectedSlide.unselect();
-	  }
-	};
-	
-	/**
-	 * select slide from number or cell element
-	 * @param {Element or Number} elem
-	 */
-	proto.selectCell = function( value, isWrap, isInstant ) {
-	  // get cell
-	  var cell;
-	  if ( typeof value == 'number' ) {
-	    cell = this.cells[ value ];
-	  } else {
-	    // use string as selector
-	    if ( typeof value == 'string' ) {
-	      value = this.element.querySelector( value );
-	    }
-	    // get cell from element
-	    cell = this.getCell( value );
-	  }
-	  // select slide that has cell
-	  for ( var i=0; cell && i < this.slides.length; i++ ) {
-	    var slide = this.slides[i];
-	    var index = slide.cells.indexOf( cell );
-	    if ( index != -1 ) {
-	      this.select( i, isWrap, isInstant );
-	      return;
-	    }
-	  }
-	};
-	
-	// -------------------------- get cells -------------------------- //
-	
-	/**
-	 * get Flickity.Cell, given an Element
-	 * @param {Element} elem
-	 * @returns {Flickity.Cell} item
-	 */
-	proto.getCell = function( elem ) {
-	  // loop through cells to get the one that matches
-	  for ( var i=0; i < this.cells.length; i++ ) {
-	    var cell = this.cells[i];
-	    if ( cell.element == elem ) {
-	      return cell;
-	    }
-	  }
-	};
-	
-	/**
-	 * get collection of Flickity.Cells, given Elements
-	 * @param {Element, Array, NodeList} elems
-	 * @returns {Array} cells - Flickity.Cells
-	 */
-	proto.getCells = function( elems ) {
-	  elems = utils.makeArray( elems );
-	  var cells = [];
-	  elems.forEach( function( elem ) {
-	    var cell = this.getCell( elem );
-	    if ( cell ) {
-	      cells.push( cell );
-	    }
-	  }, this );
-	  return cells;
-	};
-	
-	/**
-	 * get cell elements
-	 * @returns {Array} cellElems
-	 */
-	proto.getCellElements = function() {
-	  return this.cells.map( function( cell ) {
-	    return cell.element;
-	  });
-	};
-	
-	/**
-	 * get parent cell from an element
-	 * @param {Element} elem
-	 * @returns {Flickit.Cell} cell
-	 */
-	proto.getParentCell = function( elem ) {
-	  // first check if elem is cell
-	  var cell = this.getCell( elem );
-	  if ( cell ) {
-	    return cell;
-	  }
-	  // try to get parent cell elem
-	  elem = utils.getParent( elem, '.flickity-slider > *' );
-	  return this.getCell( elem );
-	};
-	
-	/**
-	 * get cells adjacent to a slide
-	 * @param {Integer} adjCount - number of adjacent slides
-	 * @param {Integer} index - index of slide to start
-	 * @returns {Array} cells - array of Flickity.Cells
-	 */
-	proto.getAdjacentCellElements = function( adjCount, index ) {
-	  if ( !adjCount ) {
-	    return this.selectedSlide.getCellElements();
-	  }
-	  index = index === undefined ? this.selectedIndex : index;
-	
-	  var len = this.slides.length;
-	  if ( 1 + ( adjCount * 2 ) >= len ) {
-	    return this.getCellElements();
-	  }
-	
-	  var cellElems = [];
-	  for ( var i = index - adjCount; i <= index + adjCount ; i++ ) {
-	    var slideIndex = this.options.wrapAround ? utils.modulo( i, len ) : i;
-	    var slide = this.slides[ slideIndex ];
-	    if ( slide ) {
-	      cellElems = cellElems.concat( slide.getCellElements() );
-	    }
-	  }
-	  return cellElems;
-	};
-	
-	// -------------------------- events -------------------------- //
-	
-	proto.uiChange = function() {
-	  this.emitEvent('uiChange');
-	};
-	
-	proto.childUIPointerDown = function( event ) {
-	  this.emitEvent( 'childUIPointerDown', [ event ] );
-	};
-	
-	// ----- resize ----- //
-	
-	proto.onresize = function() {
-	  this.watchCSS();
-	  this.resize();
-	};
-	
-	utils.debounceMethod( Flickity, 'onresize', 150 );
-	
-	proto.resize = function() {
-	  if ( !this.isActive ) {
-	    return;
-	  }
-	  this.getSize();
-	  // wrap values
-	  if ( this.options.wrapAround ) {
-	    this.x = utils.modulo( this.x, this.slideableWidth );
-	  }
-	  this.positionCells();
-	  this._getWrapShiftCells();
-	  this.setGallerySize();
-	  this.emitEvent('resize');
-	  // update selected index for group slides, instant
-	  // TODO: position can be lost between groups of various numbers
-	  var selectedElement = this.selectedElements && this.selectedElements[0];
-	  this.selectCell( selectedElement, false, true );
-	};
-	
-	// watches the :after property, activates/deactivates
-	proto.watchCSS = function() {
-	  var watchOption = this.options.watchCSS;
-	  if ( !watchOption ) {
-	    return;
-	  }
-	
-	  var afterContent = getComputedStyle( this.element, ':after' ).content;
-	  // activate if :after { content: 'flickity' }
-	  if ( afterContent.indexOf('flickity') != -1 ) {
-	    this.activate();
-	  } else {
-	    this.deactivate();
-	  }
-	};
-	
-	// ----- keydown ----- //
-	
-	// go previous/next if left/right keys pressed
-	proto.onkeydown = function( event ) {
-	  // only work if element is in focus
-	  if ( !this.options.accessibility ||
-	    ( document.activeElement && document.activeElement != this.element ) ) {
-	    return;
-	  }
-	
-	  if ( event.keyCode == 37 ) {
-	    // go left
-	    var leftMethod = this.options.rightToLeft ? 'next' : 'previous';
-	    this.uiChange();
-	    this[ leftMethod ]();
-	  } else if ( event.keyCode == 39 ) {
-	    // go right
-	    var rightMethod = this.options.rightToLeft ? 'previous' : 'next';
-	    this.uiChange();
-	    this[ rightMethod ]();
-	  }
-	};
-	
-	// -------------------------- destroy -------------------------- //
-	
-	// deactivate all Flickity functionality, but keep stuff available
-	proto.deactivate = function() {
-	  if ( !this.isActive ) {
-	    return;
-	  }
-	  this.element.classList.remove('flickity-enabled');
-	  this.element.classList.remove('flickity-rtl');
-	  // destroy cells
-	  this.cells.forEach( function( cell ) {
-	    cell.destroy();
-	  });
-	  this.unselectSelectedSlide();
-	  this.element.removeChild( this.viewport );
-	  // move child elements back into element
-	  moveElements( this.slider.children, this.element );
-	  if ( this.options.accessibility ) {
-	    this.element.removeAttribute('tabIndex');
-	    this.element.removeEventListener( 'keydown', this );
-	  }
-	  // set flags
-	  this.isActive = false;
-	  this.emitEvent('deactivate');
-	};
-	
-	proto.destroy = function() {
-	  this.deactivate();
-	  window.removeEventListener( 'resize', this );
-	  this.emitEvent('destroy');
-	  if ( jQuery && this.$element ) {
-	    jQuery.removeData( this.element, 'flickity' );
-	  }
-	  delete this.element.flickityGUID;
-	  delete instances[ this.guid ];
-	};
-	
-	// -------------------------- prototype -------------------------- //
-	
-	utils.extend( proto, animatePrototype );
-	
-	// -------------------------- extras -------------------------- //
-	
-	/**
-	 * get Flickity instance from element
-	 * @param {Element} elem
-	 * @returns {Flickity}
-	 */
-	Flickity.data = function( elem ) {
-	  elem = utils.getQueryElement( elem );
-	  var id = elem && elem.flickityGUID;
-	  return id && instances[ id ];
-	};
-	
-	utils.htmlInit( Flickity, 'flickity' );
-	
-	if ( jQuery && jQuery.bridget ) {
-	  jQuery.bridget( 'flickity', Flickity );
-	}
-	
-	// set internal jQuery, for Webpack + jQuery v3, #478
-	Flickity.setJQuery = function( jq ) {
-	  jQuery = jq;
-	};
-	
-	Flickity.Cell = Cell;
-	
-	return Flickity;
-	
-	}));
-
-
-/***/ }),
-/* 444 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
-	 * EvEmitter v1.1.0
-	 * Lil' event emitter
-	 * MIT License
-	 */
-	
-	/* jshint unused: true, undef: true, strict: true */
-	
-	( function( global, factory ) {
-	  // universal module definition
-	  /* jshint strict: false */ /* globals define, module, window */
-	  if ( true ) {
-	    // AMD - RequireJS
-	    !(__WEBPACK_AMD_DEFINE_FACTORY__ = (factory), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.call(exports, __webpack_require__, exports, module)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
-	  } else if ( typeof module == 'object' && module.exports ) {
-	    // CommonJS - Browserify, Webpack
-	    module.exports = factory();
-	  } else {
-	    // Browser globals
-	    global.EvEmitter = factory();
-	  }
-	
-	}( typeof window != 'undefined' ? window : this, function() {
-	
-	"use strict";
-	
-	function EvEmitter() {}
-	
-	var proto = EvEmitter.prototype;
-	
-	proto.on = function( eventName, listener ) {
-	  if ( !eventName || !listener ) {
-	    return;
-	  }
-	  // set events hash
-	  var events = this._events = this._events || {};
-	  // set listeners array
-	  var listeners = events[ eventName ] = events[ eventName ] || [];
-	  // only add once
-	  if ( listeners.indexOf( listener ) == -1 ) {
-	    listeners.push( listener );
-	  }
-	
-	  return this;
-	};
-	
-	proto.once = function( eventName, listener ) {
-	  if ( !eventName || !listener ) {
-	    return;
-	  }
-	  // add event
-	  this.on( eventName, listener );
-	  // set once flag
-	  // set onceEvents hash
-	  var onceEvents = this._onceEvents = this._onceEvents || {};
-	  // set onceListeners object
-	  var onceListeners = onceEvents[ eventName ] = onceEvents[ eventName ] || {};
-	  // set flag
-	  onceListeners[ listener ] = true;
-	
-	  return this;
-	};
-	
-	proto.off = function( eventName, listener ) {
-	  var listeners = this._events && this._events[ eventName ];
-	  if ( !listeners || !listeners.length ) {
-	    return;
-	  }
-	  var index = listeners.indexOf( listener );
-	  if ( index != -1 ) {
-	    listeners.splice( index, 1 );
-	  }
-	
-	  return this;
-	};
-	
-	proto.emitEvent = function( eventName, args ) {
-	  var listeners = this._events && this._events[ eventName ];
-	  if ( !listeners || !listeners.length ) {
-	    return;
-	  }
-	  // copy over to avoid interference if .off() in listener
-	  listeners = listeners.slice(0);
-	  args = args || [];
-	  // once stuff
-	  var onceListeners = this._onceEvents && this._onceEvents[ eventName ];
-	
-	  for ( var i=0; i < listeners.length; i++ ) {
-	    var listener = listeners[i]
-	    var isOnce = onceListeners && onceListeners[ listener ];
-	    if ( isOnce ) {
-	      // remove listener
-	      // remove before trigger to prevent recursion
-	      this.off( eventName, listener );
-	      // unset once flag
-	      delete onceListeners[ listener ];
-	    }
-	    // trigger listener
-	    listener.apply( this, args );
-	  }
-	
-	  return this;
-	};
-	
-	proto.allOff = function() {
-	  delete this._events;
-	  delete this._onceEvents;
-	};
-	
-	return EvEmitter;
-	
-	}));
-
-
-/***/ }),
-/* 445 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var __WEBPACK_AMD_DEFINE_RESULT__;/*!
-	 * getSize v2.0.2
-	 * measure size of elements
-	 * MIT license
-	 */
-	
-	/*jshint browser: true, strict: true, undef: true, unused: true */
-	/*global define: false, module: false, console: false */
-	
-	( function( window, factory ) {
-	  'use strict';
-	
-	  if ( true ) {
-	    // AMD
-	    !(__WEBPACK_AMD_DEFINE_RESULT__ = function() {
-	      return factory();
-	    }.call(exports, __webpack_require__, exports, module), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
-	  } else if ( typeof module == 'object' && module.exports ) {
-	    // CommonJS
-	    module.exports = factory();
-	  } else {
-	    // browser global
-	    window.getSize = factory();
-	  }
-	
-	})( window, function factory() {
-	'use strict';
-	
-	// -------------------------- helpers -------------------------- //
-	
-	// get a number from a string, not a percentage
-	function getStyleSize( value ) {
-	  var num = parseFloat( value );
-	  // not a percent like '100%', and a number
-	  var isValid = value.indexOf('%') == -1 && !isNaN( num );
-	  return isValid && num;
-	}
-	
-	function noop() {}
-	
-	var logError = typeof console == 'undefined' ? noop :
-	  function( message ) {
-	    console.error( message );
-	  };
-	
-	// -------------------------- measurements -------------------------- //
-	
-	var measurements = [
-	  'paddingLeft',
-	  'paddingRight',
-	  'paddingTop',
-	  'paddingBottom',
-	  'marginLeft',
-	  'marginRight',
-	  'marginTop',
-	  'marginBottom',
-	  'borderLeftWidth',
-	  'borderRightWidth',
-	  'borderTopWidth',
-	  'borderBottomWidth'
-	];
-	
-	var measurementsLength = measurements.length;
-	
-	function getZeroSize() {
-	  var size = {
-	    width: 0,
-	    height: 0,
-	    innerWidth: 0,
-	    innerHeight: 0,
-	    outerWidth: 0,
-	    outerHeight: 0
-	  };
-	  for ( var i=0; i < measurementsLength; i++ ) {
-	    var measurement = measurements[i];
-	    size[ measurement ] = 0;
-	  }
-	  return size;
-	}
-	
-	// -------------------------- getStyle -------------------------- //
-	
-	/**
-	 * getStyle, get style of element, check for Firefox bug
-	 * https://bugzilla.mozilla.org/show_bug.cgi?id=548397
-	 */
-	function getStyle( elem ) {
-	  var style = getComputedStyle( elem );
-	  if ( !style ) {
-	    logError( 'Style returned ' + style +
-	      '. Are you running this code in a hidden iframe on Firefox? ' +
-	      'See http://bit.ly/getsizebug1' );
-	  }
-	  return style;
-	}
-	
-	// -------------------------- setup -------------------------- //
-	
-	var isSetup = false;
-	
-	var isBoxSizeOuter;
-	
-	/**
-	 * setup
-	 * check isBoxSizerOuter
-	 * do on first getSize() rather than on page load for Firefox bug
-	 */
-	function setup() {
-	  // setup once
-	  if ( isSetup ) {
-	    return;
-	  }
-	  isSetup = true;
-	
-	  // -------------------------- box sizing -------------------------- //
-	
-	  /**
-	   * WebKit measures the outer-width on style.width on border-box elems
-	   * IE & Firefox<29 measures the inner-width
-	   */
-	  var div = document.createElement('div');
-	  div.style.width = '200px';
-	  div.style.padding = '1px 2px 3px 4px';
-	  div.style.borderStyle = 'solid';
-	  div.style.borderWidth = '1px 2px 3px 4px';
-	  div.style.boxSizing = 'border-box';
-	
-	  var body = document.body || document.documentElement;
-	  body.appendChild( div );
-	  var style = getStyle( div );
-	
-	  getSize.isBoxSizeOuter = isBoxSizeOuter = getStyleSize( style.width ) == 200;
-	  body.removeChild( div );
-	
-	}
-	
-	// -------------------------- getSize -------------------------- //
-	
-	function getSize( elem ) {
-	  setup();
-	
-	  // use querySeletor if elem is string
-	  if ( typeof elem == 'string' ) {
-	    elem = document.querySelector( elem );
-	  }
-	
-	  // do not proceed on non-objects
-	  if ( !elem || typeof elem != 'object' || !elem.nodeType ) {
-	    return;
-	  }
-	
-	  var style = getStyle( elem );
-	
-	  // if hidden, everything is 0
-	  if ( style.display == 'none' ) {
-	    return getZeroSize();
-	  }
-	
-	  var size = {};
-	  size.width = elem.offsetWidth;
-	  size.height = elem.offsetHeight;
-	
-	  var isBorderBox = size.isBorderBox = style.boxSizing == 'border-box';
-	
-	  // get all measurements
-	  for ( var i=0; i < measurementsLength; i++ ) {
-	    var measurement = measurements[i];
-	    var value = style[ measurement ];
-	    var num = parseFloat( value );
-	    // any 'auto', 'medium' value will be 0
-	    size[ measurement ] = !isNaN( num ) ? num : 0;
-	  }
-	
-	  var paddingWidth = size.paddingLeft + size.paddingRight;
-	  var paddingHeight = size.paddingTop + size.paddingBottom;
-	  var marginWidth = size.marginLeft + size.marginRight;
-	  var marginHeight = size.marginTop + size.marginBottom;
-	  var borderWidth = size.borderLeftWidth + size.borderRightWidth;
-	  var borderHeight = size.borderTopWidth + size.borderBottomWidth;
-	
-	  var isBorderBoxSizeOuter = isBorderBox && isBoxSizeOuter;
-	
-	  // overwrite width and height if we can get it from style
-	  var styleWidth = getStyleSize( style.width );
-	  if ( styleWidth !== false ) {
-	    size.width = styleWidth +
-	      // add padding and border unless it's already including it
-	      ( isBorderBoxSizeOuter ? 0 : paddingWidth + borderWidth );
-	  }
-	
-	  var styleHeight = getStyleSize( style.height );
-	  if ( styleHeight !== false ) {
-	    size.height = styleHeight +
-	      // add padding and border unless it's already including it
-	      ( isBorderBoxSizeOuter ? 0 : paddingHeight + borderHeight );
-	  }
-	
-	  size.innerWidth = size.width - ( paddingWidth + borderWidth );
-	  size.innerHeight = size.height - ( paddingHeight + borderHeight );
-	
-	  size.outerWidth = size.width + marginWidth;
-	  size.outerHeight = size.height + marginHeight;
-	
-	  return size;
-	}
-	
-	return getSize;
-	
-	});
-
-
-/***/ }),
-/* 446 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
-	 * Fizzy UI utils v2.0.5
-	 * MIT license
-	 */
-	
-	/*jshint browser: true, undef: true, unused: true, strict: true */
-	
-	( function( window, factory ) {
-	  // universal module definition
-	  /*jshint strict: false */ /*globals define, module, require */
-	
-	  if ( true ) {
-	    // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [
-	      __webpack_require__(447)
-	    ], __WEBPACK_AMD_DEFINE_RESULT__ = function( matchesSelector ) {
-	      return factory( window, matchesSelector );
-	    }.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
-	  } else if ( typeof module == 'object' && module.exports ) {
-	    // CommonJS
-	    module.exports = factory(
-	      window,
-	      require('desandro-matches-selector')
-	    );
-	  } else {
-	    // browser global
-	    window.fizzyUIUtils = factory(
-	      window,
-	      window.matchesSelector
-	    );
-	  }
-	
-	}( window, function factory( window, matchesSelector ) {
-	
-	'use strict';
-	
-	var utils = {};
-	
-	// ----- extend ----- //
-	
-	// extends objects
-	utils.extend = function( a, b ) {
-	  for ( var prop in b ) {
-	    a[ prop ] = b[ prop ];
-	  }
-	  return a;
-	};
-	
-	// ----- modulo ----- //
-	
-	utils.modulo = function( num, div ) {
-	  return ( ( num % div ) + div ) % div;
-	};
-	
-	// ----- makeArray ----- //
-	
-	// turn element or nodeList into an array
-	utils.makeArray = function( obj ) {
-	  var ary = [];
-	  if ( Array.isArray( obj ) ) {
-	    // use object if already an array
-	    ary = obj;
-	  } else if ( obj && typeof obj == 'object' &&
-	    typeof obj.length == 'number' ) {
-	    // convert nodeList to array
-	    for ( var i=0; i < obj.length; i++ ) {
-	      ary.push( obj[i] );
-	    }
-	  } else {
-	    // array of single index
-	    ary.push( obj );
-	  }
-	  return ary;
-	};
-	
-	// ----- removeFrom ----- //
-	
-	utils.removeFrom = function( ary, obj ) {
-	  var index = ary.indexOf( obj );
-	  if ( index != -1 ) {
-	    ary.splice( index, 1 );
-	  }
-	};
-	
-	// ----- getParent ----- //
-	
-	utils.getParent = function( elem, selector ) {
-	  while ( elem.parentNode && elem != document.body ) {
-	    elem = elem.parentNode;
-	    if ( matchesSelector( elem, selector ) ) {
-	      return elem;
-	    }
-	  }
-	};
-	
-	// ----- getQueryElement ----- //
-	
-	// use element as selector string
-	utils.getQueryElement = function( elem ) {
-	  if ( typeof elem == 'string' ) {
-	    return document.querySelector( elem );
-	  }
-	  return elem;
-	};
-	
-	// ----- handleEvent ----- //
-	
-	// enable .ontype to trigger from .addEventListener( elem, 'type' )
-	utils.handleEvent = function( event ) {
-	  var method = 'on' + event.type;
-	  if ( this[ method ] ) {
-	    this[ method ]( event );
-	  }
-	};
-	
-	// ----- filterFindElements ----- //
-	
-	utils.filterFindElements = function( elems, selector ) {
-	  // make array of elems
-	  elems = utils.makeArray( elems );
-	  var ffElems = [];
-	
-	  elems.forEach( function( elem ) {
-	    // check that elem is an actual element
-	    if ( !( elem instanceof HTMLElement ) ) {
-	      return;
-	    }
-	    // add elem if no selector
-	    if ( !selector ) {
-	      ffElems.push( elem );
-	      return;
-	    }
-	    // filter & find items if we have a selector
-	    // filter
-	    if ( matchesSelector( elem, selector ) ) {
-	      ffElems.push( elem );
-	    }
-	    // find children
-	    var childElems = elem.querySelectorAll( selector );
-	    // concat childElems to filterFound array
-	    for ( var i=0; i < childElems.length; i++ ) {
-	      ffElems.push( childElems[i] );
-	    }
-	  });
-	
-	  return ffElems;
-	};
-	
-	// ----- debounceMethod ----- //
-	
-	utils.debounceMethod = function( _class, methodName, threshold ) {
-	  // original method
-	  var method = _class.prototype[ methodName ];
-	  var timeoutName = methodName + 'Timeout';
-	
-	  _class.prototype[ methodName ] = function() {
-	    var timeout = this[ timeoutName ];
-	    if ( timeout ) {
-	      clearTimeout( timeout );
-	    }
-	    var args = arguments;
-	
-	    var _this = this;
-	    this[ timeoutName ] = setTimeout( function() {
-	      method.apply( _this, args );
-	      delete _this[ timeoutName ];
-	    }, threshold || 100 );
-	  };
-	};
-	
-	// ----- docReady ----- //
-	
-	utils.docReady = function( callback ) {
-	  var readyState = document.readyState;
-	  if ( readyState == 'complete' || readyState == 'interactive' ) {
-	    // do async to allow for other scripts to run. metafizzy/flickity#441
-	    setTimeout( callback );
-	  } else {
-	    document.addEventListener( 'DOMContentLoaded', callback );
-	  }
-	};
-	
-	// ----- htmlInit ----- //
-	
-	// http://jamesroberts.name/blog/2010/02/22/string-functions-for-javascript-trim-to-camel-case-to-dashed-and-to-underscore/
-	utils.toDashed = function( str ) {
-	  return str.replace( /(.)([A-Z])/g, function( match, $1, $2 ) {
-	    return $1 + '-' + $2;
-	  }).toLowerCase();
-	};
-	
-	var console = window.console;
-	/**
-	 * allow user to initialize classes via [data-namespace] or .js-namespace class
-	 * htmlInit( Widget, 'widgetName' )
-	 * options are parsed from data-namespace-options
-	 */
-	utils.htmlInit = function( WidgetClass, namespace ) {
-	  utils.docReady( function() {
-	    var dashedNamespace = utils.toDashed( namespace );
-	    var dataAttr = 'data-' + dashedNamespace;
-	    var dataAttrElems = document.querySelectorAll( '[' + dataAttr + ']' );
-	    var jsDashElems = document.querySelectorAll( '.js-' + dashedNamespace );
-	    var elems = utils.makeArray( dataAttrElems )
-	      .concat( utils.makeArray( jsDashElems ) );
-	    var dataOptionsAttr = dataAttr + '-options';
-	    var jQuery = window.jQuery;
-	
-	    elems.forEach( function( elem ) {
-	      var attr = elem.getAttribute( dataAttr ) ||
-	        elem.getAttribute( dataOptionsAttr );
-	      var options;
-	      try {
-	        options = attr && JSON.parse( attr );
-	      } catch ( error ) {
-	        // log error, do not initialize
-	        if ( console ) {
-	          console.error( 'Error parsing ' + dataAttr + ' on ' + elem.className +
-	          ': ' + error );
-	        }
-	        return;
-	      }
-	      // initialize
-	      var instance = new WidgetClass( elem, options );
-	      // make available via $().data('namespace')
-	      if ( jQuery ) {
-	        jQuery.data( elem, namespace, instance );
-	      }
-	    });
-	
-	  });
-	};
-	
-	// -----  ----- //
-	
-	return utils;
-	
-	}));
-
-
-/***/ }),
-/* 447 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
-	 * matchesSelector v2.0.2
-	 * matchesSelector( element, '.selector' )
-	 * MIT license
-	 */
-	
-	/*jshint browser: true, strict: true, undef: true, unused: true */
-	
-	( function( window, factory ) {
-	  /*global define: false, module: false */
-	  'use strict';
-	  // universal module definition
-	  if ( true ) {
-	    // AMD
-	    !(__WEBPACK_AMD_DEFINE_FACTORY__ = (factory), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.call(exports, __webpack_require__, exports, module)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
-	  } else if ( typeof module == 'object' && module.exports ) {
-	    // CommonJS
-	    module.exports = factory();
-	  } else {
-	    // browser global
-	    window.matchesSelector = factory();
-	  }
-	
-	}( window, function factory() {
-	  'use strict';
-	
-	  var matchesMethod = ( function() {
-	    var ElemProto = window.Element.prototype;
-	    // check for the standard method name first
-	    if ( ElemProto.matches ) {
-	      return 'matches';
-	    }
-	    // check un-prefixed
-	    if ( ElemProto.matchesSelector ) {
-	      return 'matchesSelector';
-	    }
-	    // check vendor prefixes
-	    var prefixes = [ 'webkit', 'moz', 'ms', 'o' ];
-	
-	    for ( var i=0; i < prefixes.length; i++ ) {
-	      var prefix = prefixes[i];
-	      var method = prefix + 'MatchesSelector';
-	      if ( ElemProto[ method ] ) {
-	        return method;
-	      }
-	    }
-	  })();
-	
-	  return function matchesSelector( elem, selector ) {
-	    return elem[ matchesMethod ]( selector );
-	  };
-	
-	}));
-
-
-/***/ }),
-/* 448 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;// Flickity.Cell
-	( function( window, factory ) {
-	  // universal module definition
-	  /* jshint strict: false */
-	  if ( true ) {
-	    // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [
-	      __webpack_require__(445)
-	    ], __WEBPACK_AMD_DEFINE_RESULT__ = function( getSize ) {
-	      return factory( window, getSize );
-	    }.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
-	  } else if ( typeof module == 'object' && module.exports ) {
-	    // CommonJS
-	    module.exports = factory(
-	      window,
-	      require('get-size')
-	    );
-	  } else {
-	    // browser global
-	    window.Flickity = window.Flickity || {};
-	    window.Flickity.Cell = factory(
-	      window,
-	      window.getSize
-	    );
-	  }
-	
-	}( window, function factory( window, getSize ) {
-	
-	'use strict';
-	
-	function Cell( elem, parent ) {
-	  this.element = elem;
-	  this.parent = parent;
-	
-	  this.create();
-	}
-	
-	var proto = Cell.prototype;
-	
-	proto.create = function() {
-	  this.element.style.position = 'absolute';
-	  this.x = 0;
-	  this.shift = 0;
-	};
-	
-	proto.destroy = function() {
-	  // reset style
-	  this.element.style.position = '';
-	  var side = this.parent.originSide;
-	  this.element.style[ side ] = '';
-	};
-	
-	proto.getSize = function() {
-	  this.size = getSize( this.element );
-	};
-	
-	proto.setPosition = function( x ) {
-	  this.x = x;
-	  this.updateTarget();
-	  this.renderPosition( x );
-	};
-	
-	// setDefaultTarget v1 method, backwards compatibility, remove in v3
-	proto.updateTarget = proto.setDefaultTarget = function() {
-	  var marginProperty = this.parent.originSide == 'left' ? 'marginLeft' : 'marginRight';
-	  this.target = this.x + this.size[ marginProperty ] +
-	    this.size.width * this.parent.cellAlign;
-	};
-	
-	proto.renderPosition = function( x ) {
-	  // render position of cell with in slider
-	  var side = this.parent.originSide;
-	  this.element.style[ side ] = this.parent.getPositionValue( x );
-	};
-	
-	/**
-	 * @param {Integer} factor - 0, 1, or -1
-	**/
-	proto.wrapShift = function( shift ) {
-	  this.shift = shift;
-	  this.renderPosition( this.x + this.parent.slideableWidth * shift );
-	};
-	
-	proto.remove = function() {
-	  this.element.parentNode.removeChild( this.element );
-	};
-	
-	return Cell;
-	
-	}));
-
-
-/***/ }),
-/* 449 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_RESULT__;// slide
-	( function( window, factory ) {
-	  // universal module definition
-	  /* jshint strict: false */
-	  if ( true ) {
-	    // AMD
-	    !(__WEBPACK_AMD_DEFINE_FACTORY__ = (factory), __WEBPACK_AMD_DEFINE_RESULT__ = (typeof __WEBPACK_AMD_DEFINE_FACTORY__ === 'function' ? (__WEBPACK_AMD_DEFINE_FACTORY__.call(exports, __webpack_require__, exports, module)) : __WEBPACK_AMD_DEFINE_FACTORY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
-	  } else if ( typeof module == 'object' && module.exports ) {
-	    // CommonJS
-	    module.exports = factory();
-	  } else {
-	    // browser global
-	    window.Flickity = window.Flickity || {};
-	    window.Flickity.Slide = factory();
-	  }
-	
-	}( window, function factory() {
-	'use strict';
-	
-	function Slide( parent ) {
-	  this.parent = parent;
-	  this.isOriginLeft = parent.originSide == 'left';
-	  this.cells = [];
-	  this.outerWidth = 0;
-	  this.height = 0;
-	}
-	
-	var proto = Slide.prototype;
-	
-	proto.addCell = function( cell ) {
-	  this.cells.push( cell );
-	  this.outerWidth += cell.size.outerWidth;
-	  this.height = Math.max( cell.size.outerHeight, this.height );
-	  // first cell stuff
-	  if ( this.cells.length == 1 ) {
-	    this.x = cell.x; // x comes from first cell
-	    var beginMargin = this.isOriginLeft ? 'marginLeft' : 'marginRight';
-	    this.firstMargin = cell.size[ beginMargin ];
-	  }
-	};
-	
-	proto.updateTarget = function() {
-	  var endMargin = this.isOriginLeft ? 'marginRight' : 'marginLeft';
-	  var lastCell = this.getLastCell();
-	  var lastMargin = lastCell ? lastCell.size[ endMargin ] : 0;
-	  var slideWidth = this.outerWidth - ( this.firstMargin + lastMargin );
-	  this.target = this.x + this.firstMargin + slideWidth * this.parent.cellAlign;
-	};
-	
-	proto.getLastCell = function() {
-	  return this.cells[ this.cells.length - 1 ];
-	};
-	
-	proto.select = function() {
-	  this.changeSelectedClass('add');
-	};
-	
-	proto.unselect = function() {
-	  this.changeSelectedClass('remove');
-	};
-	
-	proto.changeSelectedClass = function( method ) {
-	  this.cells.forEach( function( cell ) {
-	    cell.element.classList[ method ]('is-selected');
-	  });
-	};
-	
-	proto.getCellElements = function() {
-	  return this.cells.map( function( cell ) {
-	    return cell.element;
-	  });
-	};
-	
-	return Slide;
-	
-	}));
-
-
-/***/ }),
-/* 450 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;// animate
-	( function( window, factory ) {
-	  // universal module definition
-	  /* jshint strict: false */
-	  if ( true ) {
-	    // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [
-	      __webpack_require__(446)
-	    ], __WEBPACK_AMD_DEFINE_RESULT__ = function( utils ) {
-	      return factory( window, utils );
-	    }.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
-	  } else if ( typeof module == 'object' && module.exports ) {
-	    // CommonJS
-	    module.exports = factory(
-	      window,
-	      require('fizzy-ui-utils')
-	    );
-	  } else {
-	    // browser global
-	    window.Flickity = window.Flickity || {};
-	    window.Flickity.animatePrototype = factory(
-	      window,
-	      window.fizzyUIUtils
-	    );
-	  }
-	
-	}( window, function factory( window, utils ) {
-	
-	'use strict';
-	
-	// -------------------------- requestAnimationFrame -------------------------- //
-	
-	// get rAF, prefixed, if present
-	var requestAnimationFrame = window.requestAnimationFrame ||
-	  window.webkitRequestAnimationFrame;
-	
-	// fallback to setTimeout
-	var lastTime = 0;
-	if ( !requestAnimationFrame )  {
-	  requestAnimationFrame = function( callback ) {
-	    var currTime = new Date().getTime();
-	    var timeToCall = Math.max( 0, 16 - ( currTime - lastTime ) );
-	    var id = setTimeout( callback, timeToCall );
-	    lastTime = currTime + timeToCall;
-	    return id;
-	  };
-	}
-	
-	// -------------------------- animate -------------------------- //
-	
-	var proto = {};
-	
-	proto.startAnimation = function() {
-	  if ( this.isAnimating ) {
-	    return;
-	  }
-	
-	  this.isAnimating = true;
-	  this.restingFrames = 0;
-	  this.animate();
-	};
-	
-	proto.animate = function() {
-	  this.applyDragForce();
-	  this.applySelectedAttraction();
-	
-	  var previousX = this.x;
-	
-	  this.integratePhysics();
-	  this.positionSlider();
-	  this.settle( previousX );
-	  // animate next frame
-	  if ( this.isAnimating ) {
-	    var _this = this;
-	    requestAnimationFrame( function animateFrame() {
-	      _this.animate();
-	    });
-	  }
-	};
-	
-	
-	var transformProperty = ( function () {
-	  var style = document.documentElement.style;
-	  if ( typeof style.transform == 'string' ) {
-	    return 'transform';
-	  }
-	  return 'WebkitTransform';
-	})();
-	
-	proto.positionSlider = function() {
-	  var x = this.x;
-	  // wrap position around
-	  if ( this.options.wrapAround && this.cells.length > 1 ) {
-	    x = utils.modulo( x, this.slideableWidth );
-	    x = x - this.slideableWidth;
-	    this.shiftWrapCells( x );
-	  }
-	
-	  x = x + this.cursorPosition;
-	  // reverse if right-to-left and using transform
-	  x = this.options.rightToLeft && transformProperty ? -x : x;
-	  var value = this.getPositionValue( x );
-	  // use 3D tranforms for hardware acceleration on iOS
-	  // but use 2D when settled, for better font-rendering
-	  this.slider.style[ transformProperty ] = this.isAnimating ?
-	    'translate3d(' + value + ',0,0)' : 'translateX(' + value + ')';
-	
-	  // scroll event
-	  var firstSlide = this.slides[0];
-	  if ( firstSlide ) {
-	    var positionX = -this.x - firstSlide.target;
-	    var progress = positionX / this.slidesWidth;
-	    this.dispatchEvent( 'scroll', null, [ progress, positionX ] );
-	  }
-	};
-	
-	proto.positionSliderAtSelected = function() {
-	  if ( !this.cells.length ) {
-	    return;
-	  }
-	  this.x = -this.selectedSlide.target;
-	  this.positionSlider();
-	};
-	
-	proto.getPositionValue = function( position ) {
-	  if ( this.options.percentPosition ) {
-	    // percent position, round to 2 digits, like 12.34%
-	    return ( Math.round( ( position / this.size.innerWidth ) * 10000 ) * 0.01 )+ '%';
-	  } else {
-	    // pixel positioning
-	    return Math.round( position ) + 'px';
-	  }
-	};
-	
-	proto.settle = function( previousX ) {
-	  // keep track of frames where x hasn't moved
-	  if ( !this.isPointerDown && Math.round( this.x * 100 ) == Math.round( previousX * 100 ) ) {
-	    this.restingFrames++;
-	  }
-	  // stop animating if resting for 3 or more frames
-	  if ( this.restingFrames > 2 ) {
-	    this.isAnimating = false;
-	    delete this.isFreeScrolling;
-	    // render position with translateX when settled
-	    this.positionSlider();
-	    this.dispatchEvent('settle');
-	  }
-	};
-	
-	proto.shiftWrapCells = function( x ) {
-	  // shift before cells
-	  var beforeGap = this.cursorPosition + x;
-	  this._shiftCells( this.beforeShiftCells, beforeGap, -1 );
-	  // shift after cells
-	  var afterGap = this.size.innerWidth - ( x + this.slideableWidth + this.cursorPosition );
-	  this._shiftCells( this.afterShiftCells, afterGap, 1 );
-	};
-	
-	proto._shiftCells = function( cells, gap, shift ) {
-	  for ( var i=0; i < cells.length; i++ ) {
-	    var cell = cells[i];
-	    var cellShift = gap > 0 ? shift : 0;
-	    cell.wrapShift( cellShift );
-	    gap -= cell.size.outerWidth;
-	  }
-	};
-	
-	proto._unshiftCells = function( cells ) {
-	  if ( !cells || !cells.length ) {
-	    return;
-	  }
-	  for ( var i=0; i < cells.length; i++ ) {
-	    cells[i].wrapShift( 0 );
-	  }
-	};
-	
-	// -------------------------- physics -------------------------- //
-	
-	proto.integratePhysics = function() {
-	  this.x += this.velocity;
-	  this.velocity *= this.getFrictionFactor();
-	};
-	
-	proto.applyForce = function( force ) {
-	  this.velocity += force;
-	};
-	
-	proto.getFrictionFactor = function() {
-	  return 1 - this.options[ this.isFreeScrolling ? 'freeScrollFriction' : 'friction' ];
-	};
-	
-	proto.getRestingPosition = function() {
-	  // my thanks to Steven Wittens, who simplified this math greatly
-	  return this.x + this.velocity / ( 1 - this.getFrictionFactor() );
-	};
-	
-	proto.applyDragForce = function() {
-	  if ( !this.isPointerDown ) {
-	    return;
-	  }
-	  // change the position to drag position by applying force
-	  var dragVelocity = this.dragX - this.x;
-	  var dragForce = dragVelocity - this.velocity;
-	  this.applyForce( dragForce );
-	};
-	
-	proto.applySelectedAttraction = function() {
-	  // do not attract if pointer down or no cells
-	  if ( this.isPointerDown || this.isFreeScrolling || !this.cells.length ) {
-	    return;
-	  }
-	  var distance = this.selectedSlide.target * -1 - this.x;
-	  var force = distance * this.options.selectedAttraction;
-	  this.applyForce( force );
-	};
-	
-	return proto;
-	
-	}));
-
-
-/***/ }),
-/* 451 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;// drag
-	( function( window, factory ) {
-	  // universal module definition
-	  /* jshint strict: false */
-	  if ( true ) {
-	    // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [
-	      __webpack_require__(443),
-	      __webpack_require__(452),
-	      __webpack_require__(446)
-	    ], __WEBPACK_AMD_DEFINE_RESULT__ = function( Flickity, Unidragger, utils ) {
-	      return factory( window, Flickity, Unidragger, utils );
-	    }.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
-	  } else if ( typeof module == 'object' && module.exports ) {
-	    // CommonJS
-	    module.exports = factory(
-	      window,
-	      require('./flickity'),
-	      require('unidragger'),
-	      require('fizzy-ui-utils')
-	    );
-	  } else {
-	    // browser global
-	    window.Flickity = factory(
-	      window,
-	      window.Flickity,
-	      window.Unidragger,
-	      window.fizzyUIUtils
-	    );
-	  }
-	
-	}( window, function factory( window, Flickity, Unidragger, utils ) {
-	
-	'use strict';
-	
-	// ----- defaults ----- //
-	
-	utils.extend( Flickity.defaults, {
-	  draggable: true,
-	  dragThreshold: 3,
-	});
-	
-	// ----- create ----- //
-	
-	Flickity.createMethods.push('_createDrag');
-	
-	// -------------------------- drag prototype -------------------------- //
-	
-	var proto = Flickity.prototype;
-	utils.extend( proto, Unidragger.prototype );
-	proto._touchActionValue = 'pan-y';
-	
-	// --------------------------  -------------------------- //
-	
-	var isTouch = 'createTouch' in document;
-	var isTouchmoveScrollCanceled = false;
-	
-	proto._createDrag = function() {
-	  this.on( 'activate', this.bindDrag );
-	  this.on( 'uiChange', this._uiChangeDrag );
-	  this.on( 'childUIPointerDown', this._childUIPointerDownDrag );
-	  this.on( 'deactivate', this.unbindDrag );
-	  // HACK - add seemingly innocuous handler to fix iOS 10 scroll behavior
-	  // #457, RubaXa/Sortable#973
-	  if ( isTouch && !isTouchmoveScrollCanceled ) {
-	    window.addEventListener( 'touchmove', function() {});
-	    isTouchmoveScrollCanceled = true;
-	  }
-	};
-	
-	proto.bindDrag = function() {
-	  if ( !this.options.draggable || this.isDragBound ) {
-	    return;
-	  }
-	  this.element.classList.add('is-draggable');
-	  this.handles = [ this.viewport ];
-	  this.bindHandles();
-	  this.isDragBound = true;
-	};
-	
-	proto.unbindDrag = function() {
-	  if ( !this.isDragBound ) {
-	    return;
-	  }
-	  this.element.classList.remove('is-draggable');
-	  this.unbindHandles();
-	  delete this.isDragBound;
-	};
-	
-	proto._uiChangeDrag = function() {
-	  delete this.isFreeScrolling;
-	};
-	
-	proto._childUIPointerDownDrag = function( event ) {
-	  event.preventDefault();
-	  this.pointerDownFocus( event );
-	};
-	
-	// -------------------------- pointer events -------------------------- //
-	
-	// nodes that have text fields
-	var cursorNodes = {
-	  TEXTAREA: true,
-	  INPUT: true,
-	  OPTION: true,
-	};
-	
-	// input types that do not have text fields
-	var clickTypes = {
-	  radio: true,
-	  checkbox: true,
-	  button: true,
-	  submit: true,
-	  image: true,
-	  file: true,
-	};
-	
-	proto.pointerDown = function( event, pointer ) {
-	  // dismiss inputs with text fields. #403, #404
-	  var isCursorInput = cursorNodes[ event.target.nodeName ] &&
-	    !clickTypes[ event.target.type ];
-	  if ( isCursorInput ) {
-	    // reset pointerDown logic
-	    this.isPointerDown = false;
-	    delete this.pointerIdentifier;
-	    return;
-	  }
-	
-	  this._dragPointerDown( event, pointer );
-	
-	  // kludge to blur focused inputs in dragger
-	  var focused = document.activeElement;
-	  if ( focused && focused.blur && focused != this.element &&
-	    // do not blur body for IE9 & 10, #117
-	    focused != document.body ) {
-	    focused.blur();
-	  }
-	  this.pointerDownFocus( event );
-	  // stop if it was moving
-	  this.dragX = this.x;
-	  this.viewport.classList.add('is-pointer-down');
-	  // bind move and end events
-	  this._bindPostStartEvents( event );
-	  // track scrolling
-	  this.pointerDownScroll = getScrollPosition();
-	  window.addEventListener( 'scroll', this );
-	
-	  this.dispatchEvent( 'pointerDown', event, [ pointer ] );
-	};
-	
-	proto.pointerDownFocus = function( event ) {
-	  // focus element, if not touch, and its not an input or select
-	  var canPointerDown = getCanPointerDown( event );
-	  if ( !this.options.accessibility || canPointerDown ) {
-	    return;
-	  }
-	  var prevScrollY = window.pageYOffset;
-	  this.element.focus();
-	  // hack to fix scroll jump after focus, #76
-	  if ( window.pageYOffset != prevScrollY ) {
-	    window.scrollTo( window.pageXOffset, prevScrollY );
-	  }
-	};
-	
-	var focusNodes = {
-	  INPUT: true,
-	  SELECT: true,
-	};
-	
-	function getCanPointerDown( event ) {
-	  var isTouchStart = event.type == 'touchstart';
-	  var isTouchPointer = event.pointerType == 'touch';
-	  var isFocusNode = focusNodes[ event.target.nodeName ];
-	  return isTouchStart || isTouchPointer || isFocusNode;
-	}
-	
-	proto.canPreventDefaultOnPointerDown = function( event ) {
-	  // prevent default, unless touchstart or input
-	  var canPointerDown = getCanPointerDown( event );
-	  return !canPointerDown;
-	};
-	
-	// ----- move ----- //
-	
-	proto.hasDragStarted = function( moveVector ) {
-	  return Math.abs( moveVector.x ) > this.options.dragThreshold;
-	};
-	
-	// ----- up ----- //
-	
-	proto.pointerUp = function( event, pointer ) {
-	  delete this.isTouchScrolling;
-	  this.viewport.classList.remove('is-pointer-down');
-	  this.dispatchEvent( 'pointerUp', event, [ pointer ] );
-	  this._dragPointerUp( event, pointer );
-	};
-	
-	proto.pointerDone = function() {
-	  window.removeEventListener( 'scroll', this );
-	  delete this.pointerDownScroll;
-	};
-	
-	// -------------------------- dragging -------------------------- //
-	
-	proto.dragStart = function( event, pointer ) {
-	  this.dragStartPosition = this.x;
-	  this.startAnimation();
-	  window.removeEventListener( 'scroll', this );
-	  this.dispatchEvent( 'dragStart', event, [ pointer ] );
-	};
-	
-	proto.pointerMove = function( event, pointer ) {
-	  var moveVector = this._dragPointerMove( event, pointer );
-	  this.dispatchEvent( 'pointerMove', event, [ pointer, moveVector ] );
-	  this._dragMove( event, pointer, moveVector );
-	};
-	
-	proto.dragMove = function( event, pointer, moveVector ) {
-	  event.preventDefault();
-	
-	  this.previousDragX = this.dragX;
-	  // reverse if right-to-left
-	  var direction = this.options.rightToLeft ? -1 : 1;
-	  var dragX = this.dragStartPosition + moveVector.x * direction;
-	
-	  if ( !this.options.wrapAround && this.slides.length ) {
-	    // slow drag
-	    var originBound = Math.max( -this.slides[0].target, this.dragStartPosition );
-	    dragX = dragX > originBound ? ( dragX + originBound ) * 0.5 : dragX;
-	    var endBound = Math.min( -this.getLastSlide().target, this.dragStartPosition );
-	    dragX = dragX < endBound ? ( dragX + endBound ) * 0.5 : dragX;
-	  }
-	
-	  this.dragX = dragX;
-	
-	  this.dragMoveTime = new Date();
-	  this.dispatchEvent( 'dragMove', event, [ pointer, moveVector ] );
-	};
-	
-	proto.dragEnd = function( event, pointer ) {
-	  if ( this.options.freeScroll ) {
-	    this.isFreeScrolling = true;
-	  }
-	  // set selectedIndex based on where flick will end up
-	  var index = this.dragEndRestingSelect();
-	
-	  if ( this.options.freeScroll && !this.options.wrapAround ) {
-	    // if free-scroll & not wrap around
-	    // do not free-scroll if going outside of bounding slides
-	    // so bounding slides can attract slider, and keep it in bounds
-	    var restingX = this.getRestingPosition();
-	    this.isFreeScrolling = -restingX > this.slides[0].target &&
-	      -restingX < this.getLastSlide().target;
-	  } else if ( !this.options.freeScroll && index == this.selectedIndex ) {
-	    // boost selection if selected index has not changed
-	    index += this.dragEndBoostSelect();
-	  }
-	  delete this.previousDragX;
-	  // apply selection
-	  // TODO refactor this, selecting here feels weird
-	  // HACK, set flag so dragging stays in correct direction
-	  this.isDragSelect = this.options.wrapAround;
-	  this.select( index );
-	  delete this.isDragSelect;
-	  this.dispatchEvent( 'dragEnd', event, [ pointer ] );
-	};
-	
-	proto.dragEndRestingSelect = function() {
-	  var restingX = this.getRestingPosition();
-	  // how far away from selected slide
-	  var distance = Math.abs( this.getSlideDistance( -restingX, this.selectedIndex ) );
-	  // get closet resting going up and going down
-	  var positiveResting = this._getClosestResting( restingX, distance, 1 );
-	  var negativeResting = this._getClosestResting( restingX, distance, -1 );
-	  // use closer resting for wrap-around
-	  var index = positiveResting.distance < negativeResting.distance ?
-	    positiveResting.index : negativeResting.index;
-	  return index;
-	};
-	
-	/**
-	 * given resting X and distance to selected cell
-	 * get the distance and index of the closest cell
-	 * @param {Number} restingX - estimated post-flick resting position
-	 * @param {Number} distance - distance to selected cell
-	 * @param {Integer} increment - +1 or -1, going up or down
-	 * @returns {Object} - { distance: {Number}, index: {Integer} }
-	 */
-	proto._getClosestResting = function( restingX, distance, increment ) {
-	  var index = this.selectedIndex;
-	  var minDistance = Infinity;
-	  var condition = this.options.contain && !this.options.wrapAround ?
-	    // if contain, keep going if distance is equal to minDistance
-	    function( d, md ) { return d <= md; } : function( d, md ) { return d < md; };
-	  while ( condition( distance, minDistance ) ) {
-	    // measure distance to next cell
-	    index += increment;
-	    minDistance = distance;
-	    distance = this.getSlideDistance( -restingX, index );
-	    if ( distance === null ) {
-	      break;
-	    }
-	    distance = Math.abs( distance );
-	  }
-	  return {
-	    distance: minDistance,
-	    // selected was previous index
-	    index: index - increment
-	  };
-	};
-	
-	/**
-	 * measure distance between x and a slide target
-	 * @param {Number} x
-	 * @param {Integer} index - slide index
-	 */
-	proto.getSlideDistance = function( x, index ) {
-	  var len = this.slides.length;
-	  // wrap around if at least 2 slides
-	  var isWrapAround = this.options.wrapAround && len > 1;
-	  var slideIndex = isWrapAround ? utils.modulo( index, len ) : index;
-	  var slide = this.slides[ slideIndex ];
-	  if ( !slide ) {
-	    return null;
-	  }
-	  // add distance for wrap-around slides
-	  var wrap = isWrapAround ? this.slideableWidth * Math.floor( index / len ) : 0;
-	  return x - ( slide.target + wrap );
-	};
-	
-	proto.dragEndBoostSelect = function() {
-	  // do not boost if no previousDragX or dragMoveTime
-	  if ( this.previousDragX === undefined || !this.dragMoveTime ||
-	    // or if drag was held for 100 ms
-	    new Date() - this.dragMoveTime > 100 ) {
-	    return 0;
-	  }
-	
-	  var distance = this.getSlideDistance( -this.dragX, this.selectedIndex );
-	  var delta = this.previousDragX - this.dragX;
-	  if ( distance > 0 && delta > 0 ) {
-	    // boost to next if moving towards the right, and positive velocity
-	    return 1;
-	  } else if ( distance < 0 && delta < 0 ) {
-	    // boost to previous if moving towards the left, and negative velocity
-	    return -1;
-	  }
-	  return 0;
-	};
-	
-	// ----- staticClick ----- //
-	
-	proto.staticClick = function( event, pointer ) {
-	  // get clickedCell, if cell was clicked
-	  var clickedCell = this.getParentCell( event.target );
-	  var cellElem = clickedCell && clickedCell.element;
-	  var cellIndex = clickedCell && this.cells.indexOf( clickedCell );
-	  this.dispatchEvent( 'staticClick', event, [ pointer, cellElem, cellIndex ] );
-	};
-	
-	// ----- scroll ----- //
-	
-	proto.onscroll = function() {
-	  var scroll = getScrollPosition();
-	  var scrollMoveX = this.pointerDownScroll.x - scroll.x;
-	  var scrollMoveY = this.pointerDownScroll.y - scroll.y;
-	  // cancel click/tap if scroll is too much
-	  if ( Math.abs( scrollMoveX ) > 3 || Math.abs( scrollMoveY ) > 3 ) {
-	    this._pointerDone();
-	  }
-	};
-	
-	// ----- utils ----- //
-	
-	function getScrollPosition() {
-	  return {
-	    x: window.pageXOffset,
-	    y: window.pageYOffset
-	  };
-	}
-	
-	// -----  ----- //
-	
-	return Flickity;
-	
-	}));
-
-
-/***/ }),
-/* 452 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
-	 * Unidragger v2.2.3
-	 * Draggable base class
-	 * MIT license
-	 */
-	
-	/*jshint browser: true, unused: true, undef: true, strict: true */
-	
-	( function( window, factory ) {
-	  // universal module definition
-	  /*jshint strict: false */ /*globals define, module, require */
-	
-	  if ( true ) {
-	    // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [
-	      __webpack_require__(453)
-	    ], __WEBPACK_AMD_DEFINE_RESULT__ = function( Unipointer ) {
-	      return factory( window, Unipointer );
-	    }.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
-	  } else if ( typeof module == 'object' && module.exports ) {
-	    // CommonJS
-	    module.exports = factory(
-	      window,
-	      require('unipointer')
-	    );
-	  } else {
-	    // browser global
-	    window.Unidragger = factory(
-	      window,
-	      window.Unipointer
-	    );
-	  }
-	
-	}( window, function factory( window, Unipointer ) {
-	
-	'use strict';
-	
-	// -------------------------- Unidragger -------------------------- //
-	
-	function Unidragger() {}
-	
-	// inherit Unipointer & EvEmitter
-	var proto = Unidragger.prototype = Object.create( Unipointer.prototype );
-	
-	// ----- bind start ----- //
-	
-	proto.bindHandles = function() {
-	  this._bindHandles( true );
-	};
-	
-	proto.unbindHandles = function() {
-	  this._bindHandles( false );
-	};
-	
-	/**
-	 * works as unbinder, as you can .bindHandles( false ) to unbind
-	 * @param {Boolean} isBind - will unbind if falsey
-	 */
-	proto._bindHandles = function( isBind ) {
-	  // munge isBind, default to true
-	  isBind = isBind === undefined ? true : !!isBind;
-	  // bind each handle
-	  var bindMethod = isBind ? 'addEventListener' : 'removeEventListener';
-	  for ( var i=0; i < this.handles.length; i++ ) {
-	    var handle = this.handles[i];
-	    this._bindStartEvent( handle, isBind );
-	    handle[ bindMethod ]( 'click', this );
-	    // touch-action: none to override browser touch gestures
-	    // metafizzy/flickity#540
-	    if ( window.PointerEvent ) {
-	      handle.style.touchAction = isBind ? this._touchActionValue : '';
-	    }
-	  }
-	};
-	
-	// prototype so it can be overwriteable by Flickity
-	proto._touchActionValue = 'none';
-	
-	// ----- start event ----- //
-	
-	/**
-	 * pointer start
-	 * @param {Event} event
-	 * @param {Event or Touch} pointer
-	 */
-	proto.pointerDown = function( event, pointer ) {
-	  // dismiss range sliders
-	  if ( event.target.nodeName == 'INPUT' && event.target.type == 'range' ) {
-	    // reset pointerDown logic
-	    this.isPointerDown = false;
-	    delete this.pointerIdentifier;
-	    return;
-	  }
-	
-	  this._dragPointerDown( event, pointer );
-	  // kludge to blur focused inputs in dragger
-	  var focused = document.activeElement;
-	  if ( focused && focused.blur ) {
-	    focused.blur();
-	  }
-	  // bind move and end events
-	  this._bindPostStartEvents( event );
-	  this.emitEvent( 'pointerDown', [ event, pointer ] );
-	};
-	
-	// base pointer down logic
-	proto._dragPointerDown = function( event, pointer ) {
-	  // track to see when dragging starts
-	  this.pointerDownPoint = Unipointer.getPointerPoint( pointer );
-	
-	  var canPreventDefault = this.canPreventDefaultOnPointerDown( event, pointer );
-	  if ( canPreventDefault ) {
-	    event.preventDefault();
-	  }
-	};
-	
-	// overwriteable method so Flickity can prevent for scrolling
-	proto.canPreventDefaultOnPointerDown = function( event ) {
-	  // prevent default, unless touchstart or <select>
-	  return event.target.nodeName != 'SELECT';
-	};
-	
-	// ----- move event ----- //
-	
-	/**
-	 * drag move
-	 * @param {Event} event
-	 * @param {Event or Touch} pointer
-	 */
-	proto.pointerMove = function( event, pointer ) {
-	  var moveVector = this._dragPointerMove( event, pointer );
-	  this.emitEvent( 'pointerMove', [ event, pointer, moveVector ] );
-	  this._dragMove( event, pointer, moveVector );
-	};
-	
-	// base pointer move logic
-	proto._dragPointerMove = function( event, pointer ) {
-	  var movePoint = Unipointer.getPointerPoint( pointer );
-	  var moveVector = {
-	    x: movePoint.x - this.pointerDownPoint.x,
-	    y: movePoint.y - this.pointerDownPoint.y
-	  };
-	  // start drag if pointer has moved far enough to start drag
-	  if ( !this.isDragging && this.hasDragStarted( moveVector ) ) {
-	    this._dragStart( event, pointer );
-	  }
-	  return moveVector;
-	};
-	
-	// condition if pointer has moved far enough to start drag
-	proto.hasDragStarted = function( moveVector ) {
-	  return Math.abs( moveVector.x ) > 3 || Math.abs( moveVector.y ) > 3;
-	};
-	
-	
-	// ----- end event ----- //
-	
-	/**
-	 * pointer up
-	 * @param {Event} event
-	 * @param {Event or Touch} pointer
-	 */
-	proto.pointerUp = function( event, pointer ) {
-	  this.emitEvent( 'pointerUp', [ event, pointer ] );
-	  this._dragPointerUp( event, pointer );
-	};
-	
-	proto._dragPointerUp = function( event, pointer ) {
-	  if ( this.isDragging ) {
-	    this._dragEnd( event, pointer );
-	  } else {
-	    // pointer didn't move enough for drag to start
-	    this._staticClick( event, pointer );
-	  }
-	};
-	
-	// -------------------------- drag -------------------------- //
-	
-	// dragStart
-	proto._dragStart = function( event, pointer ) {
-	  this.isDragging = true;
-	  this.dragStartPoint = Unipointer.getPointerPoint( pointer );
-	  // prevent clicks
-	  this.isPreventingClicks = true;
-	
-	  this.dragStart( event, pointer );
-	};
-	
-	proto.dragStart = function( event, pointer ) {
-	  this.emitEvent( 'dragStart', [ event, pointer ] );
-	};
-	
-	// dragMove
-	proto._dragMove = function( event, pointer, moveVector ) {
-	  // do not drag if not dragging yet
-	  if ( !this.isDragging ) {
-	    return;
-	  }
-	
-	  this.dragMove( event, pointer, moveVector );
-	};
-	
-	proto.dragMove = function( event, pointer, moveVector ) {
-	  event.preventDefault();
-	  this.emitEvent( 'dragMove', [ event, pointer, moveVector ] );
-	};
-	
-	// dragEnd
-	proto._dragEnd = function( event, pointer ) {
-	  // set flags
-	  this.isDragging = false;
-	  // re-enable clicking async
-	  setTimeout( function() {
-	    delete this.isPreventingClicks;
-	  }.bind( this ) );
-	
-	  this.dragEnd( event, pointer );
-	};
-	
-	proto.dragEnd = function( event, pointer ) {
-	  this.emitEvent( 'dragEnd', [ event, pointer ] );
-	};
-	
-	// ----- onclick ----- //
-	
-	// handle all clicks and prevent clicks when dragging
-	proto.onclick = function( event ) {
-	  if ( this.isPreventingClicks ) {
-	    event.preventDefault();
-	  }
-	};
-	
-	// ----- staticClick ----- //
-	
-	// triggered after pointer down & up with no/tiny movement
-	proto._staticClick = function( event, pointer ) {
-	  // ignore emulated mouse up clicks
-	  if ( this.isIgnoringMouseUp && event.type == 'mouseup' ) {
-	    return;
-	  }
-	
-	  // allow click in <input>s and <textarea>s
-	  var nodeName = event.target.nodeName;
-	  if ( nodeName == 'INPUT' || nodeName == 'TEXTAREA' ) {
-	    event.target.focus();
-	  }
-	  this.staticClick( event, pointer );
-	
-	  // set flag for emulated clicks 300ms after touchend
-	  if ( event.type != 'mouseup' ) {
-	    this.isIgnoringMouseUp = true;
-	    // reset flag after 300ms
-	    setTimeout( function() {
-	      delete this.isIgnoringMouseUp;
-	    }.bind( this ), 400 );
-	  }
-	};
-	
-	proto.staticClick = function( event, pointer ) {
-	  this.emitEvent( 'staticClick', [ event, pointer ] );
-	};
-	
-	// ----- utils ----- //
-	
-	Unidragger.getPointerPoint = Unipointer.getPointerPoint;
-	
-	// -----  ----- //
-	
-	return Unidragger;
-	
-	}));
-
-
-/***/ }),
-/* 453 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
-	 * Unipointer v2.2.0
-	 * base class for doing one thing with pointer event
-	 * MIT license
-	 */
-	
-	/*jshint browser: true, undef: true, unused: true, strict: true */
-	
-	( function( window, factory ) {
-	  // universal module definition
-	  /* jshint strict: false */ /*global define, module, require */
-	  if ( true ) {
-	    // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [
-	      __webpack_require__(444)
-	    ], __WEBPACK_AMD_DEFINE_RESULT__ = function( EvEmitter ) {
-	      return factory( window, EvEmitter );
-	    }.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
-	  } else if ( typeof module == 'object' && module.exports ) {
-	    // CommonJS
-	    module.exports = factory(
-	      window,
-	      require('ev-emitter')
-	    );
-	  } else {
-	    // browser global
-	    window.Unipointer = factory(
-	      window,
-	      window.EvEmitter
-	    );
-	  }
-	
-	}( window, function factory( window, EvEmitter ) {
-	
-	'use strict';
-	
-	function noop() {}
-	
-	function Unipointer() {}
-	
-	// inherit EvEmitter
-	var proto = Unipointer.prototype = Object.create( EvEmitter.prototype );
-	
-	proto.bindStartEvent = function( elem ) {
-	  this._bindStartEvent( elem, true );
-	};
-	
-	proto.unbindStartEvent = function( elem ) {
-	  this._bindStartEvent( elem, false );
-	};
-	
-	/**
-	 * works as unbinder, as you can ._bindStart( false ) to unbind
-	 * @param {Boolean} isBind - will unbind if falsey
-	 */
-	proto._bindStartEvent = function( elem, isBind ) {
-	  // munge isBind, default to true
-	  isBind = isBind === undefined ? true : !!isBind;
-	  var bindMethod = isBind ? 'addEventListener' : 'removeEventListener';
-	
-	  if ( window.PointerEvent ) {
-	    // Pointer Events. Chrome 55, IE11, Edge 14
-	    elem[ bindMethod ]( 'pointerdown', this );
-	  } else {
-	    // listen for both, for devices like Chrome Pixel
-	    elem[ bindMethod ]( 'mousedown', this );
-	    elem[ bindMethod ]( 'touchstart', this );
-	  }
-	};
-	
-	// trigger handler methods for events
-	proto.handleEvent = function( event ) {
-	  var method = 'on' + event.type;
-	  if ( this[ method ] ) {
-	    this[ method ]( event );
-	  }
-	};
-	
-	// returns the touch that we're keeping track of
-	proto.getTouch = function( touches ) {
-	  for ( var i=0; i < touches.length; i++ ) {
-	    var touch = touches[i];
-	    if ( touch.identifier == this.pointerIdentifier ) {
-	      return touch;
-	    }
-	  }
-	};
-	
-	// ----- start event ----- //
-	
-	proto.onmousedown = function( event ) {
-	  // dismiss clicks from right or middle buttons
-	  var button = event.button;
-	  if ( button && ( button !== 0 && button !== 1 ) ) {
-	    return;
-	  }
-	  this._pointerDown( event, event );
-	};
-	
-	proto.ontouchstart = function( event ) {
-	  this._pointerDown( event, event.changedTouches[0] );
-	};
-	
-	proto.onpointerdown = function( event ) {
-	  this._pointerDown( event, event );
-	};
-	
-	/**
-	 * pointer start
-	 * @param {Event} event
-	 * @param {Event or Touch} pointer
-	 */
-	proto._pointerDown = function( event, pointer ) {
-	  // dismiss other pointers
-	  if ( this.isPointerDown ) {
-	    return;
-	  }
-	
-	  this.isPointerDown = true;
-	  // save pointer identifier to match up touch events
-	  this.pointerIdentifier = pointer.pointerId !== undefined ?
-	    // pointerId for pointer events, touch.indentifier for touch events
-	    pointer.pointerId : pointer.identifier;
-	
-	  this.pointerDown( event, pointer );
-	};
-	
-	proto.pointerDown = function( event, pointer ) {
-	  this._bindPostStartEvents( event );
-	  this.emitEvent( 'pointerDown', [ event, pointer ] );
-	};
-	
-	// hash of events to be bound after start event
-	var postStartEvents = {
-	  mousedown: [ 'mousemove', 'mouseup' ],
-	  touchstart: [ 'touchmove', 'touchend', 'touchcancel' ],
-	  pointerdown: [ 'pointermove', 'pointerup', 'pointercancel' ],
-	};
-	
-	proto._bindPostStartEvents = function( event ) {
-	  if ( !event ) {
-	    return;
-	  }
-	  // get proper events to match start event
-	  var events = postStartEvents[ event.type ];
-	  // bind events to node
-	  events.forEach( function( eventName ) {
-	    window.addEventListener( eventName, this );
-	  }, this );
-	  // save these arguments
-	  this._boundPointerEvents = events;
-	};
-	
-	proto._unbindPostStartEvents = function() {
-	  // check for _boundEvents, in case dragEnd triggered twice (old IE8 bug)
-	  if ( !this._boundPointerEvents ) {
-	    return;
-	  }
-	  this._boundPointerEvents.forEach( function( eventName ) {
-	    window.removeEventListener( eventName, this );
-	  }, this );
-	
-	  delete this._boundPointerEvents;
-	};
-	
-	// ----- move event ----- //
-	
-	proto.onmousemove = function( event ) {
-	  this._pointerMove( event, event );
-	};
-	
-	proto.onpointermove = function( event ) {
-	  if ( event.pointerId == this.pointerIdentifier ) {
-	    this._pointerMove( event, event );
-	  }
-	};
-	
-	proto.ontouchmove = function( event ) {
-	  var touch = this.getTouch( event.changedTouches );
-	  if ( touch ) {
-	    this._pointerMove( event, touch );
-	  }
-	};
-	
-	/**
-	 * pointer move
-	 * @param {Event} event
-	 * @param {Event or Touch} pointer
-	 * @private
-	 */
-	proto._pointerMove = function( event, pointer ) {
-	  this.pointerMove( event, pointer );
-	};
-	
-	// public
-	proto.pointerMove = function( event, pointer ) {
-	  this.emitEvent( 'pointerMove', [ event, pointer ] );
-	};
-	
-	// ----- end event ----- //
-	
-	
-	proto.onmouseup = function( event ) {
-	  this._pointerUp( event, event );
-	};
-	
-	proto.onpointerup = function( event ) {
-	  if ( event.pointerId == this.pointerIdentifier ) {
-	    this._pointerUp( event, event );
-	  }
-	};
-	
-	proto.ontouchend = function( event ) {
-	  var touch = this.getTouch( event.changedTouches );
-	  if ( touch ) {
-	    this._pointerUp( event, touch );
-	  }
-	};
-	
-	/**
-	 * pointer up
-	 * @param {Event} event
-	 * @param {Event or Touch} pointer
-	 * @private
-	 */
-	proto._pointerUp = function( event, pointer ) {
-	  this._pointerDone();
-	  this.pointerUp( event, pointer );
-	};
-	
-	// public
-	proto.pointerUp = function( event, pointer ) {
-	  this.emitEvent( 'pointerUp', [ event, pointer ] );
-	};
-	
-	// ----- pointer done ----- //
-	
-	// triggered on pointer up & pointer cancel
-	proto._pointerDone = function() {
-	  // reset properties
-	  this.isPointerDown = false;
-	  delete this.pointerIdentifier;
-	  // remove events
-	  this._unbindPostStartEvents();
-	  this.pointerDone();
-	};
-	
-	proto.pointerDone = noop;
-	
-	// ----- pointer cancel ----- //
-	
-	proto.onpointercancel = function( event ) {
-	  if ( event.pointerId == this.pointerIdentifier ) {
-	    this._pointerCancel( event, event );
-	  }
-	};
-	
-	proto.ontouchcancel = function( event ) {
-	  var touch = this.getTouch( event.changedTouches );
-	  if ( touch ) {
-	    this._pointerCancel( event, touch );
-	  }
-	};
-	
-	/**
-	 * pointer cancel
-	 * @param {Event} event
-	 * @param {Event or Touch} pointer
-	 * @private
-	 */
-	proto._pointerCancel = function( event, pointer ) {
-	  this._pointerDone();
-	  this.pointerCancel( event, pointer );
-	};
-	
-	// public
-	proto.pointerCancel = function( event, pointer ) {
-	  this.emitEvent( 'pointerCancel', [ event, pointer ] );
-	};
-	
-	// -----  ----- //
-	
-	// utility function for getting x/y coords from event
-	Unipointer.getPointerPoint = function( pointer ) {
-	  return {
-	    x: pointer.pageX,
-	    y: pointer.pageY
-	  };
-	};
-	
-	// -----  ----- //
-	
-	return Unipointer;
-	
-	}));
-
-
-/***/ }),
-/* 454 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;// prev/next buttons
-	( function( window, factory ) {
-	  // universal module definition
-	  /* jshint strict: false */
-	  if ( true ) {
-	    // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [
-	      __webpack_require__(443),
-	      __webpack_require__(455),
-	      __webpack_require__(446)
-	    ], __WEBPACK_AMD_DEFINE_RESULT__ = function( Flickity, TapListener, utils ) {
-	      return factory( window, Flickity, TapListener, utils );
-	    }.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
-	  } else if ( typeof module == 'object' && module.exports ) {
-	    // CommonJS
-	    module.exports = factory(
-	      window,
-	      require('./flickity'),
-	      require('tap-listener'),
-	      require('fizzy-ui-utils')
-	    );
-	  } else {
-	    // browser global
-	    factory(
-	      window,
-	      window.Flickity,
-	      window.TapListener,
-	      window.fizzyUIUtils
-	    );
-	  }
-	
-	}( window, function factory( window, Flickity, TapListener, utils ) {
-	'use strict';
-	
-	var svgURI = 'http://www.w3.org/2000/svg';
-	
-	// -------------------------- PrevNextButton -------------------------- //
-	
-	function PrevNextButton( direction, parent ) {
-	  this.direction = direction;
-	  this.parent = parent;
-	  this._create();
-	}
-	
-	PrevNextButton.prototype = new TapListener();
-	
-	PrevNextButton.prototype._create = function() {
-	  // properties
-	  this.isEnabled = true;
-	  this.isPrevious = this.direction == -1;
-	  var leftDirection = this.parent.options.rightToLeft ? 1 : -1;
-	  this.isLeft = this.direction == leftDirection;
-	
-	  var element = this.element = document.createElement('button');
-	  element.className = 'flickity-prev-next-button';
-	  element.className += this.isPrevious ? ' previous' : ' next';
-	  // prevent button from submitting form http://stackoverflow.com/a/10836076/182183
-	  element.setAttribute( 'type', 'button' );
-	  // init as disabled
-	  this.disable();
-	
-	  element.setAttribute( 'aria-label', this.isPrevious ? 'previous' : 'next' );
-	
-	  // create arrow
-	  var svg = this.createSVG();
-	  element.appendChild( svg );
-	  // events
-	  this.on( 'tap', this.onTap );
-	  this.parent.on( 'select', this.update.bind( this ) );
-	  this.on( 'pointerDown', this.parent.childUIPointerDown.bind( this.parent ) );
-	};
-	
-	PrevNextButton.prototype.activate = function() {
-	  this.bindTap( this.element );
-	  // click events from keyboard
-	  this.element.addEventListener( 'click', this );
-	  // add to DOM
-	  this.parent.element.appendChild( this.element );
-	};
-	
-	PrevNextButton.prototype.deactivate = function() {
-	  // remove from DOM
-	  this.parent.element.removeChild( this.element );
-	  // do regular TapListener destroy
-	  TapListener.prototype.destroy.call( this );
-	  // click events from keyboard
-	  this.element.removeEventListener( 'click', this );
-	};
-	
-	PrevNextButton.prototype.createSVG = function() {
-	  var svg = document.createElementNS( svgURI, 'svg');
-	  svg.setAttribute( 'viewBox', '0 0 100 100' );
-	  var path = document.createElementNS( svgURI, 'path');
-	  var pathMovements = getArrowMovements( this.parent.options.arrowShape );
-	  path.setAttribute( 'd', pathMovements );
-	  path.setAttribute( 'class', 'arrow' );
-	  // rotate arrow
-	  if ( !this.isLeft ) {
-	    path.setAttribute( 'transform', 'translate(100, 100) rotate(180) ' );
-	  }
-	  svg.appendChild( path );
-	  return svg;
-	};
-	
-	// get SVG path movmement
-	function getArrowMovements( shape ) {
-	  // use shape as movement if string
-	  if ( typeof shape == 'string' ) {
-	    return shape;
-	  }
-	  // create movement string
-	  return 'M ' + shape.x0 + ',50' +
-	    ' L ' + shape.x1 + ',' + ( shape.y1 + 50 ) +
-	    ' L ' + shape.x2 + ',' + ( shape.y2 + 50 ) +
-	    ' L ' + shape.x3 + ',50 ' +
-	    ' L ' + shape.x2 + ',' + ( 50 - shape.y2 ) +
-	    ' L ' + shape.x1 + ',' + ( 50 - shape.y1 ) +
-	    ' Z';
-	}
-	
-	PrevNextButton.prototype.onTap = function() {
-	  if ( !this.isEnabled ) {
-	    return;
-	  }
-	  this.parent.uiChange();
-	  var method = this.isPrevious ? 'previous' : 'next';
-	  this.parent[ method ]();
-	};
-	
-	PrevNextButton.prototype.handleEvent = utils.handleEvent;
-	
-	PrevNextButton.prototype.onclick = function() {
-	  // only allow clicks from keyboard
-	  var focused = document.activeElement;
-	  if ( focused && focused == this.element ) {
-	    this.onTap();
-	  }
-	};
-	
-	// -----  ----- //
-	
-	PrevNextButton.prototype.enable = function() {
-	  if ( this.isEnabled ) {
-	    return;
-	  }
-	  this.element.disabled = false;
-	  this.isEnabled = true;
-	};
-	
-	PrevNextButton.prototype.disable = function() {
-	  if ( !this.isEnabled ) {
-	    return;
-	  }
-	  this.element.disabled = true;
-	  this.isEnabled = false;
-	};
-	
-	PrevNextButton.prototype.update = function() {
-	  // index of first or last slide, if previous or next
-	  var slides = this.parent.slides;
-	  // enable is wrapAround and at least 2 slides
-	  if ( this.parent.options.wrapAround && slides.length > 1 ) {
-	    this.enable();
-	    return;
-	  }
-	  var lastIndex = slides.length ? slides.length - 1 : 0;
-	  var boundIndex = this.isPrevious ? 0 : lastIndex;
-	  var method = this.parent.selectedIndex == boundIndex ? 'disable' : 'enable';
-	  this[ method ]();
-	};
-	
-	PrevNextButton.prototype.destroy = function() {
-	  this.deactivate();
-	};
-	
-	// -------------------------- Flickity prototype -------------------------- //
-	
-	utils.extend( Flickity.defaults, {
-	  prevNextButtons: true,
-	  arrowShape: {
-	    x0: 10,
-	    x1: 60, y1: 50,
-	    x2: 70, y2: 40,
-	    x3: 30
-	  }
-	});
-	
-	Flickity.createMethods.push('_createPrevNextButtons');
-	var proto = Flickity.prototype;
-	
-	proto._createPrevNextButtons = function() {
-	  if ( !this.options.prevNextButtons ) {
-	    return;
-	  }
-	
-	  this.prevButton = new PrevNextButton( -1, this );
-	  this.nextButton = new PrevNextButton( 1, this );
-	
-	  this.on( 'activate', this.activatePrevNextButtons );
-	};
-	
-	proto.activatePrevNextButtons = function() {
-	  this.prevButton.activate();
-	  this.nextButton.activate();
-	  this.on( 'deactivate', this.deactivatePrevNextButtons );
-	};
-	
-	proto.deactivatePrevNextButtons = function() {
-	  this.prevButton.deactivate();
-	  this.nextButton.deactivate();
-	  this.off( 'deactivate', this.deactivatePrevNextButtons );
-	};
-	
-	// --------------------------  -------------------------- //
-	
-	Flickity.PrevNextButton = PrevNextButton;
-	
-	return Flickity;
-	
-	}));
-
-
-/***/ }),
-/* 455 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
-	 * Tap listener v2.0.0
-	 * listens to taps
-	 * MIT license
-	 */
-	
-	/*jshint browser: true, unused: true, undef: true, strict: true */
-	
-	( function( window, factory ) {
-	  // universal module definition
-	  /*jshint strict: false*/ /*globals define, module, require */
-	
-	  if ( true ) {
-	    // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [
-	      __webpack_require__(453)
-	    ], __WEBPACK_AMD_DEFINE_RESULT__ = function( Unipointer ) {
-	      return factory( window, Unipointer );
-	    }.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
-	  } else if ( typeof module == 'object' && module.exports ) {
-	    // CommonJS
-	    module.exports = factory(
-	      window,
-	      require('unipointer')
-	    );
-	  } else {
-	    // browser global
-	    window.TapListener = factory(
-	      window,
-	      window.Unipointer
-	    );
-	  }
-	
-	}( window, function factory( window, Unipointer ) {
-	
-	'use strict';
-	
-	// --------------------------  TapListener -------------------------- //
-	
-	function TapListener( elem ) {
-	  this.bindTap( elem );
-	}
-	
-	// inherit Unipointer & EventEmitter
-	var proto = TapListener.prototype = Object.create( Unipointer.prototype );
-	
-	/**
-	 * bind tap event to element
-	 * @param {Element} elem
-	 */
-	proto.bindTap = function( elem ) {
-	  if ( !elem ) {
-	    return;
-	  }
-	  this.unbindTap();
-	  this.tapElement = elem;
-	  this._bindStartEvent( elem, true );
-	};
-	
-	proto.unbindTap = function() {
-	  if ( !this.tapElement ) {
-	    return;
-	  }
-	  this._bindStartEvent( this.tapElement, true );
-	  delete this.tapElement;
-	};
-	
-	/**
-	 * pointer up
-	 * @param {Event} event
-	 * @param {Event or Touch} pointer
-	 */
-	proto.pointerUp = function( event, pointer ) {
-	  // ignore emulated mouse up clicks
-	  if ( this.isIgnoringMouseUp && event.type == 'mouseup' ) {
-	    return;
-	  }
-	
-	  var pointerPoint = Unipointer.getPointerPoint( pointer );
-	  var boundingRect = this.tapElement.getBoundingClientRect();
-	  var scrollX = window.pageXOffset;
-	  var scrollY = window.pageYOffset;
-	  // calculate if pointer is inside tapElement
-	  var isInside = pointerPoint.x >= boundingRect.left + scrollX &&
-	    pointerPoint.x <= boundingRect.right + scrollX &&
-	    pointerPoint.y >= boundingRect.top + scrollY &&
-	    pointerPoint.y <= boundingRect.bottom + scrollY;
-	  // trigger callback if pointer is inside element
-	  if ( isInside ) {
-	    this.emitEvent( 'tap', [ event, pointer ] );
-	  }
-	
-	  // set flag for emulated clicks 300ms after touchend
-	  if ( event.type != 'mouseup' ) {
-	    this.isIgnoringMouseUp = true;
-	    // reset flag after 300ms
-	    var _this = this;
-	    setTimeout( function() {
-	      delete _this.isIgnoringMouseUp;
-	    }, 400 );
-	  }
-	};
-	
-	proto.destroy = function() {
-	  this.pointerDone();
-	  this.unbindTap();
-	};
-	
-	// -----  ----- //
-	
-	return TapListener;
-	
-	}));
-
-
-/***/ }),
-/* 456 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;// page dots
-	( function( window, factory ) {
-	  // universal module definition
-	  /* jshint strict: false */
-	  if ( true ) {
-	    // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [
-	      __webpack_require__(443),
-	      __webpack_require__(455),
-	      __webpack_require__(446)
-	    ], __WEBPACK_AMD_DEFINE_RESULT__ = function( Flickity, TapListener, utils ) {
-	      return factory( window, Flickity, TapListener, utils );
-	    }.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
-	  } else if ( typeof module == 'object' && module.exports ) {
-	    // CommonJS
-	    module.exports = factory(
-	      window,
-	      require('./flickity'),
-	      require('tap-listener'),
-	      require('fizzy-ui-utils')
-	    );
-	  } else {
-	    // browser global
-	    factory(
-	      window,
-	      window.Flickity,
-	      window.TapListener,
-	      window.fizzyUIUtils
-	    );
-	  }
-	
-	}( window, function factory( window, Flickity, TapListener, utils ) {
-	
-	// -------------------------- PageDots -------------------------- //
-	
-	'use strict';
-	
-	function PageDots( parent ) {
-	  this.parent = parent;
-	  this._create();
-	}
-	
-	PageDots.prototype = new TapListener();
-	
-	PageDots.prototype._create = function() {
-	  // create holder element
-	  this.holder = document.createElement('ol');
-	  this.holder.className = 'flickity-page-dots';
-	  // create dots, array of elements
-	  this.dots = [];
-	  // events
-	  this.on( 'tap', this.onTap );
-	  this.on( 'pointerDown', this.parent.childUIPointerDown.bind( this.parent ) );
-	};
-	
-	PageDots.prototype.activate = function() {
-	  this.setDots();
-	  this.bindTap( this.holder );
-	  // add to DOM
-	  this.parent.element.appendChild( this.holder );
-	};
-	
-	PageDots.prototype.deactivate = function() {
-	  // remove from DOM
-	  this.parent.element.removeChild( this.holder );
-	  TapListener.prototype.destroy.call( this );
-	};
-	
-	PageDots.prototype.setDots = function() {
-	  // get difference between number of slides and number of dots
-	  var delta = this.parent.slides.length - this.dots.length;
-	  if ( delta > 0 ) {
-	    this.addDots( delta );
-	  } else if ( delta < 0 ) {
-	    this.removeDots( -delta );
-	  }
-	};
-	
-	PageDots.prototype.addDots = function( count ) {
-	  var fragment = document.createDocumentFragment();
-	  var newDots = [];
-	  while ( count ) {
-	    var dot = document.createElement('li');
-	    dot.className = 'dot';
-	    fragment.appendChild( dot );
-	    newDots.push( dot );
-	    count--;
-	  }
-	  this.holder.appendChild( fragment );
-	  this.dots = this.dots.concat( newDots );
-	};
-	
-	PageDots.prototype.removeDots = function( count ) {
-	  // remove from this.dots collection
-	  var removeDots = this.dots.splice( this.dots.length - count, count );
-	  // remove from DOM
-	  removeDots.forEach( function( dot ) {
-	    this.holder.removeChild( dot );
-	  }, this );
-	};
-	
-	PageDots.prototype.updateSelected = function() {
-	  // remove selected class on previous
-	  if ( this.selectedDot ) {
-	    this.selectedDot.className = 'dot';
-	  }
-	  // don't proceed if no dots
-	  if ( !this.dots.length ) {
-	    return;
-	  }
-	  this.selectedDot = this.dots[ this.parent.selectedIndex ];
-	  this.selectedDot.className = 'dot is-selected';
-	};
-	
-	PageDots.prototype.onTap = function( event ) {
-	  var target = event.target;
-	  // only care about dot clicks
-	  if ( target.nodeName != 'LI' ) {
-	    return;
-	  }
-	
-	  this.parent.uiChange();
-	  var index = this.dots.indexOf( target );
-	  this.parent.select( index );
-	};
-	
-	PageDots.prototype.destroy = function() {
-	  this.deactivate();
-	};
-	
-	Flickity.PageDots = PageDots;
-	
-	// -------------------------- Flickity -------------------------- //
-	
-	utils.extend( Flickity.defaults, {
-	  pageDots: true
-	});
-	
-	Flickity.createMethods.push('_createPageDots');
-	
-	var proto = Flickity.prototype;
-	
-	proto._createPageDots = function() {
-	  if ( !this.options.pageDots ) {
-	    return;
-	  }
-	  this.pageDots = new PageDots( this );
-	  // events
-	  this.on( 'activate', this.activatePageDots );
-	  this.on( 'select', this.updateSelectedPageDots );
-	  this.on( 'cellChange', this.updatePageDots );
-	  this.on( 'resize', this.updatePageDots );
-	  this.on( 'deactivate', this.deactivatePageDots );
-	};
-	
-	proto.activatePageDots = function() {
-	  this.pageDots.activate();
-	};
-	
-	proto.updateSelectedPageDots = function() {
-	  this.pageDots.updateSelected();
-	};
-	
-	proto.updatePageDots = function() {
-	  this.pageDots.setDots();
-	};
-	
-	proto.deactivatePageDots = function() {
-	  this.pageDots.deactivate();
-	};
-	
-	// -----  ----- //
-	
-	Flickity.PageDots = PageDots;
-	
-	return Flickity;
-	
-	}));
-
-
-/***/ }),
-/* 457 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;// player & autoPlay
-	( function( window, factory ) {
-	  // universal module definition
-	  /* jshint strict: false */
-	  if ( true ) {
-	    // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [
-	      __webpack_require__(444),
-	      __webpack_require__(446),
-	      __webpack_require__(443)
-	    ], __WEBPACK_AMD_DEFINE_RESULT__ = function( EvEmitter, utils, Flickity ) {
-	      return factory( EvEmitter, utils, Flickity );
-	    }.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
-	  } else if ( typeof module == 'object' && module.exports ) {
-	    // CommonJS
-	    module.exports = factory(
-	      require('ev-emitter'),
-	      require('fizzy-ui-utils'),
-	      require('./flickity')
-	    );
-	  } else {
-	    // browser global
-	    factory(
-	      window.EvEmitter,
-	      window.fizzyUIUtils,
-	      window.Flickity
-	    );
-	  }
-	
-	}( window, function factory( EvEmitter, utils, Flickity ) {
-	
-	'use strict';
-	
-	// -------------------------- Page Visibility -------------------------- //
-	// https://developer.mozilla.org/en-US/docs/Web/Guide/User_experience/Using_the_Page_Visibility_API
-	
-	var hiddenProperty, visibilityEvent;
-	if ( 'hidden' in document ) {
-	  hiddenProperty = 'hidden';
-	  visibilityEvent = 'visibilitychange';
-	} else if ( 'webkitHidden' in document ) {
-	  hiddenProperty = 'webkitHidden';
-	  visibilityEvent = 'webkitvisibilitychange';
-	}
-	
-	// -------------------------- Player -------------------------- //
-	
-	function Player( parent ) {
-	  this.parent = parent;
-	  this.state = 'stopped';
-	  // visibility change event handler
-	  if ( visibilityEvent ) {
-	    this.onVisibilityChange = function() {
-	      this.visibilityChange();
-	    }.bind( this );
-	    this.onVisibilityPlay = function() {
-	      this.visibilityPlay();
-	    }.bind( this );
-	  }
-	}
-	
-	Player.prototype = Object.create( EvEmitter.prototype );
-	
-	// start play
-	Player.prototype.play = function() {
-	  if ( this.state == 'playing' ) {
-	    return;
-	  }
-	  // do not play if page is hidden, start playing when page is visible
-	  var isPageHidden = document[ hiddenProperty ];
-	  if ( visibilityEvent && isPageHidden ) {
-	    document.addEventListener( visibilityEvent, this.onVisibilityPlay );
-	    return;
-	  }
-	
-	  this.state = 'playing';
-	  // listen to visibility change
-	  if ( visibilityEvent ) {
-	    document.addEventListener( visibilityEvent, this.onVisibilityChange );
-	  }
-	  // start ticking
-	  this.tick();
-	};
-	
-	Player.prototype.tick = function() {
-	  // do not tick if not playing
-	  if ( this.state != 'playing' ) {
-	    return;
-	  }
-	
-	  var time = this.parent.options.autoPlay;
-	  // default to 3 seconds
-	  time = typeof time == 'number' ? time : 3000;
-	  var _this = this;
-	  // HACK: reset ticks if stopped and started within interval
-	  this.clear();
-	  this.timeout = setTimeout( function() {
-	    _this.parent.next( true );
-	    _this.tick();
-	  }, time );
-	};
-	
-	Player.prototype.stop = function() {
-	  this.state = 'stopped';
-	  this.clear();
-	  // remove visibility change event
-	  if ( visibilityEvent ) {
-	    document.removeEventListener( visibilityEvent, this.onVisibilityChange );
-	  }
-	};
-	
-	Player.prototype.clear = function() {
-	  clearTimeout( this.timeout );
-	};
-	
-	Player.prototype.pause = function() {
-	  if ( this.state == 'playing' ) {
-	    this.state = 'paused';
-	    this.clear();
-	  }
-	};
-	
-	Player.prototype.unpause = function() {
-	  // re-start play if paused
-	  if ( this.state == 'paused' ) {
-	    this.play();
-	  }
-	};
-	
-	// pause if page visibility is hidden, unpause if visible
-	Player.prototype.visibilityChange = function() {
-	  var isPageHidden = document[ hiddenProperty ];
-	  this[ isPageHidden ? 'pause' : 'unpause' ]();
-	};
-	
-	Player.prototype.visibilityPlay = function() {
-	  this.play();
-	  document.removeEventListener( visibilityEvent, this.onVisibilityPlay );
-	};
-	
-	// -------------------------- Flickity -------------------------- //
-	
-	utils.extend( Flickity.defaults, {
-	  pauseAutoPlayOnHover: true
-	});
-	
-	Flickity.createMethods.push('_createPlayer');
-	var proto = Flickity.prototype;
-	
-	proto._createPlayer = function() {
-	  this.player = new Player( this );
-	
-	  this.on( 'activate', this.activatePlayer );
-	  this.on( 'uiChange', this.stopPlayer );
-	  this.on( 'pointerDown', this.stopPlayer );
-	  this.on( 'deactivate', this.deactivatePlayer );
-	};
-	
-	proto.activatePlayer = function() {
-	  if ( !this.options.autoPlay ) {
-	    return;
-	  }
-	  this.player.play();
-	  this.element.addEventListener( 'mouseenter', this );
-	};
-	
-	// Player API, don't hate the ... thanks I know where the door is
-	
-	proto.playPlayer = function() {
-	  this.player.play();
-	};
-	
-	proto.stopPlayer = function() {
-	  this.player.stop();
-	};
-	
-	proto.pausePlayer = function() {
-	  this.player.pause();
-	};
-	
-	proto.unpausePlayer = function() {
-	  this.player.unpause();
-	};
-	
-	proto.deactivatePlayer = function() {
-	  this.player.stop();
-	  this.element.removeEventListener( 'mouseenter', this );
-	};
-	
-	// ----- mouseenter/leave ----- //
-	
-	// pause auto-play on hover
-	proto.onmouseenter = function() {
-	  if ( !this.options.pauseAutoPlayOnHover ) {
-	    return;
-	  }
-	  this.player.pause();
-	  this.element.addEventListener( 'mouseleave', this );
-	};
-	
-	// resume auto-play on hover off
-	proto.onmouseleave = function() {
-	  this.player.unpause();
-	  this.element.removeEventListener( 'mouseleave', this );
-	};
-	
-	// -----  ----- //
-	
-	Flickity.Player = Player;
-	
-	return Flickity;
-	
-	}));
-
-
-/***/ }),
-/* 458 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;// add, remove cell
-	( function( window, factory ) {
-	  // universal module definition
-	  /* jshint strict: false */
-	  if ( true ) {
-	    // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [
-	      __webpack_require__(443),
-	      __webpack_require__(446)
-	    ], __WEBPACK_AMD_DEFINE_RESULT__ = function( Flickity, utils ) {
-	      return factory( window, Flickity, utils );
-	    }.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
-	  } else if ( typeof module == 'object' && module.exports ) {
-	    // CommonJS
-	    module.exports = factory(
-	      window,
-	      require('./flickity'),
-	      require('fizzy-ui-utils')
-	    );
-	  } else {
-	    // browser global
-	    factory(
-	      window,
-	      window.Flickity,
-	      window.fizzyUIUtils
-	    );
-	  }
-	
-	}( window, function factory( window, Flickity, utils ) {
-	
-	'use strict';
-	
-	// append cells to a document fragment
-	function getCellsFragment( cells ) {
-	  var fragment = document.createDocumentFragment();
-	  cells.forEach( function( cell ) {
-	    fragment.appendChild( cell.element );
-	  });
-	  return fragment;
-	}
-	
-	// -------------------------- add/remove cell prototype -------------------------- //
-	
-	var proto = Flickity.prototype;
-	
-	/**
-	 * Insert, prepend, or append cells
-	 * @param {Element, Array, NodeList} elems
-	 * @param {Integer} index
-	 */
-	proto.insert = function( elems, index ) {
-	  var cells = this._makeCells( elems );
-	  if ( !cells || !cells.length ) {
-	    return;
-	  }
-	  var len = this.cells.length;
-	  // default to append
-	  index = index === undefined ? len : index;
-	  // add cells with document fragment
-	  var fragment = getCellsFragment( cells );
-	  // append to slider
-	  var isAppend = index == len;
-	  if ( isAppend ) {
-	    this.slider.appendChild( fragment );
-	  } else {
-	    var insertCellElement = this.cells[ index ].element;
-	    this.slider.insertBefore( fragment, insertCellElement );
-	  }
-	  // add to this.cells
-	  if ( index === 0 ) {
-	    // prepend, add to start
-	    this.cells = cells.concat( this.cells );
-	  } else if ( isAppend ) {
-	    // append, add to end
-	    this.cells = this.cells.concat( cells );
-	  } else {
-	    // insert in this.cells
-	    var endCells = this.cells.splice( index, len - index );
-	    this.cells = this.cells.concat( cells ).concat( endCells );
-	  }
-	
-	  this._sizeCells( cells );
-	
-	  var selectedIndexDelta = index > this.selectedIndex ? 0 : cells.length;
-	  this._cellAddedRemoved( index, selectedIndexDelta );
-	};
-	
-	proto.append = function( elems ) {
-	  this.insert( elems, this.cells.length );
-	};
-	
-	proto.prepend = function( elems ) {
-	  this.insert( elems, 0 );
-	};
-	
-	/**
-	 * Remove cells
-	 * @param {Element, Array, NodeList} elems
-	 */
-	proto.remove = function( elems ) {
-	  var cells = this.getCells( elems );
-	  var selectedIndexDelta = 0;
-	  var len = cells.length;
-	  var i, cell;
-	  // calculate selectedIndexDelta, easier if done in seperate loop
-	  for ( i=0; i < len; i++ ) {
-	    cell = cells[i];
-	    var wasBefore = this.cells.indexOf( cell ) < this.selectedIndex;
-	    selectedIndexDelta -= wasBefore ? 1 : 0;
-	  }
-	
-	  for ( i=0; i < len; i++ ) {
-	    cell = cells[i];
-	    cell.remove();
-	    // remove item from collection
-	    utils.removeFrom( this.cells, cell );
-	  }
-	
-	  if ( cells.length ) {
-	    // update stuff
-	    this._cellAddedRemoved( 0, selectedIndexDelta );
-	  }
-	};
-	
-	// updates when cells are added or removed
-	proto._cellAddedRemoved = function( changedCellIndex, selectedIndexDelta ) {
-	  // TODO this math isn't perfect with grouped slides
-	  selectedIndexDelta = selectedIndexDelta || 0;
-	  this.selectedIndex += selectedIndexDelta;
-	  this.selectedIndex = Math.max( 0, Math.min( this.slides.length - 1, this.selectedIndex ) );
-	
-	  this.cellChange( changedCellIndex, true );
-	  // backwards compatibility
-	  this.emitEvent( 'cellAddedRemoved', [ changedCellIndex, selectedIndexDelta ] );
-	};
-	
-	/**
-	 * logic to be run after a cell's size changes
-	 * @param {Element} elem - cell's element
-	 */
-	proto.cellSizeChange = function( elem ) {
-	  var cell = this.getCell( elem );
-	  if ( !cell ) {
-	    return;
-	  }
-	  cell.getSize();
-	
-	  var index = this.cells.indexOf( cell );
-	  this.cellChange( index );
-	};
-	
-	/**
-	 * logic any time a cell is changed: added, removed, or size changed
-	 * @param {Integer} changedCellIndex - index of the changed cell, optional
-	 */
-	proto.cellChange = function( changedCellIndex, isPositioningSlider ) {
-	  var prevSlideableWidth = this.slideableWidth;
-	  this._positionCells( changedCellIndex );
-	  this._getWrapShiftCells();
-	  this.setGallerySize();
-	  this.emitEvent( 'cellChange', [ changedCellIndex ] );
-	  // position slider
-	  if ( this.options.freeScroll ) {
-	    // shift x by change in slideableWidth
-	    // TODO fix position shifts when prepending w/ freeScroll
-	    var deltaX = prevSlideableWidth - this.slideableWidth;
-	    this.x += deltaX * this.cellAlign;
-	    this.positionSlider();
-	  } else {
-	    // do not position slider after lazy load
-	    if ( isPositioningSlider ) {
-	      this.positionSliderAtSelected();
-	    }
-	    this.select( this.selectedIndex );
-	  }
-	};
-	
-	// -----  ----- //
-	
-	return Flickity;
-	
-	}));
-
-
-/***/ }),
-/* 459 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;// lazyload
-	( function( window, factory ) {
-	  // universal module definition
-	  /* jshint strict: false */
-	  if ( true ) {
-	    // AMD
-	    !(__WEBPACK_AMD_DEFINE_ARRAY__ = [
-	      __webpack_require__(443),
-	      __webpack_require__(446)
-	    ], __WEBPACK_AMD_DEFINE_RESULT__ = function( Flickity, utils ) {
-	      return factory( window, Flickity, utils );
-	    }.apply(exports, __WEBPACK_AMD_DEFINE_ARRAY__), __WEBPACK_AMD_DEFINE_RESULT__ !== undefined && (module.exports = __WEBPACK_AMD_DEFINE_RESULT__));
-	  } else if ( typeof module == 'object' && module.exports ) {
-	    // CommonJS
-	    module.exports = factory(
-	      window,
-	      require('./flickity'),
-	      require('fizzy-ui-utils')
-	    );
-	  } else {
-	    // browser global
-	    factory(
-	      window,
-	      window.Flickity,
-	      window.fizzyUIUtils
-	    );
-	  }
-	
-	}( window, function factory( window, Flickity, utils ) {
-	'use strict';
-	
-	Flickity.createMethods.push('_createLazyload');
-	var proto = Flickity.prototype;
-	
-	proto._createLazyload = function() {
-	  this.on( 'select', this.lazyLoad );
-	};
-	
-	proto.lazyLoad = function() {
-	  var lazyLoad = this.options.lazyLoad;
-	  if ( !lazyLoad ) {
-	    return;
-	  }
-	  // get adjacent cells, use lazyLoad option for adjacent count
-	  var adjCount = typeof lazyLoad == 'number' ? lazyLoad : 0;
-	  var cellElems = this.getAdjacentCellElements( adjCount );
-	  // get lazy images in those cells
-	  var lazyImages = [];
-	  cellElems.forEach( function( cellElem ) {
-	    var lazyCellImages = getCellLazyImages( cellElem );
-	    lazyImages = lazyImages.concat( lazyCellImages );
-	  });
-	  // load lazy images
-	  lazyImages.forEach( function( img ) {
-	    new LazyLoader( img, this );
-	  }, this );
-	};
-	
-	function getCellLazyImages( cellElem ) {
-	  // check if cell element is lazy image
-	  if ( cellElem.nodeName == 'IMG' &&
-	    cellElem.getAttribute('data-flickity-lazyload') ) {
-	    return [ cellElem ];
-	  }
-	  // select lazy images in cell
-	  var imgs = cellElem.querySelectorAll('img[data-flickity-lazyload]');
-	  return utils.makeArray( imgs );
-	}
-	
-	// -------------------------- LazyLoader -------------------------- //
-	
-	/**
-	 * class to handle loading images
-	 */
-	function LazyLoader( img, flickity ) {
-	  this.img = img;
-	  this.flickity = flickity;
-	  this.load();
-	}
-	
-	LazyLoader.prototype.handleEvent = utils.handleEvent;
-	
-	LazyLoader.prototype.load = function() {
-	  this.img.addEventListener( 'load', this );
-	  this.img.addEventListener( 'error', this );
-	  // load image
-	  this.img.src = this.img.getAttribute('data-flickity-lazyload');
-	  // remove attr
-	  this.img.removeAttribute('data-flickity-lazyload');
-	};
-	
-	LazyLoader.prototype.onload = function( event ) {
-	  this.complete( event, 'flickity-lazyloaded' );
-	};
-	
-	LazyLoader.prototype.onerror = function( event ) {
-	  this.complete( event, 'flickity-lazyerror' );
-	};
-	
-	LazyLoader.prototype.complete = function( event, className ) {
-	  // unbind events
-	  this.img.removeEventListener( 'load', this );
-	  this.img.removeEventListener( 'error', this );
-	
-	  var cell = this.flickity.getParentCell( this.img );
-	  var cellElem = cell && cell.element;
-	  this.flickity.cellSizeChange( cellElem );
-	
-	  this.img.classList.add( className );
-	  this.flickity.dispatchEvent( 'lazyLoad', event, cellElem );
-	};
-	
-	// -----  ----- //
-	
-	Flickity.LazyLoader = LazyLoader;
-	
-	return Flickity;
-	
-	}));
-
+	var PortfolioData = {
+	  special: [{
+	    image: "http://lorempixel.com/400/400",
+	    title: "Example 1",
+	    link: "/visual/test"
+	  }, {
+	    image: "http://lorempixel.com/410/400",
+	    title: "Example 2",
+	    link: "/visual/test"
+	  }, {
+	    image: "http://lorempixel.com/400/410",
+	    title: "Example 3",
+	    link: "/visual/test"
+	  }, {
+	    image: "http://lorempixel.com/401/403",
+	    title: "Example 4",
+	    link: "/visual/test"
+	  }, {
+	    image: "http://lorempixel.com/403/401",
+	    title: "Example 5",
+	    link: "/visual/test"
+	  }, {
+	    image: "http://lorempixel.com/404/404",
+	    title: "Example 6",
+	    link: "/visual/test"
+	  }, {
+	    image: "http://lorempixel.com/405/405",
+	    title: "Example 7",
+	    link: "/visual/test"
+	  }, {
+	    image: "http://lorempixel.com/406/400",
+	    title: "Example 8",
+	    link: "/visual/test"
+	  }, {
+	    image: "http://lorempixel.com/400/406",
+	    title: "Example 9",
+	    link: "/visual/test"
+	  }, {
+	    image: "http://lorempixel.com/407/406",
+	    title: "Example 10",
+	    link: "/visual/test"
+	  }, {
+	    image: "http://lorempixel.com/408/409",
+	    title: "Example 11",
+	    link: "/visual/test"
+	  }]
+	};
+	
+	exports.default = PortfolioData;
 
 /***/ })
 /******/ ]);

@@ -27,6 +27,22 @@
       }
     }
 
+    &__specialNav{
+      position: fixed;
+      top: -500px;
+      z-index: 4;
+      height: 300px;
+      width: 100%;
+      background-color: white;
+      box-shadow: rgba(0, 0, 0, 0.2) 1px 2px 5px;
+      overflow: hidden;
+      -webkit-transition: top .5s ease-in-out;
+      -moz-transition: top .5s ease-in-out;
+      -ms-transition: top .5s ease-in-out;
+      -o-transition: top .5s ease-in-out;
+      transition: top .5s ease-in-out;
+    }
+
     &__gallery{
       display: flex;
       flex-direction: row;
@@ -59,16 +75,38 @@
   }
 }
 
-//Nav Bar Shadow
-
-.navShadow{
-  box-shadow: rgba(0, 0, 0, 0.21) 0px 1px 16px;
+.navContainer{
+  visibility: hidden;
 }
 
-.navHide{
-  box-shadow: rgba(0, 0, 0, 0.21) 0px 0px 0px;
+.navShow{
+  visibility: visible;
 }
 
+.specialCard{
+  margin-top: 70px;
+  height: 250px;
+  width: 250px;
+  opacity: 0;
+}
+
+.specialImg{
+  height: 200px;
+  width: 200px;
+}
+
+.showSpecial{
+  top: 0;
+}
+
+.galleryLoaded{
+  opacity: 1;
+}
+
+.flickity-viewport:focus,
+.capabilities__content__specialNav{
+  outline: none;
+}
 
 .capabilities__header{
   font-size: 25px;

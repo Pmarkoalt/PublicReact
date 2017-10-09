@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Route, Redirect} from 'react-router-dom';
 import TransitionGroup from 'react-transition-group/TransitionGroup';
 
+
 //Components
 import { Audio, Home, Video, Visual } from './views/pages';
 import { About, NotFoundPage, AnimatedSwitch } from './views/components';
