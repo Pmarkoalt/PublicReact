@@ -4,11 +4,11 @@
     position: relative;
 
     &__loader{
-      border: 2px solid red;
       position: absolute;
+      width: 500px;
       z-index: 10;
-      top: 35%;
-      left: 42%;
+      top: 50px;
+      left: 30%;
       -webkit-animation: loadingAnimation 1s infinite alternate; /* Safari 4.0 - 8.0 */
       animation: loadingAnimation 1s infinite alternate;
     }
@@ -127,6 +127,10 @@
 
 .navCard.is-selected{
   opacity: 1;
+}
+
+.linebreak{
+  margin-bottom: 10px;
 }
 
 

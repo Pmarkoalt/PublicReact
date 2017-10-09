@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom'
 import { Link } from 'react-router-dom';
 import Flickity from 'flickity';
 
+
 import PortfolioData from './Portfolio.data.js';
 
 class Portfolio extends Component{
@@ -97,17 +98,18 @@ class Portfolio extends Component{
             <div className="capabilities__content__nav__header">
               <h1 className="capabilities__header"> Selected Work </h1>
             </div>
-            <select value={this.state.filter} onChange={this.handleChange}>
+
+            {/* <select value={this.state.filter} onChange={this.handleChange}>
               <option value="all">All</option>
               <option value="identities">Identites</option>
               <option value="interactive">Interactive</option>
               <option value="artDirection">Art Direction</option>
               <option value="print">Print</option>
               <option value="motion">Motion</option>
-            </select>
+            </select> */}
             <button onClick={this.showSpecial}> Show Special </button>
           </nav>
-          <div ref="test" className={"capabilities__content__specialNav " + (this.state.showSpecial && "showSpecial")}>
+          <div ref="test" className={"capabilities__content__specialNav " + (this.state.showSpecial ? "showSpecial" : "")}>
             {this.state.special.map((card, index) => {
               return(
                 <Link key={index} to={card.link}>
@@ -120,10 +122,10 @@ class Portfolio extends Component{
             })}
           </div>
         </div>
-          <div className="capabilities__content">
+          <div className={"capabilities__content " + (this.state.showSpecial ? "blur" : "") }>
             <div className="capabilities__content__gallery">
               <div className="capabilities__content__gallery__row">
-                <Link to={'/visual/visualtest'}>
+                <Link to={'/visual/telegram'}>
                   <div className={"capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.identities ? 'filterOff' : '')}>
                     <img className="capabilities__content__gallery__row__item__image" src="/imgs/telegram/telegram.jpg" />
                     <div className="capabilities__content__gallery__row__item__text">
@@ -143,7 +145,7 @@ class Portfolio extends Component{
                 </Link>
                 <Link to={'/audio/audiotest'}>
                   <div className={"capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '')}>
-                    <img className="capabilities__content__gallery__row__item__image" src="/imgs/ecube/ecube.jpg" />
+                    <img className="capabilities__content__gallery__row__item__image" src="/imgs/ecube/ecubePort.jpg" />
                     <div className="capabilities__content__gallery__row__item__text">
                       <h3 className="capabilities__galleryTitle"> ECube </h3>
                       <h4 className="capabilities__galleryType"> Interactive, Web, Digital  </h4>
@@ -152,7 +154,7 @@ class Portfolio extends Component{
                 </Link>
               </div>
               <div className="capabilities__content__gallery__row">
-                <Link to={'/fakepage'}>
+                <Link to={'/visual/visualtest'}>
                   <div className={"capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.print ? 'filterOff' : '')}>
                     <img className="capabilities__content__gallery__row__item__image" src="/imgs/boy/boy.jpg" />
                     <div className="capabilities__content__gallery__row__item__text">

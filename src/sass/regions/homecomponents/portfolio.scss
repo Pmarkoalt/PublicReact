@@ -7,6 +7,9 @@
     margin-left: 3%;
     margin-right: 3%;
     margin-top: 50px;
+    transition: filter 1s;
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
 
     &__nav{
       position: fixed;
@@ -141,4 +144,9 @@
 .filterOff{
   opacity: 1;
   transition: 1s all;
+}
+
+.blur{
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
 }

@@ -19,11 +19,10 @@ class App extends Component {
   }
 
   handleAboutOpen(event){
-    event.preventDefault()
     this.setState({
       aboutOpen: !this.state.aboutOpen
     });
-    window.scrollTo(0, 0)
+    window.scrollTo(0,0);
   }
 
 
@@ -35,7 +34,7 @@ class App extends Component {
         {/* <TransitionGroup>
             { this.state.aboutOpen && <About />}
         </TransitionGroup> */}
-        <a onClick={this.handleAboutOpen} className="sideBarContainer"> <div  className="sideBarCircle"> </div> </a>
+        <a onClick={this.handleAboutOpen} className="sideBarContainer"> <div className={"sideBarCircle " + (this.state.aboutOpen && "transparent")}> <img className="x" src="/imgs/util/x.svg" /> <p className={"助 " + (this.state.aboutOpen && "hidden")}> 助 </p> </div> </a>
         <TransitionGroup>
           { this.state.aboutOpen && <About />}
         </TransitionGroup>
@@ -50,19 +49,19 @@ class App extends Component {
 								<Route
 									path="/audio/:id"
 									render={props => (
-										<Audio {...props} projects={this.state.projects} />
+										<Audio {...props} handleAboutOpen={this.handleAboutOpen} aboutOpen={this.state.aboutOpen} projects={this.state.projects} />
 									)}
 								/>
 								<Route
 									path="/video/:id"
 									render={props => (
-										<Video {...props} projects={this.state.projects} />
+										<Video {...props} handleAboutOpen={this.handleAboutOpen} aboutOpen={this.state.aboutOpen} projects={this.state.projects} />
 									)}
 								/>
                 <Route
                   path="/visual/:id"
                   render={props => (
-                    <Visual {...props} projects={this.state.projects} />
+                    <Visual {...props} handleAboutOpen={this.handleAboutOpen} aboutOpen={this.state.aboutOpen} projects={this.state.projects} />
                   )}
                 />
 								<Route component={NotFoundPage} />

@@ -30,6 +30,8 @@
   min-width: 0;
 }
 
+
+//Nav Buttons
 .sideBarContainer{
   position: fixed;
   top: 20px;
@@ -40,11 +42,50 @@
 }
 
 .sideBarCircle{
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: relative;
   width: 30px;
   height: 30px;
-  background: black;
+  background: white;
+  border: solid 1px white;
+  box-shadow: 0 2px 3px 1px rgba(0, 0, 0, 0.15), 0 2px 5px 0 rgba(0, 0, 0, 0.15);
   border-radius: 50%;
-  box-shadow: 0px 0px 17px #ffffff
+  // box-shadow: 0px 0px 17px #ffffff
+}
+
+.transparent{
+  background: transparent;
+}
+
+.x{
+  width: 14px;
+  z-index: 0;
+}
+
+.助,
+.帰{
+  width: 14px;
+  color: #111;
+  position: fixed;
+  opacity: 1;
+  transition: all .2s;
+}
+
+.助{
+  right: 52.5px;
+}
+
+.帰{
+  left: 38px;
+}
+
+.hidden{
+  opacity: 0;
+}
+
+.back{
+  left: 0%;
+  margin-left: 30px;
 }

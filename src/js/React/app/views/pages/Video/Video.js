@@ -20,6 +20,7 @@ class Video extends Component{
       playbackRate: 1.0,
       project: this.props.projects[params]
     }
+    this.backAbout = this.backAbout.bind(this);
   }
   load = url => {
     this.setState({
@@ -87,6 +88,12 @@ class Video extends Component{
     this.player = player
   }
 
+  backAbout(){
+    if (this.props.aboutOpen === true){
+      this.props.handleAboutOpen();
+    }
+  }
+
   componentDidMount(){
   }
 
@@ -105,7 +112,7 @@ class Video extends Component{
       return(
         <div className="video">
           <div className="video__content">
-            <Link to={'/'}><button className="backButton">BACK TO HOME PAGE</button></Link>
+            <Link to={'/'}> <div className="sideBarContainer back" onClick={this.backAbout}> <div className={"sideBarCircle " + (this.props.aboutOpen && "transparent")}> <img className="x" src="/imgs/util/back.svg" /> <p className={"帰 " + (this.props.aboutOpen && "hidden")}> 帰 </p>  </div> </div> </Link>
             <div className="video__content__video">
               <div className="video__content__video__container">
                   <ReactPlayer

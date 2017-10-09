@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom'
-import Slider from 'react-slick'
 import Flickity from 'flickity'
 import { Link } from 'react-router-dom'
 
@@ -15,13 +14,14 @@ class Visual extends Component{
       galleryLoaded: false,
       count: 0,
       selectedIndex: 0,
-      project: this.props.projects[params]
+      project: this.props.projects[params],
     }
     this.imageLoaded = this.imageLoaded.bind(this);
     this.updateSelected = this.updateSelected.bind(this);
     this.updateSelectedNav = this.updateSelectedNav.bind(this);
     this.loadGallery = this.loadGallery.bind(this);
     this.navClick = this.navClick.bind(this);
+    this.backAbout = this.backAbout.bind(this);
   }
 
   componentDidMount() {
@@ -52,7 +52,7 @@ class Visual extends Component{
       this.flkty = new Flickity(carousel, mainOptions);
       this.flktyNav = new Flickity(nav, navOptions);
       this.flkty.on('cellSelect', this.updateSelected);
-      
+
       this.flkty.resize();
 
     }
@@ -103,6 +103,12 @@ class Visual extends Component{
     }
   }
 
+  backAbout(){
+    if (this.props.aboutOpen === true){
+      this.props.handleAboutOpen();
+    }
+  }
+
   componentWillUnmount() {
       if (this.flkty) {
           this.flkty.off('cellSelect', this.updateSelected);
@@ -115,9 +121,9 @@ class Visual extends Component{
     if (this.state.project){
       return(
         <div className="visual">
-          <Link to={'/'}><button className="backButton">BACK TO HOME PAGE</button></Link>
+          <Link to={'/'}> <div className="sideBarContainer back" onClick={this.backAbout}> <div className={"sideBarCircle " + (this.props.aboutOpen && "transparent")}> <img className="x" src="/imgs/util/back.svg" /> <p className={"帰 " + (this.props.aboutOpen && "hidden")}> 帰 </p>  </div> </div> </Link>
           <div className="visual__carouselContainer">
-            {this.state.galleryLoaded === false && <img className="visual__carouselContainer__loader" src="https://botw-pd.s3.amazonaws.com/styles/logo-thumbnail/s3/082016/untitled-1_5.png?itok=Qi8g19US" />}
+            {this.state.galleryLoaded === false && <img className="visual__carouselContainer__loader" src="/imgs/util/loading.png" />}
               <div ref='carousel' className={'visual__carouselContainer__carousel ' + (this.state.galleryLoaded ? "galleryLoaded" : "")}>
                 {this.state.project.cards.map((card, index) => {
                   return(
@@ -136,7 +142,11 @@ class Visual extends Component{
           <div className="visual__content">
             <div className="visual__content__text">
               <h1 className="visualTitle"> <span className="portHeader"> {this.state.project.title} </span>  <span className="portItalic"> {this.state.project.type} </span> </h1>
-              <p className="portText"> {this.state.project.headText} </p>
+              {this.state.project.headText.map((text, index) => {
+                return(
+                  <p key={index} className="portText linebreak"> {text} </p>
+                )
+              })}
             </div>
             {this.state.project.banner &&
               <img className="visual__content__rowPhoto" src={this.state.project.banner}/>

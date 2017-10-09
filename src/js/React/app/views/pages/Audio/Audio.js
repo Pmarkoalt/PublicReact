@@ -19,6 +19,7 @@ class Audio extends Component{
       playbackRate: 1.0,
       project: this.props.projects[params]
     }
+    this.backAbout = this.backAbout.bind(this);
   }
   load = url => {
     this.setState({
@@ -83,6 +84,12 @@ class Audio extends Component{
     this.player = player
   }
 
+  backAbout(){
+    if (this.props.aboutOpen === true){
+      this.props.handleAboutOpen();
+    }
+  }
+
   componentDidMount(){
   }
 
@@ -102,7 +109,7 @@ class Audio extends Component{
       return(
         <div className="audio">
           <div className="audio__content">
-            <Link to={'/'}><button className="backButton">BACK TO HOME PAGE</button></Link>
+            <Link to={'/'}> <div className="sideBarContainer back" onClick={this.backAbout}> <div className={"sideBarCircle " + (this.props.aboutOpen && "transparent")}> <img className="x" src="/imgs/util/back.svg" /> <p className={"帰 " + (this.props.aboutOpen && "hidden")}> 帰 </p>  </div> </div> </Link>
             <div className="audio__content__album">
               <Tilt className="audio__content__album__tilt" options={{ max : 25 }}>
                 <div className="audio__content__album__tilt__cover"> <img className="audio__content__album__tilt__cover" src={this.state.project.cover} /> </div>
