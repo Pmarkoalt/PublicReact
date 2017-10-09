@@ -13,7 +13,7 @@
 
     &__nav{
       position: fixed;
-      top: 0;
+      top: -100px;
       z-index: 5;
       display: flex;
       flex-direction: row;
@@ -23,10 +23,26 @@
       width: 100%;
       align-items: center;
       box-shadow: rgba(0, 0, 0, 0.2) 1px 2px 5px;
-      transition: all .25s;
+      transition: top .5s;
+      // -webkit-animation: navEnter 1s; /* Safari 4.0 - 8.0 */
+      // animation: navEnter 1s;
 
       &__header{
-          margin-right: 100px;
+          margin-right: 8vw;
+
+          &__specialButton{
+            position: fixed;
+            right: 100px;
+          }
+      }
+
+      &__selectBox{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        width: 140px;
+        border-bottom: solid 2px #111;
       }
     }
 
@@ -44,6 +60,7 @@
       -ms-transition: top .5s ease-in-out;
       -o-transition: top .5s ease-in-out;
       transition: top .5s ease-in-out;
+
     }
 
     &__gallery{
@@ -78,12 +95,37 @@
   }
 }
 
-.navContainer{
-  visibility: hidden;
+.before{
+  width: 5px;
+  height: 5px;
+  margin-left: 6px;
+  border-bottom: 2px solid #000000;
+  border-left: 2px solid #000000;
+  -webkit-transform: translate(-50%, 0%) rotate(45deg);
+  -moz-transform: translate(-50%, 0%) rotate(45deg);
+  transform: translate(-50%, 0%) rotate(45deg);
 }
 
+.after{
+  width: 5px;
+  height: 5px;
+  border-top: 2px solid #000000;
+  border-right: 2px solid #000000;
+  -webkit-transform: translate(-50%, 0%) rotate(45deg);
+  -moz-transform: translate(-50%, 0%) rotate(45deg);
+  transform: translate(-50%, 0%) rotate(45deg);
+}
+
+.before:hover,
+.after:hover,
+.capabilities__content__nav__header__specialButton,
+.sideBarCircle{
+  cursor: pointer;
+}
+
+
 .navShow{
-  visibility: visible;
+  top: 0;
 }
 
 .specialCard{
@@ -98,8 +140,16 @@
   width: 200px;
 }
 
+.specialText{
+  font-family: sans-serif;
+}
+
 .showSpecial{
   top: 0;
+}
+
+.specialHide{
+  top: -1000px;
 }
 
 .galleryLoaded{
@@ -111,21 +161,16 @@
   outline: none;
 }
 
+.filterSelect{
+  margin-right: 9px;
+  font-size: 20px;
+  font-family: cormorant garamond;
+}
+
 .capabilities__header{
+  font-family: 'Cinzel', serif;
   font-size: 25px;
-  margin-left: 100px;
-}
-
-.capabilities__headLink{
-  font-size: 25px;
-  opacity: .5;
-  margin-right: 20px;
-  transition: all .2s;
-}
-
-.capabilities__headLink:hover{
-  opacity: 1;
-  cursor: pointer;
+  margin-left: 70px;
 }
 
 .capabilities__galleryTitle{
@@ -149,4 +194,27 @@
 .blur{
   filter: blur(5px);
   -webkit-filter: blur(5px);
+}
+
+
+//Animations
+
+@-webkit-keyframes navEnter {
+    0%   {
+      top: -100px;
+    }
+    100% {
+      top:0;
+
+    }
+}
+
+/* Standard syntax */
+@keyframes navEnter {
+  0%   {
+    top: -100px
+  }
+  100% {
+    top: 0;
+  }
 }

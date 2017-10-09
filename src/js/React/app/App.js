@@ -64,7 +64,10 @@ class App extends Component {
                     <Visual {...props} handleAboutOpen={this.handleAboutOpen} aboutOpen={this.state.aboutOpen} projects={this.state.projects} />
                   )}
                 />
-								<Route component={NotFoundPage} />
+								<Route render={props => (
+                   <NotFoundPage {...props} handleAboutOpen={this.handleAboutOpen} aboutOpen={this.state.aboutOpen} />
+                  )}
+                />
 							</AnimatedSwitch>
 						</TransitionGroup>
 					)}

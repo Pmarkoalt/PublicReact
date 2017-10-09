@@ -16,6 +16,8 @@ class Portfolio extends Component{
       artDirection: false,
       print: false,
       motion: false,
+      selectOptions: ['all', 'identities', 'interactive', 'artDirection', 'print', 'motion'],
+      selectCounter: 0,
       fromTop: -1000,
       special: PortfolioData.special,
       showSpecial: false,
@@ -29,12 +31,12 @@ class Portfolio extends Component{
     this.imageLoaded = this.imageLoaded.bind(this);
     this.loadGallery = this.loadGallery.bind(this);
     this.showSpecial = this.showSpecial.bind(this);
+    this.updateFilter = this.updateFilter.bind(this);
   }
 
-  handleChange(event) {
-    var filterOn = ""
+  handleChange(value) {
     this.setState({all: false, identities: false, interactive: false, artDirection: false, print: false, motion: false})
-    this.setState({[event.target.value]: true});
+    this.setState({[value]: true});
   }
 
   componentDidMount(){
@@ -89,14 +91,33 @@ class Portfolio extends Component{
     });
   }
 
+  updateFilter(input){
+    var result = this.state.selectCounter + input;
+    if (result === 6){
+      this.setState({selectCounter: 0});
+      return this.handleChange(this.state.selectOptions[0]);
+    }
+    if (result === -1){
+      this.setState({selectCounter: 5});
+      return this.handleChange(this.state.selectOptions[5]);
+    }
+    this.setState({selectCounter: result});
+    return this.handleChange(this.state.selectOptions[result]);
+  }
+
   render(AppData){
     return(
       <div ref="port" className="capabilities">
         {/* {this.state.fromTop > -230 && */}
-        <div className={"navContainer " + (this.state.fromTop > -230 && "navShow")}>
-          <nav className="capabilities__content__nav">
+        <div className="navContainer">
+          <nav className={"capabilities__content__nav " + (this.state.fromTop > -230 && "navShow")}>
             <div className="capabilities__content__nav__header">
-              <h1 className="capabilities__header"> Selected Work </h1>
+              <h1 className="capabilities__header"> PUBLIC </h1>
+            </div>
+            <div className="capabilities__content__nav__selectBox">
+              <div className="before" onClick={() => this.updateFilter(-1)}> </div>
+              <p className="filterSelect"> {this.state.selectOptions[this.state.selectCounter]} </p>
+              <div className="after" onClick={() => this.updateFilter(1)}> </div>
             </div>
 
             {/* <select value={this.state.filter} onChange={this.handleChange}>
@@ -107,9 +128,9 @@ class Portfolio extends Component{
               <option value="print">Print</option>
               <option value="motion">Motion</option>
             </select> */}
-            <button onClick={this.showSpecial}> Show Special </button>
+            <a className="capabilities__content__nav__header__specialButton capabilities__galleryType" style={{color: '#555'}} onClick={this.showSpecial}> Special Projects {this.state.showSpecial ? "-" : "+"} </a>
           </nav>
-          <div ref="test" className={"capabilities__content__specialNav " + (this.state.showSpecial ? "showSpecial" : "")}>
+          <div ref="test" className={"capabilities__content__specialNav " + (this.state.showSpecial ? " showSpecial " : "") + (this.state.fromTop < -230 && "specialHide")}>
             {this.state.special.map((card, index) => {
               return(
                 <Link key={index} to={card.link}>

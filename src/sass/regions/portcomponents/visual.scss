@@ -138,13 +138,11 @@
 
 @-webkit-keyframes loadingAnimation {
     0%   {
-      top: -100px;
       -webkit-transform: scale(1); /* Ch <36, Saf 5.1+, iOS < 9.2, An =<4.4.4 */
       -ms-transform: scale(1); /* IE 9 */
       transform: scale(1);
     }
     100% {
-      top: -100px;
       -webkit-transform: scale(1.2); /* Ch <36, Saf 5.1+, iOS < 9.2, An =<4.4.4 */
       -ms-transform: scale(1.2); /* IE 9 */
       transform: scale(1.2);

@@ -144,7 +144,7 @@ class Video extends Component{
               <div className="video__content__video__media">
                 <div className="video__content__video__media__playing">
                   <a className="video__content__video__media__playing__play" onClick={this.playPause}>{playing ? 'Pause' : 'Play'}</a>
-                  <button className="video__content__video__media__playing__fullscreen" onClick={this.onClickFullscreen}>Fullscreen</button>
+                  <img className="fullscreen" src="/imgs/util/fullscreen.svg" onClick={this.onClickFullscreen} />
                 </div>
                 <div className="video__content__video__media__input">
                   <input
@@ -156,7 +156,7 @@ class Video extends Component{
                   />
                 </div>
                 <div className="video__content__video__media__volume">
-                  <input type='checkbox' checked={muted} onChange={this.toggleMuted} />
+                  <img className="video__content__album__media__volume__mute" onClick={this.toggleMuted} src={this.state.muted ? "/imgs/util/mute.svg" : "/imgs/util/speaker.svg"} />
                   <input type='range' orient='vertical' className='volumeSlider' min={0} max={1} step='any' value={volume} onChange={this.setVolume} />
                 </div>
               </div>

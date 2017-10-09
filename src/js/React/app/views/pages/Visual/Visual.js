@@ -94,18 +94,18 @@ class Visual extends Component{
     console.log(index);
   }
 
+  backAbout(){
+    if (this.props.aboutOpen === true){
+      this.props.handleAboutOpen();
+    }
+  }
+
   componentDidUpdate(prevProps, prevState){
     if (prevState.selectedIndex !== this.flkty.selectedIndex){
       this.flkty.selectCell(this.state.selectedIndex);
     }
     if (prevState.selectedIndex !== this.flktyNav.selectedIndex){
       this.flktyNav.selectCell(this.state.selectedIndex);
-    }
-  }
-
-  backAbout(){
-    if (this.props.aboutOpen === true){
-      this.props.handleAboutOpen();
     }
   }
 
