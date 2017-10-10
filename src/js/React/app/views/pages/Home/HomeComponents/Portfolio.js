@@ -60,6 +60,10 @@ class Portfolio extends Component{
 
   componentWillUnmount(){
     window.removeEventListener('scroll', this.handleScroll);
+    if (this.flkty) {
+        this.flkty.off('cellSelect', this.updateSelected);
+        this.flkty.destroy();
+    }
   }
 
   imageLoaded(){
@@ -175,7 +179,7 @@ class Portfolio extends Component{
                 </Link>
               </div>
               <div className="capabilities__content__gallery__row">
-                <Link to={'/visual/visualtest'}>
+                <Link to={'/visual/boy'}>
                   <div className={"capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.print ? 'filterOff' : '')}>
                     <img className="capabilities__content__gallery__row__item__image" src="/imgs/boy/boy.jpg" />
                     <div className="capabilities__content__gallery__row__item__text">
@@ -184,16 +188,16 @@ class Portfolio extends Component{
                     </div>
                   </div>
                 </Link>
-                <Link to={'/fakepage'}>
+                <Link to={'/visual/monza'}>
                   <div className={"capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '')}>
-                    <img className="capabilities__content__gallery__row__item__image" src="/imgs/monza/monza.jpg" />
+                    <img className="capabilities__content__gallery__row__item__image" src="/imgs/monza/monzaPort.jpg" />
                     <div className="capabilities__content__gallery__row__item__text">
                       <h3 className="capabilities__galleryTitle"> Monza Light </h3>
                       <h4 className="capabilities__galleryType"> Interactive, Web, Digital  </h4>
                     </div>
                   </div>
                 </Link>
-                <Link to={'/fakepage'}>
+                <Link to={'/visual/visualtest'}>
                   <div className={"capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.identities ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '') + (this.state.motion ? 'filterOff' : '')}>
                     <img className="capabilities__content__gallery__row__item__image" src="/imgs/nazmag/nazmag.jpg" />
                     <div className="capabilities__content__gallery__row__item__text">
@@ -204,9 +208,9 @@ class Portfolio extends Component{
                 </Link>
               </div>
               <div className="capabilities__content__gallery__row">
-                <Link to={'/fakepage'}>
+                <Link to={'/visual/rhizome'}>
                   <div className={"capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.identities ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '')}>
-                    <img className="capabilities__content__gallery__row__item__image" src="/imgs/rhizome/rhizome.jpg" />
+                    <img className="capabilities__content__gallery__row__item__image" src="/imgs/rhizome/rhizomePort.jpg" />
                     <div className="capabilities__content__gallery__row__item__text">
                       <h3 className="capabilities__galleryTitle"> Rhizome </h3>
                       <h4 className="capabilities__galleryType"> Identities, Interactive </h4>
@@ -222,7 +226,7 @@ class Portfolio extends Component{
                     </div>
                   </div>
                 </Link>
-                <Link to={'/fakepage'}>
+                <Link to={'/visual/trump'}>
                   <div className={"capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.print ? 'filterOff' : '')}>
                     <img className="capabilities__content__gallery__row__item__image" src="/imgs/trump/trump.jpg" />
                     <div className="capabilities__content__gallery__row__item__text">
@@ -262,9 +266,9 @@ class Portfolio extends Component{
                 </Link>
               </div>
               <div className="capabilities__content__gallery__row">
-                <Link to={'/fakepage'}>
+                <Link to={'/visual/blackstar'}>
                   <div className={"capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.print ? 'filterOff' : '')}>
-                    <img className="capabilities__content__gallery__row__item__image" src="/imgs/blackstar/blackstar.jpg" />
+                    <img className="capabilities__content__gallery__row__item__image" src="/imgs/blackstar/blackstarPort.jpg" />
                     <div className="capabilities__content__gallery__row__item__text">
                       <h3 className="capabilities__galleryTitle"> Blackstar </h3>
                       <h4 className="capabilities__galleryType"> Print, Editorial, One-off </h4>
@@ -300,9 +304,9 @@ class Portfolio extends Component{
                     </div>
                   </div>
                 </Link>
-                <Link to={'/fakepage'}>
+                <Link to={'/visual/sea'}>
                   <div className={"capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.identities ? 'filterOff' : '')}>
-                    <img className="capabilities__content__gallery__row__item__image" src="/imgs/sea/sea.jpg" />
+                    <img className="capabilities__content__gallery__row__item__image" src="/imgs/sea/seaPort.jpg" />
                     <div className="capabilities__content__gallery__row__item__text">
                       <h3 className="capabilities__galleryTitle"> Sea </h3>
                       <h4 className="capabilities__galleryType"> Identities, Interactive </h4>

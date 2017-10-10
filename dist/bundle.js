@@ -34964,6 +34964,10 @@
 	    key: 'componentWillUnmount',
 	    value: function componentWillUnmount() {
 	      window.removeEventListener('scroll', this.handleScroll);
+	      if (this.flkty) {
+	        this.flkty.off('cellSelect', this.updateSelected);
+	        this.flkty.destroy();
+	      }
 	    }
 	  }, {
 	    key: 'imageLoaded',
@@ -35177,7 +35181,7 @@
 	              { className: 'capabilities__content__gallery__row' },
 	              _react2.default.createElement(
 	                _reactRouterDom.Link,
-	                { to: '/visual/visualtest' },
+	                { to: '/visual/boy' },
 	                _react2.default.createElement(
 	                  'div',
 	                  { className: "capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.print ? 'filterOff' : '') },
@@ -35200,11 +35204,11 @@
 	              ),
 	              _react2.default.createElement(
 	                _reactRouterDom.Link,
-	                { to: '/fakepage' },
+	                { to: '/visual/monza' },
 	                _react2.default.createElement(
 	                  'div',
 	                  { className: "capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '') },
-	                  _react2.default.createElement('img', { className: 'capabilities__content__gallery__row__item__image', src: '/imgs/monza/monza.jpg' }),
+	                  _react2.default.createElement('img', { className: 'capabilities__content__gallery__row__item__image', src: '/imgs/monza/monzaPort.jpg' }),
 	                  _react2.default.createElement(
 	                    'div',
 	                    { className: 'capabilities__content__gallery__row__item__text' },
@@ -35223,7 +35227,7 @@
 	              ),
 	              _react2.default.createElement(
 	                _reactRouterDom.Link,
-	                { to: '/fakepage' },
+	                { to: '/visual/visualtest' },
 	                _react2.default.createElement(
 	                  'div',
 	                  { className: "capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.identities ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '') + (this.state.motion ? 'filterOff' : '') },
@@ -35250,11 +35254,11 @@
 	              { className: 'capabilities__content__gallery__row' },
 	              _react2.default.createElement(
 	                _reactRouterDom.Link,
-	                { to: '/fakepage' },
+	                { to: '/visual/rhizome' },
 	                _react2.default.createElement(
 	                  'div',
 	                  { className: "capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.identities ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '') },
-	                  _react2.default.createElement('img', { className: 'capabilities__content__gallery__row__item__image', src: '/imgs/rhizome/rhizome.jpg' }),
+	                  _react2.default.createElement('img', { className: 'capabilities__content__gallery__row__item__image', src: '/imgs/rhizome/rhizomePort.jpg' }),
 	                  _react2.default.createElement(
 	                    'div',
 	                    { className: 'capabilities__content__gallery__row__item__text' },
@@ -35296,7 +35300,7 @@
 	              ),
 	              _react2.default.createElement(
 	                _reactRouterDom.Link,
-	                { to: '/fakepage' },
+	                { to: '/visual/trump' },
 	                _react2.default.createElement(
 	                  'div',
 	                  { className: "capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.print ? 'filterOff' : '') },
@@ -35396,11 +35400,11 @@
 	              { className: 'capabilities__content__gallery__row' },
 	              _react2.default.createElement(
 	                _reactRouterDom.Link,
-	                { to: '/fakepage' },
+	                { to: '/visual/blackstar' },
 	                _react2.default.createElement(
 	                  'div',
 	                  { className: "capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.print ? 'filterOff' : '') },
-	                  _react2.default.createElement('img', { className: 'capabilities__content__gallery__row__item__image', src: '/imgs/blackstar/blackstar.jpg' }),
+	                  _react2.default.createElement('img', { className: 'capabilities__content__gallery__row__item__image', src: '/imgs/blackstar/blackstarPort.jpg' }),
 	                  _react2.default.createElement(
 	                    'div',
 	                    { className: 'capabilities__content__gallery__row__item__text' },
@@ -35492,11 +35496,11 @@
 	              ),
 	              _react2.default.createElement(
 	                _reactRouterDom.Link,
-	                { to: '/fakepage' },
+	                { to: '/visual/sea' },
 	                _react2.default.createElement(
 	                  'div',
 	                  { className: "capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.identities ? 'filterOff' : '') },
-	                  _react2.default.createElement('img', { className: 'capabilities__content__gallery__row__item__image', src: '/imgs/sea/sea.jpg' }),
+	                  _react2.default.createElement('img', { className: 'capabilities__content__gallery__row__item__image', src: '/imgs/sea/seaPort.jpg' }),
 	                  _react2.default.createElement(
 	                    'div',
 	                    { className: 'capabilities__content__gallery__row__item__text' },
@@ -106220,6 +106224,48 @@
 	  value: true
 	});
 	var AppData = {
+	
+	  blackstar: {
+	    title: "Blackstar",
+	    type: "Visual Identity, Print",
+	    headText: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida, ligula sodales viverra suscipit, orci lectus elementum velit, et finibus libero risus at urna. Aenean a leo et leo porta scelerisque at ut lacus. Cras sodales vestibulum mi eu ultrices. Maecenas vitae elit at lacus semper bibendum nec non tortor. Sed eget nibh vitae enim lobortis feugiat. Quisque finibus, magna ac feugiat eleifend, tellus leo commodo ante, sodales convallis metus mi eget orci. Morbi quis nisi  nec diam vehicula vulputate vel ultricies sem. Donec suscipit non lectus eu pharetra. Donec quis vulputate felis. Nullam sagittis magna metus, eget aliquet tortor sollicitudin nec. Praesent ultrices cursus facilisis. Phasellus hendrerit malesuada massa et mattis."],
+	    cards: ['/imgs/blackstar/blackstar1.jpg', '/imgs/blackstar/blackstar2.jpg', '/imgs/blackstar/blackstar3.jpg', '/imgs/blackstar/blackstar4.jpg']
+	  },
+	
+	  monza: {
+	    title: "Monza",
+	    type: "Interactive",
+	    headText: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida, ligula sodales viverra suscipit, orci lectus elementum velit, et finibus libero risus at urna. Aenean a leo et leo porta scelerisque at ut lacus. Cras sodales vestibulum mi eu ultrices. Maecenas vitae elit at lacus semper bibendum nec non tortor. Sed eget nibh vitae enim lobortis feugiat. Quisque finibus, magna ac feugiat eleifend, tellus leo commodo ante, sodales convallis metus mi eget orci. Morbi quis nisi  nec diam vehicula vulputate vel ultricies sem. Donec suscipit non lectus eu pharetra. Donec quis vulputate felis. Nullam sagittis magna metus, eget aliquet tortor sollicitudin nec. Praesent ultrices cursus facilisis. Phasellus hendrerit malesuada massa et mattis."],
+	    cards: ['/imgs/monza/monza1.jpg', '/imgs/monza/monza2.jpg', '/imgs/monza/monza3.jpg']
+	  },
+	
+	  rhizome: {
+	    title: "Rhizome",
+	    type: "Viusal Identity, Interactive",
+	    headText: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida, ligula sodales viverra suscipit, orci lectus elementum velit, et finibus libero risus at urna. Aenean a leo et leo porta scelerisque at ut lacus. Cras sodales vestibulum mi eu ultrices. Maecenas vitae elit at lacus semper bibendum nec non tortor. Sed eget nibh vitae enim lobortis feugiat. Quisque finibus, magna ac feugiat eleifend, tellus leo commodo ante, sodales convallis metus mi eget orci. Morbi quis nisi  nec diam vehicula vulputate vel ultricies sem. Donec suscipit non lectus eu pharetra. Donec quis vulputate felis. Nullam sagittis magna metus, eget aliquet tortor sollicitudin nec. Praesent ultrices cursus facilisis. Phasellus hendrerit malesuada massa et mattis."],
+	    cards: ['/imgs/rhizome/rhizome1.jpg', '/imgs/rhizome/rhizome2.jpg', '/imgs/rhizome/rhizome3.jpg', '/imgs/rhizome/rhizome4.jpg', '/imgs/rhizome/rhizome5.jpg']
+	  },
+	
+	  trump: {
+	    title: "Trump",
+	    type: "Print, One-off",
+	    headText: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida, ligula sodales viverra suscipit, orci lectus elementum velit, et finibus libero risus at urna. Aenean a leo et leo porta scelerisque at ut lacus. Cras sodales vestibulum mi eu ultrices. Maecenas vitae elit at lacus semper bibendum nec non tortor. Sed eget nibh vitae enim lobortis feugiat. Quisque finibus, magna ac feugiat eleifend, tellus leo commodo ante, sodales convallis metus mi eget orci. Morbi quis ninec diam vehicula vulputate vel ultricies sem. Donec suscipit non lectus eu pharetra. Donec quis vulputate felis. Nullam sagittis magna metus, eget aliquet tortor sollicitudin nec. Praesent ultrices cursus facilisis. Phasellus hendrerit malesuada massa et mattis."],
+	    cards: ['/imgs/trump/trump.jpg']
+	  },
+	
+	  boy: {
+	    title: "Little Boy And Fat Man",
+	    type: "Print, One-off",
+	    headText: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida, ligula sodales viverra suscipit, orci lectus elementum velit, et finibus libero risus at urna. Aenean a leo et leo porta scelerisque at ut lacus. Cras sodales vestibulum mi eu ultrices. Maecenas vitae elit at lacus semper bibendum nec non tortor. Sed eget nibh vitae enim lobortis feugiat. Quisque finibus, magna ac feugiat eleifend, tellus leo commodo ante, sodales convallis metus mi eget orci. Morbi quis nisi  nec diam vehicula vulputate vel ultricies sem. Donec suscipit non lectus eu pharetra. Donec quis vulputate felis. Nullam sagittis magna metus, eget aliquet tortor sollicitudin nec. Praesent ultrices cursus facilisis. Phasellus hendrerit malesuada massa et mattis."],
+	    cards: ['/imgs/boy/boy.jpg']
+	  },
+	
+	  sea: {
+	    title: "Sea",
+	    type: "Visual Identity",
+	    headText: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida, ligula sodales viverra suscipit, orci lectus elementum velit, et finibus libero risus at urna. Aenean a leo et leo porta scelerisque at ut lacus. Cras sodales vestibulum mi eu ultrices. Maecenas vitae elit at lacus semper bibendum nec non tortor. Sed eget nibh vitae enim lobortis feugiat. Quisque finibus, magna ac feugiat eleifend, tellus leo commodo ante, sodales convallis metus mi eget orci. Morbi quis nisi  nec diam vehicula vulputate vel ultricies sem. Donec suscipit non lectus eu pharetra. Donec quis vulputate felis. Nullam sagittis magna metus, eget aliquet tortor sollicitudin nec. Praesent ultrices cursus facilisis. Phasellus hendrerit malesuada massa et mattis."],
+	    cards: ['/imgs/sea/sea2.jpg', '/imgs/sea/sea5.jpg', '/imgs/sea/sea4.jpg', '/imgs/sea/sea1.jpg']
+	  },
 	
 	  omni: {
 	    title: "Omni",
