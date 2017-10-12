@@ -13,9 +13,11 @@ class App extends Component {
     super(props)
     this.state = {
       aboutOpen: false,
-      projects: AppData
+      projects: AppData,
+      playing: false
     }
     this.handleAboutOpen = this.handleAboutOpen.bind(this);
+    this.handlePlaying = this.handlePlaying.bind(this);
   }
 
   handleAboutOpen(event){
@@ -23,6 +25,18 @@ class App extends Component {
       aboutOpen: !this.state.aboutOpen
     });
     window.scrollTo(0,0);
+  }
+
+  handlePlaying(value){
+    console.log("handleplay " + value);
+    this.setState({
+      playing: value
+    })
+  }
+
+  componentDidMount(){
+    var elem = document.getElementById("DOMLoading");
+    elem.parentNode.removeChild(elem);
   }
 
 
@@ -45,7 +59,12 @@ class App extends Component {
 								key={location.key}
 								location={location}
 							>
-								<Route exact path="/" component={Home} />
+								<Route
+                  exact path="/"
+                  render={props => (
+                    <Home {...props} handlePlaying={this.handlePlaying} />
+                  )}
+                />
 								<Route
 									path="/audio/:id"
 									render={props => (
@@ -55,7 +74,7 @@ class App extends Component {
 								<Route
 									path="/video/:id"
 									render={props => (
-										<Video {...props} handleAboutOpen={this.handleAboutOpen} aboutOpen={this.state.aboutOpen} projects={this.state.projects} />
+										<Video {...props} handleAboutOpen={this.handleAboutOpen} aboutOpen={this.state.aboutOpen} projects={this.state.projects} playing={this.state.playing} />
 									)}
 								/>
                 <Route

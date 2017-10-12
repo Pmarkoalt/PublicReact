@@ -70,6 +70,8 @@
 
       &__row{
         display: flex;
+        width: 100%;
+        justify-content: space-around;
 
         &__item{
           margin: 20px;
@@ -81,6 +83,14 @@
 
           &__image{
             height: calc(100vh - 27rem);
+            box-shadow: rgba(0, 0, 0, 0.2) 1px 2px 5px;
+            transform: scale(1);
+            transition: all .5s;
+          }
+
+          &__image:hover{
+            box-shadow: rgba(0, 0, 0, 0.2) 3px 4px 9px 2px;
+            transform: scale(1.05);
           }
 
           &__text{
@@ -136,8 +146,8 @@
 }
 
 .specialImg{
-  height: 200px;
-  width: 200px;
+  height: 185px;
+  width: 185px;
 }
 
 .specialText{
@@ -174,6 +184,7 @@
 }
 
 .capabilities__galleryTitle{
+  font-size: 20px;
   margin-top: 10px;
   font-weight: bold;
   font-family: sans-serif;
@@ -181,7 +192,8 @@
 }
 
 .capabilities__galleryType{
-  font-family: sans-serif;
+  font-size: 20px;
+  font-family: 'Cormorant Garamond', serif;
   display: inline-block;
   margin-left: 10px;
 }

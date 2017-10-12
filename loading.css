@@ -1,0 +1,41 @@
+#app{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#DOMLoading{
+  -webkit-animation: loadingAnimation 1s infinite alternate; /* Safari 4.0 - 8.0 */
+  animation: loadingAnimation 1s infinite alternate;
+  width: 600px;
+}
+
+
+@-webkit-keyframes loadingAnimation {
+    0%   {
+      -webkit-transform: scale(1); /* Ch <36, Saf 5.1+, iOS < 9.2, An =<4.4.4 */
+      -ms-transform: scale(1); /* IE 9 */
+      transform: scale(1);
+    }
+    100% {
+      -webkit-transform: scale(1.2); /* Ch <36, Saf 5.1+, iOS < 9.2, An =<4.4.4 */
+      -ms-transform: scale(1.2); /* IE 9 */
+      transform: scale(1.2);
+    }
+}
+
+/* Standard syntax */
+@keyframes loadingAnimation {
+  0%   {
+    -webkit-transform: scale(1); /* Ch <36, Saf 5.1+, iOS < 9.2, An =<4.4.4 */
+    -ms-transform: scale(1); /* IE 9 */
+    transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(1.2); /* Ch <36, Saf 5.1+, iOS < 9.2, An =<4.4.4 */
+    -ms-transform: scale(1.2); /* IE 9 */
+    transform: scale(1.2);
+  }
+}

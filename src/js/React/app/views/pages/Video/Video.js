@@ -9,9 +9,10 @@ import NotFoundPage from '../../components/NotFoundPage';
 class Video extends Component{
   constructor(props){
     var params = props.match.params.id;
+    var playing = props.playing;
     super(props)
     this.state = {
-      playing: false,
+      playing: playing,
       volume: 0.8,
       muted: false,
       played: 0,
@@ -112,7 +113,7 @@ class Video extends Component{
       return(
         <div className="video">
           <div className="video__content">
-            <Link to={'/'}> <div className="sideBarContainer back" onClick={this.backAbout}> <div className={"sideBarCircle " + (this.props.aboutOpen && "transparent")}> <img className="x" src="/imgs/util/back.svg" /> <p className={"帰 " + (this.props.aboutOpen && "hidden")}> 帰 </p>  </div> </div> </Link>
+            <Link to={'/'}> <div className="sideBarContainer back" onClick={this.backAbout}> <div className={"sideBarCircle " + (this.props.aboutOpen && "transparent")}> <img className="x" src="/imgs/util/backWhite.svg" /> <img className={"帰 " + (this.props.aboutOpen && "hidden")} src="/imgs/util/backBlack.svg" /> </div> </div> </Link>
             <div className="video__content__video">
               <div className="video__content__video__container">
                   <ReactPlayer
@@ -163,7 +164,11 @@ class Video extends Component{
             </div>
             <div className="video__content__text">
               <h1 className="visualTitle"> <span className="portHeader"> {this.state.project.title} </span>  <span className="portItalic"> {this.state.project.artist}</span> </h1>
-              <p className="portText">{this.state.project.summary} </p>
+              {this.state.project.summary.map((text, index) => {
+                return(
+                  <p key={index} className="portText linebreak"> {text} </p>
+                )
+              })}
             </div>
           </div>
         </div>

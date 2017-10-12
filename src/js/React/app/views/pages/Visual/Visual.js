@@ -121,7 +121,7 @@ class Visual extends Component{
     if (this.state.project){
       return(
         <div className="visual">
-          <Link to={'/'}> <div className="sideBarContainer back" onClick={this.backAbout}> <div className={"sideBarCircle " + (this.props.aboutOpen && "transparent")}> <img className="x" src="/imgs/util/back.svg" /> <p className={"帰 " + (this.props.aboutOpen && "hidden")}> 帰 </p>  </div> </div> </Link>
+          <Link to={'/'}> <div className="sideBarContainer back" onClick={this.backAbout}> <div className={"sideBarCircle " + (this.props.aboutOpen && "transparent")}> <img className="x" src="/imgs/util/backWhite.svg" /> <img className={"帰 " + (this.props.aboutOpen && "hidden")} src="/imgs/util/backBlack.svg" />  </div> </div> </Link>
           <div className="visual__carouselContainer">
             {this.state.galleryLoaded === false && <img className="visual__carouselContainer__loader" src="/imgs/util/loading.png" />}
               <div ref='carousel' className={'visual__carouselContainer__carousel ' + (this.state.galleryLoaded ? "galleryLoaded" : "")}>

@@ -154,16 +154,16 @@ class Portfolio extends Component{
                   <div className={"capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.identities ? 'filterOff' : '')}>
                     <img className="capabilities__content__gallery__row__item__image" src="/imgs/telegram/telegram.jpg" />
                     <div className="capabilities__content__gallery__row__item__text">
-                      <h3 className="capabilities__galleryTitle">Telegram</h3>
+                      <h3 className="capabilities__galleryTitle">TELEGRAM</h3>
                       <h4 className="capabilities__galleryType">Identity, Web, Digital </h4>
                     </div>
                   </div>
                 </Link>
-                <Link to={'/video/videotest'}>
+                <Link to={'/video/videotest'} onClick={() => this.props.handlePlaying(true)}>
                   <div className={"capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.motion ? 'filterOff' : '') + (this.state.print ? 'filterOff' : '') + (this.state.identities ? 'filterOff' : '') }>
                     <img className="capabilities__content__gallery__row__item__image" src="/imgs/room/room.jpg" />
                     <div className="capabilities__content__gallery__row__item__text">
-                      <h3 className="capabilities__galleryTitle"> Room </h3>
+                      <h3 className="capabilities__galleryTitle"> ROOM </h3>
                       <h4 className="capabilities__galleryType"> Motion, Print, Identities </h4>
                     </div>
                   </div>
@@ -172,7 +172,7 @@ class Portfolio extends Component{
                   <div className={"capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '')}>
                     <img className="capabilities__content__gallery__row__item__image" src="/imgs/ecube/ecubePort.jpg" />
                     <div className="capabilities__content__gallery__row__item__text">
-                      <h3 className="capabilities__galleryTitle"> ECube </h3>
+                      <h3 className="capabilities__galleryTitle"> ECUBE </h3>
                       <h4 className="capabilities__galleryType"> Interactive, Web, Digital  </h4>
                     </div>
                   </div>
@@ -183,7 +183,7 @@ class Portfolio extends Component{
                   <div className={"capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.print ? 'filterOff' : '')}>
                     <img className="capabilities__content__gallery__row__item__image" src="/imgs/boy/boy.jpg" />
                     <div className="capabilities__content__gallery__row__item__text">
-                      <h3 className="capabilities__galleryTitle"> Boy </h3>
+                      <h3 className="capabilities__galleryTitle"> BOY </h3>
                       <h4 className="capabilities__galleryType"> Print, Editorial, One-off  </h4>
                     </div>
                   </div>
@@ -192,7 +192,7 @@ class Portfolio extends Component{
                   <div className={"capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '')}>
                     <img className="capabilities__content__gallery__row__item__image" src="/imgs/monza/monzaPort.jpg" />
                     <div className="capabilities__content__gallery__row__item__text">
-                      <h3 className="capabilities__galleryTitle"> Monza Light </h3>
+                      <h3 className="capabilities__galleryTitle"> MONZA LIGHT </h3>
                       <h4 className="capabilities__galleryType"> Interactive, Web, Digital  </h4>
                     </div>
                   </div>
@@ -201,7 +201,7 @@ class Portfolio extends Component{
                   <div className={"capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.identities ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '') + (this.state.motion ? 'filterOff' : '')}>
                     <img className="capabilities__content__gallery__row__item__image" src="/imgs/nazmag/nazmag.jpg" />
                     <div className="capabilities__content__gallery__row__item__text">
-                      <h3 className="capabilities__galleryTitle"> Naz Mag </h3>
+                      <h3 className="capabilities__galleryTitle"> NAZ MAG </h3>
                       <h4 className="capabilities__galleryType"> Identities, Interactive, Motion </h4>
                     </div>
                   </div>
@@ -212,7 +212,7 @@ class Portfolio extends Component{
                   <div className={"capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.identities ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '')}>
                     <img className="capabilities__content__gallery__row__item__image" src="/imgs/rhizome/rhizomePort.jpg" />
                     <div className="capabilities__content__gallery__row__item__text">
-                      <h3 className="capabilities__galleryTitle"> Rhizome </h3>
+                      <h3 className="capabilities__galleryTitle"> RHIZOME </h3>
                       <h4 className="capabilities__galleryType"> Identities, Interactive </h4>
                     </div>
                   </div>
@@ -221,7 +221,7 @@ class Portfolio extends Component{
                   <div className={"capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.identities ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '')}>
                     <img className="capabilities__content__gallery__row__item__image" src="/imgs/emerge/emerge.jpg" />
                     <div className="capabilities__content__gallery__row__item__text">
-                      <h3 className="capabilities__galleryTitle"> Emerge </h3>
+                      <h3 className="capabilities__galleryTitle"> EMERGE </h3>
                       <h4 className="capabilities__galleryType"> Identities, Interactive </h4>
                     </div>
                   </div>
@@ -230,7 +230,7 @@ class Portfolio extends Component{
                   <div className={"capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.print ? 'filterOff' : '')}>
                     <img className="capabilities__content__gallery__row__item__image" src="/imgs/trump/trump.jpg" />
                     <div className="capabilities__content__gallery__row__item__text">
-                      <h3 className="capabilities__galleryTitle"> Trump </h3>
+                      <h3 className="capabilities__galleryTitle"> TRUMP </h3>
                       <h4 className="capabilities__galleryType"> Print, Editorial, One-off  </h4>
                     </div>
                   </div>
@@ -250,7 +250,7 @@ class Portfolio extends Component{
                   <div className={"capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.identities ? 'filterOff' : '') + (this.state.print ? 'filterOff' : '')}>
                     <img className="capabilities__content__gallery__row__item__image" src="/imgs/eddy/eddy.jpg" />
                     <div className="capabilities__content__gallery__row__item__text">
-                      <h3 className="capabilities__galleryTitle"> Eddy Bauer </h3>
+                      <h3 className="capabilities__galleryTitle"> EDDY BAUER </h3>
                       <h4 className="capabilities__galleryType"> Identity, Print  </h4>
                     </div>
                   </div>
@@ -259,7 +259,7 @@ class Portfolio extends Component{
                   <div className={"capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.print ? 'filterOff' : '')}>
                     <img className="capabilities__content__gallery__row__item__image" src="/imgs/europe/europe.jpg" />
                     <div className="capabilities__content__gallery__row__item__text">
-                      <h3 className="capabilities__galleryTitle"> Europe </h3>
+                      <h3 className="capabilities__galleryTitle"> EUROPE </h3>
                       <h4 className="capabilities__galleryType"> Print, Editorial, One-off  </h4>
                     </div>
                   </div>
@@ -270,16 +270,16 @@ class Portfolio extends Component{
                   <div className={"capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.print ? 'filterOff' : '')}>
                     <img className="capabilities__content__gallery__row__item__image" src="/imgs/blackstar/blackstarPort.jpg" />
                     <div className="capabilities__content__gallery__row__item__text">
-                      <h3 className="capabilities__galleryTitle"> Blackstar </h3>
+                      <h3 className="capabilities__galleryTitle"> BLACKSTAR </h3>
                       <h4 className="capabilities__galleryType"> Print, Editorial, One-off </h4>
                     </div>
                   </div>
                 </Link>
-                <Link to={'/fakepage'}>
+                <Link to={'/visual/foto'}>
                   <div className={"capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.print ? 'filterOff' : '')}>
-                    <img className="capabilities__content__gallery__row__item__image" src="/imgs/f/f.jpg" />
+                    <img className="capabilities__content__gallery__row__item__image" src="/imgs/foto/fotoPort.jpg" />
                     <div className="capabilities__content__gallery__row__item__text">
-                      <h3 className="capabilities__galleryTitle"> F </h3>
+                      <h3 className="capabilities__galleryTitle"> FOTO </h3>
                       <h4 className="capabilities__galleryType"> Print, Editorial, One-off </h4>
                     </div>
                   </div>
@@ -288,7 +288,7 @@ class Portfolio extends Component{
                   <div className={"capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.industry ? 'filterOff' : '')}>
                     <img className="capabilities__content__gallery__row__item__image" src="/imgs/industry/industry.jpg" />
                     <div className="capabilities__content__gallery__row__item__text">
-                      <h3 className="capabilities__galleryTitle"> Industry </h3>
+                      <h3 className="capabilities__galleryTitle"> INDUSTRY </h3>
                       <h4 className="capabilities__galleryType"> Print, Editorial, One-off  </h4>
                     </div>
                   </div>
@@ -299,7 +299,7 @@ class Portfolio extends Component{
                   <div className={"capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.identities ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '')}>
                     <img className="capabilities__content__gallery__row__item__image" src="/imgs/omni/omniPort.jpg" />
                     <div className="capabilities__content__gallery__row__item__text">
-                      <h3 className="capabilities__galleryTitle"> Omni </h3>
+                      <h3 className="capabilities__galleryTitle"> OMNI </h3>
                       <h4 className="capabilities__galleryType"> Identities, Interactive </h4>
                     </div>
                   </div>
@@ -308,7 +308,7 @@ class Portfolio extends Component{
                   <div className={"capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.identities ? 'filterOff' : '')}>
                     <img className="capabilities__content__gallery__row__item__image" src="/imgs/sea/seaPort.jpg" />
                     <div className="capabilities__content__gallery__row__item__text">
-                      <h3 className="capabilities__galleryTitle"> Sea </h3>
+                      <h3 className="capabilities__galleryTitle"> SEA </h3>
                       <h4 className="capabilities__galleryType"> Identities, Interactive </h4>
                     </div>
                   </div>
@@ -317,7 +317,7 @@ class Portfolio extends Component{
                   <div className={"capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.identities ? 'filterOff' : '')}>
                     <img className="capabilities__content__gallery__row__item__image" src="/imgs/studios/studios.jpg" />
                     <div className="capabilities__content__gallery__row__item__text">
-                      <h3 className="capabilities__galleryTitle"> Studios </h3>
+                      <h3 className="capabilities__galleryTitle"> STUDIO </h3>
                       <h4 className="capabilities__galleryType"> Identities, Interactive  </h4>
                     </div>
                   </div>
@@ -328,7 +328,7 @@ class Portfolio extends Component{
                   <div className={"capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '')}>
                     <img className="capabilities__content__gallery__row__item__image" src="/imgs/tendencies/tendencies.jpg" />
                     <div className="capabilities__content__gallery__row__item__text">
-                      <h3 className="capabilities__galleryTitle"> Tendencies </h3>
+                      <h3 className="capabilities__galleryTitle"> TENDENCIES </h3>
                       <h4 className="capabilities__galleryType"> Identities, Interactive </h4>
                     </div>
                   </div>

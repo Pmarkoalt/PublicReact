@@ -109,7 +109,7 @@ class Audio extends Component{
       return(
         <div className="audio">
           <div className="audio__content">
-            <Link to={'/'}> <div className="sideBarContainer back" onClick={this.backAbout}> <div className={"sideBarCircle " + (this.props.aboutOpen && "transparent")}> <img className="x" src="/imgs/util/back.svg" /> <p className={"帰 " + (this.props.aboutOpen && "hidden")}> 帰 </p>  </div> </div> </Link>
+            <Link to={'/'}> <div className="sideBarContainer back" onClick={this.backAbout}> <div className={"sideBarCircle " + (this.props.aboutOpen && "transparent")}> <img className="x" src="/imgs/util/backWhite.svg" /> <img className={"帰 " + (this.props.aboutOpen && "hidden")} src="/imgs/util/backBlack.svg" /> </div> </div> </Link>
             <div className="audio__content__album">
               <Tilt className="audio__content__album__tilt" options={{ max : 25 }}>
                 <div className="audio__content__album__tilt__cover"> <img className="audio__content__album__tilt__cover" src={this.state.project.cover} /> </div>
@@ -157,7 +157,11 @@ class Audio extends Component{
             </div>
             <div className="audio__content__text">
               <h1 className="visualTitle"> <span className="portHeader"> {this.state.project.title} </span>  <span className="portItalic"> {this.state.project.artist} </span> </h1>
-              <p className="portText">{this.state.project.summary}</p></div>
+              {this.state.project.summary.map((text, index) => {
+                return(
+                  <p key={index} className="portText linebreak"> {text} </p>
+                )
+              })}</div>
           </div>
         </div>
       )

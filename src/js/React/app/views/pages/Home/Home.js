@@ -13,7 +13,7 @@ class Home extends Component{
     return(
       <div className="home">
         <Splash />
-        <Portfolio />
+        <Portfolio handlePlaying={this.props.handlePlaying} />
       </div>
 
     )

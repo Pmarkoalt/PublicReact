@@ -42,6 +42,13 @@ const AppData = {
     cards: [ '/imgs/sea/sea2.jpg', '/imgs/sea/sea5.jpg', '/imgs/sea/sea4.jpg', '/imgs/sea/sea1.jpg' ]
   },
 
+  foto: {
+    title: "Foto",
+    type: "Print",
+    headText: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida, ligula sodales viverra suscipit, orci lectus elementum velit, et finibus libero risus at urna. Aenean a leo et leo porta scelerisque at ut lacus. Cras sodales vestibulum mi eu ultrices. Maecenas vitae elit at lacus semper bibendum nec non tortor. Sed eget nibh vitae enim lobortis feugiat. Quisque finibus, magna ac feugiat eleifend, tellus leo commodo ante, sodales convallis metus mi eget orci. Morbi quis nisi  nec diam vehicula vulputate vel ultricies sem. Donec suscipit non lectus eu pharetra. Donec quis vulputate felis. Nullam sagittis magna metus, eget aliquet tortor sollicitudin nec. Praesent ultrices cursus facilisis. Phasellus hendrerit malesuada massa et mattis."],
+    cards: ['/imgs/foto/foto1.jpg', '/imgs/foto/foto2.jpg', '/imgs/foto/foto3.jpg', '/imgs/foto/foto4.jpg', '/imgs/foto/foto5.jpg', '/imgs/foto/foto6.jpg', '/imgs/foto/foto7.jpg', '/imgs/foto/foto8.jpg', '/imgs/foto/foto9.jpg']
+  },
+
   omni: {
     title: "Omni",
     type: "Identites, Interactive",
@@ -103,14 +110,14 @@ const AppData = {
     cover: "http://www.billboard.com/files/styles/900_wide/public/media/Joy-Division-Unknown-Pleasures-album-covers-billboard-1000x1000.jpg",
     title: "The River",
     artist: "Ali Farka",
-    summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida, ligula sodales viverra suscipit, orci lectus elementum velit, et finibus libero risus at urna. Aenean a leo et leo porta scelerisque at ut lacus. Cras sodales vestibulum mi eu ultrices. Maecenas vitae elit at lacus semper bibendum nec non tortor. Sed eget nibh vitae enim lobortis feugiat. Quisque finibus, magna ac feugiat eleifend, tellus leo commodo ante, sodales convallis metus mi eget orci. Morbi quis nisi nec diam vehicula vulputate vel ultricies sem. Donec suscipit non lectus eu pharetra. Donec quis vulputate felis. Nullam sagittis magna metus, eget aliquet tortor sollicitudin nec. Praesent ultrices cursus facilisis. Phasellus hendrerit malesuada massa et mattis."
+    summary: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida, ligula sodales viverra suscipit, orci lectus elementum velit, et finibus libero risus at urna. Aenean a leo et leo porta scelerisque at ut lacus. Cras sodales vestibulum mi eu ultrices. Maecenas vitae elit at lacus semper bibendum nec non tortor. Sed eget nibh vitae enim lobortis feugiat. Quisque finibus, magna ac feugiat eleifend, tellus leo commodo ante, sodales convallis metus mi eget orci. Morbi quis nisi nec diam vehicula vulputate vel ultricies sem. Donec suscipit non lectus eu pharetra. Donec quis vulputate felis. Nullam sagittis magna metus, eget aliquet tortor sollicitudin nec. Praesent ultrices cursus facilisis. Phasellus hendrerit malesuada massa et mattis."]
   },
 
   videotest: {
     video: "https://vimeo.com/128414835",
     title: "Stanky Leg",
     artist: "Da G Spot Boys",
-    summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida, ligula sodales viverra suscipit, orci lectus elementum velit, et finibus libero risus at urna. Aenean a leo et leo porta scelerisque at ut lacus. Cras sodales vestibulum mi eu ultrices. Maecenas vitae elit at lacus semper bibendum nec non tortor. Sed eget nibh vitae enim lobortis feugiat. Quisque finibus, magna ac feugiat eleifend, tellus leo commodo ante, sodales convallis metus mi eget orci. Morbi quis nisi nec diam vehicula vulputate vel ultricies sem. Donec suscipit non lectus eu pharetra. Donec quis vulputate felis. Nullam sagittis magna metus, eget aliquet tortor sollicitudin nec. Praesent ultrices cursus facilisis. Phasellus hendrerit malesuada massa et mattis."
+    summary: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida, ligula sodales viverra suscipit, orci lectus elementum velit, et finibus libero risus at urna. Aenean a leo et leo porta scelerisque at ut lacus. Cras sodales vestibulum mi eu ultrices. Maecenas vitae elit at lacus semper bibendum nec non tortor. Sed eget nibh vitae enim lobortis feugiat. Quisque finibus, magna ac feugiat eleifend, tellus leo commodo ante, sodales convallis metus mi eget orci. Morbi quis nisi nec diam vehicula vulputate vel ultricies sem. Donec suscipit non lectus eu pharetra. Donec quis vulputate felis. Nullam sagittis magna metus, eget aliquet tortor sollicitudin nec. Praesent ultrices cursus facilisis. Phasellus hendrerit malesuada massa et mattis."]
   }
 }
 export default AppData;

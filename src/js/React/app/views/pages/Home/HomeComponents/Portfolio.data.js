@@ -2,57 +2,57 @@ const PortfolioData = {
   special: [
     {
       image: "http://lorempixel.com/400/400",
-      title: "Example 1",
+      title: "EXAMPLE 1",
       link: "/visual/test"
     },
     {
       image: "http://lorempixel.com/410/400",
-      title: "Example 2",
+      title: "EXAMPLE 2",
       link: "/visual/test"
     },
     {
       image: "http://lorempixel.com/400/410",
-      title: "Example 3",
+      title: "EXAMPLE 3",
       link: "/visual/test"
     },
     {
       image: "http://lorempixel.com/401/403",
-      title: "Example 4",
+      title: "EXAMPLE 4",
       link: "/visual/test"
     },
     {
       image: "http://lorempixel.com/403/401",
-      title: "Example 5",
+      title: "EXAMPLE 5",
       link: "/visual/test"
     },
     {
       image: "http://lorempixel.com/404/404",
-      title: "Example 6",
+      title: "EXAMPLE 6",
       link: "/visual/test"
     },
     {
       image: "http://lorempixel.com/405/405",
-      title: "Example 7",
+      title: "EXAMPLE 7",
       link: "/visual/test"
     },
     {
       image: "http://lorempixel.com/406/400",
-      title: "Example 8",
+      title: "EXAMPLE 8",
       link: "/visual/test"
     },
     {
       image: "http://lorempixel.com/400/406",
-      title: "Example 9",
+      title: "EXAMPLE 9",
       link: "/visual/test"
     },
     {
       image: "http://lorempixel.com/407/406",
-      title: "Example 10",
+      title: "EXAMPLE 10",
       link: "/visual/test"
     },
     {
       image: "http://lorempixel.com/408/409",
-      title: "Example 11",
+      title: "EXAMPLE 11",
       link: "/visual/test"
     }
   ]
