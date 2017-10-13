@@ -1,57 +1,101 @@
 .splash{
-  height: 90vh;
+  min-height: 80vh;
   top: 0;
-  z-index: -500;
   font: 'Cinzel';
+  position: relative;
 
   &__content{
     margin-top: 100px;
     margin-left: 50px;
-    margin-right: 200px;
+    margin-right: 50px;
     display: flex;
+    flex-direction: row;
 
-    &__threejs{
+    &__left{
+      display: flex;
+      flex-direction: column;
+      margin-right: 50px;
+
+      &__paraOne{
+        margin-left: 30px;
+        max-width: 700px;
+        margin-bottom: 25px;
+      }
+
+      &__paraTwo{
+        margin-left: 30px;
+        max-width: 700px;
+        margin-bottom: 30px;
+      }
+
+      &__client{
+        margin-left: 30px;
+        max-width: 800px;
+      }
 
     }
 
-    &__text{
-      margin-left: 10px;
+    &__right{
 
-      &__logo{
-        margin-top: 29px;
+      &__image{
+        margin-top: 70px;
+        margin-right: 50px;
+        width: 300px;
       }
-
-      &__paragraph{
-        max-width: 900px;
-      }
-
     }
 
   }
 
-  &__arrowContainer{
-    margin-top: 100px;
+  &__bottom{
     display: flex;
+    flex-direction: row;
     justify-content: center;
+    position: relative;
+    margin-left: 50px;
+    margin-right: 50px;
 
-      &__arrow{
-          width: 13px;
-          height: 13px;
-          border-bottom: 2px solid #000000;
-          border-right: 2px solid #000000;
-          -webkit-transform: translate(-50%, 0%) rotate(45deg);
-          -moz-transform: translate(-50%, 0%) rotate(45deg);
-          transform: translate(-50%, 0%) rotate(45deg);
-          -webkit-animation: move_down 4s ease-in-out infinite;
-          -moz-animation: move_down 4s ease-in-out infinite;
-          animation: move_down 4s ease-in-out infinite;
-      }
+    &__arrowContainer{
+      margin-top: 100px;
+      display: flex;
+      justify-content: center;
+
+        &__arrow{
+            width: 13px;
+            height: 13px;
+            border-bottom: 2px solid #000000;
+            border-right: 2px solid #000000;
+            -webkit-transform: translate(-50%, 0%) rotate(45deg);
+            -moz-transform: translate(-50%, 0%) rotate(45deg);
+            transform: translate(-50%, 0%) rotate(45deg);
+            -webkit-animation: move_down 4s ease-in-out infinite;
+            -moz-animation: move_down 4s ease-in-out infinite;
+            animation: move_down 4s ease-in-out infinite;
+        }
+
+    }
+
+    &__minority{
+      position: absolute;
+      bottom: 0px;
+      right: 20px;
+    }
 
   }
 
 
 
 
+
+}
+
+.splash__minority{
+  font-family: 'Cinzel', serif;
+  font-size: 20px;
+}
+
+#splash__logo{
+  max-width: 475px;
+  width: 70vw;
 }
 
 .splash__h1{
@@ -61,19 +105,32 @@
 
 .splash__h2{
   font-family: 'Cormorant Garamond', serif;
-  font-size: 35px;
+  font-size: 40px;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  display: inline;
 }
 
 .splash__contact{
-  font-size: 25px;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 35px;
   font-style: italic;
-  text-decoration: underline;
+  letter-spacing: 1px;
 }
 
 .splash__links{
   font-size: 25px;
 }
 
+.splash__clients{
+  font-family: sans-serif;
+  font-size: 20px;
+  color: #b3b2b2;
+}
+
+.splash__bold{
+  font-weight: bold;
+}
 /*
 ===================================
     ANIMATIONS
@@ -102,22 +159,88 @@
 */
 
 @media (max-width: 1200px) {
+  .splash__clients{
+    font-family: sans-serif;
+    font-size: 1.8vw;
+    color: #b3b2b2;
+  }
 
+  .splash__h2{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 3.5vw;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    display: inline;
+  }
 
 
 }
 
 @media (max-width: 960px) {
 
+  .splash__content{
+    margin-top: 50px;
+  }
+
+.splash__content__right{
+  display: none;
+}
+
+.splash__h2{
+  font-size: 40px;
+}
+
+.splash__clients{
+  font-size: 20px;
+}
 
 
 }
 
 @media (max-width: 760px) {
 
+  .splash__content{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .splash__content__left__paraOne{
+    max-width: "";
+    margin-left: 25px;
+  }
+
+  .splash__content__left__paraTwo{
+    max-width: "";
+    margin-left: 25px;
+  }
+
+  .splash__content__left__client{
+    max-width: "";
+    margin-left: 25px;
+  }
+
+  .splash__h2{
+    font-size: 6vw;
+  }
+
+  .splash__clients{
+    font-size: 20px;
+  }
+
+  .splash__contact{
+    font-size: 7vw;
+  }
 
 }
 
 @media (max-width: 480px) {
+
+  // .splash__h2{
+  //   font-size: 7vw;
+  // }
+  //
+  // .splash__contact{
+  //   font-size: 7vw;
+  // }
 
   }
