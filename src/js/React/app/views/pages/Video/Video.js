@@ -163,7 +163,7 @@ class Video extends Component{
               </div>
             </div>
             <div className="video__content__text">
-              <h1 className="visualTitle"> <span className="portHeader"> {this.state.project.title} </span>  <span className="portItalic"> {this.state.project.artist}</span> </h1>
+              <h1 className="visualTitle"> <span className="videoHeader"> {this.state.project.title} </span>  <span className="videoItalic"> {this.state.project.artist}</span> </h1>
               {this.state.project.summary.map((text, index) => {
                 return(
                   <p key={index} className="portText linebreak"> {text} </p>

@@ -86,7 +86,7 @@
 	exports.push([module.id, "@import url(https://fonts.googleapis.com/css?family=Cinzel:400,700|Cormorant+Garamond:300,400);", ""]);
 	
 	// module
-	exports.push([module.id, "@charset \"UTF-8\";\n.container, main {\n  position: relative; }\n\nol, ul {\n  list-style: none; }\n\na {\n  color: black; }\n\n/* Globally */\n/* Each state */\na:visited {\n  text-decoration: none;\n  color: black; }\n\na:hover {\n  text-decoration: none;\n  color: black; }\n\na:focus {\n  text-decoration: none;\n  color: black; }\n\na:hover, a:active {\n  text-decoration: none;\n  color: black; }\n\na, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font: inherit;\n  vertical-align: baseline; }\n\narticle, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {\n  display: block; }\n\nbody {\n  line-height: 1;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n  font-family: futura-pt; }\n\n.slick-list,\n.slick-slider,\n.slick-track {\n  position: relative;\n  display: block; }\n\n.slick-loading .slick-slide,\n.slick-loading .slick-track {\n  visibility: hidden; }\n\n.slick-slider {\n  box-sizing: border-box;\n  -webkit-user-select: none;\n  -moz-user-select: none;\n  -ms-user-select: none;\n  user-select: none;\n  -webkit-touch-callout: none;\n  -khtml-user-select: none;\n  -ms-touch-action: pan-y;\n  touch-action: pan-y;\n  -webkit-tap-highlight-color: transparent; }\n\n.slick-list {\n  overflow: hidden;\n  margin: 0;\n  padding: 0; }\n\n.slick-list:focus {\n  outline: 0; }\n\n.slick-list.dragging {\n  cursor: pointer;\n  cursor: hand; }\n\n.slick-slider .slick-list,\n.slick-slider .slick-track {\n  -webkit-transform: translate3d(0, 0, 0);\n  -moz-transform: translate3d(0, 0, 0);\n  -ms-transform: translate3d(0, 0, 0);\n  -o-transform: translate3d(0, 0, 0);\n  transform: translate3d(0, 0, 0); }\n\n.slick-track {\n  top: 0;\n  left: 0; }\n\n.slick-track:after,\n.slick-track:before {\n  display: table;\n  content: ''; }\n\n.slick-track:after {\n  clear: both; }\n\n.slick-slide {\n  display: none;\n  float: left;\n  height: 100%;\n  min-height: 1px; }\n\n[dir=rtl] .slick-slide {\n  float: right; }\n\n.slick-slide img {\n  display: block; }\n\n.slick-slide.slick-loading img {\n  display: none; }\n\n.slick-slide.dragging img {\n  pointer-events: none; }\n\n.slick-initialized .slick-slide {\n  display: block;\n  margin: 15px; }\n\n.slick-vertical .slick-slide {\n  display: block;\n  height: auto;\n  border: 1px solid transparent; }\n\n.slick-arrow.slick-hidden {\n  display: none; }\n\n/*# sourceMappingURL=slick.min.css.map */\n/*\n===================================\n    MEDIA QUERIES\n===================================\n*/\ninput[type=range] {\n  -webkit-appearance: none;\n  width: 100%;\n  margin: 5.1px 0; }\n\ninput[type=range]:focus {\n  outline: none; }\n\ninput[type=range]::-webkit-slider-runnable-track {\n  width: 100%;\n  height: 1.8px;\n  cursor: pointer;\n  box-shadow: 0px 0px 0px transparent, 0px 0px 0px rgba(13, 13, 13, 0);\n  background: #000000;\n  border-radius: 0px;\n  border: 0px solid rgba(1, 1, 1, 0); }\n\ninput[type=range]::-webkit-slider-thumb {\n  box-shadow: 0px 0px 0px transparent, 0px 0px 0px rgba(13, 13, 13, 0);\n  border: 0px solid transparent;\n  height: 12px;\n  width: 12px;\n  border-radius: 50px;\n  background: #000000;\n  cursor: pointer;\n  -webkit-appearance: none;\n  margin-top: -5.1px; }\n\ninput[type=range]:focus::-webkit-slider-runnable-track {\n  background: #050505; }\n\ninput[type=range]::-moz-range-track {\n  width: 100%;\n  height: 1.8px;\n  cursor: pointer;\n  box-shadow: 0px 0px 0px transparent, 0px 0px 0px rgba(13, 13, 13, 0);\n  background: #000000;\n  border-radius: 0px;\n  border: 0px solid rgba(1, 1, 1, 0); }\n\ninput[type=range]::-moz-range-thumb {\n  box-shadow: 0px 0px 0px transparent, 0px 0px 0px rgba(13, 13, 13, 0);\n  border: 0px solid transparent;\n  height: 12px;\n  width: 12px;\n  border-radius: 50px;\n  background: #000000;\n  cursor: pointer; }\n\ninput[type=range]::-ms-track {\n  width: 100%;\n  height: 1.8px;\n  cursor: pointer;\n  background: transparent;\n  border-color: transparent;\n  color: transparent; }\n\ninput[type=range]::-ms-fill-lower {\n  background: #000000;\n  border: 0px solid rgba(1, 1, 1, 0);\n  border-radius: 0px;\n  box-shadow: 0px 0px 0px transparent, 0px 0px 0px rgba(13, 13, 13, 0); }\n\ninput[type=range]::-ms-fill-upper {\n  background: #000000;\n  border: 0px solid rgba(1, 1, 1, 0);\n  border-radius: 0px;\n  box-shadow: 0px 0px 0px transparent, 0px 0px 0px rgba(13, 13, 13, 0); }\n\ninput[type=range]::-ms-thumb {\n  box-shadow: 0px 0px 0px transparent, 0px 0px 0px rgba(13, 13, 13, 0);\n  border: 0px solid transparent;\n  height: 12px;\n  width: 12px;\n  border-radius: 50px;\n  background: #000000;\n  cursor: pointer;\n  height: 1.8px; }\n\ninput[type=range]:focus::-ms-fill-lower {\n  background: #000000; }\n\ninput[type=range]:focus::-ms-fill-upper {\n  background: #050505; }\n\n.volumeSlider {\n  width: 50px !important; }\n\n.splash {\n  min-height: 80vh;\n  top: 0;\n  font: 'Cinzel';\n  position: relative; }\n  .splash__content {\n    margin-top: 100px;\n    margin-left: 50px;\n    margin-right: 50px;\n    display: flex;\n    flex-direction: row; }\n    .splash__content__left {\n      display: flex;\n      flex-direction: column;\n      margin-right: 50px; }\n      .splash__content__left__paraOne {\n        margin-left: 30px;\n        max-width: 700px;\n        margin-bottom: 25px; }\n      .splash__content__left__paraTwo {\n        margin-left: 30px;\n        max-width: 700px;\n        margin-bottom: 30px; }\n      .splash__content__left__client {\n        margin-left: 30px;\n        max-width: 800px; }\n    .splash__content__right__image {\n      margin-top: 70px;\n      margin-right: 50px;\n      width: 300px; }\n  .splash__bottom {\n    display: flex;\n    flex-direction: row;\n    justify-content: center;\n    position: relative;\n    margin-left: 50px;\n    margin-right: 50px; }\n    .splash__bottom__arrowContainer {\n      margin-top: 100px;\n      display: flex;\n      justify-content: center; }\n      .splash__bottom__arrowContainer__arrow {\n        width: 13px;\n        height: 13px;\n        border-bottom: 2px solid #000000;\n        border-right: 2px solid #000000;\n        -webkit-transform: translate(-50%, 0%) rotate(45deg);\n        -moz-transform: translate(-50%, 0%) rotate(45deg);\n        transform: translate(-50%, 0%) rotate(45deg);\n        -webkit-animation: move_down 4s ease-in-out infinite;\n        -moz-animation: move_down 4s ease-in-out infinite;\n        animation: move_down 4s ease-in-out infinite; }\n    .splash__bottom__minority {\n      position: absolute;\n      bottom: 0px;\n      right: 20px; }\n\n.splash__minority {\n  font-family: 'Cinzel', serif;\n  font-size: 20px; }\n\n#splash__logo {\n  max-width: 475px;\n  width: 70vw; }\n\n.splash__h1 {\n  font-family: 'Cinzel', serif;\n  font-size: 50px; }\n\n.splash__h2 {\n  font-family: 'Cormorant Garamond', serif;\n  font-size: 40px;\n  font-weight: lighter;\n  letter-spacing: 1px;\n  display: inline; }\n\n.splash__contact {\n  font-family: 'Cormorant Garamond', serif;\n  font-size: 35px;\n  font-style: italic;\n  letter-spacing: 1px; }\n\n.splash__links {\n  font-size: 25px; }\n\n.splash__clients {\n  font-family: sans-serif;\n  font-size: 20px;\n  color: #b3b2b2; }\n\n.splash__bold {\n  font-weight: bold; }\n\n/*\n===================================\n    ANIMATIONS\n===================================\n*/\n@keyframes move_down {\n  0% {\n    transform: translate(0, -10px) rotate(45deg);\n    opacity: 0; }\n  50% {\n    opacity: 1; }\n  100% {\n    transform: translate(0, 10px) rotate(45deg);\n    opacity: 0; } }\n\n/*\n===================================\n    MEDIA QUERIES\n===================================\n*/\n@media (max-width: 1200px) {\n  .splash__clients {\n    font-family: sans-serif;\n    font-size: 1.8vw;\n    color: #b3b2b2; }\n  .splash__h2 {\n    font-family: 'Cormorant Garamond', serif;\n    font-size: 3.5vw;\n    font-weight: lighter;\n    letter-spacing: 1px;\n    display: inline; } }\n\n@media (max-width: 960px) {\n  .splash__content {\n    margin-top: 50px; }\n  .splash__content__right {\n    display: none; }\n  .splash__h2 {\n    font-size: 40px; }\n  .splash__clients {\n    font-size: 20px; } }\n\n@media (max-width: 760px) {\n  .splash__content {\n    margin-left: 10px;\n    margin-right: 10px; }\n  .splash__content__left__paraOne {\n    max-width: \"\";\n    margin-left: 25px; }\n  .splash__content__left__paraTwo {\n    max-width: \"\";\n    margin-left: 25px; }\n  .splash__content__left__client {\n    max-width: \"\";\n    margin-left: 25px; }\n  .splash__h2 {\n    font-size: 6vw; }\n  .splash__clients {\n    font-size: 20px; }\n  .splash__contact {\n    font-size: 7vw; } }\n\n.capabilities {\n  background-color: white;\n  min-height: 100vh; }\n  .capabilities__content {\n    margin-left: 3%;\n    margin-right: 3%;\n    margin-top: 50px;\n    transition: filter 1s;\n    filter: blur(0px);\n    -webkit-filter: blur(0px); }\n    .capabilities__content__nav {\n      position: fixed;\n      top: -100px;\n      z-index: 5;\n      display: flex;\n      flex-direction: row;\n      margin-bottom: 30px;\n      background-color: white;\n      height: 70px;\n      width: 100%;\n      align-items: center;\n      box-shadow: rgba(0, 0, 0, 0.2) 1px 2px 5px;\n      transition: top .5s; }\n      .capabilities__content__nav__header {\n        margin-right: 8vw; }\n        .capabilities__content__nav__header__specialButton {\n          position: fixed;\n          right: 100px; }\n      .capabilities__content__nav__selectBox {\n        display: flex;\n        justify-content: space-between;\n        align-items: center;\n        text-align: center;\n        width: 140px;\n        border-bottom: solid 2px #111; }\n    .capabilities__content__specialNav {\n      position: fixed;\n      top: -500px;\n      z-index: 4;\n      height: 300px;\n      width: 100%;\n      background-color: white;\n      box-shadow: rgba(0, 0, 0, 0.2) 1px 2px 5px;\n      overflow: hidden;\n      -webkit-transition: top .5s ease-in-out;\n      -moz-transition: top .5s ease-in-out;\n      -ms-transition: top .5s ease-in-out;\n      -o-transition: top .5s ease-in-out;\n      transition: top .5s ease-in-out; }\n    .capabilities__content__gallery {\n      display: flex;\n      flex-direction: row;\n      flex-wrap: wrap; }\n      .capabilities__content__gallery__row {\n        display: flex;\n        width: 100%;\n        justify-content: space-around; }\n        .capabilities__content__gallery__row__item {\n          margin: 20px;\n          margin-left: 0px;\n          display: flex;\n          flex-direction: column;\n          transition: 1s all;\n          opacity: .3; }\n          .capabilities__content__gallery__row__item__image {\n            height: calc(100vh - 27rem);\n            box-shadow: rgba(0, 0, 0, 0.2) 1px 2px 5px;\n            transform: scale(1);\n            transition: all .5s; }\n          .capabilities__content__gallery__row__item__image:hover {\n            box-shadow: rgba(0, 0, 0, 0.2) 3px 4px 9px 2px;\n            transform: scale(1.05); }\n\n.before {\n  width: 5px;\n  height: 5px;\n  margin-left: 6px;\n  border-bottom: 2px solid #000000;\n  border-left: 2px solid #000000;\n  -webkit-transform: translate(-50%, 0%) rotate(45deg);\n  -moz-transform: translate(-50%, 0%) rotate(45deg);\n  transform: translate(-50%, 0%) rotate(45deg); }\n\n.after {\n  width: 5px;\n  height: 5px;\n  border-top: 2px solid #000000;\n  border-right: 2px solid #000000;\n  -webkit-transform: translate(-50%, 0%) rotate(45deg);\n  -moz-transform: translate(-50%, 0%) rotate(45deg);\n  transform: translate(-50%, 0%) rotate(45deg); }\n\n.before:hover,\n.after:hover,\n.capabilities__content__nav__header__specialButton,\n.sideBarCircle {\n  cursor: pointer; }\n\n.navShow {\n  top: 0; }\n\n.specialCard {\n  margin-top: 70px;\n  height: 250px;\n  width: 250px;\n  opacity: 0; }\n\n.specialImg {\n  height: 185px;\n  width: 185px; }\n\n.specialText {\n  font-family: sans-serif; }\n\n.showSpecial {\n  top: 0; }\n\n.specialHide {\n  top: -1000px; }\n\n.galleryLoaded {\n  opacity: 1; }\n\n.flickity-viewport:focus,\n.capabilities__content__specialNav {\n  outline: none; }\n\n.filterSelect {\n  margin-right: 9px;\n  font-size: 20px;\n  font-family: cormorant garamond; }\n\n.capabilities__header {\n  font-family: 'Cinzel', serif;\n  font-size: 25px;\n  margin-left: 70px; }\n\n.capabilities__galleryTitle {\n  font-size: 20px;\n  margin-top: 10px;\n  font-weight: bold;\n  font-family: sans-serif;\n  display: inline-block; }\n\n.capabilities__galleryType {\n  font-size: 20px;\n  font-family: 'Cormorant Garamond', serif;\n  display: inline-block;\n  margin-left: 10px; }\n\n.filterOff {\n  opacity: 1;\n  transition: 1s all; }\n\n.blur {\n  filter: blur(5px);\n  -webkit-filter: blur(5px); }\n\n@-webkit-keyframes navEnter {\n  0% {\n    top: -100px; }\n  100% {\n    top: 0; } }\n\n/* Standard syntax */\n@keyframes navEnter {\n  0% {\n    top: -100px; }\n  100% {\n    top: 0; } }\n\n.portHeader {\n  font-size: 45px;\n  font-family: 'Cinzel', serif; }\n\n.portItalic {\n  font-size: 45px;\n  font-family: 'Cinzel', serif;\n  font-style: italic; }\n\n.portText {\n  font-family: 'Cormorant Garamond', serif;\n  font-size: 20px; }\n\n.backbutton {\n  position: absolute;\n  top: 20px;\n  left: 20px; }\n\n.visual__carouselContainer {\n  position: relative; }\n  .visual__carouselContainer__loader {\n    position: absolute;\n    width: 500px;\n    z-index: 10;\n    top: 50px;\n    left: 30%;\n    -webkit-animation: loadingAnimation 1s infinite alternate;\n    /* Safari 4.0 - 8.0 */\n    animation: loadingAnimation 1s infinite alternate; }\n  .visual__carouselContainer__carousel {\n    background: #fff !important;\n    margin-top: 50px;\n    width: 100%;\n    overflow: hidden;\n    opacity: 0;\n    transition: all 1s; }\n  .visual__carouselContainer__navBar {\n    width: 100%;\n    height: 100px;\n    margin-bottom: 50px;\n    overflow: hidden;\n    opacity: 0;\n    transition: all 1s; }\n\n.visual__content {\n  margin-left: 10vw;\n  margin-right: 10vw; }\n  .visual__content__text {\n    width: 80%; }\n  .visual__content__rowPhoto {\n    width: 100%;\n    height: calc(100vh - 20rem);\n    margin-top: 10px;\n    margin-bottom: 20px; }\n  .visual__content__twoPoster {\n    display: flex;\n    flex-direction: row;\n    justify-content: space-between; }\n    .visual__content__twoPoster__item__poster {\n      width: 38vw;\n      height: 400px; }\n  .visual__content__blurb {\n    display: flex;\n    flex-direction: row;\n    justify-content: space-between; }\n  .visual__content__threePoster {\n    display: flex;\n    flex-direction: row;\n    justify-content: space-between; }\n    .visual__content__threePoster__item {\n      width: 30%; }\n      .visual__content__threePoster__item__card {\n        width: 100%; }\n\n.visualTitle {\n  margin-bottom: 20px; }\n\n.card {\n  margin: 10px;\n  height: calc(100vh - 15rem); }\n\n.caroImg {\n  height: calc(100vh - 15rem);\n  pointer-events: none; }\n\n.navCard {\n  height: 100px;\n  margin: 2px;\n  opacity: .5;\n  transition: opacity 1s; }\n\n.navImg {\n  height: 100px;\n  pointer-events: none; }\n\n.flickity-viewport:focus,\n.visual__carouselContainer__carousel,\n.visual__carouselContainer__navBar {\n  outline: none; }\n\n.galleryLoaded {\n  opacity: 1; }\n\n.navCard.is-selected {\n  opacity: 1; }\n\n.linebreak {\n  margin-bottom: 10px; }\n\n@-webkit-keyframes loadingAnimation {\n  0% {\n    -webkit-transform: scale(1);\n    /* Ch <36, Saf 5.1+, iOS < 9.2, An =<4.4.4 */\n    -ms-transform: scale(1);\n    /* IE 9 */\n    transform: scale(1); }\n  100% {\n    -webkit-transform: scale(1.2);\n    /* Ch <36, Saf 5.1+, iOS < 9.2, An =<4.4.4 */\n    -ms-transform: scale(1.2);\n    /* IE 9 */\n    transform: scale(1.2); } }\n\n/* Standard syntax */\n@keyframes loadingAnimation {\n  0% {\n    -webkit-transform: scale(1);\n    /* Ch <36, Saf 5.1+, iOS < 9.2, An =<4.4.4 */\n    -ms-transform: scale(1);\n    /* IE 9 */\n    transform: scale(1); }\n  100% {\n    -webkit-transform: scale(1.2);\n    /* Ch <36, Saf 5.1+, iOS < 9.2, An =<4.4.4 */\n    -ms-transform: scale(1.2);\n    /* IE 9 */\n    transform: scale(1.2); } }\n\n.audio__content {\n  margin-left: 10vw;\n  margin-right: 10vw; }\n  .audio__content__album {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    margin-top: 150px; }\n    .audio__content__album__tilt {\n      height: 400px;\n      width: 400px; }\n      .audio__content__album__tilt__cover {\n        height: 100%;\n        width: 100%; }\n    .audio__content__album__media {\n      width: 400px;\n      display: flex;\n      justify-content: space-between;\n      align-items: center;\n      margin-top: 25px; }\n      .audio__content__album__media__play {\n        width: 60px;\n        font-family: sans-serif; }\n      .audio__content__album__media__input {\n        position: relative;\n        display: flex;\n        align-items: center;\n        justify-content: center;\n        width: 80%;\n        margin-left: 10px;\n        margin-right: 10px; }\n      .audio__content__album__media__volume {\n        display: flex; }\n        .audio__content__album__media__volume__mute {\n          height: 20px;\n          width: 20px;\n          margin-right: 3px; }\n  .audio__content__text {\n    margin-top: 50px;\n    margin-bottom: 50px; }\n\n.audio__content__album__media__play:hover,\n.audio__content__album__media__volume__mute:hover {\n  cursor: pointer; }\n\n.video__content {\n  margin-left: 10vw;\n  margin-right: 10vw; }\n  .video__content__video {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    margin-top: 120px; }\n    .video__content__video__container {\n      height: 400px;\n      width: 700px; }\n    .video__content__video__media {\n      width: 700px;\n      display: flex;\n      justify-content: space-between;\n      align-items: center; }\n      .video__content__video__media__playing {\n        display: flex;\n        justify-content: space-between;\n        align-items: center;\n        width: 70px; }\n        .video__content__video__media__playing__play {\n          font-family: sans-serif;\n          width: 80px; }\n        .video__content__video__media__playing__fullscreen {\n          width: 30px;\n          height: 30px; }\n      .video__content__video__media__input {\n        position: relative;\n        display: flex;\n        align-items: center;\n        justify-content: center;\n        width: 80%;\n        margin-left: 10px;\n        margin-right: 10px; }\n      .video__content__video__media__volume {\n        display: flex; }\n        .video__content__video__media__volume__mute {\n          height: 20px;\n          width: 20px;\n          margin-right: 3px; }\n  .video__content__text {\n    margin-top: 50px;\n    margin-bottom: 50px; }\n\n.video__content__album__media__volume__mute {\n  height: 20px;\n  width: 20px;\n  margin-right: 3px; }\n\n.fullscreen:hover {\n  -webkit-filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.5));\n  -ms-filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.5));\n  filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.5));\n  cursor: pointer; }\n\n.video__content__video__media__playing__play:hover,\n.video__content__album__media__volume__mute:hover {\n  cursor: pointer; }\n\n.about {\n  height: 100vh;\n  color: white;\n  display: flex;\n  flex-direction: row; }\n  .about__left {\n    width: 100vw;\n    margin-top: 100px;\n    margin-left: 10vw; }\n    .about__left__staff {\n      display: flex;\n      flex-direction: row;\n      justify-content: space-between;\n      width: 400px; }\n  .about__right {\n    width: 100vw;\n    margin-top: 100px;\n    margin-bottom: 100px;\n    margin-right: 10vw;\n    display: flex;\n    flex-direction: column;\n    justify-content: center; }\n\n.aboutContainer {\n  background-color: #111;\n  width: 100%;\n  height: 100vh; }\n\n.about__text {\n  font-size: 15px; }\n\n.about__name {\n  font-size: 15px;\n  font-family: cursive; }\n\n.notFoundPage {\n  display: flex;\n  -webkit-box-align: center;\n  -webkit-box-pack: center;\n  align-content: center;\n  align-items: center;\n  background: url(/imgs/util/404.gif) no-repeat;\n  background-position: 50%;\n  background-size: cover;\n  justify-content: center;\n  height: 100vh; }\n\n.errorText {\n  font-size: 30vw;\n  font-family: monospace;\n  font-weight: 900;\n  color: white;\n  text-shadow: -4px -1px black, 0 1px black, 3px -2px black, -4px 2px black; }\n\n* {\n  min-height: 0;\n  min-width: 0; }\n\nmain {\n  width: 100%; }\n\n.sideBarContainer {\n  position: fixed;\n  top: 20px;\n  right: 0%;\n  width: 75px;\n  height: 30px;\n  z-index: 10; }\n\n.sideBarCircle {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  position: relative;\n  width: 30px;\n  height: 30px;\n  background: white;\n  border: solid 1px white;\n  box-shadow: 0 2px 3px 1px rgba(0, 0, 0, 0.15), 0 2px 5px 0 rgba(0, 0, 0, 0.15);\n  border-radius: 50%; }\n\n.transparent {\n  background: transparent; }\n\n.x {\n  width: 14px;\n  z-index: 0; }\n\n.助,\n.帰 {\n  width: 14px;\n  color: #111;\n  position: fixed;\n  opacity: 1;\n  transition: all .2s; }\n\n.助 {\n  right: 52.5px; }\n\n.帰 {\n  left: 38px; }\n\n.hidden {\n  opacity: 0; }\n\n.back {\n  left: 0%;\n  margin-left: 30px; }\n", ""]);
+	exports.push([module.id, "@charset \"UTF-8\";\n.container, main {\n  position: relative; }\n\nol, ul {\n  list-style: none; }\n\na {\n  color: black; }\n\n/* Globally */\n/* Each state */\na:visited {\n  text-decoration: none;\n  color: black; }\n\na:hover {\n  text-decoration: none;\n  color: black; }\n\na:focus {\n  text-decoration: none;\n  color: black; }\n\na:hover, a:active {\n  text-decoration: none;\n  color: black; }\n\na, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font: inherit;\n  vertical-align: baseline; }\n\narticle, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {\n  display: block; }\n\nbody {\n  line-height: 1;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n  font-family: futura-pt; }\n\n.slick-list,\n.slick-slider,\n.slick-track {\n  position: relative;\n  display: block; }\n\n.slick-loading .slick-slide,\n.slick-loading .slick-track {\n  visibility: hidden; }\n\n.slick-slider {\n  box-sizing: border-box;\n  -webkit-user-select: none;\n  -moz-user-select: none;\n  -ms-user-select: none;\n  user-select: none;\n  -webkit-touch-callout: none;\n  -khtml-user-select: none;\n  -ms-touch-action: pan-y;\n  touch-action: pan-y;\n  -webkit-tap-highlight-color: transparent; }\n\n.slick-list {\n  overflow: hidden;\n  margin: 0;\n  padding: 0; }\n\n.slick-list:focus {\n  outline: 0; }\n\n.slick-list.dragging {\n  cursor: pointer;\n  cursor: hand; }\n\n.slick-slider .slick-list,\n.slick-slider .slick-track {\n  -webkit-transform: translate3d(0, 0, 0);\n  -moz-transform: translate3d(0, 0, 0);\n  -ms-transform: translate3d(0, 0, 0);\n  -o-transform: translate3d(0, 0, 0);\n  transform: translate3d(0, 0, 0); }\n\n.slick-track {\n  top: 0;\n  left: 0; }\n\n.slick-track:after,\n.slick-track:before {\n  display: table;\n  content: ''; }\n\n.slick-track:after {\n  clear: both; }\n\n.slick-slide {\n  display: none;\n  float: left;\n  height: 100%;\n  min-height: 1px; }\n\n[dir=rtl] .slick-slide {\n  float: right; }\n\n.slick-slide img {\n  display: block; }\n\n.slick-slide.slick-loading img {\n  display: none; }\n\n.slick-slide.dragging img {\n  pointer-events: none; }\n\n.slick-initialized .slick-slide {\n  display: block;\n  margin: 15px; }\n\n.slick-vertical .slick-slide {\n  display: block;\n  height: auto;\n  border: 1px solid transparent; }\n\n.slick-arrow.slick-hidden {\n  display: none; }\n\n/*# sourceMappingURL=slick.min.css.map */\n/*\n===================================\n    MEDIA QUERIES\n===================================\n*/\ninput[type=range] {\n  -webkit-appearance: none;\n  width: 100%;\n  margin: 5.1px 0; }\n\ninput[type=range]:focus {\n  outline: none; }\n\ninput[type=range]::-webkit-slider-runnable-track {\n  width: 100%;\n  height: 1.8px;\n  cursor: pointer;\n  box-shadow: 0px 0px 0px transparent, 0px 0px 0px rgba(13, 13, 13, 0);\n  background: #000000;\n  border-radius: 0px;\n  border: 0px solid rgba(1, 1, 1, 0); }\n\ninput[type=range]::-webkit-slider-thumb {\n  box-shadow: 0px 0px 0px transparent, 0px 0px 0px rgba(13, 13, 13, 0);\n  border: 0px solid transparent;\n  height: 12px;\n  width: 12px;\n  border-radius: 50px;\n  background: #000000;\n  cursor: pointer;\n  -webkit-appearance: none;\n  margin-top: -5.1px; }\n\ninput[type=range]:focus::-webkit-slider-runnable-track {\n  background: #050505; }\n\ninput[type=range]::-moz-range-track {\n  width: 100%;\n  height: 1.8px;\n  cursor: pointer;\n  box-shadow: 0px 0px 0px transparent, 0px 0px 0px rgba(13, 13, 13, 0);\n  background: #000000;\n  border-radius: 0px;\n  border: 0px solid rgba(1, 1, 1, 0); }\n\ninput[type=range]::-moz-range-thumb {\n  box-shadow: 0px 0px 0px transparent, 0px 0px 0px rgba(13, 13, 13, 0);\n  border: 0px solid transparent;\n  height: 12px;\n  width: 12px;\n  border-radius: 50px;\n  background: #000000;\n  cursor: pointer; }\n\ninput[type=range]::-ms-track {\n  width: 100%;\n  height: 1.8px;\n  cursor: pointer;\n  background: transparent;\n  border-color: transparent;\n  color: transparent; }\n\ninput[type=range]::-ms-fill-lower {\n  background: #000000;\n  border: 0px solid rgba(1, 1, 1, 0);\n  border-radius: 0px;\n  box-shadow: 0px 0px 0px transparent, 0px 0px 0px rgba(13, 13, 13, 0); }\n\ninput[type=range]::-ms-fill-upper {\n  background: #000000;\n  border: 0px solid rgba(1, 1, 1, 0);\n  border-radius: 0px;\n  box-shadow: 0px 0px 0px transparent, 0px 0px 0px rgba(13, 13, 13, 0); }\n\ninput[type=range]::-ms-thumb {\n  box-shadow: 0px 0px 0px transparent, 0px 0px 0px rgba(13, 13, 13, 0);\n  border: 0px solid transparent;\n  height: 12px;\n  width: 12px;\n  border-radius: 50px;\n  background: #000000;\n  cursor: pointer;\n  height: 1.8px; }\n\ninput[type=range]:focus::-ms-fill-lower {\n  background: #000000; }\n\ninput[type=range]:focus::-ms-fill-upper {\n  background: #050505; }\n\n.volumeSlider {\n  width: 50px !important; }\n\n.splash {\n  min-height: 80vh;\n  top: 0;\n  font: 'Cinzel';\n  position: relative; }\n  .splash__content {\n    margin-top: 100px;\n    margin-left: 50px;\n    margin-right: 50px;\n    display: flex;\n    flex-direction: row;\n    transition: margin-left .5s; }\n    .splash__content__left {\n      display: flex;\n      flex-direction: column;\n      margin-right: 50px; }\n      .splash__content__left__logo {\n        transition: margin-left .5s; }\n      .splash__content__left__paraOne {\n        margin-left: 30px;\n        max-width: 700px;\n        margin-bottom: 25px; }\n      .splash__content__left__paraTwo {\n        margin-left: 30px;\n        max-width: 700px;\n        margin-bottom: 30px; }\n      .splash__content__left__client {\n        margin-left: 30px;\n        max-width: 800px; }\n    .splash__content__right__image {\n      margin-top: 70px;\n      margin-right: 50px;\n      width: 300px; }\n  .splash__bottom {\n    display: flex;\n    flex-direction: row;\n    justify-content: center;\n    position: relative;\n    margin-left: 50px;\n    margin-right: 50px; }\n    .splash__bottom__arrowContainer {\n      margin-top: 100px;\n      display: flex;\n      justify-content: center; }\n      .splash__bottom__arrowContainer__arrow {\n        width: 13px;\n        height: 13px;\n        border-bottom: 2px solid #000000;\n        border-right: 2px solid #000000;\n        -webkit-transform: translate(-50%, 0%) rotate(45deg);\n        -moz-transform: translate(-50%, 0%) rotate(45deg);\n        transform: translate(-50%, 0%) rotate(45deg);\n        -webkit-animation: move_down 4s ease-in-out infinite;\n        -moz-animation: move_down 4s ease-in-out infinite;\n        animation: move_down 4s ease-in-out infinite; }\n    .splash__bottom__minority {\n      position: absolute;\n      bottom: 0px;\n      right: 20px; }\n\n.splash__minority {\n  font-family: 'Cinzel', serif;\n  font-size: 20px; }\n\n#splash__logo {\n  max-width: 475px;\n  width: 70vw; }\n\n.splash__h1 {\n  font-family: 'Cinzel', serif;\n  font-size: 50px; }\n\n.splash__h2 {\n  font-family: 'Cormorant Garamond', serif;\n  font-size: 40px;\n  font-weight: lighter;\n  letter-spacing: 1px;\n  display: inline; }\n\n.splash__contact {\n  font-family: 'Cormorant Garamond', serif;\n  font-size: 35px;\n  font-style: italic;\n  letter-spacing: 1px; }\n\n.splash__links {\n  font-size: 25px; }\n\n.splash__clients {\n  font-family: sans-serif;\n  font-size: 20px;\n  color: #b3b2b2; }\n\n.splash__bold {\n  font-weight: bold; }\n\n/*\n===================================\n    ANIMATIONS\n===================================\n*/\n@keyframes move_down {\n  0% {\n    transform: translate(0, -10px) rotate(45deg);\n    opacity: 0; }\n  50% {\n    opacity: 1; }\n  100% {\n    transform: translate(0, 10px) rotate(45deg);\n    opacity: 0; } }\n\n/*\n===================================\n    MEDIA QUERIES\n===================================\n*/\n@media (max-width: 1200px) {\n  .splash__clients {\n    font-family: sans-serif;\n    font-size: 1.7vw;\n    color: #b3b2b2; }\n  .splash__h2 {\n    font-family: 'Cormorant Garamond', serif;\n    font-size: 3.4vw;\n    font-weight: lighter;\n    letter-spacing: 1px;\n    display: inline; } }\n\n@media (max-width: 960px) {\n  .splash__content {\n    margin-top: 50px; }\n  .splash__content__right {\n    display: none; }\n  .splash__h2 {\n    font-size: 40px; }\n  .splash__clients {\n    font-size: 20px; } }\n\n@media (max-width: 720px) {\n  .splash__content {\n    margin-left: 10px;\n    margin-right: 10px; }\n  .splash__italics {\n    font-style: italic; }\n  .splash__content__left__paraOne {\n    max-width: \"\";\n    margin-left: 25px; }\n  .splash__content__left__paraTwo {\n    max-width: \"\";\n    margin-left: 25px; }\n  .splash__content__left__client {\n    max-width: \"\";\n    margin-left: 25px; }\n  .splash__h2 {\n    font-size: 5.8vw; }\n  .splash__clients {\n    font-size: 2.8vw; }\n  .splash__contact {\n    font-size: 5vw; } }\n\n@media (max-width: 480px) {\n  .splash__content__left__logo {\n    margin-left: 7px;\n    width: 350px; }\n  #splash__logo {\n    width: 350px; }\n  .splash__h2 {\n    font-size: 29px; }\n  .splash__clients {\n    font-size: 14px; }\n  .splash__contact {\n    font-size: 30px; } }\n\n.capabilities {\n  background-color: white;\n  min-height: 100vh; }\n  .capabilities__content {\n    margin-left: 3%;\n    margin-right: 3%;\n    margin-top: 50px;\n    transition: filter 1s;\n    filter: blur(0px);\n    -webkit-filter: blur(0px); }\n    .capabilities__content__nav {\n      position: fixed;\n      top: -100px;\n      z-index: 5;\n      display: flex;\n      flex-direction: row;\n      margin-bottom: 30px;\n      background-color: white;\n      height: 70px;\n      width: 100%;\n      align-items: center;\n      box-shadow: rgba(0, 0, 0, 0.2) 1px 2px 5px;\n      transition: top .5s; }\n      .capabilities__content__nav__header {\n        margin-right: 8vw; }\n        .capabilities__content__nav__header__specialButton {\n          position: fixed;\n          right: 100px; }\n        .capabilities__content__nav__header__specialButtonMobile {\n          position: absolute !important;\n          right: 50px !important;\n          display: none; }\n      .capabilities__content__nav__selectBox {\n        display: flex;\n        justify-content: space-between;\n        align-items: center;\n        text-align: center;\n        width: 140px;\n        border-bottom: solid 2px #111; }\n    .capabilities__content__specialNav {\n      position: fixed;\n      top: -500px;\n      z-index: 4;\n      height: 300px;\n      width: 100%;\n      background-color: white;\n      box-shadow: rgba(0, 0, 0, 0.2) 1px 2px 5px;\n      overflow: hidden;\n      -webkit-transition: top .5s ease-in-out;\n      -moz-transition: top .5s ease-in-out;\n      -ms-transition: top .5s ease-in-out;\n      -o-transition: top .5s ease-in-out;\n      transition: top .5s ease-in-out; }\n    .capabilities__content__gallery {\n      display: flex;\n      flex-direction: row;\n      flex-wrap: wrap; }\n      .capabilities__content__gallery__row {\n        display: flex;\n        width: 100%;\n        justify-content: space-around; }\n        .capabilities__content__gallery__row__item {\n          margin: 20px;\n          margin-left: 0px;\n          display: flex;\n          flex-direction: column;\n          transition: 1s all;\n          opacity: .3; }\n          .capabilities__content__gallery__row__item__image {\n            height: calc(100vh - 27rem);\n            box-shadow: rgba(0, 0, 0, 0.2) 1px 2px 5px;\n            transform: scale(1);\n            transition: all .5s; }\n          .capabilities__content__gallery__row__item__image:hover {\n            box-shadow: rgba(0, 0, 0, 0.2) 3px 4px 9px 2px;\n            transform: scale(1.05); }\n\n.before {\n  width: 5px;\n  height: 5px;\n  margin-left: 6px;\n  border-bottom: 2px solid #000000;\n  border-left: 2px solid #000000;\n  -webkit-transform: translate(-50%, 0%) rotate(45deg);\n  -moz-transform: translate(-50%, 0%) rotate(45deg);\n  transform: translate(-50%, 0%) rotate(45deg); }\n\n.after {\n  width: 5px;\n  height: 5px;\n  border-top: 2px solid #000000;\n  border-right: 2px solid #000000;\n  -webkit-transform: translate(-50%, 0%) rotate(45deg);\n  -moz-transform: translate(-50%, 0%) rotate(45deg);\n  transform: translate(-50%, 0%) rotate(45deg); }\n\n.before:hover,\n.after:hover,\n.capabilities__content__nav__header__specialButton,\n.sideBarCircle {\n  cursor: pointer; }\n\n.navShow {\n  top: 0; }\n\n.specialCard {\n  margin-top: 70px;\n  height: 250px;\n  width: 250px;\n  opacity: 0; }\n\n.specialImg {\n  height: 185px;\n  width: 185px; }\n\n.specialText {\n  font-family: sans-serif; }\n\n.showSpecial {\n  top: 0; }\n\n.specialHide {\n  top: -1000px; }\n\n.galleryLoaded {\n  opacity: 1; }\n\n.flickity-viewport:focus,\n.capabilities__content__specialNav {\n  outline: none; }\n\n.filterSelect {\n  margin-right: 9px;\n  font-size: 20px;\n  font-family: cormorant garamond; }\n\n.capabilities__header {\n  font-family: 'Cinzel', serif;\n  font-size: 25px;\n  margin-left: 70px;\n  transition: margin-left .5s; }\n\n.capabilities__galleryTitle {\n  font-size: 20px;\n  margin-top: 10px;\n  font-weight: bold;\n  font-family: sans-serif;\n  display: inline-block; }\n\n.capabilities__galleryType {\n  font-size: 20px;\n  font-family: 'Cormorant Garamond', serif;\n  display: inline-block;\n  margin-left: 10px; }\n\n.filterOff {\n  opacity: 1;\n  transition: 1s all; }\n\n.blur {\n  filter: blur(5px);\n  -webkit-filter: blur(5px); }\n\n@-webkit-keyframes navEnter {\n  0% {\n    top: -100px; }\n  100% {\n    top: 0; } }\n\n/* Standard syntax */\n@keyframes navEnter {\n  0% {\n    top: -100px; }\n  100% {\n    top: 0; } }\n\n/*\n===================================\n    MEDIA QUERIES\n===================================\n*/\n@media (max-width: 760px) {\n  .capabilities__content__nav__header__specialButton {\n    display: none; }\n  .capabilities__header {\n    margin-left: 40px; }\n  .capabilities__content__nav__header__specialButtonMobile {\n    display: block; } }\n\n@media (max-width: 480px) {\n  .capabilities__content__nav__selectBox {\n    display: none; } }\n\n.portHeader {\n  font-size: 45px;\n  font-family: 'Cinzel', serif; }\n\n.portItalic {\n  font-size: 45px;\n  font-family: 'Cinzel', serif;\n  font-style: italic; }\n\n.portText {\n  font-family: 'Cormorant Garamond', serif;\n  font-size: 20px; }\n\n.backbutton {\n  position: absolute;\n  top: 20px;\n  left: 20px; }\n\n.visual__carouselContainer {\n  position: relative; }\n  .visual__carouselContainer__loader {\n    position: absolute;\n    width: 500px;\n    z-index: 10;\n    top: 50px;\n    left: 30%;\n    -webkit-animation: loadingAnimation 1s infinite alternate;\n    /* Safari 4.0 - 8.0 */\n    animation: loadingAnimation 1s infinite alternate; }\n  .visual__carouselContainer__carousel {\n    background: #fff !important;\n    margin-top: 50px;\n    width: 100%;\n    overflow: hidden;\n    opacity: 0;\n    transition: all 1s; }\n  .visual__carouselContainer__navBar {\n    width: 100%;\n    height: 100px;\n    margin-bottom: 50px;\n    overflow: hidden;\n    opacity: 0;\n    transition: all 1s; }\n\n.visual__content {\n  margin-left: 10vw;\n  margin-right: 10vw; }\n  .visual__content__text {\n    width: 80%; }\n  .visual__content__rowPhoto {\n    width: 100%;\n    height: calc(100vh - 20rem);\n    margin-top: 10px;\n    margin-bottom: 20px; }\n  .visual__content__twoPoster {\n    display: flex;\n    flex-direction: row;\n    justify-content: space-between; }\n    .visual__content__twoPoster__item__poster {\n      width: 38vw;\n      height: 400px; }\n  .visual__content__blurb {\n    display: flex;\n    flex-direction: row;\n    justify-content: space-between; }\n  .visual__content__threePoster {\n    display: flex;\n    flex-direction: row;\n    justify-content: space-between; }\n    .visual__content__threePoster__item {\n      width: 30%; }\n      .visual__content__threePoster__item__card {\n        width: 100%; }\n\n.visualTitle {\n  margin-bottom: 20px; }\n\n.card {\n  margin: 10px;\n  height: calc(100vh - 15rem); }\n\n.caroImg {\n  height: calc(100vh - 15rem);\n  pointer-events: none; }\n\n.navCard {\n  height: 100px;\n  margin: 2px;\n  opacity: .5;\n  transition: opacity 1s; }\n\n.navImg {\n  height: 100px;\n  pointer-events: none; }\n\n.flickity-viewport:focus,\n.visual__carouselContainer__carousel,\n.visual__carouselContainer__navBar {\n  outline: none; }\n\n.galleryLoaded {\n  opacity: 1; }\n\n.navCard.is-selected {\n  opacity: 1; }\n\n.linebreak {\n  margin-bottom: 10px; }\n\n@-webkit-keyframes loadingAnimation {\n  0% {\n    -webkit-transform: scale(1);\n    /* Ch <36, Saf 5.1+, iOS < 9.2, An =<4.4.4 */\n    -ms-transform: scale(1);\n    /* IE 9 */\n    transform: scale(1); }\n  100% {\n    -webkit-transform: scale(1.2);\n    /* Ch <36, Saf 5.1+, iOS < 9.2, An =<4.4.4 */\n    -ms-transform: scale(1.2);\n    /* IE 9 */\n    transform: scale(1.2); } }\n\n/* Standard syntax */\n@keyframes loadingAnimation {\n  0% {\n    -webkit-transform: scale(1);\n    /* Ch <36, Saf 5.1+, iOS < 9.2, An =<4.4.4 */\n    -ms-transform: scale(1);\n    /* IE 9 */\n    transform: scale(1); }\n  100% {\n    -webkit-transform: scale(1.2);\n    /* Ch <36, Saf 5.1+, iOS < 9.2, An =<4.4.4 */\n    -ms-transform: scale(1.2);\n    /* IE 9 */\n    transform: scale(1.2); } }\n\n/*\n===================================\n    MEDIA QUERIES\n===================================\n*/\n@media (max-width: 900px) {\n  .card {\n    width: 80vw;\n    height: calc(100vh - 15rem);\n    position: relative; }\n  .cardImg {\n    height: auto;\n    margin: auto;\n    position: absolute;\n    top: 50%;\n    left: 50%; } }\n\n@media (max-width: 760px) {\n  .cardImg {\n    width: 100%;\n    height: 100%; } }\n\n.audio__content {\n  margin-left: 10vw;\n  margin-right: 10vw; }\n  .audio__content__album {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    margin-top: 150px; }\n    .audio__content__album__tilt {\n      height: 400px;\n      width: 400px; }\n      .audio__content__album__tilt__cover {\n        height: 100%;\n        width: 100%; }\n    .audio__content__album__media {\n      width: 400px;\n      display: flex;\n      justify-content: space-between;\n      align-items: center;\n      margin-top: 25px; }\n      .audio__content__album__media__play {\n        width: 60px;\n        font-family: sans-serif; }\n      .audio__content__album__media__input {\n        position: relative;\n        display: flex;\n        align-items: center;\n        justify-content: center;\n        width: 80%;\n        margin-left: 10px;\n        margin-right: 10px; }\n      .audio__content__album__media__volume {\n        display: flex; }\n        .audio__content__album__media__volume__mute {\n          height: 20px;\n          width: 20px;\n          margin-right: 3px; }\n  .audio__content__text {\n    margin-top: 50px;\n    margin-bottom: 50px; }\n\n.audio__content__album__media__play:hover,\n.audio__content__album__media__volume__mute:hover {\n  cursor: pointer; }\n\n.video__content {\n  margin-left: 10vw;\n  margin-right: 10vw; }\n  .video__content__video {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    margin-top: 120px; }\n    .video__content__video__container {\n      height: 400px;\n      width: 700px; }\n    .video__content__video__media {\n      width: 700px;\n      display: flex;\n      justify-content: space-between;\n      align-items: center; }\n      .video__content__video__media__playing {\n        display: flex;\n        justify-content: space-between;\n        align-items: center;\n        width: 70px; }\n        .video__content__video__media__playing__play {\n          font-family: sans-serif;\n          width: 80px; }\n        .video__content__video__media__playing__fullscreen {\n          width: 30px;\n          height: 30px; }\n      .video__content__video__media__input {\n        position: relative;\n        display: flex;\n        align-items: center;\n        justify-content: center;\n        width: 75%;\n        margin-left: 10px;\n        margin-right: 10px; }\n      .video__content__video__media__volume {\n        display: flex; }\n        .video__content__video__media__volume__mute {\n          height: 20px;\n          width: 20px;\n          margin-right: 3px; }\n  .video__content__text {\n    margin-top: 50px;\n    margin-bottom: 50px; }\n\n.video__content__album__media__volume__mute {\n  height: 20px;\n  width: 20px;\n  margin-right: 3px; }\n\n.fullscreen:hover {\n  -webkit-filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.5));\n  -ms-filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.5));\n  filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.5));\n  cursor: pointer; }\n\n.video__content__video__media__playing__play:hover,\n.video__content__album__media__volume__mute:hover {\n  cursor: pointer; }\n\n.videoHeader {\n  font-size: 45px;\n  font-family: 'Cinzel', serif; }\n\n.videoItalic {\n  font-size: 45px;\n  font-family: 'Cinzel', serif;\n  font-style: italic; }\n\n/*\n===================================\n    MEDIA QUERIES\n===================================\n*/\n@media (max-width: 760px) {\n  .video__content {\n    margin-left: 10px;\n    margin-right: 10px; }\n  .video__content__video__container,\n  .video__content__video__media {\n    width: 100%; }\n  .video__content__video__container {\n    height: 55vw; }\n  .videoHeader,\n  .videoItalic {\n    font-size: 6vw; } }\n\n@media (max-width: 480px) {\n  .videoHeader,\n  .videoItalic {\n    font-size: 28px; } }\n\n.about {\n  height: 100vh;\n  color: white;\n  display: flex;\n  flex-direction: row; }\n  .about__left {\n    width: 100vw;\n    margin-top: 100px;\n    margin-left: 10vw; }\n    .about__left__staff {\n      display: flex;\n      flex-direction: row;\n      justify-content: space-between;\n      width: 400px; }\n  .about__right {\n    width: 100vw;\n    margin-top: 100px;\n    margin-bottom: 100px;\n    margin-right: 10vw;\n    display: flex;\n    flex-direction: column;\n    justify-content: center; }\n\n.aboutContainer {\n  background-color: #111;\n  width: 100%;\n  height: 100vh; }\n\n.about__text {\n  font-size: 15px; }\n\n.about__name {\n  font-size: 15px;\n  font-family: cursive; }\n\n.notFoundPage {\n  display: flex;\n  -webkit-box-align: center;\n  -webkit-box-pack: center;\n  align-content: center;\n  align-items: center;\n  background: url(/imgs/util/404.gif) no-repeat;\n  background-position: 50%;\n  background-size: cover;\n  justify-content: center;\n  height: 100vh; }\n\n.errorText {\n  font-size: 30vw;\n  font-family: monospace;\n  font-weight: 900;\n  color: white;\n  text-shadow: -4px -1px black, 0 1px black, 3px -2px black, -4px 2px black; }\n\n* {\n  min-height: 0;\n  min-width: 0; }\n\nmain {\n  width: 100%; }\n\n.sideBarContainer {\n  position: fixed;\n  top: 20px;\n  right: 0%;\n  width: 75px;\n  height: 30px;\n  z-index: 10; }\n\n.sideBarCircle {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  position: relative;\n  width: 30px;\n  height: 30px;\n  background: white;\n  border: solid 1px white;\n  box-shadow: 0 2px 3px 1px rgba(0, 0, 0, 0.15), 0 2px 5px 0 rgba(0, 0, 0, 0.15);\n  border-radius: 50%; }\n\n.transparent {\n  background: transparent; }\n\n.x {\n  width: 14px;\n  z-index: 0; }\n\n.助,\n.帰 {\n  width: 14px;\n  color: #111;\n  position: fixed;\n  opacity: 1;\n  transition: all .2s; }\n\n.助 {\n  right: 52.5px; }\n\n.帰 {\n  left: 38px; }\n\n.hidden {\n  opacity: 0; }\n\n.back {\n  left: 0%;\n  margin-left: 30px; }\n", ""]);
 	
 	// exports
 
@@ -30503,9 +30503,9 @@
 	
 	var _pages = __webpack_require__(271);
 	
-	var _components = __webpack_require__(386);
+	var _components = __webpack_require__(321);
 	
-	var _AppData = __webpack_require__(434);
+	var _AppData = __webpack_require__(369);
 	
 	var _AppData2 = _interopRequireDefault(_AppData);
 	
@@ -31239,7 +31239,7 @@
 	  }
 	});
 	
-	var _Video = __webpack_require__(381);
+	var _Video = __webpack_require__(316);
 	
 	Object.defineProperty(exports, 'Video', {
 	  enumerable: true,
@@ -31248,7 +31248,7 @@
 	  }
 	});
 	
-	var _Visual = __webpack_require__(384);
+	var _Visual = __webpack_require__(319);
 	
 	Object.defineProperty(exports, 'Visual', {
 	  enumerable: true,
@@ -35085,6 +35085,19 @@
 	            ),
 	            _react2.default.createElement(
 	              'a',
+	              { className: 'capabilities__content__nav__header__specialButtonMobile sideBarContainer', onClick: this.showSpecial },
+	              ' ',
+	              _react2.default.createElement(
+	                'div',
+	                { className: 'sideBarCircle' },
+	                ' ',
+	                this.state.showSpecial ? "-" : "+",
+	                ' '
+	              ),
+	              ' '
+	            ),
+	            _react2.default.createElement(
+	              'a',
 	              { className: 'capabilities__content__nav__header__specialButton capabilities__galleryType', style: { color: '#555' }, onClick: this.showSpecial },
 	              ' Special Projects ',
 	              this.state.showSpecial ? "-" : "+",
@@ -35121,468 +35134,603 @@
 	            'div',
 	            { className: 'capabilities__content__gallery' },
 	            _react2.default.createElement(
-	              'div',
-	              { className: 'capabilities__content__gallery__row' },
+	              _reactRouterDom.Link,
+	              { to: '/visual/telegram' },
 	              _react2.default.createElement(
-	                _reactRouterDom.Link,
-	                { to: '/visual/telegram' },
+	                'div',
+	                { className: "capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.identities ? 'filterOff' : '') },
+	                _react2.default.createElement('img', { className: 'capabilities__content__gallery__row__item__image', src: '/imgs/telegram/telegramPort.jpg' }),
 	                _react2.default.createElement(
 	                  'div',
-	                  { className: "capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.identities ? 'filterOff' : '') },
-	                  _react2.default.createElement('img', { className: 'capabilities__content__gallery__row__item__image', src: '/imgs/telegram/telegram.jpg' }),
+	                  { className: 'capabilities__content__gallery__row__item__text' },
 	                  _react2.default.createElement(
-	                    'div',
-	                    { className: 'capabilities__content__gallery__row__item__text' },
-	                    _react2.default.createElement(
-	                      'h3',
-	                      { className: 'capabilities__galleryTitle' },
-	                      'TELEGRAM'
-	                    ),
-	                    _react2.default.createElement(
-	                      'h4',
-	                      { className: 'capabilities__galleryType' },
-	                      'Identity, Web, Digital '
-	                    )
-	                  )
-	                )
-	              ),
-	              _react2.default.createElement(
-	                _reactRouterDom.Link,
-	                { to: '/video/videotest', onClick: function onClick() {
-	                    return _this2.props.handlePlaying(true);
-	                  } },
-	                _react2.default.createElement(
-	                  'div',
-	                  { className: "capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.motion ? 'filterOff' : '') + (this.state.print ? 'filterOff' : '') + (this.state.identities ? 'filterOff' : '') },
-	                  _react2.default.createElement('img', { className: 'capabilities__content__gallery__row__item__image', src: '/imgs/room/room.jpg' }),
+	                    'h3',
+	                    { className: 'capabilities__galleryTitle' },
+	                    'TELEGRAM'
+	                  ),
 	                  _react2.default.createElement(
-	                    'div',
-	                    { className: 'capabilities__content__gallery__row__item__text' },
-	                    _react2.default.createElement(
-	                      'h3',
-	                      { className: 'capabilities__galleryTitle' },
-	                      ' ROOM '
-	                    ),
-	                    _react2.default.createElement(
-	                      'h4',
-	                      { className: 'capabilities__galleryType' },
-	                      ' Motion, Print, Identities '
-	                    )
-	                  )
-	                )
-	              ),
-	              _react2.default.createElement(
-	                _reactRouterDom.Link,
-	                { to: '/audio/audiotest' },
-	                _react2.default.createElement(
-	                  'div',
-	                  { className: "capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '') },
-	                  _react2.default.createElement('img', { className: 'capabilities__content__gallery__row__item__image', src: '/imgs/ecube/ecubePort.jpg' }),
-	                  _react2.default.createElement(
-	                    'div',
-	                    { className: 'capabilities__content__gallery__row__item__text' },
-	                    _react2.default.createElement(
-	                      'h3',
-	                      { className: 'capabilities__galleryTitle' },
-	                      ' ECUBE '
-	                    ),
-	                    _react2.default.createElement(
-	                      'h4',
-	                      { className: 'capabilities__galleryType' },
-	                      ' Interactive, Web, Digital  '
-	                    )
+	                    'h4',
+	                    { className: 'capabilities__galleryType' },
+	                    'Identity, Web, Digital '
 	                  )
 	                )
 	              )
 	            ),
 	            _react2.default.createElement(
-	              'div',
-	              { className: 'capabilities__content__gallery__row' },
+	              _reactRouterDom.Link,
+	              { to: '/fakepage' },
 	              _react2.default.createElement(
-	                _reactRouterDom.Link,
-	                { to: '/visual/boy' },
+	                'div',
+	                { className: "capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.identities ? 'filterOff' : '') },
+	                _react2.default.createElement('img', { className: 'capabilities__content__gallery__row__item__image', src: '/imgs/studios/studiosPort.jpg' }),
 	                _react2.default.createElement(
 	                  'div',
-	                  { className: "capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.print ? 'filterOff' : '') },
-	                  _react2.default.createElement('img', { className: 'capabilities__content__gallery__row__item__image', src: '/imgs/boy/boy.jpg' }),
+	                  { className: 'capabilities__content__gallery__row__item__text' },
 	                  _react2.default.createElement(
-	                    'div',
-	                    { className: 'capabilities__content__gallery__row__item__text' },
-	                    _react2.default.createElement(
-	                      'h3',
-	                      { className: 'capabilities__galleryTitle' },
-	                      ' BOY '
-	                    ),
-	                    _react2.default.createElement(
-	                      'h4',
-	                      { className: 'capabilities__galleryType' },
-	                      ' Print, Editorial, One-off  '
-	                    )
-	                  )
-	                )
-	              ),
-	              _react2.default.createElement(
-	                _reactRouterDom.Link,
-	                { to: '/visual/monza' },
-	                _react2.default.createElement(
-	                  'div',
-	                  { className: "capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '') },
-	                  _react2.default.createElement('img', { className: 'capabilities__content__gallery__row__item__image', src: '/imgs/monza/monzaPort.jpg' }),
+	                    'h3',
+	                    { className: 'capabilities__galleryTitle' },
+	                    ' STUDIO '
+	                  ),
 	                  _react2.default.createElement(
-	                    'div',
-	                    { className: 'capabilities__content__gallery__row__item__text' },
-	                    _react2.default.createElement(
-	                      'h3',
-	                      { className: 'capabilities__galleryTitle' },
-	                      ' MONZA LIGHT '
-	                    ),
-	                    _react2.default.createElement(
-	                      'h4',
-	                      { className: 'capabilities__galleryType' },
-	                      ' Interactive, Web, Digital  '
-	                    )
-	                  )
-	                )
-	              ),
-	              _react2.default.createElement(
-	                _reactRouterDom.Link,
-	                { to: '/visual/visualtest' },
-	                _react2.default.createElement(
-	                  'div',
-	                  { className: "capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.identities ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '') + (this.state.motion ? 'filterOff' : '') },
-	                  _react2.default.createElement('img', { className: 'capabilities__content__gallery__row__item__image', src: '/imgs/nazmag/nazmag.jpg' }),
-	                  _react2.default.createElement(
-	                    'div',
-	                    { className: 'capabilities__content__gallery__row__item__text' },
-	                    _react2.default.createElement(
-	                      'h3',
-	                      { className: 'capabilities__galleryTitle' },
-	                      ' NAZ MAG '
-	                    ),
-	                    _react2.default.createElement(
-	                      'h4',
-	                      { className: 'capabilities__galleryType' },
-	                      ' Identities, Interactive, Motion '
-	                    )
+	                    'h4',
+	                    { className: 'capabilities__galleryType' },
+	                    ' Identities, Interactive  '
 	                  )
 	                )
 	              )
 	            ),
 	            _react2.default.createElement(
-	              'div',
-	              { className: 'capabilities__content__gallery__row' },
+	              _reactRouterDom.Link,
+	              { to: '/visual/connersmith' },
 	              _react2.default.createElement(
-	                _reactRouterDom.Link,
-	                { to: '/visual/rhizome' },
+	                'div',
+	                { className: "capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '') },
+	                _react2.default.createElement('img', { className: 'capabilities__content__gallery__row__item__image', src: '/imgs/connersmith/connersmithPort.jpg' }),
 	                _react2.default.createElement(
 	                  'div',
-	                  { className: "capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.identities ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '') },
-	                  _react2.default.createElement('img', { className: 'capabilities__content__gallery__row__item__image', src: '/imgs/rhizome/rhizomePort.jpg' }),
+	                  { className: 'capabilities__content__gallery__row__item__text' },
 	                  _react2.default.createElement(
-	                    'div',
-	                    { className: 'capabilities__content__gallery__row__item__text' },
-	                    _react2.default.createElement(
-	                      'h3',
-	                      { className: 'capabilities__galleryTitle' },
-	                      ' RHIZOME '
-	                    ),
-	                    _react2.default.createElement(
-	                      'h4',
-	                      { className: 'capabilities__galleryType' },
-	                      ' Identities, Interactive '
-	                    )
-	                  )
-	                )
-	              ),
-	              _react2.default.createElement(
-	                _reactRouterDom.Link,
-	                { to: '/fakepage' },
-	                _react2.default.createElement(
-	                  'div',
-	                  { className: "capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.identities ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '') },
-	                  _react2.default.createElement('img', { className: 'capabilities__content__gallery__row__item__image', src: '/imgs/emerge/emerge.jpg' }),
+	                    'h3',
+	                    { className: 'capabilities__galleryTitle' },
+	                    ' CONNER SMITH '
+	                  ),
 	                  _react2.default.createElement(
-	                    'div',
-	                    { className: 'capabilities__content__gallery__row__item__text' },
-	                    _react2.default.createElement(
-	                      'h3',
-	                      { className: 'capabilities__galleryTitle' },
-	                      ' EMERGE '
-	                    ),
-	                    _react2.default.createElement(
-	                      'h4',
-	                      { className: 'capabilities__galleryType' },
-	                      ' Identities, Interactive '
-	                    )
-	                  )
-	                )
-	              ),
-	              _react2.default.createElement(
-	                _reactRouterDom.Link,
-	                { to: '/visual/trump' },
-	                _react2.default.createElement(
-	                  'div',
-	                  { className: "capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.print ? 'filterOff' : '') },
-	                  _react2.default.createElement('img', { className: 'capabilities__content__gallery__row__item__image', src: '/imgs/trump/trump.jpg' }),
-	                  _react2.default.createElement(
-	                    'div',
-	                    { className: 'capabilities__content__gallery__row__item__text' },
-	                    _react2.default.createElement(
-	                      'h3',
-	                      { className: 'capabilities__galleryTitle' },
-	                      ' TRUMP '
-	                    ),
-	                    _react2.default.createElement(
-	                      'h4',
-	                      { className: 'capabilities__galleryType' },
-	                      ' Print, Editorial, One-off  '
-	                    )
+	                    'h4',
+	                    { className: 'capabilities__galleryType' },
+	                    ' Identities, Interactive '
 	                  )
 	                )
 	              )
 	            ),
 	            _react2.default.createElement(
-	              'div',
-	              { className: 'capabilities__content__gallery__row' },
+	              _reactRouterDom.Link,
+	              { to: '/visual/omni' },
 	              _react2.default.createElement(
-	                _reactRouterDom.Link,
-	                { to: '/fakepage' },
+	                'div',
+	                { className: "capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.identities ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '') },
+	                _react2.default.createElement('img', { className: 'capabilities__content__gallery__row__item__image', src: '/imgs/omni/omniPort.jpg' }),
 	                _react2.default.createElement(
 	                  'div',
-	                  { className: "capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.print ? 'filterOff' : '') },
-	                  _react2.default.createElement('img', { className: 'capabilities__content__gallery__row__item__image', src: '/imgs/em/em.jpg' }),
+	                  { className: 'capabilities__content__gallery__row__item__text' },
 	                  _react2.default.createElement(
-	                    'div',
-	                    { className: 'capabilities__content__gallery__row__item__text' },
-	                    _react2.default.createElement(
-	                      'h3',
-	                      { className: 'capabilities__galleryTitle' },
-	                      ' EM '
-	                    ),
-	                    _react2.default.createElement(
-	                      'h4',
-	                      { className: 'capabilities__galleryType' },
-	                      ' Print, Editorial, One-off '
-	                    )
-	                  )
-	                )
-	              ),
-	              _react2.default.createElement(
-	                _reactRouterDom.Link,
-	                { to: '/fakepage' },
-	                _react2.default.createElement(
-	                  'div',
-	                  { className: "capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.identities ? 'filterOff' : '') + (this.state.print ? 'filterOff' : '') },
-	                  _react2.default.createElement('img', { className: 'capabilities__content__gallery__row__item__image', src: '/imgs/eddy/eddy.jpg' }),
+	                    'h3',
+	                    { className: 'capabilities__galleryTitle' },
+	                    ' OMNI '
+	                  ),
 	                  _react2.default.createElement(
-	                    'div',
-	                    { className: 'capabilities__content__gallery__row__item__text' },
-	                    _react2.default.createElement(
-	                      'h3',
-	                      { className: 'capabilities__galleryTitle' },
-	                      ' EDDY BAUER '
-	                    ),
-	                    _react2.default.createElement(
-	                      'h4',
-	                      { className: 'capabilities__galleryType' },
-	                      ' Identity, Print  '
-	                    )
-	                  )
-	                )
-	              ),
-	              _react2.default.createElement(
-	                _reactRouterDom.Link,
-	                { to: '/fakepage' },
-	                _react2.default.createElement(
-	                  'div',
-	                  { className: "capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.print ? 'filterOff' : '') },
-	                  _react2.default.createElement('img', { className: 'capabilities__content__gallery__row__item__image', src: '/imgs/europe/europe.jpg' }),
-	                  _react2.default.createElement(
-	                    'div',
-	                    { className: 'capabilities__content__gallery__row__item__text' },
-	                    _react2.default.createElement(
-	                      'h3',
-	                      { className: 'capabilities__galleryTitle' },
-	                      ' EUROPE '
-	                    ),
-	                    _react2.default.createElement(
-	                      'h4',
-	                      { className: 'capabilities__galleryType' },
-	                      ' Print, Editorial, One-off  '
-	                    )
+	                    'h4',
+	                    { className: 'capabilities__galleryType' },
+	                    ' Identities, Interactive '
 	                  )
 	                )
 	              )
 	            ),
 	            _react2.default.createElement(
-	              'div',
-	              { className: 'capabilities__content__gallery__row' },
+	              _reactRouterDom.Link,
+	              { to: '/visual/fringe' },
 	              _react2.default.createElement(
-	                _reactRouterDom.Link,
-	                { to: '/visual/blackstar' },
+	                'div',
+	                { className: "capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '') },
+	                _react2.default.createElement('img', { className: 'capabilities__content__gallery__row__item__image', src: '/imgs/fringe/fringePort.jpg' }),
 	                _react2.default.createElement(
 	                  'div',
-	                  { className: "capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.print ? 'filterOff' : '') },
-	                  _react2.default.createElement('img', { className: 'capabilities__content__gallery__row__item__image', src: '/imgs/blackstar/blackstarPort.jpg' }),
+	                  { className: 'capabilities__content__gallery__row__item__text' },
 	                  _react2.default.createElement(
-	                    'div',
-	                    { className: 'capabilities__content__gallery__row__item__text' },
-	                    _react2.default.createElement(
-	                      'h3',
-	                      { className: 'capabilities__galleryTitle' },
-	                      ' BLACKSTAR '
-	                    ),
-	                    _react2.default.createElement(
-	                      'h4',
-	                      { className: 'capabilities__galleryType' },
-	                      ' Print, Editorial, One-off '
-	                    )
-	                  )
-	                )
-	              ),
-	              _react2.default.createElement(
-	                _reactRouterDom.Link,
-	                { to: '/visual/foto' },
-	                _react2.default.createElement(
-	                  'div',
-	                  { className: "capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.print ? 'filterOff' : '') },
-	                  _react2.default.createElement('img', { className: 'capabilities__content__gallery__row__item__image', src: '/imgs/foto/fotoPort.jpg' }),
+	                    'h3',
+	                    { className: 'capabilities__galleryTitle' },
+	                    ' FRINGE '
+	                  ),
 	                  _react2.default.createElement(
-	                    'div',
-	                    { className: 'capabilities__content__gallery__row__item__text' },
-	                    _react2.default.createElement(
-	                      'h3',
-	                      { className: 'capabilities__galleryTitle' },
-	                      ' FOTO '
-	                    ),
-	                    _react2.default.createElement(
-	                      'h4',
-	                      { className: 'capabilities__galleryType' },
-	                      ' Print, Editorial, One-off '
-	                    )
-	                  )
-	                )
-	              ),
-	              _react2.default.createElement(
-	                _reactRouterDom.Link,
-	                { to: '/fakepage' },
-	                _react2.default.createElement(
-	                  'div',
-	                  { className: "capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.industry ? 'filterOff' : '') },
-	                  _react2.default.createElement('img', { className: 'capabilities__content__gallery__row__item__image', src: '/imgs/industry/industry.jpg' }),
-	                  _react2.default.createElement(
-	                    'div',
-	                    { className: 'capabilities__content__gallery__row__item__text' },
-	                    _react2.default.createElement(
-	                      'h3',
-	                      { className: 'capabilities__galleryTitle' },
-	                      ' INDUSTRY '
-	                    ),
-	                    _react2.default.createElement(
-	                      'h4',
-	                      { className: 'capabilities__galleryType' },
-	                      ' Print, Editorial, One-off  '
-	                    )
+	                    'h4',
+	                    { className: 'capabilities__galleryType' },
+	                    ' Identities, Interactive '
 	                  )
 	                )
 	              )
 	            ),
 	            _react2.default.createElement(
-	              'div',
-	              { className: 'capabilities__content__gallery__row' },
+	              _reactRouterDom.Link,
+	              { to: '/visual/rhizome' },
 	              _react2.default.createElement(
-	                _reactRouterDom.Link,
-	                { to: '/visual/omni' },
+	                'div',
+	                { className: "capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.identities ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '') },
+	                _react2.default.createElement('img', { className: 'capabilities__content__gallery__row__item__image', src: '/imgs/rhizome/rhizomePort.jpg' }),
 	                _react2.default.createElement(
 	                  'div',
-	                  { className: "capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.identities ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '') },
-	                  _react2.default.createElement('img', { className: 'capabilities__content__gallery__row__item__image', src: '/imgs/omni/omniPort.jpg' }),
+	                  { className: 'capabilities__content__gallery__row__item__text' },
 	                  _react2.default.createElement(
-	                    'div',
-	                    { className: 'capabilities__content__gallery__row__item__text' },
-	                    _react2.default.createElement(
-	                      'h3',
-	                      { className: 'capabilities__galleryTitle' },
-	                      ' OMNI '
-	                    ),
-	                    _react2.default.createElement(
-	                      'h4',
-	                      { className: 'capabilities__galleryType' },
-	                      ' Identities, Interactive '
-	                    )
-	                  )
-	                )
-	              ),
-	              _react2.default.createElement(
-	                _reactRouterDom.Link,
-	                { to: '/visual/sea' },
-	                _react2.default.createElement(
-	                  'div',
-	                  { className: "capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.identities ? 'filterOff' : '') },
-	                  _react2.default.createElement('img', { className: 'capabilities__content__gallery__row__item__image', src: '/imgs/sea/seaPort.jpg' }),
+	                    'h3',
+	                    { className: 'capabilities__galleryTitle' },
+	                    ' RHIZOME '
+	                  ),
 	                  _react2.default.createElement(
-	                    'div',
-	                    { className: 'capabilities__content__gallery__row__item__text' },
-	                    _react2.default.createElement(
-	                      'h3',
-	                      { className: 'capabilities__galleryTitle' },
-	                      ' SEA '
-	                    ),
-	                    _react2.default.createElement(
-	                      'h4',
-	                      { className: 'capabilities__galleryType' },
-	                      ' Identities, Interactive '
-	                    )
-	                  )
-	                )
-	              ),
-	              _react2.default.createElement(
-	                _reactRouterDom.Link,
-	                { to: '/fakepage' },
-	                _react2.default.createElement(
-	                  'div',
-	                  { className: "capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.identities ? 'filterOff' : '') },
-	                  _react2.default.createElement('img', { className: 'capabilities__content__gallery__row__item__image', src: '/imgs/studios/studios.jpg' }),
-	                  _react2.default.createElement(
-	                    'div',
-	                    { className: 'capabilities__content__gallery__row__item__text' },
-	                    _react2.default.createElement(
-	                      'h3',
-	                      { className: 'capabilities__galleryTitle' },
-	                      ' STUDIO '
-	                    ),
-	                    _react2.default.createElement(
-	                      'h4',
-	                      { className: 'capabilities__galleryType' },
-	                      ' Identities, Interactive  '
-	                    )
+	                    'h4',
+	                    { className: 'capabilities__galleryType' },
+	                    ' Identities, Interactive '
 	                  )
 	                )
 	              )
 	            ),
 	            _react2.default.createElement(
-	              'div',
-	              { className: 'capabilities__content__gallery__row' },
+	              _reactRouterDom.Link,
+	              { to: '/visual/foto' },
 	              _react2.default.createElement(
-	                _reactRouterDom.Link,
-	                { to: '/fakepage' },
+	                'div',
+	                { className: "capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.print ? 'filterOff' : '') },
+	                _react2.default.createElement('img', { className: 'capabilities__content__gallery__row__item__image', src: '/imgs/foto/fotoPort.jpg' }),
 	                _react2.default.createElement(
 	                  'div',
-	                  { className: "capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '') },
-	                  _react2.default.createElement('img', { className: 'capabilities__content__gallery__row__item__image', src: '/imgs/tendencies/tendencies.jpg' }),
+	                  { className: 'capabilities__content__gallery__row__item__text' },
 	                  _react2.default.createElement(
-	                    'div',
-	                    { className: 'capabilities__content__gallery__row__item__text' },
-	                    _react2.default.createElement(
-	                      'h3',
-	                      { className: 'capabilities__galleryTitle' },
-	                      ' TENDENCIES '
-	                    ),
-	                    _react2.default.createElement(
-	                      'h4',
-	                      { className: 'capabilities__galleryType' },
-	                      ' Identities, Interactive '
-	                    )
+	                    'h3',
+	                    { className: 'capabilities__galleryTitle' },
+	                    ' FOTO '
+	                  ),
+	                  _react2.default.createElement(
+	                    'h4',
+	                    { className: 'capabilities__galleryType' },
+	                    ' Print, Editorial, One-off '
+	                  )
+	                )
+	              )
+	            ),
+	            _react2.default.createElement(
+	              _reactRouterDom.Link,
+	              { to: '/video/artsy', onClick: function onClick() {
+	                  return _this2.props.handlePlaying(true);
+	                } },
+	              _react2.default.createElement(
+	                'div',
+	                { className: "capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '') },
+	                _react2.default.createElement('img', { className: 'capabilities__content__gallery__row__item__image', src: '/imgs/artsy/artsyPort.jpg' }),
+	                _react2.default.createElement(
+	                  'div',
+	                  { className: 'capabilities__content__gallery__row__item__text' },
+	                  _react2.default.createElement(
+	                    'h3',
+	                    { className: 'capabilities__galleryTitle' },
+	                    ' ARTSY '
+	                  ),
+	                  _react2.default.createElement(
+	                    'h4',
+	                    { className: 'capabilities__galleryType' },
+	                    ' Identities, Interactive '
+	                  )
+	                )
+	              )
+	            ),
+	            _react2.default.createElement(
+	              _reactRouterDom.Link,
+	              { to: '/visual/sea' },
+	              _react2.default.createElement(
+	                'div',
+	                { className: "capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.identities ? 'filterOff' : '') },
+	                _react2.default.createElement('img', { className: 'capabilities__content__gallery__row__item__image', src: '/imgs/sea/seaPort.jpg' }),
+	                _react2.default.createElement(
+	                  'div',
+	                  { className: 'capabilities__content__gallery__row__item__text' },
+	                  _react2.default.createElement(
+	                    'h3',
+	                    { className: 'capabilities__galleryTitle' },
+	                    ' SEA '
+	                  ),
+	                  _react2.default.createElement(
+	                    'h4',
+	                    { className: 'capabilities__galleryType' },
+	                    ' Identities, Interactive '
+	                  )
+	                )
+	              )
+	            ),
+	            _react2.default.createElement(
+	              _reactRouterDom.Link,
+	              { to: '/visual/paintings' },
+	              _react2.default.createElement(
+	                'div',
+	                { className: "capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '') },
+	                _react2.default.createElement('img', { className: 'capabilities__content__gallery__row__item__image', src: '/imgs/paintings/paintingsPort.jpg' }),
+	                _react2.default.createElement(
+	                  'div',
+	                  { className: 'capabilities__content__gallery__row__item__text' },
+	                  _react2.default.createElement(
+	                    'h3',
+	                    { className: 'capabilities__galleryTitle' },
+	                    ' PAINTINGS '
+	                  ),
+	                  _react2.default.createElement(
+	                    'h4',
+	                    { className: 'capabilities__galleryType' },
+	                    ' Paintings '
+	                  )
+	                )
+	              )
+	            ),
+	            _react2.default.createElement(
+	              _reactRouterDom.Link,
+	              { to: '/visual/visualtest' },
+	              _react2.default.createElement(
+	                'div',
+	                { className: "capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.identities ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '') + (this.state.motion ? 'filterOff' : '') },
+	                _react2.default.createElement('img', { className: 'capabilities__content__gallery__row__item__image', src: '/imgs/nazmag/nazmagPort.jpg' }),
+	                _react2.default.createElement(
+	                  'div',
+	                  { className: 'capabilities__content__gallery__row__item__text' },
+	                  _react2.default.createElement(
+	                    'h3',
+	                    { className: 'capabilities__galleryTitle' },
+	                    ' NAZ MAG '
+	                  ),
+	                  _react2.default.createElement(
+	                    'h4',
+	                    { className: 'capabilities__galleryType' },
+	                    ' Identities, Interactive, Motion '
+	                  )
+	                )
+	              )
+	            ),
+	            _react2.default.createElement(
+	              _reactRouterDom.Link,
+	              { to: '/visual/boy' },
+	              _react2.default.createElement(
+	                'div',
+	                { className: "capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.print ? 'filterOff' : '') },
+	                _react2.default.createElement('img', { className: 'capabilities__content__gallery__row__item__image', src: '/imgs/boy/boyPort.jpg' }),
+	                _react2.default.createElement(
+	                  'div',
+	                  { className: 'capabilities__content__gallery__row__item__text' },
+	                  _react2.default.createElement(
+	                    'h3',
+	                    { className: 'capabilities__galleryTitle' },
+	                    ' BOY '
+	                  ),
+	                  _react2.default.createElement(
+	                    'h4',
+	                    { className: 'capabilities__galleryType' },
+	                    ' Print, Editorial, One-off  '
+	                  )
+	                )
+	              )
+	            ),
+	            _react2.default.createElement(
+	              _reactRouterDom.Link,
+	              { to: '/video/videotest', onClick: function onClick() {
+	                  return _this2.props.handlePlaying(true);
+	                } },
+	              _react2.default.createElement(
+	                'div',
+	                { className: "capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.motion ? 'filterOff' : '') + (this.state.print ? 'filterOff' : '') + (this.state.identities ? 'filterOff' : '') },
+	                _react2.default.createElement('img', { className: 'capabilities__content__gallery__row__item__image', src: '/imgs/room/roomPort.jpg' }),
+	                _react2.default.createElement(
+	                  'div',
+	                  { className: 'capabilities__content__gallery__row__item__text' },
+	                  _react2.default.createElement(
+	                    'h3',
+	                    { className: 'capabilities__galleryTitle' },
+	                    ' ROOM '
+	                  ),
+	                  _react2.default.createElement(
+	                    'h4',
+	                    { className: 'capabilities__galleryType' },
+	                    ' Motion, Print, Identities '
+	                  )
+	                )
+	              )
+	            ),
+	            _react2.default.createElement(
+	              _reactRouterDom.Link,
+	              { to: '/visual/blow' },
+	              _react2.default.createElement(
+	                'div',
+	                { className: "capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '') },
+	                _react2.default.createElement('img', { className: 'capabilities__content__gallery__row__item__image', src: '/imgs/blow/blowPort.jpg' }),
+	                _react2.default.createElement(
+	                  'div',
+	                  { className: 'capabilities__content__gallery__row__item__text' },
+	                  _react2.default.createElement(
+	                    'h3',
+	                    { className: 'capabilities__galleryTitle' },
+	                    ' BLOW '
+	                  ),
+	                  _react2.default.createElement(
+	                    'h4',
+	                    { className: 'capabilities__galleryType' },
+	                    ' Print, Interactive  '
+	                  )
+	                )
+	              )
+	            ),
+	            _react2.default.createElement(
+	              _reactRouterDom.Link,
+	              { to: '/visual/blackstar' },
+	              _react2.default.createElement(
+	                'div',
+	                { className: "capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.print ? 'filterOff' : '') },
+	                _react2.default.createElement('img', { className: 'capabilities__content__gallery__row__item__image', src: '/imgs/blackstar/blackstarPort.jpg' }),
+	                _react2.default.createElement(
+	                  'div',
+	                  { className: 'capabilities__content__gallery__row__item__text' },
+	                  _react2.default.createElement(
+	                    'h3',
+	                    { className: 'capabilities__galleryTitle' },
+	                    ' BLACKSTAR '
+	                  ),
+	                  _react2.default.createElement(
+	                    'h4',
+	                    { className: 'capabilities__galleryType' },
+	                    ' Print, Editorial, One-off '
+	                  )
+	                )
+	              )
+	            ),
+	            _react2.default.createElement(
+	              _reactRouterDom.Link,
+	              { to: '/visual/monza' },
+	              _react2.default.createElement(
+	                'div',
+	                { className: "capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '') },
+	                _react2.default.createElement('img', { className: 'capabilities__content__gallery__row__item__image', src: '/imgs/monza/monzaPort.jpg' }),
+	                _react2.default.createElement(
+	                  'div',
+	                  { className: 'capabilities__content__gallery__row__item__text' },
+	                  _react2.default.createElement(
+	                    'h3',
+	                    { className: 'capabilities__galleryTitle' },
+	                    ' MONZA LIGHT '
+	                  ),
+	                  _react2.default.createElement(
+	                    'h4',
+	                    { className: 'capabilities__galleryType' },
+	                    ' Interactive, Web, Digital  '
+	                  )
+	                )
+	              )
+	            ),
+	            _react2.default.createElement(
+	              _reactRouterDom.Link,
+	              { to: '/fakepage' },
+	              _react2.default.createElement(
+	                'div',
+	                { className: "capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '') },
+	                _react2.default.createElement('img', { className: 'capabilities__content__gallery__row__item__image', src: '/imgs/tendencies/tendenciesPort.jpg' }),
+	                _react2.default.createElement(
+	                  'div',
+	                  { className: 'capabilities__content__gallery__row__item__text' },
+	                  _react2.default.createElement(
+	                    'h3',
+	                    { className: 'capabilities__galleryTitle' },
+	                    ' TENDENCIES '
+	                  ),
+	                  _react2.default.createElement(
+	                    'h4',
+	                    { className: 'capabilities__galleryType' },
+	                    ' Identities, Interactive '
+	                  )
+	                )
+	              )
+	            ),
+	            _react2.default.createElement(
+	              _reactRouterDom.Link,
+	              { to: '/fakepage' },
+	              _react2.default.createElement(
+	                'div',
+	                { className: "capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.identities ? 'filterOff' : '') + (this.state.print ? 'filterOff' : '') },
+	                _react2.default.createElement('img', { className: 'capabilities__content__gallery__row__item__image', src: '/imgs/eddy/eddyPort.jpg' }),
+	                _react2.default.createElement(
+	                  'div',
+	                  { className: 'capabilities__content__gallery__row__item__text' },
+	                  _react2.default.createElement(
+	                    'h3',
+	                    { className: 'capabilities__galleryTitle' },
+	                    ' EDDY BAUER '
+	                  ),
+	                  _react2.default.createElement(
+	                    'h4',
+	                    { className: 'capabilities__galleryType' },
+	                    ' Identity, Print  '
+	                  )
+	                )
+	              )
+	            ),
+	            _react2.default.createElement(
+	              _reactRouterDom.Link,
+	              { to: '/visual/thirteenu' },
+	              _react2.default.createElement(
+	                'div',
+	                { className: "capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '') },
+	                _react2.default.createElement('img', { className: 'capabilities__content__gallery__row__item__image', src: '/imgs/13u/13Port.jpg' }),
+	                _react2.default.createElement(
+	                  'div',
+	                  { className: 'capabilities__content__gallery__row__item__text' },
+	                  _react2.default.createElement(
+	                    'h3',
+	                    { className: 'capabilities__galleryTitle' },
+	                    ' 13|U '
+	                  ),
+	                  _react2.default.createElement(
+	                    'h4',
+	                    { className: 'capabilities__galleryType' },
+	                    ' Identities, Interactive '
+	                  )
+	                )
+	              )
+	            ),
+	            _react2.default.createElement(
+	              _reactRouterDom.Link,
+	              { to: '/fakepage' },
+	              _react2.default.createElement(
+	                'div',
+	                { className: "capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.print ? 'filterOff' : '') },
+	                _react2.default.createElement('img', { className: 'capabilities__content__gallery__row__item__image', src: '/imgs/general/general.jpg' }),
+	                _react2.default.createElement(
+	                  'div',
+	                  { className: 'capabilities__content__gallery__row__item__text' },
+	                  _react2.default.createElement(
+	                    'h3',
+	                    { className: 'capabilities__galleryTitle' },
+	                    ' IN PROGRESS '
+	                  ),
+	                  _react2.default.createElement(
+	                    'h4',
+	                    { className: 'capabilities__galleryType' },
+	                    ' Identity '
+	                  )
+	                )
+	              )
+	            ),
+	            _react2.default.createElement(
+	              _reactRouterDom.Link,
+	              { to: '/visual/1432r' },
+	              _react2.default.createElement(
+	                'div',
+	                { className: "capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '') },
+	                _react2.default.createElement('img', { className: 'capabilities__content__gallery__row__item__image', src: '/imgs/1432r/fourteenPort.jpg' }),
+	                _react2.default.createElement(
+	                  'div',
+	                  { className: 'capabilities__content__gallery__row__item__text' },
+	                  _react2.default.createElement(
+	                    'h3',
+	                    { className: 'capabilities__galleryTitle' },
+	                    ' 1432R '
+	                  ),
+	                  _react2.default.createElement(
+	                    'h4',
+	                    { className: 'capabilities__galleryType' },
+	                    ' Identities, Interactive '
+	                  )
+	                )
+	              )
+	            ),
+	            _react2.default.createElement(
+	              _reactRouterDom.Link,
+	              { to: '/visual/ecube' },
+	              _react2.default.createElement(
+	                'div',
+	                { className: "capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '') },
+	                _react2.default.createElement('img', { className: 'capabilities__content__gallery__row__item__image', src: '/imgs/ecube/ecubePort.jpg' }),
+	                _react2.default.createElement(
+	                  'div',
+	                  { className: 'capabilities__content__gallery__row__item__text' },
+	                  _react2.default.createElement(
+	                    'h3',
+	                    { className: 'capabilities__galleryTitle' },
+	                    ' ECUBE '
+	                  ),
+	                  _react2.default.createElement(
+	                    'h4',
+	                    { className: 'capabilities__galleryType' },
+	                    ' Interactive, Web, Digital  '
+	                  )
+	                )
+	              )
+	            ),
+	            _react2.default.createElement(
+	              _reactRouterDom.Link,
+	              { to: '/audio/audiotest' },
+	              _react2.default.createElement(
+	                'div',
+	                { className: "capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.identities ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '') },
+	                _react2.default.createElement('img', { className: 'capabilities__content__gallery__row__item__image', src: '/imgs/emerge/emergePort.jpg' }),
+	                _react2.default.createElement(
+	                  'div',
+	                  { className: 'capabilities__content__gallery__row__item__text' },
+	                  _react2.default.createElement(
+	                    'h3',
+	                    { className: 'capabilities__galleryTitle' },
+	                    ' EMERGE '
+	                  ),
+	                  _react2.default.createElement(
+	                    'h4',
+	                    { className: 'capabilities__galleryType' },
+	                    ' Identities, Interactive '
+	                  )
+	                )
+	              )
+	            ),
+	            _react2.default.createElement(
+	              _reactRouterDom.Link,
+	              { to: '/visual/trump' },
+	              _react2.default.createElement(
+	                'div',
+	                { className: "capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.print ? 'filterOff' : '') },
+	                _react2.default.createElement('img', { className: 'capabilities__content__gallery__row__item__image', src: '/imgs/trump/trumpPort.jpg' }),
+	                _react2.default.createElement(
+	                  'div',
+	                  { className: 'capabilities__content__gallery__row__item__text' },
+	                  _react2.default.createElement(
+	                    'h3',
+	                    { className: 'capabilities__galleryTitle' },
+	                    ' TRUMP '
+	                  ),
+	                  _react2.default.createElement(
+	                    'h4',
+	                    { className: 'capabilities__galleryType' },
+	                    ' Print, Editorial, One-off  '
+	                  )
+	                )
+	              )
+	            ),
+	            _react2.default.createElement(
+	              _reactRouterDom.Link,
+	              { to: '/fakepage' },
+	              _react2.default.createElement(
+	                'div',
+	                { className: "capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.print ? 'filterOff' : '') },
+	                _react2.default.createElement('img', { className: 'capabilities__content__gallery__row__item__image', src: '/imgs/em/emPort.jpg' }),
+	                _react2.default.createElement(
+	                  'div',
+	                  { className: 'capabilities__content__gallery__row__item__text' },
+	                  _react2.default.createElement(
+	                    'h3',
+	                    { className: 'capabilities__galleryTitle' },
+	                    ' EM '
+	                  ),
+	                  _react2.default.createElement(
+	                    'h4',
+	                    { className: 'capabilities__galleryType' },
+	                    ' Print, Editorial, One-off '
+	                  )
+	                )
+	              )
+	            ),
+	            _react2.default.createElement(
+	              _reactRouterDom.Link,
+	              { to: '/fakepage' },
+	              _react2.default.createElement(
+	                'div',
+	                { className: "capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.industry ? 'filterOff' : '') },
+	                _react2.default.createElement('img', { className: 'capabilities__content__gallery__row__item__image', src: '/imgs/industry/industryPort.jpg' }),
+	                _react2.default.createElement(
+	                  'div',
+	                  { className: 'capabilities__content__gallery__row__item__text' },
+	                  _react2.default.createElement(
+	                    'h3',
+	                    { className: 'capabilities__galleryTitle' },
+	                    ' INDUSTRY '
+	                  ),
+	                  _react2.default.createElement(
+	                    'h4',
+	                    { className: 'capabilities__galleryType' },
+	                    ' Print, Editorial, One-off  '
 	                  )
 	                )
 	              )
@@ -39864,72 +40012,7 @@
 	exports.default = Splash;
 
 /***/ }),
-/* 316 */,
-/* 317 */,
-/* 318 */,
-/* 319 */,
-/* 320 */,
-/* 321 */,
-/* 322 */,
-/* 323 */,
-/* 324 */,
-/* 325 */,
-/* 326 */,
-/* 327 */,
-/* 328 */,
-/* 329 */,
-/* 330 */,
-/* 331 */,
-/* 332 */,
-/* 333 */,
-/* 334 */,
-/* 335 */,
-/* 336 */,
-/* 337 */,
-/* 338 */,
-/* 339 */,
-/* 340 */,
-/* 341 */,
-/* 342 */,
-/* 343 */,
-/* 344 */,
-/* 345 */,
-/* 346 */,
-/* 347 */,
-/* 348 */,
-/* 349 */,
-/* 350 */,
-/* 351 */,
-/* 352 */,
-/* 353 */,
-/* 354 */,
-/* 355 */,
-/* 356 */,
-/* 357 */,
-/* 358 */,
-/* 359 */,
-/* 360 */,
-/* 361 */,
-/* 362 */,
-/* 363 */,
-/* 364 */,
-/* 365 */,
-/* 366 */,
-/* 367 */,
-/* 368 */,
-/* 369 */,
-/* 370 */,
-/* 371 */,
-/* 372 */,
-/* 373 */,
-/* 374 */,
-/* 375 */,
-/* 376 */,
-/* 377 */,
-/* 378 */,
-/* 379 */,
-/* 380 */,
-/* 381 */
+/* 316 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -39938,7 +40021,7 @@
 	  value: true
 	});
 	
-	var _Video = __webpack_require__(382);
+	var _Video = __webpack_require__(317);
 	
 	var _Video2 = _interopRequireDefault(_Video);
 
@@ -39947,7 +40030,7 @@
 	exports.default = _Video2.default;
 
 /***/ }),
-/* 382 */
+/* 317 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -39970,7 +40053,7 @@
 	
 	var _reactPlayer2 = _interopRequireDefault(_reactPlayer);
 	
-	var _screenfull = __webpack_require__(383);
+	var _screenfull = __webpack_require__(318);
 	
 	var _screenfull2 = _interopRequireDefault(_screenfull);
 	
@@ -40237,7 +40320,7 @@
 	                ' ',
 	                _react2.default.createElement(
 	                  'span',
-	                  { className: 'portHeader' },
+	                  { className: 'videoHeader' },
 	                  ' ',
 	                  this.state.project.title,
 	                  ' '
@@ -40245,7 +40328,7 @@
 	                '  ',
 	                _react2.default.createElement(
 	                  'span',
-	                  { className: 'portItalic' },
+	                  { className: 'videoItalic' },
 	                  ' ',
 	                  this.state.project.artist
 	                ),
@@ -40275,7 +40358,7 @@
 	exports.default = Video;
 
 /***/ }),
-/* 383 */
+/* 318 */
 /***/ (function(module, exports) {
 
 	/*!
@@ -40449,7 +40532,7 @@
 
 
 /***/ }),
-/* 384 */
+/* 319 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -40458,7 +40541,7 @@
 	  value: true
 	});
 	
-	var _Visual = __webpack_require__(385);
+	var _Visual = __webpack_require__(320);
 	
 	var _Visual2 = _interopRequireDefault(_Visual);
 
@@ -40467,7 +40550,7 @@
 	exports.default = _Visual2.default;
 
 /***/ }),
-/* 385 */
+/* 320 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -40783,7 +40866,7 @@
 	exports.default = Visual;
 
 /***/ }),
-/* 386 */
+/* 321 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -40792,7 +40875,7 @@
 	  value: true
 	});
 	
-	var _About = __webpack_require__(387);
+	var _About = __webpack_require__(322);
 	
 	Object.defineProperty(exports, 'About', {
 	  enumerable: true,
@@ -40810,7 +40893,7 @@
 	  }
 	});
 	
-	var _animated_switch = __webpack_require__(399);
+	var _animated_switch = __webpack_require__(334);
 	
 	Object.defineProperty(exports, 'AnimatedSwitch', {
 	  enumerable: true,
@@ -40822,7 +40905,7 @@
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 /***/ }),
-/* 387 */
+/* 322 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -40841,9 +40924,9 @@
 	
 	var _reactDom2 = _interopRequireDefault(_reactDom);
 	
-	var _gsap = __webpack_require__(388);
+	var _gsap = __webpack_require__(323);
 	
-	var _reactTransitionGroup = __webpack_require__(389);
+	var _reactTransitionGroup = __webpack_require__(324);
 	
 	var _reactTransitionGroup2 = _interopRequireDefault(_reactTransitionGroup);
 	
@@ -41024,7 +41107,7 @@
 	exports.default = About;
 
 /***/ }),
-/* 388 */
+/* 323 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/* WEBPACK VAR INJECTION */(function(global) {/*!
@@ -48955,12 +49038,12 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
 
 /***/ }),
-/* 389 */
+/* 324 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
 	
-	var _CSSTransitionGroup = __webpack_require__(390);
+	var _CSSTransitionGroup = __webpack_require__(325);
 	
 	var _CSSTransitionGroup2 = _interopRequireDefault(_CSSTransitionGroup);
 	
@@ -48976,7 +49059,7 @@
 	};
 
 /***/ }),
-/* 390 */
+/* 325 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {'use strict';
@@ -48997,11 +49080,11 @@
 	
 	var _TransitionGroup2 = _interopRequireDefault(_TransitionGroup);
 	
-	var _CSSTransitionGroupChild = __webpack_require__(391);
+	var _CSSTransitionGroupChild = __webpack_require__(326);
 	
 	var _CSSTransitionGroupChild2 = _interopRequireDefault(_CSSTransitionGroupChild);
 	
-	var _PropTypes = __webpack_require__(398);
+	var _PropTypes = __webpack_require__(333);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
@@ -49076,7 +49159,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(8)))
 
 /***/ }),
-/* 391 */
+/* 326 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {'use strict';
@@ -49085,19 +49168,19 @@
 	
 	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 	
-	var _addClass = __webpack_require__(392);
+	var _addClass = __webpack_require__(327);
 	
 	var _addClass2 = _interopRequireDefault(_addClass);
 	
-	var _removeClass = __webpack_require__(394);
+	var _removeClass = __webpack_require__(329);
 	
 	var _removeClass2 = _interopRequireDefault(_removeClass);
 	
-	var _requestAnimationFrame = __webpack_require__(395);
+	var _requestAnimationFrame = __webpack_require__(330);
 	
 	var _requestAnimationFrame2 = _interopRequireDefault(_requestAnimationFrame);
 	
-	var _properties = __webpack_require__(397);
+	var _properties = __webpack_require__(332);
 	
 	var _react = __webpack_require__(6);
 	
@@ -49109,7 +49192,7 @@
 	
 	var _reactDom = __webpack_require__(42);
 	
-	var _PropTypes = __webpack_require__(398);
+	var _PropTypes = __webpack_require__(333);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
@@ -49311,7 +49394,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(8)))
 
 /***/ }),
-/* 392 */
+/* 327 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -49321,7 +49404,7 @@
 	});
 	exports.default = addClass;
 	
-	var _hasClass = __webpack_require__(393);
+	var _hasClass = __webpack_require__(328);
 	
 	var _hasClass2 = _interopRequireDefault(_hasClass);
 	
@@ -49333,7 +49416,7 @@
 	module.exports = exports['default'];
 
 /***/ }),
-/* 393 */
+/* 328 */
 /***/ (function(module, exports) {
 
 	"use strict";
@@ -49348,7 +49431,7 @@
 	module.exports = exports["default"];
 
 /***/ }),
-/* 394 */
+/* 329 */
 /***/ (function(module, exports) {
 
 	'use strict';
@@ -49358,7 +49441,7 @@
 	};
 
 /***/ }),
-/* 395 */
+/* 330 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -49367,7 +49450,7 @@
 	  value: true
 	});
 	
-	var _inDOM = __webpack_require__(396);
+	var _inDOM = __webpack_require__(331);
 	
 	var _inDOM2 = _interopRequireDefault(_inDOM);
 	
@@ -49416,7 +49499,7 @@
 	module.exports = exports['default'];
 
 /***/ }),
-/* 396 */
+/* 331 */
 /***/ (function(module, exports) {
 
 	'use strict';
@@ -49428,7 +49511,7 @@
 	module.exports = exports['default'];
 
 /***/ }),
-/* 397 */
+/* 332 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -49438,7 +49521,7 @@
 	});
 	exports.animationEnd = exports.animationDelay = exports.animationTiming = exports.animationDuration = exports.animationName = exports.transitionEnd = exports.transitionDuration = exports.transitionDelay = exports.transitionTiming = exports.transitionProperty = exports.transform = undefined;
 	
-	var _inDOM = __webpack_require__(396);
+	var _inDOM = __webpack_require__(331);
 	
 	var _inDOM2 = _interopRequireDefault(_inDOM);
 	
@@ -49543,7 +49626,7 @@
 	}
 
 /***/ }),
-/* 398 */
+/* 333 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -49597,7 +49680,7 @@
 	})]);
 
 /***/ }),
-/* 399 */
+/* 334 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -49618,11 +49701,11 @@
 	
 	var _reactRouterDom = __webpack_require__(189);
 	
-	var _reactDom = __webpack_require__(400);
+	var _reactDom = __webpack_require__(335);
 	
 	var Animated = _interopRequireWildcard(_reactDom);
 	
-	var _reactTransitionGroup = __webpack_require__(389);
+	var _reactTransitionGroup = __webpack_require__(324);
 	
 	var _reactTransitionGroup2 = _interopRequireDefault(_reactTransitionGroup);
 	
@@ -49717,7 +49800,7 @@
 	;
 
 /***/ }),
-/* 400 */
+/* 335 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	
@@ -49733,7 +49816,7 @@
 	'use strict';var _extends=Object.assign||function(target){for(var i=1;i<arguments.length;i++){var source=arguments[i];for(var key in source){if(Object.prototype.hasOwnProperty.call(source,key)){target[key]=source[key];}}}return target;};
 	
 	var CSSPropertyOperations=__webpack_require__(106);
-	var Animated=__webpack_require__(401);
+	var Animated=__webpack_require__(336);
 	
 	
 	function mapTransform(t){
@@ -49773,7 +49856,7 @@
 	img:Animated.createAnimatedComponent('img')});
 
 /***/ }),
-/* 401 */
+/* 336 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	
@@ -49788,22 +49871,22 @@
 	
 	'use strict';var _extends=Object.assign||function(target){for(var i=1;i<arguments.length;i++){var source=arguments[i];for(var key in source){if(Object.prototype.hasOwnProperty.call(source,key)){target[key]=source[key];}}}return target;};
 	
-	var invariant=__webpack_require__(402);
+	var invariant=__webpack_require__(337);
 	
-	var Animated=__webpack_require__(403);
-	var AnimatedValue=__webpack_require__(404);
-	var AnimatedValueXY=__webpack_require__(413);
-	var AnimatedAddition=__webpack_require__(414);
-	var AnimatedMultiplication=__webpack_require__(415);
-	var AnimatedModulo=__webpack_require__(416);
-	var AnimatedTemplate=__webpack_require__(417);
-	var AnimatedTracking=__webpack_require__(418);
-	var isAnimated=__webpack_require__(419);
+	var Animated=__webpack_require__(338);
+	var AnimatedValue=__webpack_require__(339);
+	var AnimatedValueXY=__webpack_require__(348);
+	var AnimatedAddition=__webpack_require__(349);
+	var AnimatedMultiplication=__webpack_require__(350);
+	var AnimatedModulo=__webpack_require__(351);
+	var AnimatedTemplate=__webpack_require__(352);
+	var AnimatedTracking=__webpack_require__(353);
+	var isAnimated=__webpack_require__(354);
 	
-	var Animation=__webpack_require__(411);
-	var TimingAnimation=__webpack_require__(420);
-	var DecayAnimation=__webpack_require__(425);
-	var SpringAnimation=__webpack_require__(426);
+	var Animation=__webpack_require__(346);
+	var TimingAnimation=__webpack_require__(355);
+	var DecayAnimation=__webpack_require__(360);
+	var SpringAnimation=__webpack_require__(361);
 	
 	
 	
@@ -50277,20 +50360,20 @@
 	
 	
 	
-	createAnimatedComponent:__webpack_require__(428),
+	createAnimatedComponent:__webpack_require__(363),
 	
 	inject:{
-	ApplyAnimatedValues:__webpack_require__(433).inject,
-	InteractionManager:__webpack_require__(406).inject,
-	FlattenStyle:__webpack_require__(432).inject,
-	RequestAnimationFrame:__webpack_require__(423).inject,
-	CancelAnimationFrame:__webpack_require__(424).inject},
+	ApplyAnimatedValues:__webpack_require__(368).inject,
+	InteractionManager:__webpack_require__(341).inject,
+	FlattenStyle:__webpack_require__(367).inject,
+	RequestAnimationFrame:__webpack_require__(358).inject,
+	CancelAnimationFrame:__webpack_require__(359).inject},
 	
 	
-	__PropsOnlyForTests:__webpack_require__(429)};
+	__PropsOnlyForTests:__webpack_require__(364)};
 
 /***/ }),
-/* 402 */
+/* 337 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(process) {/**
@@ -50348,7 +50431,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(8)))
 
 /***/ }),
-/* 403 */
+/* 338 */
 /***/ (function(module, exports) {
 
 	
@@ -50378,7 +50461,7 @@
 	module.exports=Animated;
 
 /***/ }),
-/* 404 */
+/* 339 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	/* WEBPACK VAR INJECTION */(function(global) {
@@ -50393,13 +50476,13 @@
 	
 	'use strict';var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||false;descriptor.configurable=true;if("value"in descriptor)descriptor.writable=true;Object.defineProperty(target,descriptor.key,descriptor);}}return function(Constructor,protoProps,staticProps){if(protoProps)defineProperties(Constructor.prototype,protoProps);if(staticProps)defineProperties(Constructor,staticProps);return Constructor;};}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor)){throw new TypeError("Cannot call a class as a function");}}function _possibleConstructorReturn(self,call){if(!self){throw new ReferenceError("this hasn't been initialised - super() hasn't been called");}return call&&(typeof call==="object"||typeof call==="function")?call:self;}function _inherits(subClass,superClass){if(typeof superClass!=="function"&&superClass!==null){throw new TypeError("Super expression must either be null or a function, not "+typeof superClass);}subClass.prototype=Object.create(superClass&&superClass.prototype,{constructor:{value:subClass,enumerable:false,writable:true,configurable:true}});if(superClass)Object.setPrototypeOf?Object.setPrototypeOf(subClass,superClass):subClass.__proto__=superClass;}
 	
-	var AnimatedWithChildren=__webpack_require__(405);
-	var InteractionManager=__webpack_require__(406);
-	var AnimatedInterpolation=__webpack_require__(407);
-	var Interpolation=__webpack_require__(408);
-	var Animation=__webpack_require__(411);
-	var guid=__webpack_require__(410);
-	var Set=global.Set||__webpack_require__(412);
+	var AnimatedWithChildren=__webpack_require__(340);
+	var InteractionManager=__webpack_require__(341);
+	var AnimatedInterpolation=__webpack_require__(342);
+	var Interpolation=__webpack_require__(343);
+	var Animation=__webpack_require__(346);
+	var guid=__webpack_require__(345);
+	var Set=global.Set||__webpack_require__(347);
 	
 	
 	
@@ -50596,7 +50679,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
 
 /***/ }),
-/* 405 */
+/* 340 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	
@@ -50611,7 +50694,7 @@
 	
 	'use strict';var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||false;descriptor.configurable=true;if("value"in descriptor)descriptor.writable=true;Object.defineProperty(target,descriptor.key,descriptor);}}return function(Constructor,protoProps,staticProps){if(protoProps)defineProperties(Constructor.prototype,protoProps);if(staticProps)defineProperties(Constructor,staticProps);return Constructor;};}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor)){throw new TypeError("Cannot call a class as a function");}}function _possibleConstructorReturn(self,call){if(!self){throw new ReferenceError("this hasn't been initialised - super() hasn't been called");}return call&&(typeof call==="object"||typeof call==="function")?call:self;}function _inherits(subClass,superClass){if(typeof superClass!=="function"&&superClass!==null){throw new TypeError("Super expression must either be null or a function, not "+typeof superClass);}subClass.prototype=Object.create(superClass&&superClass.prototype,{constructor:{value:subClass,enumerable:false,writable:true,configurable:true}});if(superClass)Object.setPrototypeOf?Object.setPrototypeOf(subClass,superClass):subClass.__proto__=superClass;}
 	
-	var Animated=__webpack_require__(403);var
+	var Animated=__webpack_require__(338);var
 	
 	AnimatedWithChildren=function(_Animated){_inherits(AnimatedWithChildren,_Animated);
 	
@@ -50648,7 +50731,7 @@
 	module.exports=AnimatedWithChildren;
 
 /***/ }),
-/* 406 */
+/* 341 */
 /***/ (function(module, exports) {
 
 	
@@ -50676,7 +50759,7 @@
 	module.exports=InteractionManager;
 
 /***/ }),
-/* 407 */
+/* 342 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	
@@ -50691,11 +50774,11 @@
 	
 	'use strict';var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||false;descriptor.configurable=true;if("value"in descriptor)descriptor.writable=true;Object.defineProperty(target,descriptor.key,descriptor);}}return function(Constructor,protoProps,staticProps){if(protoProps)defineProperties(Constructor.prototype,protoProps);if(staticProps)defineProperties(Constructor,staticProps);return Constructor;};}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor)){throw new TypeError("Cannot call a class as a function");}}function _possibleConstructorReturn(self,call){if(!self){throw new ReferenceError("this hasn't been initialised - super() hasn't been called");}return call&&(typeof call==="object"||typeof call==="function")?call:self;}function _inherits(subClass,superClass){if(typeof superClass!=="function"&&superClass!==null){throw new TypeError("Super expression must either be null or a function, not "+typeof superClass);}subClass.prototype=Object.create(superClass&&superClass.prototype,{constructor:{value:subClass,enumerable:false,writable:true,configurable:true}});if(superClass)Object.setPrototypeOf?Object.setPrototypeOf(subClass,superClass):subClass.__proto__=superClass;}
 	
-	var Animated=__webpack_require__(403);
-	var AnimatedWithChildren=__webpack_require__(405);
-	var invariant=__webpack_require__(402);
-	var Interpolation=__webpack_require__(408);
-	var guid=__webpack_require__(410);var
+	var Animated=__webpack_require__(338);
+	var AnimatedWithChildren=__webpack_require__(340);
+	var invariant=__webpack_require__(337);
+	var Interpolation=__webpack_require__(343);
+	var guid=__webpack_require__(345);var
 	
 	
 	
@@ -50755,7 +50838,7 @@
 	module.exports=AnimatedInterpolation;
 
 /***/ }),
-/* 408 */
+/* 343 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	
@@ -50771,9 +50854,9 @@
 	
 	'use strict';var _extends=Object.assign||function(target){for(var i=1;i<arguments.length;i++){var source=arguments[i];for(var key in source){if(Object.prototype.hasOwnProperty.call(source,key)){target[key]=source[key];}}}return target;};var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||false;descriptor.configurable=true;if("value"in descriptor)descriptor.writable=true;Object.defineProperty(target,descriptor.key,descriptor);}}return function(Constructor,protoProps,staticProps){if(protoProps)defineProperties(Constructor.prototype,protoProps);if(staticProps)defineProperties(Constructor,staticProps);return Constructor;};}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor)){throw new TypeError("Cannot call a class as a function");}}
 	
-	var normalizeColor=__webpack_require__(409);
+	var normalizeColor=__webpack_require__(344);
 	
-	var invariant=__webpack_require__(402);
+	var invariant=__webpack_require__(337);
 	
 	
 	
@@ -51050,7 +51133,7 @@
 	module.exports=Interpolation;
 
 /***/ }),
-/* 409 */
+/* 344 */
 /***/ (function(module, exports) {
 
 	/*
@@ -51419,7 +51502,7 @@
 
 
 /***/ }),
-/* 410 */
+/* 345 */
 /***/ (function(module, exports) {
 
 	
@@ -51441,7 +51524,7 @@
 	};
 
 /***/ }),
-/* 411 */
+/* 346 */
 /***/ (function(module, exports) {
 
 	
@@ -51487,7 +51570,7 @@
 	module.exports=Animation;
 
 /***/ }),
-/* 412 */
+/* 347 */
 /***/ (function(module, exports) {
 
 	
@@ -51518,7 +51601,7 @@
 	module.exports=SetPolyfill;
 
 /***/ }),
-/* 413 */
+/* 348 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	
@@ -51533,11 +51616,11 @@
 	
 	'use strict';var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||false;descriptor.configurable=true;if("value"in descriptor)descriptor.writable=true;Object.defineProperty(target,descriptor.key,descriptor);}}return function(Constructor,protoProps,staticProps){if(protoProps)defineProperties(Constructor.prototype,protoProps);if(staticProps)defineProperties(Constructor,staticProps);return Constructor;};}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor)){throw new TypeError("Cannot call a class as a function");}}function _possibleConstructorReturn(self,call){if(!self){throw new ReferenceError("this hasn't been initialised - super() hasn't been called");}return call&&(typeof call==="object"||typeof call==="function")?call:self;}function _inherits(subClass,superClass){if(typeof superClass!=="function"&&superClass!==null){throw new TypeError("Super expression must either be null or a function, not "+typeof superClass);}subClass.prototype=Object.create(superClass&&superClass.prototype,{constructor:{value:subClass,enumerable:false,writable:true,configurable:true}});if(superClass)Object.setPrototypeOf?Object.setPrototypeOf(subClass,superClass):subClass.__proto__=superClass;}
 	
-	var Animated=__webpack_require__(403);
-	var AnimatedValue=__webpack_require__(404);
-	var AnimatedWithChildren=__webpack_require__(405);
-	var invariant=__webpack_require__(402);
-	var guid=__webpack_require__(410);var
+	var Animated=__webpack_require__(338);
+	var AnimatedValue=__webpack_require__(339);
+	var AnimatedWithChildren=__webpack_require__(340);
+	var invariant=__webpack_require__(337);
+	var guid=__webpack_require__(345);var
 	
 	
 	
@@ -51683,7 +51766,7 @@
 	module.exports=AnimatedValueXY;
 
 /***/ }),
-/* 414 */
+/* 349 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	
@@ -51698,11 +51781,11 @@
 	
 	'use strict';var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||false;descriptor.configurable=true;if("value"in descriptor)descriptor.writable=true;Object.defineProperty(target,descriptor.key,descriptor);}}return function(Constructor,protoProps,staticProps){if(protoProps)defineProperties(Constructor.prototype,protoProps);if(staticProps)defineProperties(Constructor,staticProps);return Constructor;};}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor)){throw new TypeError("Cannot call a class as a function");}}function _possibleConstructorReturn(self,call){if(!self){throw new ReferenceError("this hasn't been initialised - super() hasn't been called");}return call&&(typeof call==="object"||typeof call==="function")?call:self;}function _inherits(subClass,superClass){if(typeof superClass!=="function"&&superClass!==null){throw new TypeError("Super expression must either be null or a function, not "+typeof superClass);}subClass.prototype=Object.create(superClass&&superClass.prototype,{constructor:{value:subClass,enumerable:false,writable:true,configurable:true}});if(superClass)Object.setPrototypeOf?Object.setPrototypeOf(subClass,superClass):subClass.__proto__=superClass;}
 	
-	var AnimatedWithChildren=__webpack_require__(405);
-	var Animated=__webpack_require__(403);
-	var AnimatedValue=__webpack_require__(404);
-	var Interpolation=__webpack_require__(408);
-	var AnimatedInterpolation=__webpack_require__(407);var
+	var AnimatedWithChildren=__webpack_require__(340);
+	var Animated=__webpack_require__(338);
+	var AnimatedValue=__webpack_require__(339);
+	var Interpolation=__webpack_require__(343);
+	var AnimatedInterpolation=__webpack_require__(342);var
 	
 	
 	
@@ -51766,7 +51849,7 @@
 	module.exports=AnimatedAddition;
 
 /***/ }),
-/* 415 */
+/* 350 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	
@@ -51781,11 +51864,11 @@
 	
 	'use strict';var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||false;descriptor.configurable=true;if("value"in descriptor)descriptor.writable=true;Object.defineProperty(target,descriptor.key,descriptor);}}return function(Constructor,protoProps,staticProps){if(protoProps)defineProperties(Constructor.prototype,protoProps);if(staticProps)defineProperties(Constructor,staticProps);return Constructor;};}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor)){throw new TypeError("Cannot call a class as a function");}}function _possibleConstructorReturn(self,call){if(!self){throw new ReferenceError("this hasn't been initialised - super() hasn't been called");}return call&&(typeof call==="object"||typeof call==="function")?call:self;}function _inherits(subClass,superClass){if(typeof superClass!=="function"&&superClass!==null){throw new TypeError("Super expression must either be null or a function, not "+typeof superClass);}subClass.prototype=Object.create(superClass&&superClass.prototype,{constructor:{value:subClass,enumerable:false,writable:true,configurable:true}});if(superClass)Object.setPrototypeOf?Object.setPrototypeOf(subClass,superClass):subClass.__proto__=superClass;}
 	
-	var AnimatedWithChildren=__webpack_require__(405);
-	var Animated=__webpack_require__(403);
-	var AnimatedValue=__webpack_require__(404);
-	var AnimatedInterpolation=__webpack_require__(407);
-	var Interpolation=__webpack_require__(408);var
+	var AnimatedWithChildren=__webpack_require__(340);
+	var Animated=__webpack_require__(338);
+	var AnimatedValue=__webpack_require__(339);
+	var AnimatedInterpolation=__webpack_require__(342);
+	var Interpolation=__webpack_require__(343);var
 	
 	
 	
@@ -51849,7 +51932,7 @@
 	module.exports=AnimatedMultiplication;
 
 /***/ }),
-/* 416 */
+/* 351 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	
@@ -51864,10 +51947,10 @@
 	
 	'use strict';var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||false;descriptor.configurable=true;if("value"in descriptor)descriptor.writable=true;Object.defineProperty(target,descriptor.key,descriptor);}}return function(Constructor,protoProps,staticProps){if(protoProps)defineProperties(Constructor.prototype,protoProps);if(staticProps)defineProperties(Constructor,staticProps);return Constructor;};}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor)){throw new TypeError("Cannot call a class as a function");}}function _possibleConstructorReturn(self,call){if(!self){throw new ReferenceError("this hasn't been initialised - super() hasn't been called");}return call&&(typeof call==="object"||typeof call==="function")?call:self;}function _inherits(subClass,superClass){if(typeof superClass!=="function"&&superClass!==null){throw new TypeError("Super expression must either be null or a function, not "+typeof superClass);}subClass.prototype=Object.create(superClass&&superClass.prototype,{constructor:{value:subClass,enumerable:false,writable:true,configurable:true}});if(superClass)Object.setPrototypeOf?Object.setPrototypeOf(subClass,superClass):subClass.__proto__=superClass;}
 	
-	var Animated=__webpack_require__(403);
-	var AnimatedWithChildren=__webpack_require__(405);
-	var AnimatedInterpolation=__webpack_require__(407);
-	var Interpolation=__webpack_require__(408);var
+	var Animated=__webpack_require__(338);
+	var AnimatedWithChildren=__webpack_require__(340);
+	var AnimatedInterpolation=__webpack_require__(342);
+	var Interpolation=__webpack_require__(343);var
 	
 	
 	
@@ -51921,7 +52004,7 @@
 	module.exports=AnimatedModulo;
 
 /***/ }),
-/* 417 */
+/* 352 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	
@@ -51936,8 +52019,8 @@
 	
 	'use strict';var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||false;descriptor.configurable=true;if("value"in descriptor)descriptor.writable=true;Object.defineProperty(target,descriptor.key,descriptor);}}return function(Constructor,protoProps,staticProps){if(protoProps)defineProperties(Constructor.prototype,protoProps);if(staticProps)defineProperties(Constructor,staticProps);return Constructor;};}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor)){throw new TypeError("Cannot call a class as a function");}}function _possibleConstructorReturn(self,call){if(!self){throw new ReferenceError("this hasn't been initialised - super() hasn't been called");}return call&&(typeof call==="object"||typeof call==="function")?call:self;}function _inherits(subClass,superClass){if(typeof superClass!=="function"&&superClass!==null){throw new TypeError("Super expression must either be null or a function, not "+typeof superClass);}subClass.prototype=Object.create(superClass&&superClass.prototype,{constructor:{value:subClass,enumerable:false,writable:true,configurable:true}});if(superClass)Object.setPrototypeOf?Object.setPrototypeOf(subClass,superClass):subClass.__proto__=superClass;}
 	
-	var Animated=__webpack_require__(403);
-	var AnimatedWithChildren=__webpack_require__(405);var
+	var Animated=__webpack_require__(338);
+	var AnimatedWithChildren=__webpack_require__(340);var
 	
 	AnimatedTemplate=function(_AnimatedWithChildren){_inherits(AnimatedTemplate,_AnimatedWithChildren);
 	
@@ -51985,7 +52068,7 @@
 	module.exports=AnimatedTemplate;
 
 /***/ }),
-/* 418 */
+/* 353 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	
@@ -52000,8 +52083,8 @@
 	
 	'use strict';var _extends=Object.assign||function(target){for(var i=1;i<arguments.length;i++){var source=arguments[i];for(var key in source){if(Object.prototype.hasOwnProperty.call(source,key)){target[key]=source[key];}}}return target;};var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||false;descriptor.configurable=true;if("value"in descriptor)descriptor.writable=true;Object.defineProperty(target,descriptor.key,descriptor);}}return function(Constructor,protoProps,staticProps){if(protoProps)defineProperties(Constructor.prototype,protoProps);if(staticProps)defineProperties(Constructor,staticProps);return Constructor;};}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor)){throw new TypeError("Cannot call a class as a function");}}function _possibleConstructorReturn(self,call){if(!self){throw new ReferenceError("this hasn't been initialised - super() hasn't been called");}return call&&(typeof call==="object"||typeof call==="function")?call:self;}function _inherits(subClass,superClass){if(typeof superClass!=="function"&&superClass!==null){throw new TypeError("Super expression must either be null or a function, not "+typeof superClass);}subClass.prototype=Object.create(superClass&&superClass.prototype,{constructor:{value:subClass,enumerable:false,writable:true,configurable:true}});if(superClass)Object.setPrototypeOf?Object.setPrototypeOf(subClass,superClass):subClass.__proto__=superClass;}
 	
-	var Animated=__webpack_require__(403);
-	var AnimatedValue=__webpack_require__(404);var
+	var Animated=__webpack_require__(338);
+	var AnimatedValue=__webpack_require__(339);var
 	
 	
 	
@@ -52051,7 +52134,7 @@
 	module.exports=AnimatedTracking;
 
 /***/ }),
-/* 419 */
+/* 354 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	
@@ -52066,7 +52149,7 @@
 	
 	'use strict';
 	
-	var Animated=__webpack_require__(403);
+	var Animated=__webpack_require__(338);
 	
 	function isAnimated(obj){
 	return obj instanceof Animated;
@@ -52075,7 +52158,7 @@
 	module.exports=isAnimated;
 
 /***/ }),
-/* 420 */
+/* 355 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	
@@ -52090,11 +52173,11 @@
 	
 	'use strict';var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||false;descriptor.configurable=true;if("value"in descriptor)descriptor.writable=true;Object.defineProperty(target,descriptor.key,descriptor);}}return function(Constructor,protoProps,staticProps){if(protoProps)defineProperties(Constructor.prototype,protoProps);if(staticProps)defineProperties(Constructor,staticProps);return Constructor;};}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor)){throw new TypeError("Cannot call a class as a function");}}function _possibleConstructorReturn(self,call){if(!self){throw new ReferenceError("this hasn't been initialised - super() hasn't been called");}return call&&(typeof call==="object"||typeof call==="function")?call:self;}function _inherits(subClass,superClass){if(typeof superClass!=="function"&&superClass!==null){throw new TypeError("Super expression must either be null or a function, not "+typeof superClass);}subClass.prototype=Object.create(superClass&&superClass.prototype,{constructor:{value:subClass,enumerable:false,writable:true,configurable:true}});if(superClass)Object.setPrototypeOf?Object.setPrototypeOf(subClass,superClass):subClass.__proto__=superClass;}
 	
-	var Animation=__webpack_require__(411);
-	var AnimatedValue=__webpack_require__(404);
-	var Easing=__webpack_require__(421);
-	var RequestAnimationFrame=__webpack_require__(423);
-	var CancelAnimationFrame=__webpack_require__(424);
+	var Animation=__webpack_require__(346);
+	var AnimatedValue=__webpack_require__(339);
+	var Easing=__webpack_require__(356);
+	var RequestAnimationFrame=__webpack_require__(358);
+	var CancelAnimationFrame=__webpack_require__(359);
 	
 	
 	
@@ -52190,7 +52273,7 @@
 	module.exports=TimingAnimation;
 
 /***/ }),
-/* 421 */
+/* 356 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	
@@ -52205,7 +52288,7 @@
 	
 	'use strict';var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||false;descriptor.configurable=true;if("value"in descriptor)descriptor.writable=true;Object.defineProperty(target,descriptor.key,descriptor);}}return function(Constructor,protoProps,staticProps){if(protoProps)defineProperties(Constructor.prototype,protoProps);if(staticProps)defineProperties(Constructor,staticProps);return Constructor;};}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor)){throw new TypeError("Cannot call a class as a function");}}
 	
-	var _bezier=__webpack_require__(422);var
+	var _bezier=__webpack_require__(357);var
 	
 	
 	
@@ -52340,7 +52423,7 @@
 	module.exports=Easing;
 
 /***/ }),
-/* 422 */
+/* 357 */
 /***/ (function(module, exports) {
 
 	
@@ -52450,7 +52533,7 @@
 	};
 
 /***/ }),
-/* 423 */
+/* 358 */
 /***/ (function(module, exports) {
 
 	/* WEBPACK VAR INJECTION */(function(global) {
@@ -52476,7 +52559,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
 
 /***/ }),
-/* 424 */
+/* 359 */
 /***/ (function(module, exports) {
 
 	/* WEBPACK VAR INJECTION */(function(global) {
@@ -52502,7 +52585,7 @@
 	/* WEBPACK VAR INJECTION */}.call(exports, (function() { return this; }())))
 
 /***/ }),
-/* 425 */
+/* 360 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	
@@ -52517,9 +52600,9 @@
 	
 	'use strict';var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||false;descriptor.configurable=true;if("value"in descriptor)descriptor.writable=true;Object.defineProperty(target,descriptor.key,descriptor);}}return function(Constructor,protoProps,staticProps){if(protoProps)defineProperties(Constructor.prototype,protoProps);if(staticProps)defineProperties(Constructor,staticProps);return Constructor;};}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor)){throw new TypeError("Cannot call a class as a function");}}function _possibleConstructorReturn(self,call){if(!self){throw new ReferenceError("this hasn't been initialised - super() hasn't been called");}return call&&(typeof call==="object"||typeof call==="function")?call:self;}function _inherits(subClass,superClass){if(typeof superClass!=="function"&&superClass!==null){throw new TypeError("Super expression must either be null or a function, not "+typeof superClass);}subClass.prototype=Object.create(superClass&&superClass.prototype,{constructor:{value:subClass,enumerable:false,writable:true,configurable:true}});if(superClass)Object.setPrototypeOf?Object.setPrototypeOf(subClass,superClass):subClass.__proto__=superClass;}
 	
-	var Animation=__webpack_require__(411);
-	var RequestAnimationFrame=__webpack_require__(423);
-	var CancelAnimationFrame=__webpack_require__(424);var
+	var Animation=__webpack_require__(346);
+	var RequestAnimationFrame=__webpack_require__(358);
+	var CancelAnimationFrame=__webpack_require__(359);var
 	
 	
 	
@@ -52590,7 +52673,7 @@
 	module.exports=DecayAnimation;
 
 /***/ }),
-/* 426 */
+/* 361 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	
@@ -52605,12 +52688,12 @@
 	
 	'use strict';var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||false;descriptor.configurable=true;if("value"in descriptor)descriptor.writable=true;Object.defineProperty(target,descriptor.key,descriptor);}}return function(Constructor,protoProps,staticProps){if(protoProps)defineProperties(Constructor.prototype,protoProps);if(staticProps)defineProperties(Constructor,staticProps);return Constructor;};}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor)){throw new TypeError("Cannot call a class as a function");}}function _possibleConstructorReturn(self,call){if(!self){throw new ReferenceError("this hasn't been initialised - super() hasn't been called");}return call&&(typeof call==="object"||typeof call==="function")?call:self;}function _inherits(subClass,superClass){if(typeof superClass!=="function"&&superClass!==null){throw new TypeError("Super expression must either be null or a function, not "+typeof superClass);}subClass.prototype=Object.create(superClass&&superClass.prototype,{constructor:{value:subClass,enumerable:false,writable:true,configurable:true}});if(superClass)Object.setPrototypeOf?Object.setPrototypeOf(subClass,superClass):subClass.__proto__=superClass;}
 	
-	var Animation=__webpack_require__(411);
-	var AnimatedValue=__webpack_require__(404);
-	var RequestAnimationFrame=__webpack_require__(423);
-	var CancelAnimationFrame=__webpack_require__(424);
-	var invariant=__webpack_require__(402);
-	var SpringConfig=__webpack_require__(427);
+	var Animation=__webpack_require__(346);
+	var AnimatedValue=__webpack_require__(339);
+	var RequestAnimationFrame=__webpack_require__(358);
+	var CancelAnimationFrame=__webpack_require__(359);
+	var invariant=__webpack_require__(337);
+	var SpringConfig=__webpack_require__(362);
 	
 	
 	
@@ -52819,7 +52902,7 @@
 	module.exports=SpringAnimation;
 
 /***/ }),
-/* 427 */
+/* 362 */
 /***/ (function(module, exports) {
 
 	
@@ -52924,7 +53007,7 @@
 	fromBouncinessAndSpeed:fromBouncinessAndSpeed};
 
 /***/ }),
-/* 428 */
+/* 363 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	
@@ -52940,8 +53023,8 @@
 	'use strict';var _extends=Object.assign||function(target){for(var i=1;i<arguments.length;i++){var source=arguments[i];for(var key in source){if(Object.prototype.hasOwnProperty.call(source,key)){target[key]=source[key];}}}return target;};var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||false;descriptor.configurable=true;if("value"in descriptor)descriptor.writable=true;Object.defineProperty(target,descriptor.key,descriptor);}}return function(Constructor,protoProps,staticProps){if(protoProps)defineProperties(Constructor.prototype,protoProps);if(staticProps)defineProperties(Constructor,staticProps);return Constructor;};}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor)){throw new TypeError("Cannot call a class as a function");}}function _possibleConstructorReturn(self,call){if(!self){throw new ReferenceError("this hasn't been initialised - super() hasn't been called");}return call&&(typeof call==="object"||typeof call==="function")?call:self;}function _inherits(subClass,superClass){if(typeof superClass!=="function"&&superClass!==null){throw new TypeError("Super expression must either be null or a function, not "+typeof superClass);}subClass.prototype=Object.create(superClass&&superClass.prototype,{constructor:{value:subClass,enumerable:false,writable:true,configurable:true}});if(superClass)Object.setPrototypeOf?Object.setPrototypeOf(subClass,superClass):subClass.__proto__=superClass;}
 	
 	var React=__webpack_require__(6);
-	var AnimatedProps=__webpack_require__(429);
-	var ApplyAnimatedValues=__webpack_require__(433);
+	var AnimatedProps=__webpack_require__(364);
+	var ApplyAnimatedValues=__webpack_require__(368);
 	
 	function createAnimatedComponent(Component){
 	var refName='node';var
@@ -53037,7 +53120,7 @@
 	module.exports=createAnimatedComponent;
 
 /***/ }),
-/* 429 */
+/* 364 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	
@@ -53052,8 +53135,8 @@
 	
 	'use strict';var _extends=Object.assign||function(target){for(var i=1;i<arguments.length;i++){var source=arguments[i];for(var key in source){if(Object.prototype.hasOwnProperty.call(source,key)){target[key]=source[key];}}}return target;};var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||false;descriptor.configurable=true;if("value"in descriptor)descriptor.writable=true;Object.defineProperty(target,descriptor.key,descriptor);}}return function(Constructor,protoProps,staticProps){if(protoProps)defineProperties(Constructor.prototype,protoProps);if(staticProps)defineProperties(Constructor,staticProps);return Constructor;};}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor)){throw new TypeError("Cannot call a class as a function");}}function _possibleConstructorReturn(self,call){if(!self){throw new ReferenceError("this hasn't been initialised - super() hasn't been called");}return call&&(typeof call==="object"||typeof call==="function")?call:self;}function _inherits(subClass,superClass){if(typeof superClass!=="function"&&superClass!==null){throw new TypeError("Super expression must either be null or a function, not "+typeof superClass);}subClass.prototype=Object.create(superClass&&superClass.prototype,{constructor:{value:subClass,enumerable:false,writable:true,configurable:true}});if(superClass)Object.setPrototypeOf?Object.setPrototypeOf(subClass,superClass):subClass.__proto__=superClass;}
 	
-	var Animated=__webpack_require__(403);
-	var AnimatedStyle=__webpack_require__(430);var
+	var Animated=__webpack_require__(338);
+	var AnimatedStyle=__webpack_require__(365);var
 	
 	AnimatedProps=function(_Animated){_inherits(AnimatedProps,_Animated);
 	
@@ -53125,7 +53208,7 @@
 	module.exports=AnimatedProps;
 
 /***/ }),
-/* 430 */
+/* 365 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	
@@ -53140,10 +53223,10 @@
 	
 	'use strict';var _extends=Object.assign||function(target){for(var i=1;i<arguments.length;i++){var source=arguments[i];for(var key in source){if(Object.prototype.hasOwnProperty.call(source,key)){target[key]=source[key];}}}return target;};var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||false;descriptor.configurable=true;if("value"in descriptor)descriptor.writable=true;Object.defineProperty(target,descriptor.key,descriptor);}}return function(Constructor,protoProps,staticProps){if(protoProps)defineProperties(Constructor.prototype,protoProps);if(staticProps)defineProperties(Constructor,staticProps);return Constructor;};}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor)){throw new TypeError("Cannot call a class as a function");}}function _possibleConstructorReturn(self,call){if(!self){throw new ReferenceError("this hasn't been initialised - super() hasn't been called");}return call&&(typeof call==="object"||typeof call==="function")?call:self;}function _inherits(subClass,superClass){if(typeof superClass!=="function"&&superClass!==null){throw new TypeError("Super expression must either be null or a function, not "+typeof superClass);}subClass.prototype=Object.create(superClass&&superClass.prototype,{constructor:{value:subClass,enumerable:false,writable:true,configurable:true}});if(superClass)Object.setPrototypeOf?Object.setPrototypeOf(subClass,superClass):subClass.__proto__=superClass;}
 	
-	var Animated=__webpack_require__(403);
-	var AnimatedWithChildren=__webpack_require__(405);
-	var AnimatedTransform=__webpack_require__(431);
-	var FlattenStyle=__webpack_require__(432);var
+	var Animated=__webpack_require__(338);
+	var AnimatedWithChildren=__webpack_require__(340);
+	var AnimatedTransform=__webpack_require__(366);
+	var FlattenStyle=__webpack_require__(367);var
 	
 	AnimatedStyle=function(_AnimatedWithChildren){_inherits(AnimatedStyle,_AnimatedWithChildren);
 	
@@ -53206,7 +53289,7 @@
 	module.exports=AnimatedStyle;
 
 /***/ }),
-/* 431 */
+/* 366 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	
@@ -53221,8 +53304,8 @@
 	
 	'use strict';var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||false;descriptor.configurable=true;if("value"in descriptor)descriptor.writable=true;Object.defineProperty(target,descriptor.key,descriptor);}}return function(Constructor,protoProps,staticProps){if(protoProps)defineProperties(Constructor.prototype,protoProps);if(staticProps)defineProperties(Constructor,staticProps);return Constructor;};}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor)){throw new TypeError("Cannot call a class as a function");}}function _possibleConstructorReturn(self,call){if(!self){throw new ReferenceError("this hasn't been initialised - super() hasn't been called");}return call&&(typeof call==="object"||typeof call==="function")?call:self;}function _inherits(subClass,superClass){if(typeof superClass!=="function"&&superClass!==null){throw new TypeError("Super expression must either be null or a function, not "+typeof superClass);}subClass.prototype=Object.create(superClass&&superClass.prototype,{constructor:{value:subClass,enumerable:false,writable:true,configurable:true}});if(superClass)Object.setPrototypeOf?Object.setPrototypeOf(subClass,superClass):subClass.__proto__=superClass;}
 	
-	var Animated=__webpack_require__(403);
-	var AnimatedWithChildren=__webpack_require__(405);var
+	var Animated=__webpack_require__(338);
+	var AnimatedWithChildren=__webpack_require__(340);var
 	
 	AnimatedTransform=function(_AnimatedWithChildren){_inherits(AnimatedTransform,_AnimatedWithChildren);
 	
@@ -53289,7 +53372,7 @@
 	module.exports=AnimatedTransform;
 
 /***/ }),
-/* 432 */
+/* 367 */
 /***/ (function(module, exports) {
 
 	
@@ -53314,7 +53397,7 @@
 	module.exports=FlattenStyle;
 
 /***/ }),
-/* 433 */
+/* 368 */
 /***/ (function(module, exports) {
 
 	
@@ -53345,7 +53428,7 @@
 	module.exports=ApplyAnimatedValues;
 
 /***/ }),
-/* 434 */
+/* 369 */
 /***/ (function(module, exports) {
 
 	"use strict";
@@ -53359,7 +53442,7 @@
 	    title: "Blackstar",
 	    type: "Visual Identity, Print",
 	    headText: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida, ligula sodales viverra suscipit, orci lectus elementum velit, et finibus libero risus at urna. Aenean a leo et leo porta scelerisque at ut lacus. Cras sodales vestibulum mi eu ultrices. Maecenas vitae elit at lacus semper bibendum nec non tortor. Sed eget nibh vitae enim lobortis feugiat. Quisque finibus, magna ac feugiat eleifend, tellus leo commodo ante, sodales convallis metus mi eget orci. Morbi quis nisi  nec diam vehicula vulputate vel ultricies sem. Donec suscipit non lectus eu pharetra. Donec quis vulputate felis. Nullam sagittis magna metus, eget aliquet tortor sollicitudin nec. Praesent ultrices cursus facilisis. Phasellus hendrerit malesuada massa et mattis."],
-	    cards: ['/imgs/blackstar/blackstar1.jpg', '/imgs/blackstar/blackstar2.jpg', '/imgs/blackstar/blackstar3.jpg', '/imgs/blackstar/blackstar4.jpg']
+	    cards: ['/imgs/blackstar/blackstar1.jpg', '/imgs/blackstar/blackstar2.jpg', '/imgs/blackstar/blackstar3.jpg', '/imgs/blackstar/blackstar4.jpg', '/imgs/blackstar/blackstarPort.jpg']
 	  },
 	
 	  monza: {
@@ -53394,7 +53477,7 @@
 	    title: "Sea",
 	    type: "Visual Identity",
 	    headText: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida, ligula sodales viverra suscipit, orci lectus elementum velit, et finibus libero risus at urna. Aenean a leo et leo porta scelerisque at ut lacus. Cras sodales vestibulum mi eu ultrices. Maecenas vitae elit at lacus semper bibendum nec non tortor. Sed eget nibh vitae enim lobortis feugiat. Quisque finibus, magna ac feugiat eleifend, tellus leo commodo ante, sodales convallis metus mi eget orci. Morbi quis nisi  nec diam vehicula vulputate vel ultricies sem. Donec suscipit non lectus eu pharetra. Donec quis vulputate felis. Nullam sagittis magna metus, eget aliquet tortor sollicitudin nec. Praesent ultrices cursus facilisis. Phasellus hendrerit malesuada massa et mattis."],
-	    cards: ['/imgs/sea/sea2.jpg', '/imgs/sea/sea5.jpg', '/imgs/sea/sea4.jpg', '/imgs/sea/sea1.jpg']
+	    cards: ['/imgs/sea/seaPort.jpg', '/imgs/sea/sea5.jpg', '/imgs/sea/sea4.jpg', '/imgs/sea/sea1.jpg']
 	  },
 	
 	  foto: {
@@ -53402,6 +53485,13 @@
 	    type: "Print",
 	    headText: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida, ligula sodales viverra suscipit, orci lectus elementum velit, et finibus libero risus at urna. Aenean a leo et leo porta scelerisque at ut lacus. Cras sodales vestibulum mi eu ultrices. Maecenas vitae elit at lacus semper bibendum nec non tortor. Sed eget nibh vitae enim lobortis feugiat. Quisque finibus, magna ac feugiat eleifend, tellus leo commodo ante, sodales convallis metus mi eget orci. Morbi quis nisi  nec diam vehicula vulputate vel ultricies sem. Donec suscipit non lectus eu pharetra. Donec quis vulputate felis. Nullam sagittis magna metus, eget aliquet tortor sollicitudin nec. Praesent ultrices cursus facilisis. Phasellus hendrerit malesuada massa et mattis."],
 	    cards: ['/imgs/foto/foto1.jpg', '/imgs/foto/foto2.jpg', '/imgs/foto/foto3.jpg', '/imgs/foto/foto4.jpg', '/imgs/foto/foto5.jpg', '/imgs/foto/foto6.jpg', '/imgs/foto/foto7.jpg', '/imgs/foto/foto8.jpg', '/imgs/foto/foto9.jpg']
+	  },
+	
+	  ecube: {
+	    title: "ECube",
+	    type: "Print",
+	    headText: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida, ligula sodales viverra suscipit, orci lectus elementum velit, et finibus libero risus at urna. Aenean a leo et leo porta scelerisque at ut lacus. Cras sodales vestibulum mi eu ultrices. Maecenas vitae elit at lacus semper bibendum nec non tortor. Sed eget nibh vitae enim lobortis feugiat. Quisque finibus, magna ac feugiat eleifend, tellus leo commodo ante, sodales convallis metus mi eget orci. Morbi quis nisi  nec diam vehicula vulputate vel ultricies sem. Donec suscipit non lectus eu pharetra. Donec quis vulputate felis. Nullam sagittis magna metus, eget aliquet tortor sollicitudin nec. Praesent ultrices cursus facilisis. Phasellus hendrerit malesuada massa et mattis."],
+	    cards: ['/imgs/foto/eube1.jpg', '/imgs/foto/ecube2.jpg', '/imgs/foto/ecube3.jpg', '/imgs/foto/ecube4.jpg', '/imgs/foto/ecube5.jpg', '/imgs/foto/ecube6.jpg']
 	  },
 	
 	  omni: {

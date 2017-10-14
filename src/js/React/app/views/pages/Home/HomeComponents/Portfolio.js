@@ -132,6 +132,7 @@ class Portfolio extends Component{
               <option value="print">Print</option>
               <option value="motion">Motion</option>
             </select> */}
+            <a className="capabilities__content__nav__header__specialButtonMobile sideBarContainer" onClick={this.showSpecial}> <div className="sideBarCircle"> {this.state.showSpecial ? "-" : "+"} </div> </a>
             <a className="capabilities__content__nav__header__specialButton capabilities__galleryType" style={{color: '#555'}} onClick={this.showSpecial}> Special Projects {this.state.showSpecial ? "-" : "+"} </a>
           </nav>
           <div ref="test" className={"capabilities__content__specialNav " + (this.state.showSpecial ? " showSpecial " : "") + (this.state.fromTop < -230 && "specialHide")}>
@@ -149,129 +150,57 @@ class Portfolio extends Component{
         </div>
           <div className={"capabilities__content " + (this.state.showSpecial ? "blur" : "") }>
             <div className="capabilities__content__gallery">
-              <div className="capabilities__content__gallery__row">
                 <Link to={'/visual/telegram'}>
                   <div className={"capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.identities ? 'filterOff' : '')}>
-                    <img className="capabilities__content__gallery__row__item__image" src="/imgs/telegram/telegram.jpg" />
+                    <img className="capabilities__content__gallery__row__item__image" src="/imgs/telegram/telegramPort.jpg" />
                     <div className="capabilities__content__gallery__row__item__text">
                       <h3 className="capabilities__galleryTitle">TELEGRAM</h3>
                       <h4 className="capabilities__galleryType">Identity, Web, Digital </h4>
                     </div>
                   </div>
                 </Link>
-                <Link to={'/video/videotest'} onClick={() => this.props.handlePlaying(true)}>
-                  <div className={"capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.motion ? 'filterOff' : '') + (this.state.print ? 'filterOff' : '') + (this.state.identities ? 'filterOff' : '') }>
-                    <img className="capabilities__content__gallery__row__item__image" src="/imgs/room/room.jpg" />
+                <Link to={'/fakepage'}>
+                  <div className={"capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.identities ? 'filterOff' : '')}>
+                    <img className="capabilities__content__gallery__row__item__image" src="/imgs/studios/studiosPort.jpg" />
                     <div className="capabilities__content__gallery__row__item__text">
-                      <h3 className="capabilities__galleryTitle"> ROOM </h3>
-                      <h4 className="capabilities__galleryType"> Motion, Print, Identities </h4>
+                      <h3 className="capabilities__galleryTitle"> STUDIO </h3>
+                      <h4 className="capabilities__galleryType"> Identities, Interactive  </h4>
                     </div>
                   </div>
                 </Link>
-                <Link to={'/audio/audiotest'}>
+                <Link to={'/visual/connersmith'}>
                   <div className={"capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '')}>
-                    <img className="capabilities__content__gallery__row__item__image" src="/imgs/ecube/ecubePort.jpg" />
+                    <img className="capabilities__content__gallery__row__item__image" src="/imgs/connersmith/connersmithPort.jpg" />
                     <div className="capabilities__content__gallery__row__item__text">
-                      <h3 className="capabilities__galleryTitle"> ECUBE </h3>
-                      <h4 className="capabilities__galleryType"> Interactive, Web, Digital  </h4>
+                      <h3 className="capabilities__galleryTitle"> CONNER SMITH </h3>
+                      <h4 className="capabilities__galleryType"> Identities, Interactive </h4>
                     </div>
                   </div>
                 </Link>
-              </div>
-              <div className="capabilities__content__gallery__row">
-                <Link to={'/visual/boy'}>
-                  <div className={"capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.print ? 'filterOff' : '')}>
-                    <img className="capabilities__content__gallery__row__item__image" src="/imgs/boy/boy.jpg" />
+                <Link to={'/visual/omni'}>
+                  <div className={"capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.identities ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '')}>
+                    <img className="capabilities__content__gallery__row__item__image" src="/imgs/omni/omniPort.jpg" />
                     <div className="capabilities__content__gallery__row__item__text">
-                      <h3 className="capabilities__galleryTitle"> BOY </h3>
-                      <h4 className="capabilities__galleryType"> Print, Editorial, One-off  </h4>
+                      <h3 className="capabilities__galleryTitle"> OMNI </h3>
+                      <h4 className="capabilities__galleryType"> Identities, Interactive </h4>
                     </div>
                   </div>
                 </Link>
-                <Link to={'/visual/monza'}>
+                <Link to={'/visual/fringe'}>
                   <div className={"capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '')}>
-                    <img className="capabilities__content__gallery__row__item__image" src="/imgs/monza/monzaPort.jpg" />
+                    <img className="capabilities__content__gallery__row__item__image" src="/imgs/fringe/fringePort.jpg" />
                     <div className="capabilities__content__gallery__row__item__text">
-                      <h3 className="capabilities__galleryTitle"> MONZA LIGHT </h3>
-                      <h4 className="capabilities__galleryType"> Interactive, Web, Digital  </h4>
+                      <h3 className="capabilities__galleryTitle"> FRINGE </h3>
+                      <h4 className="capabilities__galleryType"> Identities, Interactive </h4>
                     </div>
                   </div>
                 </Link>
-                <Link to={'/visual/visualtest'}>
-                  <div className={"capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.identities ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '') + (this.state.motion ? 'filterOff' : '')}>
-                    <img className="capabilities__content__gallery__row__item__image" src="/imgs/nazmag/nazmag.jpg" />
-                    <div className="capabilities__content__gallery__row__item__text">
-                      <h3 className="capabilities__galleryTitle"> NAZ MAG </h3>
-                      <h4 className="capabilities__galleryType"> Identities, Interactive, Motion </h4>
-                    </div>
-                  </div>
-                </Link>
-              </div>
-              <div className="capabilities__content__gallery__row">
                 <Link to={'/visual/rhizome'}>
                   <div className={"capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.identities ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '')}>
                     <img className="capabilities__content__gallery__row__item__image" src="/imgs/rhizome/rhizomePort.jpg" />
                     <div className="capabilities__content__gallery__row__item__text">
                       <h3 className="capabilities__galleryTitle"> RHIZOME </h3>
                       <h4 className="capabilities__galleryType"> Identities, Interactive </h4>
-                    </div>
-                  </div>
-                </Link>
-                <Link to={'/fakepage'}>
-                  <div className={"capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.identities ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '')}>
-                    <img className="capabilities__content__gallery__row__item__image" src="/imgs/emerge/emerge.jpg" />
-                    <div className="capabilities__content__gallery__row__item__text">
-                      <h3 className="capabilities__galleryTitle"> EMERGE </h3>
-                      <h4 className="capabilities__galleryType"> Identities, Interactive </h4>
-                    </div>
-                  </div>
-                </Link>
-                <Link to={'/visual/trump'}>
-                  <div className={"capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.print ? 'filterOff' : '')}>
-                    <img className="capabilities__content__gallery__row__item__image" src="/imgs/trump/trump.jpg" />
-                    <div className="capabilities__content__gallery__row__item__text">
-                      <h3 className="capabilities__galleryTitle"> TRUMP </h3>
-                      <h4 className="capabilities__galleryType"> Print, Editorial, One-off  </h4>
-                    </div>
-                  </div>
-                </Link>
-              </div>
-              <div className="capabilities__content__gallery__row">
-                <Link to={'/fakepage'}>
-                  <div className={"capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.print ? 'filterOff' : '')}>
-                    <img className="capabilities__content__gallery__row__item__image" src="/imgs/em/em.jpg" />
-                    <div className="capabilities__content__gallery__row__item__text">
-                      <h3 className="capabilities__galleryTitle"> EM </h3>
-                      <h4 className="capabilities__galleryType"> Print, Editorial, One-off </h4>
-                    </div>
-                  </div>
-                </Link>
-                <Link to={'/fakepage'}>
-                  <div className={"capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.identities ? 'filterOff' : '') + (this.state.print ? 'filterOff' : '')}>
-                    <img className="capabilities__content__gallery__row__item__image" src="/imgs/eddy/eddy.jpg" />
-                    <div className="capabilities__content__gallery__row__item__text">
-                      <h3 className="capabilities__galleryTitle"> EDDY BAUER </h3>
-                      <h4 className="capabilities__galleryType"> Identity, Print  </h4>
-                    </div>
-                  </div>
-                </Link>
-                <Link to={'/fakepage'}>
-                  <div className={"capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.print ? 'filterOff' : '')}>
-                    <img className="capabilities__content__gallery__row__item__image" src="/imgs/europe/europe.jpg" />
-                    <div className="capabilities__content__gallery__row__item__text">
-                      <h3 className="capabilities__galleryTitle"> EUROPE </h3>
-                      <h4 className="capabilities__galleryType"> Print, Editorial, One-off  </h4>
-                    </div>
-                  </div>
-                </Link>
-              </div>
-              <div className="capabilities__content__gallery__row">
-                <Link to={'/visual/blackstar'}>
-                  <div className={"capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.print ? 'filterOff' : '')}>
-                    <img className="capabilities__content__gallery__row__item__image" src="/imgs/blackstar/blackstarPort.jpg" />
-                    <div className="capabilities__content__gallery__row__item__text">
-                      <h3 className="capabilities__galleryTitle"> BLACKSTAR </h3>
-                      <h4 className="capabilities__galleryType"> Print, Editorial, One-off </h4>
                     </div>
                   </div>
                 </Link>
@@ -284,22 +213,11 @@ class Portfolio extends Component{
                     </div>
                   </div>
                 </Link>
-                <Link to={'/fakepage'}>
-                  <div className={"capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.industry ? 'filterOff' : '')}>
-                    <img className="capabilities__content__gallery__row__item__image" src="/imgs/industry/industry.jpg" />
+                <Link to={'/video/artsy'} onClick={() => this.props.handlePlaying(true)}>
+                  <div className={"capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '')}>
+                    <img className="capabilities__content__gallery__row__item__image" src="/imgs/artsy/artsyPort.jpg" />
                     <div className="capabilities__content__gallery__row__item__text">
-                      <h3 className="capabilities__galleryTitle"> INDUSTRY </h3>
-                      <h4 className="capabilities__galleryType"> Print, Editorial, One-off  </h4>
-                    </div>
-                  </div>
-                </Link>
-              </div>
-              <div className="capabilities__content__gallery__row">
-                <Link to={'/visual/omni'}>
-                  <div className={"capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.identities ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '')}>
-                    <img className="capabilities__content__gallery__row__item__image" src="/imgs/omni/omniPort.jpg" />
-                    <div className="capabilities__content__gallery__row__item__text">
-                      <h3 className="capabilities__galleryTitle"> OMNI </h3>
+                      <h3 className="capabilities__galleryTitle"> ARTSY </h3>
                       <h4 className="capabilities__galleryType"> Identities, Interactive </h4>
                     </div>
                   </div>
@@ -313,48 +231,162 @@ class Portfolio extends Component{
                     </div>
                   </div>
                 </Link>
-                <Link to={'/fakepage'}>
-                  <div className={"capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.identities ? 'filterOff' : '')}>
-                    <img className="capabilities__content__gallery__row__item__image" src="/imgs/studios/studios.jpg" />
+                <Link to={'/visual/paintings'}>
+                  <div className={"capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '')}>
+                    <img className="capabilities__content__gallery__row__item__image" src="/imgs/paintings/paintingsPort.jpg" />
                     <div className="capabilities__content__gallery__row__item__text">
-                      <h3 className="capabilities__galleryTitle"> STUDIO </h3>
-                      <h4 className="capabilities__galleryType"> Identities, Interactive  </h4>
+                      <h3 className="capabilities__galleryTitle"> PAINTINGS </h3>
+                      <h4 className="capabilities__galleryType"> Paintings </h4>
                     </div>
                   </div>
                 </Link>
-              </div>
-              <div className="capabilities__content__gallery__row">
+                <Link to={'/visual/visualtest'}>
+                  <div className={"capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.identities ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '') + (this.state.motion ? 'filterOff' : '')}>
+                    <img className="capabilities__content__gallery__row__item__image" src="/imgs/nazmag/nazmagPort.jpg" />
+                    <div className="capabilities__content__gallery__row__item__text">
+                      <h3 className="capabilities__galleryTitle"> NAZ MAG </h3>
+                      <h4 className="capabilities__galleryType"> Identities, Interactive, Motion </h4>
+                    </div>
+                  </div>
+                </Link>
+                <Link to={'/visual/boy'}>
+                  <div className={"capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.print ? 'filterOff' : '')}>
+                    <img className="capabilities__content__gallery__row__item__image" src="/imgs/boy/boyPort.jpg" />
+                    <div className="capabilities__content__gallery__row__item__text">
+                      <h3 className="capabilities__galleryTitle"> BOY </h3>
+                      <h4 className="capabilities__galleryType"> Print, Editorial, One-off  </h4>
+                    </div>
+                  </div>
+                </Link>
+                <Link to={'/video/videotest'} onClick={() => this.props.handlePlaying(true)}>
+                  <div className={"capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.motion ? 'filterOff' : '') + (this.state.print ? 'filterOff' : '') + (this.state.identities ? 'filterOff' : '') }>
+                    <img className="capabilities__content__gallery__row__item__image" src="/imgs/room/roomPort.jpg" />
+                    <div className="capabilities__content__gallery__row__item__text">
+                      <h3 className="capabilities__galleryTitle"> ROOM </h3>
+                      <h4 className="capabilities__galleryType"> Motion, Print, Identities </h4>
+                    </div>
+                  </div>
+                </Link>
+                <Link to={'/visual/blow'}>
+                  <div className={"capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '')}>
+                    <img className="capabilities__content__gallery__row__item__image" src="/imgs/blow/blowPort.jpg" />
+                    <div className="capabilities__content__gallery__row__item__text">
+                      <h3 className="capabilities__galleryTitle"> BLOW </h3>
+                      <h4 className="capabilities__galleryType"> Print, Interactive  </h4>
+                    </div>
+                  </div>
+                </Link>
+                <Link to={'/visual/blackstar'}>
+                  <div className={"capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.print ? 'filterOff' : '')}>
+                    <img className="capabilities__content__gallery__row__item__image" src="/imgs/blackstar/blackstarPort.jpg" />
+                    <div className="capabilities__content__gallery__row__item__text">
+                      <h3 className="capabilities__galleryTitle"> BLACKSTAR </h3>
+                      <h4 className="capabilities__galleryType"> Print, Editorial, One-off </h4>
+                    </div>
+                  </div>
+                </Link>
+                <Link to={'/visual/monza'}>
+                  <div className={"capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '')}>
+                    <img className="capabilities__content__gallery__row__item__image" src="/imgs/monza/monzaPort.jpg" />
+                    <div className="capabilities__content__gallery__row__item__text">
+                      <h3 className="capabilities__galleryTitle"> MONZA LIGHT </h3>
+                      <h4 className="capabilities__galleryType"> Interactive, Web, Digital  </h4>
+                    </div>
+                  </div>
+                </Link>
                 <Link to={'/fakepage'}>
                   <div className={"capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '')}>
-                    <img className="capabilities__content__gallery__row__item__image" src="/imgs/tendencies/tendencies.jpg" />
+                    <img className="capabilities__content__gallery__row__item__image" src="/imgs/tendencies/tendenciesPort.jpg" />
                     <div className="capabilities__content__gallery__row__item__text">
                       <h3 className="capabilities__galleryTitle"> TENDENCIES </h3>
                       <h4 className="capabilities__galleryType"> Identities, Interactive </h4>
                     </div>
                   </div>
                 </Link>
-                {/* <Link to={'/fakepage'}>
-                  <div className="capabilities__content__gallery__row__item">
-                    <img className="capabilities__content__gallery__row__item__image" src="/imgs/sea/sea.jpg" />
+                <Link to={'/fakepage'}>
+                  <div className={"capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.identities ? 'filterOff' : '') + (this.state.print ? 'filterOff' : '')}>
+                    <img className="capabilities__content__gallery__row__item__image" src="/imgs/eddy/eddyPort.jpg" />
                     <div className="capabilities__content__gallery__row__item__text">
-                      <h3 className="capabilities__galleryTitle"> Sea </h3>
+                      <h3 className="capabilities__galleryTitle"> EDDY BAUER </h3>
+                      <h4 className="capabilities__galleryType"> Identity, Print  </h4>
+                    </div>
+                  </div>
+                </Link>
+                <Link to={'/visual/thirteenu'}>
+                  <div className={"capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '')}>
+                    <img className="capabilities__content__gallery__row__item__image" src="/imgs/13u/13Port.jpg" />
+                    <div className="capabilities__content__gallery__row__item__text">
+                      <h3 className="capabilities__galleryTitle"> 13|U </h3>
                       <h4 className="capabilities__galleryType"> Identities, Interactive </h4>
                     </div>
                   </div>
                 </Link>
                 <Link to={'/fakepage'}>
-                  <div className="capabilities__content__gallery__row__item">
-                    <img className="capabilities__content__gallery__row__item__image" src="/imgs/studios/studios.jpg" />
+                  <div className={"capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.print ? 'filterOff' : '')}>
+                    <img className="capabilities__content__gallery__row__item__image" src="/imgs/general/general.jpg" />
                     <div className="capabilities__content__gallery__row__item__text">
-                      <h3 className="capabilities__galleryTitle"> Studios </h3>
-                      <h4 className="capabilities__galleryType"> Identities, Interactive  </h4>
+                      <h3 className="capabilities__galleryTitle"> IN PROGRESS </h3>
+                      <h4 className="capabilities__galleryType"> Identity </h4>
                     </div>
                   </div>
-                </Link> */}
+                </Link>
+                <Link to={'/visual/1432r'}>
+                 <div className={"capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '')}>
+                   <img className="capabilities__content__gallery__row__item__image" src="/imgs/1432r/fourteenPort.jpg" />
+                   <div className="capabilities__content__gallery__row__item__text">
+                     <h3 className="capabilities__galleryTitle"> 1432R </h3>
+                     <h4 className="capabilities__galleryType"> Identities, Interactive </h4>
+                   </div>
+                 </div>
+               </Link>
+                <Link to={'/visual/ecube'}>
+                  <div className={"capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '')}>
+                    <img className="capabilities__content__gallery__row__item__image" src="/imgs/ecube/ecubePort.jpg" />
+                    <div className="capabilities__content__gallery__row__item__text">
+                      <h3 className="capabilities__galleryTitle"> ECUBE </h3>
+                      <h4 className="capabilities__galleryType"> Interactive, Web, Digital  </h4>
+                    </div>
+                  </div>
+                </Link>
+                <Link to={'/audio/audiotest'}>
+                  <div className={"capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.identities ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '')}>
+                    <img className="capabilities__content__gallery__row__item__image" src="/imgs/emerge/emergePort.jpg" />
+                    <div className="capabilities__content__gallery__row__item__text">
+                      <h3 className="capabilities__galleryTitle"> EMERGE </h3>
+                      <h4 className="capabilities__galleryType"> Identities, Interactive </h4>
+                    </div>
+                  </div>
+                </Link>
+                <Link to={'/visual/trump'}>
+                  <div className={"capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.print ? 'filterOff' : '')}>
+                    <img className="capabilities__content__gallery__row__item__image" src="/imgs/trump/trumpPort.jpg" />
+                    <div className="capabilities__content__gallery__row__item__text">
+                      <h3 className="capabilities__galleryTitle"> TRUMP </h3>
+                      <h4 className="capabilities__galleryType"> Print, Editorial, One-off  </h4>
+                    </div>
+                  </div>
+                </Link>
+                <Link to={'/fakepage'}>
+                  <div className={"capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.print ? 'filterOff' : '')}>
+                    <img className="capabilities__content__gallery__row__item__image" src="/imgs/em/emPort.jpg" />
+                    <div className="capabilities__content__gallery__row__item__text">
+                      <h3 className="capabilities__galleryTitle"> EM </h3>
+                      <h4 className="capabilities__galleryType"> Print, Editorial, One-off </h4>
+                    </div>
+                  </div>
+                </Link>
+                <Link to={'/fakepage'}>
+                  <div className={"capabilities__content__gallery__row__item " + (this.state.all ? 'filterOff' : '') + (this.state.industry ? 'filterOff' : '')}>
+                    <img className="capabilities__content__gallery__row__item__image" src="/imgs/industry/industryPort.jpg" />
+                    <div className="capabilities__content__gallery__row__item__text">
+                      <h3 className="capabilities__galleryTitle"> INDUSTRY </h3>
+                      <h4 className="capabilities__galleryType"> Print, Editorial, One-off  </h4>
+                    </div>
+                  </div>
+                </Link>
               </div>
             </div>
           </div>
-      </div>
     )
   }
 }
