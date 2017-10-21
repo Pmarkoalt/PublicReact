@@ -1,74 +1,73 @@
 .splash{
-  min-height: 80vh;
+  min-height: 100vh;
   top: 0;
   font: 'Cinzel';
   position: relative;
+  background-color: #102984;
+  border-bottom: #dedddd solid 40px;
+  position: relative;
 
   &__content{
-    margin-top: 100px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
     display: flex;
-    flex-direction: row;
-    transition: margin-left .5s;
+    flex-direction: column;
 
-    &__left{
-      display: flex;
-      flex-direction: column;
-      margin-right: 50px;
+      &__top{
+        margin-top: 50px;
 
-      &__logo{
-        transition: margin-left .5s;
+        &__logo{
+          width: 300px;
+        }
       }
 
-      &__paraOne{
-        margin-left: 30px;
-        max-width: 700px;
-        margin-bottom: 25px;
+      &__mid{
+        min-height: 450px;
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        position: relative;
+
+        &__img{
+          max-height: 400px;
+          box-shadow: 0 2px 3px 1px rgba(0, 0, 0, 0.15), 0 2px 5px 0 rgba(0, 0, 0, 0.15);
+        }
       }
 
-      &__paraTwo{
-        margin-left: 30px;
-        max-width: 700px;
-        margin-bottom: 30px;
-      }
+      &__bot{
+        display: flex;
+        justify-content: center;
+        position: relative;
 
-      &__client{
-        margin-left: 30px;
-        max-width: 800px;
+        &__paraOne{
+          max-width: 1500px;
+          margin-bottom: 25px;
+          margin-left: 15px;
+          display: flex;
+          flex-direction: column;
+          position: relative;
+
+        }
+
+        &__paraTwo{
+          margin-left: 30px;
+          margin-bottom: 30px;
+        }
+
       }
 
     }
-
-    &__right{
-
-      &__image{
-        margin-top: 70px;
-        margin-right: 50px;
-        width: 300px;
-      }
-    }
-
-  }
-
-  &__bottom{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    position: relative;
-    margin-left: 50px;
-    margin-right: 50px;
 
     &__arrowContainer{
-      margin-top: 100px;
-      display: flex;
-      justify-content: center;
+      position: absolute;
+      bottom: 30px;
+      left: 40px;
 
         &__arrow{
             width: 13px;
             height: 13px;
-            border-bottom: 2px solid #000000;
-            border-right: 2px solid #000000;
+            border-bottom: 2px solid #909ecd;
+            border-right: 2px solid #909ecd;
             -webkit-transform: translate(-50%, 0%) rotate(45deg);
             -moz-transform: translate(-50%, 0%) rotate(45deg);
             transform: translate(-50%, 0%) rotate(45deg);
@@ -78,59 +77,30 @@
         }
 
     }
-
-    &__minority{
-      position: absolute;
-      bottom: 0px;
-      right: 20px;
-    }
-
   }
 
-
-
-
-
-}
-
-.splash__minority{
-  font-family: 'Cinzel', serif;
-  font-size: 20px;
-}
-
-#splash__logo{
-  max-width: 475px;
-  width: 70vw;
-}
-
-.splash__h1{
-  font-family: 'Cinzel', serif;
-  font-size: 50px;
-}
-
-.splash__h2{
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 40px;
-  font-weight: lighter;
-  letter-spacing: 1px;
+.splash__h2,
+.splash__contact{
+  font-family: sans-serif;
+  color: #909ecd;
+  font-size: 16px;
   display: inline;
+  font-weight: lighter;
 }
 
 .splash__contact{
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 35px;
-  font-style: italic;
-  letter-spacing: 1px;
+  font-weight: normal;
+  text-decoration: underline;
 }
 
-.splash__links{
-  font-size: 25px;
+.splash__contact:hover{
+  color:white;
 }
 
 .splash__clients{
-  font-family: sans-serif;
-  font-size: 20px;
-  color: #b3b2b2;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 15px;
+  color: #5b6896;
 }
 
 .splash__bold{
@@ -164,105 +134,17 @@
 */
 
 @media (max-width: 1200px) {
-  .splash__clients{
-    font-family: sans-serif;
-    font-size: 1.7vw;
-    color: #b3b2b2;
-  }
-
-  .splash__h2{
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 3.4vw;
-    font-weight: lighter;
-    letter-spacing: 1px;
-    display: inline;
-  }
-
 
 }
 
 @media (max-width: 960px) {
 
-  .splash__content{
-    margin-top: 50px;
-  }
-
-.splash__content__right{
-  display: none;
-}
-
-.splash__h2{
-  font-size: 40px;
-}
-
-.splash__clients{
-  font-size: 20px;
-}
-
-
 }
 
 @media (max-width: 720px) {
-
-  .splash__content{
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-
-  .splash__italics{
-    font-style: italic;
-  }
-
-  .splash__content__left__paraOne{
-    max-width: "";
-    margin-left: 25px;
-  }
-
-  .splash__content__left__paraTwo{
-    max-width: "";
-    margin-left: 25px;
-  }
-
-  .splash__content__left__client{
-    max-width: "";
-    margin-left: 25px;
-  }
-
-  .splash__h2{
-    font-size: 5.8vw;
-  }
-
-  .splash__clients{
-    font-size: 2.8vw;
-  }
-
-  .splash__contact{
-    font-size: 5vw;
-  }
 
 }
 
 @media (max-width: 480px) {
 
-  .splash__content__left__logo{
-    margin-left: 7px;
-    width: 350px;
-  }
-  #splash__logo{
-    width: 350px;
-  }
-
-  .splash__h2{
-    font-size: 29px;
-  }
-
-  .splash__clients{
-    font-size: 14px;
-  }
-
-  .splash__contact{
-    font-size: 30px;
-  }
-
-
-  }
+}

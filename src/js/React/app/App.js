@@ -35,8 +35,8 @@ class App extends Component {
   }
 
   componentDidMount(){
-    var elem = document.getElementById("DOMLoading");
-    elem.parentNode.removeChild(elem);
+    // var elem = document.getElementById("DOMLoading");
+    // elem.parentNode.removeChild(elem);
   }
 
 
@@ -48,7 +48,7 @@ class App extends Component {
         {/* <TransitionGroup>
             { this.state.aboutOpen && <About />}
         </TransitionGroup> */}
-        <a onClick={this.handleAboutOpen} className="sideBarContainer"> <div className={"sideBarCircle " + (this.state.aboutOpen && "transparent")}> <img className="x" src="/imgs/util/x.svg" /> <p className={"助 " + (this.state.aboutOpen && "hidden")}> 助 </p> </div> </a>
+        <a onClick={this.handleAboutOpen} className="sideBarContainer"> <div className={"sideBarCircle " + (this.state.aboutOpen && "transparent")}> <img className="x" src="/imgs/util/x.svg" /> <p className={"助 " + (this.state.aboutOpen && "hidden")}> I </p> </div> </a>
         <TransitionGroup>
           { this.state.aboutOpen && <About />}
         </TransitionGroup>
