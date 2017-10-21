@@ -4,8 +4,8 @@
 
 
   &__content{
-    margin-left: 3%;
-    margin-right: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-top: 50px;
     transition: filter 1s;
     filter: blur(0px);
@@ -69,10 +69,11 @@
 
     }
 
-    &__gallery{
+    &__threerow{
       display: flex;
       flex-direction: row;
-      flex-wrap: wrap;
+      justify-content: space-between;
+      margin-top: 50px;
 
         &__item{
           margin: 20px;
@@ -81,24 +82,90 @@
           flex-direction: column;
           transition: 1s all;
           opacity: .3;
+          width: 300px;
 
-          &__image{
-            height: calc(100vh - 27rem);
-            box-shadow: rgba(0, 0, 0, 0.2) 1px 2px 5px;
-            transform: scale(1);
-            transition: all .5s;
-          }
+          // &__image{
+          //   height: calc(100vh - 27rem);
+          //   box-shadow: rgba(0, 0, 0, 0.2) 1px 2px 5px;
+          //   transform: scale(1);
+          //   transition: all .5s;
+          // }
+          //
+          // &__image:hover{
+          //   box-shadow: rgba(0, 0, 0, 0.2) 3px 4px 9px 2px;
+          //   transform: scale(1.05);
+          // }
 
-          &__image:hover{
-            box-shadow: rgba(0, 0, 0, 0.2) 3px 4px 9px 2px;
-            transform: scale(1.05);
-          }
-
-          &__text{
-
+          &__tags{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
           }
 
         }
+    }
+
+    &__tworow{
+      margin-top: 50px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+
+      &__bigItem{
+        margin: 20px;
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column;
+        transition: 1s all;
+        opacity: .3;
+
+        &__text{
+          width: 500px;
+        }
+      }
+
+      &__smallItem{
+        width: 300px;
+        margin: 20px;
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column;
+        transition: 1s all;
+        opacity: .3;
+      }
+    }
+
+    &__banner{
+      margin-top: 50px;
+      position: relative;
+      opacity: .3;
+      transition: all .5s;
+
+      &__overlay{
+        background-color: rgba(0, 0, 0, 0.5);
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        transition: all .5s;
+      }
+
+      &__overlay:hover{
+        background-color: rgba(0, 0, 0, 0.2);
+      }
+
+
+      &__image{
+        height: 400px;
+        width: 100%;
+      }
+
+      &__tags{
+        position: absolute;
+        display: flex;
+        flex-direction: row;
+        bottom: 10px;
+        left: 10px;
+      }
     }
   }
 }
@@ -182,12 +249,11 @@
   transition: margin-left .5s;
 }
 
-.capabilities__galleryTitle{
+.capabilities__title{
+  font-family: sans-serif;
+  font-weight: bold;
   font-size: 20px;
   margin-top: 10px;
-  font-weight: bold;
-  font-family: sans-serif;
-  display: inline-block;
 }
 
 .capabilities__galleryType{
@@ -206,6 +272,91 @@
   filter: blur(5px);
   -webkit-filter: blur(5px);
 }
+
+.capabilities__image{
+  border: solid black 1px;
+  box-shadow: rgba(0, 0, 0, 0.2) 1px 2px 5px;
+  transform: scale(1);
+  transition: all .5s;
+}
+
+.capabilities__image:hover{
+  box-shadow: rgba(0, 0, 0, 0.2) 3px 4px 9px 2px;
+  transform: scale(1.05);
+}
+
+.capabilities__threeImage,
+.capabilities__twoSmallImage{
+  width: 250px;
+  height: 250px;
+}
+
+.capabilities__threeLink,
+.capabilities__twoSmallLink{
+  width: 250px;
+  height: 250px;
+}
+
+.capabilities__twoBigImage{
+  width: 600px;
+  height: 300px;
+}
+
+.capabilities__twoBigLink{
+  width: 600px;
+  height: 300px;
+}
+
+
+
+
+.capabilities__details{
+  font-size: 20px;
+  font-family: cormorant garamond;
+  font-weight: 100;
+}
+
+.capabilities__tag{
+  font-size: 12px;
+  font-family: sans-serif;
+  border: solid 1px black;
+  padding: 2px;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+.capabilities__galleryTitle{
+  position: absolute;
+  bottom: 40%;
+  left: 10px;
+  color: white;
+  font-family: sans-serif;
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+.capabilities__galleryDetails{
+  position: absolute;
+  bottom: 20%;
+  left: 10px;
+  color: white;
+  font-family: cormorant garamond;
+  font-weight: 100;
+  font-size: 25px;
+  width: 400px;
+}
+
+.capabilities__galleryTag{
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 100;
+  border: solid .5px white;
+  color: white;
+  padding: 2px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
 
 
 //Animations

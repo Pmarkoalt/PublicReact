@@ -149,36 +149,126 @@ class Portfolio extends Component{
           </div>
         </div>
           <div className={"capabilities__content " + (this.state.showSpecial ? "blur" : "") }>
-            <div className="capabilities__content__threeRow">
-              <div className="capabilities__content__threeRow__item">
-                  <div className={"capabilities__content__gallery__item " + (this.state.all ? 'filterOff' : '') + (this.state.identities ? 'filterOff' : '')}>
-                    <Link to={'/visual/telegram'}>
-                      <img className="capabilities__content__gallery__item__image" src="/imgs/telegram/telegram1.jpg" />
-                    </Link>
-                    <p className="capabilities__title"> TELEGRAM PUBLISHING </p>
+            <div className="capabilities__content__threerow">
+
+              <div className={"capabilities__content__threerow__item " + (this.state.all ? 'filterOff' : '') + (this.state.identities ? 'filterOff' : '')}>
+                <Link className="capabilities__threeLink" to={'/visual/telegram'}>
+                  <img className="capabilities__image capabilities__threeImage" src="/imgs/telegram/telegram1.jpg" />
+                </Link>
+                <p className="capabilities__title"> TELEGRAM PUBLISHING </p>
+                <p className="capabilities__details"> Display Typeface. Created in-house, the typeface references the Euro-motorsport catalog of the 1960s-70s. </p>
+                <div className="capabilities__content__threerow__item__tags">
+                  <p className="capabilities__tag"> TYPOGRAPHY </p>
+                  <p className="capabilities__tag"> EDITORIAL </p>
+                </div>
+              </div>
+
+              <div className={"capabilities__content__threerow__item " + (this.state.all ? 'filterOff' : '') + (this.state.identities ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '')}>
+                <Link className="capabilities__threeLink" to={'/visual/omni'}>
+                  <img className="capabilities__image capabilities__threeImage" src="/imgs/omni/omniPort.jpg" />
+                </Link>
+                <p className="capabilities__title"> OMNI CONTEMPORARY </p>
+                <p className="capabilities__details"> Display Typeface. Created in-house, the typeface references the Euro-motorsport catalog of the 1960s-70s. </p>
+                <div className="capabilities__content__threerow__item__tags">
+                  <p className="capabilities__tag"> TYPOGRAPHY </p>
+                  <p className="capabilities__tag"> EDITORIAL </p>
+                </div>
+              </div>
+
+              <div className={"capabilities__content__threerow__item " + (this.state.all ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '')}>
+                <Link className="capabilities__threeLink" to={'/visual/connersmith'}>
+                  <img className="capabilities__image capabilities__threeImage" src="/imgs/connersmith/connersmithPort.jpg" />
+                </Link>
+                <p className="capabilities__title"> CONNERSMITH </p>
+                <p className="capabilities__details"> Display Typeface. Created in-house, the typeface references the Euro-motorsport catalog of the 1960s-70s. </p>
+                <div className="capabilities__content__threerow__item__tags">
+                  <p className="capabilities__tag"> TYPOGRAPHY </p>
+                  <p className="capabilities__tag"> EDITORIAL </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="capabilities__content__tworow">
+              <div className={"capabilities__content__tworow__bigItem " + (this.state.all ? 'filterOff' : '') + (this.state.identities ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '')} >
+                <Link className="capabilities_twoBigLink" to={'/visual/rhizome'}>
+                  <img className="capabilities__image capabilities__twoBigImage" src="/imgs/rhizome/rhizome3.jpg" />
+                </Link>
+                  <div className="capabilities__content__tworow__item__text">
+                    <p className="capabilities__title"> RHIZOME DC </p>
                     <p className="capabilities__details"> Display Typeface. Created in-house, the typeface references the Euro-motorsport catalog of the 1960s-70s. </p>
-                    <div className="capabilities__content__threeRow__item__tags">
+                    <div className="capabilities__content__threerow__item__tags">
                       <p className="capabilities__tag"> TYPOGRAPHY </p>
                       <p className="capabilities__tag"> EDITORIAL </p>
                     </div>
                   </div>
-
-
               </div>
-              <div className="capabilities__content__threeRow__item">
 
-              </div>
-              <div className="capabilities__content__threeRow__item">
-
+              <div className={"capabilities__content__tworow__smallItem " + (this.state.all ? 'filterOff' : '') + (this.state.identities ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '')} >
+                <Link className="capabilities__twoSmallLink" to={'/visual/sea'}>
+                  <img className="capabilities__image capabilities__twoSmallImage" src="/imgs/sea/seaPort.jpg" />
+                </Link>
+                <p className="capabilities__title"> SEA </p>
+                <p className="capabilities__details"> Display Typeface. Created in-house, the typeface references the Euro-motorsport catalog of the 1960s-70s. </p>
+                <div className="capabilities__content__threerow__item__tags">
+                  <p className="capabilities__tag"> TYPOGRAPHY </p>
+                  <p className="capabilities__tag"> EDITORIAL </p>
+                </div>
               </div>
 
             </div>
-            <div className="capabilities__content__twoRow">
+
+            <div className="capabilities__content__threerow">
+
+              <div className={"capabilities__content__threerow__item " + (this.state.all ? 'filterOff' : '') + (this.state.print ? 'filterOff' : '')}>
+                <Link className="capabilities__threeLink" to={'/visual/blackstar'}>
+                  <img className="capabilities__image capabilities__threeImage" src="/imgs/blackstar/blackstarPort.jpg" />
+                </Link>
+                <p className="capabilities__title"> BLACKSTAR </p>
+                <p className="capabilities__details"> Display Typeface. Created in-house, the typeface references the Euro-motorsport catalog of the 1960s-70s. </p>
+                <div className="capabilities__content__threerow__item__tags">
+                  <p className="capabilities__tag"> TYPOGRAPHY </p>
+                  <p className="capabilities__tag"> EDITORIAL </p>
+                </div>
+              </div>
+
+              <div className={"capabilities__content__threerow__item " + (this.state.all ? 'filterOff' : '') + (this.state.identities ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '')}>
+                <Link className="capabilities__threeLink" to={'/visual/omni'}>
+                  <img className="capabilities__image capabilities__threeImage" src="/imgs/omni/omniPort.jpg" />
+                </Link>
+                <p className="capabilities__title"> EURO-SIGN </p>
+                <p className="capabilities__details"> Display Typeface. Created in-house, the typeface references the Euro-motorsport catalog of the 1960s-70s. </p>
+                <div className="capabilities__content__threerow__item__tags">
+                  <p className="capabilities__tag"> TYPOGRAPHY </p>
+                  <p className="capabilities__tag"> EDITORIAL </p>
+                </div>
+              </div>
+
+              <div className={"capabilities__content__threerow__item " + (this.state.all ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '')}>
+                <Link className="capabilities__threeLink" to={'/visual/monza'}>
+                  <img className="capabilities__image capabilities__threeImage" src="/imgs/connersmith/connersmithPort.jpg" />
+                </Link>
+                <p className="capabilities__title"> MONZA LIGHT </p>
+                <p className="capabilities__details"> Display Typeface. Created in-house, the typeface references the Euro-motorsport catalog of the 1960s-70s. </p>
+                <div className="capabilities__content__threerow__item__tags">
+                  <p className="capabilities__tag"> TYPOGRAPHY </p>
+                  <p className="capabilities__tag"> EDITORIAL </p>
+                </div>
+              </div>
 
             </div>
-            <div className="capabilities__content__banner">
 
+            <Link to={'/video/artsy'} onClick={() => this.props.handlePlaying(true)}>
+            <div className={"capabilities__content__banner " + (this.state.all ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '')}>
+              <div className="capabilities__content__banner__overlay"> </div>
+              <img className="capabilities__content__banner__image" src="/imgs/artsy/artsyPort.jpg" />
+              <p className="capabilities__galleryTitle"> ARTSY ART BASEL MIAMI</p>
+              <p className="capabilities__galleryDetails"> Display Typeface. Created in-house, the typeface references the Euro-motorsport catalog of the 1960s-70s. </p>
+              <div className="capabilities__content__banner__tags">
+                <p className="capabilities__galleryTag"> TYPOGRAPHY </p>
+                <p className="capabilities__galleryTag"> EDITORIAL </p>
+              </div>
             </div>
+            </Link>
             {/* <div className="capabilities__content__gallery">
                 <Link to={'/visual/telegram'}>
                   <div className={"capabilities__content__gallery__item " + (this.state.all ? 'filterOff' : '') + (this.state.identities ? 'filterOff' : '')}>
@@ -198,24 +288,6 @@ class Portfolio extends Component{
                     </div>
                   </div>
                 </Link>
-                <Link to={'/visual/connersmith'}>
-                  <div className={"capabilities__content__gallery__item " + (this.state.all ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '')}>
-                    <img className="capabilities__content__gallery__item__image" src="/imgs/connersmith/connersmithPort.jpg" />
-                    <div className="capabilities__content__gallery__item__text">
-                      <h3 className="capabilities__galleryTitle"> CONNER SMITH </h3>
-                      <h4 className="capabilities__galleryType"> Identities, Interactive </h4>
-                    </div>
-                  </div>
-                </Link>
-                <Link to={'/visual/omni'}>
-                  <div className={"capabilities__content__gallery__item " + (this.state.all ? 'filterOff' : '') + (this.state.identities ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '')}>
-                    <img className="capabilities__content__gallery__item__image" src="/imgs/omni/omniPort.jpg" />
-                    <div className="capabilities__content__gallery__item__text">
-                      <h3 className="capabilities__galleryTitle"> OMNI </h3>
-                      <h4 className="capabilities__galleryType"> Identities, Interactive </h4>
-                    </div>
-                  </div>
-                </Link>
                 <Link to={'/visual/fringe'}>
                   <div className={"capabilities__content__gallery__item " + (this.state.all ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '')}>
                     <img className="capabilities__content__gallery__item__image" src="/imgs/fringe/fringePort.jpg" />
@@ -225,15 +297,7 @@ class Portfolio extends Component{
                     </div>
                   </div>
                 </Link>
-                <Link to={'/visual/rhizome'}>
-                  <div className={"capabilities__content__gallery__item " + (this.state.all ? 'filterOff' : '') + (this.state.identities ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '')}>
-                    <img className="capabilities__content__gallery__item__image" src="/imgs/rhizome/rhizomePort.jpg" />
-                    <div className="capabilities__content__gallery__item__text">
-                      <h3 className="capabilities__galleryTitle"> RHIZOME </h3>
-                      <h4 className="capabilities__galleryType"> Identities, Interactive </h4>
-                    </div>
-                  </div>
-                </Link>
+
                 <Link to={'/visual/foto'}>
                   <div className={"capabilities__content__gallery__item " + (this.state.all ? 'filterOff' : '') + (this.state.print ? 'filterOff' : '')}>
                     <img className="capabilities__content__gallery__item__image" src="/imgs/foto/fotoPort.jpg" />
@@ -243,24 +307,7 @@ class Portfolio extends Component{
                     </div>
                   </div>
                 </Link>
-                <Link to={'/video/artsy'} onClick={() => this.props.handlePlaying(true)}>
-                  <div className={"capabilities__content__gallery__item " + (this.state.all ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '')}>
-                    <img className="capabilities__content__gallery__item__image" src="/imgs/artsy/artsyPort.jpg" />
-                    <div className="capabilities__content__gallery__item__text">
-                      <h3 className="capabilities__galleryTitle"> ARTSY </h3>
-                      <h4 className="capabilities__galleryType"> Identities, Interactive </h4>
-                    </div>
-                  </div>
-                </Link>
-                <Link to={'/visual/sea'}>
-                  <div className={"capabilities__content__gallery__item " + (this.state.all ? 'filterOff' : '') + (this.state.identities ? 'filterOff' : '')}>
-                    <img className="capabilities__content__gallery__item__image" src="/imgs/sea/seaPort.jpg" />
-                    <div className="capabilities__content__gallery__item__text">
-                      <h3 className="capabilities__galleryTitle"> SEA </h3>
-                      <h4 className="capabilities__galleryType"> Identities, Interactive </h4>
-                    </div>
-                  </div>
-                </Link>
+
                 <Link to={'/visual/paintings'}>
                   <div className={"capabilities__content__gallery__item " + (this.state.all ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '')}>
                     <img className="capabilities__content__gallery__item__image" src="/imgs/paintings/paintingsPort.jpg" />
@@ -303,24 +350,6 @@ class Portfolio extends Component{
                     <div className="capabilities__content__gallery__item__text">
                       <h3 className="capabilities__galleryTitle"> BLOW </h3>
                       <h4 className="capabilities__galleryType"> Print, Interactive  </h4>
-                    </div>
-                  </div>
-                </Link>
-                <Link to={'/visual/blackstar'}>
-                  <div className={"capabilities__content__gallery__item " + (this.state.all ? 'filterOff' : '') + (this.state.print ? 'filterOff' : '')}>
-                    <img className="capabilities__content__gallery__item__image" src="/imgs/blackstar/blackstarPort.jpg" />
-                    <div className="capabilities__content__gallery__item__text">
-                      <h3 className="capabilities__galleryTitle"> BLACKSTAR </h3>
-                      <h4 className="capabilities__galleryType"> Print, Editorial, One-off </h4>
-                    </div>
-                  </div>
-                </Link>
-                <Link to={'/visual/monza'}>
-                  <div className={"capabilities__content__gallery__item " + (this.state.all ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '')}>
-                    <img className="capabilities__content__gallery__item__image" src="/imgs/monza/monzaPort.jpg" />
-                    <div className="capabilities__content__gallery__item__text">
-                      <h3 className="capabilities__galleryTitle"> MONZA LIGHT </h3>
-                      <h4 className="capabilities__galleryType"> Interactive, Web, Digital  </h4>
                     </div>
                   </div>
                 </Link>
