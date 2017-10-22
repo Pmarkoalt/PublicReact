@@ -8,11 +8,12 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      margin-top: 150px;
+      padding-top: 150px;
 
       &__tilt{
         height: 400px;
         width: 400px;
+        transition: all .1s;
 
         &__cover{
           height: 100%;
@@ -64,4 +65,50 @@
 .audio__content__album__media__play:hover,
 .audio__content__album__media__volume__mute:hover{
   cursor: pointer;
+}
+
+
+/*
+===================================
+    MEDIA QUERIES
+===================================
+*/
+
+@media (max-width: 1200px) {
+
+
+}
+
+@media (max-width: 960px) {
+
+
+}
+
+@media (max-width: 760px) {
+  .audio__content__album__media{
+    width: 52vw;
+  }
+
+  .audio__content__album{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .audio__content__album__tilt{
+    height: 52vw;
+    width: 52vw;
+  }
+
+
+}
+
+@media (max-width: 500px) {
+  .audio__content__album__tilt{
+    height: 260px;
+    width: 260px;
+  }
+
+  .audio__content__album__media{
+    width: 260px;
+  }
 }

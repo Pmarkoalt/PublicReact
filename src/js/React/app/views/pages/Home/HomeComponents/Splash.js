@@ -15,6 +15,7 @@ class Splash extends Component{
     }
   }
 
+
   componentDidMount(){
   }
 
@@ -26,7 +27,10 @@ class Splash extends Component{
             <img className="splash__content__top__logo" src="/imgs/util/logo.png" />
           </div>
           <div className="splash__content__mid">
-            <img className="splash__content__mid__img" src="/imgs/splash/slide1.jpg" />
+            <img className="splash__content__mid__img" id="splashSlide1" src="/imgs/splash/slide1.jpg" />
+            <img className="splash__content__mid__img" id="splashSlide2" src="/imgs/splash/slide2.jpg" />
+            <img className="splash__content__mid__img" id="splashSlide3" src="/imgs/splash/slide3.png" />
+            <img className="splash__content__mid__img" id="splashSlide4" src="/imgs/splash/slide4.jpg" />
           </div>
           <div className="splash__content__bot">
             <div className="splash__content__bot__paraOne">

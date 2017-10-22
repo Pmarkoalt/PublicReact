@@ -92,3 +92,13 @@ main{
   left: 0%;
   margin-left: 30px;
 }
+
+::-moz-selection {
+    color: white;
+    background: grey;
+}
+
+::selection {
+    color: white; 
+    background: grey;
+}

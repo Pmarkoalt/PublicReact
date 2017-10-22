@@ -156,12 +156,23 @@ class Audio extends Component{
               </div>
             </div>
             <div className="audio__content__text">
-              <h1 className="visualTitle"> <span className="portHeader"> {this.state.project.title} </span>  <span className="portItalic"> {this.state.project.artist} </span> </h1>
+              <h1 className="portHeader"> {this.state.project.title} </h1>
+              <br />
+              <h1 className="portItalic"> {this.state.project.artist} </h1>
+              <br />
               {this.state.project.summary.map((text, index) => {
                 return(
-                  <p key={index} className="portText linebreak"> {text} </p>
+                  <p key={index} className="portText linebreak"> {text} <br /> </p>
                 )
-              })}</div>
+              })}
+              <br />
+              {this.state.project.links.map((item, index) => {
+                return(
+                  <a key={index} target="_blank" href={item.src} className="portText linebreak"> {item.text} <br /> <br /> </a>
+                )
+              })}
+
+            </div>
           </div>
         </div>
       )

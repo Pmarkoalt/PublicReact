@@ -22,9 +22,16 @@
     &__profile{
       max-width: 800px;
 
+      &__contact{
+        display: flex;
+        flex-direction: row;
+
+      }
+
       &__images{
         display: flex;
         flex-direction: row;
+        margin-left: 50px;
 
         &__item{
           display: flex;
@@ -47,6 +54,8 @@
 .aboutContainer{
   background-color: black;
   width: 100%;
+  z-index: 9;
+  position: fixed;
 }
 
 .about__link,
@@ -115,13 +124,31 @@
     margin-left: 0px;
   }
 
-  .aboutContainer{
-    height: 110vh !important;
+
+  .about__picture{
+    display: none;
+  }
+
+  .about__main__profile__images{
+    flex-direction: column;
+  }
+
+  .about__main__profile__images__item{
+    margin-bottom: 25px;
   }
 }
 
 @media (max-width: 480px) {
-  .aboutContainer{
-    height: 120vh !important;
+  .about__text{
+    font-size: 18px;
   }
+
+  .about__profName{
+    font-size: 16px;
+  }
+
+  .about__email{
+    font-size: 15px;
+  }
+
 }

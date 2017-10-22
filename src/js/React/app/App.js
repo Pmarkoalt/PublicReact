@@ -24,7 +24,6 @@ class App extends Component {
     this.setState({
       aboutOpen: !this.state.aboutOpen
     });
-    window.scrollTo(0,0);
   }
 
   handlePlaying(value){

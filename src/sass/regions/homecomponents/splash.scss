@@ -29,6 +29,8 @@
         position: relative;
 
         &__img{
+          position: absolute;
+          opacity: 0;
           max-height: 400px;
           box-shadow: 0 2px 3px 1px rgba(0, 0, 0, 0.15), 0 2px 5px 0 rgba(0, 0, 0, 0.15);
         }
@@ -41,7 +43,7 @@
 
         &__paraOne{
           max-width: 1500px;
-          margin-bottom: 25px;
+          margin-bottom: 75px;
           margin-left: 15px;
           display: flex;
           flex-direction: column;
@@ -83,7 +85,7 @@
 .splash__contact{
   font-family: sans-serif;
   color: #909ecd;
-  font-size: 16px;
+  font-size: 14px;
   display: inline;
   font-weight: lighter;
 }
@@ -99,13 +101,49 @@
 
 .splash__clients{
   font-family: 'Cormorant Garamond', serif;
-  font-size: 15px;
+  font-size: 13px;
   color: #5b6896;
 }
 
 .splash__bold{
   font-weight: bold;
 }
+
+#splashSlide1{
+  // display: none;
+  -webkit-animation: splashIn 20s ease-in-out infinite;
+  -moz-animation: splashIn 20s ease-in-out infinite;
+  animation: splashIn 20s ease-in-out infinite;
+}
+
+#splashSlide2{
+  // display: none;
+  -webkit-animation: splashIn 20s ease-in-out infinite;
+  -moz-animation: splashIn 20s ease-in-out infinite;
+  animation: splashIn 20s ease-in-out infinite;
+  -webkit-animation-delay: 5s; /* Safari 4.0 - 8.0 */
+  animation-delay: 5s;
+}
+
+#splashSlide3{
+  // display: none;
+  box-shadow: none;
+  -webkit-animation: splashIn 20s ease-in-out infinite;
+  -moz-animation: splashIn 20s ease-in-out infinite;
+  animation: splashIn 20s ease-in-out infinite;
+  -webkit-animation-delay: 10s; /* Safari 4.0 - 8.0 */
+  animation-delay: 10s;
+}
+
+#splashSlide4{
+  // display: none;
+  -webkit-animation: splashIn 20s ease-in-out infinite;
+  -moz-animation: splashIn 20s ease-in-out infinite;
+  animation: splashIn 20s ease-in-out infinite;
+  -webkit-animation-delay: 15s; /* Safari 4.0 - 8.0 */
+  animation-delay: 15s;
+}
+
 /*
 ===================================
     ANIMATIONS
@@ -126,6 +164,30 @@
   }
 }
 
+@keyframes splashIn {
+  0%{
+    opacity: 0;
+  }
+
+  10%{
+    opacity: 1;
+  }
+
+  20%{
+    opacity: 1;
+  }
+
+  25%{
+    opacity: 0;
+  }
+
+  100%{
+    opacity: 0;
+  }
+
+
+}
+
 
 /*
 ===================================
@@ -142,9 +204,49 @@
 }
 
 @media (max-width: 720px) {
+  .splash__content__mid__img{
+    height: 56vw;
+  }
+
+  .splash__content__mid{
+    min-height: 0px;
+    height: 63vw;
+  }
 
 }
 
 @media (max-width: 480px) {
+
+  .splash__content__mid{
+    height: 300px;
+  }
+
+  .splash__content__mid__img{
+    height: 267px;
+  }
+
+  .splash__content__bot{
+    flex-direction: column;
+  }
+
+  .splash__h2{
+    font-size: 18px;
+  }
+
+  .splash__content__bot__paraOne{
+    margin-left: 0px;
+  }
+
+  .splash__content__bot__paraTwo{
+    margin-left: 0px;
+  }
+
+  .splash__contact{
+    font-size: 18px;
+  }
+
+  .splash__clients{
+    font-size: 18px;
+  }
 
 }

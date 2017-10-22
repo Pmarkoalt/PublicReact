@@ -141,7 +141,10 @@ class Visual extends Component{
           </div>
           <div className="visual__content">
             <div className="visual__content__text">
-              <h1 className="visualTitle"> <span className="portHeader"> {this.state.project.title} </span>  <span className="portItalic"> {this.state.project.type} </span> </h1>
+              <h1 className="portHeader"> {this.state.project.title} </h1>
+              <br />
+              <h1 className="portItalic"> {this.state.project.type} </h1>
+              <br />
               {this.state.project.headText.map((text, index) => {
                 return(
                   <p key={index} className="portText linebreak"> {text} </p>

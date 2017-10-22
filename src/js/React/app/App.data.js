@@ -1,9 +1,9 @@
 const AppData = {
 
   blackstar: {
-    title: "Blackstar",
-    type: "Visual Identity, Print",
-    headText: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida, ligula sodales viverra suscipit, orci lectus elementum velit, et finibus libero risus at urna. Aenean a leo et leo porta scelerisque at ut lacus. Cras sodales vestibulum mi eu ultrices. Maecenas vitae elit at lacus semper bibendum nec non tortor. Sed eget nibh vitae enim lobortis feugiat. Quisque finibus, magna ac feugiat eleifend, tellus leo commodo ante, sodales convallis metus mi eget orci. Morbi quis nisi  nec diam vehicula vulputate vel ultricies sem. Donec suscipit non lectus eu pharetra. Donec quis vulputate felis. Nullam sagittis magna metus, eget aliquet tortor sollicitudin nec. Praesent ultrices cursus facilisis. Phasellus hendrerit malesuada massa et mattis."],
+    title: "BLACKSTAR",
+    type: "Visual Identity, Print, Strategy",
+    headText: ["BlackStar: Display Typeface. Created in-house mainly to be used for music projects."],
     cards: ['/imgs/blackstar/blackstar1.jpg', '/imgs/blackstar/blackstar2.jpg', '/imgs/blackstar/blackstar3.jpg', '/imgs/blackstar/blackstar4.jpg', '/imgs/blackstar/blackstarPort.jpg']
   },
 
@@ -15,38 +15,24 @@ const AppData = {
   },
 
   rhizome: {
-    title: "Rhizome",
-    type: "Viusal Identity, Interactive",
-    headText: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida, ligula sodales viverra suscipit, orci lectus elementum velit, et finibus libero risus at urna. Aenean a leo et leo porta scelerisque at ut lacus. Cras sodales vestibulum mi eu ultrices. Maecenas vitae elit at lacus semper bibendum nec non tortor. Sed eget nibh vitae enim lobortis feugiat. Quisque finibus, magna ac feugiat eleifend, tellus leo commodo ante, sodales convallis metus mi eget orci. Morbi quis nisi  nec diam vehicula vulputate vel ultricies sem. Donec suscipit non lectus eu pharetra. Donec quis vulputate felis. Nullam sagittis magna metus, eget aliquet tortor sollicitudin nec. Praesent ultrices cursus facilisis. Phasellus hendrerit malesuada massa et mattis."],
+    title: "RHIZOME",
+    type: "Visual Identity, Print, Strategy, Interactive",
+    headText: ["RhizomeDC is a DC based nonprofit community arts space promoting non-commercial artistic experiences.", "We developed a new identity for the DC based artist space – from logo redesign and stationery to spatial design & printed matter. The new design reflects the young, energetic and unconventional spirit of the artists while creating a space for the experiences to stand out.", 'The Typographic Logotype is set in a custom variation of NEUE HAAS, the geometric spacing uses the "R" as framing for the events that the space holds on rotation.'],
     cards: ['/imgs/rhizome/rhizome1.jpg', '/imgs/rhizome/rhizome2.jpg', '/imgs/rhizome/rhizome3.jpg', '/imgs/rhizome/rhizome4.jpg', '/imgs/rhizome/rhizome5.jpg', ]
   },
 
-  trump: {
-    title: "Trump",
-    type: "Print, One-off",
-    headText: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida, ligula sodales viverra suscipit, orci lectus elementum velit, et finibus libero risus at urna. Aenean a leo et leo porta scelerisque at ut lacus. Cras sodales vestibulum mi eu ultrices. Maecenas vitae elit at lacus semper bibendum nec non tortor. Sed eget nibh vitae enim lobortis feugiat. Quisque finibus, magna ac feugiat eleifend, tellus leo commodo ante, sodales convallis metus mi eget orci. Morbi quis ninec diam vehicula vulputate vel ultricies sem. Donec suscipit non lectus eu pharetra. Donec quis vulputate felis. Nullam sagittis magna metus, eget aliquet tortor sollicitudin nec. Praesent ultrices cursus facilisis. Phasellus hendrerit malesuada massa et mattis."],
-    cards: ['/imgs/trump/trump.jpg']
-  },
-
-  boy: {
-    title: "Little Boy And Fat Man",
-    type: "Print, One-off",
-    headText: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida, ligula sodales viverra suscipit, orci lectus elementum velit, et finibus libero risus at urna. Aenean a leo et leo porta scelerisque at ut lacus. Cras sodales vestibulum mi eu ultrices. Maecenas vitae elit at lacus semper bibendum nec non tortor. Sed eget nibh vitae enim lobortis feugiat. Quisque finibus, magna ac feugiat eleifend, tellus leo commodo ante, sodales convallis metus mi eget orci. Morbi quis nisi  nec diam vehicula vulputate vel ultricies sem. Donec suscipit non lectus eu pharetra. Donec quis vulputate felis. Nullam sagittis magna metus, eget aliquet tortor sollicitudin nec. Praesent ultrices cursus facilisis. Phasellus hendrerit malesuada massa et mattis."],
-    cards: ['/imgs/boy/boy.jpg']
+  fringe: {
+    title: "FRINGE",
+    type: "Visual Identity, Print, Strategy, Interactive",
+    headText: ["A word mark for DC based art fair Fringe, channeling the super-minimal direction to let the work take center stage. A bespoke san serif layout was created to be used across stationery and screen. The color was chosen to the represent the city the fair is based in."],
+    cards: ['/imgs/rhizome/rhizome1.jpg', '/imgs/rhizome/rhizome2.jpg', '/imgs/rhizome/rhizome3.jpg', '/imgs/rhizome/rhizome4.jpg', '/imgs/rhizome/rhizome5.jpg', ]
   },
 
   sea: {
-    title: "Sea",
-    type: "Visual Identity",
-    headText: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida, ligula sodales viverra suscipit, orci lectus elementum velit, et finibus libero risus at urna. Aenean a leo et leo porta scelerisque at ut lacus. Cras sodales vestibulum mi eu ultrices. Maecenas vitae elit at lacus semper bibendum nec non tortor. Sed eget nibh vitae enim lobortis feugiat. Quisque finibus, magna ac feugiat eleifend, tellus leo commodo ante, sodales convallis metus mi eget orci. Morbi quis nisi  nec diam vehicula vulputate vel ultricies sem. Donec suscipit non lectus eu pharetra. Donec quis vulputate felis. Nullam sagittis magna metus, eget aliquet tortor sollicitudin nec. Praesent ultrices cursus facilisis. Phasellus hendrerit malesuada massa et mattis."],
+    title: "SPACE EXPLORATION ALLIANCE IDENTITY",
+    type: "Visual Identity, Print, Strategy",
+    headText: ["The Space Exploration Alliance (SEA) is a collaboration of leading non-profit organizations that advocate for the exploration and development of outer space.", "The rebrand inserts the idea of exploration and space within the identity. Spatially, the identity is very mobile and expansive."],
     cards: [ '/imgs/sea/seaPort.jpg', '/imgs/sea/sea5.jpg', '/imgs/sea/sea4.jpg', '/imgs/sea/sea1.jpg' ]
-  },
-
-  foto: {
-    title: "Foto",
-    type: "Print",
-    headText: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida, ligula sodales viverra suscipit, orci lectus elementum velit, et finibus libero risus at urna. Aenean a leo et leo porta scelerisque at ut lacus. Cras sodales vestibulum mi eu ultrices. Maecenas vitae elit at lacus semper bibendum nec non tortor. Sed eget nibh vitae enim lobortis feugiat. Quisque finibus, magna ac feugiat eleifend, tellus leo commodo ante, sodales convallis metus mi eget orci. Morbi quis nisi  nec diam vehicula vulputate vel ultricies sem. Donec suscipit non lectus eu pharetra. Donec quis vulputate felis. Nullam sagittis magna metus, eget aliquet tortor sollicitudin nec. Praesent ultrices cursus facilisis. Phasellus hendrerit malesuada massa et mattis."],
-    cards: ['/imgs/foto/foto1.jpg', '/imgs/foto/foto2.jpg', '/imgs/foto/foto3.jpg', '/imgs/foto/foto4.jpg', '/imgs/foto/foto5.jpg', '/imgs/foto/foto6.jpg', '/imgs/foto/foto7.jpg', '/imgs/foto/foto8.jpg', '/imgs/foto/foto9.jpg']
   },
 
   ecube: {
@@ -63,6 +49,11 @@ const AppData = {
     cards: ['/imgs/studios/studios1.jpg', '/img/studios/studios2.jpg', '/img/studios/studios3.jpg', '/img/studios/studios4.jpg', '/img/studios/studios5.jpg']
   },
 
+  rawlenightlong: {
+    title: "RAWLE NIGHT LONG",
+    type: "Visual Indentity, Interactive"
+  },
+
   connersmith: {
     title: "CONNERSMITH IDENTITY",
     type: "Visual Identity, Print, Strategy, Interactive",
@@ -74,19 +65,44 @@ const AppData = {
     title: "OMNI CONTEMPORARY",
     type: "Visual Identity, Print, Strategy, Interactive",
     headText: ["This rebrand was done for a Conditional Design workshop in Washington DC, it showcases the power of adaptive branding by rebranding the Hirshhorn museum. The Mark showcases the museum’s dynamic and unconventional voice by having different “states”. The Different states of the mark are interchangeable and create an Identity that’s always in active motion. This concept of movement and change should be embraced and reflected in all of Omni’s branding."],
-    cards: ['/imgs/omni/omni1.jpg', '/imgs/omni/omni2.jpg', '/imgs/omni/omni4.jpg', '/imgs/omni/omni5.jpg', '/imgs/omni/omni6.jpg', '/imgs/omni/omni7.jpg'],
-    banner: '/imgs/omni/omni3.jpg',
-    twoPost: [
-      {
-        poster: '/imgs/omni/omni8.jpg',
-        text: "Ayo it's ya mans lil' big penis....Ayo it's ya mans lil' big penis....Ayo it's ya mans lil' big penis....Ayo it's ya mans lil' big penis....Ayo it's ya mans lil' big penis...."
-      },
-      {
-        poster: '/imgs/omni/omni9.jpg',
-        text: "Ayo it's ya mans lil' big penis....Ayo it's ya mans lil' big penis....Ayo it's ya mans lil' big penis....Ayo it's ya mans lil' big penis....Ayo it's ya mans lil' big penis...."
-      }
-    ],
+    cards: ['/imgs/omni/omni1.jpg', '/imgs/omni/omni2.jpg', '/imgs/omni/omni3.jpg', '/imgs/omni/omni4.jpg', '/imgs/omni/omni5.jpg', '/imgs/omni/omni6.jpg', '/imgs/omni/omni7.jpg', '/imgs/omni/omni8.jpg', '/imgs/omni/omni9.jpg'],
+    // banner: '/imgs/omni/omni3.jpg',
+    // twoPost: [
+    //   {
+    //     poster: '/imgs/omni/omni8.jpg',
+    //     text: "Ayo it's ya mans lil' big penis....Ayo it's ya mans lil' big penis....Ayo it's ya mans lil' big penis....Ayo it's ya mans lil' big penis....Ayo it's ya mans lil' big penis...."
+    //   },
+    //   {
+    //     poster: '/imgs/omni/omni9.jpg',
+    //     text: "Ayo it's ya mans lil' big penis....Ayo it's ya mans lil' big penis....Ayo it's ya mans lil' big penis....Ayo it's ya mans lil' big penis....Ayo it's ya mans lil' big penis...."
+    //   }
+    // ],
   },
+
+  audiotest: {
+    audio: "https://upload.wikimedia.org/wikipedia/commons/a/a4/Washington_Post.ogg",
+    cover: "http://www.billboard.com/files/styles/900_wide/public/media/Joy-Division-Unknown-Pleasures-album-covers-billboard-1000x1000.jpg",
+    title: "The River",
+    artist: "Ali Farka",
+    summary: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida, ligula sodales viverra suscipit, orci lectus elementum velit, et finibus libero risus at urna. Aenean a leo et leo porta scelerisque at ut lacus. Cras sodales vestibulum mi eu ultrices. Maecenas vitae elit at lacus semper bibendum nec non tortor. Sed eget nibh vitae enim lobortis feugiat. Quisque finibus, magna ac feugiat eleifend, tellus leo commodo ante, sodales convallis metus mi eget orci. Morbi quis nisi nec diam vehicula vulputate vel ultricies sem. Donec suscipit non lectus eu pharetra. Donec quis vulputate felis. Nullam sagittis magna metus, eget aliquet tortor sollicitudin nec. Praesent ultrices cursus facilisis. Phasellus hendrerit malesuada massa et mattis."]
+  },
+
+  ethicsep:{
+    audio: "/audio/lighttouch.wav",
+    cover: "/imgs/1432r/SamiSuYung.jpg",
+    title: "Ethics EP",
+    artist: "Sami%SuYung",
+    summary: ["The Ethics EP was mixed by Public for 1432R Label Heads Sami Yenigun and Joyce Lim. The project was mixed utilizing primarily stock audio plug in to achieve a dirtier Skate House aesthetic. The Ep was mixed over the span of 3 days and was received to critical acclaim.", "The release was named one of the best new singles of March 2017 by Resident Advisor."],
+    links: [{
+      src: "https://www.residentadvisor.net/features/2940",
+      text: "March's best music 2017"
+    },
+    {
+      src: "https://samisuyung.bandcamp.com/album/ethics-ep",
+      text: "Bandcamp Link"
+    }]
+  },
+
   telegram: {
     title: "TELEGRAM PUBLISHING IDENTITY",
     type: "Visual Identity, Print, Strategy",

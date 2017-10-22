@@ -15,7 +15,7 @@
 
     &__carousel{
       background: #fff !important;
-      margin-top: 50px;
+      padding-top: 50px;
       width: 100%;
       overflow: hidden;
       opacity: 0;
@@ -178,25 +178,69 @@
 
 @media (max-width: 900px) {
   .card{
-    width: 80vw;
+    width: 70vw;
     height: calc(100vh - 15rem);
     position: relative;
   }
 
-  .cardImg{
+  .caroImg{
+    max-height: 100%;
+    max-width: 95%;
     height: auto;
     margin: auto;
     position: absolute;
     top: 50%;
     left: 50%;
+    -webkit-transform: translateY(-50%) translateX(-50%);
+    -moz-transform: translateY(-50%) translateX(-50%);
+    -ms-transform: translateY(-50%) translateX(-50%);
+    -o-transform: translateY(-50%) translateX(-50%);
+    transform: translateY(-50%) translateX(-50%);
   }
 
 }
 
 @media (max-width: 760px) {
-  .cardImg{
-    width: 100%;
-    height: 100%;
+
+  .card{
+    width: 60vw;
+    height: 67vw;
+  }
+
+  .navCard{
+    height: 10vw;
+  }
+
+  .navImg{
+    height: inherit;
+  }
+
+  .portHeader{
+    font-size: 6vw;
+  }
+
+  .portItalic{
+    font-size: 4vw;
+  }
+
+
+}
+
+@media(max-width: 500px) {
+  .card{
+    height: 370px;
+  }
+
+  .navCard{
+    height: 50px;
+  }
+
+  .portHeader{
+    font-size: 30px;
+  }
+
+  .portItalic{
+    font-size: 20px;
   }
 
 }

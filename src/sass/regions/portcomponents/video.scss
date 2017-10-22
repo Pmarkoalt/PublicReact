@@ -9,7 +9,7 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      margin-top: 120px;
+      padding-top: 120px;
 
       &__container{
         height:400px;
@@ -92,12 +92,12 @@
 
 .videoHeader{
   font-size: 45px;
-  font-family: 'Cinzel', serif;
+  font-family: sans-serif;
 }
 
 .videoItalic{
-  font-size: 45px;
-  font-family: 'Cinzel', serif;
+  font-size: 30px;
+  font-family: sans-serif;
   font-style: italic;
 }
 
@@ -131,18 +131,23 @@
   .video__content__video__container{
   height: 55vw;
   }
-  .videoHeader,
-  .videoItalic{
+  .videoHeader{
     font-size: 6vw;
   }
 
+  .videoItalic{
+    font-size: 4vw;
+  }
 
 
 }
 
 @media (max-width: 480px) {
-  .videoHeader,
+  .videoHeader{
+    font-size: 30px;
+  }
+
   .videoItalic{
-    font-size: 28px;
+    font-size: 20px;
   }
   }

@@ -22,13 +22,13 @@ class About extends Component{
   componentWillEnter(callback){
     const el = this.container;
     // TweenMax.fromTo(el, 0.3, {y: -1000, opacity: 0, height: '0vh'}, {y: 0, opacity: 1, height: '100vh', onComplete: callback});
-    TweenMax.fromTo(el, 0.3, {height: '0vh'}, {height: '100vh', onComplete: callback});
+    TweenMax.fromTo(el, 0.3, {opacity: '0'}, {opacity: '1', onComplete: callback});
 
   }
 
   componentWillLeave(callback){
     const el = this.container;
-    TweenMax.fromTo(el, 0.3, {height: '100vh'}, {height: '0vw', onComplete: callback});
+    TweenMax.fromTo(el, 0.3, {opacity: '1'}, {opacity: '0', onComplete: callback});
   }
 
   handleSection(event){
@@ -62,28 +62,30 @@ class About extends Component{
             {this.state.selected === "profile" &&
               <div className="about__main__profile">
                 <br /><br />
-                <p className="about__text"> Public is a DC design and branding studio. We believe in delivering timeless work for clients far and wide, big and small. </p>
+                <p className="about__text"> Public designs concepts, spaces, and narratives, in partnership with tech start ups and cultural and institutions. we work in close collaboration with Musicians, Artists, Architects, Curators, Critics, Directors, Museums and Cultural Institutions. </p>
                 <br /><br />
-                <p className="about__text"> We believe that strong work stems from strong relationships. We partner directly with our clients to reach a level of rapport only possible on a small scale. You won't be hearing from our Account Services team-you'll be hearing from us. </p>
+                <p className="about__text"> Drop us a line. For New Buisness Inquiries Please Contact Our Office </p>
                 <br /><br />
-                <p className="about__text"> For New Buisness Inquiries Please Contact Our Office </p>
-                <br /><br />
-                <p className="about__text"> PUBLIC.GROUP </p>
-                <p className="about__text"> Washington DC </p>
-                <br />
-                <p className="about__text"> 1-(555)-555-5555 </p>
-                <p className="about__text"> office@public.design </p>
-                <br /><br />
-                <div className="about__main__profile__images">
-                  <div className="about__main__profile__images__item">
-                    <img className="about__picture" src="http://lorempixel.com/100/100" />
-                    <p className="about__profName"> Moustafa Hassan </p>
-                    <p className="about__email"> moustafa@public.group </p>
+                <div className="about__main__profile__contact">
+                  <div className="about__main__profile__contact__office">
+                    <p className="about__text"> PUBLIC.GROUP </p>
+                    <p className="about__text"> Washington DC </p>
+                    <br />
+                    <p className="about__text"> 1-(555)-555-5555 </p>
+                    <p className="about__text"> office@public.design </p>
                   </div>
-                  <div className="about__main__profile__images__item">
-                    <img className="about__picture" src="http://lorempixel.com/100/100" />
-                    <p className="about__profName"> Peter Markoski </p>
-                    <p className="about__email"> peter@public.group </p>
+                  {/* <br /><br /> */}
+                  <div className="about__main__profile__images">
+                    <div className="about__main__profile__images__item">
+                      <img className="about__picture" src="http://lorempixel.com/100/100" />
+                      <p className="about__profName"> Moustafa Hassan </p>
+                      <p className="about__email"> moustafa@public.group </p>
+                    </div>
+                    <div className="about__main__profile__images__item">
+                      <img className="about__picture" src="http://lorempixel.com/100/100" />
+                      <p className="about__profName"> Peter Markoski </p>
+                      <p className="about__email"> peter@public.group </p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -91,12 +93,8 @@ class About extends Component{
             {this.state.selected === 'process' &&
             <div className="about__main__process">
               <br /><br />
-              <p className="about__text"> Our team’s diverse experiences and skillsets gives us an ability to approach each project not only from an artistic perspective, but also from a technical one. We are able to tackle tasks in a practical manner to avoid compromises being made for a small facet of the final product. </p>
+              <p className="about__text"> Through the influence of the media and technology on our world, our lives are increasingly characterized by speed and constant change. We live in a dynamic, data-driven society that is continually sparking new forms of human interaction and social contexts.  Our work focuses on processes that are also products: things that adapt to their environment, emphasize change and show difference. </p>
               <br /><br />
-              <p className="about__text"> From the moment we are officially in business together we are on the clock 24/7. If you have any questions, concerns, or last minutes changes you can call or email us anytime.</p>
-              <br /><br />
-              <p className="about__text"> We are passionate about the work we do and want to make sure you feel that same way about the final deliverable product. </p>
-
             </div>
             }
             {this.state.selected === 'capabilities' &&

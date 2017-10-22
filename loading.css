@@ -9,7 +9,8 @@
 #DOMLoading{
   -webkit-animation: loadingAnimation 1s infinite alternate; /* Safari 4.0 - 8.0 */
   animation: loadingAnimation 1s infinite alternate;
-  width: 600px;
+  width: 80%;
+  max-width: 600px;
 }
 
 
