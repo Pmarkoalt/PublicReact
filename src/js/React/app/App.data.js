@@ -7,6 +7,83 @@ const AppData = {
     cards: ['/imgs/blackstar/blackstar1.jpg', '/imgs/blackstar/blackstar2.jpg', '/imgs/blackstar/blackstar3.jpg', '/imgs/blackstar/blackstar4.jpg', '/imgs/blackstar/blackstarPort.jpg']
   },
 
+  ecube: {
+    title: "ECUBE",
+    type: "Product Design, Interactice",
+    headText: ["Still Need Copy"],
+    cards: ['/imgs/ecube/ecube1.jpg', '/imgs/ecube/ecube2.jpg', '/imgs/ecube/ecube3.jpg', '/imgs/ecube/ecube4.jpg', '/imgs/ecube/ecube5.jpg', '/imgs/ecube/ecube6.jpg' ]
+  },
+
+  eddy: {
+    title: "EDDY",
+    type: "Identity, Print",
+    headText: ["Eddy stills needs copy"],
+    cards: ['/imgs/eddy/eddy1.jpg', '/imgs/eddy/eddy2.jpg', '/imgs/eddy/eddy3.jpg', '/imgs/eddy/eddy4.jpg']
+  },
+
+  eurosign: {
+    title: "EUROSIGN",
+    type: "Identity, Interactive, Strategy",
+    headText: ["needs copy"],
+    cards: ['/imgs/eurosign/euro1.jpg', '/imgs/eurosign/euro2.jpg', '/imgs/eurosign/euro3.jpg']
+  },
+
+  '1432r': {
+    title: "1432R",
+    type: "Identity, Interactive",
+    headText: ["needs copy"],
+    cards: ['/imgs/1432r/head1.jpg', '/imgs/1432r/cover1.jpg', '/imgs/1432r/head2.jpg', '/imgs/1432r/cover2.jpg', '/imgs/1432r/head3.jpg', '/imgs/1432r/cover3.jpg', '/imgs/1432r/hat1.jpg', '/imgs/1432r/cover4.jpg', '/imgs/1432r/digital1.jpg', '/imgs/1432r/cover5.jpg', '/imgs/1432r/cover6.jpg', '/imgs/1432r/cover7.jpg', '/imgs/1432r/cover8.jpg', '/imgs/1432r/cover9.jpg']
+  },
+
+  blow: {
+    title: "BLOW UP",
+    type: "Print, Editorial",
+    headText: ["needs copy"],
+    cards: ['/imgs/blow/blowPort.png']
+  },
+
+  room: {
+    title: "ROOM",
+    type: "Identity, Editorial, Interactive",
+    headText: ["needs copy"],
+    cards: ['/imgs/room/roomPort.png', '/imgs/room/room1.jpg']
+  },
+
+  editorial: {
+    title: "EDITORIALS",
+    type: "Print, Editorial",
+    headText: ["needs copy"],
+    cards: [ '/imgs/editorial/editorial1.jpg', '/imgs/editorial/editorial2.jpg', '/imgs/editorial/editorial3.jpg', '/imgs/editorial/editorial4.jpg', '/imgs/editorial/editorial5.jpg', '/imgs/editorial/editorial6.jpg', '/imgs/editorial/editorial7.jpg']
+  },
+
+  emerge: {
+    title: "EMERGE",
+    type: "Identity, Interactive, Strategy",
+    headText: ["needs copy"],
+    cards: [ '/imgs/emerge/emerge1.jpg', '/imgs/emerge/emerge2.jpg', '/imgs/emerge/emerge3.jpg', '/imgs/emerge/emerge4.jpg', '/imgs/emerge/emerge5.jpg']
+  },
+
+  newtypo: {
+    title: "NEW TYPOGRAPHY",
+    type: "Special Design, Interactive",
+    headText: ["Needs Copy"],
+    cards: [ '/imgs/newtypo/newtypo1.png', '/imgs/newtypo/newtypo2.png', '/imgs/newtypo/newtypo3.png', '/imgs/newtypo/newtypo4.png', '/imgs/newtypo/newtypo5.jpeg', '/imgs/newtypo/newtypo6.jpeg', '/imgs/newtypo/newtypo7.jpeg', '/imgs/newtypo/newtypo8.jpeg', '/imgs/newtypo/newtypo9.jpg']
+  },
+
+  identity: {
+    title: "IDENTITY *IN PROGRESS",
+    type: "Identity, Editorial",
+    headText: ["needs Copy"],
+    cards: ['/imgs/newtypo/newtypo1.png']
+  },
+
+  '13u': {
+    title: "13TH & U",
+    type: "Identity, Branding",
+    headText: ["Needs Copy"],
+    cards: ['/imgs/newtypo/newtypo1.png']
+  },
+
   monza: {
     title: "Monza",
     type: "Interactive",
@@ -25,7 +102,7 @@ const AppData = {
     title: "FRINGE",
     type: "Visual Identity, Print, Strategy, Interactive",
     headText: ["A word mark for DC based art fair Fringe, channeling the super-minimal direction to let the work take center stage. A bespoke san serif layout was created to be used across stationery and screen. The color was chosen to the represent the city the fair is based in."],
-    cards: ['/imgs/rhizome/rhizome1.jpg', '/imgs/rhizome/rhizome2.jpg', '/imgs/rhizome/rhizome3.jpg', '/imgs/rhizome/rhizome4.jpg', '/imgs/rhizome/rhizome5.jpg', ]
+    cards: ['/imgs/fringe/fringe1.jpg', '/imgs/fringe/fringe2.jpg', '/imgs/fringe/fringe3.jpg', '/imgs/fringe/fringe4.jpg', '/imgs/fringe/fringe5.jpg' ]
   },
 
   sea: {
@@ -39,26 +116,28 @@ const AppData = {
     title: "ECube",
     type: "Print",
     headText: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida, ligula sodales viverra suscipit, orci lectus elementum velit, et finibus libero risus at urna. Aenean a leo et leo porta scelerisque at ut lacus. Cras sodales vestibulum mi eu ultrices. Maecenas vitae elit at lacus semper bibendum nec non tortor. Sed eget nibh vitae enim lobortis feugiat. Quisque finibus, magna ac feugiat eleifend, tellus leo commodo ante, sodales convallis metus mi eget orci. Morbi quis nisi  nec diam vehicula vulputate vel ultricies sem. Donec suscipit non lectus eu pharetra. Donec quis vulputate felis. Nullam sagittis magna metus, eget aliquet tortor sollicitudin nec. Praesent ultrices cursus facilisis. Phasellus hendrerit malesuada massa et mattis."],
-    cards: ['/imgs/foto/eube1.jpg', '/imgs/foto/ecube2.jpg', '/imgs/foto/ecube3.jpg', '/imgs/foto/ecube4.jpg', '/imgs/foto/ecube5.jpg', '/imgs/foto/ecube6.jpg']
+    cards: ['/imgs/ecube/ecube1.jpg', '/imgs/ecube/ecube2.jpg', '/imgs/ecube/ecube3.jpg', '/imgs/ecube/ecube4.jpg', '/imgs/ecube/ecube5.jpg', '/imgs/ecube/ecube6.jpg']
   },
 
   studios: {
     title: "STUDIOS ARCHITECTURE",
     type: "Visual Identity, Print, Strategy",
     headText: ["Studios Architecture is an international design practice focused on enhancing the human experience.", "The brief was to conceive a mark that was typographic yet highly recognizable and adaptable. The solution came in the form of typographic structures that convey an architectural approach to the layout. Reductive, yet it represents the Studios' ethos. The word-mark is clear, solid and contemporary, with its architectural dip beneath the baseline to suggest grid-to-grid connectivity. Supported by a strong, sophisticated color palette of black (combined with brighter accent colors for different city offices)."],
-    cards: ['/imgs/studios/studios1.jpg', '/img/studios/studios2.jpg', '/img/studios/studios3.jpg', '/img/studios/studios4.jpg', '/img/studios/studios5.jpg']
+    cards: ['/imgs/studios/studios1.jpg', '/imgs/studios/studios2.jpg', '/imgs/studios/studios3.jpg', '/imgs/studios/studios4.jpg', '/imgs/studios/studios5.jpg']
   },
 
   rawlenightlong: {
     title: "RAWLE NIGHT LONG",
-    type: "Visual Indentity, Interactive"
+    type: "Visual Indentity, Interactive",
+    headText: ["Rawle Night Long is a Electronic Music DJ based out of DC. We did a complete rebranding of his image including redesigning his logo, website, and art direction.", "The new logo and typography for the website stems from the Neue Haas Grotesque font. The website was designed with minimalism in mind utilizing shades of charcoal, white, and a hot pink offset."],
+    cards: ['/imgs/rawlenightlong/rawle1.jpeg']
   },
 
   connersmith: {
     title: "CONNERSMITH IDENTITY",
     type: "Visual Identity, Print, Strategy, Interactive",
     headText: ["Connersmith was Founded in 1999 by directors Leigh Conner and Dr. Jamie Smith, Connersmith specializes in Post-War and Contemporary Art and is one of DC's Contemporary go to galleries.", "The logo unites contemporary typographic elements with new spacing, and custom-designed characters. The dynamic space between the words work as a framing and representation of what the gallery outputs . This spatial language is supported by a palette of beautiful art pieces from the gallery’s past and present. The identity succeeds in showcasing what the gallery curates while keeping a personal, modern, and forward-thinking voice."],
-    cards: ['/imgs/studios/studios1.jpg', '/img/studios/studios2.jpg', '/img/studios/studios3.jpg', '/img/studios/studios4.jpg', '/img/studios/studios5.jpg']
+    cards: ['/imgs/connersmith/conner1.jpg', '/imgs/connersmith/conner2.jpg', '/imgs/connersmith/conner3.jpg', '/imgs/connermsmith/conner4.jpg']
   },
 
   omni: {
@@ -95,7 +174,7 @@ const AppData = {
     summary: ["The Ethics EP was mixed by Public for 1432R Label Heads Sami Yenigun and Joyce Lim. The project was mixed utilizing primarily stock audio plug in to achieve a dirtier Skate House aesthetic. The Ep was mixed over the span of 3 days and was received to critical acclaim.", "The release was named one of the best new singles of March 2017 by Resident Advisor."],
     links: [{
       src: "https://www.residentadvisor.net/features/2940",
-      text: "March's best music 2017"
+      text: "March's Best Music 2017"
     },
     {
       src: "https://samisuyung.bandcamp.com/album/ethics-ep",

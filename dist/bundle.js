@@ -86,7 +86,7 @@
 	exports.push([module.id, "@import url(https://fonts.googleapis.com/css?family=Cinzel:400,700|Cormorant+Garamond:300,400);", ""]);
 	
 	// module
-	exports.push([module.id, "@charset \"UTF-8\";\n.container, main {\n  position: relative; }\n\nol, ul {\n  list-style: none; }\n\na {\n  color: black; }\n\n/* Globally */\n/* Each state */\na:visited {\n  text-decoration: none;\n  color: black; }\n\na:hover {\n  text-decoration: none;\n  color: black; }\n\na:focus {\n  text-decoration: none;\n  color: black; }\n\na:hover, a:active {\n  text-decoration: none;\n  color: black; }\n\na, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font: inherit;\n  vertical-align: baseline; }\n\narticle, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {\n  display: block; }\n\nbody {\n  line-height: 1;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n  font-family: futura-pt; }\n\n.slick-list,\n.slick-slider,\n.slick-track {\n  position: relative;\n  display: block; }\n\n.slick-loading .slick-slide,\n.slick-loading .slick-track {\n  visibility: hidden; }\n\n.slick-slider {\n  box-sizing: border-box;\n  -webkit-user-select: none;\n  -moz-user-select: none;\n  -ms-user-select: none;\n  user-select: none;\n  -webkit-touch-callout: none;\n  -khtml-user-select: none;\n  -ms-touch-action: pan-y;\n  touch-action: pan-y;\n  -webkit-tap-highlight-color: transparent; }\n\n.slick-list {\n  overflow: hidden;\n  margin: 0;\n  padding: 0; }\n\n.slick-list:focus {\n  outline: 0; }\n\n.slick-list.dragging {\n  cursor: pointer;\n  cursor: hand; }\n\n.slick-slider .slick-list,\n.slick-slider .slick-track {\n  -webkit-transform: translate3d(0, 0, 0);\n  -moz-transform: translate3d(0, 0, 0);\n  -ms-transform: translate3d(0, 0, 0);\n  -o-transform: translate3d(0, 0, 0);\n  transform: translate3d(0, 0, 0); }\n\n.slick-track {\n  top: 0;\n  left: 0; }\n\n.slick-track:after,\n.slick-track:before {\n  display: table;\n  content: ''; }\n\n.slick-track:after {\n  clear: both; }\n\n.slick-slide {\n  display: none;\n  float: left;\n  height: 100%;\n  min-height: 1px; }\n\n[dir=rtl] .slick-slide {\n  float: right; }\n\n.slick-slide img {\n  display: block; }\n\n.slick-slide.slick-loading img {\n  display: none; }\n\n.slick-slide.dragging img {\n  pointer-events: none; }\n\n.slick-initialized .slick-slide {\n  display: block;\n  margin: 15px; }\n\n.slick-vertical .slick-slide {\n  display: block;\n  height: auto;\n  border: 1px solid transparent; }\n\n.slick-arrow.slick-hidden {\n  display: none; }\n\n/*# sourceMappingURL=slick.min.css.map */\n/*\n===================================\n    MEDIA QUERIES\n===================================\n*/\ninput[type=range] {\n  -webkit-appearance: none;\n  width: 100%;\n  margin: 5.1px 0; }\n\ninput[type=range]:focus {\n  outline: none; }\n\ninput[type=range]::-webkit-slider-runnable-track {\n  width: 100%;\n  height: 1.8px;\n  cursor: pointer;\n  box-shadow: 0px 0px 0px transparent, 0px 0px 0px rgba(13, 13, 13, 0);\n  background: #000000;\n  border-radius: 0px;\n  border: 0px solid rgba(1, 1, 1, 0); }\n\ninput[type=range]::-webkit-slider-thumb {\n  box-shadow: 0px 0px 0px transparent, 0px 0px 0px rgba(13, 13, 13, 0);\n  border: 0px solid transparent;\n  height: 12px;\n  width: 12px;\n  border-radius: 50px;\n  background: #000000;\n  cursor: pointer;\n  -webkit-appearance: none;\n  margin-top: -5.1px; }\n\ninput[type=range]:focus::-webkit-slider-runnable-track {\n  background: #050505; }\n\ninput[type=range]::-moz-range-track {\n  width: 100%;\n  height: 1.8px;\n  cursor: pointer;\n  box-shadow: 0px 0px 0px transparent, 0px 0px 0px rgba(13, 13, 13, 0);\n  background: #000000;\n  border-radius: 0px;\n  border: 0px solid rgba(1, 1, 1, 0); }\n\ninput[type=range]::-moz-range-thumb {\n  box-shadow: 0px 0px 0px transparent, 0px 0px 0px rgba(13, 13, 13, 0);\n  border: 0px solid transparent;\n  height: 12px;\n  width: 12px;\n  border-radius: 50px;\n  background: #000000;\n  cursor: pointer; }\n\ninput[type=range]::-ms-track {\n  width: 100%;\n  height: 1.8px;\n  cursor: pointer;\n  background: transparent;\n  border-color: transparent;\n  color: transparent; }\n\ninput[type=range]::-ms-fill-lower {\n  background: #000000;\n  border: 0px solid rgba(1, 1, 1, 0);\n  border-radius: 0px;\n  box-shadow: 0px 0px 0px transparent, 0px 0px 0px rgba(13, 13, 13, 0); }\n\ninput[type=range]::-ms-fill-upper {\n  background: #000000;\n  border: 0px solid rgba(1, 1, 1, 0);\n  border-radius: 0px;\n  box-shadow: 0px 0px 0px transparent, 0px 0px 0px rgba(13, 13, 13, 0); }\n\ninput[type=range]::-ms-thumb {\n  box-shadow: 0px 0px 0px transparent, 0px 0px 0px rgba(13, 13, 13, 0);\n  border: 0px solid transparent;\n  height: 12px;\n  width: 12px;\n  border-radius: 50px;\n  background: #000000;\n  cursor: pointer;\n  height: 1.8px; }\n\ninput[type=range]:focus::-ms-fill-lower {\n  background: #000000; }\n\ninput[type=range]:focus::-ms-fill-upper {\n  background: #050505; }\n\n.volumeSlider {\n  width: 50px !important; }\n\n.splash {\n  min-height: 100vh;\n  top: 0;\n  font: 'Cinzel';\n  position: relative;\n  background-color: #102984;\n  border-bottom: #dedddd solid 40px;\n  position: relative; }\n  .splash__content {\n    margin-left: 20px;\n    margin-right: 20px;\n    display: flex;\n    flex-direction: column; }\n    .splash__content__top {\n      margin-top: 50px; }\n      .splash__content__top__logo {\n        width: 300px; }\n    .splash__content__mid {\n      min-height: 450px;\n      margin-top: 30px;\n      display: flex;\n      justify-content: center;\n      position: relative; }\n      .splash__content__mid__img {\n        position: absolute;\n        opacity: 0;\n        max-height: 400px;\n        box-shadow: 0 2px 3px 1px rgba(0, 0, 0, 0.15), 0 2px 5px 0 rgba(0, 0, 0, 0.15); }\n    .splash__content__bot {\n      display: flex;\n      justify-content: center;\n      position: relative; }\n      .splash__content__bot__paraOne {\n        max-width: 1500px;\n        margin-bottom: 75px;\n        margin-left: 15px;\n        display: flex;\n        flex-direction: column;\n        position: relative; }\n      .splash__content__bot__paraTwo {\n        margin-left: 30px;\n        margin-bottom: 30px; }\n  .splash__arrowContainer {\n    position: absolute;\n    bottom: 30px;\n    left: 40px; }\n    .splash__arrowContainer__arrow {\n      width: 13px;\n      height: 13px;\n      border-bottom: 2px solid #909ecd;\n      border-right: 2px solid #909ecd;\n      -webkit-transform: translate(-50%, 0%) rotate(45deg);\n      -moz-transform: translate(-50%, 0%) rotate(45deg);\n      transform: translate(-50%, 0%) rotate(45deg);\n      -webkit-animation: move_down 4s ease-in-out infinite;\n      -moz-animation: move_down 4s ease-in-out infinite;\n      animation: move_down 4s ease-in-out infinite; }\n\n.splash__h2,\n.splash__contact {\n  font-family: sans-serif;\n  color: #909ecd;\n  font-size: 14px;\n  display: inline;\n  font-weight: lighter; }\n\n.splash__contact {\n  font-weight: normal;\n  text-decoration: underline; }\n\n.splash__contact:hover {\n  color: white; }\n\n.splash__clients {\n  font-family: 'Cormorant Garamond', serif;\n  font-size: 13px;\n  color: #5b6896; }\n\n.splash__bold {\n  font-weight: bold; }\n\n#splashSlide1 {\n  -webkit-animation: splashIn 20s ease-in-out infinite;\n  -moz-animation: splashIn 20s ease-in-out infinite;\n  animation: splashIn 20s ease-in-out infinite; }\n\n#splashSlide2 {\n  -webkit-animation: splashIn 20s ease-in-out infinite;\n  -moz-animation: splashIn 20s ease-in-out infinite;\n  animation: splashIn 20s ease-in-out infinite;\n  -webkit-animation-delay: 5s;\n  /* Safari 4.0 - 8.0 */\n  animation-delay: 5s; }\n\n#splashSlide3 {\n  box-shadow: none;\n  -webkit-animation: splashIn 20s ease-in-out infinite;\n  -moz-animation: splashIn 20s ease-in-out infinite;\n  animation: splashIn 20s ease-in-out infinite;\n  -webkit-animation-delay: 10s;\n  /* Safari 4.0 - 8.0 */\n  animation-delay: 10s; }\n\n#splashSlide4 {\n  -webkit-animation: splashIn 20s ease-in-out infinite;\n  -moz-animation: splashIn 20s ease-in-out infinite;\n  animation: splashIn 20s ease-in-out infinite;\n  -webkit-animation-delay: 15s;\n  /* Safari 4.0 - 8.0 */\n  animation-delay: 15s; }\n\n/*\n===================================\n    ANIMATIONS\n===================================\n*/\n@keyframes move_down {\n  0% {\n    transform: translate(0, -10px) rotate(45deg);\n    opacity: 0; }\n  50% {\n    opacity: 1; }\n  100% {\n    transform: translate(0, 10px) rotate(45deg);\n    opacity: 0; } }\n\n@keyframes splashIn {\n  0% {\n    opacity: 0; }\n  10% {\n    opacity: 1; }\n  20% {\n    opacity: 1; }\n  25% {\n    opacity: 0; }\n  100% {\n    opacity: 0; } }\n\n/*\n===================================\n    MEDIA QUERIES\n===================================\n*/\n@media (max-width: 720px) {\n  .splash__content__mid__img {\n    height: 56vw; }\n  .splash__content__mid {\n    min-height: 0px;\n    height: 63vw; } }\n\n@media (max-width: 480px) {\n  .splash__content__mid {\n    height: 300px; }\n  .splash__content__mid__img {\n    height: 267px; }\n  .splash__content__bot {\n    flex-direction: column; }\n  .splash__h2 {\n    font-size: 18px; }\n  .splash__content__bot__paraOne {\n    margin-left: 0px; }\n  .splash__content__bot__paraTwo {\n    margin-left: 0px; }\n  .splash__contact {\n    font-size: 18px; }\n  .splash__clients {\n    font-size: 18px; } }\n\n.capabilities {\n  background-color: white;\n  min-height: 100vh; }\n  .capabilities__content {\n    margin-left: 10%;\n    margin-right: 10%;\n    margin-top: 50px;\n    transition: filter 1s;\n    filter: blur(0px);\n    -webkit-filter: blur(0px); }\n    .capabilities__content__nav {\n      position: fixed;\n      top: -100px;\n      z-index: 5;\n      display: flex;\n      flex-direction: row;\n      margin-bottom: 30px;\n      background-color: white;\n      height: 70px;\n      width: 100%;\n      align-items: center;\n      box-shadow: rgba(0, 0, 0, 0.2) 1px 2px 5px;\n      transition: top .5s; }\n      .capabilities__content__nav__header {\n        margin-right: 8vw; }\n        .capabilities__content__nav__header__specialButton {\n          position: fixed;\n          right: 100px; }\n        .capabilities__content__nav__header__specialButtonMobile {\n          position: absolute !important;\n          right: 50px !important;\n          display: none; }\n      .capabilities__content__nav__selectBox {\n        display: flex;\n        justify-content: space-between;\n        align-items: center;\n        text-align: center;\n        width: 140px;\n        border-bottom: solid 2px #111; }\n    .capabilities__content__specialNav {\n      position: fixed;\n      top: -500px;\n      z-index: 4;\n      height: 300px;\n      width: 100%;\n      background-color: white;\n      box-shadow: rgba(0, 0, 0, 0.2) 1px 2px 5px;\n      overflow: hidden;\n      -webkit-transition: top .5s ease-in-out;\n      -moz-transition: top .5s ease-in-out;\n      -ms-transition: top .5s ease-in-out;\n      -o-transition: top .5s ease-in-out;\n      transition: top .5s ease-in-out; }\n    .capabilities__content__threerow {\n      display: flex;\n      flex-direction: row;\n      justify-content: space-between;\n      margin-top: 50px; }\n      .capabilities__content__threerow__item {\n        margin: 20px;\n        margin-left: 0px;\n        display: flex;\n        flex-direction: column;\n        transition: 1s all;\n        opacity: .3;\n        width: 17vw; }\n        .capabilities__content__threerow__item__tags {\n          display: flex;\n          flex-direction: row;\n          flex-wrap: wrap; }\n    .capabilities__content__tworow {\n      margin-top: 50px;\n      display: flex;\n      flex-direction: row;\n      justify-content: space-between; }\n      .capabilities__content__tworow__bigItem {\n        margin: 20px;\n        margin-left: 0px;\n        display: flex;\n        flex-direction: column;\n        transition: 1s all;\n        opacity: .3; }\n        .capabilities__content__tworow__bigItem__text {\n          width: 37vw; }\n      .capabilities__content__tworow__smallItem {\n        width: 17vw;\n        margin: 20px;\n        margin-left: 0px;\n        display: flex;\n        flex-direction: column;\n        transition: 1s all;\n        opacity: .3; }\n    .capabilities__content__banner {\n      margin-top: 50px;\n      position: relative;\n      opacity: .3;\n      transition: all .5s; }\n      .capabilities__content__banner__overlay {\n        background-color: rgba(0, 0, 0, 0.5);\n        position: absolute;\n        height: 100%;\n        width: 100%;\n        transition: all .5s; }\n      .capabilities__content__banner__overlay:hover {\n        background-color: rgba(0, 0, 0, 0.2); }\n      .capabilities__content__banner__image {\n        height: 400px;\n        width: 100%; }\n      .capabilities__content__banner__tags {\n        position: absolute;\n        display: flex;\n        flex-direction: row;\n        bottom: 10px;\n        left: 10px; }\n\n.before {\n  width: 5px;\n  height: 5px;\n  margin-left: 6px;\n  border-bottom: 2px solid #000000;\n  border-left: 2px solid #000000;\n  -webkit-transform: translate(-50%, 0%) rotate(45deg);\n  -moz-transform: translate(-50%, 0%) rotate(45deg);\n  transform: translate(-50%, 0%) rotate(45deg); }\n\n.after {\n  width: 5px;\n  height: 5px;\n  border-top: 2px solid #000000;\n  border-right: 2px solid #000000;\n  -webkit-transform: translate(-50%, 0%) rotate(45deg);\n  -moz-transform: translate(-50%, 0%) rotate(45deg);\n  transform: translate(-50%, 0%) rotate(45deg); }\n\n.before:hover,\n.after:hover,\n.capabilities__content__nav__header__specialButton,\n.sideBarCircle {\n  cursor: pointer; }\n\n.navShow {\n  top: 0; }\n\n.specialCard {\n  margin-top: 70px;\n  height: 250px;\n  width: 250px;\n  opacity: 0; }\n\n.specialImg {\n  height: 185px;\n  width: 185px; }\n\n.specialText {\n  font-family: sans-serif; }\n\n.showSpecial {\n  top: 0; }\n\n.specialHide {\n  top: -1000px; }\n\n.galleryLoaded {\n  opacity: 1; }\n\n.flickity-viewport:focus,\n.capabilities__content__specialNav {\n  outline: none; }\n\n.filterSelect {\n  margin-right: 9px;\n  font-size: 20px;\n  font-family: sans-serif; }\n\n.capabilities__header {\n  font-family: 'Cinzel', serif;\n  font-size: 25px;\n  margin-left: 70px;\n  transition: margin-left .5s; }\n\n.capabilities__title {\n  font-family: sans-serif;\n  font-weight: bold;\n  font-size: 20px;\n  margin-top: 10px; }\n\n.capabilities__galleryType {\n  font-size: 17px;\n  font-family: sans-serif;\n  display: inline-block;\n  margin-left: 10px; }\n\n.filterOff {\n  opacity: 1;\n  transition: 1s all; }\n\n.blur {\n  filter: blur(5px);\n  -webkit-filter: blur(5px); }\n\n.capabilities__image {\n  box-shadow: rgba(0, 0, 0, 0.2) 0px 0px;\n  transform: scale(1);\n  transition: all .5s; }\n\n.capabilities__border {\n  border: solid 1px rgba(0, 0, 0, 0.2); }\n\n.capabilities__image:hover {\n  box-shadow: rgba(0, 0, 0, 0.2) 1px 2px 5px;\n  transform: scale(1.025); }\n\n.capabilities__threeImage,\n.capabilities__twoSmallImage {\n  width: 17vw; }\n\n.capabilities__threeLink,\n.capabilities__twoSmallLink {\n  width: 17vw; }\n\n.capabilities__twoBigImage {\n  width: 42vw; }\n\n.capabilities__twoBigLink {\n  width: 600px; }\n\n.capabilities__details {\n  font-size: 20px;\n  font-family: cormorant garamond;\n  font-weight: 100; }\n\n.capabilities__tag {\n  font-size: 12px;\n  font-family: sans-serif;\n  border: solid 1px black;\n  padding: 2px;\n  margin-top: 5px;\n  margin-right: 5px; }\n\n.capabilities__galleryTitle {\n  position: absolute;\n  bottom: 40%;\n  left: 10px;\n  color: white;\n  font-family: sans-serif;\n  font-size: 40px;\n  font-weight: bolder; }\n\n.capabilities__galleryDetails {\n  position: absolute;\n  bottom: 20%;\n  left: 10px;\n  color: white;\n  font-family: cormorant garamond;\n  font-weight: 100;\n  font-size: 25px;\n  width: 400px; }\n\n.capabilities__galleryTag {\n  font-size: 20px;\n  font-family: sans-serif;\n  font-weight: 100;\n  border: solid .5px white;\n  color: white;\n  padding: 2px;\n  margin-top: 10px;\n  margin-right: 10px; }\n\n@-webkit-keyframes navEnter {\n  0% {\n    top: -100px; }\n  100% {\n    top: 0; } }\n\n/* Standard syntax */\n@keyframes navEnter {\n  0% {\n    top: -100px; }\n  100% {\n    top: 0; } }\n\n/*\n===================================\n    MEDIA QUERIES\n===================================\n*/\n@media (max-width: 1200px) {\n  .capabilities__title {\n    font-size: 1.65vw; }\n  .capabilities__details {\n    font-size: 1.65vw; } }\n\n@media (max-width: 960px) {\n  .capabilities__title {\n    font-size: 16px; }\n  .capabilities__details {\n    font-size: 16px; } }\n\n@media (max-width: 760px) {\n  .capabilities__content {\n    margin-left: 0px;\n    margin-right: 0px; }\n  .capabilities__content__threerow,\n  .capabilities__content__tworow {\n    flex-direction: column;\n    margin-left: 5%;\n    margin-right: 5%;\n    position: relative; }\n  .capabilities__content__threerow__item,\n  .capabilities__content__tworow__smallItem {\n    flex-direction: row;\n    width: 100%; }\n  .capabilities__content__nav__header__specialButton {\n    display: none; }\n  .capabilities__header {\n    margin-left: 40px; }\n  .capabilities__content__nav__header__specialButtonMobile {\n    display: block; }\n  .capabilities__threeImage,\n  .capabilities__threeLink,\n  .capabilities__twoSmallImage,\n  .capabilities__twoSmallLink {\n    width: 130px; }\n  .capabilities__threeContent {\n    position: absolute;\n    left: 150px; }\n  .capabilities__twoBigImage,\n  .capabilities__content__tworow__bigItem__text {\n    width: 80%; } }\n\n@media (max-width: 480px) {\n  .capabilities__content__nav__selectBox {\n    display: none; } }\n\n.portHeader {\n  font-size: 45px;\n  font-family: sans-serif; }\n\n.portItalic {\n  font-size: 30px;\n  font-family: sans-serif;\n  font-style: italic; }\n\n.portText {\n  font-family: 'Cormorant Garamond', serif;\n  font-size: 20px; }\n\n.backbutton {\n  position: absolute;\n  top: 20px;\n  left: 20px; }\n\n.visual__carouselContainer {\n  position: relative; }\n  .visual__carouselContainer__loader {\n    position: absolute;\n    width: 500px;\n    z-index: 10;\n    top: 50px;\n    left: 30%;\n    -webkit-animation: loadingAnimation 1s infinite alternate;\n    /* Safari 4.0 - 8.0 */\n    animation: loadingAnimation 1s infinite alternate; }\n  .visual__carouselContainer__carousel {\n    background: #fff !important;\n    padding-top: 50px;\n    width: 100%;\n    overflow: hidden;\n    opacity: 0;\n    transition: all 1s; }\n  .visual__carouselContainer__navBar {\n    width: 100%;\n    height: 100px;\n    margin-bottom: 50px;\n    overflow: hidden;\n    opacity: 0;\n    transition: all 1s; }\n\n.visual__content {\n  margin-left: 10vw;\n  margin-right: 10vw; }\n  .visual__content__text {\n    width: 80%;\n    margin-bottom: 50px; }\n  .visual__content__rowPhoto {\n    width: 100%;\n    height: calc(100vh - 20rem);\n    margin-top: 10px;\n    margin-bottom: 20px; }\n  .visual__content__twoPoster {\n    display: flex;\n    flex-direction: row;\n    justify-content: space-between; }\n    .visual__content__twoPoster__item__poster {\n      width: 38vw;\n      height: 400px; }\n  .visual__content__blurb {\n    display: flex;\n    flex-direction: row;\n    justify-content: space-between; }\n  .visual__content__threePoster {\n    display: flex;\n    flex-direction: row;\n    justify-content: space-between; }\n    .visual__content__threePoster__item {\n      width: 30%; }\n      .visual__content__threePoster__item__card {\n        width: 100%; }\n\n.visualTitle {\n  margin-bottom: 20px; }\n\n.card {\n  margin: 10px;\n  height: calc(100vh - 15rem); }\n\n.caroImg {\n  height: calc(100vh - 15rem);\n  pointer-events: none; }\n\n.navCard {\n  height: 100px;\n  margin: 2px;\n  opacity: .5;\n  transition: opacity 1s; }\n\n.navImg {\n  height: 100px;\n  pointer-events: none; }\n\n.flickity-viewport:focus,\n.visual__carouselContainer__carousel,\n.visual__carouselContainer__navBar {\n  outline: none; }\n\n.galleryLoaded {\n  opacity: 1; }\n\n.navCard.is-selected {\n  opacity: 1; }\n\n.linebreak {\n  margin-bottom: 10px; }\n\n@-webkit-keyframes loadingAnimation {\n  0% {\n    -webkit-transform: scale(1);\n    /* Ch <36, Saf 5.1+, iOS < 9.2, An =<4.4.4 */\n    -ms-transform: scale(1);\n    /* IE 9 */\n    transform: scale(1); }\n  100% {\n    -webkit-transform: scale(1.2);\n    /* Ch <36, Saf 5.1+, iOS < 9.2, An =<4.4.4 */\n    -ms-transform: scale(1.2);\n    /* IE 9 */\n    transform: scale(1.2); } }\n\n/* Standard syntax */\n@keyframes loadingAnimation {\n  0% {\n    -webkit-transform: scale(1);\n    /* Ch <36, Saf 5.1+, iOS < 9.2, An =<4.4.4 */\n    -ms-transform: scale(1);\n    /* IE 9 */\n    transform: scale(1); }\n  100% {\n    -webkit-transform: scale(1.2);\n    /* Ch <36, Saf 5.1+, iOS < 9.2, An =<4.4.4 */\n    -ms-transform: scale(1.2);\n    /* IE 9 */\n    transform: scale(1.2); } }\n\n/*\n===================================\n    MEDIA QUERIES\n===================================\n*/\n@media (max-width: 900px) {\n  .card {\n    width: 70vw;\n    height: calc(100vh - 15rem);\n    position: relative; }\n  .caroImg {\n    max-height: 100%;\n    max-width: 95%;\n    height: auto;\n    margin: auto;\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    -webkit-transform: translateY(-50%) translateX(-50%);\n    -moz-transform: translateY(-50%) translateX(-50%);\n    -ms-transform: translateY(-50%) translateX(-50%);\n    -o-transform: translateY(-50%) translateX(-50%);\n    transform: translateY(-50%) translateX(-50%); } }\n\n@media (max-width: 760px) {\n  .card {\n    width: 60vw;\n    height: 67vw; }\n  .navCard {\n    height: 10vw; }\n  .navImg {\n    height: inherit; }\n  .portHeader {\n    font-size: 6vw; }\n  .portItalic {\n    font-size: 4vw; } }\n\n@media (max-width: 500px) {\n  .card {\n    height: 370px; }\n  .navCard {\n    height: 50px; }\n  .portHeader {\n    font-size: 30px; }\n  .portItalic {\n    font-size: 20px; } }\n\n.audio__content {\n  margin-left: 10vw;\n  margin-right: 10vw; }\n  .audio__content__album {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    padding-top: 150px; }\n    .audio__content__album__tilt {\n      height: 400px;\n      width: 400px;\n      transition: all .1s; }\n      .audio__content__album__tilt__cover {\n        height: 100%;\n        width: 100%; }\n    .audio__content__album__media {\n      width: 400px;\n      display: flex;\n      justify-content: space-between;\n      align-items: center;\n      margin-top: 25px; }\n      .audio__content__album__media__play {\n        width: 60px;\n        font-family: sans-serif; }\n      .audio__content__album__media__input {\n        position: relative;\n        display: flex;\n        align-items: center;\n        justify-content: center;\n        width: 80%;\n        margin-left: 10px;\n        margin-right: 10px; }\n      .audio__content__album__media__volume {\n        display: flex; }\n        .audio__content__album__media__volume__mute {\n          height: 20px;\n          width: 20px;\n          margin-right: 3px; }\n  .audio__content__text {\n    margin-top: 50px;\n    margin-bottom: 50px; }\n\n.audio__content__album__media__play:hover,\n.audio__content__album__media__volume__mute:hover {\n  cursor: pointer; }\n\n/*\n===================================\n    MEDIA QUERIES\n===================================\n*/\n@media (max-width: 760px) {\n  .audio__content__album__media {\n    width: 52vw; }\n  .audio__content__album {\n    margin-left: 10px;\n    margin-right: 10px; }\n  .audio__content__album__tilt {\n    height: 52vw;\n    width: 52vw; } }\n\n@media (max-width: 500px) {\n  .audio__content__album__tilt {\n    height: 260px;\n    width: 260px; }\n  .audio__content__album__media {\n    width: 260px; } }\n\n.video__content {\n  margin-left: 10vw;\n  margin-right: 10vw; }\n  .video__content__video {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    padding-top: 120px; }\n    .video__content__video__container {\n      height: 400px;\n      width: 700px; }\n    .video__content__video__media {\n      width: 700px;\n      display: flex;\n      justify-content: space-between;\n      align-items: center; }\n      .video__content__video__media__playing {\n        display: flex;\n        justify-content: space-between;\n        align-items: center;\n        width: 70px; }\n        .video__content__video__media__playing__play {\n          font-family: sans-serif;\n          width: 80px; }\n        .video__content__video__media__playing__fullscreen {\n          width: 30px;\n          height: 30px; }\n      .video__content__video__media__input {\n        position: relative;\n        display: flex;\n        align-items: center;\n        justify-content: center;\n        width: 75%;\n        margin-left: 10px;\n        margin-right: 10px; }\n      .video__content__video__media__volume {\n        display: flex; }\n        .video__content__video__media__volume__mute {\n          height: 20px;\n          width: 20px;\n          margin-right: 3px; }\n  .video__content__text {\n    margin-top: 50px;\n    margin-bottom: 50px; }\n\n.video__content__album__media__volume__mute {\n  height: 20px;\n  width: 20px;\n  margin-right: 3px; }\n\n.fullscreen:hover {\n  -webkit-filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.5));\n  -ms-filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.5));\n  filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.5));\n  cursor: pointer; }\n\n.video__content__video__media__playing__play:hover,\n.video__content__album__media__volume__mute:hover {\n  cursor: pointer; }\n\n.videoHeader {\n  font-size: 45px;\n  font-family: sans-serif; }\n\n.videoItalic {\n  font-size: 30px;\n  font-family: sans-serif;\n  font-style: italic; }\n\n/*\n===================================\n    MEDIA QUERIES\n===================================\n*/\n@media (max-width: 760px) {\n  .video__content {\n    margin-left: 10px;\n    margin-right: 10px; }\n  .video__content__video__container,\n  .video__content__video__media {\n    width: 100%; }\n  .video__content__video__container {\n    height: 55vw; }\n  .videoHeader {\n    font-size: 6vw; }\n  .videoItalic {\n    font-size: 4vw; } }\n\n@media (max-width: 480px) {\n  .videoHeader {\n    font-size: 30px; }\n  .videoItalic {\n    font-size: 20px; } }\n\n.about {\n  background-color: black;\n  margin-left: 20px;\n  margin-right: 20px;\n  color: white;\n  min-height: 100vh;\n  padding-bottom: 20px; }\n  .about__top__img {\n    margin-top: 50px;\n    width: 300px; }\n  .about__main {\n    margin-left: 25vw;\n    margin-top: 60px; }\n    .about__main__profile {\n      max-width: 800px; }\n      .about__main__profile__contact {\n        display: flex;\n        flex-direction: row; }\n      .about__main__profile__images {\n        display: flex;\n        flex-direction: row;\n        margin-left: 50px; }\n        .about__main__profile__images__item {\n          display: flex;\n          flex-direction: column;\n          margin-right: 100px; }\n    .about__main__process {\n      max-width: 800px; }\n    .about__main__capabilities {\n      max-width: 800px; }\n\n.aboutContainer {\n  background-color: black;\n  width: 100%;\n  z-index: 9;\n  position: fixed; }\n\n.about__link,\n.about__slash {\n  display: inline;\n  font-family: sans-serif;\n  font-size: 25px;\n  color: #606060;\n  transition: all .5s; }\n\n.about__link {\n  font-weight: lighter; }\n\n.about__link:hover {\n  cursor: pointer;\n  color: #cbcbcb; }\n\n.about__selected {\n  color: #cbcbcb; }\n\n.about__slash {\n  font-weight: 600; }\n\n.about__text {\n  font-size: 20px;\n  font-family: 'Cormorant Garamond', serif; }\n\n.about__profName {\n  font-family: sans-serif;\n  color: white;\n  font-size: 18px; }\n\n.about__email {\n  font-family: sans-serif;\n  color: #606060;\n  font-size: 16px; }\n\n.about__hide {\n  display: none; }\n\n/*\n===================================\n    MEDIA QUERIES\n===================================\n*/\n@media (max-width: 720px) {\n  .about__main {\n    margin-left: 0px; }\n  .about__picture {\n    display: none; }\n  .about__main__profile__images {\n    flex-direction: column; }\n  .about__main__profile__images__item {\n    margin-bottom: 25px; } }\n\n@media (max-width: 480px) {\n  .about__text {\n    font-size: 18px; }\n  .about__profName {\n    font-size: 16px; }\n  .about__email {\n    font-size: 15px; } }\n\n.notFoundPage {\n  display: flex;\n  -webkit-box-align: center;\n  -webkit-box-pack: center;\n  align-content: center;\n  align-items: center;\n  background: url(/imgs/util/404.gif) no-repeat;\n  background-position: 50%;\n  background-size: cover;\n  justify-content: center;\n  height: 100vh; }\n\n.errorText {\n  font-size: 30vw;\n  font-family: monospace;\n  font-weight: 900;\n  color: white;\n  text-shadow: -4px -1px black, 0 1px black, 3px -2px black, -4px 2px black; }\n\n* {\n  min-height: 0;\n  min-width: 0; }\n\nmain {\n  width: 100%; }\n\n.sideBarContainer {\n  position: fixed;\n  top: 20px;\n  right: 0%;\n  width: 75px;\n  height: 30px;\n  z-index: 10; }\n\n.sideBarCircle {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  position: relative;\n  width: 30px;\n  height: 30px;\n  background: white;\n  border: solid 1px white;\n  box-shadow: 0 2px 3px 1px rgba(0, 0, 0, 0.15), 0 2px 5px 0 rgba(0, 0, 0, 0.15);\n  border-radius: 50%; }\n\n.transparent {\n  background: transparent; }\n\n.x {\n  width: 14px;\n  z-index: 0; }\n\n.助,\n.帰 {\n  width: 14px;\n  color: #111;\n  position: fixed;\n  opacity: 1;\n  transition: all .2s; }\n\n.助 {\n  right: 47.5px; }\n\n.帰 {\n  left: 38px; }\n\n.hidden {\n  opacity: 0; }\n\n.back {\n  left: 0%;\n  margin-left: 30px; }\n\n::-moz-selection {\n  color: white;\n  background: grey; }\n\n::selection {\n  color: white;\n  background: grey; }\n", ""]);
+	exports.push([module.id, "@charset \"UTF-8\";\n.container, main {\n  position: relative; }\n\nol, ul {\n  list-style: none; }\n\na {\n  color: black; }\n\n/* Globally */\n/* Each state */\na:visited {\n  text-decoration: none;\n  color: black; }\n\na:hover {\n  text-decoration: none;\n  color: black; }\n\na:focus {\n  text-decoration: none;\n  color: black; }\n\na:hover, a:active {\n  text-decoration: none;\n  color: black; }\n\na, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font: inherit;\n  vertical-align: baseline; }\n\narticle, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {\n  display: block; }\n\nbody {\n  line-height: 1;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n  font-family: futura-pt; }\n\n.slick-list,\n.slick-slider,\n.slick-track {\n  position: relative;\n  display: block; }\n\n.slick-loading .slick-slide,\n.slick-loading .slick-track {\n  visibility: hidden; }\n\n.slick-slider {\n  box-sizing: border-box;\n  -webkit-user-select: none;\n  -moz-user-select: none;\n  -ms-user-select: none;\n  user-select: none;\n  -webkit-touch-callout: none;\n  -khtml-user-select: none;\n  -ms-touch-action: pan-y;\n  touch-action: pan-y;\n  -webkit-tap-highlight-color: transparent; }\n\n.slick-list {\n  overflow: hidden;\n  margin: 0;\n  padding: 0; }\n\n.slick-list:focus {\n  outline: 0; }\n\n.slick-list.dragging {\n  cursor: pointer;\n  cursor: hand; }\n\n.slick-slider .slick-list,\n.slick-slider .slick-track {\n  -webkit-transform: translate3d(0, 0, 0);\n  -moz-transform: translate3d(0, 0, 0);\n  -ms-transform: translate3d(0, 0, 0);\n  -o-transform: translate3d(0, 0, 0);\n  transform: translate3d(0, 0, 0); }\n\n.slick-track {\n  top: 0;\n  left: 0; }\n\n.slick-track:after,\n.slick-track:before {\n  display: table;\n  content: ''; }\n\n.slick-track:after {\n  clear: both; }\n\n.slick-slide {\n  display: none;\n  float: left;\n  height: 100%;\n  min-height: 1px; }\n\n[dir=rtl] .slick-slide {\n  float: right; }\n\n.slick-slide img {\n  display: block; }\n\n.slick-slide.slick-loading img {\n  display: none; }\n\n.slick-slide.dragging img {\n  pointer-events: none; }\n\n.slick-initialized .slick-slide {\n  display: block;\n  margin: 15px; }\n\n.slick-vertical .slick-slide {\n  display: block;\n  height: auto;\n  border: 1px solid transparent; }\n\n.slick-arrow.slick-hidden {\n  display: none; }\n\n/*# sourceMappingURL=slick.min.css.map */\n/*\n===================================\n    MEDIA QUERIES\n===================================\n*/\ninput[type=range] {\n  -webkit-appearance: none;\n  width: 100%;\n  margin: 5.1px 0; }\n\ninput[type=range]:focus {\n  outline: none; }\n\ninput[type=range]::-webkit-slider-runnable-track {\n  width: 100%;\n  height: 1.8px;\n  cursor: pointer;\n  box-shadow: 0px 0px 0px transparent, 0px 0px 0px rgba(13, 13, 13, 0);\n  background: #000000;\n  border-radius: 0px;\n  border: 0px solid rgba(1, 1, 1, 0); }\n\ninput[type=range]::-webkit-slider-thumb {\n  box-shadow: 0px 0px 0px transparent, 0px 0px 0px rgba(13, 13, 13, 0);\n  border: 0px solid transparent;\n  height: 12px;\n  width: 12px;\n  border-radius: 50px;\n  background: #000000;\n  cursor: pointer;\n  -webkit-appearance: none;\n  margin-top: -5.1px; }\n\ninput[type=range]:focus::-webkit-slider-runnable-track {\n  background: #050505; }\n\ninput[type=range]::-moz-range-track {\n  width: 100%;\n  height: 1.8px;\n  cursor: pointer;\n  box-shadow: 0px 0px 0px transparent, 0px 0px 0px rgba(13, 13, 13, 0);\n  background: #000000;\n  border-radius: 0px;\n  border: 0px solid rgba(1, 1, 1, 0); }\n\ninput[type=range]::-moz-range-thumb {\n  box-shadow: 0px 0px 0px transparent, 0px 0px 0px rgba(13, 13, 13, 0);\n  border: 0px solid transparent;\n  height: 12px;\n  width: 12px;\n  border-radius: 50px;\n  background: #000000;\n  cursor: pointer; }\n\ninput[type=range]::-ms-track {\n  width: 100%;\n  height: 1.8px;\n  cursor: pointer;\n  background: transparent;\n  border-color: transparent;\n  color: transparent; }\n\ninput[type=range]::-ms-fill-lower {\n  background: #000000;\n  border: 0px solid rgba(1, 1, 1, 0);\n  border-radius: 0px;\n  box-shadow: 0px 0px 0px transparent, 0px 0px 0px rgba(13, 13, 13, 0); }\n\ninput[type=range]::-ms-fill-upper {\n  background: #000000;\n  border: 0px solid rgba(1, 1, 1, 0);\n  border-radius: 0px;\n  box-shadow: 0px 0px 0px transparent, 0px 0px 0px rgba(13, 13, 13, 0); }\n\ninput[type=range]::-ms-thumb {\n  box-shadow: 0px 0px 0px transparent, 0px 0px 0px rgba(13, 13, 13, 0);\n  border: 0px solid transparent;\n  height: 12px;\n  width: 12px;\n  border-radius: 50px;\n  background: #000000;\n  cursor: pointer;\n  height: 1.8px; }\n\ninput[type=range]:focus::-ms-fill-lower {\n  background: #000000; }\n\ninput[type=range]:focus::-ms-fill-upper {\n  background: #050505; }\n\n.volumeSlider {\n  width: 50px !important; }\n\n.splash {\n  min-height: 100vh;\n  top: 0;\n  font: 'Cinzel';\n  position: relative;\n  background-color: #102984;\n  border-bottom: #dedddd solid 40px;\n  position: relative; }\n  .splash__content {\n    margin-left: 20px;\n    margin-right: 20px;\n    display: flex;\n    flex-direction: column; }\n    .splash__content__top {\n      margin-top: 50px; }\n      .splash__content__top__logo {\n        width: 300px; }\n    .splash__content__mid {\n      min-height: 450px;\n      margin-top: 30px;\n      display: flex;\n      justify-content: center;\n      position: relative; }\n      .splash__content__mid__img {\n        position: absolute;\n        opacity: 0;\n        max-height: 400px;\n        box-shadow: 0 2px 3px 1px rgba(0, 0, 0, 0.15), 0 2px 5px 0 rgba(0, 0, 0, 0.15); }\n    .splash__content__bot {\n      display: flex;\n      justify-content: center;\n      position: relative; }\n      .splash__content__bot__paraOne {\n        max-width: 1500px;\n        margin-bottom: 25px;\n        margin-left: 15px;\n        display: flex;\n        flex-direction: column;\n        position: relative; }\n      .splash__content__bot__paraTwo {\n        margin-left: 30px;\n        margin-bottom: 30px; }\n  .splash__arrowContainer {\n    position: absolute;\n    bottom: 30px;\n    left: 40px; }\n    .splash__arrowContainer__arrow {\n      width: 13px;\n      height: 13px;\n      border-bottom: 2px solid #909ecd;\n      border-right: 2px solid #909ecd;\n      -webkit-transform: translate(-50%, 0%) rotate(45deg);\n      -moz-transform: translate(-50%, 0%) rotate(45deg);\n      transform: translate(-50%, 0%) rotate(45deg);\n      -webkit-animation: move_down 4s ease-in-out infinite;\n      -moz-animation: move_down 4s ease-in-out infinite;\n      animation: move_down 4s ease-in-out infinite; }\n\n.splash__h2,\n.splash__contact {\n  font-family: sans-serif;\n  color: #909ecd;\n  font-size: 14px;\n  display: inline;\n  font-weight: lighter; }\n\n.splash__contact {\n  font-weight: normal;\n  text-decoration: underline; }\n\n.splash__contact:hover {\n  color: white; }\n\n.splash__clients {\n  font-family: 'Cormorant Garamond', serif;\n  font-size: 13px;\n  color: #5b6896; }\n\n.splash__bold {\n  font-weight: bold; }\n\n#splashSlide1 {\n  -webkit-animation: splashIn 20s ease-in-out infinite;\n  -moz-animation: splashIn 20s ease-in-out infinite;\n  animation: splashIn 20s ease-in-out infinite; }\n\n#splashSlide2 {\n  -webkit-animation: splashIn 20s ease-in-out infinite;\n  -moz-animation: splashIn 20s ease-in-out infinite;\n  animation: splashIn 20s ease-in-out infinite;\n  -webkit-animation-delay: 5s;\n  /* Safari 4.0 - 8.0 */\n  animation-delay: 5s; }\n\n#splashSlide3 {\n  box-shadow: none;\n  -webkit-animation: splashIn 20s ease-in-out infinite;\n  -moz-animation: splashIn 20s ease-in-out infinite;\n  animation: splashIn 20s ease-in-out infinite;\n  -webkit-animation-delay: 10s;\n  /* Safari 4.0 - 8.0 */\n  animation-delay: 10s; }\n\n#splashSlide4 {\n  -webkit-animation: splashIn 20s ease-in-out infinite;\n  -moz-animation: splashIn 20s ease-in-out infinite;\n  animation: splashIn 20s ease-in-out infinite;\n  -webkit-animation-delay: 15s;\n  /* Safari 4.0 - 8.0 */\n  animation-delay: 15s; }\n\n/*\n===================================\n    ANIMATIONS\n===================================\n*/\n@keyframes move_down {\n  0% {\n    transform: translate(0, -10px) rotate(45deg);\n    opacity: 0; }\n  50% {\n    opacity: 1; }\n  100% {\n    transform: translate(0, 10px) rotate(45deg);\n    opacity: 0; } }\n\n@keyframes splashIn {\n  0% {\n    opacity: 0; }\n  10% {\n    opacity: 1; }\n  20% {\n    opacity: 1; }\n  25% {\n    opacity: 0; }\n  100% {\n    opacity: 0; } }\n\n/*\n===================================\n    MEDIA QUERIES\n===================================\n*/\n@media (max-width: 720px) {\n  .splash__content__mid__img {\n    height: 56vw; }\n  .splash__content__mid {\n    min-height: 0px;\n    height: 63vw; } }\n\n@media (max-width: 480px) {\n  .splash__content__mid {\n    height: 300px; }\n  .splash__content__mid__img {\n    height: 267px; }\n  .splash__content__bot {\n    flex-direction: column; }\n  .splash__h2 {\n    font-size: 18px; }\n  .splash__content__bot__paraOne {\n    margin-left: 0px; }\n  .splash__content__bot__paraTwo {\n    margin-left: 0px; }\n  .splash__contact {\n    font-size: 18px; }\n  .splash__clients {\n    font-size: 18px; } }\n\n.capabilities {\n  background-color: white;\n  min-height: 100vh; }\n  .capabilities__content {\n    margin-left: 10%;\n    margin-right: 10%;\n    margin-top: 50px;\n    transition: filter 1s;\n    filter: blur(0px);\n    -webkit-filter: blur(0px); }\n    .capabilities__content__nav {\n      position: fixed;\n      top: -100px;\n      z-index: 5;\n      display: flex;\n      flex-direction: row;\n      margin-bottom: 30px;\n      background-color: white;\n      height: 70px;\n      width: 100%;\n      align-items: center;\n      box-shadow: rgba(0, 0, 0, 0.2) 1px 2px 5px;\n      transition: top .5s; }\n      .capabilities__content__nav__header {\n        margin-right: 8vw; }\n        .capabilities__content__nav__header__specialButton {\n          position: fixed;\n          right: 100px; }\n        .capabilities__content__nav__header__specialButtonMobile {\n          position: absolute !important;\n          right: 50px !important;\n          display: none; }\n      .capabilities__content__nav__selectBox {\n        display: flex;\n        justify-content: space-between;\n        align-items: center;\n        text-align: center;\n        width: 140px;\n        border-bottom: solid 2px #111; }\n    .capabilities__content__specialNav {\n      position: fixed;\n      top: -500px;\n      z-index: 4;\n      height: 300px;\n      width: 100%;\n      background-color: white;\n      box-shadow: rgba(0, 0, 0, 0.2) 1px 2px 5px;\n      overflow: hidden;\n      -webkit-transition: top .5s ease-in-out;\n      -moz-transition: top .5s ease-in-out;\n      -ms-transition: top .5s ease-in-out;\n      -o-transition: top .5s ease-in-out;\n      transition: top .5s ease-in-out; }\n    .capabilities__content__threerow {\n      display: flex;\n      flex-direction: row;\n      justify-content: space-between;\n      margin-top: 50px; }\n      .capabilities__content__threerow__item {\n        margin: 20px;\n        margin-left: 0px;\n        display: flex;\n        flex-direction: column;\n        transition: 1s all;\n        opacity: .3;\n        width: 17vw; }\n        .capabilities__content__threerow__item__tags {\n          display: flex;\n          flex-direction: row;\n          flex-wrap: wrap; }\n    .capabilities__content__tworow {\n      margin-top: 50px;\n      display: flex;\n      flex-direction: row;\n      justify-content: space-between; }\n      .capabilities__content__tworow__bigItem {\n        margin: 20px;\n        margin-left: 0px;\n        display: flex;\n        flex-direction: column;\n        transition: 1s all;\n        opacity: .3; }\n        .capabilities__content__tworow__bigItem__text {\n          width: 37vw; }\n      .capabilities__content__tworow__smallItem {\n        width: 17vw;\n        margin: 20px;\n        margin-left: 0px;\n        display: flex;\n        flex-direction: column;\n        transition: 1s all;\n        opacity: .3; }\n    .capabilities__content__banner {\n      margin-top: 50px;\n      position: relative;\n      opacity: .3;\n      transition: all .5s; }\n      .capabilities__content__banner__overlay {\n        background-color: rgba(0, 0, 0, 0.5);\n        position: absolute;\n        height: 100%;\n        width: 100%;\n        transition: all .5s; }\n      .capabilities__content__banner__overlay:hover {\n        background-color: rgba(0, 0, 0, 0.2); }\n      .capabilities__content__banner__image {\n        height: 400px;\n        width: 100%; }\n      .capabilities__content__banner__tags {\n        position: absolute;\n        display: flex;\n        flex-direction: row;\n        bottom: 10px;\n        left: 10px; }\n\n.before {\n  width: 5px;\n  height: 5px;\n  margin-left: 6px;\n  border-bottom: 2px solid #000000;\n  border-left: 2px solid #000000;\n  -webkit-transform: translate(-50%, 0%) rotate(45deg);\n  -moz-transform: translate(-50%, 0%) rotate(45deg);\n  transform: translate(-50%, 0%) rotate(45deg); }\n\n.after {\n  width: 5px;\n  height: 5px;\n  border-top: 2px solid #000000;\n  border-right: 2px solid #000000;\n  -webkit-transform: translate(-50%, 0%) rotate(45deg);\n  -moz-transform: translate(-50%, 0%) rotate(45deg);\n  transform: translate(-50%, 0%) rotate(45deg); }\n\n.before:hover,\n.after:hover,\n.capabilities__content__nav__header__specialButton,\n.sideBarCircle {\n  cursor: pointer; }\n\n.navShow {\n  top: 0; }\n\n.specialCard {\n  margin-top: 70px;\n  height: 250px;\n  width: 250px;\n  opacity: 0; }\n\n.specialImg {\n  height: 185px;\n  width: 185px; }\n\n.specialText {\n  font-family: sans-serif; }\n\n.showSpecial {\n  top: 0; }\n\n.specialHide {\n  top: -1000px; }\n\n.galleryLoaded {\n  opacity: 1; }\n\n.flickity-viewport:focus,\n.capabilities__content__specialNav {\n  outline: none; }\n\n.filterSelect {\n  margin-right: 9px;\n  font-size: 20px;\n  font-family: sans-serif; }\n\n.capabilities__header {\n  font-family: 'Cinzel', serif;\n  font-size: 25px;\n  margin-left: 70px;\n  transition: margin-left .5s; }\n\n.capabilities__title {\n  font-family: sans-serif;\n  font-weight: bold;\n  font-size: 20px;\n  margin-top: 10px; }\n\n.capabilities__galleryType {\n  font-size: 17px;\n  font-family: sans-serif;\n  display: inline-block;\n  margin-left: 10px; }\n\n.filterOff {\n  opacity: 1;\n  transition: 1s all; }\n\n.blur {\n  filter: blur(5px);\n  -webkit-filter: blur(5px); }\n\n.capabilities__image {\n  box-shadow: rgba(0, 0, 0, 0.2) 0px 0px;\n  transform: scale(1);\n  transition: all .5s; }\n\n.capabilities__border {\n  border: solid 1px rgba(0, 0, 0, 0.2); }\n\n.capabilities__image:hover {\n  box-shadow: rgba(0, 0, 0, 0.2) 1px 2px 5px;\n  transform: scale(1.025); }\n\n.capabilities__threeImage,\n.capabilities__twoSmallImage {\n  width: 17vw; }\n\n.capabilities__threeLink,\n.capabilities__twoSmallLink {\n  width: 17vw; }\n\n.capabilities__twoBigImage {\n  width: 42vw; }\n\n.capabilities__twoBigLink {\n  width: 600px; }\n\n.capabilities__details {\n  font-size: 20px;\n  font-family: cormorant garamond;\n  font-weight: 100; }\n\n.capabilities__tag {\n  font-size: 12px;\n  font-family: sans-serif;\n  border: solid 1px black;\n  padding: 2px;\n  margin-top: 5px;\n  margin-right: 5px; }\n\n.capabilities__galleryTitle {\n  position: absolute;\n  bottom: 40%;\n  left: 10px;\n  color: white;\n  font-family: sans-serif;\n  font-size: 40px;\n  font-weight: bolder; }\n\n.capabilities__galleryDetails {\n  position: absolute;\n  bottom: 20%;\n  left: 10px;\n  color: white;\n  font-family: cormorant garamond;\n  font-weight: 100;\n  font-size: 25px;\n  width: 400px; }\n\n.capabilities__galleryTag {\n  font-size: 20px;\n  font-family: sans-serif;\n  font-weight: 100;\n  border: solid .5px white;\n  color: white;\n  padding: 2px;\n  margin-top: 10px;\n  margin-right: 10px; }\n\n@-webkit-keyframes navEnter {\n  0% {\n    top: -100px; }\n  100% {\n    top: 0; } }\n\n/* Standard syntax */\n@keyframes navEnter {\n  0% {\n    top: -100px; }\n  100% {\n    top: 0; } }\n\n/*\n===================================\n    MEDIA QUERIES\n===================================\n*/\n@media (max-width: 1200px) {\n  .capabilities__title {\n    font-size: 1.65vw; }\n  .capabilities__details {\n    font-size: 1.65vw; } }\n\n@media (max-width: 960px) {\n  .capabilities__title {\n    font-size: 16px; }\n  .capabilities__details {\n    font-size: 16px; } }\n\n@media (max-width: 760px) {\n  .capabilities__content {\n    margin-left: 0px;\n    margin-right: 0px; }\n  .capabilities__content__threerow,\n  .capabilities__content__tworow {\n    flex-direction: column;\n    margin-left: 5%;\n    margin-right: 5%;\n    position: relative; }\n  .capabilities__content__threerow__item,\n  .capabilities__content__tworow__smallItem {\n    flex-direction: row;\n    width: 100%; }\n  .capabilities__content__nav__header__specialButton {\n    display: none; }\n  .capabilities__header {\n    margin-left: 40px; }\n  .capabilities__content__nav__header__specialButtonMobile {\n    display: block; }\n  .capabilities__threeImage,\n  .capabilities__threeLink,\n  .capabilities__twoSmallImage,\n  .capabilities__twoSmallLink {\n    width: 130px; }\n  .capabilities__threeContent {\n    position: absolute;\n    left: 150px; }\n  .capabilities__twoBigImage,\n  .capabilities__content__tworow__bigItem__text {\n    width: 80%; } }\n\n@media (max-width: 480px) {\n  .capabilities__content__nav__selectBox {\n    display: none; } }\n\n.portHeader {\n  font-size: 45px;\n  font-family: sans-serif; }\n\n.portItalic {\n  font-size: 30px;\n  font-family: sans-serif;\n  font-style: italic; }\n\n.portText {\n  font-family: 'Cormorant Garamond', serif;\n  font-size: 20px; }\n\n.backbutton {\n  position: absolute;\n  top: 20px;\n  left: 20px; }\n\n.visual__carouselContainer {\n  position: relative; }\n  .visual__carouselContainer__loader {\n    position: absolute;\n    width: 500px;\n    z-index: 10;\n    top: 50px;\n    left: 30%;\n    -webkit-animation: loadingAnimation 1s infinite alternate;\n    /* Safari 4.0 - 8.0 */\n    animation: loadingAnimation 1s infinite alternate; }\n  .visual__carouselContainer__carousel {\n    background: #fff !important;\n    padding-top: 50px;\n    width: 100%;\n    overflow: hidden;\n    opacity: 0;\n    transition: all 1s; }\n  .visual__carouselContainer__navBar {\n    width: 100%;\n    height: 100px;\n    margin-bottom: 50px;\n    overflow: hidden;\n    opacity: 0;\n    transition: all 1s; }\n\n.visual__content {\n  margin-left: 10vw;\n  margin-right: 10vw; }\n  .visual__content__text {\n    width: 80%;\n    margin-bottom: 50px; }\n  .visual__content__rowPhoto {\n    width: 100%;\n    height: calc(100vh - 20rem);\n    margin-top: 10px;\n    margin-bottom: 20px; }\n  .visual__content__twoPoster {\n    display: flex;\n    flex-direction: row;\n    justify-content: space-between; }\n    .visual__content__twoPoster__item__poster {\n      width: 38vw;\n      height: 400px; }\n  .visual__content__blurb {\n    display: flex;\n    flex-direction: row;\n    justify-content: space-between; }\n  .visual__content__threePoster {\n    display: flex;\n    flex-direction: row;\n    justify-content: space-between; }\n    .visual__content__threePoster__item {\n      width: 30%; }\n      .visual__content__threePoster__item__card {\n        width: 100%; }\n\n.visualTitle {\n  margin-bottom: 20px; }\n\n.card {\n  margin: 10px;\n  height: calc(100vh - 15rem); }\n\n.caroImg {\n  height: calc(100vh - 15rem);\n  pointer-events: none; }\n\n.navCard {\n  height: 100px;\n  margin: 2px;\n  opacity: .5;\n  transition: opacity 1s; }\n\n.navImg {\n  height: 100px;\n  pointer-events: none; }\n\n.flickity-viewport:focus,\n.visual__carouselContainer__carousel,\n.visual__carouselContainer__navBar {\n  outline: none; }\n\n.galleryLoaded {\n  opacity: 1; }\n\n.navCard.is-selected {\n  opacity: 1; }\n\n.linebreak {\n  margin-bottom: 10px; }\n\n@-webkit-keyframes loadingAnimation {\n  0% {\n    -webkit-transform: scale(1);\n    /* Ch <36, Saf 5.1+, iOS < 9.2, An =<4.4.4 */\n    -ms-transform: scale(1);\n    /* IE 9 */\n    transform: scale(1); }\n  100% {\n    -webkit-transform: scale(1.2);\n    /* Ch <36, Saf 5.1+, iOS < 9.2, An =<4.4.4 */\n    -ms-transform: scale(1.2);\n    /* IE 9 */\n    transform: scale(1.2); } }\n\n/* Standard syntax */\n@keyframes loadingAnimation {\n  0% {\n    -webkit-transform: scale(1);\n    /* Ch <36, Saf 5.1+, iOS < 9.2, An =<4.4.4 */\n    -ms-transform: scale(1);\n    /* IE 9 */\n    transform: scale(1); }\n  100% {\n    -webkit-transform: scale(1.2);\n    /* Ch <36, Saf 5.1+, iOS < 9.2, An =<4.4.4 */\n    -ms-transform: scale(1.2);\n    /* IE 9 */\n    transform: scale(1.2); } }\n\n/*\n===================================\n    MEDIA QUERIES\n===================================\n*/\n@media (max-width: 900px) {\n  .card {\n    width: 70vw;\n    height: calc(100vh - 15rem);\n    position: relative; }\n  .caroImg {\n    max-height: 100%;\n    max-width: 95%;\n    height: auto;\n    margin: auto;\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    -webkit-transform: translateY(-50%) translateX(-50%);\n    -moz-transform: translateY(-50%) translateX(-50%);\n    -ms-transform: translateY(-50%) translateX(-50%);\n    -o-transform: translateY(-50%) translateX(-50%);\n    transform: translateY(-50%) translateX(-50%); } }\n\n@media (max-width: 760px) {\n  .card {\n    width: 60vw;\n    height: 67vw; }\n  .navCard {\n    height: 10vw; }\n  .navImg {\n    height: inherit; }\n  .portHeader {\n    font-size: 6vw; }\n  .portItalic {\n    font-size: 4vw; } }\n\n@media (max-width: 500px) {\n  .card {\n    height: 370px; }\n  .navCard {\n    height: 50px; }\n  .portHeader {\n    font-size: 30px; }\n  .portItalic {\n    font-size: 20px; } }\n\n.audio__content {\n  margin-left: 10vw;\n  margin-right: 10vw; }\n  .audio__content__album {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    padding-top: 150px; }\n    .audio__content__album__tilt {\n      height: 400px;\n      width: 400px;\n      transition: all .1s; }\n      .audio__content__album__tilt__cover {\n        height: 100%;\n        width: 100%; }\n    .audio__content__album__media {\n      width: 400px;\n      display: flex;\n      justify-content: space-between;\n      align-items: center;\n      margin-top: 25px; }\n      .audio__content__album__media__play {\n        width: 60px;\n        font-family: sans-serif; }\n      .audio__content__album__media__input {\n        position: relative;\n        display: flex;\n        align-items: center;\n        justify-content: center;\n        width: 80%;\n        margin-left: 10px;\n        margin-right: 10px; }\n      .audio__content__album__media__volume {\n        display: flex; }\n        .audio__content__album__media__volume__mute {\n          height: 20px;\n          width: 20px;\n          margin-right: 3px; }\n  .audio__content__text {\n    margin-top: 50px;\n    margin-bottom: 50px; }\n\n.audio__content__album__media__play:hover,\n.audio__content__album__media__volume__mute:hover {\n  cursor: pointer; }\n\n/*\n===================================\n    MEDIA QUERIES\n===================================\n*/\n@media (max-width: 760px) {\n  .audio__content__album__media {\n    width: 52vw; }\n  .audio__content__album {\n    margin-left: 10px;\n    margin-right: 10px; }\n  .audio__content__album__tilt {\n    height: 52vw;\n    width: 52vw; } }\n\n@media (max-width: 500px) {\n  .audio__content__album__tilt {\n    height: 260px;\n    width: 260px; }\n  .audio__content__album__media {\n    width: 260px; } }\n\n.video__content {\n  margin-left: 10vw;\n  margin-right: 10vw; }\n  .video__content__video {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    padding-top: 120px; }\n    .video__content__video__container {\n      height: 400px;\n      width: 700px; }\n    .video__content__video__media {\n      width: 700px;\n      display: flex;\n      justify-content: space-between;\n      align-items: center; }\n      .video__content__video__media__playing {\n        display: flex;\n        justify-content: space-between;\n        align-items: center;\n        width: 70px; }\n        .video__content__video__media__playing__play {\n          font-family: sans-serif;\n          width: 80px; }\n        .video__content__video__media__playing__fullscreen {\n          width: 30px;\n          height: 30px; }\n      .video__content__video__media__input {\n        position: relative;\n        display: flex;\n        align-items: center;\n        justify-content: center;\n        width: 75%;\n        margin-left: 10px;\n        margin-right: 10px; }\n      .video__content__video__media__volume {\n        display: flex; }\n        .video__content__video__media__volume__mute {\n          height: 20px;\n          width: 20px;\n          margin-right: 3px; }\n  .video__content__text {\n    margin-top: 50px;\n    margin-bottom: 50px; }\n\n.video__content__album__media__volume__mute {\n  height: 20px;\n  width: 20px;\n  margin-right: 3px; }\n\n.fullscreen:hover {\n  -webkit-filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.5));\n  -ms-filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.5));\n  filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.5));\n  cursor: pointer; }\n\n.video__content__video__media__playing__play:hover,\n.video__content__album__media__volume__mute:hover {\n  cursor: pointer; }\n\n.videoHeader {\n  font-size: 45px;\n  font-family: sans-serif; }\n\n.videoItalic {\n  font-size: 30px;\n  font-family: sans-serif;\n  font-style: italic; }\n\n/*\n===================================\n    MEDIA QUERIES\n===================================\n*/\n@media (max-width: 760px) {\n  .video__content {\n    margin-left: 10px;\n    margin-right: 10px; }\n  .video__content__video__container,\n  .video__content__video__media {\n    width: 100%; }\n  .video__content__video__container {\n    height: 55vw; }\n  .videoHeader {\n    font-size: 6vw; }\n  .videoItalic {\n    font-size: 4vw; } }\n\n@media (max-width: 480px) {\n  .videoHeader {\n    font-size: 30px; }\n  .videoItalic {\n    font-size: 20px; } }\n\n.about {\n  background-color: black;\n  margin-left: 20px;\n  margin-right: 20px;\n  color: white;\n  min-height: 100vh;\n  padding-bottom: 20px; }\n  .about__top__img {\n    margin-top: 50px;\n    width: 300px; }\n  .about__main {\n    margin-left: 25vw;\n    margin-top: 60px; }\n    .about__main__profile {\n      max-width: 800px; }\n      .about__main__profile__contact {\n        display: flex;\n        flex-direction: row; }\n      .about__main__profile__images {\n        display: flex;\n        flex-direction: row;\n        margin-left: 50px; }\n        .about__main__profile__images__item {\n          display: flex;\n          flex-direction: column;\n          margin-right: 100px; }\n    .about__main__process {\n      max-width: 800px; }\n    .about__main__capabilities {\n      max-width: 800px; }\n\n.aboutContainer {\n  background-color: black;\n  width: 100%;\n  z-index: 9;\n  position: fixed; }\n\n.about__link,\n.about__slash {\n  display: inline;\n  font-family: sans-serif;\n  font-size: 25px;\n  color: #606060;\n  transition: all .5s; }\n\n.about__link {\n  font-weight: lighter; }\n\n.about__link:hover {\n  cursor: pointer;\n  color: #cbcbcb; }\n\n.about__selected {\n  color: #cbcbcb; }\n\n.about__slash {\n  font-weight: 600; }\n\n.about__text {\n  font-size: 20px;\n  font-family: 'Cormorant Garamond', serif; }\n\n.about__profName {\n  font-family: sans-serif;\n  color: white;\n  font-size: 18px; }\n\n.about__email {\n  font-family: sans-serif;\n  color: #606060;\n  font-size: 16px; }\n\n.about__hide {\n  display: none; }\n\n/*\n===================================\n    MEDIA QUERIES\n===================================\n*/\n@media (max-width: 720px) {\n  .about__main {\n    margin-left: 0px; }\n  .about__picture {\n    display: none; }\n  .about__main__profile__images {\n    flex-direction: column; }\n  .about__main__profile__images__item {\n    margin-bottom: 25px; } }\n\n@media (max-width: 480px) {\n  .about__text {\n    font-size: 18px; }\n  .about__profName {\n    font-size: 16px; }\n  .about__email {\n    font-size: 15px; } }\n\n.notFoundPage {\n  display: flex;\n  -webkit-box-align: center;\n  -webkit-box-pack: center;\n  align-content: center;\n  align-items: center;\n  background: url(/imgs/util/404.gif) no-repeat;\n  background-position: 50%;\n  background-size: cover;\n  justify-content: center;\n  height: 100vh; }\n\n.errorText {\n  font-size: 30vw;\n  font-family: monospace;\n  font-weight: 900;\n  color: white;\n  text-shadow: -4px -1px black, 0 1px black, 3px -2px black, -4px 2px black; }\n\n* {\n  min-height: 0;\n  min-width: 0; }\n\nmain {\n  width: 100%; }\n\n.sideBarContainer {\n  position: fixed;\n  top: 20px;\n  right: 0%;\n  width: 75px;\n  height: 30px;\n  z-index: 10; }\n\n.sideBarCircle {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  position: relative;\n  width: 30px;\n  height: 30px;\n  background: white;\n  border: solid 1px white;\n  box-shadow: 0 2px 3px 1px rgba(0, 0, 0, 0.15), 0 2px 5px 0 rgba(0, 0, 0, 0.15);\n  border-radius: 50%; }\n\n.transparent {\n  background: transparent; }\n\n.x {\n  width: 14px;\n  z-index: 0; }\n\n.助,\n.帰 {\n  width: 14px;\n  color: #111;\n  position: fixed;\n  opacity: 1;\n  transition: all .2s; }\n\n.助 {\n  right: 47.5px; }\n\n.帰 {\n  left: 38px; }\n\n.hidden {\n  opacity: 0; }\n\n.back {\n  left: 0%;\n  margin-left: 30px; }\n\n::-moz-selection {\n  color: white;\n  background: grey; }\n\n::selection {\n  color: white;\n  background: grey; }\n", ""]);
 	
 	// exports
 
@@ -35145,7 +35145,7 @@
 	            { className: 'capabilities__content__threerow' },
 	            _react2.default.createElement(
 	              'div',
-	              { className: "capabilities__content__threerow__item " + (this.state.all ? 'filterOff' : '') + (this.state.identities ? 'filterOff' : '') },
+	              { className: "capabilities__content__threerow__item " + (this.state.all ? 'filterOff' : '') + (this.state.identities ? 'filterOff' : '') + (this.state.print ? 'filterOff' : '') },
 	              _react2.default.createElement(
 	                _reactRouterDom.Link,
 	                { className: 'capabilities__threeLink', to: '/visual/telegram' },
@@ -35174,12 +35174,17 @@
 	                  _react2.default.createElement(
 	                    'p',
 	                    { className: 'capabilities__tag' },
-	                    ' TYPOGRAPHY '
+	                    ' VISUAL IDENTITY '
 	                  ),
 	                  _react2.default.createElement(
 	                    'p',
 	                    { className: 'capabilities__tag' },
-	                    ' EDITORIAL '
+	                    ' PRINT '
+	                  ),
+	                  _react2.default.createElement(
+	                    'p',
+	                    { className: 'capabilities__tag' },
+	                    ' STRATEGY '
 	                  )
 	                )
 	              )
@@ -35215,19 +35220,24 @@
 	                  _react2.default.createElement(
 	                    'p',
 	                    { className: 'capabilities__tag' },
-	                    ' TYPOGRAPHY '
+	                    ' VISUAL IDENTITY '
 	                  ),
 	                  _react2.default.createElement(
 	                    'p',
 	                    { className: 'capabilities__tag' },
-	                    ' EDITORIAL '
+	                    ' STRATEGY '
+	                  ),
+	                  _react2.default.createElement(
+	                    'p',
+	                    { className: 'capabilities__tag' },
+	                    ' INTERACTIVE '
 	                  )
 	                )
 	              )
 	            ),
 	            _react2.default.createElement(
 	              'div',
-	              { className: "capabilities__content__threerow__item " + (this.state.all ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '') },
+	              { className: "capabilities__content__threerow__item " + (this.state.all ? 'filterOff' : '') + (this.state.identity ? 'filterOff' : '') + (this.state.print ? 'filterOff' : '') },
 	              _react2.default.createElement(
 	                _reactRouterDom.Link,
 	                { className: 'capabilities__threeLink', to: '/visual/connersmith' },
@@ -35256,12 +35266,17 @@
 	                  _react2.default.createElement(
 	                    'p',
 	                    { className: 'capabilities__tag' },
-	                    ' TYPOGRAPHY '
+	                    ' VISUAL IDENTITY '
 	                  ),
 	                  _react2.default.createElement(
 	                    'p',
 	                    { className: 'capabilities__tag' },
-	                    ' EDITORIAL '
+	                    ' PRINT '
+	                  ),
+	                  _react2.default.createElement(
+	                    'p',
+	                    { className: 'capabilities__tag' },
+	                    ' STRATEGY '
 	                  )
 	                )
 	              )
@@ -35301,12 +35316,17 @@
 	                  _react2.default.createElement(
 	                    'p',
 	                    { className: 'capabilities__tag' },
-	                    ' TYPOGRAPHY '
+	                    ' VISUAL IDENTITY '
 	                  ),
 	                  _react2.default.createElement(
 	                    'p',
 	                    { className: 'capabilities__tag' },
-	                    ' EDITORIAL '
+	                    ' INTERACTIVE '
+	                  ),
+	                  _react2.default.createElement(
+	                    'p',
+	                    { className: 'capabilities__tag' },
+	                    ' STRATEGY '
 	                  )
 	                )
 	              )
@@ -35342,12 +35362,17 @@
 	                  _react2.default.createElement(
 	                    'p',
 	                    { className: 'capabilities__tag' },
-	                    ' TYPOGRAPHY '
+	                    ' VISUAL IDENTITY '
 	                  ),
 	                  _react2.default.createElement(
 	                    'p',
 	                    { className: 'capabilities__tag' },
-	                    ' EDITORIAL '
+	                    ' INTERACTIVE '
+	                  ),
+	                  _react2.default.createElement(
+	                    'p',
+	                    { className: 'capabilities__tag' },
+	                    ' STRATEGY '
 	                  )
 	                )
 	              )
@@ -35387,7 +35412,12 @@
 	                  _react2.default.createElement(
 	                    'p',
 	                    { className: 'capabilities__tag' },
-	                    ' TYPOGRAPHY '
+	                    ' TYPE DESIGN '
+	                  ),
+	                  _react2.default.createElement(
+	                    'p',
+	                    { className: 'capabilities__tag' },
+	                    ' INTERACTIVE '
 	                  ),
 	                  _react2.default.createElement(
 	                    'p',
@@ -35402,7 +35432,7 @@
 	              { className: "capabilities__content__threerow__item " + (this.state.all ? 'filterOff' : '') + (this.state.identities ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '') },
 	              _react2.default.createElement(
 	                _reactRouterDom.Link,
-	                { className: 'capabilities__threeLink', to: '/visual/omni' },
+	                { className: 'capabilities__threeLink', to: '/visual/eurosign' },
 	                _react2.default.createElement('img', { className: 'capabilities__image capabilities__threeImage', src: '/imgs/eurosign/eurosignPort.png' })
 	              ),
 	              _react2.default.createElement(
@@ -35428,19 +35458,24 @@
 	                  _react2.default.createElement(
 	                    'p',
 	                    { className: 'capabilities__tag' },
-	                    ' TYPOGRAPHY '
+	                    ' VISUAL IDENTITY '
 	                  ),
 	                  _react2.default.createElement(
 	                    'p',
 	                    { className: 'capabilities__tag' },
-	                    ' EDITORIAL '
+	                    ' INTERACTIVE '
+	                  ),
+	                  _react2.default.createElement(
+	                    'p',
+	                    { className: 'capabilities__tag' },
+	                    ' STRATEGY '
 	                  )
 	                )
 	              )
 	            ),
 	            _react2.default.createElement(
 	              'div',
-	              { className: "capabilities__content__threerow__item " + (this.state.all ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '') },
+	              { className: "capabilities__content__threerow__item " + (this.state.all ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '') + (this.state.print ? 'filterOff' : '') },
 	              _react2.default.createElement(
 	                _reactRouterDom.Link,
 	                { className: 'capabilities__threeLink', to: '/visual/monza' },
@@ -35487,7 +35522,7 @@
 	              } },
 	            _react2.default.createElement(
 	              'div',
-	              { className: "capabilities__content__banner " + (this.state.all ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '') },
+	              { className: "capabilities__content__banner " + (this.state.all ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '') + (this.state.artDirection ? 'filterOff' : '') },
 	              _react2.default.createElement(
 	                'div',
 	                { className: 'capabilities__content__banner__overlay' },
@@ -35510,12 +35545,22 @@
 	                _react2.default.createElement(
 	                  'p',
 	                  { className: 'capabilities__galleryTag' },
-	                  ' TYPOGRAPHY '
+	                  ' ART DIRECTION '
 	                ),
 	                _react2.default.createElement(
 	                  'p',
 	                  { className: 'capabilities__galleryTag' },
-	                  ' EDITORIAL '
+	                  ' PRINT '
+	                ),
+	                _react2.default.createElement(
+	                  'p',
+	                  { className: 'capabilities__galleryTag' },
+	                  ' INTERACTIVE '
+	                ),
+	                _react2.default.createElement(
+	                  'p',
+	                  { className: 'capabilities__galleryTag' },
+	                  ' STRATEGY '
 	                )
 	              )
 	            )
@@ -35554,12 +35599,12 @@
 	                  _react2.default.createElement(
 	                    'p',
 	                    { className: 'capabilities__tag' },
-	                    ' TYPOGRAPHY '
+	                    ' VISUAL IDENTITY '
 	                  ),
 	                  _react2.default.createElement(
 	                    'p',
 	                    { className: 'capabilities__tag' },
-	                    ' EDITORIAL '
+	                    ' PRINT '
 	                  )
 	                )
 	              )
@@ -35595,12 +35640,12 @@
 	                  _react2.default.createElement(
 	                    'p',
 	                    { className: 'capabilities__tag' },
-	                    ' TYPOGRAPHY '
+	                    ' VISUAL IDENTITY '
 	                  ),
 	                  _react2.default.createElement(
 	                    'p',
 	                    { className: 'capabilities__tag' },
-	                    ' EDITORIAL '
+	                    ' INTERACTIVE '
 	                  )
 	                )
 	              )
@@ -35611,7 +35656,7 @@
 	            { className: 'capabilities__content__threerow' },
 	            _react2.default.createElement(
 	              'div',
-	              { className: "capabilities__content__threerow__item " + (this.state.all ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '') },
+	              { className: "capabilities__content__threerow__item " + (this.state.all ? 'filterOff' : '') + (this.state.print ? 'filterOff' : '') },
 	              _react2.default.createElement(
 	                _reactRouterDom.Link,
 	                { className: 'capabilities__threeLink', to: '/visual/blow' },
@@ -35640,7 +35685,7 @@
 	                  _react2.default.createElement(
 	                    'p',
 	                    { className: 'capabilities__tag' },
-	                    ' TYPOGRAPHY '
+	                    ' PRINT '
 	                  ),
 	                  _react2.default.createElement(
 	                    'p',
@@ -35681,19 +35726,24 @@
 	                  _react2.default.createElement(
 	                    'p',
 	                    { className: 'capabilities__tag' },
-	                    ' TYPOGRAPHY '
+	                    ' IDENTITY '
 	                  ),
 	                  _react2.default.createElement(
 	                    'p',
 	                    { className: 'capabilities__tag' },
 	                    ' EDITORIAL '
+	                  ),
+	                  _react2.default.createElement(
+	                    'p',
+	                    { className: 'capabilities__tag' },
+	                    ' INTERACTIVE '
 	                  )
 	                )
 	              )
 	            ),
 	            _react2.default.createElement(
 	              'div',
-	              { className: "capabilities__content__threerow__item " + (this.state.all ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '') },
+	              { className: "capabilities__content__threerow__item " + (this.state.all ? 'filterOff' : '') + (this.state.print ? 'filterOff' : '') },
 	              _react2.default.createElement(
 	                _reactRouterDom.Link,
 	                { className: 'capabilities__threeLink', to: '/visual/editorial' },
@@ -35722,7 +35772,7 @@
 	                  _react2.default.createElement(
 	                    'p',
 	                    { className: 'capabilities__tag' },
-	                    ' TYPOGRAPHY '
+	                    ' PRINT '
 	                  ),
 	                  _react2.default.createElement(
 	                    'p',
@@ -35738,7 +35788,7 @@
 	            { className: 'capabilities__content__threerow' },
 	            _react2.default.createElement(
 	              'div',
-	              { className: "capabilities__content__threerow__item " + (this.state.all ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '') },
+	              { className: "capabilities__content__threerow__item " + (this.state.all ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '') + (this.state.artDirection ? 'filterOff' : '') },
 	              _react2.default.createElement(
 	                _reactRouterDom.Link,
 	                { className: 'capabilities__threeLink', to: '/visual/fringe' },
@@ -35767,19 +35817,19 @@
 	                  _react2.default.createElement(
 	                    'p',
 	                    { className: 'capabilities__tag' },
-	                    ' TYPOGRAPHY '
+	                    ' ART DIRECTION '
 	                  ),
 	                  _react2.default.createElement(
 	                    'p',
 	                    { className: 'capabilities__tag' },
-	                    ' EDITORIAL '
+	                    ' IDENTITY '
 	                  )
 	                )
 	              )
 	            ),
 	            _react2.default.createElement(
 	              'div',
-	              { className: "capabilities__content__threerow__item " + (this.state.all ? 'filterOff' : '') + (this.state.identities ? 'filterOff' : '') },
+	              { className: "capabilities__content__threerow__item " + (this.state.all ? 'filterOff' : '') + (this.state.identities ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '') },
 	              _react2.default.createElement(
 	                _reactRouterDom.Link,
 	                { className: 'capabilities__threeLink', to: '/visual/studios' },
@@ -35808,19 +35858,24 @@
 	                  _react2.default.createElement(
 	                    'p',
 	                    { className: 'capabilities__tag' },
-	                    ' TYPOGRAPHY '
+	                    ' VISUAL IDENTITY '
 	                  ),
 	                  _react2.default.createElement(
 	                    'p',
 	                    { className: 'capabilities__tag' },
-	                    ' EDITORIAL '
+	                    ' INTERACTIVE '
+	                  ),
+	                  _react2.default.createElement(
+	                    'p',
+	                    { className: 'capabilities__tag' },
+	                    ' STRATEGY '
 	                  )
 	                )
 	              )
 	            ),
 	            _react2.default.createElement(
 	              'div',
-	              { className: "capabilities__content__threerow__item " + (this.state.all ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '') },
+	              { className: "capabilities__content__threerow__item " + (this.state.all ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '') + (this.state.identities ? 'filterOff' : '') },
 	              _react2.default.createElement(
 	                _reactRouterDom.Link,
 	                { className: 'capabilities__threeLink', to: '/visual/emerge' },
@@ -35849,12 +35904,17 @@
 	                  _react2.default.createElement(
 	                    'p',
 	                    { className: 'capabilities__tag' },
-	                    ' TYPOGRAPHY '
+	                    ' VISUAL IDENTITY '
 	                  ),
 	                  _react2.default.createElement(
 	                    'p',
 	                    { className: 'capabilities__tag' },
-	                    ' EDITORIAL '
+	                    ' INTERACTIVE '
+	                  ),
+	                  _react2.default.createElement(
+	                    'p',
+	                    { className: 'capabilities__tag' },
+	                    ' STRATEGY '
 	                  )
 	                )
 	              )
@@ -35894,7 +35954,7 @@
 	                  _react2.default.createElement(
 	                    'p',
 	                    { className: 'capabilities__tag' },
-	                    ' TYPOGRAPHY '
+	                    ' VISUAL IDENTITY '
 	                  ),
 	                  _react2.default.createElement(
 	                    'p',
@@ -35909,7 +35969,7 @@
 	              { className: "capabilities__content__tworow__smallItem " + (this.state.all ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '') },
 	              _react2.default.createElement(
 	                _reactRouterDom.Link,
-	                { className: 'capabilities__twoSmallLink', to: '/visual/1432r' },
+	                { className: 'capabilities__twoSmallLink', to: '/visual/newtypo' },
 	                _react2.default.createElement('img', { className: 'capabilities__image capabilities__twoSmallImage capabilities__border', src: '/imgs/newTypo/newTypoPort.png' })
 	              ),
 	              _react2.default.createElement(
@@ -35935,12 +35995,12 @@
 	                  _react2.default.createElement(
 	                    'p',
 	                    { className: 'capabilities__tag' },
-	                    ' TYPOGRAPHY '
+	                    ' SPACIAL DESIGN '
 	                  ),
 	                  _react2.default.createElement(
 	                    'p',
 	                    { className: 'capabilities__tag' },
-	                    ' EDITORIAL '
+	                    ' INTERACTIVE '
 	                  )
 	                )
 	              )
@@ -39951,9 +40011,9 @@
 	});
 	var PortfolioData = {
 	  special: [{
-	    image: "/imgs/special/14u.jpg",
-	    title: "14TH AND U",
-	    link: "/visual/14u"
+	    image: "/imgs/special/13u.jpg",
+	    title: "13TH AND U",
+	    link: "/visual/13u"
 	  }, {
 	    image: "/imgs/special/1432rmix.jpg",
 	    title: "ETHICS EP",
@@ -39964,7 +40024,7 @@
 	    link: "/visual/ecube"
 	  }, {
 	    image: "/imgs/special/rawle.jpg",
-	    title: "RALWE NIGHT LONG",
+	    title: "RAWLE NIGHT LONG",
 	    link: "/visual/rawlenightlong"
 	  }]
 	};
@@ -53638,6 +53698,83 @@
 	    cards: ['/imgs/blackstar/blackstar1.jpg', '/imgs/blackstar/blackstar2.jpg', '/imgs/blackstar/blackstar3.jpg', '/imgs/blackstar/blackstar4.jpg', '/imgs/blackstar/blackstarPort.jpg']
 	  },
 	
+	  ecube: {
+	    title: "ECUBE",
+	    type: "Product Design, Interactice",
+	    headText: ["Still Need Copy"],
+	    cards: ['/imgs/ecube/ecube1.jpg', '/imgs/ecube/ecube2.jpg', '/imgs/ecube/ecube3.jpg', '/imgs/ecube/ecube4.jpg', '/imgs/ecube/ecube5.jpg', '/imgs/ecube/ecube6.jpg']
+	  },
+	
+	  eddy: {
+	    title: "EDDY",
+	    type: "Identity, Print",
+	    headText: ["Eddy stills needs copy"],
+	    cards: ['/imgs/eddy/eddy1.jpg', '/imgs/eddy/eddy2.jpg', '/imgs/eddy/eddy3.jpg', '/imgs/eddy/eddy4.jpg']
+	  },
+	
+	  eurosign: {
+	    title: "EUROSIGN",
+	    type: "Identity, Interactive, Strategy",
+	    headText: ["needs copy"],
+	    cards: ['/imgs/eurosign/euro1.jpg', '/imgs/eurosign/euro2.jpg', '/imgs/eurosign/euro3.jpg']
+	  },
+	
+	  '1432r': {
+	    title: "1432R",
+	    type: "Identity, Interactive",
+	    headText: ["needs copy"],
+	    cards: ['/imgs/1432r/head1.jpg', '/imgs/1432r/cover1.jpg', '/imgs/1432r/head2.jpg', '/imgs/1432r/cover2.jpg', '/imgs/1432r/head3.jpg', '/imgs/1432r/cover3.jpg', '/imgs/1432r/hat1.jpg', '/imgs/1432r/cover4.jpg', '/imgs/1432r/digital1.jpg', '/imgs/1432r/cover5.jpg', '/imgs/1432r/cover6.jpg', '/imgs/1432r/cover7.jpg', '/imgs/1432r/cover8.jpg', '/imgs/1432r/cover9.jpg']
+	  },
+	
+	  blow: {
+	    title: "BLOW UP",
+	    type: "Print, Editorial",
+	    headText: ["needs copy"],
+	    cards: ['/imgs/blow/blowPort.png']
+	  },
+	
+	  room: {
+	    title: "ROOM",
+	    type: "Identity, Editorial, Interactive",
+	    headText: ["needs copy"],
+	    cards: ['/imgs/room/roomPort.png', '/imgs/room/room1.jpg']
+	  },
+	
+	  editorial: {
+	    title: "EDITORIALS",
+	    type: "Print, Editorial",
+	    headText: ["needs copy"],
+	    cards: ['/imgs/editorial/editorial1.jpg', '/imgs/editorial/editorial2.jpg', '/imgs/editorial/editorial3.jpg', '/imgs/editorial/editorial4.jpg', '/imgs/editorial/editorial5.jpg', '/imgs/editorial/editorial6.jpg', '/imgs/editorial/editorial7.jpg']
+	  },
+	
+	  emerge: {
+	    title: "EMERGE",
+	    type: "Identity, Interactive, Strategy",
+	    headText: ["needs copy"],
+	    cards: ['/imgs/emerge/emerge1.jpg', '/imgs/emerge/emerge2.jpg', '/imgs/emerge/emerge3.jpg', '/imgs/emerge/emerge4.jpg', '/imgs/emerge/emerge5.jpg']
+	  },
+	
+	  newtypo: {
+	    title: "NEW TYPOGRAPHY",
+	    type: "Special Design, Interactive",
+	    headText: ["Needs Copy"],
+	    cards: ['/imgs/newtypo/newtypo1.png', '/imgs/newtypo/newtypo2.png', '/imgs/newtypo/newtypo3.png', '/imgs/newtypo/newtypo4.png', '/imgs/newtypo/newtypo5.jpeg', '/imgs/newtypo/newtypo6.jpeg', '/imgs/newtypo/newtypo7.jpeg', '/imgs/newtypo/newtypo8.jpeg', '/imgs/newtypo/newtypo9.jpg']
+	  },
+	
+	  identity: {
+	    title: "IDENTITY *IN PROGRESS",
+	    type: "Identity, Editorial",
+	    headText: ["needs Copy"],
+	    cards: ['/imgs/newtypo/newtypo1.png']
+	  },
+	
+	  '13u': {
+	    title: "13TH & U",
+	    type: "Identity, Branding",
+	    headText: ["Needs Copy"],
+	    cards: ['/imgs/newtypo/newtypo1.png']
+	  },
+	
 	  monza: {
 	    title: "Monza",
 	    type: "Interactive",
@@ -53656,7 +53793,7 @@
 	    title: "FRINGE",
 	    type: "Visual Identity, Print, Strategy, Interactive",
 	    headText: ["A word mark for DC based art fair Fringe, channeling the super-minimal direction to let the work take center stage. A bespoke san serif layout was created to be used across stationery and screen. The color was chosen to the represent the city the fair is based in."],
-	    cards: ['/imgs/rhizome/rhizome1.jpg', '/imgs/rhizome/rhizome2.jpg', '/imgs/rhizome/rhizome3.jpg', '/imgs/rhizome/rhizome4.jpg', '/imgs/rhizome/rhizome5.jpg']
+	    cards: ['/imgs/fringe/fringe1.jpg', '/imgs/fringe/fringe2.jpg', '/imgs/fringe/fringe3.jpg', '/imgs/fringe/fringe4.jpg', '/imgs/fringe/fringe5.jpg']
 	  },
 	
 	  sea: {
@@ -53664,108 +53801,92 @@
 	    type: "Visual Identity, Print, Strategy",
 	    headText: ["The Space Exploration Alliance (SEA) is a collaboration of leading non-profit organizations that advocate for the exploration and development of outer space.", "The rebrand inserts the idea of exploration and space within the identity. Spatially, the identity is very mobile and expansive."],
 	    cards: ['/imgs/sea/seaPort.jpg', '/imgs/sea/sea5.jpg', '/imgs/sea/sea4.jpg', '/imgs/sea/sea1.jpg']
-	  },
-	
-	  ecube: {
-	    title: "ECube",
-	    type: "Print",
-	    headText: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida, ligula sodales viverra suscipit, orci lectus elementum velit, et finibus libero risus at urna. Aenean a leo et leo porta scelerisque at ut lacus. Cras sodales vestibulum mi eu ultrices. Maecenas vitae elit at lacus semper bibendum nec non tortor. Sed eget nibh vitae enim lobortis feugiat. Quisque finibus, magna ac feugiat eleifend, tellus leo commodo ante, sodales convallis metus mi eget orci. Morbi quis nisi  nec diam vehicula vulputate vel ultricies sem. Donec suscipit non lectus eu pharetra. Donec quis vulputate felis. Nullam sagittis magna metus, eget aliquet tortor sollicitudin nec. Praesent ultrices cursus facilisis. Phasellus hendrerit malesuada massa et mattis."],
-	    cards: ['/imgs/foto/eube1.jpg', '/imgs/foto/ecube2.jpg', '/imgs/foto/ecube3.jpg', '/imgs/foto/ecube4.jpg', '/imgs/foto/ecube5.jpg', '/imgs/foto/ecube6.jpg']
-	  },
-	
-	  studios: {
-	    title: "STUDIOS ARCHITECTURE",
-	    type: "Visual Identity, Print, Strategy",
-	    headText: ["Studios Architecture is an international design practice focused on enhancing the human experience.", "The brief was to conceive a mark that was typographic yet highly recognizable and adaptable. The solution came in the form of typographic structures that convey an architectural approach to the layout. Reductive, yet it represents the Studios' ethos. The word-mark is clear, solid and contemporary, with its architectural dip beneath the baseline to suggest grid-to-grid connectivity. Supported by a strong, sophisticated color palette of black (combined with brighter accent colors for different city offices)."],
-	    cards: ['/imgs/studios/studios1.jpg', '/img/studios/studios2.jpg', '/img/studios/studios3.jpg', '/img/studios/studios4.jpg', '/img/studios/studios5.jpg']
-	  },
-	
-	  rawlenightlong: {
-	    title: "RAWLE NIGHT LONG",
-	    type: "Visual Indentity, Interactive"
-	  },
-	
-	  connersmith: {
-	    title: "CONNERSMITH IDENTITY",
-	    type: "Visual Identity, Print, Strategy, Interactive",
-	    headText: ["Connersmith was Founded in 1999 by directors Leigh Conner and Dr. Jamie Smith, Connersmith specializes in Post-War and Contemporary Art and is one of DC's Contemporary go to galleries.", "The logo unites contemporary typographic elements with new spacing, and custom-designed characters. The dynamic space between the words work as a framing and representation of what the gallery outputs . This spatial language is supported by a palette of beautiful art pieces from the gallery’s past and present. The identity succeeds in showcasing what the gallery curates while keeping a personal, modern, and forward-thinking voice."],
-	    cards: ['/imgs/studios/studios1.jpg', '/img/studios/studios2.jpg', '/img/studios/studios3.jpg', '/img/studios/studios4.jpg', '/img/studios/studios5.jpg']
-	  },
-	
-	  omni: {
-	    title: "OMNI CONTEMPORARY",
-	    type: "Visual Identity, Print, Strategy, Interactive",
-	    headText: ["This rebrand was done for a Conditional Design workshop in Washington DC, it showcases the power of adaptive branding by rebranding the Hirshhorn museum. The Mark showcases the museum’s dynamic and unconventional voice by having different “states”. The Different states of the mark are interchangeable and create an Identity that’s always in active motion. This concept of movement and change should be embraced and reflected in all of Omni’s branding."],
-	    cards: ['/imgs/omni/omni1.jpg', '/imgs/omni/omni2.jpg', '/imgs/omni/omni3.jpg', '/imgs/omni/omni4.jpg', '/imgs/omni/omni5.jpg', '/imgs/omni/omni6.jpg', '/imgs/omni/omni7.jpg', '/imgs/omni/omni8.jpg', '/imgs/omni/omni9.jpg']
-	    // banner: '/imgs/omni/omni3.jpg',
-	    // twoPost: [
-	    //   {
-	    //     poster: '/imgs/omni/omni8.jpg',
-	    //     text: "Ayo it's ya mans lil' big penis....Ayo it's ya mans lil' big penis....Ayo it's ya mans lil' big penis....Ayo it's ya mans lil' big penis....Ayo it's ya mans lil' big penis...."
-	    //   },
-	    //   {
-	    //     poster: '/imgs/omni/omni9.jpg',
-	    //     text: "Ayo it's ya mans lil' big penis....Ayo it's ya mans lil' big penis....Ayo it's ya mans lil' big penis....Ayo it's ya mans lil' big penis....Ayo it's ya mans lil' big penis...."
-	    //   }
-	    // ],
-	  },
-	
-	  audiotest: {
-	    audio: "https://upload.wikimedia.org/wikipedia/commons/a/a4/Washington_Post.ogg",
-	    cover: "http://www.billboard.com/files/styles/900_wide/public/media/Joy-Division-Unknown-Pleasures-album-covers-billboard-1000x1000.jpg",
-	    title: "The River",
-	    artist: "Ali Farka",
-	    summary: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida, ligula sodales viverra suscipit, orci lectus elementum velit, et finibus libero risus at urna. Aenean a leo et leo porta scelerisque at ut lacus. Cras sodales vestibulum mi eu ultrices. Maecenas vitae elit at lacus semper bibendum nec non tortor. Sed eget nibh vitae enim lobortis feugiat. Quisque finibus, magna ac feugiat eleifend, tellus leo commodo ante, sodales convallis metus mi eget orci. Morbi quis nisi nec diam vehicula vulputate vel ultricies sem. Donec suscipit non lectus eu pharetra. Donec quis vulputate felis. Nullam sagittis magna metus, eget aliquet tortor sollicitudin nec. Praesent ultrices cursus facilisis. Phasellus hendrerit malesuada massa et mattis."]
-	  },
-	
-	  ethicsep: {
-	    audio: "/audio/lighttouch.wav",
-	    cover: "/imgs/1432r/SamiSuYung.jpg",
-	    title: "Ethics EP",
-	    artist: "Sami%SuYung",
-	    summary: ["The Ethics EP was mixed by Public for 1432R Label Heads Sami Yenigun and Joyce Lim. The project was mixed utilizing primarily stock audio plug in to achieve a dirtier Skate House aesthetic. The Ep was mixed over the span of 3 days and was received to critical acclaim.", "The release was named one of the best new singles of March 2017 by Resident Advisor."],
-	    links: [{
-	      src: "https://www.residentadvisor.net/features/2940",
-	      text: "March's best music 2017"
-	    }, {
-	      src: "https://samisuyung.bandcamp.com/album/ethics-ep",
-	      text: "Bandcamp Link"
-	    }]
-	  },
-	
-	  telegram: {
-	    title: "TELEGRAM PUBLISHING IDENTITY",
-	    type: "Visual Identity, Print, Strategy",
-	    headText: ["A choice list of international fiction’ Independent.", "Launched in 2005, Telegram is committed to publishing the best in new and classic international writing, from debut novelists to established literary heavyweights. Telegram has published literary fiction from thirteen languages, ranging from Korean, Arabic, Mongolian and Farsi to Croatian, Hungarian and Icelandic. Our authors include Maggie Gee, Dubravka Ugresic, Alberto Manguel, Eduardo Mendoza, Julio Cortazar, Ferenc Karinthy and Hassan Daoud.", "Telegram is a publishing house and a library. The collection is entirely unique: a juxtaposition of ancient and modern ethos. The rebrand resurrects this tradition."],
-	    cards: ['/imgs/telegram/telegram1.jpg', '/imgs/telegram/telegram2.jpg', '/imgs/telegram/telegram3.jpg', '/imgs/telegram/telegram4.jpg']
-	  },
-	
-	  visualtest: {
-	    title: "Love Magazine",
-	    type: "Brand Identites",
-	    headText: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida, ligula sodales viverra suscipit, orci lectus elementum velit, et finibus libero risus at urna. Aenean a leo et leo porta scelerisque at ut lacus. Cras sodales vestibulum mi eu ultrices. Maecenas vitae elit at lacus semper bibendum nec non tortor. Sed eget nibh vitae enim lobortis feugiat. Quisque finibus, magna ac feugiat eleifend, tellus leo commodo ante, sodales convallis metus mi eget orci. Morbi quis nisi nec diam vehicula vulputate vel ultricies sem. Donec suscipit non lectus eu pharetra. Donec quis vulputate felis. Nullam sagittis magna metus, eget aliquet tortor sollicitudin nec. Praesent ultrices cursus facilisis. Phasellus hendrerit malesuada massa et mattis."],
-	    cards: ["http://lorempixel.com/1000/1400", "http://lorempixel.com/1300/1400", "http://lorempixel.com/500/1400", "http://lorempixel.com/900/1400", "http://lorempixel.com/650/1400", "http://lorempixel.com/1800/1400", "http://lorempixel.com/900/1300", "http://lorempixel.com/900/1400"],
-	    banner: "http://via.placeholder.com/1400x900",
-	    twoPost: [{
-	      poster: "http://lorempixel.com/900/1400",
-	      text: "Ayo it's ya mans lil' big penis....Ayo it's ya mans lil' big penis....Ayo it's ya mans lil' big penis....Ayo it's ya mans lil' big penis....Ayo it's ya mans lil' big penis...."
-	    }, {
-	      poster: "http://lorempixel.com/900/1400",
-	      text: "Ayo it's ya mans lil' big penis....Ayo it's ya mans lil' big penis....Ayo it's ya mans lil' big penis....Ayo it's ya mans lil' big penis....Ayo it's ya mans lil' big penis...."
-	    }],
-	    threePost: [{
-	      poster: "http://via.placeholder.com/900x1400",
-	      text: "Public is the child of ramulus and rammus coming straight out ya mans anus"
-	    }, {
-	      poster: "http://via.placeholder.com/900x1400",
-	      text: "Public is the child of ramulus and rammus coming straight out ya mans anus"
-	    }, {
-	      poster: "http://via.placeholder.com/900x1400",
-	      text: "Public is the child of ramulus and rammus coming straight out ya mans anus"
-	    }]
 	  }
 	
-	}, _defineProperty(_AppData, "audiotest", {
+	}, _defineProperty(_AppData, "ecube", {
+	  title: "ECube",
+	  type: "Print",
+	  headText: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida, ligula sodales viverra suscipit, orci lectus elementum velit, et finibus libero risus at urna. Aenean a leo et leo porta scelerisque at ut lacus. Cras sodales vestibulum mi eu ultrices. Maecenas vitae elit at lacus semper bibendum nec non tortor. Sed eget nibh vitae enim lobortis feugiat. Quisque finibus, magna ac feugiat eleifend, tellus leo commodo ante, sodales convallis metus mi eget orci. Morbi quis nisi  nec diam vehicula vulputate vel ultricies sem. Donec suscipit non lectus eu pharetra. Donec quis vulputate felis. Nullam sagittis magna metus, eget aliquet tortor sollicitudin nec. Praesent ultrices cursus facilisis. Phasellus hendrerit malesuada massa et mattis."],
+	  cards: ['/imgs/ecube/ecube1.jpg', '/imgs/ecube/ecube2.jpg', '/imgs/ecube/ecube3.jpg', '/imgs/ecube/ecube4.jpg', '/imgs/ecube/ecube5.jpg', '/imgs/ecube/ecube6.jpg']
+	}), _defineProperty(_AppData, "studios", {
+	  title: "STUDIOS ARCHITECTURE",
+	  type: "Visual Identity, Print, Strategy",
+	  headText: ["Studios Architecture is an international design practice focused on enhancing the human experience.", "The brief was to conceive a mark that was typographic yet highly recognizable and adaptable. The solution came in the form of typographic structures that convey an architectural approach to the layout. Reductive, yet it represents the Studios' ethos. The word-mark is clear, solid and contemporary, with its architectural dip beneath the baseline to suggest grid-to-grid connectivity. Supported by a strong, sophisticated color palette of black (combined with brighter accent colors for different city offices)."],
+	  cards: ['/imgs/studios/studios1.jpg', '/imgs/studios/studios2.jpg', '/imgs/studios/studios3.jpg', '/imgs/studios/studios4.jpg', '/imgs/studios/studios5.jpg']
+	}), _defineProperty(_AppData, "rawlenightlong", {
+	  title: "RAWLE NIGHT LONG",
+	  type: "Visual Indentity, Interactive",
+	  headText: ["Rawle Night Long is a Electronic Music DJ based out of DC. We did a complete rebranding of his image including redesigning his logo, website, and art direction.", "The new logo and typography for the website stems from the Neue Haas Grotesque font. The website was designed with minimalism in mind utilizing shades of charcoal, white, and a hot pink offset."],
+	  cards: ['/imgs/rawlenightlong/rawle1.jpeg']
+	}), _defineProperty(_AppData, "connersmith", {
+	  title: "CONNERSMITH IDENTITY",
+	  type: "Visual Identity, Print, Strategy, Interactive",
+	  headText: ["Connersmith was Founded in 1999 by directors Leigh Conner and Dr. Jamie Smith, Connersmith specializes in Post-War and Contemporary Art and is one of DC's Contemporary go to galleries.", "The logo unites contemporary typographic elements with new spacing, and custom-designed characters. The dynamic space between the words work as a framing and representation of what the gallery outputs . This spatial language is supported by a palette of beautiful art pieces from the gallery’s past and present. The identity succeeds in showcasing what the gallery curates while keeping a personal, modern, and forward-thinking voice."],
+	  cards: ['/imgs/connersmith/conner1.jpg', '/imgs/connersmith/conner2.jpg', '/imgs/connersmith/conner3.jpg', '/imgs/connermsmith/conner4.jpg']
+	}), _defineProperty(_AppData, "omni", {
+	  title: "OMNI CONTEMPORARY",
+	  type: "Visual Identity, Print, Strategy, Interactive",
+	  headText: ["This rebrand was done for a Conditional Design workshop in Washington DC, it showcases the power of adaptive branding by rebranding the Hirshhorn museum. The Mark showcases the museum’s dynamic and unconventional voice by having different “states”. The Different states of the mark are interchangeable and create an Identity that’s always in active motion. This concept of movement and change should be embraced and reflected in all of Omni’s branding."],
+	  cards: ['/imgs/omni/omni1.jpg', '/imgs/omni/omni2.jpg', '/imgs/omni/omni3.jpg', '/imgs/omni/omni4.jpg', '/imgs/omni/omni5.jpg', '/imgs/omni/omni6.jpg', '/imgs/omni/omni7.jpg', '/imgs/omni/omni8.jpg', '/imgs/omni/omni9.jpg']
+	  // banner: '/imgs/omni/omni3.jpg',
+	  // twoPost: [
+	  //   {
+	  //     poster: '/imgs/omni/omni8.jpg',
+	  //     text: "Ayo it's ya mans lil' big penis....Ayo it's ya mans lil' big penis....Ayo it's ya mans lil' big penis....Ayo it's ya mans lil' big penis....Ayo it's ya mans lil' big penis...."
+	  //   },
+	  //   {
+	  //     poster: '/imgs/omni/omni9.jpg',
+	  //     text: "Ayo it's ya mans lil' big penis....Ayo it's ya mans lil' big penis....Ayo it's ya mans lil' big penis....Ayo it's ya mans lil' big penis....Ayo it's ya mans lil' big penis...."
+	  //   }
+	  // ],
+	}), _defineProperty(_AppData, "audiotest", {
+	  audio: "https://upload.wikimedia.org/wikipedia/commons/a/a4/Washington_Post.ogg",
+	  cover: "http://www.billboard.com/files/styles/900_wide/public/media/Joy-Division-Unknown-Pleasures-album-covers-billboard-1000x1000.jpg",
+	  title: "The River",
+	  artist: "Ali Farka",
+	  summary: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida, ligula sodales viverra suscipit, orci lectus elementum velit, et finibus libero risus at urna. Aenean a leo et leo porta scelerisque at ut lacus. Cras sodales vestibulum mi eu ultrices. Maecenas vitae elit at lacus semper bibendum nec non tortor. Sed eget nibh vitae enim lobortis feugiat. Quisque finibus, magna ac feugiat eleifend, tellus leo commodo ante, sodales convallis metus mi eget orci. Morbi quis nisi nec diam vehicula vulputate vel ultricies sem. Donec suscipit non lectus eu pharetra. Donec quis vulputate felis. Nullam sagittis magna metus, eget aliquet tortor sollicitudin nec. Praesent ultrices cursus facilisis. Phasellus hendrerit malesuada massa et mattis."]
+	}), _defineProperty(_AppData, "ethicsep", {
+	  audio: "/audio/lighttouch.wav",
+	  cover: "/imgs/1432r/SamiSuYung.jpg",
+	  title: "Ethics EP",
+	  artist: "Sami%SuYung",
+	  summary: ["The Ethics EP was mixed by Public for 1432R Label Heads Sami Yenigun and Joyce Lim. The project was mixed utilizing primarily stock audio plug in to achieve a dirtier Skate House aesthetic. The Ep was mixed over the span of 3 days and was received to critical acclaim.", "The release was named one of the best new singles of March 2017 by Resident Advisor."],
+	  links: [{
+	    src: "https://www.residentadvisor.net/features/2940",
+	    text: "March's Best Music 2017"
+	  }, {
+	    src: "https://samisuyung.bandcamp.com/album/ethics-ep",
+	    text: "Bandcamp Link"
+	  }]
+	}), _defineProperty(_AppData, "telegram", {
+	  title: "TELEGRAM PUBLISHING IDENTITY",
+	  type: "Visual Identity, Print, Strategy",
+	  headText: ["A choice list of international fiction’ Independent.", "Launched in 2005, Telegram is committed to publishing the best in new and classic international writing, from debut novelists to established literary heavyweights. Telegram has published literary fiction from thirteen languages, ranging from Korean, Arabic, Mongolian and Farsi to Croatian, Hungarian and Icelandic. Our authors include Maggie Gee, Dubravka Ugresic, Alberto Manguel, Eduardo Mendoza, Julio Cortazar, Ferenc Karinthy and Hassan Daoud.", "Telegram is a publishing house and a library. The collection is entirely unique: a juxtaposition of ancient and modern ethos. The rebrand resurrects this tradition."],
+	  cards: ['/imgs/telegram/telegram1.jpg', '/imgs/telegram/telegram2.jpg', '/imgs/telegram/telegram3.jpg', '/imgs/telegram/telegram4.jpg']
+	}), _defineProperty(_AppData, "visualtest", {
+	  title: "Love Magazine",
+	  type: "Brand Identites",
+	  headText: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida, ligula sodales viverra suscipit, orci lectus elementum velit, et finibus libero risus at urna. Aenean a leo et leo porta scelerisque at ut lacus. Cras sodales vestibulum mi eu ultrices. Maecenas vitae elit at lacus semper bibendum nec non tortor. Sed eget nibh vitae enim lobortis feugiat. Quisque finibus, magna ac feugiat eleifend, tellus leo commodo ante, sodales convallis metus mi eget orci. Morbi quis nisi nec diam vehicula vulputate vel ultricies sem. Donec suscipit non lectus eu pharetra. Donec quis vulputate felis. Nullam sagittis magna metus, eget aliquet tortor sollicitudin nec. Praesent ultrices cursus facilisis. Phasellus hendrerit malesuada massa et mattis."],
+	  cards: ["http://lorempixel.com/1000/1400", "http://lorempixel.com/1300/1400", "http://lorempixel.com/500/1400", "http://lorempixel.com/900/1400", "http://lorempixel.com/650/1400", "http://lorempixel.com/1800/1400", "http://lorempixel.com/900/1300", "http://lorempixel.com/900/1400"],
+	  banner: "http://via.placeholder.com/1400x900",
+	  twoPost: [{
+	    poster: "http://lorempixel.com/900/1400",
+	    text: "Ayo it's ya mans lil' big penis....Ayo it's ya mans lil' big penis....Ayo it's ya mans lil' big penis....Ayo it's ya mans lil' big penis....Ayo it's ya mans lil' big penis...."
+	  }, {
+	    poster: "http://lorempixel.com/900/1400",
+	    text: "Ayo it's ya mans lil' big penis....Ayo it's ya mans lil' big penis....Ayo it's ya mans lil' big penis....Ayo it's ya mans lil' big penis....Ayo it's ya mans lil' big penis...."
+	  }],
+	  threePost: [{
+	    poster: "http://via.placeholder.com/900x1400",
+	    text: "Public is the child of ramulus and rammus coming straight out ya mans anus"
+	  }, {
+	    poster: "http://via.placeholder.com/900x1400",
+	    text: "Public is the child of ramulus and rammus coming straight out ya mans anus"
+	  }, {
+	    poster: "http://via.placeholder.com/900x1400",
+	    text: "Public is the child of ramulus and rammus coming straight out ya mans anus"
+	  }]
+	}), _defineProperty(_AppData, "audiotest", {
 	  audio: "https://upload.wikimedia.org/wikipedia/commons/a/a4/Washington_Post.ogg",
 	  cover: "http://www.billboard.com/files/styles/900_wide/public/media/Joy-Division-Unknown-Pleasures-album-covers-billboard-1000x1000.jpg",
 	  title: "The River",

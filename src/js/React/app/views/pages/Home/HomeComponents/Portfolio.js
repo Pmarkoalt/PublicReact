@@ -151,7 +151,7 @@ class Portfolio extends Component{
           <div className={"capabilities__content " + (this.state.showSpecial ? "blur" : "") }>
             <div className="capabilities__content__threerow">
 
-              <div className={"capabilities__content__threerow__item " + (this.state.all ? 'filterOff' : '') + (this.state.identities ? 'filterOff' : '')}>
+              <div className={"capabilities__content__threerow__item " + (this.state.all ? 'filterOff' : '') + (this.state.identities ? 'filterOff' : '') + (this.state.print ? 'filterOff' : '')}>
                 <Link className="capabilities__threeLink" to={'/visual/telegram'}>
                   <img className="capabilities__image capabilities__threeImage capabilities__border" src="/imgs/telegram/telegramPort.png" />
                 </Link>
@@ -161,8 +161,9 @@ class Portfolio extends Component{
                     <p className="capabilities__details"> Display Typeface. Created in-house, the typeface references the Euro-motorsport catalog of the 1960s-70s. </p>
                   </div>
                   <div className="capabilities__content__threerow__item__tags">
-                    <p className="capabilities__tag"> TYPOGRAPHY </p>
-                    <p className="capabilities__tag"> EDITORIAL </p>
+                    <p className="capabilities__tag"> VISUAL IDENTITY </p>
+                    <p className="capabilities__tag"> PRINT </p>
+                    <p className="capabilities__tag"> STRATEGY </p>
                   </div>
                 </div>
               </div>
@@ -177,13 +178,14 @@ class Portfolio extends Component{
                     <p className="capabilities__details"> Display Typeface. Created in-house, the typeface references the Euro-motorsport catalog of the 1960s-70s. </p>
                   </div>
                   <div className="capabilities__content__threerow__item__tags">
-                    <p className="capabilities__tag"> TYPOGRAPHY </p>
-                    <p className="capabilities__tag"> EDITORIAL </p>
+                    <p className="capabilities__tag"> VISUAL IDENTITY </p>
+                    <p className="capabilities__tag"> STRATEGY </p>
+                    <p className="capabilities__tag"> INTERACTIVE </p>
                   </div>
                 </div>
               </div>
 
-              <div className={"capabilities__content__threerow__item " + (this.state.all ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '')}>
+              <div className={"capabilities__content__threerow__item " + (this.state.all ? 'filterOff' : '') + (this.state.identity ? 'filterOff' : '') + (this.state.print ? 'filterOff' : '')}>
                 <Link className="capabilities__threeLink" to={'/visual/connersmith'}>
                   <img className="capabilities__image capabilities__threeImage" src="/imgs/connersmith/connersmithPort.png" />
                 </Link>
@@ -193,8 +195,9 @@ class Portfolio extends Component{
                     <p className="capabilities__details"> Display Typeface. Created in-house, the typeface references the Euro-motorsport catalog of the 1960s-70s. </p>
                   </div>
                   <div className="capabilities__content__threerow__item__tags">
-                    <p className="capabilities__tag"> TYPOGRAPHY </p>
-                    <p className="capabilities__tag"> EDITORIAL </p>
+                    <p className="capabilities__tag"> VISUAL IDENTITY </p>
+                    <p className="capabilities__tag"> PRINT </p>
+                    <p className="capabilities__tag"> STRATEGY </p>
                   </div>
                 </div>
               </div>
@@ -211,8 +214,9 @@ class Portfolio extends Component{
                       <p className="capabilities__details"> Display Typeface. Created in-house, the typeface references the Euro-motorsport catalog of the 1960s-70s. </p>
                     </div>
                     <div className="capabilities__content__threerow__item__tags">
-                      <p className="capabilities__tag"> TYPOGRAPHY </p>
-                      <p className="capabilities__tag"> EDITORIAL </p>
+                      <p className="capabilities__tag"> VISUAL IDENTITY </p>
+                      <p className="capabilities__tag"> INTERACTIVE </p>
+                      <p className="capabilities__tag"> STRATEGY </p>
                     </div>
                   </div>
               </div>
@@ -227,8 +231,9 @@ class Portfolio extends Component{
                     <p className="capabilities__details"> Display Typeface. Created in-house, the typeface references the Euro-motorsport catalog of the 1960s-70s. </p>
                   </div>
                   <div className="capabilities__content__threerow__item__tags">
-                    <p className="capabilities__tag"> TYPOGRAPHY </p>
-                    <p className="capabilities__tag"> EDITORIAL </p>
+                    <p className="capabilities__tag"> VISUAL IDENTITY </p>
+                    <p className="capabilities__tag"> INTERACTIVE </p>
+                    <p className="capabilities__tag"> STRATEGY </p>
                   </div>
                 </div>
               </div>
@@ -247,14 +252,15 @@ class Portfolio extends Component{
                     <p className="capabilities__details"> Display Typeface. Created in-house, the typeface references the Euro-motorsport catalog of the 1960s-70s. </p>
                   </div>
                   <div className="capabilities__content__threerow__item__tags">
-                    <p className="capabilities__tag"> TYPOGRAPHY </p>
+                    <p className="capabilities__tag"> TYPE DESIGN </p>
+                    <p className="capabilities__tag"> INTERACTIVE </p>
                     <p className="capabilities__tag"> EDITORIAL </p>
                   </div>
                 </div>
               </div>
 
               <div className={"capabilities__content__threerow__item " + (this.state.all ? 'filterOff' : '') + (this.state.identities ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '')}>
-                <Link className="capabilities__threeLink" to={'/visual/omni'}>
+                <Link className="capabilities__threeLink" to={'/visual/eurosign'}>
                   <img className="capabilities__image capabilities__threeImage" src="/imgs/eurosign/eurosignPort.png" />
                 </Link>
                 <div className="capabilities__threeContent">
@@ -263,13 +269,14 @@ class Portfolio extends Component{
                     <p className="capabilities__details"> Display Typeface. Created in-house, the typeface references the Euro-motorsport catalog of the 1960s-70s. </p>
                   </div>
                   <div className="capabilities__content__threerow__item__tags">
-                    <p className="capabilities__tag"> TYPOGRAPHY </p>
-                    <p className="capabilities__tag"> EDITORIAL </p>
+                    <p className="capabilities__tag"> VISUAL IDENTITY </p>
+                    <p className="capabilities__tag"> INTERACTIVE </p>
+                    <p className="capabilities__tag"> STRATEGY </p>
                   </div>
                 </div>
               </div>
 
-              <div className={"capabilities__content__threerow__item " + (this.state.all ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '')}>
+              <div className={"capabilities__content__threerow__item " + (this.state.all ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '') + (this.state.print ? 'filterOff' : '')}>
                 <Link className="capabilities__threeLink" to={'/visual/monza'}>
                   <img className="capabilities__image capabilities__threeImage" src="/imgs/monza/monzaPort.png" />
                 </Link>
@@ -288,14 +295,16 @@ class Portfolio extends Component{
             </div>
 
             <Link to={'/video/artsy'} onClick={() => this.props.handlePlaying(true)}>
-            <div className={"capabilities__content__banner " + (this.state.all ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '')}>
+            <div className={"capabilities__content__banner " + (this.state.all ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '') + (this.state.artDirection ? 'filterOff' : '')}>
               <div className="capabilities__content__banner__overlay"> </div>
               <img className="capabilities__content__banner__image" src="/imgs/artsy/artsyPort.png" />
               <p className="capabilities__galleryTitle"> ARTSY ART BASEL MIAMI</p>
               <p className="capabilities__galleryDetails"> Display Typeface. Created in-house, the typeface references the Euro-motorsport catalog of the 1960s-70s. </p>
               <div className="capabilities__content__banner__tags">
-                <p className="capabilities__galleryTag"> TYPOGRAPHY </p>
-                <p className="capabilities__galleryTag"> EDITORIAL </p>
+                <p className="capabilities__galleryTag"> ART DIRECTION </p>
+                <p className="capabilities__galleryTag"> PRINT </p>
+                <p className="capabilities__galleryTag"> INTERACTIVE </p>
+                <p className="capabilities__galleryTag"> STRATEGY </p>
               </div>
             </div>
             </Link>
@@ -311,8 +320,8 @@ class Portfolio extends Component{
                       <p className="capabilities__details"> Display Typeface. Created in-house, the typeface references the Euro-motorsport catalog of the 1960s-70s. </p>
                     </div>
                     <div className="capabilities__content__threerow__item__tags">
-                      <p className="capabilities__tag"> TYPOGRAPHY </p>
-                      <p className="capabilities__tag"> EDITORIAL </p>
+                      <p className="capabilities__tag"> VISUAL IDENTITY </p>
+                      <p className="capabilities__tag"> PRINT </p>
                     </div>
                   </div>
               </div>
@@ -327,8 +336,8 @@ class Portfolio extends Component{
                     <p className="capabilities__details"> Display Typeface. Created in-house, the typeface references the Euro-motorsport catalog of the 1960s-70s. </p>
                   </div>
                   <div className="capabilities__content__threerow__item__tags">
-                    <p className="capabilities__tag"> TYPOGRAPHY </p>
-                    <p className="capabilities__tag"> EDITORIAL </p>
+                    <p className="capabilities__tag"> VISUAL IDENTITY </p>
+                    <p className="capabilities__tag"> INTERACTIVE </p>
                   </div>
                 </div>
               </div>
@@ -337,7 +346,7 @@ class Portfolio extends Component{
 
             <div className="capabilities__content__threerow">
 
-              <div className={"capabilities__content__threerow__item " + (this.state.all ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '')}>
+              <div className={"capabilities__content__threerow__item " + (this.state.all ? 'filterOff' : '') + (this.state.print ? 'filterOff' : '')}>
                 <Link className="capabilities__threeLink" to={'/visual/blow'}>
                   <img className="capabilities__image capabilities__threeImage" src="/imgs/blow/blowPort.png" />
                 </Link>
@@ -347,7 +356,7 @@ class Portfolio extends Component{
                     <p className="capabilities__details"> Display Typeface. Created in-house, the typeface references the Euro-motorsport catalog of the 1960s-70s. </p>
                   </div>
                   <div className="capabilities__content__threerow__item__tags">
-                    <p className="capabilities__tag"> TYPOGRAPHY </p>
+                    <p className="capabilities__tag"> PRINT </p>
                     <p className="capabilities__tag"> EDITORIAL </p>
                   </div>
                 </div>
@@ -363,13 +372,14 @@ class Portfolio extends Component{
                     <p className="capabilities__details"> Display Typeface. Created in-house, the typeface references the Euro-motorsport catalog of the 1960s-70s. </p>
                   </div>
                   <div className="capabilities__content__threerow__item__tags">
-                    <p className="capabilities__tag"> TYPOGRAPHY </p>
+                    <p className="capabilities__tag"> IDENTITY </p>
                     <p className="capabilities__tag"> EDITORIAL </p>
+                    <p className="capabilities__tag"> INTERACTIVE </p>
                   </div>
                 </div>
               </div>
 
-              <div className={"capabilities__content__threerow__item " + (this.state.all ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '')}>
+              <div className={"capabilities__content__threerow__item " + (this.state.all ? 'filterOff' : '') + (this.state.print ? 'filterOff' : '')}>
                 <Link className="capabilities__threeLink" to={'/visual/editorial'}>
                   <img className="capabilities__image capabilities__threeImage" src="/imgs/editorial/editorialPort.png" />
                 </Link>
@@ -379,7 +389,7 @@ class Portfolio extends Component{
                     <p className="capabilities__details"> Display Typeface. Created in-house, the typeface references the Euro-motorsport catalog of the 1960s-70s. </p>
                   </div>
                   <div className="capabilities__content__threerow__item__tags">
-                    <p className="capabilities__tag"> TYPOGRAPHY </p>
+                    <p className="capabilities__tag"> PRINT </p>
                     <p className="capabilities__tag"> EDITORIAL </p>
                   </div>
                 </div>
@@ -389,7 +399,7 @@ class Portfolio extends Component{
 
             <div className="capabilities__content__threerow">
 
-              <div className={"capabilities__content__threerow__item " + (this.state.all ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '')}>
+              <div className={"capabilities__content__threerow__item " + (this.state.all ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '') + (this.state.artDirection ? 'filterOff' : '')}>
                 <Link className="capabilities__threeLink" to={'/visual/fringe'}>
                   <img className="capabilities__image capabilities__threeImage" src="/imgs/fringe/fringePort.png" />
                 </Link>
@@ -399,13 +409,13 @@ class Portfolio extends Component{
                     <p className="capabilities__details"> Display Typeface. Created in-house, the typeface references the Euro-motorsport catalog of the 1960s-70s. </p>
                   </div>
                   <div className="capabilities__content__threerow__item__tags">
-                    <p className="capabilities__tag"> TYPOGRAPHY </p>
-                    <p className="capabilities__tag"> EDITORIAL </p>
+                    <p className="capabilities__tag"> ART DIRECTION </p>
+                    <p className="capabilities__tag"> IDENTITY </p>
                   </div>
                 </div>
               </div>
 
-              <div className={"capabilities__content__threerow__item " + (this.state.all ? 'filterOff' : '') + (this.state.identities ? 'filterOff' : '')}>
+              <div className={"capabilities__content__threerow__item " + (this.state.all ? 'filterOff' : '') + (this.state.identities ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '')}>
                 <Link className="capabilities__threeLink" to={'/visual/studios'}>
                   <img className="capabilities__image capabilities__threeImage" src="/imgs/studios/studiosPort.png" />
                 </Link>
@@ -415,13 +425,14 @@ class Portfolio extends Component{
                     <p className="capabilities__details"> Display Typeface. Created in-house, the typeface references the Euro-motorsport catalog of the 1960s-70s. </p>
                   </div>
                   <div className="capabilities__content__threerow__item__tags">
-                    <p className="capabilities__tag"> TYPOGRAPHY </p>
-                    <p className="capabilities__tag"> EDITORIAL </p>
+                    <p className="capabilities__tag"> VISUAL IDENTITY </p>
+                    <p className="capabilities__tag"> INTERACTIVE </p>
+                    <p className="capabilities__tag"> STRATEGY </p>
                   </div>
                 </div>
               </div>
 
-              <div className={"capabilities__content__threerow__item " + (this.state.all ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '')}>
+              <div className={"capabilities__content__threerow__item " + (this.state.all ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '') + (this.state.identities ? 'filterOff' : '')}>
                 <Link className="capabilities__threeLink" to={'/visual/emerge'}>
                   <img className="capabilities__image capabilities__threeImage" src="/imgs/emerge/emergePort.png" />
                 </Link>
@@ -431,8 +442,9 @@ class Portfolio extends Component{
                     <p className="capabilities__details"> Display Typeface. Created in-house, the typeface references the Euro-motorsport catalog of the 1960s-70s. </p>
                   </div>
                   <div className="capabilities__content__threerow__item__tags">
-                    <p className="capabilities__tag"> TYPOGRAPHY </p>
-                    <p className="capabilities__tag"> EDITORIAL </p>
+                    <p className="capabilities__tag"> VISUAL IDENTITY </p>
+                    <p className="capabilities__tag"> INTERACTIVE </p>
+                    <p className="capabilities__tag"> STRATEGY </p>
                   </div>
                 </div>
               </div>
@@ -450,14 +462,14 @@ class Portfolio extends Component{
                       <p className="capabilities__details"> Display Typeface. Created in-house, the typeface references the Euro-motorsport catalog of the 1960s-70s. </p>
                     </div>
                     <div className="capabilities__content__threerow__item__tags">
-                      <p className="capabilities__tag"> TYPOGRAPHY </p>
+                      <p className="capabilities__tag"> VISUAL IDENTITY </p>
                       <p className="capabilities__tag"> EDITORIAL </p>
                     </div>
                   </div>
               </div>
 
               <div className={"capabilities__content__tworow__smallItem " + (this.state.all ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '')} >
-                <Link className="capabilities__twoSmallLink" to={'/visual/1432r'}>
+                <Link className="capabilities__twoSmallLink" to={'/visual/newtypo'}>
                   <img className="capabilities__image capabilities__twoSmallImage capabilities__border" src="/imgs/newTypo/newTypoPort.png" />
                 </Link>
                 <div className="capabilities__threeContent">
@@ -466,8 +478,8 @@ class Portfolio extends Component{
                     <p className="capabilities__details"> Display Typeface. Created in-house, the typeface references the Euro-motorsport catalog of the 1960s-70s. </p>
                   </div>
                   <div className="capabilities__content__threerow__item__tags">
-                    <p className="capabilities__tag"> TYPOGRAPHY </p>
-                    <p className="capabilities__tag"> EDITORIAL </p>
+                    <p className="capabilities__tag"> SPACIAL DESIGN </p>
+                    <p className="capabilities__tag"> INTERACTIVE </p>
                   </div>
                 </div>
               </div>

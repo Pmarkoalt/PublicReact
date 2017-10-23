@@ -1,9 +1,9 @@
 const PortfolioData = {
   special: [
     {
-      image: "/imgs/special/14u.jpg",
-      title: "14TH AND U",
-      link: "/visual/14u"
+      image: "/imgs/special/13u.jpg",
+      title: "13TH AND U",
+      link: "/visual/13u"
     },
     {
       image: "/imgs/special/1432rmix.jpg",
@@ -17,7 +17,7 @@ const PortfolioData = {
     },
     {
       image: "/imgs/special/rawle.jpg",
-      title: "RALWE NIGHT LONG",
+      title: "RAWLE NIGHT LONG",
       link: "/visual/rawlenightlong"
     },
   ]
