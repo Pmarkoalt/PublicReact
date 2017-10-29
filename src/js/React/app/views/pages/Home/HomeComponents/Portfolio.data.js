@@ -1,10 +1,10 @@
 const PortfolioData = {
   special: [
-    {
-      image: "/imgs/special/13u.jpg",
-      title: "13TH AND U",
-      link: "/visual/13u"
-    },
+    // {
+    //   image: "/imgs/special/13u.jpg",
+    //   title: "13TH AND U",
+    //   link: "/visual/13u"
+    // },
     {
       image: "/imgs/special/1432rmix.jpg",
       title: "ETHICS EP",

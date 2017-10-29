@@ -9,12 +9,14 @@ class Visual extends Component{
 
   constructor(props){
     var params = props.match.params.id;
+    var wrap = props.wrap;
     super(props)
     this.state = {
       galleryLoaded: false,
       count: 0,
       selectedIndex: 0,
       project: this.props.projects[params],
+      wrap: wrap
     }
     this.imageLoaded = this.imageLoaded.bind(this);
     this.updateSelected = this.updateSelected.bind(this);
@@ -31,7 +33,7 @@ class Visual extends Component{
       const options = {
           contain: true,
           initialIndex: 0,
-          wrapAround: true,
+          wrapAround: this.state.wrap,
           prevNextButtons: false,
           pageDots: false,
           resize: true,
@@ -123,7 +125,7 @@ class Visual extends Component{
         <div className="visual">
           <Link to={'/'}> <div className="sideBarContainer back" onClick={this.backAbout}> <div className={"sideBarCircle " + (this.props.aboutOpen && "transparent")}> <img className="x" src="/imgs/util/backWhite.svg" /> <img className={"帰 " + (this.props.aboutOpen && "hidden")} src="/imgs/util/backBlack.svg" />  </div> </div> </Link>
           <div className="visual__carouselContainer">
-            {this.state.galleryLoaded === false && <img className="visual__carouselContainer__loader" src="/imgs/util/loading.png" />}
+            {this.state.galleryLoaded === false && <img className="visual__carouselContainer__loader" src="/imgs/util/DOMloading.png" />}
               <div ref='carousel' className={'visual__carouselContainer__carousel ' + (this.state.galleryLoaded ? "galleryLoaded" : "")}>
                 {this.state.project.cards.map((card, index) => {
                   return(

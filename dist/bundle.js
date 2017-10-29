@@ -86,7 +86,7 @@
 	exports.push([module.id, "@import url(https://fonts.googleapis.com/css?family=Cinzel:400,700|Cormorant+Garamond:300,400);", ""]);
 	
 	// module
-	exports.push([module.id, "@charset \"UTF-8\";\n.container, main {\n  position: relative; }\n\nol, ul {\n  list-style: none; }\n\na {\n  color: black; }\n\n/* Globally */\n/* Each state */\na:visited {\n  text-decoration: none;\n  color: black; }\n\na:hover {\n  text-decoration: none;\n  color: black; }\n\na:focus {\n  text-decoration: none;\n  color: black; }\n\na:hover, a:active {\n  text-decoration: none;\n  color: black; }\n\na, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font: inherit;\n  vertical-align: baseline; }\n\narticle, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {\n  display: block; }\n\nbody {\n  line-height: 1;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n  font-family: futura-pt; }\n\n.slick-list,\n.slick-slider,\n.slick-track {\n  position: relative;\n  display: block; }\n\n.slick-loading .slick-slide,\n.slick-loading .slick-track {\n  visibility: hidden; }\n\n.slick-slider {\n  box-sizing: border-box;\n  -webkit-user-select: none;\n  -moz-user-select: none;\n  -ms-user-select: none;\n  user-select: none;\n  -webkit-touch-callout: none;\n  -khtml-user-select: none;\n  -ms-touch-action: pan-y;\n  touch-action: pan-y;\n  -webkit-tap-highlight-color: transparent; }\n\n.slick-list {\n  overflow: hidden;\n  margin: 0;\n  padding: 0; }\n\n.slick-list:focus {\n  outline: 0; }\n\n.slick-list.dragging {\n  cursor: pointer;\n  cursor: hand; }\n\n.slick-slider .slick-list,\n.slick-slider .slick-track {\n  -webkit-transform: translate3d(0, 0, 0);\n  -moz-transform: translate3d(0, 0, 0);\n  -ms-transform: translate3d(0, 0, 0);\n  -o-transform: translate3d(0, 0, 0);\n  transform: translate3d(0, 0, 0); }\n\n.slick-track {\n  top: 0;\n  left: 0; }\n\n.slick-track:after,\n.slick-track:before {\n  display: table;\n  content: ''; }\n\n.slick-track:after {\n  clear: both; }\n\n.slick-slide {\n  display: none;\n  float: left;\n  height: 100%;\n  min-height: 1px; }\n\n[dir=rtl] .slick-slide {\n  float: right; }\n\n.slick-slide img {\n  display: block; }\n\n.slick-slide.slick-loading img {\n  display: none; }\n\n.slick-slide.dragging img {\n  pointer-events: none; }\n\n.slick-initialized .slick-slide {\n  display: block;\n  margin: 15px; }\n\n.slick-vertical .slick-slide {\n  display: block;\n  height: auto;\n  border: 1px solid transparent; }\n\n.slick-arrow.slick-hidden {\n  display: none; }\n\n/*# sourceMappingURL=slick.min.css.map */\n/*\n===================================\n    MEDIA QUERIES\n===================================\n*/\ninput[type=range] {\n  -webkit-appearance: none;\n  width: 100%;\n  margin: 5.1px 0; }\n\ninput[type=range]:focus {\n  outline: none; }\n\ninput[type=range]::-webkit-slider-runnable-track {\n  width: 100%;\n  height: 1.8px;\n  cursor: pointer;\n  box-shadow: 0px 0px 0px transparent, 0px 0px 0px rgba(13, 13, 13, 0);\n  background: #000000;\n  border-radius: 0px;\n  border: 0px solid rgba(1, 1, 1, 0); }\n\ninput[type=range]::-webkit-slider-thumb {\n  box-shadow: 0px 0px 0px transparent, 0px 0px 0px rgba(13, 13, 13, 0);\n  border: 0px solid transparent;\n  height: 12px;\n  width: 12px;\n  border-radius: 50px;\n  background: #000000;\n  cursor: pointer;\n  -webkit-appearance: none;\n  margin-top: -5.1px; }\n\ninput[type=range]:focus::-webkit-slider-runnable-track {\n  background: #050505; }\n\ninput[type=range]::-moz-range-track {\n  width: 100%;\n  height: 1.8px;\n  cursor: pointer;\n  box-shadow: 0px 0px 0px transparent, 0px 0px 0px rgba(13, 13, 13, 0);\n  background: #000000;\n  border-radius: 0px;\n  border: 0px solid rgba(1, 1, 1, 0); }\n\ninput[type=range]::-moz-range-thumb {\n  box-shadow: 0px 0px 0px transparent, 0px 0px 0px rgba(13, 13, 13, 0);\n  border: 0px solid transparent;\n  height: 12px;\n  width: 12px;\n  border-radius: 50px;\n  background: #000000;\n  cursor: pointer; }\n\ninput[type=range]::-ms-track {\n  width: 100%;\n  height: 1.8px;\n  cursor: pointer;\n  background: transparent;\n  border-color: transparent;\n  color: transparent; }\n\ninput[type=range]::-ms-fill-lower {\n  background: #000000;\n  border: 0px solid rgba(1, 1, 1, 0);\n  border-radius: 0px;\n  box-shadow: 0px 0px 0px transparent, 0px 0px 0px rgba(13, 13, 13, 0); }\n\ninput[type=range]::-ms-fill-upper {\n  background: #000000;\n  border: 0px solid rgba(1, 1, 1, 0);\n  border-radius: 0px;\n  box-shadow: 0px 0px 0px transparent, 0px 0px 0px rgba(13, 13, 13, 0); }\n\ninput[type=range]::-ms-thumb {\n  box-shadow: 0px 0px 0px transparent, 0px 0px 0px rgba(13, 13, 13, 0);\n  border: 0px solid transparent;\n  height: 12px;\n  width: 12px;\n  border-radius: 50px;\n  background: #000000;\n  cursor: pointer;\n  height: 1.8px; }\n\ninput[type=range]:focus::-ms-fill-lower {\n  background: #000000; }\n\ninput[type=range]:focus::-ms-fill-upper {\n  background: #050505; }\n\n.volumeSlider {\n  width: 50px !important; }\n\n.splash {\n  min-height: 100vh;\n  top: 0;\n  font: 'Cinzel';\n  position: relative;\n  background-color: #102984;\n  border-bottom: #dedddd solid 40px;\n  position: relative; }\n  .splash__content {\n    margin-left: 20px;\n    margin-right: 20px;\n    display: flex;\n    flex-direction: column; }\n    .splash__content__top {\n      margin-top: 50px; }\n      .splash__content__top__logo {\n        width: 300px; }\n    .splash__content__mid {\n      min-height: 450px;\n      margin-top: 30px;\n      display: flex;\n      justify-content: center;\n      position: relative; }\n      .splash__content__mid__img {\n        position: absolute;\n        opacity: 0;\n        max-height: 400px;\n        box-shadow: 0 2px 3px 1px rgba(0, 0, 0, 0.15), 0 2px 5px 0 rgba(0, 0, 0, 0.15); }\n    .splash__content__bot {\n      display: flex;\n      justify-content: center;\n      position: relative; }\n      .splash__content__bot__paraOne {\n        max-width: 1500px;\n        margin-bottom: 25px;\n        margin-left: 15px;\n        display: flex;\n        flex-direction: column;\n        position: relative; }\n      .splash__content__bot__paraTwo {\n        margin-left: 30px;\n        margin-bottom: 30px; }\n  .splash__arrowContainer {\n    position: absolute;\n    bottom: 30px;\n    left: 40px; }\n    .splash__arrowContainer__arrow {\n      width: 13px;\n      height: 13px;\n      border-bottom: 2px solid #909ecd;\n      border-right: 2px solid #909ecd;\n      -webkit-transform: translate(-50%, 0%) rotate(45deg);\n      -moz-transform: translate(-50%, 0%) rotate(45deg);\n      transform: translate(-50%, 0%) rotate(45deg);\n      -webkit-animation: move_down 4s ease-in-out infinite;\n      -moz-animation: move_down 4s ease-in-out infinite;\n      animation: move_down 4s ease-in-out infinite; }\n\n.splash__h2,\n.splash__contact {\n  font-family: sans-serif;\n  color: #909ecd;\n  font-size: 14px;\n  display: inline;\n  font-weight: lighter; }\n\n.splash__contact {\n  font-weight: normal;\n  text-decoration: underline; }\n\n.splash__contact:hover {\n  color: white; }\n\n.splash__clients {\n  font-family: 'Cormorant Garamond', serif;\n  font-size: 13px;\n  color: #5b6896; }\n\n.splash__bold {\n  font-weight: bold; }\n\n#splashSlide1 {\n  -webkit-animation: splashIn 20s ease-in-out infinite;\n  -moz-animation: splashIn 20s ease-in-out infinite;\n  animation: splashIn 20s ease-in-out infinite; }\n\n#splashSlide2 {\n  -webkit-animation: splashIn 20s ease-in-out infinite;\n  -moz-animation: splashIn 20s ease-in-out infinite;\n  animation: splashIn 20s ease-in-out infinite;\n  -webkit-animation-delay: 5s;\n  /* Safari 4.0 - 8.0 */\n  animation-delay: 5s; }\n\n#splashSlide3 {\n  box-shadow: none;\n  -webkit-animation: splashIn 20s ease-in-out infinite;\n  -moz-animation: splashIn 20s ease-in-out infinite;\n  animation: splashIn 20s ease-in-out infinite;\n  -webkit-animation-delay: 10s;\n  /* Safari 4.0 - 8.0 */\n  animation-delay: 10s; }\n\n#splashSlide4 {\n  -webkit-animation: splashIn 20s ease-in-out infinite;\n  -moz-animation: splashIn 20s ease-in-out infinite;\n  animation: splashIn 20s ease-in-out infinite;\n  -webkit-animation-delay: 15s;\n  /* Safari 4.0 - 8.0 */\n  animation-delay: 15s; }\n\n/*\n===================================\n    ANIMATIONS\n===================================\n*/\n@keyframes move_down {\n  0% {\n    transform: translate(0, -10px) rotate(45deg);\n    opacity: 0; }\n  50% {\n    opacity: 1; }\n  100% {\n    transform: translate(0, 10px) rotate(45deg);\n    opacity: 0; } }\n\n@keyframes splashIn {\n  0% {\n    opacity: 0; }\n  10% {\n    opacity: 1; }\n  20% {\n    opacity: 1; }\n  25% {\n    opacity: 0; }\n  100% {\n    opacity: 0; } }\n\n/*\n===================================\n    MEDIA QUERIES\n===================================\n*/\n@media (max-width: 720px) {\n  .splash__content__mid__img {\n    height: 56vw; }\n  .splash__content__mid {\n    min-height: 0px;\n    height: 63vw; } }\n\n@media (max-width: 480px) {\n  .splash__content__mid {\n    height: 300px; }\n  .splash__content__mid__img {\n    height: 267px; }\n  .splash__content__bot {\n    flex-direction: column; }\n  .splash__h2 {\n    font-size: 18px; }\n  .splash__content__bot__paraOne {\n    margin-left: 0px; }\n  .splash__content__bot__paraTwo {\n    margin-left: 0px; }\n  .splash__contact {\n    font-size: 18px; }\n  .splash__clients {\n    font-size: 18px; } }\n\n.capabilities {\n  background-color: white;\n  min-height: 100vh; }\n  .capabilities__content {\n    margin-left: 10%;\n    margin-right: 10%;\n    margin-top: 50px;\n    transition: filter 1s;\n    filter: blur(0px);\n    -webkit-filter: blur(0px); }\n    .capabilities__content__nav {\n      position: fixed;\n      top: -100px;\n      z-index: 5;\n      display: flex;\n      flex-direction: row;\n      margin-bottom: 30px;\n      background-color: white;\n      height: 70px;\n      width: 100%;\n      align-items: center;\n      box-shadow: rgba(0, 0, 0, 0.2) 1px 2px 5px;\n      transition: top .5s; }\n      .capabilities__content__nav__header {\n        margin-right: 8vw; }\n        .capabilities__content__nav__header__specialButton {\n          position: fixed;\n          right: 100px; }\n        .capabilities__content__nav__header__specialButtonMobile {\n          position: absolute !important;\n          right: 50px !important;\n          display: none; }\n      .capabilities__content__nav__selectBox {\n        display: flex;\n        justify-content: space-between;\n        align-items: center;\n        text-align: center;\n        width: 140px;\n        border-bottom: solid 2px #111; }\n    .capabilities__content__specialNav {\n      position: fixed;\n      top: -500px;\n      z-index: 4;\n      height: 300px;\n      width: 100%;\n      background-color: white;\n      box-shadow: rgba(0, 0, 0, 0.2) 1px 2px 5px;\n      overflow: hidden;\n      -webkit-transition: top .5s ease-in-out;\n      -moz-transition: top .5s ease-in-out;\n      -ms-transition: top .5s ease-in-out;\n      -o-transition: top .5s ease-in-out;\n      transition: top .5s ease-in-out; }\n    .capabilities__content__threerow {\n      display: flex;\n      flex-direction: row;\n      justify-content: space-between;\n      margin-top: 50px; }\n      .capabilities__content__threerow__item {\n        margin: 20px;\n        margin-left: 0px;\n        display: flex;\n        flex-direction: column;\n        transition: 1s all;\n        opacity: .3;\n        width: 17vw; }\n        .capabilities__content__threerow__item__tags {\n          display: flex;\n          flex-direction: row;\n          flex-wrap: wrap; }\n    .capabilities__content__tworow {\n      margin-top: 50px;\n      display: flex;\n      flex-direction: row;\n      justify-content: space-between; }\n      .capabilities__content__tworow__bigItem {\n        margin: 20px;\n        margin-left: 0px;\n        display: flex;\n        flex-direction: column;\n        transition: 1s all;\n        opacity: .3; }\n        .capabilities__content__tworow__bigItem__text {\n          width: 37vw; }\n      .capabilities__content__tworow__smallItem {\n        width: 17vw;\n        margin: 20px;\n        margin-left: 0px;\n        display: flex;\n        flex-direction: column;\n        transition: 1s all;\n        opacity: .3; }\n    .capabilities__content__banner {\n      margin-top: 50px;\n      position: relative;\n      opacity: .3;\n      transition: all .5s; }\n      .capabilities__content__banner__overlay {\n        background-color: rgba(0, 0, 0, 0.5);\n        position: absolute;\n        height: 100%;\n        width: 100%;\n        transition: all .5s; }\n      .capabilities__content__banner__overlay:hover {\n        background-color: rgba(0, 0, 0, 0.2); }\n      .capabilities__content__banner__image {\n        height: 400px;\n        width: 100%; }\n      .capabilities__content__banner__tags {\n        position: absolute;\n        display: flex;\n        flex-direction: row;\n        bottom: 10px;\n        left: 10px; }\n\n.before {\n  width: 5px;\n  height: 5px;\n  margin-left: 6px;\n  border-bottom: 2px solid #000000;\n  border-left: 2px solid #000000;\n  -webkit-transform: translate(-50%, 0%) rotate(45deg);\n  -moz-transform: translate(-50%, 0%) rotate(45deg);\n  transform: translate(-50%, 0%) rotate(45deg); }\n\n.after {\n  width: 5px;\n  height: 5px;\n  border-top: 2px solid #000000;\n  border-right: 2px solid #000000;\n  -webkit-transform: translate(-50%, 0%) rotate(45deg);\n  -moz-transform: translate(-50%, 0%) rotate(45deg);\n  transform: translate(-50%, 0%) rotate(45deg); }\n\n.before:hover,\n.after:hover,\n.capabilities__content__nav__header__specialButton,\n.sideBarCircle {\n  cursor: pointer; }\n\n.navShow {\n  top: 0; }\n\n.specialCard {\n  margin-top: 70px;\n  height: 250px;\n  width: 250px;\n  opacity: 0; }\n\n.specialImg {\n  height: 185px;\n  width: 185px; }\n\n.specialText {\n  font-family: sans-serif; }\n\n.showSpecial {\n  top: 0; }\n\n.specialHide {\n  top: -1000px; }\n\n.galleryLoaded {\n  opacity: 1; }\n\n.flickity-viewport:focus,\n.capabilities__content__specialNav {\n  outline: none; }\n\n.filterSelect {\n  margin-right: 9px;\n  font-size: 20px;\n  font-family: sans-serif; }\n\n.capabilities__header {\n  font-family: 'Cinzel', serif;\n  font-size: 25px;\n  margin-left: 70px;\n  transition: margin-left .5s; }\n\n.capabilities__title {\n  font-family: sans-serif;\n  font-weight: bold;\n  font-size: 20px;\n  margin-top: 10px; }\n\n.capabilities__galleryType {\n  font-size: 17px;\n  font-family: sans-serif;\n  display: inline-block;\n  margin-left: 10px; }\n\n.filterOff {\n  opacity: 1;\n  transition: 1s all; }\n\n.blur {\n  filter: blur(5px);\n  -webkit-filter: blur(5px); }\n\n.capabilities__image {\n  box-shadow: rgba(0, 0, 0, 0.2) 0px 0px;\n  transform: scale(1);\n  transition: all .5s; }\n\n.capabilities__border {\n  border: solid 1px rgba(0, 0, 0, 0.2); }\n\n.capabilities__image:hover {\n  box-shadow: rgba(0, 0, 0, 0.2) 1px 2px 5px;\n  transform: scale(1.025); }\n\n.capabilities__threeImage,\n.capabilities__twoSmallImage {\n  width: 17vw; }\n\n.capabilities__threeLink,\n.capabilities__twoSmallLink {\n  width: 17vw; }\n\n.capabilities__twoBigImage {\n  width: 42vw; }\n\n.capabilities__twoBigLink {\n  width: 600px; }\n\n.capabilities__details {\n  font-size: 20px;\n  font-family: cormorant garamond;\n  font-weight: 100; }\n\n.capabilities__tag {\n  font-size: 12px;\n  font-family: sans-serif;\n  border: solid 1px black;\n  padding: 2px;\n  margin-top: 5px;\n  margin-right: 5px; }\n\n.capabilities__galleryTitle {\n  position: absolute;\n  bottom: 40%;\n  left: 10px;\n  color: white;\n  font-family: sans-serif;\n  font-size: 40px;\n  font-weight: bolder; }\n\n.capabilities__galleryDetails {\n  position: absolute;\n  bottom: 20%;\n  left: 10px;\n  color: white;\n  font-family: cormorant garamond;\n  font-weight: 100;\n  font-size: 25px;\n  width: 400px; }\n\n.capabilities__galleryTag {\n  font-size: 20px;\n  font-family: sans-serif;\n  font-weight: 100;\n  border: solid .5px white;\n  color: white;\n  padding: 2px;\n  margin-top: 10px;\n  margin-right: 10px; }\n\n@-webkit-keyframes navEnter {\n  0% {\n    top: -100px; }\n  100% {\n    top: 0; } }\n\n/* Standard syntax */\n@keyframes navEnter {\n  0% {\n    top: -100px; }\n  100% {\n    top: 0; } }\n\n/*\n===================================\n    MEDIA QUERIES\n===================================\n*/\n@media (max-width: 1200px) {\n  .capabilities__title {\n    font-size: 1.65vw; }\n  .capabilities__details {\n    font-size: 1.65vw; } }\n\n@media (max-width: 960px) {\n  .capabilities__title {\n    font-size: 16px; }\n  .capabilities__details {\n    font-size: 16px; } }\n\n@media (max-width: 760px) {\n  .capabilities__content {\n    margin-left: 0px;\n    margin-right: 0px; }\n  .capabilities__content__threerow,\n  .capabilities__content__tworow {\n    flex-direction: column;\n    margin-left: 5%;\n    margin-right: 5%;\n    position: relative; }\n  .capabilities__content__threerow__item,\n  .capabilities__content__tworow__smallItem {\n    flex-direction: row;\n    width: 100%; }\n  .capabilities__content__nav__header__specialButton {\n    display: none; }\n  .capabilities__header {\n    margin-left: 40px; }\n  .capabilities__content__nav__header__specialButtonMobile {\n    display: block; }\n  .capabilities__threeImage,\n  .capabilities__threeLink,\n  .capabilities__twoSmallImage,\n  .capabilities__twoSmallLink {\n    width: 130px; }\n  .capabilities__threeContent {\n    position: absolute;\n    left: 150px; }\n  .capabilities__twoBigImage,\n  .capabilities__content__tworow__bigItem__text {\n    width: 80%; } }\n\n@media (max-width: 480px) {\n  .capabilities__content__nav__selectBox {\n    display: none; } }\n\n.portHeader {\n  font-size: 45px;\n  font-family: sans-serif; }\n\n.portItalic {\n  font-size: 30px;\n  font-family: sans-serif;\n  font-style: italic; }\n\n.portText {\n  font-family: 'Cormorant Garamond', serif;\n  font-size: 20px; }\n\n.backbutton {\n  position: absolute;\n  top: 20px;\n  left: 20px; }\n\n.visual__carouselContainer {\n  position: relative; }\n  .visual__carouselContainer__loader {\n    position: absolute;\n    width: 500px;\n    z-index: 10;\n    top: 50px;\n    left: 30%;\n    -webkit-animation: loadingAnimation 1s infinite alternate;\n    /* Safari 4.0 - 8.0 */\n    animation: loadingAnimation 1s infinite alternate; }\n  .visual__carouselContainer__carousel {\n    background: #fff !important;\n    padding-top: 50px;\n    width: 100%;\n    overflow: hidden;\n    opacity: 0;\n    transition: all 1s; }\n  .visual__carouselContainer__navBar {\n    width: 100%;\n    height: 100px;\n    margin-bottom: 50px;\n    overflow: hidden;\n    opacity: 0;\n    transition: all 1s; }\n\n.visual__content {\n  margin-left: 10vw;\n  margin-right: 10vw; }\n  .visual__content__text {\n    width: 80%;\n    margin-bottom: 50px; }\n  .visual__content__rowPhoto {\n    width: 100%;\n    height: calc(100vh - 20rem);\n    margin-top: 10px;\n    margin-bottom: 20px; }\n  .visual__content__twoPoster {\n    display: flex;\n    flex-direction: row;\n    justify-content: space-between; }\n    .visual__content__twoPoster__item__poster {\n      width: 38vw;\n      height: 400px; }\n  .visual__content__blurb {\n    display: flex;\n    flex-direction: row;\n    justify-content: space-between; }\n  .visual__content__threePoster {\n    display: flex;\n    flex-direction: row;\n    justify-content: space-between; }\n    .visual__content__threePoster__item {\n      width: 30%; }\n      .visual__content__threePoster__item__card {\n        width: 100%; }\n\n.visualTitle {\n  margin-bottom: 20px; }\n\n.card {\n  margin: 10px;\n  height: calc(100vh - 15rem); }\n\n.caroImg {\n  height: calc(100vh - 15rem);\n  pointer-events: none; }\n\n.navCard {\n  height: 100px;\n  margin: 2px;\n  opacity: .5;\n  transition: opacity 1s; }\n\n.navImg {\n  height: 100px;\n  pointer-events: none; }\n\n.flickity-viewport:focus,\n.visual__carouselContainer__carousel,\n.visual__carouselContainer__navBar {\n  outline: none; }\n\n.galleryLoaded {\n  opacity: 1; }\n\n.navCard.is-selected {\n  opacity: 1; }\n\n.linebreak {\n  margin-bottom: 10px; }\n\n@-webkit-keyframes loadingAnimation {\n  0% {\n    -webkit-transform: scale(1);\n    /* Ch <36, Saf 5.1+, iOS < 9.2, An =<4.4.4 */\n    -ms-transform: scale(1);\n    /* IE 9 */\n    transform: scale(1); }\n  100% {\n    -webkit-transform: scale(1.2);\n    /* Ch <36, Saf 5.1+, iOS < 9.2, An =<4.4.4 */\n    -ms-transform: scale(1.2);\n    /* IE 9 */\n    transform: scale(1.2); } }\n\n/* Standard syntax */\n@keyframes loadingAnimation {\n  0% {\n    -webkit-transform: scale(1);\n    /* Ch <36, Saf 5.1+, iOS < 9.2, An =<4.4.4 */\n    -ms-transform: scale(1);\n    /* IE 9 */\n    transform: scale(1); }\n  100% {\n    -webkit-transform: scale(1.2);\n    /* Ch <36, Saf 5.1+, iOS < 9.2, An =<4.4.4 */\n    -ms-transform: scale(1.2);\n    /* IE 9 */\n    transform: scale(1.2); } }\n\n/*\n===================================\n    MEDIA QUERIES\n===================================\n*/\n@media (max-width: 900px) {\n  .card {\n    width: 70vw;\n    height: calc(100vh - 15rem);\n    position: relative; }\n  .caroImg {\n    max-height: 100%;\n    max-width: 95%;\n    height: auto;\n    margin: auto;\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    -webkit-transform: translateY(-50%) translateX(-50%);\n    -moz-transform: translateY(-50%) translateX(-50%);\n    -ms-transform: translateY(-50%) translateX(-50%);\n    -o-transform: translateY(-50%) translateX(-50%);\n    transform: translateY(-50%) translateX(-50%); } }\n\n@media (max-width: 760px) {\n  .card {\n    width: 60vw;\n    height: 67vw; }\n  .navCard {\n    height: 10vw; }\n  .navImg {\n    height: inherit; }\n  .portHeader {\n    font-size: 6vw; }\n  .portItalic {\n    font-size: 4vw; } }\n\n@media (max-width: 500px) {\n  .card {\n    height: 370px; }\n  .navCard {\n    height: 50px; }\n  .portHeader {\n    font-size: 30px; }\n  .portItalic {\n    font-size: 20px; } }\n\n.audio__content {\n  margin-left: 10vw;\n  margin-right: 10vw; }\n  .audio__content__album {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    padding-top: 150px; }\n    .audio__content__album__tilt {\n      height: 400px;\n      width: 400px;\n      transition: all .1s; }\n      .audio__content__album__tilt__cover {\n        height: 100%;\n        width: 100%; }\n    .audio__content__album__media {\n      width: 400px;\n      display: flex;\n      justify-content: space-between;\n      align-items: center;\n      margin-top: 25px; }\n      .audio__content__album__media__play {\n        width: 60px;\n        font-family: sans-serif; }\n      .audio__content__album__media__input {\n        position: relative;\n        display: flex;\n        align-items: center;\n        justify-content: center;\n        width: 80%;\n        margin-left: 10px;\n        margin-right: 10px; }\n      .audio__content__album__media__volume {\n        display: flex; }\n        .audio__content__album__media__volume__mute {\n          height: 20px;\n          width: 20px;\n          margin-right: 3px; }\n  .audio__content__text {\n    margin-top: 50px;\n    margin-bottom: 50px; }\n\n.audio__content__album__media__play:hover,\n.audio__content__album__media__volume__mute:hover {\n  cursor: pointer; }\n\n/*\n===================================\n    MEDIA QUERIES\n===================================\n*/\n@media (max-width: 760px) {\n  .audio__content__album__media {\n    width: 52vw; }\n  .audio__content__album {\n    margin-left: 10px;\n    margin-right: 10px; }\n  .audio__content__album__tilt {\n    height: 52vw;\n    width: 52vw; } }\n\n@media (max-width: 500px) {\n  .audio__content__album__tilt {\n    height: 260px;\n    width: 260px; }\n  .audio__content__album__media {\n    width: 260px; } }\n\n.video__content {\n  margin-left: 10vw;\n  margin-right: 10vw; }\n  .video__content__video {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    padding-top: 120px; }\n    .video__content__video__container {\n      height: 400px;\n      width: 700px; }\n    .video__content__video__media {\n      width: 700px;\n      display: flex;\n      justify-content: space-between;\n      align-items: center; }\n      .video__content__video__media__playing {\n        display: flex;\n        justify-content: space-between;\n        align-items: center;\n        width: 70px; }\n        .video__content__video__media__playing__play {\n          font-family: sans-serif;\n          width: 80px; }\n        .video__content__video__media__playing__fullscreen {\n          width: 30px;\n          height: 30px; }\n      .video__content__video__media__input {\n        position: relative;\n        display: flex;\n        align-items: center;\n        justify-content: center;\n        width: 75%;\n        margin-left: 10px;\n        margin-right: 10px; }\n      .video__content__video__media__volume {\n        display: flex; }\n        .video__content__video__media__volume__mute {\n          height: 20px;\n          width: 20px;\n          margin-right: 3px; }\n  .video__content__text {\n    margin-top: 50px;\n    margin-bottom: 50px; }\n\n.video__content__album__media__volume__mute {\n  height: 20px;\n  width: 20px;\n  margin-right: 3px; }\n\n.fullscreen:hover {\n  -webkit-filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.5));\n  -ms-filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.5));\n  filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.5));\n  cursor: pointer; }\n\n.video__content__video__media__playing__play:hover,\n.video__content__album__media__volume__mute:hover {\n  cursor: pointer; }\n\n.videoHeader {\n  font-size: 45px;\n  font-family: sans-serif; }\n\n.videoItalic {\n  font-size: 30px;\n  font-family: sans-serif;\n  font-style: italic; }\n\n/*\n===================================\n    MEDIA QUERIES\n===================================\n*/\n@media (max-width: 760px) {\n  .video__content {\n    margin-left: 10px;\n    margin-right: 10px; }\n  .video__content__video__container,\n  .video__content__video__media {\n    width: 100%; }\n  .video__content__video__container {\n    height: 55vw; }\n  .videoHeader {\n    font-size: 6vw; }\n  .videoItalic {\n    font-size: 4vw; } }\n\n@media (max-width: 480px) {\n  .videoHeader {\n    font-size: 30px; }\n  .videoItalic {\n    font-size: 20px; } }\n\n.about {\n  background-color: black;\n  margin-left: 20px;\n  margin-right: 20px;\n  color: white;\n  min-height: 100vh;\n  padding-bottom: 20px; }\n  .about__top__img {\n    margin-top: 50px;\n    width: 300px; }\n  .about__main {\n    margin-left: 25vw;\n    margin-top: 60px; }\n    .about__main__profile {\n      max-width: 800px; }\n      .about__main__profile__contact {\n        display: flex;\n        flex-direction: row; }\n      .about__main__profile__images {\n        display: flex;\n        flex-direction: row;\n        margin-left: 50px; }\n        .about__main__profile__images__item {\n          display: flex;\n          flex-direction: column;\n          margin-right: 100px; }\n    .about__main__process {\n      max-width: 800px; }\n    .about__main__capabilities {\n      max-width: 800px; }\n\n.aboutContainer {\n  background-color: black;\n  width: 100%;\n  z-index: 9;\n  position: fixed; }\n\n.about__link,\n.about__slash {\n  display: inline;\n  font-family: sans-serif;\n  font-size: 25px;\n  color: #606060;\n  transition: all .5s; }\n\n.about__link {\n  font-weight: lighter; }\n\n.about__link:hover {\n  cursor: pointer;\n  color: #cbcbcb; }\n\n.about__selected {\n  color: #cbcbcb; }\n\n.about__slash {\n  font-weight: 600; }\n\n.about__text {\n  font-size: 20px;\n  font-family: 'Cormorant Garamond', serif; }\n\n.about__profName {\n  font-family: sans-serif;\n  color: white;\n  font-size: 18px; }\n\n.about__email {\n  font-family: sans-serif;\n  color: #606060;\n  font-size: 16px; }\n\n.about__hide {\n  display: none; }\n\n/*\n===================================\n    MEDIA QUERIES\n===================================\n*/\n@media (max-width: 720px) {\n  .about__main {\n    margin-left: 0px; }\n  .about__picture {\n    display: none; }\n  .about__main__profile__images {\n    flex-direction: column; }\n  .about__main__profile__images__item {\n    margin-bottom: 25px; } }\n\n@media (max-width: 480px) {\n  .about__text {\n    font-size: 18px; }\n  .about__profName {\n    font-size: 16px; }\n  .about__email {\n    font-size: 15px; } }\n\n.notFoundPage {\n  display: flex;\n  -webkit-box-align: center;\n  -webkit-box-pack: center;\n  align-content: center;\n  align-items: center;\n  background: url(/imgs/util/404.gif) no-repeat;\n  background-position: 50%;\n  background-size: cover;\n  justify-content: center;\n  height: 100vh; }\n\n.errorText {\n  font-size: 30vw;\n  font-family: monospace;\n  font-weight: 900;\n  color: white;\n  text-shadow: -4px -1px black, 0 1px black, 3px -2px black, -4px 2px black; }\n\n* {\n  min-height: 0;\n  min-width: 0; }\n\nmain {\n  width: 100%; }\n\n.sideBarContainer {\n  position: fixed;\n  top: 20px;\n  right: 0%;\n  width: 75px;\n  height: 30px;\n  z-index: 10; }\n\n.sideBarCircle {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  position: relative;\n  width: 30px;\n  height: 30px;\n  background: white;\n  border: solid 1px white;\n  box-shadow: 0 2px 3px 1px rgba(0, 0, 0, 0.15), 0 2px 5px 0 rgba(0, 0, 0, 0.15);\n  border-radius: 50%; }\n\n.transparent {\n  background: transparent; }\n\n.x {\n  width: 14px;\n  z-index: 0; }\n\n.助,\n.帰 {\n  width: 14px;\n  color: #111;\n  position: fixed;\n  opacity: 1;\n  transition: all .2s; }\n\n.助 {\n  right: 47.5px; }\n\n.帰 {\n  left: 38px; }\n\n.hidden {\n  opacity: 0; }\n\n.back {\n  left: 0%;\n  margin-left: 30px; }\n\n::-moz-selection {\n  color: white;\n  background: grey; }\n\n::selection {\n  color: white;\n  background: grey; }\n", ""]);
+	exports.push([module.id, "@charset \"UTF-8\";\n.container, main {\n  position: relative; }\n\nol, ul {\n  list-style: none; }\n\na {\n  color: black; }\n\n/* Globally */\n/* Each state */\na:visited {\n  text-decoration: none;\n  color: black; }\n\na:hover {\n  text-decoration: none;\n  color: black; }\n\na:focus {\n  text-decoration: none;\n  color: black; }\n\na:hover, a:active {\n  text-decoration: none;\n  color: black; }\n\na, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font: inherit;\n  vertical-align: baseline; }\n\narticle, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {\n  display: block; }\n\nbody {\n  line-height: 1;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n  font-family: futura-pt; }\n\n.slick-list,\n.slick-slider,\n.slick-track {\n  position: relative;\n  display: block; }\n\n.slick-loading .slick-slide,\n.slick-loading .slick-track {\n  visibility: hidden; }\n\n.slick-slider {\n  box-sizing: border-box;\n  -webkit-user-select: none;\n  -moz-user-select: none;\n  -ms-user-select: none;\n  user-select: none;\n  -webkit-touch-callout: none;\n  -khtml-user-select: none;\n  -ms-touch-action: pan-y;\n  touch-action: pan-y;\n  -webkit-tap-highlight-color: transparent; }\n\n.slick-list {\n  overflow: hidden;\n  margin: 0;\n  padding: 0; }\n\n.slick-list:focus {\n  outline: 0; }\n\n.slick-list.dragging {\n  cursor: pointer;\n  cursor: hand; }\n\n.slick-slider .slick-list,\n.slick-slider .slick-track {\n  -webkit-transform: translate3d(0, 0, 0);\n  -moz-transform: translate3d(0, 0, 0);\n  -ms-transform: translate3d(0, 0, 0);\n  -o-transform: translate3d(0, 0, 0);\n  transform: translate3d(0, 0, 0); }\n\n.slick-track {\n  top: 0;\n  left: 0; }\n\n.slick-track:after,\n.slick-track:before {\n  display: table;\n  content: ''; }\n\n.slick-track:after {\n  clear: both; }\n\n.slick-slide {\n  display: none;\n  float: left;\n  height: 100%;\n  min-height: 1px; }\n\n[dir=rtl] .slick-slide {\n  float: right; }\n\n.slick-slide img {\n  display: block; }\n\n.slick-slide.slick-loading img {\n  display: none; }\n\n.slick-slide.dragging img {\n  pointer-events: none; }\n\n.slick-initialized .slick-slide {\n  display: block;\n  margin: 15px; }\n\n.slick-vertical .slick-slide {\n  display: block;\n  height: auto;\n  border: 1px solid transparent; }\n\n.slick-arrow.slick-hidden {\n  display: none; }\n\n/*# sourceMappingURL=slick.min.css.map */\n/*\n===================================\n    MEDIA QUERIES\n===================================\n*/\ninput[type=range] {\n  -webkit-appearance: none;\n  width: 100%;\n  margin: 5.1px 0; }\n\ninput[type=range]:focus {\n  outline: none; }\n\ninput[type=range]::-webkit-slider-runnable-track {\n  width: 100%;\n  height: 1.8px;\n  cursor: pointer;\n  box-shadow: 0px 0px 0px transparent, 0px 0px 0px rgba(13, 13, 13, 0);\n  background: #000000;\n  border-radius: 0px;\n  border: 0px solid rgba(1, 1, 1, 0); }\n\ninput[type=range]::-webkit-slider-thumb {\n  box-shadow: 0px 0px 0px transparent, 0px 0px 0px rgba(13, 13, 13, 0);\n  border: 0px solid transparent;\n  height: 12px;\n  width: 12px;\n  border-radius: 50px;\n  background: #000000;\n  cursor: pointer;\n  -webkit-appearance: none;\n  margin-top: -5.1px; }\n\ninput[type=range]:focus::-webkit-slider-runnable-track {\n  background: #050505; }\n\ninput[type=range]::-moz-range-track {\n  width: 100%;\n  height: 1.8px;\n  cursor: pointer;\n  box-shadow: 0px 0px 0px transparent, 0px 0px 0px rgba(13, 13, 13, 0);\n  background: #000000;\n  border-radius: 0px;\n  border: 0px solid rgba(1, 1, 1, 0); }\n\ninput[type=range]::-moz-range-thumb {\n  box-shadow: 0px 0px 0px transparent, 0px 0px 0px rgba(13, 13, 13, 0);\n  border: 0px solid transparent;\n  height: 12px;\n  width: 12px;\n  border-radius: 50px;\n  background: #000000;\n  cursor: pointer; }\n\ninput[type=range]::-ms-track {\n  width: 100%;\n  height: 1.8px;\n  cursor: pointer;\n  background: transparent;\n  border-color: transparent;\n  color: transparent; }\n\ninput[type=range]::-ms-fill-lower {\n  background: #000000;\n  border: 0px solid rgba(1, 1, 1, 0);\n  border-radius: 0px;\n  box-shadow: 0px 0px 0px transparent, 0px 0px 0px rgba(13, 13, 13, 0); }\n\ninput[type=range]::-ms-fill-upper {\n  background: #000000;\n  border: 0px solid rgba(1, 1, 1, 0);\n  border-radius: 0px;\n  box-shadow: 0px 0px 0px transparent, 0px 0px 0px rgba(13, 13, 13, 0); }\n\ninput[type=range]::-ms-thumb {\n  box-shadow: 0px 0px 0px transparent, 0px 0px 0px rgba(13, 13, 13, 0);\n  border: 0px solid transparent;\n  height: 12px;\n  width: 12px;\n  border-radius: 50px;\n  background: #000000;\n  cursor: pointer;\n  height: 1.8px; }\n\ninput[type=range]:focus::-ms-fill-lower {\n  background: #000000; }\n\ninput[type=range]:focus::-ms-fill-upper {\n  background: #050505; }\n\n.volumeSlider {\n  width: 50px !important; }\n\n.splash {\n  min-height: 100vh;\n  top: 0;\n  font: 'Cinzel';\n  position: relative;\n  background-color: #102984;\n  position: relative; }\n  .splash__content {\n    margin-left: 20px;\n    margin-right: 20px;\n    display: flex;\n    flex-direction: column; }\n    .splash__content__top {\n      margin-top: 50px; }\n      .splash__content__top__logo {\n        width: 300px; }\n    .splash__content__mid {\n      min-height: 450px;\n      margin-top: 30px;\n      display: flex;\n      justify-content: center;\n      position: relative; }\n      .splash__content__mid__img {\n        position: absolute;\n        opacity: 0;\n        max-height: 400px;\n        box-shadow: 0 2px 3px 1px rgba(0, 0, 0, 0.15), 0 2px 5px 0 rgba(0, 0, 0, 0.15); }\n    .splash__content__bot {\n      display: flex;\n      justify-content: center;\n      position: relative; }\n      .splash__content__bot__paraOne {\n        max-width: 1500px;\n        margin-bottom: 25px;\n        margin-left: 15px;\n        display: flex;\n        flex-direction: column;\n        position: relative; }\n      .splash__content__bot__paraTwo {\n        margin-left: 30px;\n        margin-bottom: 30px; }\n  .splash__arrowContainer {\n    position: absolute;\n    bottom: 30px;\n    left: 40px; }\n    .splash__arrowContainer__arrow {\n      width: 13px;\n      height: 13px;\n      border-bottom: 2px solid #909ecd;\n      border-right: 2px solid #909ecd;\n      -webkit-transform: translate(-50%, 0%) rotate(45deg);\n      -moz-transform: translate(-50%, 0%) rotate(45deg);\n      transform: translate(-50%, 0%) rotate(45deg);\n      -webkit-animation: move_down 4s ease-in-out infinite;\n      -moz-animation: move_down 4s ease-in-out infinite;\n      animation: move_down 4s ease-in-out infinite; }\n\n.splash__h2,\n.splash__contact {\n  font-family: sans-serif;\n  color: #909ecd;\n  font-size: 14px;\n  display: inline;\n  font-weight: lighter; }\n\n.splash__contact {\n  font-weight: normal;\n  text-decoration: underline; }\n\n.splash__contact:hover {\n  color: white; }\n\n.splash__clients {\n  font-family: 'Cormorant Garamond', serif;\n  font-size: 13px;\n  color: #5b6896; }\n\n.splash__bold {\n  font-weight: bold; }\n\n#splashSlide1 {\n  -webkit-animation: splashIn 20s ease-in-out infinite;\n  -moz-animation: splashIn 20s ease-in-out infinite;\n  animation: splashIn 20s ease-in-out infinite; }\n\n#splashSlide2 {\n  -webkit-animation: splashIn 20s ease-in-out infinite;\n  -moz-animation: splashIn 20s ease-in-out infinite;\n  animation: splashIn 20s ease-in-out infinite;\n  -webkit-animation-delay: 5s;\n  /* Safari 4.0 - 8.0 */\n  animation-delay: 5s; }\n\n#splashSlide3 {\n  box-shadow: none;\n  -webkit-animation: splashIn 20s ease-in-out infinite;\n  -moz-animation: splashIn 20s ease-in-out infinite;\n  animation: splashIn 20s ease-in-out infinite;\n  -webkit-animation-delay: 10s;\n  /* Safari 4.0 - 8.0 */\n  animation-delay: 10s; }\n\n#splashSlide4 {\n  -webkit-animation: splashIn 20s ease-in-out infinite;\n  -moz-animation: splashIn 20s ease-in-out infinite;\n  animation: splashIn 20s ease-in-out infinite;\n  -webkit-animation-delay: 15s;\n  /* Safari 4.0 - 8.0 */\n  animation-delay: 15s; }\n\n/*\n===================================\n    ANIMATIONS\n===================================\n*/\n@keyframes move_down {\n  0% {\n    transform: translate(0, -10px) rotate(45deg);\n    opacity: 0; }\n  50% {\n    opacity: 1; }\n  100% {\n    transform: translate(0, 10px) rotate(45deg);\n    opacity: 0; } }\n\n@keyframes splashIn {\n  0% {\n    opacity: 0; }\n  10% {\n    opacity: 1; }\n  20% {\n    opacity: 1; }\n  25% {\n    opacity: 0; }\n  100% {\n    opacity: 0; } }\n\n/*\n===================================\n    MEDIA QUERIES\n===================================\n*/\n@media (max-width: 720px) {\n  .splash__content__mid__img {\n    height: 56vw; }\n  .splash__content__mid {\n    min-height: 0px;\n    height: 63vw; } }\n\n@media (max-width: 480px) {\n  .splash__content__mid {\n    height: 300px; }\n  .splash__content__mid__img {\n    height: 267px; }\n  .splash__content__bot {\n    flex-direction: column; }\n  .splash__h2 {\n    font-size: 18px; }\n  .splash__content__bot__paraOne {\n    margin-left: 0px; }\n  .splash__content__bot__paraTwo {\n    margin-left: 0px; }\n  .splash__contact {\n    font-size: 18px; }\n  .splash__clients {\n    font-size: 18px; } }\n\n.capabilities {\n  background-color: white;\n  min-height: 100vh; }\n  .capabilities__content {\n    margin-left: 10%;\n    margin-right: 10%;\n    margin-top: 50px;\n    transition: filter 1s;\n    filter: blur(0px);\n    -webkit-filter: blur(0px); }\n    .capabilities__content__nav {\n      position: fixed;\n      top: -100px;\n      z-index: 5;\n      display: flex;\n      flex-direction: row;\n      margin-bottom: 30px;\n      background-color: white;\n      height: 70px;\n      width: 100%;\n      align-items: center;\n      box-shadow: rgba(0, 0, 0, 0.2) 1px 2px 5px;\n      transition: top .5s; }\n      .capabilities__content__nav__header {\n        margin-right: 8vw; }\n        .capabilities__content__nav__header__specialButton {\n          position: fixed;\n          right: 100px; }\n        .capabilities__content__nav__header__specialButtonMobile {\n          position: absolute !important;\n          right: 50px !important;\n          display: none; }\n      .capabilities__content__nav__selectBox {\n        display: flex;\n        justify-content: space-between;\n        align-items: center;\n        text-align: center;\n        width: 140px;\n        border-bottom: solid 2px #111; }\n    .capabilities__content__specialNav {\n      position: fixed;\n      top: -500px;\n      z-index: 4;\n      height: 300px;\n      width: 100%;\n      background-color: white;\n      box-shadow: rgba(0, 0, 0, 0.2) 1px 2px 5px;\n      overflow: hidden;\n      -webkit-transition: top .5s ease-in-out;\n      -moz-transition: top .5s ease-in-out;\n      -ms-transition: top .5s ease-in-out;\n      -o-transition: top .5s ease-in-out;\n      transition: top .5s ease-in-out; }\n    .capabilities__content__threerow {\n      display: flex;\n      flex-direction: row;\n      justify-content: space-between;\n      margin-top: 50px; }\n      .capabilities__content__threerow__item {\n        margin: 20px;\n        margin-left: 0px;\n        display: flex;\n        flex-direction: column;\n        transition: 1s all;\n        opacity: .3;\n        width: 17vw; }\n        .capabilities__content__threerow__item__tags {\n          display: flex;\n          flex-direction: row;\n          flex-wrap: wrap; }\n    .capabilities__content__tworow {\n      margin-top: 50px;\n      display: flex;\n      flex-direction: row;\n      justify-content: space-between; }\n      .capabilities__content__tworow__bigItem {\n        margin: 20px;\n        margin-left: 0px;\n        display: flex;\n        flex-direction: column;\n        transition: 1s all;\n        opacity: .3; }\n        .capabilities__content__tworow__bigItem__text {\n          width: 37vw; }\n      .capabilities__content__tworow__smallItem {\n        width: 17vw;\n        margin: 20px;\n        margin-left: 0px;\n        display: flex;\n        flex-direction: column;\n        transition: 1s all;\n        opacity: .3; }\n    .capabilities__content__banner {\n      margin-top: 50px;\n      position: relative;\n      opacity: .3;\n      transition: all .5s; }\n      .capabilities__content__banner__overlay {\n        background-color: rgba(0, 0, 0, 0.5);\n        position: absolute;\n        height: 100%;\n        width: 100%;\n        transition: all .5s;\n        display: flex;\n        align-items: center; }\n      .capabilities__content__banner__overlay:hover {\n        background-color: rgba(0, 0, 0, 0.2); }\n      .capabilities__content__banner__image {\n        height: auto;\n        width: 100%; }\n      .capabilities__content__banner__tags {\n        display: flex;\n        flex-direction: row; }\n\n.before {\n  width: 5px;\n  height: 5px;\n  margin-left: 6px;\n  border-bottom: 2px solid #000000;\n  border-left: 2px solid #000000;\n  -webkit-transform: translate(-50%, 0%) rotate(45deg);\n  -moz-transform: translate(-50%, 0%) rotate(45deg);\n  transform: translate(-50%, 0%) rotate(45deg); }\n\n.after {\n  width: 5px;\n  height: 5px;\n  border-top: 2px solid #000000;\n  border-right: 2px solid #000000;\n  -webkit-transform: translate(-50%, 0%) rotate(45deg);\n  -moz-transform: translate(-50%, 0%) rotate(45deg);\n  transform: translate(-50%, 0%) rotate(45deg); }\n\n.before:hover,\n.after:hover,\n.capabilities__content__nav__header__specialButton,\n.sideBarCircle {\n  cursor: pointer; }\n\n.navShow {\n  top: 0; }\n\n.specialCard {\n  margin-top: 70px;\n  height: 250px;\n  width: 250px;\n  opacity: 0; }\n\n.specialImg {\n  height: 185px;\n  width: 185px; }\n\n.specialText {\n  font-family: sans-serif; }\n\n.showSpecial {\n  top: 0; }\n\n.specialHide {\n  top: -1000px; }\n\n.galleryLoaded {\n  opacity: 1; }\n\n.flickity-viewport:focus,\n.capabilities__content__specialNav {\n  outline: none; }\n\n.filterSelect {\n  margin-right: 9px;\n  font-size: 20px;\n  font-family: sans-serif; }\n\n.capabilities__header {\n  font-family: 'Cinzel', serif;\n  font-size: 25px;\n  margin-left: 70px;\n  transition: margin-left .5s; }\n\n.capabilities__title {\n  font-family: sans-serif;\n  font-weight: bold;\n  font-size: 20px;\n  margin-top: 10px; }\n\n.capabilities__galleryType {\n  font-size: 17px;\n  font-family: sans-serif;\n  display: inline-block;\n  margin-left: 10px; }\n\n.filterOff {\n  opacity: 1;\n  transition: 1s all; }\n\n.blur {\n  filter: blur(5px);\n  -webkit-filter: blur(5px); }\n\n.capabilities__image {\n  box-shadow: rgba(0, 0, 0, 0.2) 0px 0px;\n  transform: scale(1);\n  transition: all .5s; }\n\n.capabilities__border {\n  border: solid 1px rgba(0, 0, 0, 0.2); }\n\n.capabilities__image:hover {\n  box-shadow: rgba(0, 0, 0, 0.2) 1px 2px 5px;\n  transform: scale(1.025); }\n\n.capabilities__threeImage,\n.capabilities__twoSmallImage {\n  width: 17vw; }\n\n.capabilities__threeLink,\n.capabilities__twoSmallLink {\n  width: 17vw; }\n\n.capabilities__twoBigImage {\n  width: 42vw; }\n\n.capabilities__twoBigLink {\n  width: 600px; }\n\n.capabilities__galleryContent {\n  margin-left: 10px; }\n\n.capabilities__details {\n  font-size: 19px;\n  font-family: cormorant garamond;\n  font-weight: 100; }\n\n.capabilities__tag {\n  font-size: 12px;\n  font-family: sans-serif;\n  border: solid 1px black;\n  padding: 2px;\n  margin-top: 5px;\n  margin-right: 5px; }\n\n.capabilities__galleryTitle {\n  left: 10px;\n  color: white;\n  font-family: sans-serif;\n  font-size: 40px;\n  font-weight: bolder; }\n\n.capabilities__galleryDetails {\n  left: 10px;\n  color: white;\n  font-family: cormorant garamond;\n  font-weight: 100;\n  font-size: 25px;\n  width: 400px; }\n\n.capabilities__galleryTag {\n  font-size: 20px;\n  font-family: sans-serif;\n  font-weight: 100;\n  border: solid .5px white;\n  color: white;\n  padding: 2px;\n  margin-top: 10px;\n  margin-right: 10px; }\n\n.specialImg:hover {\n  cursor: pointer; }\n\n@-webkit-keyframes navEnter {\n  0% {\n    top: -100px; }\n  100% {\n    top: 0; } }\n\n/* Standard syntax */\n@keyframes navEnter {\n  0% {\n    top: -100px; }\n  100% {\n    top: 0; } }\n\n/*\n===================================\n    MEDIA QUERIES\n===================================\n*/\n@media (max-width: 1200px) {\n  .capabilities__title {\n    font-size: 1.65vw; }\n  .capabilities__details {\n    font-size: 1.65vw; } }\n\n@media (max-width: 960px) {\n  .capabilities__title {\n    font-size: 16px; }\n  .capabilities__details {\n    font-size: 16px; } }\n\n@media (max-width: 760px) {\n  .capabilities__content {\n    margin-left: 0px;\n    margin-right: 0px; }\n  .capabilities__content__threerow,\n  .capabilities__content__tworow {\n    flex-direction: column;\n    margin-left: 5%;\n    margin-right: 5%;\n    position: relative; }\n  .capabilities__content__threerow__item,\n  .capabilities__content__tworow__smallItem {\n    flex-direction: row;\n    width: 100%; }\n  .capabilities__content__nav__header__specialButton {\n    display: none; }\n  .capabilities__header {\n    margin-left: 40px; }\n  .capabilities__content__nav__header__specialButtonMobile {\n    display: block; }\n  .capabilities__threeImage,\n  .capabilities__threeLink,\n  .capabilities__twoSmallImage,\n  .capabilities__twoSmallLink {\n    width: 130px; }\n  .capabilities__threeContent {\n    position: absolute;\n    left: 150px; }\n  .capabilities__twoBigImage,\n  .capabilities__content__tworow__bigItem__text {\n    width: 80%; }\n  .capabilities__galleryTitle {\n    font-size: 5.2vw; }\n  .capabilities__galleryDetails {\n    font-size: 3.3vw; }\n  .capabilities__galleryTag {\n    font-size: 2.6vw; } }\n\n@media (max-width: 550px) {\n  .capabilities__galleryTitle {\n    font-size: 28.5px; }\n  .capabilities__galleryDetails {\n    font-size: 18.5px; }\n  .capabilities__galleryTag {\n    font-size: 14px; }\n  .capabilities__content__banner__image {\n    height: 245px;\n    width: auto; } }\n\n@media (max-width: 480px) {\n  .capabilities__content__nav__selectBox {\n    display: none; } }\n\n.portHeader {\n  font-size: 45px;\n  font-family: sans-serif; }\n\n.portItalic {\n  font-size: 30px;\n  font-family: sans-serif;\n  font-style: italic; }\n\n.portText {\n  font-family: 'Cormorant Garamond', serif;\n  font-size: 20px; }\n\n.backbutton {\n  position: absolute;\n  top: 20px;\n  left: 20px; }\n\n.visual__carouselContainer {\n  position: relative; }\n  .visual__carouselContainer__loader {\n    position: absolute;\n    width: 500px;\n    z-index: 5;\n    top: 50px;\n    left: 30%;\n    -webkit-animation: loadingAnimation 1s infinite alternate;\n    /* Safari 4.0 - 8.0 */\n    animation: loadingAnimation 1s infinite alternate; }\n  .visual__carouselContainer__carousel {\n    background: #fff !important;\n    padding-top: 50px;\n    width: 100%;\n    overflow: hidden;\n    opacity: 0;\n    transition: all 1s; }\n  .visual__carouselContainer__navBar {\n    width: 100%;\n    height: 100px;\n    margin-bottom: 50px;\n    overflow: hidden;\n    opacity: 0;\n    transition: all 1s; }\n\n.visual__content {\n  margin-left: 10vw;\n  margin-right: 10vw;\n  margin-bottom: 100px; }\n  .visual__content__text {\n    width: 80%;\n    margin-bottom: 50px; }\n  .visual__content__rowPhoto {\n    width: 100%;\n    height: calc(100vh - 20rem);\n    margin-top: 10px;\n    margin-bottom: 20px; }\n  .visual__content__twoPoster {\n    display: flex;\n    flex-direction: row;\n    justify-content: space-between; }\n    .visual__content__twoPoster__item__poster {\n      width: 38vw;\n      height: 400px; }\n  .visual__content__blurb {\n    display: flex;\n    flex-direction: row;\n    justify-content: space-between; }\n  .visual__content__threePoster {\n    display: flex;\n    flex-direction: row;\n    justify-content: space-between; }\n    .visual__content__threePoster__item {\n      width: 30%; }\n      .visual__content__threePoster__item__card {\n        width: 100%; }\n\n.visualTitle {\n  margin-bottom: 20px; }\n\n.card {\n  margin: 10px;\n  height: calc(100vh - 15rem); }\n\n.caroImg {\n  height: calc(100vh - 15rem);\n  pointer-events: none; }\n\n.navCard {\n  height: 100px;\n  margin: 2px;\n  opacity: .5;\n  transition: opacity 1s; }\n\n.navImg {\n  height: 100px;\n  pointer-events: none; }\n\n.flickity-viewport:focus,\n.visual__carouselContainer__carousel,\n.visual__carouselContainer__navBar {\n  outline: none; }\n\n.galleryLoaded {\n  opacity: 1; }\n\n.navCard.is-selected {\n  opacity: 1; }\n\n.linebreak {\n  margin-bottom: 10px; }\n\n@-webkit-keyframes loadingAnimation {\n  0% {\n    -webkit-transform: scale(1);\n    /* Ch <36, Saf 5.1+, iOS < 9.2, An =<4.4.4 */\n    -ms-transform: scale(1);\n    /* IE 9 */\n    transform: scale(1); }\n  100% {\n    -webkit-transform: scale(1.2);\n    /* Ch <36, Saf 5.1+, iOS < 9.2, An =<4.4.4 */\n    -ms-transform: scale(1.2);\n    /* IE 9 */\n    transform: scale(1.2); } }\n\n/* Standard syntax */\n@keyframes loadingAnimation {\n  0% {\n    -webkit-transform: scale(1);\n    /* Ch <36, Saf 5.1+, iOS < 9.2, An =<4.4.4 */\n    -ms-transform: scale(1);\n    /* IE 9 */\n    transform: scale(1); }\n  100% {\n    -webkit-transform: scale(1.2);\n    /* Ch <36, Saf 5.1+, iOS < 9.2, An =<4.4.4 */\n    -ms-transform: scale(1.2);\n    /* IE 9 */\n    transform: scale(1.2); } }\n\n/*\n===================================\n    MEDIA QUERIES\n===================================\n*/\n@media (max-width: 900px) {\n  .card {\n    width: 70vw;\n    height: calc(100vh - 15rem);\n    position: relative; }\n  .caroImg {\n    max-height: 100%;\n    max-width: 95%;\n    height: auto;\n    margin: auto;\n    position: absolute;\n    top: 50%;\n    left: 50%;\n    -webkit-transform: translateY(-50%) translateX(-50%);\n    -moz-transform: translateY(-50%) translateX(-50%);\n    -ms-transform: translateY(-50%) translateX(-50%);\n    -o-transform: translateY(-50%) translateX(-50%);\n    transform: translateY(-50%) translateX(-50%); } }\n\n@media (max-width: 760px) {\n  .card {\n    width: 60vw;\n    height: 67vw; }\n  .navCard {\n    height: 10vw; }\n  .navImg {\n    height: inherit; }\n  .portHeader {\n    font-size: 6vw; }\n  .portItalic {\n    font-size: 4vw; } }\n\n@media (max-width: 500px) {\n  .card {\n    height: 370px; }\n  .navCard {\n    height: 50px; }\n  .portHeader {\n    font-size: 30px; }\n  .portItalic {\n    font-size: 20px; } }\n\n.audio__content {\n  margin-left: 10vw;\n  margin-right: 10vw;\n  margin-bottom: 100px; }\n  .audio__content__album {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    padding-top: 150px; }\n    .audio__content__album__tilt {\n      height: 400px;\n      width: 400px;\n      transition: all .1s; }\n      .audio__content__album__tilt__cover {\n        height: 100%;\n        width: 100%; }\n    .audio__content__album__media {\n      width: 400px;\n      display: flex;\n      justify-content: space-between;\n      align-items: center;\n      margin-top: 25px; }\n      .audio__content__album__media__play {\n        width: 60px;\n        font-family: sans-serif; }\n      .audio__content__album__media__input {\n        position: relative;\n        display: flex;\n        align-items: center;\n        justify-content: center;\n        width: 80%;\n        margin-left: 10px;\n        margin-right: 10px; }\n      .audio__content__album__media__volume {\n        display: flex; }\n        .audio__content__album__media__volume__mute {\n          height: 20px;\n          width: 20px;\n          margin-right: 3px; }\n  .audio__content__text {\n    margin-top: 50px;\n    margin-bottom: 50px; }\n\n.audio__content__album__media__play:hover,\n.audio__content__album__media__volume__mute:hover {\n  cursor: pointer; }\n\n/*\n===================================\n    MEDIA QUERIES\n===================================\n*/\n@media (max-width: 760px) {\n  .audio__content__album__media {\n    width: 52vw; }\n  .audio__content__album {\n    margin-left: 10px;\n    margin-right: 10px; }\n  .audio__content__album__tilt {\n    height: 52vw;\n    width: 52vw; } }\n\n@media (max-width: 500px) {\n  .audio__content__album__tilt {\n    height: 260px;\n    width: 260px; }\n  .audio__content__album__media {\n    width: 260px; } }\n\n.video__content {\n  margin-left: 10vw;\n  margin-right: 10vw;\n  margin-bottom: 100px; }\n  .video__content__video {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    padding-top: 120px; }\n    .video__content__video__container {\n      height: 400px;\n      width: 700px; }\n    .video__content__video__media {\n      width: 700px;\n      display: flex;\n      justify-content: space-between;\n      align-items: center; }\n      .video__content__video__media__playing {\n        display: flex;\n        justify-content: space-between;\n        align-items: center;\n        width: 70px; }\n        .video__content__video__media__playing__play {\n          font-family: sans-serif;\n          width: 80px; }\n        .video__content__video__media__playing__fullscreen {\n          width: 30px;\n          height: 30px; }\n      .video__content__video__media__input {\n        position: relative;\n        display: flex;\n        align-items: center;\n        justify-content: center;\n        width: 75%;\n        margin-left: 10px;\n        margin-right: 10px; }\n      .video__content__video__media__volume {\n        display: flex; }\n        .video__content__video__media__volume__mute {\n          height: 20px;\n          width: 20px;\n          margin-right: 3px; }\n  .video__content__text {\n    margin-top: 50px;\n    margin-bottom: 50px; }\n\n.video__content__album__media__volume__mute {\n  height: 20px;\n  width: 20px;\n  margin-right: 3px; }\n\n.fullscreen:hover {\n  -webkit-filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.5));\n  -ms-filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.5));\n  filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.5));\n  cursor: pointer; }\n\n.video__content__video__media__playing__play:hover,\n.video__content__album__media__volume__mute:hover {\n  cursor: pointer; }\n\n.videoHeader {\n  font-size: 45px;\n  font-family: sans-serif; }\n\n.videoItalic {\n  font-size: 30px;\n  font-family: sans-serif;\n  font-style: italic; }\n\n/*\n===================================\n    MEDIA QUERIES\n===================================\n*/\n@media (max-width: 760px) {\n  .video__content {\n    margin-left: 10px;\n    margin-right: 10px; }\n  .video__content__video__container,\n  .video__content__video__media {\n    width: 100%; }\n  .video__content__video__container {\n    height: 55vw; }\n  .videoHeader {\n    font-size: 6vw; }\n  .videoItalic {\n    font-size: 4vw; } }\n\n@media (max-width: 480px) {\n  .videoHeader {\n    font-size: 30px; }\n  .videoItalic {\n    font-size: 20px; } }\n\n.about {\n  background-color: black;\n  margin-left: 20px;\n  margin-right: 20px;\n  color: #f2f2f2;\n  min-height: 100vh;\n  padding-bottom: 20px; }\n  .about__top__img {\n    margin-top: 50px;\n    width: 300px; }\n  .about__main {\n    margin-left: 25vw;\n    margin-top: 60px; }\n    .about__main__profile {\n      max-width: 800px; }\n      .about__main__profile__contact {\n        display: flex;\n        flex-direction: row; }\n      .about__main__profile__images {\n        display: flex;\n        flex-direction: row;\n        margin-left: 50px; }\n        .about__main__profile__images__item {\n          display: flex;\n          flex-direction: column;\n          margin-right: 100px; }\n    .about__main__process {\n      max-width: 800px; }\n    .about__main__capabilities {\n      max-width: 800px; }\n\n.aboutContainer {\n  background-color: black;\n  width: 100%;\n  z-index: 9;\n  position: fixed; }\n\n.about__link,\n.about__slash {\n  display: inline;\n  font-family: sans-serif;\n  font-size: 25px;\n  color: #606060;\n  transition: all .5s; }\n\n.about__link {\n  font-weight: lighter; }\n\n.about__link:hover {\n  cursor: pointer;\n  color: #cbcbcb; }\n\n.about__selected {\n  color: #cbcbcb; }\n\n.about__slash {\n  font-weight: 600; }\n\n.about__text {\n  font-size: 20px;\n  font-family: 'Cormorant Garamond', serif;\n  font-weight: 100;\n  line-height: 22px; }\n\n.about__profName {\n  font-family: sans-serif;\n  color: #f2f2f2;\n  font-size: 18px; }\n\n.about__email {\n  font-family: sans-serif;\n  text-decoration: none;\n  color: #606060;\n  font-size: 16px;\n  transition: all .5s; }\n\n.about__email:hover {\n  color: white; }\n\n.about__hide {\n  display: none; }\n\n/*\n===================================\n    MEDIA QUERIES\n===================================\n*/\n@media (max-width: 720px) {\n  .about__main {\n    margin-left: 0px; }\n  .about__picture {\n    display: none; }\n  .about__main__profile__images {\n    flex-direction: column; }\n  .about__main__profile__images__item {\n    margin-bottom: 25px; } }\n\n@media (max-width: 480px) {\n  .about__text {\n    font-size: 18px; }\n  .about__profName {\n    font-size: 16px; }\n  .about__email {\n    font-size: 15px; } }\n\n.notFoundPage {\n  display: flex;\n  -webkit-box-align: center;\n  -webkit-box-pack: center;\n  align-content: center;\n  align-items: center;\n  background: url(/imgs/util/404.gif) no-repeat;\n  background-position: 50%;\n  background-size: cover;\n  justify-content: center;\n  height: 100vh; }\n\n.errorText {\n  font-size: 30vw;\n  font-family: monospace;\n  font-weight: 900;\n  color: white;\n  text-shadow: -4px -1px black, 0 1px black, 3px -2px black, -4px 2px black; }\n\n* {\n  min-height: 0;\n  min-width: 0; }\n\nmain {\n  width: 100%; }\n\n.sideBarContainer {\n  position: fixed;\n  top: 20px;\n  right: 0%;\n  width: 75px;\n  height: 30px;\n  z-index: 10; }\n\n.sideBarCircle {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  position: relative;\n  width: 30px;\n  height: 30px;\n  background: white;\n  border: solid 1px white;\n  box-shadow: 0 2px 3px 1px rgba(0, 0, 0, 0.15), 0 2px 5px 0 rgba(0, 0, 0, 0.15);\n  border-radius: 50%; }\n\n.transparent {\n  background: transparent; }\n\n.x {\n  width: 14px;\n  z-index: 0; }\n\n.助,\n.帰 {\n  width: 14px;\n  color: #111;\n  position: fixed;\n  opacity: 1;\n  transition: all .2s; }\n\n.助 {\n  right: 47.5px; }\n\n.帰 {\n  left: 38px; }\n\n.hidden {\n  opacity: 0; }\n\n.back {\n  left: 0%;\n  margin-left: 30px; }\n\n::-moz-selection {\n  color: white;\n  background: grey; }\n\n::selection {\n  color: white;\n  background: grey; }\n", ""]);
 	
 	// exports
 
@@ -30531,10 +30531,12 @@
 	    _this.state = {
 	      aboutOpen: false,
 	      projects: _AppData2.default,
-	      playing: false
+	      playing: false,
+	      wrap: true
 	    };
 	    _this.handleAboutOpen = _this.handleAboutOpen.bind(_this);
 	    _this.handlePlaying = _this.handlePlaying.bind(_this);
+	    _this.handleWrap = _this.handleWrap.bind(_this);
 	    return _this;
 	  }
 	
@@ -30551,6 +30553,14 @@
 	      console.log("handleplay " + value);
 	      this.setState({
 	        playing: value
+	      });
+	    }
+	  }, {
+	    key: 'handleWrap',
+	    value: function handleWrap(value) {
+	      console.log("wrap " + value);
+	      this.setState({
+	        wrap: value
 	      });
 	    }
 	  }, {
@@ -30580,7 +30590,7 @@
 	            _react2.default.createElement(
 	              'p',
 	              { className: "助 " + (this.state.aboutOpen && "hidden") },
-	              ' I '
+	              ' i '
 	            ),
 	            ' '
 	          ),
@@ -30606,7 +30616,7 @@
 	                _react2.default.createElement(_reactRouterDom.Route, {
 	                  exact: true, path: '/',
 	                  render: function render(props) {
-	                    return _react2.default.createElement(_pages.Home, _extends({}, props, { handlePlaying: _this2.handlePlaying }));
+	                    return _react2.default.createElement(_pages.Home, _extends({}, props, { handlePlaying: _this2.handlePlaying, handleWrap: _this2.handleWrap }));
 	                  }
 	                }),
 	                _react2.default.createElement(_reactRouterDom.Route, {
@@ -30624,7 +30634,7 @@
 	                _react2.default.createElement(_reactRouterDom.Route, {
 	                  path: '/visual/:id',
 	                  render: function render(props) {
-	                    return _react2.default.createElement(_pages.Visual, _extends({}, props, { handleAboutOpen: _this2.handleAboutOpen, aboutOpen: _this2.state.aboutOpen, projects: _this2.state.projects }));
+	                    return _react2.default.createElement(_pages.Visual, _extends({}, props, { handleAboutOpen: _this2.handleAboutOpen, aboutOpen: _this2.state.aboutOpen, projects: _this2.state.projects, wrap: _this2.state.wrap }));
 	                  }
 	                }),
 	                _react2.default.createElement(_reactRouterDom.Route, { render: function render(props) {
@@ -34848,7 +34858,7 @@
 	        'div',
 	        { className: 'home' },
 	        _react2.default.createElement(_HomeComponents.Splash, null),
-	        _react2.default.createElement(_HomeComponents.Portfolio, { handleAboutOpen: this.props.handleAboutOpen, aboutOpen: this.props.aboutOpen, handlePlaying: this.props.handlePlaying })
+	        _react2.default.createElement(_HomeComponents.Portfolio, { handleWrap: this.props.handleWrap, handlePlaying: this.props.handlePlaying })
 	      );
 	    }
 	  }]);
@@ -35117,6 +35127,22 @@
 	          _react2.default.createElement(
 	            'div',
 	            { ref: 'test', className: "capabilities__content__specialNav " + (this.state.showSpecial ? " showSpecial " : "") + (this.state.fromTop < -230 && "specialHide") },
+	            _react2.default.createElement(
+	              'div',
+	              { className: "specialCard " + (this.state.galleryLoaded ? "galleryLoaded" : "") },
+	              _react2.default.createElement(
+	                'a',
+	                { href: 'http://13thandu.com/', target: '_blank' },
+	                ' ',
+	                _react2.default.createElement('img', { className: 'specialImg', src: '/imgs/special/13u.jpg', onLoad: this.imageLoaded }),
+	                ' '
+	              ),
+	              _react2.default.createElement(
+	                'p',
+	                { className: 'specialText' },
+	                ' 13TH AND U '
+	              )
+	            ),
 	            this.state.special.map(function (card, index) {
 	              return _react2.default.createElement(
 	                _reactRouterDom.Link,
@@ -35148,7 +35174,9 @@
 	              { className: "capabilities__content__threerow__item " + (this.state.all ? 'filterOff' : '') + (this.state.identities ? 'filterOff' : '') + (this.state.print ? 'filterOff' : '') },
 	              _react2.default.createElement(
 	                _reactRouterDom.Link,
-	                { className: 'capabilities__threeLink', to: '/visual/telegram' },
+	                { className: 'capabilities__threeLink', to: '/visual/telegram', onClick: function onClick() {
+	                    return _this2.props.handleWrap(true);
+	                  } },
 	                _react2.default.createElement('img', { className: 'capabilities__image capabilities__threeImage capabilities__border', src: '/imgs/telegram/telegramPort.png' })
 	              ),
 	              _react2.default.createElement(
@@ -35194,7 +35222,9 @@
 	              { className: "capabilities__content__threerow__item " + (this.state.all ? 'filterOff' : '') + (this.state.identities ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '') },
 	              _react2.default.createElement(
 	                _reactRouterDom.Link,
-	                { className: 'capabilities__threeLink', to: '/visual/omni' },
+	                { className: 'capabilities__threeLink', to: '/visual/omni', onClick: function onClick() {
+	                    return _this2.props.handleWrap(true);
+	                  } },
 	                _react2.default.createElement('img', { className: 'capabilities__image capabilities__threeImage', src: '/imgs/omni/omniPort.png' })
 	              ),
 	              _react2.default.createElement(
@@ -35240,7 +35270,9 @@
 	              { className: "capabilities__content__threerow__item " + (this.state.all ? 'filterOff' : '') + (this.state.identity ? 'filterOff' : '') + (this.state.print ? 'filterOff' : '') },
 	              _react2.default.createElement(
 	                _reactRouterDom.Link,
-	                { className: 'capabilities__threeLink', to: '/visual/connersmith' },
+	                { className: 'capabilities__threeLink', to: '/visual/connersmith', onClick: function onClick() {
+	                    return _this2.props.handleWrap(true);
+	                  } },
 	                _react2.default.createElement('img', { className: 'capabilities__image capabilities__threeImage', src: '/imgs/connersmith/connersmithPort.png' })
 	              ),
 	              _react2.default.createElement(
@@ -35290,7 +35322,9 @@
 	              { className: "capabilities__content__tworow__bigItem " + (this.state.all ? 'filterOff' : '') + (this.state.identities ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '') },
 	              _react2.default.createElement(
 	                _reactRouterDom.Link,
-	                { className: 'capabilities_twoBigLink', to: '/visual/rhizome' },
+	                { className: 'capabilities_twoBigLink', to: '/visual/rhizome', onClick: function onClick() {
+	                    return _this2.props.handleWrap(true);
+	                  } },
 	                _react2.default.createElement('img', { className: 'capabilities__image capabilities__twoBigImage', src: '/imgs/rhizome/rhizomePort.png' })
 	              ),
 	              _react2.default.createElement(
@@ -35336,7 +35370,9 @@
 	              { className: "capabilities__content__tworow__smallItem " + (this.state.all ? 'filterOff' : '') + (this.state.identities ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '') },
 	              _react2.default.createElement(
 	                _reactRouterDom.Link,
-	                { className: 'capabilities__twoSmallLink', to: '/visual/sea' },
+	                { className: 'capabilities__twoSmallLink', to: '/visual/sea', onClick: function onClick() {
+	                    return _this2.props.handleWrap(true);
+	                  } },
 	                _react2.default.createElement('img', { className: 'capabilities__image capabilities__twoSmallImage capabilities__border', src: '/imgs/sea/seaPort.jpg' })
 	              ),
 	              _react2.default.createElement(
@@ -35386,7 +35422,9 @@
 	              { className: "capabilities__content__threerow__item " + (this.state.all ? 'filterOff' : '') + (this.state.print ? 'filterOff' : '') },
 	              _react2.default.createElement(
 	                _reactRouterDom.Link,
-	                { className: 'capabilities__threeLink', to: '/visual/blackstar' },
+	                { className: 'capabilities__threeLink', to: '/visual/blackstar', onClick: function onClick() {
+	                    return _this2.props.handleWrap(true);
+	                  } },
 	                _react2.default.createElement('img', { className: 'capabilities__image capabilities__threeImage', src: '/imgs/blackstar/blackstarPort.png' })
 	              ),
 	              _react2.default.createElement(
@@ -35432,7 +35470,9 @@
 	              { className: "capabilities__content__threerow__item " + (this.state.all ? 'filterOff' : '') + (this.state.identities ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '') },
 	              _react2.default.createElement(
 	                _reactRouterDom.Link,
-	                { className: 'capabilities__threeLink', to: '/visual/eurosign' },
+	                { className: 'capabilities__threeLink', to: '/visual/eurosign', onClick: function onClick() {
+	                    return _this2.props.handleWrap(false);
+	                  } },
 	                _react2.default.createElement('img', { className: 'capabilities__image capabilities__threeImage', src: '/imgs/eurosign/eurosignPort.png' })
 	              ),
 	              _react2.default.createElement(
@@ -35478,7 +35518,9 @@
 	              { className: "capabilities__content__threerow__item " + (this.state.all ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '') + (this.state.print ? 'filterOff' : '') },
 	              _react2.default.createElement(
 	                _reactRouterDom.Link,
-	                { className: 'capabilities__threeLink', to: '/visual/monza' },
+	                { className: 'capabilities__threeLink', to: '/visual/monza', onClick: function onClick() {
+	                    return _this2.props.handleWrap(true);
+	                  } },
 	                _react2.default.createElement('img', { className: 'capabilities__image capabilities__threeImage', src: '/imgs/monza/monzaPort.png' })
 	              ),
 	              _react2.default.createElement(
@@ -35526,43 +35568,48 @@
 	              _react2.default.createElement(
 	                'div',
 	                { className: 'capabilities__content__banner__overlay' },
-	                ' '
-	              ),
-	              _react2.default.createElement('img', { className: 'capabilities__content__banner__image', src: '/imgs/artsy/artsyPort.png' }),
-	              _react2.default.createElement(
-	                'p',
-	                { className: 'capabilities__galleryTitle' },
-	                ' ARTSY ART BASEL MIAMI'
-	              ),
-	              _react2.default.createElement(
-	                'p',
-	                { className: 'capabilities__galleryDetails' },
-	                ' Display Typeface. Created in-house, the typeface references the Euro-motorsport catalog of the 1960s-70s. '
-	              ),
-	              _react2.default.createElement(
-	                'div',
-	                { className: 'capabilities__content__banner__tags' },
 	                _react2.default.createElement(
-	                  'p',
-	                  { className: 'capabilities__galleryTag' },
-	                  ' ART DIRECTION '
-	                ),
-	                _react2.default.createElement(
-	                  'p',
-	                  { className: 'capabilities__galleryTag' },
-	                  ' PRINT '
-	                ),
-	                _react2.default.createElement(
-	                  'p',
-	                  { className: 'capabilities__galleryTag' },
-	                  ' INTERACTIVE '
-	                ),
-	                _react2.default.createElement(
-	                  'p',
-	                  { className: 'capabilities__galleryTag' },
-	                  ' STRATEGY '
+	                  'div',
+	                  { className: 'capabilities__galleryContent' },
+	                  _react2.default.createElement(
+	                    'p',
+	                    { className: 'capabilities__galleryTitle' },
+	                    ' ARTSY ART BASEL MIAMI'
+	                  ),
+	                  _react2.default.createElement('br', null),
+	                  _react2.default.createElement(
+	                    'p',
+	                    { className: 'capabilities__galleryDetails' },
+	                    ' Display Typeface. Created in-house, the typeface references the Euro-motorsport catalog of the 1960s-70s. '
+	                  ),
+	                  _react2.default.createElement('br', null),
+	                  _react2.default.createElement(
+	                    'div',
+	                    { className: 'capabilities__content__banner__tags' },
+	                    _react2.default.createElement(
+	                      'p',
+	                      { className: 'capabilities__galleryTag' },
+	                      ' ART DIRECTION '
+	                    ),
+	                    _react2.default.createElement(
+	                      'p',
+	                      { className: 'capabilities__galleryTag' },
+	                      ' PRINT '
+	                    ),
+	                    _react2.default.createElement(
+	                      'p',
+	                      { className: 'capabilities__galleryTag' },
+	                      ' INTERACTIVE '
+	                    ),
+	                    _react2.default.createElement(
+	                      'p',
+	                      { className: 'capabilities__galleryTag' },
+	                      ' STRATEGY '
+	                    )
+	                  )
 	                )
-	              )
+	              ),
+	              _react2.default.createElement('img', { className: 'capabilities__content__banner__image', src: '/imgs/artsy/artsyPort.png' })
 	            )
 	          ),
 	          _react2.default.createElement(
@@ -35573,7 +35620,9 @@
 	              { className: "capabilities__content__tworow__bigItem " + (this.state.all ? 'filterOff' : '') + (this.state.identities ? 'filterOff' : '') + (this.state.print ? 'filterOff' : '') },
 	              _react2.default.createElement(
 	                _reactRouterDom.Link,
-	                { className: 'capabilities_twoBigLink', to: '/visual/eddy' },
+	                { className: 'capabilities_twoBigLink', to: '/visual/eddy', onClick: function onClick() {
+	                    return _this2.props.handleWrap(false);
+	                  } },
 	                _react2.default.createElement('img', { className: 'capabilities__image capabilities__twoBigImage', src: '/imgs/eddy/eddyPort.png' })
 	              ),
 	              _react2.default.createElement(
@@ -35614,7 +35663,9 @@
 	              { className: "capabilities__content__tworow__smallItem " + (this.state.all ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '') },
 	              _react2.default.createElement(
 	                _reactRouterDom.Link,
-	                { className: 'capabilities__twoSmallLink', to: '/visual/1432r' },
+	                { className: 'capabilities__twoSmallLink', to: '/visual/1432r', onClick: function onClick() {
+	                    return _this2.props.handleWrap(true);
+	                  } },
 	                _react2.default.createElement('img', { className: 'capabilities__image capabilities__twoSmallImage capabilities__border', src: '/imgs/1432r/fourteenPort.png' })
 	              ),
 	              _react2.default.createElement(
@@ -35659,7 +35710,9 @@
 	              { className: "capabilities__content__threerow__item " + (this.state.all ? 'filterOff' : '') + (this.state.print ? 'filterOff' : '') },
 	              _react2.default.createElement(
 	                _reactRouterDom.Link,
-	                { className: 'capabilities__threeLink', to: '/visual/blow' },
+	                { className: 'capabilities__threeLink', to: '/visual/blow', onClick: function onClick() {
+	                    return _this2.props.handleWrap(true);
+	                  } },
 	                _react2.default.createElement('img', { className: 'capabilities__image capabilities__threeImage', src: '/imgs/blow/blowPort.png' })
 	              ),
 	              _react2.default.createElement(
@@ -35700,7 +35753,9 @@
 	              { className: "capabilities__content__threerow__item " + (this.state.all ? 'filterOff' : '') + (this.state.motion ? 'filterOff' : '') + (this.state.print ? 'filterOff' : '') + (this.state.identities ? 'filterOff' : '') },
 	              _react2.default.createElement(
 	                _reactRouterDom.Link,
-	                { className: 'capabilities__threeLink', to: '/visual/room' },
+	                { className: 'capabilities__threeLink', to: '/visual/room', onClick: function onClick() {
+	                    return _this2.props.handleWrap(false);
+	                  } },
 	                _react2.default.createElement('img', { className: 'capabilities__image capabilities__threeImage', src: '/imgs/room/roomPort.png' })
 	              ),
 	              _react2.default.createElement(
@@ -35746,7 +35801,9 @@
 	              { className: "capabilities__content__threerow__item " + (this.state.all ? 'filterOff' : '') + (this.state.print ? 'filterOff' : '') },
 	              _react2.default.createElement(
 	                _reactRouterDom.Link,
-	                { className: 'capabilities__threeLink', to: '/visual/editorial' },
+	                { className: 'capabilities__threeLink', to: '/visual/editorial', onClick: function onClick() {
+	                    return _this2.props.handleWrap(true);
+	                  } },
 	                _react2.default.createElement('img', { className: 'capabilities__image capabilities__threeImage', src: '/imgs/editorial/editorialPort.png' })
 	              ),
 	              _react2.default.createElement(
@@ -35791,7 +35848,9 @@
 	              { className: "capabilities__content__threerow__item " + (this.state.all ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '') + (this.state.artDirection ? 'filterOff' : '') },
 	              _react2.default.createElement(
 	                _reactRouterDom.Link,
-	                { className: 'capabilities__threeLink', to: '/visual/fringe' },
+	                { className: 'capabilities__threeLink', to: '/visual/fringe', onClick: function onClick() {
+	                    return _this2.props.handleWrap(true);
+	                  } },
 	                _react2.default.createElement('img', { className: 'capabilities__image capabilities__threeImage', src: '/imgs/fringe/fringePort.png' })
 	              ),
 	              _react2.default.createElement(
@@ -35832,7 +35891,9 @@
 	              { className: "capabilities__content__threerow__item " + (this.state.all ? 'filterOff' : '') + (this.state.identities ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '') },
 	              _react2.default.createElement(
 	                _reactRouterDom.Link,
-	                { className: 'capabilities__threeLink', to: '/visual/studios' },
+	                { className: 'capabilities__threeLink', to: '/visual/studios', onClick: function onClick() {
+	                    return _this2.props.handleWrap(true);
+	                  } },
 	                _react2.default.createElement('img', { className: 'capabilities__image capabilities__threeImage', src: '/imgs/studios/studiosPort.png' })
 	              ),
 	              _react2.default.createElement(
@@ -35878,7 +35939,9 @@
 	              { className: "capabilities__content__threerow__item " + (this.state.all ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '') + (this.state.identities ? 'filterOff' : '') },
 	              _react2.default.createElement(
 	                _reactRouterDom.Link,
-	                { className: 'capabilities__threeLink', to: '/visual/emerge' },
+	                { className: 'capabilities__threeLink', to: '/visual/emerge', onClick: function onClick() {
+	                    return _this2.props.handleWrap(true);
+	                  } },
 	                _react2.default.createElement('img', { className: 'capabilities__image capabilities__threeImage', src: '/imgs/emerge/emergePort.png' })
 	              ),
 	              _react2.default.createElement(
@@ -35928,7 +35991,9 @@
 	              { className: "capabilities__content__tworow__bigItem " + (this.state.all ? 'filterOff' : '') + (this.state.identities ? 'filterOff' : '') + (this.state.print ? 'filterOff' : '') },
 	              _react2.default.createElement(
 	                _reactRouterDom.Link,
-	                { className: 'capabilities_twoBigLink', to: '/visual/identity' },
+	                { className: 'capabilities_twoBigLink', to: '/visual/identity', onClick: function onClick() {
+	                    return _this2.props.handleWrap(false);
+	                  } },
 	                _react2.default.createElement('img', { className: 'capabilities__image capabilities__twoBigImage', src: '/imgs/identity/identityPort.png' })
 	              ),
 	              _react2.default.createElement(
@@ -35960,47 +36025,6 @@
 	                    'p',
 	                    { className: 'capabilities__tag' },
 	                    ' EDITORIAL '
-	                  )
-	                )
-	              )
-	            ),
-	            _react2.default.createElement(
-	              'div',
-	              { className: "capabilities__content__tworow__smallItem " + (this.state.all ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '') },
-	              _react2.default.createElement(
-	                _reactRouterDom.Link,
-	                { className: 'capabilities__twoSmallLink', to: '/visual/newtypo' },
-	                _react2.default.createElement('img', { className: 'capabilities__image capabilities__twoSmallImage capabilities__border', src: '/imgs/newTypo/newTypoPort.png' })
-	              ),
-	              _react2.default.createElement(
-	                'div',
-	                { className: 'capabilities__threeContent' },
-	                _react2.default.createElement(
-	                  'div',
-	                  { className: 'capabilities__text' },
-	                  _react2.default.createElement(
-	                    'p',
-	                    { className: 'capabilities__title' },
-	                    ' NEW TYPOGRAPHIC TENDENCIES '
-	                  ),
-	                  _react2.default.createElement(
-	                    'p',
-	                    { className: 'capabilities__details' },
-	                    ' Display Typeface. Created in-house, the typeface references the Euro-motorsport catalog of the 1960s-70s. '
-	                  )
-	                ),
-	                _react2.default.createElement(
-	                  'div',
-	                  { className: 'capabilities__content__threerow__item__tags' },
-	                  _react2.default.createElement(
-	                    'p',
-	                    { className: 'capabilities__tag' },
-	                    ' SPACIAL DESIGN '
-	                  ),
-	                  _react2.default.createElement(
-	                    'p',
-	                    { className: 'capabilities__tag' },
-	                    ' INTERACTIVE '
 	                  )
 	                )
 	              )
@@ -40010,11 +40034,13 @@
 	  value: true
 	});
 	var PortfolioData = {
-	  special: [{
-	    image: "/imgs/special/13u.jpg",
-	    title: "13TH AND U",
-	    link: "/visual/13u"
-	  }, {
+	  special: [
+	  // {
+	  //   image: "/imgs/special/13u.jpg",
+	  //   title: "13TH AND U",
+	  //   link: "/visual/13u"
+	  // },
+	  {
 	    image: "/imgs/special/1432rmix.jpg",
 	    title: "ETHICS EP",
 	    link: "/audio/ethicsep"
@@ -40732,6 +40758,7 @@
 	    _classCallCheck(this, Visual);
 	
 	    var params = props.match.params.id;
+	    var wrap = props.wrap;
 	
 	    var _this = _possibleConstructorReturn(this, (Visual.__proto__ || Object.getPrototypeOf(Visual)).call(this, props));
 	
@@ -40739,7 +40766,8 @@
 	      galleryLoaded: false,
 	      count: 0,
 	      selectedIndex: 0,
-	      project: _this.props.projects[params]
+	      project: _this.props.projects[params],
+	      wrap: wrap
 	    };
 	    _this.imageLoaded = _this.imageLoaded.bind(_this);
 	    _this.updateSelected = _this.updateSelected.bind(_this);
@@ -40761,7 +40789,7 @@
 	        var options = {
 	          contain: true,
 	          initialIndex: 0,
-	          wrapAround: true,
+	          wrapAround: this.state.wrap,
 	          prevNextButtons: false,
 	          pageDots: false,
 	          resize: true,
@@ -40884,7 +40912,7 @@
 	          _react2.default.createElement(
 	            'div',
 	            { className: 'visual__carouselContainer' },
-	            this.state.galleryLoaded === false && _react2.default.createElement('img', { className: 'visual__carouselContainer__loader', src: '/imgs/util/loading.png' }),
+	            this.state.galleryLoaded === false && _react2.default.createElement('img', { className: 'visual__carouselContainer__loader', src: '/imgs/util/DOMloading.png' }),
 	            _react2.default.createElement(
 	              'div',
 	              { ref: 'carousel', className: 'visual__carouselContainer__carousel ' + (this.state.galleryLoaded ? "galleryLoaded" : "") },
@@ -41217,8 +41245,8 @@
 	                    ' 1-(555)-555-5555 '
 	                  ),
 	                  _react2.default.createElement(
-	                    'p',
-	                    { className: 'about__text' },
+	                    'a',
+	                    { className: 'about__text', style: { color: '#f2f2f2', textDecoration: 'none' }, href: 'mailto:office@public.group?subject=Inquiries Feedback' },
 	                    ' office@public.design '
 	                  )
 	                ),
@@ -41228,30 +41256,28 @@
 	                  _react2.default.createElement(
 	                    'div',
 	                    { className: 'about__main__profile__images__item' },
-	                    _react2.default.createElement('img', { className: 'about__picture', src: 'http://lorempixel.com/100/100' }),
 	                    _react2.default.createElement(
 	                      'p',
 	                      { className: 'about__profName' },
 	                      ' Moustafa Hassan '
 	                    ),
 	                    _react2.default.createElement(
-	                      'p',
-	                      { className: 'about__email' },
+	                      'a',
+	                      { className: 'about__email', href: 'mailto:moustafa@public.group?subject=Inquiries' },
 	                      ' moustafa@public.group '
 	                    )
 	                  ),
 	                  _react2.default.createElement(
 	                    'div',
 	                    { className: 'about__main__profile__images__item' },
-	                    _react2.default.createElement('img', { className: 'about__picture', src: 'http://lorempixel.com/100/100' }),
 	                    _react2.default.createElement(
 	                      'p',
 	                      { className: 'about__profName' },
 	                      ' Peter Markoski '
 	                    ),
 	                    _react2.default.createElement(
-	                      'p',
-	                      { className: 'about__email' },
+	                      'a',
+	                      { className: 'about__email', href: 'mailto:peter@public.group?subject=Inquiries' },
 	                      ' peter@public.group '
 	                    )
 	                  )
@@ -41290,58 +41316,8 @@
 	              ),
 	              _react2.default.createElement('br', null),
 	              _react2.default.createElement('br', null),
-	              _react2.default.createElement(
-	                'div',
-	                { className: 'about__main__process' },
-	                _react2.default.createElement(
-	                  'p',
-	                  { className: "about__link " + (this.state.capabilities === 'design' ? " about__selected " : ""), onClick: function onClick() {
-	                      return _this2.handleCap('design');
-	                    } },
-	                  ' Design '
-	                ),
-	                _react2.default.createElement(
-	                  'p',
-	                  { className: 'about__slash' },
-	                  ' / '
-	                ),
-	                _react2.default.createElement(
-	                  'p',
-	                  { className: "about__link " + (this.state.capabilities === 'development' ? " about__selected " : ""), onClick: function onClick() {
-	                      return _this2.handleCap('development');
-	                    } },
-	                  ' Development '
-	                ),
-	                _react2.default.createElement(
-	                  'p',
-	                  { className: 'about__slash' },
-	                  ' / '
-	                ),
-	                _react2.default.createElement(
-	                  'p',
-	                  { className: "about__link " + (this.state.capabilities === 'editing' ? " about__selected " : ""), onClick: function onClick() {
-	                      return _this2.handleCap('editing');
-	                    } },
-	                  ' Editing '
-	                )
-	              ),
 	              _react2.default.createElement('br', null),
-	              _react2.default.createElement('br', null),
-	              _react2.default.createElement(
-	                'p',
-	                { className: "about__text " + (this.state.capabilities !== 'design' ? " about__hide" : "") },
-	                ' Design: HURR DURR SHAPES COLORS MOUSTAFA WRITE UP SOME BULLSHIT HERE FAM K THANKS '
-	              ),
-	              _react2.default.createElement(
-	                'p',
-	                { className: "about__text " + (this.state.capabilities !== 'development' ? " about__hide" : "") },
-	                ' Development: We try to develop all our modern projects with React, Redux, Express, Node, and Mongo. We are firm believer in Google\'s Progress Web App Philosophy and try to meet said standards when appropriate. We are also experienced with: AngularJS, JQuery, SQL, WordPress, Drupal, API based CMS, Greensock, ThreeJS, and many more libraries used to make web sites for the Web 2.0 generation of the internet '
-	              ),
-	              _react2.default.createElement(
-	                'p',
-	                { className: "about__text " + (this.state.capabilities !== 'editing' ? " about__hide" : "") },
-	                ' Editing: We have strong experience working with editing for music and film. Our strengths lie in a strong foundation of the technologies used to create immersive soundtracks. We are able to assist in any capacity for projects utilizing sound. '
-	              )
+	              _react2.default.createElement('br', null)
 	            )
 	          )
 	        )
@@ -53700,85 +53676,85 @@
 	
 	  ecube: {
 	    title: "ECUBE",
-	    type: "Product Design, Interactice",
-	    headText: ["Still Need Copy"],
+	    type: "Product Design, Information Architecture, Strategy",
+	    headText: ["Design and development of the user interface for a social loaning start-up."],
 	    cards: ['/imgs/ecube/ecube1.jpg', '/imgs/ecube/ecube2.jpg', '/imgs/ecube/ecube3.jpg', '/imgs/ecube/ecube4.jpg', '/imgs/ecube/ecube5.jpg', '/imgs/ecube/ecube6.jpg']
 	  },
 	
 	  eddy: {
 	    title: "EDDY",
-	    type: "Identity, Print",
-	    headText: ["Eddy stills needs copy"],
+	    type: "Identity, Art Direction, Print",
+	    headText: ["Identity and printed matter for DC based dj Eddy Bauer."],
 	    cards: ['/imgs/eddy/eddy1.jpg', '/imgs/eddy/eddy2.jpg', '/imgs/eddy/eddy3.jpg', '/imgs/eddy/eddy4.jpg']
 	  },
 	
 	  eurosign: {
 	    title: "EUROSIGN",
-	    type: "Identity, Interactive, Strategy",
-	    headText: ["needs copy"],
+	    type: "Typography, Print, Editorial",
+	    headText: ["Euro-Sign: San Serif Typeface.", "Created in-house, the typeface references the euro/dutch Humanist movements in typography and Total Design."],
 	    cards: ['/imgs/eurosign/euro1.jpg', '/imgs/eurosign/euro2.jpg', '/imgs/eurosign/euro3.jpg']
 	  },
 	
 	  '1432r': {
 	    title: "1432R",
-	    type: "Identity, Interactive",
-	    headText: ["needs copy"],
+	    type: "Identity, Art Direction , Print, Interactive, Strategy",
+	    headText: ["A new identity for DC based record label 1432R – from logo redesign and web development to typography and retail packaging. The new design reflects the young and unconventional spirit of the label"],
 	    cards: ['/imgs/1432r/head1.jpg', '/imgs/1432r/cover1.jpg', '/imgs/1432r/head2.jpg', '/imgs/1432r/cover2.jpg', '/imgs/1432r/head3.jpg', '/imgs/1432r/cover3.jpg', '/imgs/1432r/hat1.jpg', '/imgs/1432r/cover4.jpg', '/imgs/1432r/digital1.jpg', '/imgs/1432r/cover5.jpg', '/imgs/1432r/cover6.jpg', '/imgs/1432r/cover7.jpg', '/imgs/1432r/cover8.jpg', '/imgs/1432r/cover9.jpg']
 	  },
 	
 	  blow: {
 	    title: "BLOW UP",
-	    type: "Print, Editorial",
-	    headText: ["needs copy"],
+	    type: "Identity, Art Direction, Print",
+	    headText: ["highlighting a central film with a central piece. Blow up."],
 	    cards: ['/imgs/blow/blowPort.png']
 	  },
 	
 	  room: {
 	    title: "ROOM",
-	    type: "Identity, Editorial, Interactive",
-	    headText: ["needs copy"],
+	    type: "Identity, Art Direction , Print, Interactive, Strategy",
+	    headText: ["Direction for our editorial leg. Coming 2018."],
 	    cards: ['/imgs/room/roomPort.png', '/imgs/room/room1.jpg']
 	  },
 	
 	  editorial: {
 	    title: "EDITORIALS",
-	    type: "Print, Editorial",
-	    headText: ["needs copy"],
+	    type: "Art Direction, Print",
+	    headText: ["Various editorial pieces"],
 	    cards: ['/imgs/editorial/editorial1.jpg', '/imgs/editorial/editorial2.jpg', '/imgs/editorial/editorial3.jpg', '/imgs/editorial/editorial4.jpg', '/imgs/editorial/editorial5.jpg', '/imgs/editorial/editorial6.jpg', '/imgs/editorial/editorial7.jpg']
 	  },
 	
 	  emerge: {
 	    title: "EMERGE",
-	    type: "Identity, Interactive, Strategy",
-	    headText: ["needs copy"],
+	    type: "Identity, Art Direction , Print, Interactive, Strategy",
+	    headText: ["A new identity for DC based Emerge Art Fair."],
 	    cards: ['/imgs/emerge/emerge1.jpg', '/imgs/emerge/emerge2.jpg', '/imgs/emerge/emerge3.jpg', '/imgs/emerge/emerge4.jpg', '/imgs/emerge/emerge5.jpg']
 	  },
 	
 	  newtypo: {
 	    title: "NEW TYPOGRAPHY",
-	    type: "Special Design, Interactive",
-	    headText: ["Needs Copy"],
+	    type: "Spatial Design, Interactive",
+	    headText: ["Exhibited at the Corcoran Gallery of Art, from April 6th- May 19th 2013.", "Design has two functions. First, it has the practical job of communication; and second, it gives objects meaning. In addition, it balances the recognizable and the innovative as society adapts to a changing environment. The future of design is an embodiment of the profoundly human need to structure our environment as a reflection of ourselves. As you view these artifacts, remember that they draw from an original point of place or context and are reassembled into a new, visually configured language. As the title implies, New Typographic Tendencies is an unorthodox and intuitive piece of graphic design about cultural and spacial exchange. the space utilizes the English and Arabic languages as placeholders for abstract representations of two different cultures and places tension between them by exposing the walls of the gallery and putting emphasis on the floor."],
 	    cards: ['/imgs/newtypo/newtypo1.png', '/imgs/newtypo/newtypo2.png', '/imgs/newtypo/newtypo3.png', '/imgs/newtypo/newtypo4.png', '/imgs/newtypo/newtypo5.jpeg', '/imgs/newtypo/newtypo6.jpeg', '/imgs/newtypo/newtypo7.jpeg', '/imgs/newtypo/newtypo8.jpeg', '/imgs/newtypo/newtypo9.jpg']
 	  },
 	
 	  identity: {
 	    title: "IDENTITY *IN PROGRESS",
 	    type: "Identity, Editorial",
-	    headText: ["needs Copy"],
-	    cards: ['/imgs/newtypo/newtypo1.png']
+	    headText: ["Identity Typeface.", "Work In Progress"],
+	    cards: ['/imgs/identity/identityPort.png']
 	  },
 	
-	  '13u': {
-	    title: "13TH & U",
-	    type: "Identity, Branding",
-	    headText: ["Needs Copy"],
-	    cards: ['/imgs/newtypo/newtypo1.png']
-	  },
+	  // '13u': {
+	  //   title: "13TH & U",
+	  //   type: "Identity, Branding",
+	  //   headText: ["Needs Copy"],
+	  //   cards: ['/imgs/newtypo/newtypo1.png']
+	  // },
 	
 	  monza: {
-	    title: "Monza",
-	    type: "Interactive",
-	    headText: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida, ligula sodales viverra suscipit, orci lectus elementum velit, et finibus libero risus at urna. Aenean a leo et leo porta scelerisque at ut lacus. Cras sodales vestibulum mi eu ultrices. Maecenas vitae elit at lacus semper bibendum nec non tortor. Sed eget nibh vitae enim lobortis feugiat. Quisque finibus, magna ac feugiat eleifend, tellus leo commodo ante, sodales convallis metus mi eget orci. Morbi quis nisi  nec diam vehicula vulputate vel ultricies sem. Donec suscipit non lectus eu pharetra. Donec quis vulputate felis. Nullam sagittis magna metus, eget aliquet tortor sollicitudin nec. Praesent ultrices cursus facilisis. Phasellus hendrerit malesuada massa et mattis."],
+	    title: "MONZA",
+	    type: "Typography, Print, Editorial",
+	    headText: ["Monza Light: Display Typeface.", "Created in-house, the typeface references the Euro-motorsport catalogs of the 1960s-70s."],
 	    cards: ['/imgs/monza/monza1.jpg', '/imgs/monza/monza2.jpg', '/imgs/monza/monza3.jpg']
 	  },
 	
@@ -53804,9 +53780,9 @@
 	  }
 	
 	}, _defineProperty(_AppData, "ecube", {
-	  title: "ECube",
-	  type: "Print",
-	  headText: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida, ligula sodales viverra suscipit, orci lectus elementum velit, et finibus libero risus at urna. Aenean a leo et leo porta scelerisque at ut lacus. Cras sodales vestibulum mi eu ultrices. Maecenas vitae elit at lacus semper bibendum nec non tortor. Sed eget nibh vitae enim lobortis feugiat. Quisque finibus, magna ac feugiat eleifend, tellus leo commodo ante, sodales convallis metus mi eget orci. Morbi quis nisi  nec diam vehicula vulputate vel ultricies sem. Donec suscipit non lectus eu pharetra. Donec quis vulputate felis. Nullam sagittis magna metus, eget aliquet tortor sollicitudin nec. Praesent ultrices cursus facilisis. Phasellus hendrerit malesuada massa et mattis."],
+	  title: "E CUBED.",
+	  type: "Identity, Interactive, Strategy, Product Design",
+	  headText: ["Design and development of the user interface for a social loaning start-up."],
 	  cards: ['/imgs/ecube/ecube1.jpg', '/imgs/ecube/ecube2.jpg', '/imgs/ecube/ecube3.jpg', '/imgs/ecube/ecube4.jpg', '/imgs/ecube/ecube5.jpg', '/imgs/ecube/ecube6.jpg']
 	}), _defineProperty(_AppData, "studios", {
 	  title: "STUDIOS ARCHITECTURE",
@@ -53815,7 +53791,7 @@
 	  cards: ['/imgs/studios/studios1.jpg', '/imgs/studios/studios2.jpg', '/imgs/studios/studios3.jpg', '/imgs/studios/studios4.jpg', '/imgs/studios/studios5.jpg']
 	}), _defineProperty(_AppData, "rawlenightlong", {
 	  title: "RAWLE NIGHT LONG",
-	  type: "Visual Indentity, Interactive",
+	  type: "Visual Identity, Interactive",
 	  headText: ["Rawle Night Long is a Electronic Music DJ based out of DC. We did a complete rebranding of his image including redesigning his logo, website, and art direction.", "The new logo and typography for the website stems from the Neue Haas Grotesque font. The website was designed with minimalism in mind utilizing shades of charcoal, white, and a hot pink offset."],
 	  cards: ['/imgs/rawlenightlong/rawle1.jpeg']
 	}), _defineProperty(_AppData, "connersmith", {
@@ -53899,9 +53875,9 @@
 	  summary: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida, ligula sodales viverra suscipit, orci lectus elementum velit, et finibus libero risus at urna. Aenean a leo et leo porta scelerisque at ut lacus. Cras sodales vestibulum mi eu ultrices. Maecenas vitae elit at lacus semper bibendum nec non tortor. Sed eget nibh vitae enim lobortis feugiat. Quisque finibus, magna ac feugiat eleifend, tellus leo commodo ante, sodales convallis metus mi eget orci. Morbi quis nisi nec diam vehicula vulputate vel ultricies sem. Donec suscipit non lectus eu pharetra. Donec quis vulputate felis. Nullam sagittis magna metus, eget aliquet tortor sollicitudin nec. Praesent ultrices cursus facilisis. Phasellus hendrerit malesuada massa et mattis."]
 	}), _defineProperty(_AppData, "artsy", {
 	  video: "https://vimeo.com/128414835",
-	  title: "ARTSY ART BASEL",
-	  artist: "INTERACTIVE",
-	  summary: ["A piece Moustafa Hassan developed for Artsy's presentation at Art Basel 2008"]
+	  title: "ART BASEL MIAMI PROJECTION",
+	  artist: "ARTSY 2013",
+	  summary: ["Live Projection for Artsy.", "Art Basel Miami 2013."]
 	}), _AppData);
 	exports.default = AppData;
 

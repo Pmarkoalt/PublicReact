@@ -72,19 +72,19 @@ class About extends Component{
                     <p className="about__text"> Washington DC </p>
                     <br />
                     <p className="about__text"> 1-(555)-555-5555 </p>
-                    <p className="about__text"> office@public.design </p>
+                    <a className="about__text" style={{color: '#f2f2f2', textDecoration: 'none'}} href="mailto:office@public.group?subject=Inquiries Feedback"> office@public.design </a>
                   </div>
                   {/* <br /><br /> */}
                   <div className="about__main__profile__images">
                     <div className="about__main__profile__images__item">
-                      <img className="about__picture" src="http://lorempixel.com/100/100" />
+                      {/* <img className="about__picture" src="http://lorempixel.com/100/100" /> */}
                       <p className="about__profName"> Moustafa Hassan </p>
-                      <p className="about__email"> moustafa@public.group </p>
+                      <a className="about__email" href="mailto:moustafa@public.group?subject=Inquiries"> moustafa@public.group </a>
                     </div>
                     <div className="about__main__profile__images__item">
-                      <img className="about__picture" src="http://lorempixel.com/100/100" />
+                      {/* <img className="about__picture" src="http://lorempixel.com/100/100" /> */}
                       <p className="about__profName"> Peter Markoski </p>
-                      <p className="about__email"> peter@public.group </p>
+                      <a className="about__email" href="mailto:peter@public.group?subject=Inquiries"> peter@public.group </a>
                     </div>
                   </div>
                 </div>
@@ -104,17 +104,8 @@ class About extends Component{
               <br /><br />
               <p className="about__text">With that in mind we are up to date on the latest design trends, frameworks for web & app development, and technologies for sound design, music, and film editing. </p>
               <br /><br />
-              <div className="about__main__process">
-                <p className={"about__link " + (this.state.capabilities === 'design' ? " about__selected " : "")} onClick={() => this.handleCap('design')}> Design </p>
-                <p className="about__slash"> / </p>
-                <p className={"about__link " + (this.state.capabilities === 'development' ? " about__selected " : "")} onClick={() => this.handleCap('development')}> Development </p>
-                <p className="about__slash"> / </p>
-                <p className={"about__link " + (this.state.capabilities === 'editing' ? " about__selected " : "")} onClick={() => this.handleCap('editing')}> Editing </p>
-              </div>
+
               <br /><br />
-              <p className={"about__text " + (this.state.capabilities !== 'design' ? " about__hide" : "")}> Design: HURR DURR SHAPES COLORS MOUSTAFA WRITE UP SOME BULLSHIT HERE FAM K THANKS </p>
-              <p className={"about__text " + (this.state.capabilities !== 'development' ? " about__hide" : "")}> Development: We try to develop all our modern projects with React, Redux, Express, Node, and Mongo. We are firm believer in Google's Progress Web App Philosophy and try to meet said standards when appropriate. We are also experienced with: AngularJS, JQuery, SQL, WordPress, Drupal, API based CMS, Greensock, ThreeJS, and many more libraries used to make web sites for the Web 2.0 generation of the internet </p>
-              <p className={"about__text " + (this.state.capabilities !== 'editing' ? " about__hide" : "")}> Editing: We have strong experience working with editing for music and film. Our strengths lie in a strong foundation of the technologies used to create immersive soundtracks. We are able to assist in any capacity for projects utilizing sound. </p>
             </div>
             }
 

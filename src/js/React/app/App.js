@@ -14,10 +14,12 @@ class App extends Component {
     this.state = {
       aboutOpen: false,
       projects: AppData,
-      playing: false
+      playing: false,
+      wrap: true
     }
     this.handleAboutOpen = this.handleAboutOpen.bind(this);
     this.handlePlaying = this.handlePlaying.bind(this);
+    this.handleWrap = this.handleWrap.bind(this);
   }
 
   handleAboutOpen(event){
@@ -30,6 +32,13 @@ class App extends Component {
     console.log("handleplay " + value);
     this.setState({
       playing: value
+    })
+  }
+
+  handleWrap(value){
+    console.log("wrap " + value);
+    this.setState({
+      wrap: value
     })
   }
 
@@ -47,7 +56,7 @@ class App extends Component {
         {/* <TransitionGroup>
             { this.state.aboutOpen && <About />}
         </TransitionGroup> */}
-        <a onClick={this.handleAboutOpen} className="sideBarContainer"> <div className={"sideBarCircle " + (this.state.aboutOpen && "transparent")}> <img className="x" src="/imgs/util/x.svg" /> <p className={"助 " + (this.state.aboutOpen && "hidden")}> I </p> </div> </a>
+        <a onClick={this.handleAboutOpen} className="sideBarContainer"> <div className={"sideBarCircle " + (this.state.aboutOpen && "transparent")}> <img className="x" src="/imgs/util/x.svg" /> <p className={"助 " + (this.state.aboutOpen && "hidden")}> i </p> </div> </a>
         <TransitionGroup>
           { this.state.aboutOpen && <About />}
         </TransitionGroup>
@@ -61,7 +70,7 @@ class App extends Component {
 								<Route
                   exact path="/"
                   render={props => (
-                    <Home {...props} handlePlaying={this.handlePlaying} />
+                    <Home {...props} handlePlaying={this.handlePlaying} handleWrap={this.handleWrap} />
                   )}
                 />
 								<Route
@@ -79,7 +88,7 @@ class App extends Component {
                 <Route
                   path="/visual/:id"
                   render={props => (
-                    <Visual {...props} handleAboutOpen={this.handleAboutOpen} aboutOpen={this.state.aboutOpen} projects={this.state.projects} />
+                    <Visual {...props} handleAboutOpen={this.handleAboutOpen} aboutOpen={this.state.aboutOpen} projects={this.state.projects} wrap={this.state.wrap} />
                   )}
                 />
 								<Route render={props => (

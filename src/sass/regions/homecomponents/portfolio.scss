@@ -23,6 +23,7 @@
       width: 100%;
       align-items: center;
       box-shadow: rgba(0, 0, 0, 0.2) 1px 2px 5px;
+      // border-bottom: 10px rgba(128, 128, 128, 0.22) solid;
       transition: top .5s;
       // -webkit-animation: navEnter 1s; /* Safari 4.0 - 8.0 */
       // animation: navEnter 1s;
@@ -60,6 +61,7 @@
       width: 100%;
       background-color: white;
       box-shadow: rgba(0, 0, 0, 0.2) 1px 2px 5px;
+      // border-bottom: 10px rgba(128, 128, 128, 0.22) solid;
       overflow: hidden;
       -webkit-transition: top .5s ease-in-out;
       -moz-transition: top .5s ease-in-out;
@@ -147,6 +149,8 @@
         height: 100%;
         width: 100%;
         transition: all .5s;
+        display: flex;
+        align-items: center;
       }
 
       &__overlay:hover{
@@ -155,16 +159,13 @@
 
 
       &__image{
-        height: 400px;
+        height: auto;
         width: 100%;
       }
 
       &__tags{
-        position: absolute;
         display: flex;
         flex-direction: row;
-        bottom: 10px;
-        left: 10px;
       }
     }
   }
@@ -308,10 +309,12 @@
 }
 
 
-
+.capabilities__galleryContent{
+  margin-left: 10px;
+}
 
 .capabilities__details{
-  font-size: 20px;
+  font-size: 19px;
   font-family: cormorant garamond;
   font-weight: 100;
 }
@@ -326,8 +329,6 @@
 }
 
 .capabilities__galleryTitle{
-  position: absolute;
-  bottom: 40%;
   left: 10px;
   color: white;
   font-family: sans-serif;
@@ -336,8 +337,6 @@
 }
 
 .capabilities__galleryDetails{
-  position: absolute;
-  bottom: 20%;
   left: 10px;
   color: white;
   font-family: cormorant garamond;
@@ -355,6 +354,10 @@
   padding: 2px;
   margin-top: 10px;
   margin-right: 10px;
+}
+
+.specialImg:hover{
+  cursor: pointer;
 }
 
 
@@ -460,8 +463,40 @@
     width: 80%;
   }
 
+  .capabilities__galleryTitle{
+    font-size: 5.2vw;
+  }
+
+  .capabilities__galleryDetails{
+    font-size: 3.3vw;
+  }
+
+  .capabilities__galleryTag{
+    font-size: 2.6vw;
+  }
+
 
 }
+
+@media (max-width: 550px){
+  .capabilities__galleryTitle{
+    font-size: 28.5px;
+  }
+
+  .capabilities__galleryDetails{
+    font-size: 18.5px;
+  }
+
+  .capabilities__galleryTag{
+    font-size: 14px;
+  }
+
+  .capabilities__content__banner__image{
+    height: 245px;
+    width: auto;
+  }
+}
+
 
 @media (max-width: 480px) {
 

@@ -9,85 +9,85 @@ const AppData = {
 
   ecube: {
     title: "ECUBE",
-    type: "Product Design, Interactice",
-    headText: ["Still Need Copy"],
+    type: "Product Design, Information Architecture, Strategy",
+    headText: ["Design and development of the user interface for a social loaning start-up."],
     cards: ['/imgs/ecube/ecube1.jpg', '/imgs/ecube/ecube2.jpg', '/imgs/ecube/ecube3.jpg', '/imgs/ecube/ecube4.jpg', '/imgs/ecube/ecube5.jpg', '/imgs/ecube/ecube6.jpg' ]
   },
 
   eddy: {
     title: "EDDY",
-    type: "Identity, Print",
-    headText: ["Eddy stills needs copy"],
+    type: "Identity, Art Direction, Print",
+    headText: ["Identity and printed matter for DC based dj Eddy Bauer."],
     cards: ['/imgs/eddy/eddy1.jpg', '/imgs/eddy/eddy2.jpg', '/imgs/eddy/eddy3.jpg', '/imgs/eddy/eddy4.jpg']
   },
 
   eurosign: {
     title: "EUROSIGN",
-    type: "Identity, Interactive, Strategy",
-    headText: ["needs copy"],
+    type: "Typography, Print, Editorial",
+    headText: ["Euro-Sign: San Serif Typeface.", "Created in-house, the typeface references the euro/dutch Humanist movements in typography and Total Design."],
     cards: ['/imgs/eurosign/euro1.jpg', '/imgs/eurosign/euro2.jpg', '/imgs/eurosign/euro3.jpg']
   },
 
   '1432r': {
     title: "1432R",
-    type: "Identity, Interactive",
-    headText: ["needs copy"],
+    type: "Identity, Art Direction , Print, Interactive, Strategy",
+    headText: ["A new identity for DC based record label 1432R – from logo redesign and web development to typography and retail packaging. The new design reflects the young and unconventional spirit of the label"],
     cards: ['/imgs/1432r/head1.jpg', '/imgs/1432r/cover1.jpg', '/imgs/1432r/head2.jpg', '/imgs/1432r/cover2.jpg', '/imgs/1432r/head3.jpg', '/imgs/1432r/cover3.jpg', '/imgs/1432r/hat1.jpg', '/imgs/1432r/cover4.jpg', '/imgs/1432r/digital1.jpg', '/imgs/1432r/cover5.jpg', '/imgs/1432r/cover6.jpg', '/imgs/1432r/cover7.jpg', '/imgs/1432r/cover8.jpg', '/imgs/1432r/cover9.jpg']
   },
 
   blow: {
     title: "BLOW UP",
-    type: "Print, Editorial",
-    headText: ["needs copy"],
+    type: "Identity, Art Direction, Print",
+    headText: ["highlighting a central film with a central piece. Blow up."],
     cards: ['/imgs/blow/blowPort.png']
   },
 
   room: {
     title: "ROOM",
-    type: "Identity, Editorial, Interactive",
-    headText: ["needs copy"],
+    type: "Identity, Art Direction , Print, Interactive, Strategy",
+    headText: ["Direction for our editorial leg. Coming 2018."],
     cards: ['/imgs/room/roomPort.png', '/imgs/room/room1.jpg']
   },
 
   editorial: {
     title: "EDITORIALS",
-    type: "Print, Editorial",
-    headText: ["needs copy"],
+    type: "Art Direction, Print",
+    headText: ["Various editorial pieces"],
     cards: [ '/imgs/editorial/editorial1.jpg', '/imgs/editorial/editorial2.jpg', '/imgs/editorial/editorial3.jpg', '/imgs/editorial/editorial4.jpg', '/imgs/editorial/editorial5.jpg', '/imgs/editorial/editorial6.jpg', '/imgs/editorial/editorial7.jpg']
   },
 
   emerge: {
     title: "EMERGE",
-    type: "Identity, Interactive, Strategy",
-    headText: ["needs copy"],
+    type: "Identity, Art Direction , Print, Interactive, Strategy",
+    headText: ["A new identity for DC based Emerge Art Fair."],
     cards: [ '/imgs/emerge/emerge1.jpg', '/imgs/emerge/emerge2.jpg', '/imgs/emerge/emerge3.jpg', '/imgs/emerge/emerge4.jpg', '/imgs/emerge/emerge5.jpg']
   },
 
   newtypo: {
     title: "NEW TYPOGRAPHY",
-    type: "Special Design, Interactive",
-    headText: ["Needs Copy"],
+    type: "Spatial Design, Interactive",
+    headText: ["Exhibited at the Corcoran Gallery of Art, from April 6th- May 19th 2013.", "Design has two functions. First, it has the practical job of communication; and second, it gives objects meaning. In addition, it balances the recognizable and the innovative as society adapts to a changing environment. The future of design is an embodiment of the profoundly human need to structure our environment as a reflection of ourselves. As you view these artifacts, remember that they draw from an original point of place or context and are reassembled into a new, visually configured language. As the title implies, New Typographic Tendencies is an unorthodox and intuitive piece of graphic design about cultural and spacial exchange. the space utilizes the English and Arabic languages as placeholders for abstract representations of two different cultures and places tension between them by exposing the walls of the gallery and putting emphasis on the floor."],
     cards: [ '/imgs/newtypo/newtypo1.png', '/imgs/newtypo/newtypo2.png', '/imgs/newtypo/newtypo3.png', '/imgs/newtypo/newtypo4.png', '/imgs/newtypo/newtypo5.jpeg', '/imgs/newtypo/newtypo6.jpeg', '/imgs/newtypo/newtypo7.jpeg', '/imgs/newtypo/newtypo8.jpeg', '/imgs/newtypo/newtypo9.jpg']
   },
 
   identity: {
     title: "IDENTITY *IN PROGRESS",
     type: "Identity, Editorial",
-    headText: ["needs Copy"],
-    cards: ['/imgs/newtypo/newtypo1.png']
+    headText: ["Identity Typeface.", "Work In Progress"],
+    cards: ['/imgs/identity/identityPort.png']
   },
 
-  '13u': {
-    title: "13TH & U",
-    type: "Identity, Branding",
-    headText: ["Needs Copy"],
-    cards: ['/imgs/newtypo/newtypo1.png']
-  },
+  // '13u': {
+  //   title: "13TH & U",
+  //   type: "Identity, Branding",
+  //   headText: ["Needs Copy"],
+  //   cards: ['/imgs/newtypo/newtypo1.png']
+  // },
 
   monza: {
-    title: "Monza",
-    type: "Interactive",
-    headText: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida, ligula sodales viverra suscipit, orci lectus elementum velit, et finibus libero risus at urna. Aenean a leo et leo porta scelerisque at ut lacus. Cras sodales vestibulum mi eu ultrices. Maecenas vitae elit at lacus semper bibendum nec non tortor. Sed eget nibh vitae enim lobortis feugiat. Quisque finibus, magna ac feugiat eleifend, tellus leo commodo ante, sodales convallis metus mi eget orci. Morbi quis nisi  nec diam vehicula vulputate vel ultricies sem. Donec suscipit non lectus eu pharetra. Donec quis vulputate felis. Nullam sagittis magna metus, eget aliquet tortor sollicitudin nec. Praesent ultrices cursus facilisis. Phasellus hendrerit malesuada massa et mattis."],
+    title: "MONZA",
+    type: "Typography, Print, Editorial",
+    headText: ["Monza Light: Display Typeface.", "Created in-house, the typeface references the Euro-motorsport catalogs of the 1960s-70s."],
     cards: ['/imgs/monza/monza1.jpg', '/imgs/monza/monza2.jpg', '/imgs/monza/monza3.jpg']
   },
 
@@ -113,9 +113,9 @@ const AppData = {
   },
 
   ecube: {
-    title: "ECube",
-    type: "Print",
-    headText: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida, ligula sodales viverra suscipit, orci lectus elementum velit, et finibus libero risus at urna. Aenean a leo et leo porta scelerisque at ut lacus. Cras sodales vestibulum mi eu ultrices. Maecenas vitae elit at lacus semper bibendum nec non tortor. Sed eget nibh vitae enim lobortis feugiat. Quisque finibus, magna ac feugiat eleifend, tellus leo commodo ante, sodales convallis metus mi eget orci. Morbi quis nisi  nec diam vehicula vulputate vel ultricies sem. Donec suscipit non lectus eu pharetra. Donec quis vulputate felis. Nullam sagittis magna metus, eget aliquet tortor sollicitudin nec. Praesent ultrices cursus facilisis. Phasellus hendrerit malesuada massa et mattis."],
+    title: "E CUBED.",
+    type: "Identity, Interactive, Strategy, Product Design",
+    headText: ["Design and development of the user interface for a social loaning start-up."],
     cards: ['/imgs/ecube/ecube1.jpg', '/imgs/ecube/ecube2.jpg', '/imgs/ecube/ecube3.jpg', '/imgs/ecube/ecube4.jpg', '/imgs/ecube/ecube5.jpg', '/imgs/ecube/ecube6.jpg']
   },
 
@@ -128,7 +128,7 @@ const AppData = {
 
   rawlenightlong: {
     title: "RAWLE NIGHT LONG",
-    type: "Visual Indentity, Interactive",
+    type: "Visual Identity, Interactive",
     headText: ["Rawle Night Long is a Electronic Music DJ based out of DC. We did a complete rebranding of his image including redesigning his logo, website, and art direction.", "The new logo and typography for the website stems from the Neue Haas Grotesque font. The website was designed with minimalism in mind utilizing shades of charcoal, white, and a hot pink offset."],
     cards: ['/imgs/rawlenightlong/rawle1.jpeg']
   },
@@ -238,9 +238,9 @@ const AppData = {
 
   artsy: {
     video: "https://vimeo.com/128414835",
-    title: "ARTSY ART BASEL",
-    artist: "INTERACTIVE",
-    summary: ["A piece Moustafa Hassan developed for Artsy's presentation at Art Basel 2008"]
+    title: "ART BASEL MIAMI PROJECTION",
+    artist: "ARTSY 2013",
+    summary: ["Live Projection for Artsy.", "Art Basel Miami 2013."]
   }
 }
 export default AppData;

@@ -6,7 +6,7 @@
     &__loader{
       position: absolute;
       width: 500px;
-      z-index: 10;
+      z-index: 5;
       top: 50px;
       left: 30%;
       -webkit-animation: loadingAnimation 1s infinite alternate; /* Safari 4.0 - 8.0 */
@@ -36,6 +36,7 @@
   &__content{
     margin-left: 10vw;
     margin-right: 10vw;
+    margin-bottom: 100px;
 
     &__text{
       width: 80%;

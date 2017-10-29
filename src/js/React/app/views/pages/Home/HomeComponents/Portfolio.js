@@ -136,6 +136,12 @@ class Portfolio extends Component{
             <a className="capabilities__content__nav__header__specialButton capabilities__galleryType" style={{color: '#555'}} onClick={this.showSpecial}> Special Projects {this.state.showSpecial ? "-" : "+"} </a>
           </nav>
           <div ref="test" className={"capabilities__content__specialNav " + (this.state.showSpecial ? " showSpecial " : "") + (this.state.fromTop < -230 && "specialHide")}>
+
+              <div className={"specialCard " + (this.state.galleryLoaded ? "galleryLoaded" : "" )}>
+                <a href="http://13thandu.com/" target="_blank"> <img className="specialImg" src="/imgs/special/13u.jpg" onLoad={this.imageLoaded}/> </a>
+                <p className="specialText"> 13TH AND U </p>
+              </div>
+
             {this.state.special.map((card, index) => {
               return(
                 <Link key={index} to={card.link}>
@@ -152,7 +158,7 @@ class Portfolio extends Component{
             <div className="capabilities__content__threerow">
 
               <div className={"capabilities__content__threerow__item " + (this.state.all ? 'filterOff' : '') + (this.state.identities ? 'filterOff' : '') + (this.state.print ? 'filterOff' : '')}>
-                <Link className="capabilities__threeLink" to={'/visual/telegram'}>
+                <Link className="capabilities__threeLink" to={'/visual/telegram'} onClick={() => this.props.handleWrap(true)}>
                   <img className="capabilities__image capabilities__threeImage capabilities__border" src="/imgs/telegram/telegramPort.png" />
                 </Link>
                 <div className="capabilities__threeContent">
@@ -169,7 +175,7 @@ class Portfolio extends Component{
               </div>
 
               <div className={"capabilities__content__threerow__item " + (this.state.all ? 'filterOff' : '') + (this.state.identities ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '')}>
-                <Link className="capabilities__threeLink" to={'/visual/omni'}>
+                <Link className="capabilities__threeLink" to={'/visual/omni'} onClick={() => this.props.handleWrap(true)}>
                   <img className="capabilities__image capabilities__threeImage" src="/imgs/omni/omniPort.png" />
                 </Link>
                 <div className="capabilities__threeContent">
@@ -186,7 +192,7 @@ class Portfolio extends Component{
               </div>
 
               <div className={"capabilities__content__threerow__item " + (this.state.all ? 'filterOff' : '') + (this.state.identity ? 'filterOff' : '') + (this.state.print ? 'filterOff' : '')}>
-                <Link className="capabilities__threeLink" to={'/visual/connersmith'}>
+                <Link className="capabilities__threeLink" to={'/visual/connersmith'} onClick={() => this.props.handleWrap(true)}>
                   <img className="capabilities__image capabilities__threeImage" src="/imgs/connersmith/connersmithPort.png" />
                 </Link>
                 <div className="capabilities__threeContent">
@@ -205,7 +211,7 @@ class Portfolio extends Component{
 
             <div className="capabilities__content__tworow">
               <div className={"capabilities__content__tworow__bigItem " + (this.state.all ? 'filterOff' : '') + (this.state.identities ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '')} >
-                <Link className="capabilities_twoBigLink" to={'/visual/rhizome'}>
+                <Link className="capabilities_twoBigLink" to={'/visual/rhizome'} onClick={() => this.props.handleWrap(true)}>
                   <img className="capabilities__image capabilities__twoBigImage" src="/imgs/rhizome/rhizomePort.png" />
                 </Link>
                   <div className="capabilities__content__tworow__bigItem__text">
@@ -222,7 +228,7 @@ class Portfolio extends Component{
               </div>
 
               <div className={"capabilities__content__tworow__smallItem " + (this.state.all ? 'filterOff' : '') + (this.state.identities ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '')} >
-                <Link className="capabilities__twoSmallLink" to={'/visual/sea'}>
+                <Link className="capabilities__twoSmallLink" to={'/visual/sea'} onClick={() => this.props.handleWrap(true)}>
                   <img className="capabilities__image capabilities__twoSmallImage capabilities__border" src="/imgs/sea/seaPort.jpg" />
                 </Link>
                 <div className="capabilities__threeContent">
@@ -243,7 +249,7 @@ class Portfolio extends Component{
             <div className="capabilities__content__threerow">
 
               <div className={"capabilities__content__threerow__item " + (this.state.all ? 'filterOff' : '') + (this.state.print ? 'filterOff' : '')}>
-                <Link className="capabilities__threeLink" to={'/visual/blackstar'}>
+                <Link className="capabilities__threeLink" to={'/visual/blackstar'} onClick={() => this.props.handleWrap(true)}>
                   <img className="capabilities__image capabilities__threeImage" src="/imgs/blackstar/blackstarPort.png" />
                 </Link>
                 <div className="capabilities__threeContent">
@@ -260,7 +266,7 @@ class Portfolio extends Component{
               </div>
 
               <div className={"capabilities__content__threerow__item " + (this.state.all ? 'filterOff' : '') + (this.state.identities ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '')}>
-                <Link className="capabilities__threeLink" to={'/visual/eurosign'}>
+                <Link className="capabilities__threeLink" to={'/visual/eurosign'} onClick={() => this.props.handleWrap(false)}>
                   <img className="capabilities__image capabilities__threeImage" src="/imgs/eurosign/eurosignPort.png" />
                 </Link>
                 <div className="capabilities__threeContent">
@@ -277,7 +283,7 @@ class Portfolio extends Component{
               </div>
 
               <div className={"capabilities__content__threerow__item " + (this.state.all ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '') + (this.state.print ? 'filterOff' : '')}>
-                <Link className="capabilities__threeLink" to={'/visual/monza'}>
+                <Link className="capabilities__threeLink" to={'/visual/monza'} onClick={() => this.props.handleWrap(true)}>
                   <img className="capabilities__image capabilities__threeImage" src="/imgs/monza/monzaPort.png" />
                 </Link>
                 <div className="capabilities__threeContent">
@@ -296,22 +302,28 @@ class Portfolio extends Component{
 
             <Link to={'/video/artsy'} onClick={() => this.props.handlePlaying(true)}>
             <div className={"capabilities__content__banner " + (this.state.all ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '') + (this.state.artDirection ? 'filterOff' : '')}>
-              <div className="capabilities__content__banner__overlay"> </div>
+              <div className="capabilities__content__banner__overlay">
+                <div className="capabilities__galleryContent">
+                  <p className="capabilities__galleryTitle"> ARTSY ART BASEL MIAMI</p>
+                  <br />
+                  <p className="capabilities__galleryDetails"> Display Typeface. Created in-house, the typeface references the Euro-motorsport catalog of the 1960s-70s. </p>
+                  <br />
+                  <div className="capabilities__content__banner__tags">
+                    <p className="capabilities__galleryTag"> ART DIRECTION </p>
+                    <p className="capabilities__galleryTag"> PRINT </p>
+                    <p className="capabilities__galleryTag"> INTERACTIVE </p>
+                    <p className="capabilities__galleryTag"> STRATEGY </p>
+                  </div>
+                </div>
+               </div>
               <img className="capabilities__content__banner__image" src="/imgs/artsy/artsyPort.png" />
-              <p className="capabilities__galleryTitle"> ARTSY ART BASEL MIAMI</p>
-              <p className="capabilities__galleryDetails"> Display Typeface. Created in-house, the typeface references the Euro-motorsport catalog of the 1960s-70s. </p>
-              <div className="capabilities__content__banner__tags">
-                <p className="capabilities__galleryTag"> ART DIRECTION </p>
-                <p className="capabilities__galleryTag"> PRINT </p>
-                <p className="capabilities__galleryTag"> INTERACTIVE </p>
-                <p className="capabilities__galleryTag"> STRATEGY </p>
-              </div>
+
             </div>
             </Link>
 
             <div className="capabilities__content__tworow">
               <div className={"capabilities__content__tworow__bigItem " + (this.state.all ? 'filterOff' : '') + (this.state.identities ? 'filterOff' : '') + (this.state.print ? 'filterOff' : '')} >
-                <Link className="capabilities_twoBigLink" to={'/visual/eddy'}>
+                <Link className="capabilities_twoBigLink" to={'/visual/eddy'} onClick={() => this.props.handleWrap(false)}>
                   <img className="capabilities__image capabilities__twoBigImage" src="/imgs/eddy/eddyPort.png" />
                 </Link>
                   <div className="capabilities__content__tworow__bigItem__text">
@@ -327,7 +339,7 @@ class Portfolio extends Component{
               </div>
 
               <div className={"capabilities__content__tworow__smallItem " + (this.state.all ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '')} >
-                <Link className="capabilities__twoSmallLink" to={'/visual/1432r'}>
+                <Link className="capabilities__twoSmallLink" to={'/visual/1432r'} onClick={() => this.props.handleWrap(true)}>
                   <img className="capabilities__image capabilities__twoSmallImage capabilities__border" src="/imgs/1432r/fourteenPort.png" />
                 </Link>
                 <div className="capabilities__threeContent">
@@ -347,7 +359,7 @@ class Portfolio extends Component{
             <div className="capabilities__content__threerow">
 
               <div className={"capabilities__content__threerow__item " + (this.state.all ? 'filterOff' : '') + (this.state.print ? 'filterOff' : '')}>
-                <Link className="capabilities__threeLink" to={'/visual/blow'}>
+                <Link className="capabilities__threeLink" to={'/visual/blow'} onClick={() => this.props.handleWrap(true)}>
                   <img className="capabilities__image capabilities__threeImage" src="/imgs/blow/blowPort.png" />
                 </Link>
                 <div className="capabilities__threeContent">
@@ -363,7 +375,7 @@ class Portfolio extends Component{
               </div>
 
               <div className={"capabilities__content__threerow__item " + (this.state.all ? 'filterOff' : '') + (this.state.motion ? 'filterOff' : '') + (this.state.print ? 'filterOff' : '') + (this.state.identities ? 'filterOff' : '')}>
-                <Link className="capabilities__threeLink" to={'/visual/room'}>
+                <Link className="capabilities__threeLink" to={'/visual/room'} onClick={() => this.props.handleWrap(false)}>
                   <img className="capabilities__image capabilities__threeImage" src="/imgs/room/roomPort.png" />
                 </Link>
                 <div className="capabilities__threeContent">
@@ -380,7 +392,7 @@ class Portfolio extends Component{
               </div>
 
               <div className={"capabilities__content__threerow__item " + (this.state.all ? 'filterOff' : '') + (this.state.print ? 'filterOff' : '')}>
-                <Link className="capabilities__threeLink" to={'/visual/editorial'}>
+                <Link className="capabilities__threeLink" to={'/visual/editorial'} onClick={() => this.props.handleWrap(true)}>
                   <img className="capabilities__image capabilities__threeImage" src="/imgs/editorial/editorialPort.png" />
                 </Link>
                 <div className="capabilities__threeContent">
@@ -400,7 +412,7 @@ class Portfolio extends Component{
             <div className="capabilities__content__threerow">
 
               <div className={"capabilities__content__threerow__item " + (this.state.all ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '') + (this.state.artDirection ? 'filterOff' : '')}>
-                <Link className="capabilities__threeLink" to={'/visual/fringe'}>
+                <Link className="capabilities__threeLink" to={'/visual/fringe'} onClick={() => this.props.handleWrap(true)}>
                   <img className="capabilities__image capabilities__threeImage" src="/imgs/fringe/fringePort.png" />
                 </Link>
                 <div className="capabilities__threeContent">
@@ -416,7 +428,7 @@ class Portfolio extends Component{
               </div>
 
               <div className={"capabilities__content__threerow__item " + (this.state.all ? 'filterOff' : '') + (this.state.identities ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '')}>
-                <Link className="capabilities__threeLink" to={'/visual/studios'}>
+                <Link className="capabilities__threeLink" to={'/visual/studios'} onClick={() => this.props.handleWrap(true)}>
                   <img className="capabilities__image capabilities__threeImage" src="/imgs/studios/studiosPort.png" />
                 </Link>
                 <div className="capabilities__threeContent">
@@ -433,7 +445,7 @@ class Portfolio extends Component{
               </div>
 
               <div className={"capabilities__content__threerow__item " + (this.state.all ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '') + (this.state.identities ? 'filterOff' : '')}>
-                <Link className="capabilities__threeLink" to={'/visual/emerge'}>
+                <Link className="capabilities__threeLink" to={'/visual/emerge'} onClick={() => this.props.handleWrap(true)}>
                   <img className="capabilities__image capabilities__threeImage" src="/imgs/emerge/emergePort.png" />
                 </Link>
                 <div className="capabilities__threeContent">
@@ -453,7 +465,7 @@ class Portfolio extends Component{
 
             <div className="capabilities__content__tworow">
               <div className={"capabilities__content__tworow__bigItem " + (this.state.all ? 'filterOff' : '') + (this.state.identities ? 'filterOff' : '') + (this.state.print ? 'filterOff' : '')} >
-                <Link className="capabilities_twoBigLink" to={'/visual/identity'}>
+                <Link className="capabilities_twoBigLink" to={'/visual/identity'} onClick={() => this.props.handleWrap(false)}>
                   <img className="capabilities__image capabilities__twoBigImage" src="/imgs/identity/identityPort.png" />
                 </Link>
                   <div className="capabilities__content__tworow__bigItem__text">
@@ -468,8 +480,8 @@ class Portfolio extends Component{
                   </div>
               </div>
 
-              <div className={"capabilities__content__tworow__smallItem " + (this.state.all ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '')} >
-                <Link className="capabilities__twoSmallLink" to={'/visual/newtypo'}>
+              {/* <div className={"capabilities__content__tworow__smallItem " + (this.state.all ? 'filterOff' : '') + (this.state.interactive ? 'filterOff' : '')} >
+                <Link className="capabilities__twoSmallLink" to={'/visual/newtypo'} onClick={() => this.props.handleWrap(true)}>
                   <img className="capabilities__image capabilities__twoSmallImage capabilities__border" src="/imgs/newTypo/newTypoPort.png" />
                 </Link>
                 <div className="capabilities__threeContent">
@@ -482,7 +494,7 @@ class Portfolio extends Component{
                     <p className="capabilities__tag"> INTERACTIVE </p>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
             <br /> <br /> <br />
 

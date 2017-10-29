@@ -2,7 +2,7 @@
   background-color: black;
   margin-left: 20px;
   margin-right: 20px;
-  color: white;
+  color: #f2f2f2;
   min-height: 100vh;
   padding-bottom: 20px;
 
@@ -87,18 +87,26 @@
 .about__text{
   font-size: 20px;
   font-family: 'Cormorant Garamond', serif;
+  font-weight: 100;
+  line-height: 22px;
 }
 
 .about__profName{
   font-family: sans-serif;
-  color: white;
+  color: #f2f2f2;
   font-size: 18px;
 }
 
 .about__email{
   font-family: sans-serif;
+  text-decoration: none;
   color: #606060;
   font-size: 16px;
+  transition: all .5s;
+}
+
+.about__email:hover{
+  color:white;
 }
 
 .about__hide{
