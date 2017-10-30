@@ -130,14 +130,14 @@ class Video extends Component{
                     vimeoConfig={vimeoConfig}
                     youtubeConfig={youtubeConfig}
                     fileConfig={fileConfig}
-                    onReady={() => console.log('onReady')}
-                    onStart={() => console.log('onStart')}
+                    // onReady={() => console.log('onReady')}
+                    // onStart={() => console.log('onStart')}
                     onPlay={this.onPlay}
                     onPause={this.onPause}
-                    onBuffer={() => console.log('onBuffer')}
-                    onSeek={e => console.log('onSeek', e)}
+                    // onBuffer={() => console.log('onBuffer')}
+                    // onSeek={e => console.log('onSeek', e)}
                     onEnded={() => this.setState({ playing: false })}
-                    onError={e => console.log('onError', e)}
+                    // onError={e => console.log('onError', e)}
                     onProgress={this.onProgress}
                     onDuration={duration => this.setState({ duration })}
                   />

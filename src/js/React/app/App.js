@@ -29,14 +29,12 @@ class App extends Component {
   }
 
   handlePlaying(value){
-    console.log("handleplay " + value);
     this.setState({
       playing: value
     })
   }
 
   handleWrap(value){
-    console.log("wrap " + value);
     this.setState({
       wrap: value
     })

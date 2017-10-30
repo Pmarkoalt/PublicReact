@@ -58,21 +58,21 @@ class Visual extends Component{
       this.flkty.resize();
 
     }
-    setTimeout(() =>{
+    setTimeout(function(){
       if (this.state.galleryLoaded === false){
         this.loadGallery();
-        this.setState({galleryLoaded : true});
+        this.setState({galleryLoaded : true})
       }
     }, 10000);
   }
 
   imageLoaded(){
     this.state.count++;
-    console.log(`the current count is ${this.state.count}`);
+    // console.log(`the current count is ${this.state.count}`);
     if (this.state.count === this.state.project.cards.length){
       this.loadGallery();
       this.setState({galleryLoaded: true});
-      console.log("load gallery triggered");
+      // console.log("load gallery triggered");
     }
   }
 
@@ -93,7 +93,6 @@ class Visual extends Component{
 
   navClick(index){
     this.setState({ selectedIndex: index });
-    console.log(index);
   }
 
   backAbout(){

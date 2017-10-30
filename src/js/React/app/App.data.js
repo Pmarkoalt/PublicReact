@@ -137,7 +137,7 @@ const AppData = {
     title: "CONNERSMITH IDENTITY",
     type: "Visual Identity, Print, Strategy, Interactive",
     headText: ["Connersmith was Founded in 1999 by directors Leigh Conner and Dr. Jamie Smith, Connersmith specializes in Post-War and Contemporary Art and is one of DC's Contemporary go to galleries.", "The logo unites contemporary typographic elements with new spacing, and custom-designed characters. The dynamic space between the words work as a framing and representation of what the gallery outputs . This spatial language is supported by a palette of beautiful art pieces from the gallery’s past and present. The identity succeeds in showcasing what the gallery curates while keeping a personal, modern, and forward-thinking voice."],
-    cards: ['/imgs/connersmith/conner1.jpg', '/imgs/connersmith/conner2.jpg', '/imgs/connersmith/conner3.jpg', '/imgs/connermsmith/conner4.jpg']
+    cards: ['/imgs/connersmith/conner1.jpg', '/imgs/connersmith/conner2.jpg', '/imgs/connersmith/conner3.jpg', '/imgs/connersmith/conner4.jpg']
   },
 
   omni: {
