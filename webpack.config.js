@@ -53,7 +53,7 @@ module.exports = {
         mangle: {
             keep_fnames: true//it works
         },
-        sourceMap: true,
+        sourceMap: false,
         compress: {
           warnings: false, // Suppress uglification warnings
           pure_getters: false,
@@ -75,7 +75,12 @@ module.exports = {
         test: /\.js$|\.css$|\.html$/,
         threshold: 10240,
         minRatio: 0
-      })
+      }),
+      new webpack.DefinePlugin({
+        'process.env': {
+          NODE_ENV: JSON.stringify('production')
+        }
+      }),
     ],
     resolve: {
       extensions: ['', '.webpack.js', '.web.js', '.js']
@@ -89,5 +94,5 @@ module.exports = {
     externals: {
       'TweenLite': 'TweenLite',
     },
-    devtool: "cheap-source-map",
+    devtool: "source-map",
 };

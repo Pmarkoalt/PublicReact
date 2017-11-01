@@ -4,7 +4,7 @@
   "description": "",
   "main": "./src/js/entry.js",
   "scripts": {
-    "build": "webpack --optimize-minimze -w",
+    "build": "webpack",
     "start": "nodemon server.js --exec babel-node --presets es2015,stage-2"
   },
   "author": "",
