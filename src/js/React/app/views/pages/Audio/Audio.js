@@ -151,7 +151,7 @@ class Audio extends Component{
                 </div>
                 <div className="audio__content__album__media__volume">
                   <img className="audio__content__album__media__volume__mute" onClick={this.toggleMuted} src={this.state.muted ? "/imgs/util/mute.svg" : "/imgs/util/speaker.svg"} />
-                  <input type='range' orient='vertical' className='volumeSlider' min={0} max={1} step='any' value={volume} onChange={this.setVolume} />
+                  <input type='range' orient='horizontal' className='volumeSlider' min={0} max={1} step='any' value={volume} onChange={this.setVolume} />
                 </div>
               </div>
             </div>
